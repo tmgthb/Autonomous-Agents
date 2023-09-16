@@ -3,6 +3,14 @@
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
 
+
+
+## 14th September 2023
+[Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf)
+
+- Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control
+- Open source library
+
 ---
 
 ## 8th June 2023
