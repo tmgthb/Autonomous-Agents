@@ -18,6 +18,13 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 - Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control.
 - Open source library.
 
+---
+
+## 25th July 2023
+[WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
+
+- An environment to test Autonomous agents in an environment with tools, external knowledge.
+
 
 ---
 
