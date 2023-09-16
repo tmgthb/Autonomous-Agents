@@ -5,11 +5,19 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 
 
+## 14th of September 2023
+[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf)
+
+-  A conceptual framework for LLM-based agents with three components brain, perception, and action.
+
+---
+
 ## 14th September 2023
 [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf)
 
-- Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control
-- Open source library
+- Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control.
+- Open source library.
+
 
 ---
 
