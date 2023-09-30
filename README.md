@@ -34,6 +34,12 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 5th of September 2023
+[Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
+
+-AutoGraph procedure: data, configuration, searching a d tuning agents.
+---
+
 ## 25th July 2023
 [WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
 
