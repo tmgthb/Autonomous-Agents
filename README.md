@@ -2,8 +2,13 @@
 
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
+## 20th of September2023
+[You only look at the screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
 
+- Multimodal Chain-of-Actions Agents (Auto-UI) interacts directly with the UI
+- Chain-ofAction technique using series of action histories and future action plans.
 
+---
 
 ## 14th of September 2023
 [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf)
