@@ -23,6 +23,15 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 - Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control.
 - Open source library.
 
+
+---
+
+## 12th of September 2023
+[Life-inspired Interoceptive Artificial Intelligence for Autonomous and Adaptive Agents](https://arxiv.org/abs/2309.05999)
+
+- Interoceptive AI: monitoring own internal state of the artificial agent.
+
+
 ---
 
 ## 25th July 2023
