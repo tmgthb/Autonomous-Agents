@@ -54,6 +54,15 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 28th of August
+
+[RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/abs/2308.14296)
+
+- RecMind: a recommender focusedx LLm agent with reasoning, planning to sub-tasks, memory & tools.
+
+
+---
+
 ## 25th July 2023
 [WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
 
