@@ -46,7 +46,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-## 8 th of September 2023
+## 8th of September 2023
 [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
 
 - AutoGraph procedure: data, configuration, searching a d tuning agents.
@@ -58,12 +58,21 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/abs/2308.14296)
 
-- RecMind: a recommender focusedx LLm agent with reasoning, planning to sub-tasks, memory & tools.
+- RecMind: a recommender focused LLm agent with reasoning, planning to sub-tasks, memory & tools.
 
 
 ---
 
-## 25th July 2023
+## 22th of August 2023
+
+[A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432)
+
+- Systematic review of LLM based Autonomous Agents.
+- Use cases and evaluation strategies and future use cases.
+
+
+---
+## 25th of July 2023
 [WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
