@@ -72,6 +72,16 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 
 ---
+
+## 21st of August 2023
+
+[https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848)
+
+- AgentVerse: multi-agent collaborarion and individual agents social bjeaviours.
+
+
+---
+
 ## 25th of July 2023
 [WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
 
