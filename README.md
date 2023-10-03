@@ -4,10 +4,11 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-28th of September 2023
+## 28th of September 2023
 [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
 - Promptbreeder uses thinking styles and mutation-prompts and gradually improves prompts used with the tasks-mutations.
+
 
 ---
 
