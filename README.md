@@ -12,6 +12,15 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 - Self-monitoring maintains and emphasizes recent and novel events towards agent goals
 - Memories are clustered and summarized before moving them to long-term storage (vector database)
 
+
+---
+
+## 3rd of October 2023
+[Large Language Models as Analogical Reasoners](https://arxiv.org/abs/2310.01714)
+
+- LLM self-generates examples/knowledge related to the task.
+
+
 ---
 
 ## 28th of September 2023
