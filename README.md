@@ -3,6 +3,16 @@
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
 ---
+## 3rd of October 2023
+[Lyfe Agents: Generative agents for low-cost real-time social interactions](https://arxiv.org/abs/2310.02172)
+
+- LyfeAgents Brain: Sensory processing, Internal states, Self-monitor, Action selection and Memory.
+- Internal states are text based: current goal, memory, recent events and sensory inputs. 
+- Cognitive controller selects high-level actions. Action model selects actions until termination condition is reached.
+- Self-monitoring maintains and emphasizes recent and novel events towards agent goals
+- Memories are clustered and summarized before moving them to long-term storage (vector database)
+
+---
 
 ## 28th of September 2023
 [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
