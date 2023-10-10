@@ -14,6 +14,14 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 8th of October 2023
+[Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading](https://arxiv.org/abs/2310.05029)
+
+- MemWalker: navigates long-context iteratively and construct memory as treelike structure.
+
+
+---
+
 ## 6th of October 2023
 
 [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
