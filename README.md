@@ -2,6 +2,34 @@
 
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
+
+---
+
+## 9th of October 2023
+
+[FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915)
+
+- Fine-tuning LLMs with agent trajectories for better autonomous agents.
+
+
+---
+
+## 6th of October 2023
+
+[Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
+
+- Language Agents Tree Search (LATS): Self-Refine, Memory, Reasoning, Decision Making & Planning.
+- Uses multiple reasonining paths and learns from experience by integrating external feedback & self-reflection.
+
+
+---
+
+## 5th of October 2023
+[Agent Instructs Large Language Models to be General Zero-Shot Reasoners](https://arxiv.org/abs/2310.03710)
+
+- AgentInstruct: generates instructions for th problem and then solves it using these instructions, improving the Chain of Thought (CoT) zero-shot reasoning.
+
+
 ---
 
 ## 3rd of October 2023
