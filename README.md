@@ -22,6 +22,14 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 7th if October 2023
+[Crystal: Introspective Reasoners Reinforced with Self-Feedback](https://arxiv.org/abs/2310.04921)
+
+- Introspective reasoning of the knowledge.
+
+
+---
+
 ## 6th of October 2023
 
 [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
