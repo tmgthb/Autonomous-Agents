@@ -267,7 +267,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 [DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents](https://arxiv.org/abs/2303.17071)
 
-- Dialog-eEabled Resolving Agents (DERA) uses two roles: Researcher and Decider to perform discussion between these two agents.
+- Dialog-Enabled Resolving Agents (DERA) uses two roles: Researcher and Decider to perform discussion between these two agents.
 - Researcher role processes information and Decider role uses judgement.
 
 ---
