@@ -58,6 +58,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 ---
 
 ## 3rd of October 2023
+
 [Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304)
 
 - Self-Taught Optimizer (STOP): Ask LLM to improve initial program by providing improvement candidates and then output best solution.
@@ -65,6 +66,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 ## 3rd of October 2023
+
 [Lyfe Agents: Generative agents for low-cost real-time social interactions](https://arxiv.org/abs/2310.02172)
 
 - LyfeAgents Brain: Sensory processing, Internal states, Self-monitor, Action selection and Memory.
@@ -80,6 +82,13 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 [Large Language Models as Analogical Reasoners](https://arxiv.org/abs/2310.01714)
 
 - LLM self-generates examples/knowledge related to the task.
+
+---
+
+## 3rd of Octobee 2023
+[Conceptual Framework for Autonomous Cognitive Entities](https://arxiv.org/abs/2310.06775)
+
+- Conceptual framework for Autonomous entities.
 
 
 ---
