@@ -2,6 +2,15 @@
 
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
+---
+
+## 12th of October 2023
+
+[Octopus: Embodied Vision-Language Programmer from Environmental Feedback](https://arxiv.org/abs/2310.08588)
+
+- Octopus: Uses Vision-Language Model with Reinforcement Learning from Environmental Feedback (RLEF).
+- Generates action sequences and executable code.
+
 
 ---
 
