@@ -14,6 +14,15 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+#12th of October 2023
+
+[MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
+
+-MemGPT: OS-based design with LLM-processor managing its actual context and long term memory and uses functions to make changes and events to manage order of processing data.
+
+
+---
+
 ## 9th of October 2023
 
 [FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915)
