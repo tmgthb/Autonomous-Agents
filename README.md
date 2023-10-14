@@ -122,10 +122,18 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-## 3rd of Octobee 2023
+## 3rd of October 2023
 [Conceptual Framework for Autonomous Cognitive Entities](https://arxiv.org/abs/2310.06775)
 
 - Conceptual framework for Autonomous entities.
+
+
+---
+
+## 1st of October 2023
+[RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models](https://arxiv.org/abs/2310.00746)
+
+- RoleLLM: Role-profile constructor, Context-based Instruction generarion, Role-based Prompting(RoleGPT), Role-conditioned Instruction-tuning.
 
 
 ---
