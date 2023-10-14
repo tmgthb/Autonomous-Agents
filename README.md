@@ -14,7 +14,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-# 12th of October 2023
+## 12th of October 2023
 
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
@@ -23,7 +23,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-# 12th of October 2023
+## 12th of October 2023
 
 [Promptor: A Conversational and Autonomous Prompt Generation Agent for Intelligent Text Entry Techniques](https://arxiv.org/abs/2310.08101)
 
