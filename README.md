@@ -14,11 +14,22 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-#12th of October 2023
+# 12th of October 2023
 
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
 - MemGPT: OS-based design with LLM-processor managing its actual context and long term memory and uses functions to make changes and events to manage order of processing data.
+
+
+---
+
+# 12th of October 2023
+
+[Promptor: A Conversational and Autonomous Prompt Generation Agent for Intelligent Text Entry Techniques](https://arxiv.org/abs/2310.08101)
+
+- Promptor: Automatic prompt generation.
+- Builds prompts based on: User goals, User Profiles, Data Profile, Contextual nformation & Output constraints
+- System prompt includes: instructions, Actions, Facts and Examples.
 
 
 ---
