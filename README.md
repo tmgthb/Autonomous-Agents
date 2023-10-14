@@ -23,6 +23,14 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 12 of October 2023
+
+[Towards Robust Multi-Modal Reasoning via Model Selection](https://arxiv.org/abs/2310.08446)
+
+- Dynamic model selection by taking into account input & sub-task dependencies.
+
+---
+
 ## 9th of October 2023
 
 [FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915)
