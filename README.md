@@ -18,7 +18,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
--MemGPT: OS-based design with LLM-processor managing its actual context and long term memory and uses functions to make changes and events to manage order of processing data.
+- MemGPT: OS-based design with LLM-processor managing its actual context and long term memory and uses functions to make changes and events to manage order of processing data.
 
 
 ---
