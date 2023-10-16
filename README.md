@@ -68,6 +68,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 - Dynamic model selection by taking into account input & sub-task dependencies.
 
+
 ---
 
 #### 9th of October 2023
@@ -154,6 +155,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 [Conceptual Framework for Autonomous Cognitive Entities](https://arxiv.org/abs/2310.06775)
 
 - Conceptual framework for Autonomous entities.
+
+---
+
+### 2nd of October 2023
+
+[SmartPlay : A Benchmark for LLMs as Intelligent Agents](https://arxiv.org/abs/2310.01557)
+
+- SmartPlay: a benchmark to test LLM-based agents from 9 perspectives.
+- Tests: Reasoning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. 
 
 
 ---
