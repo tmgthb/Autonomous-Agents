@@ -13,7 +13,7 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
-## 13th of October 2023
+## 12th of October 2023
 [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/abs/2310.09233)
 
 - AgentCF: LLM agent-based recommender system with Use and Item Agents.
