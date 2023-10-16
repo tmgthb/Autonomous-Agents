@@ -4,6 +4,24 @@ Autonomous Agents (LLMs) research papers updated daily. Include topics around LL
 
 ---
 
+## 13th of October 2023
+[A Zero-Shot Language Agent for Computer Control with Structured Reflection](https://arxiv.org/abs/2310.08740)
+
+- Zero-shot agent plans executable actions in the environment and iteratively progresses by learning from mistakes using  self-reflection and structured thoughts management.
+- Better generalization, outperforms best iterative-planning agents
+
+
+---
+
+## 13th of October 2023
+[AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/abs/2310.09233)
+
+- AgentCF: LLM agent-based recommender system with Use and Item Agents.
+- User & Item Agents interact autonomously and the discrepancies between the two are stored in the memory to help guide better future recommendations.
+
+
+---
+
 ## 12th of October 2023
 
 [Octopus: Embodied Vision-Language Programmer from Environmental Feedback](https://arxiv.org/abs/2310.08588)
