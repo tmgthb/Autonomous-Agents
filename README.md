@@ -14,7 +14,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 ---
 
 
-## 13th of October 2023
+### 13th of October 2023
 [A Zero-Shot Language Agent for Computer Control with Structured Reflection](https://arxiv.org/abs/2310.08740)
 
 - Zero-shot agent plans executable actions in the environment and iteratively progresses by learning from mistakes using  self-reflection and structured thoughts management.
