@@ -2,6 +2,13 @@
 
 Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
 
+<div align="center"> 
+  
+[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/PromptGPT?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
+
+</div>  
+
 ---
 
 ## 13th of October 2023
