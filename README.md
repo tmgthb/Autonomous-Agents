@@ -23,7 +23,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 12th of October 2023
+### 12th of October 2023
 [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/abs/2310.09233)
 
 - AgentCF: LLM agent-based recommender system with Use and Item Agents.
@@ -32,7 +32,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 12th of October 2023
+### 12th of October 2023
 
 [Octopus: Embodied Vision-Language Programmer from Environmental Feedback](https://arxiv.org/abs/2310.08588)
 
@@ -42,7 +42,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 12th of October 2023
+### 12th of October 2023
 
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
@@ -51,7 +51,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 12th of October 2023
+### 12th of October 2023
 
 [Promptor: A Conversational and Autonomous Prompt Generation Agent for Intelligent Text Entry Techniques](https://arxiv.org/abs/2310.08101)
 
@@ -62,7 +62,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 12 of October 2023
+### 12 of October 2023
 
 [Towards Robust Multi-Modal Reasoning via Model Selection](https://arxiv.org/abs/2310.08446)
 
@@ -70,7 +70,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 9th of October 2023
+### 9th of October 2023
 
 [FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915)
 
@@ -79,7 +79,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 8th of October 2023
+### 8th of October 2023
 [Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading](https://arxiv.org/abs/2310.05029)
 
 - MemWalker: navigates long-context iteratively and construct memory as treelike structure.
@@ -87,7 +87,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-## 7th if October 2023
+### 7th if October 2023
 [Crystal: Introspective Reasoners Reinforced with Self-Feedback](https://arxiv.org/abs/2310.04921)
 
 - Introspective reasoning of the knowledge.
