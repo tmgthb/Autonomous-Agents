@@ -1,6 +1,6 @@
 # Autonomous-Agents
 
-Autonomous Agents (LLMs) research papers updated daily. Include topics around LLM chaining, roles, workflows, using additional memory/APIs.  
+Autonomous Agents (LLMs) research papers. Updated daily.   
 
 <div align="center"> 
   
