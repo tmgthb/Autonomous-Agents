@@ -178,6 +178,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 
 ---
+### 2nd of October 2023
+
+[GRID: A Platform for General Robot Intelligence Development](https://arxiv.org/abs/2310.00887)
+
+- GRID: General Robot Intelligence Development
+- Solves complex tasks using simulatiom and/or real-world data
+- Task specification, robot configuration and sensor/API.
+
+
+---
 
 ### 1st of October 2023
 [RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models](https://arxiv.org/abs/2310.00746)
