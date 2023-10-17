@@ -185,7 +185,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - GRID: General Robot Intelligence Development
 - Solves complex tasks using simulatiom and/or real-world data
 - Task specification, robot configuration and sensor/API.
-
+- Foundation Mosaic: a neural architecture.
 
 ---
 
