@@ -13,8 +13,18 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 16th of October 2023
+
+[OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
+
+- OpenAgents-platform: Data agent, Plugin/Tools and Web agent
+- Automatic tool selection from over 200 tools
+
+
+---
 
 #### 13th of October 2023
+
 [A Zero-Shot Language Agent for Computer Control with Structured Reflection](https://arxiv.org/abs/2310.08740)
 
 - Zero-shot agent plans executable actions in the environment and iteratively progresses by learning from mistakes using  self-reflection and structured thoughts management.
@@ -24,6 +34,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 ---
 
 #### 12th of October 2023
+
 [AgentCF: Collaborative Learning with Autonomous Language Agents for Recommender Systems](https://arxiv.org/abs/2310.09233)
 
 - AgentCF: LLM agent-based recommender system with Use and Item Agents.
