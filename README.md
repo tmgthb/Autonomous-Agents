@@ -10,6 +10,14 @@
 
 Autonomous Agents (LLMs) research papers. Updated daily.   
 
+---
+
+#### 18th of October 2023
+
+[Language Agents for Detecting Implicit Stereotypes in Text-to-image Models at Scale](https://arxiv.org/abs/2310.11778)
+
+- Language agent to automatically identify ans quantify extent of generated images.
+- Planning and Reasoning. Tool usage: Intent understanding, Instruction generation, Instruction retrieval, Prompt optimization & Stereotype score generation.
 
 ---
 
