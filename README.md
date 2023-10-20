@@ -12,6 +12,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 19th of October 2023
+
+[AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://arxiv.org/abs/2310.12823)
+
+- AgentTuning: Improves LLM capability by Instruction Tuning to user tasks by using AgentInstruct-dataset to create AgentLM using AgentTuning.
+
+
+---
+
 #### 18th of October 2023
 
 [Language Agents for Detecting Implicit Stereotypes in Text-to-image Models at Scale](https://arxiv.org/abs/2310.11778)
