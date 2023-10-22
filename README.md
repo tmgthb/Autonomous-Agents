@@ -361,6 +361,15 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
+#### 30th of April 2023
+
+[BabyBeeAGI: Task Management and Functionality Expansion on top of BabyAGI](https://yoheinakajima.com/babybeeagi-task-management-and-functionality-expansion-on-top-of-babyagi/)
+
+- BabyBeeAGI: a modified from BabyAGI tracking statuses of tasks, task dependencies, identification of required new tasks, assigning tools and results in json-format.
+
+
+---
+
 #### 11th April 2023
 
 [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128)
