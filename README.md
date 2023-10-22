@@ -423,7 +423,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 #### 28th March 2023 
 [Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
 
-- Task-driven autonomous agent, with vector database and Langchain. BabyGPT includes: Execution, creation and prioritization
+- Task-driven autonomous agent, with vector database and Langchain. BabyAGI includes: Execution, creation and prioritization
 - Takes objective, pulls an item from task queue and moves it to execution agent with access to memory. 
 
 
