@@ -345,6 +345,16 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
+#### 13th of May 2023
+
+[BabyCatAGI: Fast and Feline](https://yoheinakajima.com/babycatagi-fast-and-feline/)
+
+- BabyCatAGI: a modified BabyAGI by replacing  task manager in BabyBeeAGI with task creation agent running once.
+- Uses Intelligent Agent Tool to combines tools to extract only relevant information to next step such as looping web search and scraping results to pull only specific part to another task.
+
+
+---
+
 #### 24th May 2023
 [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
 
