@@ -12,6 +12,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 20th of October 2023
+
+[ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search](https://arxiv.org/abs/2310.13227)
+
+- ToolChain*: Uses A ∗ search algorithm to navigate an action space as a tree-like structure with LLM agent.
+- Selects most promising path, Expand follow up actions in the selected path, Update the tree-structure.
+
+
+---
+
 #### 19th of October 2023
 
 [AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://arxiv.org/abs/2310.12823)
