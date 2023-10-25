@@ -10,6 +10,14 @@
 
 Autonomous Agents (LLMs) research papers. Updated daily.   
 
+---
+
+#### 24th of October 2023
+
+[Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045)
+
+- Woodpecker: To extract key concepts, formulate questions and validate visual knowledge and generate visual claims using Multimodal Large Language Models (MLLMs) to control hallucinations in LLM responses.
+
 
 ---
 
