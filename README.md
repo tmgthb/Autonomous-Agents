@@ -45,6 +45,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - ToolChain*: Uses A ∗ search algorithm to navigate an action space as a tree-like structure with LLM agent.
 - Selects most promising path, Expand follow up actions in the selected path, Update the tree-structure.
 
+--- 
+
+#### 20th of October 2023
+
+[Democratizing Reasoning Ability: Tailored Learning from Large Language Model](https://arxiv.org/abs/2310.13332)
+
+- Student LM takes an “exam” to gather mistakes it made. Teacher LM generates training data based on the mistakes. Teacher LM customizes each "exam" the feedback. Student LM learns to improve with self-reflection on its mistakes made and the new training data provided by the teacher LM. These steps are repeated until Student LM has reacher Teacher LM capability.
+
+-
+
 
 ---
 
