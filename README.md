@@ -10,6 +10,24 @@
 
 Autonomous Agents (LLMs) research papers. Updated daily.   
 
+
+---
+
+#### 24th of October 2023
+
+[In-Context Learning Creates Task Vectors](https://arxiv.org/abs/2310.15916)
+
+- Training data used with LLMs is compressed into task vectors within LLM. Task vectors are used in 18 tasks.
+
+
+---
+
+#### 23th of October 2023
+
+[Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213)
+
+- LLMs include Function Vectors (FCs) to trigger functions in different contexts.
+
 ---
 
 #### 20th of October 2023
