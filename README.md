@@ -10,6 +10,18 @@
 
 Autonomous Agents (LLMs) research papers. Updated daily.   
 
+
+---
+
+#### 25th of October 2023
+
+[PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization](https://arxiv.org/abs/2310.16427)
+
+- PromptAgent: Optimizes prompts using planning algorithms such as MCTS.
+- Creates intermediate prompts, updates them based on error feedback, simulates future rewards and searches higher reward paths.
+- Prompts generated include: Domain knowledge, Task description, Term clarification, Solution Guidance,Exception handling, Priority & Emphasis, Formatting
+
+
 ---
 
 #### 24th of October 2023
