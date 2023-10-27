@@ -26,6 +26,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 #### 24th of October 2023
 
+[RCAgent: Cloud Root Cause Analysis by Autonomous Agents with Tool-Augmented Large Language Models](https://arxiv.org/abs/2310.16340)
+
+- Key-value store for observation retrieval, parsed actions are executed by RCAgent or by Expert Agent.
+
+
+---
+
+#### 24th of October 2023
+
 [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045)
 
 - Woodpecker: To extract key concepts, formulate questions and validate visual knowledge and generate visual claims using Multimodal Large Language Models (MLLMs) to control hallucinations in LLM responses.
@@ -57,6 +66,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - ToolChain*: Uses A ∗ search algorithm to navigate an action space as a tree-like structure with LLM agent.
 - Selects most promising path, Expand follow up actions in the selected path, Update the tree-structure.
 
+
 --- 
 
 #### 20th of October 2023
@@ -64,8 +74,6 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 [Democratizing Reasoning Ability: Tailored Learning from Large Language Model](https://arxiv.org/abs/2310.13332)
 
 - Student LM takes an “exam” to gather mistakes it made. Teacher LM generates training data based on the mistakes. Teacher LM customizes each "exam" the feedback. Student LM learns to improve with self-reflection on its mistakes made and the new training data provided by the teacher LM. These steps are repeated until Student LM has reacher Teacher LM capability.
-
--
 
 
 ---
