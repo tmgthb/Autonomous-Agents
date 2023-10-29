@@ -17,6 +17,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)
 
 - Studies competition of LLM agents and identifies research on competition of LLM agents, as important as co-operation.
+- The initial advantage of a LLM agent leads to feedback creating cycle for Matthew's effect.
 - LLM Agents can operate in competitive environment. 
 - LLM Agents learn to imitate and differentiate with other LLM agents. 
 
