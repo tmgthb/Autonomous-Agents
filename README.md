@@ -179,7 +179,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ### 11th of October 2023
 
-[LangNav: Language as a Perceptual Representation for Navigation(https://arxiv.org/abs/2310.07889)
+[LangNav: Language as a Perceptual Representation for Navigation](https://arxiv.org/abs/2310.07889)
 
 - Uses BLIP to make imgae caption and DETR for object detection on image views to to obtain text descriptions, which a LLM agent uses to generate navigation instruction.
 
