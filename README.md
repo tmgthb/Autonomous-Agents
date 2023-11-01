@@ -80,6 +80,14 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 24th of October 2023#
+[Instruct and Extract: Instruction Tuning for On-Demand Information Extraction](https://arxiv.org/abs/2310.16040)
+
+- On Demand Information Extraction (ODIE): Extracting information using LLMs from text to present it in structured tabular format.
+
+
+---
+
 #### 23th of October 2023
 
 [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213)
