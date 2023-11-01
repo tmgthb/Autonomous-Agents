@@ -12,6 +12,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 31st of October 2023
+
+[Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models](https://arxiv.org/abs/2310.20499)
+
+- DEEP: Uses agressive (truthfull) & conservative modes (to disguise) to play spy game to asses intelligence of LLMs to describe target word without stating explicitly the word.
+
+
+---
+
 #### 26th of October 2023
 
 [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)
