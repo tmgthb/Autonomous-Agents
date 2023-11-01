@@ -21,6 +21,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 31st of October 2023
+
+[Multi-Agent Consensus Seeking via Large Language Models](https://arxiv.org/abs/2310.20151)
+
+- Consensus within multi-agent reason mainly reason and change their numerical value state based on consensus strategy based on average strategy.
+
+
+---
+
 #### 26th of October 2023
 
 [CompeteAI: Understanding the Competition Behaviors in Large Language Model-based Agents](https://arxiv.org/abs/2310.17512)
