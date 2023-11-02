@@ -14,6 +14,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 #### 31st of October 2023
 
+[Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment](https://arxiv.org/abs/2311.00153)
+
+- Programs constraints into task assignments system based on natural language using Multi-agent LLMs.
+
+
+---
+
+#### 31st of October 2023
+
 [Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models](https://arxiv.org/abs/2310.20499)
 
 - DEEP: Uses agressive (truthfull) & conservative modes (to disguise) to play spy game to asses intelligence of LLMs to describe target word without stating explicitly the word.
