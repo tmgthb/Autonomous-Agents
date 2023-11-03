@@ -14,6 +14,17 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 #### 31st of October 2023
 
+[Autonomous Robotic Reinforcement Learning with Asynchronous Human Feedback](https://arxiv.org/abs/2310.20608)
+
+- Autonomously explores real world
+- Guided Expliration for Autonomous Reinforcement learning (GEAR): approaches objective by meeting promising sub-goal close to final target (Goal Selector), but reachable from current position using current policy (Density model).
+- Crowdsourced & Occasional comparative feedback regards user objective vs. available correct/incorrect states.
+
+
+---
+
+#### 31st of October 2023
+
 [Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment](https://arxiv.org/abs/2311.00153)
 
 - Programs constraints into task assignments system based on natural language using Multi-agent LLMs.
