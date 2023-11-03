@@ -10,6 +10,19 @@
 
 Autonomous Agents (LLMs) research papers. Updated daily.   
 
+
+---
+
+#### 1st of November 2023
+
+[SAGE: Smart home Agent with Grounded Execution](https://arxiv.org/abs/2311.00772)
+
+- SAGE (Smart home Agent with Grounded Execution).
+- Device interaction: Interaction planner, Attribute retriever, API documentation retriever, Device disambiguity, Device command execution.
+- Personalization: Long-term memory, User profile & Personalization tool.
+- Includes Physical grounding such as light bulbs and External grounding (such as weather forecast) & Personalization.
+
+
 ---
 
 #### 31st of October 2023
