@@ -31,7 +31,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 - HAPLAN: Human-AI coordination using Conventions. Humans communicate roles & tasksof individuals before starting a task to be completed. Humans create Conventions.
 - Builds a Convention (an action-plan) to guide AI/human using task requirements, human preferences, number of agents and other information for a better understanding of tasks & responsibilities of each agent/human.
-- Assigns sub-problems to own sessions.
+- Assigns sub-problems to own sessions. Convention is first confirmed with human.
 
 ---
 
