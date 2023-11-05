@@ -13,6 +13,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 2nd of November 2023
+
+[RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](https://arxiv.org/abs/2311.01455)
+
+- RoboGen: Agent using LLMs to define new tasks to learn, create their simulation environments, train on them to acquire diverse & new skills.
+- Agent includes: Task proposal, Scene generation, Training Supervision Generation & Skill learning.
+
+
+---
+
 #### 1st of November 2023
 
 [SAGE: Smart home Agent with Grounded Execution](https://arxiv.org/abs/2311.00772)
