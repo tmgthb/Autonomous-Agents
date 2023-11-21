@@ -17,8 +17,8 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 [System 2 Attention (is something you might need too)](https://arxiv.org/abs/2311.11829)
 
-- System 2 Attention (S2A): Generate based on the user input, the question to be answered and the context of the question. Generate the answer, given the generated question and the context.
-- Reduces significantly hallucination from irrelevant context.
+- System 2 Attention (S2A): Generate from the user input, the question to be answered and the context of the question. Finally, generate the answer to the generated question based on the generated context.
+- Reduces hallucination from irrelevant context.
 
   
 ---
