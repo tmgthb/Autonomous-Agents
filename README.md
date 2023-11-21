@@ -13,6 +13,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 21st of November 2023
+
+[System 2 Attention (is something you might need too)](https://arxiv.org/abs/2311.11829)
+
+- System 2 Attention (S2A): Generate based on the user input, the question to be answered and the context of the question. Generate the answer, given the generated question and the context.
+- Reduces significantly hallucination from irrelevant context.
+
+  
+---
+
 #### 14th of November 2023
 
 [DeepThought: An Architecture for Autonomous Self-motivated Systems](https://arxiv.org/abs/2311.08547)
