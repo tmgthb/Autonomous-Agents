@@ -13,6 +13,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 14th of November 2023
+
+[DeepThought: An Architecture for Autonomous Self-motivated Systems](https://arxiv.org/abs/2311.08547)
+
+- DeepThought: An architecture for cognitive language agents posing agency, self-motivation, and partly meta-cognition.
+- Includes supervisor module, Deep Reinforcement Learning module, Attention Schema (long-term memory), Language/Auditory/Vision modules and Embedding store.
+
+
+----
+
 ####9th of November 2023
 
 [LLM Augmented Hierarchical Agents](https://arxiv.org/abs/2311.05596)
