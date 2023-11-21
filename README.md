@@ -30,6 +30,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - Guide LLM to prompt engineer prompts automatically
 - The metaprompt uses: prompt engineering tutorial, two-step task description, step-by-step reasoning template and context specification.
 
+
+---
+
+#### 8th of November 2023
+
+[ADaPT: As-Needed Decomposition and Planning with Language Models](https://arxiv.org/abs/2311.05772)
+
+- ADaPT: Plans and decomposes dynamically complex tasks with LLMs, if the executor is not able to complete the task.
+- 
+
 ---
 
 #### 2nd of November 2023
