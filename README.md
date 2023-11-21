@@ -20,6 +20,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - System 2 Attention (S2A): Generate from the user input, the question to be answered and the context of the question. Finally, generate the answer to the generated question based on the generated context.
 - Reduces hallucination from irrelevant context.
 
+
+---
+
+#### 20th of November 2023
+
+[Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents](https://arxiv.org/abs/2311.11797)
+
+- Comprehensive list of research between Chain-of-Thought to LLM Agents.
+
   
 ---
 
