@@ -27,7 +27,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 [Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents](https://arxiv.org/abs/2311.11797)
 
-- Comprehensive list of research between Chain-of-Thought to LLM Agents.
+- Comprehensive list of research between Chain-of-Thought to LLM Agents and identifies gaps in generalization, redundant interactions and customization and more. 
 
   
 ---
