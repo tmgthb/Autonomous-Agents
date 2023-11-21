@@ -20,6 +20,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - Hierchical agent uses LLM to evaluate, when to use specific skill to complete specific sub-level task with long horizon.
 - The resulting model works withou need for a LLM after the training.
 
+
+---
+
+####9th of November 2023
+
+[Prompt Engineering a Prompt Engineer](https://arxiv.org/abs/2311.05661)
+
+- Guide LLM to prompt engineer prompts automatically
+- The metaprompt uses: prompt engineering tutorial, two-step task description, step-by-step reasoning template and context specification.
+
 ---
 
 #### 2nd of November 2023
