@@ -719,3 +719,12 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
+
+@misc{yourReferenceKey,
+  author = {Teemu Maatta},
+  title = {Autonomous Agents},
+  year = {2023},
+  howpublished = {\url{https://github.com/tmgthb/Autonomous-Agents}},
+  note = {Accessed: date-of-access}
+}
+
