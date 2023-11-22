@@ -29,7 +29,16 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 - Systematic review of research from Chain-of-Thought (CoT) to LLM Agents and identifies gaps in generalization, redundant interactions and customization and more. 
 
-  
+
+---
+
+#### 17th of November 2023
+
+[A Language Agent for Autonomous Driving](https://arxiv.org/abs/2311.10813)
+
+- Agent-Driver: Uses LLM agent to act similar to human-like intelligence within autonomous driving system.
+- Includes tool library through function calls with memory, common sense, experiental knowledge for decision making, reasoning engine with CoT, task planning, motion planning and self reflection.
+
 ---
 
 #### 14th of November 2023
