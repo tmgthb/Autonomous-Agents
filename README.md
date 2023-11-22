@@ -720,7 +720,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 
-@misc{yourReferenceKey,
+@misc{MaattaAgents2023,
   author = {Teemu Maatta},
   title = {Autonomous Agents},
   year = {2023},
@@ -728,3 +728,4 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
   note = {Accessed: date-of-access}
 }
 
+---
