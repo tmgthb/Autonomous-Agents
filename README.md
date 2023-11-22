@@ -36,8 +36,9 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 [A Language Agent for Autonomous Driving](https://arxiv.org/abs/2311.10813)
 
-- Agent-Driver: Uses LLM agent to act similar to human-like intelligence within autonomous driving system.
-- Includes tool library through function calls with memory, common sense, experiental knowledge for decision making, reasoning engine with CoT, task planning, motion planning and self reflection.
+- Agent-Driver: Uses LLM agent for human-like intelligence for autonomous driving.
+- Tool library provides input for: detection, prediction, occupancy and mapping functions. Memory includes commonsense memory and Experience memory. There is apart historical trajectories and ego-states.
+- The reasoning engine includes: CoT reasoning, Task planning, Motion planning and Self-Reflection. These lead to actions and again to environment update. 
 
 ---
 
