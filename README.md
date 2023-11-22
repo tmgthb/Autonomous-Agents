@@ -719,10 +719,12 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
-## Citation
+### Citation
+
 If you found our work valuable, please cite:
+
 ```
-@misc{DoeNeural2023,
+@misc{MaattaAutonomousAgents2023,
   author = {Teemu Maatta},
   title = {Autonomous Agents},
   year = {2023},
@@ -732,3 +734,4 @@ If you found our work valuable, please cite:
 
 ```
 
+---
