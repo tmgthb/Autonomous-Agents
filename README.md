@@ -17,8 +17,8 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 [System 2 Attention (is something you might need too)](https://arxiv.org/abs/2311.11829)
 
-- System 2 Attention (S2A): Generate from the user input, the question to be answered and the context of the question. Finally, generate the answer to the generated question based on the generated context.
-- Reduces hallucination from irrelevant context.
+- System 2 Attention (S2A): Generate interim user question and interim context from the original user input. Finally, generate the final answer by answering to the interim user question from the interim context. 
+- Reduces hallucination from irrelevant context by first defining the question and the context and this way separating irrelevant facts from impacting the response generation.
 
 
 ---
@@ -27,7 +27,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 [Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents](https://arxiv.org/abs/2311.11797)
 
-- Comprehensive list of research between Chain-of-Thought to LLM Agents and identifies gaps in generalization, redundant interactions and customization and more. 
+- Systematic review of research from Chain-of-Thought (CoT) to LLM Agents and identifies gaps in generalization, redundant interactions and customization and more. 
 
   
 ---
@@ -494,7 +494,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 #### 8th of September 2023
 [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
 
-- AutoGraph procedure: data, configuration, searching a d tuning agents.
+- AutoGraph procedure: data, configuration, searching and tuning agents.
 
 
 ---
@@ -524,6 +524,12 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 - AgentVerse: multi-agent collaborarion and individual agents social bjeaviours.
 
+#### 18th of August 2023
+
+[Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)
+
+- Graph-of-Thoughts (GoT): Reasoning with LLM using graph-structure with intermediate steps.
+- Introduces Volume-of-Tought metric to inform the scope of information carried by the LLM output.
 
 ---
 
@@ -568,6 +574,14 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
+#### 26th of May 2023
+[Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2305.16582)
+
+- Graph-of-Thought (GoT) reasoning: To model human thought process as graph instead of chain to improve LLM reasoning capability.
+
+
+---
+
 #### 13th of May 2023
 
 [BabyCatAGI: Fast and Feline](https://yoheinakajima.com/babycatagi-fast-and-feline/)
@@ -591,6 +605,14 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 - Tree of Thoughts (ToT)-technique makes decisions using multiple different reasoning paths, self-evaluating choices to decide next action with ability to look back/forward for global decisions.
 
+---
+
+#### 3rd of May 2023
+
+[Visual Chain of Thought: Bridging Logical Gaps with Multimodal Infillings](https://arxiv.org/abs/2305.02317)
+
+- Introduces Visual Chain of Thought (VCoT) for data augmentation, where between reasoning steps multimodal data is infilled to obtain better reasoning results.
+
 
 ---
 
@@ -600,6 +622,14 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 - BabyBeeAGI: a modified from BabyAGI tracking statuses of tasks, task dependencies, identification of required new tasks, assigning tools and results in json-format.
 
+---
+
+#### 11th of April 2023
+
+[ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376)
+
+- Uses LLM and chemistry tools to plan and execute different chemical tasks. 
+- Tools include web and literature search, Python, human-tool to interact with the end user and various molecule tools, safety tools and chemical reaction tools.
 
 ---
 
