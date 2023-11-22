@@ -719,6 +719,9 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
+Citation
+
+If you found our work valuable, please cite:
 
 @misc{MaattaAgents2023,
   author = {Teemu Maatta},
@@ -728,4 +731,4 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
   note = {Accessed: date-of-access}
 }
 
----
+
