@@ -13,6 +13,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
+#### 22th of November 2023
+
+[Building the Future of Responsible AI: A Pattern-Oriented Reference Architecture for Designing Large Language Model based Agents](https://arxiv.org/abs/2311.13148)
+
+- Identifies two types of LLM agents: "Agents-as-workers" and "Agents-as-coordinators".
+
+  
+---
+
 #### 21st of November 2023
 
 [System 2 Attention (is something you might need too)](https://arxiv.org/abs/2311.11829)
