@@ -97,6 +97,15 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 - RoboGen: Agent using LLMs to define new tasks to learn, create their simulation environments, train on them to acquire diverse & new skills.
 - Agent includes: Task proposal, Scene generation, Training Supervision Generation & Skill learning.
 
+---
+
+#### 1stof November 2023
+
+[Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents](https://arxiv.org/abs/2311.00262)
+
+- Introduces plug-and-play dialogue policy planner(PPDPP).
+- Dialogues plans using Self-play with three LLM agents: one acting to achieve a goal like buying a product at cheaper price, second to negotiate as seller a higher price and a third LLM scoring performance as reward model.
+
 
 ---
 
