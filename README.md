@@ -71,7 +71,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 
 ---
 
-####9th of November 2023
+#### 9th of November 2023
 
 [Prompt Engineering a Prompt Engineer](https://arxiv.org/abs/2311.05661)
 
@@ -86,7 +86,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 [ADaPT: As-Needed Decomposition and Planning with Language Models](https://arxiv.org/abs/2311.05772)
 
 - ADaPT: Plans and decomposes dynamically complex tasks with LLMs, if the executor is not able to complete the task.
-- 
+
 
 ---
 
