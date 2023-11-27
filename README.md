@@ -66,7 +66,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 [LLM Augmented Hierarchical Agents](https://arxiv.org/abs/2311.05596)
 
 - Hierchical agent uses LLM to evaluate, when to use specific skill to complete specific sub-level task with long horizon.
-- The resulting model works withou need for a LLM after the training.
+- The resulting model works without the need for a LLM after the training.
 
 
 ---
