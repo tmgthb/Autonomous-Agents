@@ -562,7 +562,7 @@ Autonomous Agents (LLMs) research papers. Updated daily.
 ---
 
 #### 25th of July 2023
-[WebArena: A Realistic Web Environment for Building Autonomous Agents]([https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf))
+[WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf)
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
 
@@ -726,6 +726,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 - Task-driven autonomous agent, with vector database and Langchain. BabyAGI includes: Execution, creation and prioritization
 - Takes objective, pulls an item from task queue and moves it to execution agent with access to memory. 
 
+   
 
 ---
 
@@ -734,8 +735,52 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 - Reflexion agents reflect on task feedback, use it from memory to make better decisions and new attempts.
 
+---
+
+#### Related research papers
 
 ---
+
+#### 31st of August 2022
+
+[Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)
+
+- Reviews term of Emergent Abilities of LLMs in the past and defines the term Emergent Abilities as: "An ability is emergent if it is not present in smaller models but is present in larger models." and identifies list of emerging abilities not detected in a specific smaller model, but identified in a larger model.
+
+---
+
+#### 28th of January 2022
+
+[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+
+- The original paper on Chain-of-Thought (CoT), which is referenced now on almost every Autonomous agents research paper.
+
+
+---
+
+[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+
+- Applies first-time the term "In-Context Learning: "We use the term “in-context learning” - LLMs ability to learn a task from contextual information.
+
+
+---
+
+#### Recommended resources:
+
+
+[Lilian Weng from OpenAI article: LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
+
+- Covers Planning, Memory and Tool usage of LLM powevered agents
+
+
+---
+
+[Jason Wei presentation: Some intuitions about large language models on November 27th, 2023 in Stanford](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)
+
+- Covers topic like nex-word prediction is massive-scale multi-task learning, scalable models, data has variable information density, variable compute need and, in-context learning relationship to interactive learning.
+
+
+```
 
 ### Citation
 
