@@ -735,11 +735,28 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 - Reflexion agents reflect on task feedback, use it from memory to make better decisions and new attempts.
 
+
+
+---
+
+
+
+
 ---
 
 #### Supportive Research Papers:
 
 This section includes very selected research papers defining key concepts supporting the idea of Autonomous Agents. I refer on each paper the main observation.
+
+
+---
+
+#### 20th of October 2022
+
+[Large Language Models Can Self-Improve](https://arxiv.org/abs/2210.11610)
+
+- Demonstrates LLM is able to Self-Improve with only unlabeled datasets using CoT and Self-Consistency Prompting and then fine-tune the LLM using these self-generated solutions as target outputs.
+- This research by Google, effectively performs Self-Recursive Learning not only during Inference time (such as CoT or In-Context Learning alone), but training as well.
 
 
 ---
@@ -776,6 +793,11 @@ This section includes very selected research papers defining key concepts suppor
 
 
 ---
+
+
+---
+
+
 
 #### Recommended resources:
 
