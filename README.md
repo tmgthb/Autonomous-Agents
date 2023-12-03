@@ -768,7 +768,14 @@ This section includes very selected research papers defining key concepts suppor
 -  Defines officially the term  "Emergent Abilities": "An ability is emergent if it is not present in smaller models but is present in larger models."
 -  Emergent abilities were detected already with GPT-3, but here its clearly defined as ability detected only after specific scale.
 -  Identifies a list of Emerging abilities not detected in specific smaller model, but identfied in a larger model.
--  I like the paper, because increasing number of task patterns are learned using single learning objective of next-word prediction as scale increases. 
+-  I like the paper, because increasing number of task patterns are learned using single learning objective of next-word prediction as scale increases.
+
+#### 28th of March 2022
+
+[STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465)
+
+- Introduces the concept: "Self-Taught Reasoner" (STaR) or *, where LLM improves its reasoning by learning from its own reasoning: model is asked to generate rationalizations to questions. If rationalization derives wrong answer to question, the rationalization is repeated by giving it as well the correct answer. All rationalizations leading to correct answer are used for fine-tuning the LLM model. This process is repeated and each iteration improves the LLMs capability of reasoning.
+- The paper does not refer to Self-Recursive Learning, but we could argue it as an example of this process in the context of reasoning.
 
 
 ---
