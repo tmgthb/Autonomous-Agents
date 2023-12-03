@@ -737,7 +737,10 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
-#### Related research papers
+#### Supportive Research Papers:
+
+This section includes very selected research papers defining key concepts supporting the idea of Autonomous Agents. I refer on each paper the main observation.
+
 
 ---
 
@@ -745,7 +748,11 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 [Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)
 
-- Reviews term of Emergent Abilities of LLMs in the past and defines the term Emergent Abilities as: "An ability is emergent if it is not present in smaller models but is present in larger models." and identifies list of emerging abilities not detected in a specific smaller model, but identified in a larger model.
+-  Defines officially the term  "Emergent Abilities": "An ability is emergent if it is not present in smaller models but is present in larger models."
+-  Emergent abilities were detected already with GPT-3, but here its clearly defined as ability detected only after specific scale.
+-  Identifies a list of Emerging abilities not detected in specific smaller model, but identfied in a larger model.
+-  I like the paper, because increasing number of task patterns are learned using single learning objective of next-word prediction as scale increases. 
+
 
 ---
 
@@ -753,14 +760,19 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 [Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 
-- The original paper on Chain-of-Thought (CoT), which is referenced now on almost every Autonomous agents research paper.
+- Defines Chain-of-Thought (CoT).
+- CoT is one Emerging Ability not present in smaller models, but present in larger models.
+- CoT can be seen as Self-Recursive Learning, where the LLM improves its own output by having LLM use intermediate steps to solve complex task.
+- The approach effectively demonstrates the LLMs capability to perform Self-Recursive Learning, altough its not integrated back as training data of the model.
 
 
 ---
 
 [Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 
-- Applies first-time the term "In-Context Learning: "We use the term “in-context learning” - LLMs ability to learn a task from contextual information.
+- Applies first-time the term of LLMs ability to learn a task from contextual information: "In-Context Learning".
+- This ability is another example of Self-Recursive Learning, altough its not integrated back as training data of the model.
+- This paper as well identified the capability of LLMs to learn multiple tasks by having been only trained to predict the next word. See Jason Wei´s presentation included below, where he covers the "Massively Multi-task learning" of LLMs and I think it helps to gain better insight about LLMs, rather than thinking them as simply "statistical models". 
 
 
 ---
@@ -780,7 +792,8 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 - Covers topic like nex-word prediction is massive-scale multi-task learning, scalable models, data has variable information density, variable compute need and, in-context learning relationship to interactive learning.
 
 
-```
+---
+
 
 ### Citation
 
