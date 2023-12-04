@@ -742,16 +742,16 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 
 <div id="why"></div>
----
+
 
 #### Why Autonomous Agents work?
 
-This section includes important research papers establishig key concepts on the theory behind Autonomous Agents. 
-The attempt is to build the following story:
+In this section, I will attempt to illustrate the key question: Why Autonomous Agents work? 
 
-1. LLMs is trained to predict next-word, but in fact leads to (massively) Multi-task learning (See here Jason Wei presentation illustrating this in more detail).
-2. Data scaling leads to Emerging Abilities to perform increasing number of tasks with larger models compared to smaller ones.
-3. Chain-of-Thought and In-Context Learning are examples of Self-Recursive Learning during Inference time with LLMs. = LLMs can be triggered to Self-Improve its outputs during Inference.
+
+1. LLMs ares trained to predict the next-word. Yet, this simple training objective results a [Massively Multi-task learning](#extreme) and its very [generic](#extreme): learning"<input, output>"-relationship can be seen as next-word prediction.
+2. [Emerming Abilities](#emerging) emerge on larger models compared to smaller ones: such as [CoT](#cot).
+3. [CoT](#cot) and In-Context Learning are examples of Self-Recursive Learning during Inference time with LLMs. = LLMs can be triggered to Self-Improve its outputs during Inference.
 4. STaR is an example of Self-Recursive Learning by Fine-tuning LLMs using CoT-prompted reasoning. = LLMs can be triggered to Self-Improve its model weights by learning to Fine-tune using its outputs.
 5. LLMs can be triggered to CoT in Tree/Graph-like structures.
 6. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
@@ -772,7 +772,7 @@ The attempt is to build the following story:
 
 #### 31st of August 2022
 
-[Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)
+<div id="emerging">[Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)</div>
 
 -  Defines officially the term  "Emergent Abilities": "An ability is emergent if it is not present in smaller models but is present in larger models."
 -  Emergent abilities were detected already with GPT-3, but here its clearly defined as ability detected only after specific scale.
@@ -791,7 +791,7 @@ The attempt is to build the following story:
 
 #### 28th of January 2022
 
-[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
+<div id="cot">[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)</div>
 
 - Defines Chain-of-Thought (CoT).
 - CoT is one Emerging Ability not present in smaller models, but present in larger models.
@@ -801,7 +801,7 @@ The attempt is to build the following story:
 
 ---
 
-[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
+<div id="multitask">[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)</div>
 
 - Applies first-time the term of LLMs ability to learn a task from contextual information: "In-Context Learning".
 - This ability is another example of Self-Recursive Learning, altough its not integrated back as training data of the model.
@@ -810,8 +810,6 @@ The attempt is to build the following story:
 
 ---
 
-
----
 
 
 
@@ -825,9 +823,10 @@ The attempt is to build the following story:
 
 ---
 
-[Jason Wei presentation: Some intuitions about large language models on November 27th, 2023 in Stanford](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)
+<div id="extreme">[Jason Wei presentation: Some intuitions about large language models on November 27th, 2023 in Stanford](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)</div>
 
-- Covers topic like nex-word prediction is massive-scale multi-task learning, scalable models, data has variable information density, variable compute need and, in-context learning relationship to interactive learning.
+- Learning the relationship from Input to Output is as well Next-word prediction learning.
+- Next-word prediction is massively multi-task learning.
 
 
 ---
