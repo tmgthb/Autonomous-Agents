@@ -744,9 +744,18 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 ---
 
-#### Supportive Research Papers:
+#### Why Autonomous Agents work?
 
-This section includes very selected research papers defining key concepts supporting the idea of Autonomous Agents. I refer on each paper the main observation.
+This section includes important research papers establishig key concepts on the theory behind Autonomous Agents. 
+The attempt is to build the following story:
+
+1. LLMs is trained to predict next-word, but in fact leads to (massively) Multi-task learning (See here Jason Wei presentation illustrating this in more detail).
+2. Data scaling leads to Emerging Abilities to perform increasing number of tasks with larger models compared to smaller ones.
+3. Chain-of-Thought and In-Context Learning are examples of Self-Recursive Learning during Inference time with LLMs. = LLMs can be triggered to Self-Improve its outputs during Inference.
+4. STaR is an example of Self-Recursive Learning by Fine-tuning LLMs using CoT-prompted reasoning. = LLMs can be triggered to Self-Improve its model weights by learning to Fine-tune using its outputs.
+5. LLMs can be triggered to CoT in Tree/Graph-like structures.
+6. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
+
 
 
 ---
