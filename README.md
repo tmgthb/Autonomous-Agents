@@ -749,14 +749,23 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 In this section, I will attempt to illustrate the key question: Why Autonomous Agents work? 
 
 
-1. LLMs ares trained to predict the next-word. Yet, this simple training objective results a [Massively Multi-task learning](#extreme) and its very [generic](#extreme): learning"<input, output>"-relationship can be seen as next-word prediction.
-2. [Emerming Abilities](#emerging) emerge on larger models compared to smaller ones: such as [CoT](#cot).
-3. [CoT](#cot) and In-Context Learning are examples of Self-Recursive Learning during Inference time with LLMs. = LLMs can be triggered to Self-Improve its outputs during Inference.
-4. STaR is an example of Self-Recursive Learning by Fine-tuning LLMs using CoT-prompted reasoning. = LLMs can be triggered to Self-Improve its model weights by learning to Fine-tune using its outputs.
+1. LLMs ares trained to predict the next-word. Yet, this simple training objective results a [Massively Multi-task learning](#extreme) and it is very [generic](#extreme): "<input, output>"-relationship learning can be seen as next-word prediction.
+2. [Emerming Abilities](#emerging) is ability present in a larger LLM, but not in a smaller one. There are over 137 emerging abilities such as substraction, but as well emerging prompting strategies: [CoT](#cot) emerged in GPT-3and not in GPT-2. 
+3. LLMs can be triggered to Self-Improve its outputs during Inference by using: [CoT](#cot) and In-Context Learning.
+4. LLMs can be triggered to Self-Improve its model weights by [STaR](#star), where LLM is fine-tuned using correct CoT reasonings to Self-Recursively Improve.
+5. Tree-Of-Thought (ToT or Graph-of-Thought 
 5. LLMs can be triggered to CoT in Tree/Graph-like structures.
 6. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
 
 
+
+---
+
+#### 17th of May 2023
+
+[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+
+- ToT enables using search algorithms
 
 ---
 
