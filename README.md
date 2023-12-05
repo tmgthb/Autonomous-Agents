@@ -885,10 +885,8 @@ Autonomous Agents (LLMs). Updated daily
 3. LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference. 
 4. LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
 5. [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call.
-6. LLMs are able to [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop), where the LLM is used to improve code. I recommend watching the [lecture on STOP](#stopvideo) 
-7. 
-8. LLMs can be triggered to CoT in Tree/Graph-like structures.
-9. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
+6. LLMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo). 
+7. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
 
 
 ----
