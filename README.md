@@ -126,7 +126,9 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-<div id="stopvideo">[Youtube. Adam Kalai presents "Recursive Self-improving Code Generation - talk 2.11.2023](https://www.youtube.com/watch?v=RovcBFlfXpQ)</div>
+<div id="stopvideo"></div>
+
+[Youtube. Adam Kalai presents "Recursive Self-improving Code Generation - talk 2.11.2023](https://www.youtube.com/watch?v=RovcBFlfXpQ)
 
 - Adam Kalai talk on the "Self-Taught Optimizers (STOP): Recursively Self-Improving code generation", which is in essence attempts to build code for letting LLMs themselves improve (their) own code.
 - I recommend to check this especially from safety-aspects on the point "sandbox-flag" and to better understand the 
@@ -173,7 +175,6 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-
 [Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment](https://arxiv.org/abs/2311.00153)
 
 - Programs constraints into task assignments system based on natural language using Multi-agent LLMs.
@@ -181,14 +182,12 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-
 [Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models](https://arxiv.org/abs/2310.20499)
 
 - DEEP: Uses agressive (truthfull) & conservative modes (to disguise) to play spy game to asses intelligence of LLMs to describe target word without stating explicitly the word.
 
 
 ---
-
 
 [Multi-Agent Consensus Seeking via Large Language Models](https://arxiv.org/abs/2310.20151)
 
@@ -229,14 +228,12 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-
 [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045)
 
 - Woodpecker: To extract key concepts, formulate questions and validate visual knowledge and generate visual claims using Multimodal Large Language Models (MLLMs) to control hallucinations in LLM responses.
 
 
 ---
-
 
 [In-Context Learning Creates Task Vectors](https://arxiv.org/abs/2310.15916)
 
@@ -261,6 +258,8 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 20th of October 2023
+
+<div id="toolchain"></div>
 
 [ToolChain*: Efficient Action Space Navigation in Large Language Models with A* Search](https://arxiv.org/abs/2310.13227)
 
@@ -357,7 +356,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-### 11th of October 2023
+#### 11th of October 2023
 
 [LangNav: Language as a Perceptual Representation for Navigation](https://arxiv.org/abs/2310.07889)
 
@@ -376,6 +375,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 8th of October 2023
+
 [Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading](https://arxiv.org/abs/2310.05029)
 
 - MemWalker: navigates long-context iteratively and construct memory as treelike structure.
@@ -384,6 +384,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 7th if October 2023
+
 [Crystal: Introspective Reasoners Reinforced with Self-Feedback](https://arxiv.org/abs/2310.04921)
 
 - Introspective reasoning of the knowledge.
@@ -402,6 +403,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 5th of October 2023
+
 [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](https://arxiv.org/abs/2310.03710)
 
 - AgentInstruct: generates instructions for th problem and then solves it using these instructions, improving the Chain of Thought (CoT) zero-shot reasoning.
@@ -420,7 +422,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 3rd of October 2023
 
-<div id="stop">[Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304)</div>
+<div id="stop"></div>
+
+[Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304)
 
 - Self-Taught Optimizer (STOP): Ask LLM to improve initial program by providing improvement candidates and then output best solution.
 
@@ -482,6 +486,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 28th of September 2023
+
 [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
 
 - Promptbreeder uses thinking styles and mutation-prompts and is able to improve mutation/task prompts.
@@ -498,6 +503,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 20th of September 2023
+
 [You only look at the screens: Multimodal Chain-of-Action Agents](https://arxiv.org/abs/2309.11436)
 
 - Multimodal Chain-of-Actions Agents (Auto-UI) interacts directly with the UI
@@ -507,6 +513,7 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 14th of September 2023
+
 [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf)
 
 -  A conceptual framework for LLM-based agents with three components brain, perception, and action.
@@ -550,10 +557,11 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-#### 23rd of JUne 2023 (External blog post)
+#### 23rd of JUne 2023 
 
-[Lilian Weng from OpenAI article: LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
+[LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
 
+- Lilian Weng from OpenAI article / blog post
 - Covers Planning, Memory and Tool usage of LLM powevered agents
 
 
@@ -578,7 +586,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 18th of August 2023
 
-<div id="got">[Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)</div>>
+<div id="got"></div>
+
+[Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)
 
 - Graph-of-Thoughts (GoT): Reasoning with LLM using graph-structure with intermediate steps.
 - Introduces Volume-of-Tought metric to inform the scope of information carried by the LLM output.
@@ -662,7 +672,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 17th May 2023
 
-<div id="tot">[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)</div> 
+<div id="tot"></div>
+
+[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) 
 
 - Tree of Thoughts (ToT)-technique makes decisions using multiple different reasoning paths, self-evaluating choices to decide next action with ability to look back/forward for global decisions.
 
@@ -793,7 +805,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 31st of August 2022
 
-<div id="emerging">[Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)</div>
+<div id="emerging"></div>
+
+[Emergent Abilities of Large Language Models](https://openreview.net/forum?id=yzkSU5zdwD)
 
 -  Defines officially the term  "Emergent Abilities": "An ability is emergent if it is not present in smaller models but is present in larger models."
 -  Emergent abilities were detected already with GPT-3, but here its clearly defined as ability detected only after specific scale.
@@ -815,7 +829,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 21st of March 2022
 
-<div id="selfconsistency">[Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)</div>
+<div id="selfconsistency"></div>
+
+[Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)
 
 - Enables reasoning with LLMs using CoT and Self-Consistency, where multiple, different reasoning paths are used to vote the most consistent answer.
 - Improves reasoning and math problem solving.
@@ -825,7 +841,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 28th of January 2022
 
-<div id="cot">[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)</div>
+<div id="cot"></div>
+
+[Chain-of-Thought Prompting Elicits Reasoning in Large Language Models](https://arxiv.org/abs/2201.11903)
 
 - Defines Chain-of-Thought (CoT).
 - CoT is one Emerging Ability not present in smaller models, but present in larger models.
@@ -837,7 +855,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 28th of May 2020 
 
-<div id="multitask">[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)</div>
+<div id="multitask"></div>
+
+[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 
 - Applies first-time the term of LLMs ability to learn a task from contextual information: "In-Context Learning".
 - This ability is another example of Self-Recursive Learning, altough its not integrated back as training data of the model.
