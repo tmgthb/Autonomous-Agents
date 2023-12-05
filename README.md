@@ -8,8 +8,8 @@
 
 # Autonomous-Agents
 
-Autonomous Agents (LLMs).
-- [Research papers](#papers) - Updated daily-
+Autonomous Agents (LLMs). Updated daily
+- [Research papers](#papers).
 - [What is an Autonomous Agent?](#what)
 - [Why Autonomous Agents work?](#why)
 
