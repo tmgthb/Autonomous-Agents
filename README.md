@@ -13,10 +13,9 @@ Updated daily.
 
 ---
  
-
-<div id="papers"> 
 # Research papers: 
-</div>  
+
+<div id="papers"> </div>  
 
 ---
 
