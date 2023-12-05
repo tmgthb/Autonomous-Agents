@@ -27,10 +27,11 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-#### 27th of Novemeber 2023 (External blog post)
+#### 27th of Novemeber 2023 
 <div id="extreme"></div>
 [Some intuitions about large language models](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)
 
+- Jason Wei Blog post / Presentation.
 - Learning the relationship from Input to Output is as well Next-word prediction learning.
 - Next-word prediction is massively multi-task learning.
 
