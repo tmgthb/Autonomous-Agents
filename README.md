@@ -8,7 +8,28 @@
 
 # Autonomous-Agents
 
-Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents work?](#why)
+Autonomous Agents (LLMs) [research papers])(#papers). [What is an Autonomous Agent?](#what) [Why Autonomous Agents work?](#why)
+Updated daily. 
+ 
+
+<div id="papers">## Research papers: </div>>  
+
+---
+
+#### 29th of Novemebr 2023
+
+[Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311)
+
+- Universal Self-Consistency (USC): Uses LLMs to select the most consistent answer among multiple candidates working in mathematical reasoning and code generation and unlike the original Self-Consistency, the method works in open-ended questions.
+
+---
+
+#### 27th of Novemeber 2023 (External blog post)
+
+<div id="extreme">[Jason Wei presentation: Some intuitions about large language models on November 27th, 2023 in Stanford](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)</div>
+
+- Learning the relationship from Input to Output is as well Next-word prediction learning.
+- Next-word prediction is massively multi-task learning.
 
 
 ---
@@ -49,6 +70,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 - Tool library provides input for: detection, prediction, occupancy and mapping functions. Memory includes commonsense memory and Experience memory. There is apart historical trajectories and ego-states.
 - The reasoning engine includes: CoT reasoning, Task planning, Motion planning and Self-Reflection. These lead to actions and again to environment update. 
 
+
 ---
 
 #### 14th of November 2023
@@ -70,8 +92,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 
 ---
-
-#### 9th of November 2023
 
 [Prompt Engineering a Prompt Engineer](https://arxiv.org/abs/2311.05661)
 
@@ -97,9 +117,17 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 - RoboGen: Agent using LLMs to define new tasks to learn, create their simulation environments, train on them to acquire diverse & new skills.
 - Agent includes: Task proposal, Scene generation, Training Supervision Generation & Skill learning.
 
+
 ---
 
-#### 1stof November 2023
+<div id="stopvideo">[Youtube. Adam Kalai presents "Recursive Self-improving Code Generation - talk 2.11.2023](https://www.youtube.com/watch?v=RovcBFlfXpQ)</div>
+
+- Adam Kalai talk on the "Self-Taught Optimizers (STOP): Recursively Self-Improving code generation", which is in essence attempts to build code for letting LLMs themselves improve (their) own code.
+- I recommend to check this especially from safety-aspects on the point "sandbox-flag" and to better understand the 
+
+---
+
+#### 1st of November 2023
 
 [Plug-and-Play Policy Planner for Large Language Model Powered Dialogue Agents](https://arxiv.org/abs/2311.00262)
 
@@ -108,8 +136,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 
 ---
-
-#### 1st of November 2023
 
 [SAGE: Smart home Agent with Grounded Execution](https://arxiv.org/abs/2311.00772)
 
@@ -121,13 +147,12 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 1st of November 2023
-
 [Efficient Human-AI Coordination via Preparatory Language-based Convention](https://arxiv.org/abs/2311.00416)
 
 - HAPLAN: Human-AI coordination using Conventions. Humans communicate roles & tasksof individuals before starting a task to be completed. Humans create Conventions.
 - Builds a Convention (an action-plan) to guide AI/human using task requirements, human preferences, number of agents and other information for a better understanding of tasks & responsibilities of each agent/human.
 - Assigns sub-problems to own sessions. Convention is first confirmed with human.
+
 
 ---
 
@@ -142,7 +167,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 31st of October 2023
 
 [Towards A Natural Language Interface for Flexible Multi-Agent Task Assignment](https://arxiv.org/abs/2311.00153)
 
@@ -151,7 +175,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 31st of October 2023
 
 [Leveraging Word Guessing Games to Assess the Intelligence of Large Language Models](https://arxiv.org/abs/2310.20499)
 
@@ -160,7 +183,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 31st of October 2023
 
 [Multi-Agent Consensus Seeking via Large Language Models](https://arxiv.org/abs/2310.20151)
 
@@ -201,7 +223,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 24th of October 2023
 
 [Woodpecker: Hallucination Correction for Multimodal Large Language Models](https://arxiv.org/abs/2310.16045)
 
@@ -210,7 +231,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 24th of October 2023
 
 [In-Context Learning Creates Task Vectors](https://arxiv.org/abs/2310.15916)
 
@@ -219,7 +239,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 24th of October 2023#
 [Instruct and Extract: Instruction Tuning for On-Demand Information Extraction](https://arxiv.org/abs/2310.16040)
 
 - On Demand Information Extraction (ODIE): Extracting information using LLMs from text to present it in structured tabular format.
@@ -244,8 +263,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 
 --- 
-
-#### 20th of October 2023
 
 [Democratizing Reasoning Ability: Tailored Learning from Large Language Model](https://arxiv.org/abs/2310.13332)
 
@@ -303,8 +320,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 12th of October 2023
-
 [Octopus: Embodied Vision-Language Programmer from Environmental Feedback](https://arxiv.org/abs/2310.08588)
 
 - Octopus: Uses Vision-Language Model with Reinforcement Learning from Environmental Feedback (RLEF).
@@ -313,16 +328,12 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 12th of October 2023
-
 [MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/abs/2310.08560)
 
 - MemGPT: OS-based design with LLM-processor managing its actual context and long term memory and uses functions to make changes and events to manage order of processing data.
 
 
 ---
-
-#### 12th of October 2023
 
 [Promptor: A Conversational and Autonomous Prompt Generation Agent for Intelligent Text Entry Techniques](https://arxiv.org/abs/2310.08101)
 
@@ -332,8 +343,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 
 ---
-
-#### 12 of October 2023
 
 [Towards Robust Multi-Modal Reasoning via Model Selection](https://arxiv.org/abs/2310.08446)
 
@@ -405,13 +414,12 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 #### 3rd of October 2023
 
-[Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304)
+<div id="stop">[Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation](https://arxiv.org/abs/2310.02304)</div>
 
 - Self-Taught Optimizer (STOP): Ask LLM to improve initial program by providing improvement candidates and then output best solution.
 
 
 ---
-#### 3rd of October 2023
 
 [Lyfe Agents: Generative agents for low-cost real-time social interactions](https://arxiv.org/abs/2310.02172)
 
@@ -424,7 +432,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 3rd of October 2023
 [Large Language Models as Analogical Reasoners](https://arxiv.org/abs/2310.01714)
 
 - LLM self-generates examples/knowledge related to the task.
@@ -432,7 +439,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 3rd of October 2023
 [Conceptual Framework for Autonomous Cognitive Entities](https://arxiv.org/abs/2310.06775)
 
 - Conceptual framework for Autonomous entities.
@@ -449,7 +455,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 
 ---
-#### 2nd of October 2023
 
 [GRID: A Platform for General Robot Intelligence Development](https://arxiv.org/abs/2310.00887)
 
@@ -462,6 +467,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 1st of October 2023
+
 [RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models](https://arxiv.org/abs/2310.00746)
 
 - RoleLLM: Role-profile constructor, Context-based Instruction generarion, Role-based Prompting(RoleGPT), Role-conditioned Instruction-tuning.
@@ -502,7 +508,6 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 ---
 
-#### 14th September 2023
 [Agents: An Open-source Framework for Autonomous Language Agents](https://arxiv.org/pdf/2309.07870.pdf)
 
 - Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control.
@@ -512,6 +517,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 12th of September 2023
+
 [Life-inspired Interoceptive Artificial Intelligence for Autonomous and Adaptive Agents](https://arxiv.org/abs/2309.05999)
 
 - Interoceptive AI: monitoring own internal state of the artificial agent.
@@ -520,6 +526,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 8th of September 2023
+
 [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
 
 - AutoGraph procedure: data, configuration, searching and tuning agents.
@@ -532,6 +539,16 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/abs/2308.14296)
 
 - RecMind: a recommender focused LLm agent with reasoning, planning to sub-tasks, memory & tools.
+
+
+
+---
+
+#### 23rd of JUne 2023 (External blog post)
+
+[Lilian Weng from OpenAI article: LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
+
+- Covers Planning, Memory and Tool usage of LLM powevered agents
 
 
 ---
@@ -552,9 +569,10 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 
 - AgentVerse: multi-agent collaborarion and individual agents social bjeaviours.
 
+
 #### 18th of August 2023
 
-[Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)
+<div id="got">[Graph of Thoughts: Solving Elaborate Problems with Large Language Models](https://arxiv.org/abs/2308.09687)</div>>
 
 - Graph-of-Thoughts (GoT): Reasoning with LLM using graph-structure with intermediate steps.
 - Introduces Volume-of-Tought metric to inform the scope of information carried by the LLM output.
@@ -562,6 +580,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 25th of July 2023
+
 [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf)
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
@@ -570,6 +589,7 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 8th June 2023
+
 [ToolAlpaca: Generalized Tool Learning for Language Models with 3000 Simulated Cases](https://arxiv.org/pdf/2306.05301.pdf)
 
 - Builds multi-agent simulation environment to generate dataset of using many real world apis. 
@@ -578,24 +598,28 @@ Autonomous Agents (LLMs) research papers. Updated daily. [Why Autonomous Agents 
 ---
 
 #### 5th June 2023
+
 [SELFEVOLVE: A Code Evolution Framework via Large Language Models](https://arxiv.org/pdf/2306.02907.pdf)
 
 - Generates intermediate code based on input prompt. 
 - Use LLM to act as expert programmer to debug the generated code by receiving errors from Python interpreter.
 
+
 ---
 
 #### 3th June 2023
+
 [Prompt Sapper: LLM-Empowered Software Engineering Infrastructure for AI-Native Services](https://arxiv.org/pdf/2306.02230.pdf)
 
 - Human AI collaborative intelligence methodology & technical practices, where the idea is not to have "full Auto-GPT" from user input to direct resolution by LLM, but rather human reviews steps between.
 - Useer inputs objective, LLM asks clarification. Use then  User adds clarifications and LLM constructs AI chain for human to review. Finally LLM executes the AI chain with user acceptabnce tests.
 
+
 ---
 
 #### 3th June 2023
-[Auto-GPT for Online Decision Making: Benchmarks and
-Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
+
+[Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 
 - Auto-GPTs outperforms supervised state-of-the-art Imitiation Learning (IL) models with GPT4 in WebShop- and ALFWorld-benchmarks in unknown external environments.
 - Additional opinions algorithm improves performance, which takes into account additional opinions from external expert models.
@@ -603,6 +627,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 26th of May 2023
+
 [Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models](https://arxiv.org/abs/2305.16582)
 
 - Graph-of-Thought (GoT) reasoning: To model human thought process as graph instead of chain to improve LLM reasoning capability.
@@ -621,6 +646,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 24th May 2023
+
 [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
 
 - Gorilla is a retrieve-aware finetuned LLaMA-7B model for API calls using self-instruct to generate Instruction-API pairs. 
@@ -629,7 +655,8 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 17th May 2023
-[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
+
+<div id="tot">[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)</div> 
 
 - Tree of Thoughts (ToT)-technique makes decisions using multiple different reasoning paths, self-evaluating choices to decide next action with ability to look back/forward for global decisions.
 
@@ -670,6 +697,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 7th of April 2023
+
 [ChatPipe: Orchestrating Data Preparation Program by Optimizing Human-ChatGPT Interactions](https://arxiv.org/abs/2304.03540)
 
 - ChatPipe - Iterative, data preparation program with ChatGPT using 1. Operation Recommendation, 2.   Program generation, 3. Version management. 
@@ -679,6 +707,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 6th April 2023
+
 [Generative Agents: Interactive Simulacra of Human Behavior](https://arxiv.org/abs/2304.03442)
 
 - Enable believable human behavior: observation, planning, and reflection.
@@ -689,6 +718,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 31 March 2023
+
 [CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society](https://arxiv.org/abs/2303.17760)
 
 - CAMEL attempts to facilitate autonomous cooperation among communicative agents through role-playing framework.
@@ -698,10 +728,14 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 30th of March 2023
+
 [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](https://arxiv.org/abs/2303.17580)
 
 - A LLM (such as ChatGPT) accesses HuggingFace community to look AI models to complete the given task. 
 - It can read multi modalities by outsourcing tasks like image recognition to the specific image model. 
+
+
+---
 
 [DERA: Enhancing Large Language Model Completions with Dialog-Enabled Resolving Agents](https://arxiv.org/abs/2303.17071)
 
@@ -712,6 +746,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 29th of March 2023
+
 [TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs](https://arxiv.org/abs/2303.16434)
 
 - Multimodal conversational foundation model (MCFM). MCFM generates a textual solution outline, then API selector chooses most relevant API from collection of APIs (with API name, parameter list, description, usage example and example when combining it with another API). 
@@ -721,6 +756,7 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 28th March 2023 
+
 [Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
 
 - Task-driven autonomous agent, with vector database and Langchain. BabyAGI includes: Execution, creation and prioritization
@@ -731,41 +767,11 @@ Additional Opinions](https://arxiv.org/pdf/2306.02224.pdf)
 ---
 
 #### 20th March 2023
+
 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
 
 - Reflexion agents reflect on task feedback, use it from memory to make better decisions and new attempts.
 
-
-
----
-
-
-
-<div id="why"></div>
-
-
-#### Why Autonomous Agents work?
-
-In this section, I will attempt to illustrate the key question: Why Autonomous Agents work? 
-
-
-1. LLMs ares trained to predict the next-word. Yet, this simple training objective results a [Massively Multi-task learning](#extreme) and it is very [generic](#extreme): "<input, output>"-relationship learning can be seen as next-word prediction.
-2. [Emerming Abilities](#emerging) is ability present in a larger LLM, but not in a smaller one. There are over 137 emerging abilities such as substraction, but as well emerging prompting strategies: [CoT](#cot) emerged in GPT-3and not in GPT-2. 
-3. LLMs can be triggered to Self-Improve its outputs during Inference by using: [CoT](#cot) and In-Context Learning.
-4. LLMs can be triggered to Self-Improve its model weights by [STaR](#star), where LLM is fine-tuned using correct CoT reasonings to Self-Recursively Improve.
-5. Tree-Of-Thought (ToT or Graph-of-Thought 
-5. LLMs can be triggered to CoT in Tree/Graph-like structures.
-6. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
-
-
-
----
-
-#### 17th of May 2023
-
-[Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601)
-
-- ToT enables using search algorithms
 
 ---
 
@@ -788,12 +794,25 @@ In this section, I will attempt to illustrate the key question: Why Autonomous A
 -  Identifies a list of Emerging abilities not detected in specific smaller model, but identfied in a larger model.
 -  I like the paper, because increasing number of task patterns are learned using single learning objective of next-word prediction as scale increases.
 
+
+---
+
 #### 28th of March 2022
 
 [STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/abs/2203.14465)
 
 - Introduces the concept: "Self-Taught Reasoner" (STaR) or *, where LLM improves its reasoning by learning from its own reasoning: model is asked to generate rationalizations to questions. If rationalization derives wrong answer to question, the rationalization is repeated by giving it as well the correct answer. All rationalizations leading to correct answer are used for fine-tuning the LLM model. This process is repeated and each iteration improves the LLMs capability of reasoning.
 - The paper does not refer to Self-Recursive Learning, but we could argue it as an example of this process in the context of reasoning.
+
+
+---
+
+#### 21st of March 2022
+
+<div id="selfconsistency">[Self-Consistency Improves Chain of Thought Reasoning in Language Models](https://arxiv.org/abs/2203.11171)</div>
+
+- Enables reasoning with LLMs using CoT and Self-Consistency, where multiple, different reasoning paths are used to vote the most consistent answer.
+- Improves reasoning and math problem solving.
 
 
 ---
@@ -810,6 +829,8 @@ In this section, I will attempt to illustrate the key question: Why Autonomous A
 
 ---
 
+#### 28th of May 2020 
+
 <div id="multitask">[Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)</div>
 
 - Applies first-time the term of LLMs ability to learn a task from contextual information: "In-Context Learning".
@@ -817,33 +838,42 @@ In this section, I will attempt to illustrate the key question: Why Autonomous A
 - This paper as well identified the capability of LLMs to learn multiple tasks by having been only trained to predict the next word. See Jason Wei´s presentation included below, where he covers the "Massively Multi-task learning" of LLMs and I think it helps to gain better insight about LLMs, rather than thinking them as simply "statistical models". 
 
 
----
+
+----
 
 
 
-
-#### Recommended resources:
-
-
-[Lilian Weng from OpenAI article: LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
-
-- Covers Planning, Memory and Tool usage of LLM powevered agents
+<div id="what"> #### Why Autonomous Agents work? </div>
 
 
----
 
-<div id="extreme">[Jason Wei presentation: Some intuitions about large language models on November 27th, 2023 in Stanford](https://docs.google.com/presentation/d/1hQUd3pF8_2Gr2Obc89LKjmHL0DlH-uof9M0yFVd3FA4/edit)</div>
-
-- Learning the relationship from Input to Output is as well Next-word prediction learning.
-- Next-word prediction is massively multi-task learning.
+----
 
 
----
+<div id="why"> #### Why Autonomous Agents work? </div>
+
+1. LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme). Next-word prediction is very [generic](#extreme) learning process: "<input, output>"-relationship learning can be seen as next-word prediction. 
+2. [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are already +137 known Emerging Abilities, which some are in fact Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model. 
+3. LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference. 
+4. LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
+5. [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call.
+6. LLMs are able to [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop), where the LLM is used to improve code. I recommend watching the [lecture on STOP](#stopvideo) 
+7. 
+8. LLMs can be triggered to CoT in Tree/Graph-like structures.
+9. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
+
+
+
+----
+
 
 
 ### Citation
 
+
+
 If you found our work valuable, please cite:
+
 
 ```
 @misc{MaattaAutonomousAgents2023,
