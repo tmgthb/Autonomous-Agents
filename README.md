@@ -11,9 +11,6 @@
 Autonomous Agents (LLMs) [research papers](#papers). [What is an Autonomous Agent?](#what) [Why Autonomous Agents work?](#why)
 Updated daily. 
 
----
- 
-## Research papers: 
 
 <div id="papers"> </div>  
 
