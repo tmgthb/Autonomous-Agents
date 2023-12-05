@@ -841,16 +841,18 @@ Updated daily.
 
 ----
 
+#### What are Autonomous Agents??
 
-
-<div id="what"> #### Why Autonomous Agents work? </div>
+<div id="what">  </div>
 
 
 
 ----
 
 
-<div id="why"> #### Why Autonomous Agents work? </div>
+#### Why Autonomous Agents work? 
+
+<div id="why"> </div>
 
 1. LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme). Next-word prediction is very [generic](#extreme) learning process: "<input, output>"-relationship learning can be seen as next-word prediction. 
 2. [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are already +137 known Emerging Abilities, which some are in fact Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model. 
@@ -863,12 +865,10 @@ Updated daily.
 9. Toolchaing* performs effective search of optimal CoT reasoning in a Tree-like structures and it manages to keep the computing time limited with A*-search algorithm.
 
 
-
 ----
 
 
-
-### Citation
+## Citation
 
 
 
