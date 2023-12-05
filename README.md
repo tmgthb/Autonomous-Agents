@@ -12,7 +12,9 @@ Autonomous Agents (LLMs) [research papers](#papers). [What is an Autonomous Agen
 Updated daily. 
  
 
-<div id="papers">## Research papers: </div>  
+<div id="papers"> 
+## Research papers: 
+</div>  
 
 ---
 
