@@ -22,6 +22,15 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 4th of December 2023
 
+[LLM A*: Human in the Loop Large Language Models Enabled A* Search for Robotics](https://arxiv.org/abs/2312.01797)
+
+-  LLM A*: Includes current node, goal node, optical action and these three make up the plan.
+-  The chat-environment with user defines user inputs: Setting up environment, Setting up Action model, Start and Target Nodes, Heuristic and Rules.
+-  Demonstrates the possibility of achieving very good path planning results using mobile embodied agents.
+
+
+---
+
 [Towards Learning a Generalist Model for Embodied Navigation](https://arxiv.org/abs/2312.02010)
 
 - NaviLLM: Embodied navigation with LLMs using schema-based instruction (task, history, observation and output hint), which generalizes well to unseen navigation tasks.
