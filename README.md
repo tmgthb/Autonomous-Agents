@@ -24,7 +24,9 @@ Autonomous Agents (LLMs). Updated daily
 [Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311)
 
 - Universal Self-Consistency (USC): Uses LLMs to select the most consistent answer among multiple candidates working in mathematical reasoning and code generation and unlike the original Self-Consistency, the method works in open-ended questions.
-- This can be used as a more capabale component in the [STaR-method](#star), which generalizes with Q&A with open-ended answers, not only precise anawers.
+- This can be used as a more capabale component in the [STaR-method](#star), which generalizes with Q&A with open-ended answers, not only precise answers.
+
+
 ---
 
 #### 27th of Novemeber 2023 
