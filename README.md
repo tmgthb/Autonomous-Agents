@@ -17,6 +17,17 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+
+---
+
+#### 4th of December 2023
+
+[Towards Learning a Generalist Model for Embodied Navigation](https://arxiv.org/abs/2312.02010)
+
+- NaviLLM: Embodied navigation with LLMs using schema-based instruction (task, history, observation and output hint), which generalizes well to unseen navigation tasks.
+- Uses modules of Visual-Language Navigation, Object localization, Trajectory Summarization and 3D Queestion Summarization.
+
+
 ---
 
 #### 29th of Novemebr 2023
