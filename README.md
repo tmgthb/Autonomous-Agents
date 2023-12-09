@@ -17,10 +17,26 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+---
+
+#### 7th of December 2023
+
+[Chain of Code: Reasoning with a Language Model-Augmented Code Emulator](https://arxiv.org/abs/2312.04474)
+
+- Creates answer in two steps: Starts by creating pseudo-code to solve the question, then runs the pseudo-code in code interpreter or LM emulating code, in case no code interpreter is available. 
+
 
 ---
 
 #### 4th of December 2023
+
+[Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication](https://arxiv.org/abs/2312.01823)
+
+- Exchange-of-Thought (EoT): Improvement from CoT and Self-Consistency, where thoughts from other LLMs are considered, outperforming in mathematical reasoning the CoT with Self-Consistency
+- Proposes four communication paradigms to define the setup of the Exchange-of-Thought: Memory, Report, Relay and Debate. 
+- For example in Debate-mode: two LLM agents produce first ansswer the question and the two rationalizations are provided to the third LLM agent in order to debate these solutions in order to provide the right answer.
+
+---
 
 [LLM A*: Human in the Loop Large Language Models Enabled A* Search for Robotics](https://arxiv.org/abs/2312.01797)
 
@@ -614,6 +630,12 @@ Autonomous Agents (LLMs). Updated daily
 
 - Graph-of-Thoughts (GoT): Reasoning with LLM using graph-structure with intermediate steps.
 - Introduces Volume-of-Tought metric to inform the scope of information carried by the LLM output.
+
+---
+
+[WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583)
+
+- Improves math reasoning with Reinforcement Learning from Evol-Instruct Feedback (RLEIF): Upward and Downward evolution improve instructions by making questions easier or harder based on their difficulty level.
 
 ---
 
