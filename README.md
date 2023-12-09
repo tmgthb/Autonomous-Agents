@@ -25,6 +25,15 @@ Autonomous Agents (LLMs). Updated daily
 
 - Creates answer in two steps: Starts by creating pseudo-code to solve the question, then runs the pseudo-code in code interpreter or LM emulating code, in case no code interpreter is available. 
 
+
+---
+
+[AVA: Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making](https://arxiv.org/abs/2312.04494)
+
+-  Autonomous Visualization Agents (AVAs): User instructions are converted with Visualization agent into actions and the taken actions are converted back to language within visualization tasks.
+-  Components include: Visual perception, Action planning and Memory components, working within visualization-perception-action-loop.  
+
+
 ---
 
 #### 5th of December 2022
