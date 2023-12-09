@@ -25,6 +25,15 @@ Autonomous Agents (LLMs). Updated daily
 
 - Creates answer in two steps: Starts by creating pseudo-code to solve the question, then runs the pseudo-code in code interpreter or LM emulating code, in case no code interpreter is available. 
 
+---
+
+#### 5th of December 2022
+
+[https://arxiv.org/abs/2312.03052](https://arxiv.org/abs/2312.03052)
+
+- Answers visual questions by creating programs, that can review the image such as count number of specific types of objects and use tools.
+- Answer is provided with CoT reasoning based on filtered program from many programs executed.
+
 
 ---
 
