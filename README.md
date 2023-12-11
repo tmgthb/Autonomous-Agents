@@ -57,6 +57,15 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 6th of December 2023
 
+[Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia](https://arxiv.org/abs/2312.03664)
+
+- Concordia-library: Simulation environment made of multiple agents and Grand Master (GM) inspired by the Dungeons and Dragons game.
+- Agents consume observations and GM agent actions.
+- Agent produces actions and GM event statements (such as physical grounding). 
+
+
+---
+
 [LLM as OS (llmao), Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem](https://arxiv.org/abs/2312.03815)
 
 - AIOS-Agent Ecosystem: Envisions LLMs as OS, Agents as Applications, Natural Language as Programming language and Tools as Devices/Libraries.
