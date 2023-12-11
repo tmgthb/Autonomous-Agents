@@ -19,6 +19,18 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 8th of Decembebr 2023
+
+[KwaiAgents: Generalized Information-seeking Agent System with Large Language Models](https://arxiv.org/abs/2312.04889)
+
+- KwaiAgents, an autonomous agent loop including three key components: (KAgentSyst), LLMs (KAgentLLMs) and Benchmarks (KAgentsBench).
+- System includes: Memorybank (Knowledge, Conversation and Task), Tool-library (Factuality-aware, Time-aware and Custom tools) used with Memory update, Task plan, Tool execution and Finish & Conclude-steps.
+- LLM-component includes templates for LLs, Meta-Agent Tuning (MAT)-framework and LLM services. Benchmarks include both human and LLM-driven profiling.
+- MAT includes six key components to generate prompt templates: system profile, instructions/constraints, tool specification, goal placement, memory allocation and output format. 
+
+
+---
+
 #### 7th of December 2023
 
 [Chain of Code: Reasoning with a Language Model-Augmented Code Emulator](https://arxiv.org/abs/2312.04474)
@@ -32,6 +44,22 @@ Autonomous Agents (LLMs). Updated daily
 
 -  Autonomous Visualization Agents (AVAs): User instructions are converted with Visualization agent into actions and the taken actions are converted back to language within visualization tasks.
 -  Components include: Visual perception, Action planning and Memory components, working within visualization-perception-action-loop.  
+
+
+---
+
+[Fortify the Shortest Stave in Attention: Enhancing Context Awareness of Large Language Models for Effective Tool Use](https://arxiv.org/abs/2312.04455)
+
+- Introduces "Attention Buckets", which enable a 7B open source model to acchieve GPT-4 level tool use performance by compensating attention peaks between parallel processes in specific context.
+
+
+---
+
+#### 6th of December 2023
+
+[LLM as OS (llmao), Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem](https://arxiv.org/abs/2312.03815)
+
+- AIOS-Agent Ecosystem: Envisions LLMs as OS, Agents as Applications, Natural Language as Programming language and Tools as Devices/Libraries.
 
 
 ---
@@ -610,17 +638,6 @@ Autonomous Agents (LLMs). Updated daily
 - RecMind: a recommender focused LLm agent with reasoning, planning to sub-tasks, memory & tools.
 
 
-
----
-
-#### 23rd of JUne 2023 
-
-[LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
-
-- Lilian Weng from OpenAI article / blog post
-- Covers Planning, Memory and Tool usage of LLM powevered agents
-
-
 ---
 
 #### 22th of August 2023
@@ -662,6 +679,25 @@ Autonomous Agents (LLMs). Updated daily
 [WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf)
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
+
+
+---
+
+#### 16th of July 2023
+
+[Communicative Agents for Software Development](https://arxiv.org/abs/2307.07924)
+
+- ChatDev: Define task and automatically generate SW designing, coding, testing, and documentation using "Chat Chains", where LLM-based chats include different roles for each sub-task: CEO, programmer, CTO etc.
+- Includes role-assignment, memory and self-reflection.  
+
+---
+
+#### 23rd of June 2023 
+
+[LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
+
+- Lilian Weng from OpenAI article / blog post
+- Covers Planning, Memory and Tool usage of LLM powevered agents
 
 
 ---
@@ -840,9 +876,8 @@ Autonomous Agents (LLMs). Updated daily
 [Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
 
 - Task-driven autonomous agent, with vector database and Langchain. BabyAGI includes: Execution, creation and prioritization
-- Takes objective, pulls an item from task queue and moves it to execution agent with access to memory. 
+- Takes objective, pulls an item from task queue and moves it to execution agent with access to memory.  
 
-   
 
 ---
 
