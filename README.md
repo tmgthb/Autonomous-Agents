@@ -60,9 +60,8 @@ Autonomous Agents (LLMs). Updated daily
 [Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia](https://arxiv.org/abs/2312.03664)
 
 - Concordia-library: Simulation environment made of multiple agents and Grand Master (GM) inspired by the Dungeons and Dragons game.
-- Agents consume observations and GM agent actions.
-- Agent produces actions and GM event statements (such as physical grounding). 
-
+- Agents consume observations and GM agent actions. Agent produces actions and GM event statements (such as physical grounding). 
+- Includes long and short term memory, which include state of the world.
 
 ---
 
