@@ -735,6 +735,14 @@ Autonomous Agents (LLMs). Updated daily
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
 
+---
+
+#### 20th of July 2023
+
+[Textbooks Are All You Need](https://arxiv.org/abs/2306.11644)
+
+- Addresses LLM training data to be "text-book-like":  clear, self-contained, instructive, and balanced. The method is used in Phi-models.
+
 
 ---
 
