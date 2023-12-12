@@ -19,6 +19,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 12th of December 2023
+
+[Medprompt+](https://github.com/microsoft/promptbase/tree/main)
+
+- Medprompt+ extends Medprompt-method improved by asking additionally if scrapt-pad is needed and increasing number of ensembled calls from 5 to 20.
+
+---
+
 #### 11th of December 2023
 
 [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585)
