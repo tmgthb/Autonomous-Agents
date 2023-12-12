@@ -19,6 +19,17 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 11th of December 2023
+
+[Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585)
+
+- ReST<sup>EM (Expectation-Maximization)</sup>: LLM generates samples (E-step/Expectation-step) using temperature sampling, filter samples using binary feedback/reward, fine-tune LLM using these feedbacks (M-step/Maximization-step). Repeat few rounds. Improves significantly coding and math benchmark results. 
+- Ability to generate multiple correct solutions compared against human-generated data.
+- ReST<sup>EM</sup> uses temperature sampling (diverse/creative), compared to [STaR](#star)-method based on greedy sampling (most-likely), where the rationalization-process leads to false-positive solutions.
+
+
+---
+
 #### 8th of Decembebr 2023
 
 [KwaiAgents: Generalized Information-seeking Agent System with Large Language Models](https://arxiv.org/abs/2312.04889)
@@ -116,6 +127,17 @@ Autonomous Agents (LLMs). Updated daily
 - Universal Self-Consistency (USC): Uses LLMs to select the most consistent answer among multiple candidates working in mathematical reasoning and code generation and unlike the original Self-Consistency, the method works in open-ended questions.
 - This can be used as a more capabale component in the [STaR-method](#star), which generalizes with Q&A with open-ended answers, not only precise answers.
 
+
+---
+
+#### 28th of Novemebr 2023
+
+[Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine](https://arxiv.org/abs/2311.16452)
+
+- Medprompt: Generalist LLM using MedPrompt outperforms SOTA specialist model.
+- Uses SOTA prompt method: CoT, Choice Shuffle and Self-Consistency prompting
+- Introduces Choice Shuffle-technique, which inreases diversity of the reasoning paths.
+  
 
 ---
 
@@ -394,6 +416,12 @@ Autonomous Agents (LLMs). Updated daily
 - OpenAgents-platform: Data agent, Plugin/Tools and Web agent
 - Automatic tool selection from over 200 tools
 
+---
+
+[Improving Large Language Model Fine-tuning for Solving Math Problems](https://arxiv.org/abs/2310.10047)
+
+- Introduces multi-task sequential fine-tuning method, where solution generation is improved by including solution evaluation as part of the fine-tuning objective together with the generated solution to provide higher-quality guidance to solution generator.
+- Quality and style of the step-by-step solutions used for fine-tuning impact model performance. Solution re-ranking and Majority voting used together are effective way to improve model performance with fine-tuning.
 
 ---
 
@@ -680,6 +708,17 @@ Autonomous Agents (LLMs). Updated daily
 
 - Improves math reasoning with Reinforcement Learning from Evol-Instruct Feedback (RLEIF): Upward and Downward evolution improve instructions by making questions easier or harder based on their difficulty level.
 
+
+---
+
+#### 17th of August 2023
+
+[Reinforced Self-Training (ReST) for Language Modeling](https://arxiv.org/abs/2308.08998)
+
+- Introduces Reinforced Self-Training (ReST).
+- Grow step generates data from LLM, Improve step uses this filtered data to fine-tune the LLM. Repeat. 
+
+
 ---
 
 #### 25th of July 2023
@@ -757,13 +796,9 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-#### 13th of May 2023
+[Impossible Distillation: from Low-Quality Model to High-Quality Dataset & Model for Summarization and Paraphrasing](https://arxiv.org/abs/2305.16635)
 
-[BabyCatAGI: Fast and Feline](https://yoheinakajima.com/babycatagi-fast-and-feline/)
-
-- BabyCatAGI: a modified BabyAGI by replacing  task manager in BabyBeeAGI with task creation agent running once.
-- Uses Intelligent Agent Tool to combines tools to extract only relevant information to next step such as looping web search and scraping results to pull only specific part to another task.
-
+- Uses low-quality LM to generate High-quality dataset (more diverse and more effective for generalization in unseen domains) to train a high quality model: 770 million parameter model outperforms GPT-3 in multiple tasks evaluated by humans.
 
 ---
 
@@ -783,6 +818,17 @@ Autonomous Agents (LLMs). Updated daily
 [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) 
 
 - Tree of Thoughts (ToT)-technique makes decisions using multiple different reasoning paths, self-evaluating choices to decide next action with ability to look back/forward for global decisions.
+
+
+---
+
+#### 13th of May 2023
+
+[BabyCatAGI: Fast and Feline](https://yoheinakajima.com/babycatagi-fast-and-feline/)
+
+- BabyCatAGI: a modified BabyAGI by replacing  task manager in BabyBeeAGI with task creation agent running once.
+- Uses Intelligent Agent Tool to combines tools to extract only relevant information to next step such as looping web search and scraping results to pull only specific part to another task.
+
 
 ---
 
@@ -992,6 +1038,7 @@ Autonomous Agents (LLMs). Updated daily
 5. [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call.
 6. LLMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo). 
 7. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+
 
 
 ----
