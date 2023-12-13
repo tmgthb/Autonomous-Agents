@@ -217,6 +217,15 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 16th of November 2023
+
+[Digital Socrates: Evaluating LLMs through explanation critiques](https://arxiv.org/abs/2311.09613)
+
+- Digital Socrates: evaluates reasoning flaws: giving feedback on why and where? 
+
+
+---
+
 #### 14th of November 2023
 
 [DeepThought: An Architecture for Autonomous Self-motivated Systems](https://arxiv.org/abs/2311.08547)
