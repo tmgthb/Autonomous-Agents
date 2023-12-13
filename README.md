@@ -101,6 +101,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Beyond Isolation: Multi-Agent Synergy for Improving Knowledge Graph Constructio](https://arxiv.org/abs/2312.03022)
+
+- Uses three LLM agents for entity, event and relation extraction to build knowledge graph.
+
+
+---
+
 #### 4th of December 2023
 
 [Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication](https://arxiv.org/abs/2312.01823)
