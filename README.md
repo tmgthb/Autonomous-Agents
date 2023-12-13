@@ -25,6 +25,15 @@ Autonomous Agents (LLMs). Updated daily
 
 - Medprompt+ extends Medprompt-method improved by asking additionally if scrapt-pad is needed and increasing number of ensembled calls from 5 to 20.
 
+
+---
+
+[Sequential Planning in Large Partially Observable Environments guided by LLMs](https://arxiv.org/abs/2312.07368)
+
+- Neoplanner: builds state space model of the environment by testing different actions, observations and rewards. Builds a graph memory of learnings from all previous trials using Learner agent.
+- Model provides anytime best policy given the knowledge at that moment. Balances exploration and exploitation.
+
+
 ---
 
 #### 11th of December 2023
@@ -440,6 +449,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization](https://arxiv.org/abs/2310.10134)
+
+- A Continually Learning Generative Agent from Interactions (CLIN): Memory generator updates memory, Controller manages tasks and Executor converts it into actions towards the goal. 
+
+
+---
+
 #### 13th of October 2023
 
 [A Zero-Shot Language Agent for Computer Control with Structured Reflection](https://arxiv.org/abs/2310.08740)
@@ -523,6 +539,13 @@ Autonomous Agents (LLMs). Updated daily
 [Crystal: Introspective Reasoners Reinforced with Self-Feedback](https://arxiv.org/abs/2310.04921)
 
 - Introspective reasoning of the knowledge.
+
+
+---
+
+[Self-Supervised Behavior Cloned Transformers are Path Crawlers for Text Games](https://arxiv.org/abs/2312.04657)
+
+- PathCrawling: Crawl all paths leading to reward (train LLM with these paths) and Evaluate generality to unseen task. Continue crwaling most general paths.
 
 
 ---
