@@ -28,6 +28,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[diff History for Long-Context Language Agents](https://arxiv.org/abs/2312.07540)
+
+- Compresses consecutive text observations from environment with Unix "diff"-command, which leads to 700% improvement in game score, outperforming existing agents by 40%, which use visual observations.
+- Similar approach may enable building vastly more generic embodied LLM agents.
+
+
+---
+
 [Sequential Planning in Large Partially Observable Environments guided by LLMs](https://arxiv.org/abs/2312.07368)
 
 - Neoplanner: builds state space model of the environment by testing different actions, observations and rewards. Builds a graph memory of learnings from all previous trials using Learner agent.
