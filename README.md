@@ -19,6 +19,22 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 14th od December 2023
+
+[Auto MC-Reward: Automated Dense Reward Design with Large Language Models for Minecraft](https://arxiv.org/abs/2312.09238)
+
+- RL agent using LLM to act as a Reward designer, Reward critic and a Trajectory designer.
+
+
+---
+
+[Vision-Language Models as a Source of Rewards](https://arxiv.org/abs/2312.09187)
+
+- VLMs work as reward models and larger scale improves performance of the reward model.
+
+
+---
+
 #### 12th of December 2023
 
 [Medprompt+](https://github.com/microsoft/promptbase/tree/main)
