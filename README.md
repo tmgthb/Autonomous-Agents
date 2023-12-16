@@ -21,6 +21,15 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 14th od December 2023
 
+[LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers](https://arxiv.org/abs/2312.08958)
+
+- LiFT: Outperforms significantly VPT/other models in MineDojo-ennvironment.
+- LLM provides task instruction.
+- VLM is sed to learn policy and act as a reward model.
+
+
+---
+
 [LLMind: Orchestrating AI and IoT with LLMs for Complex Task Execution](https://arxiv.org/abs/2312.09007)
 
 - LLMind: Includes coordinator updating short-term memory/retrieving required AI (IoT) modules with ability to define, if script exists for the module and enerates it, if missing. Coordinator retrieves error / output messages from the executed script, which is handled by the script executor.
