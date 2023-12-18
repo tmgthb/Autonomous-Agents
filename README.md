@@ -994,6 +994,15 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 13th of April 2023
+
+[RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment](https://arxiv.org/abs/2304.06767)
+
+- RAFT-finetuning: Samples batch lf data from LLM, reward function scores them, high reward examples are filtered as data to finetune the LLM.
+
+
+---
+
 #### 11th of April 2023
 
 [ChemCrow: Augmenting large-language models with chemistry tools](https://arxiv.org/abs/2304.05376)
