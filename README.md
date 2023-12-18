@@ -19,6 +19,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent](https://arxiv.org/abs/2312.10003)
+
+- Self-Imepoving LLM model without any human-assisted data for fine tuning achieving significantly better reasoning results with smaller model, when using the synthetic data to distill smaller model.
+- Finetunes LLM with ReST using ReAct-method reasoning-actions.
+
+
+---
+
 #### 14th od December 2023
 
 [Modeling Complex Mathematical Reasoning via Large Language Model based MathAgent](https://arxiv.org/abs/2312.08926)
