@@ -21,6 +21,14 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 14th od December 2023
 
+[Modeling Complex Mathematical Reasoning via Large Language Model based MathAgent](https://arxiv.org/abs/2312.08926)
+
+-  Planner-Reasoner-Executor-Reflector (PRER) / MathAgent: Planner, Reasoner, Executor and Reflector.
+-  Systematic process for solving zero-shot mathematical reasoning with LLM agents.
+
+
+---
+
 [LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers](https://arxiv.org/abs/2312.08958)
 
 - LiFT: Outperforms significantly VPT/other models in MineDojo-ennvironment.
@@ -37,6 +45,18 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067)
+
+- HoloDeck: Generating 3d embodied environments with LLM: FLoor-wall module, doorway-window module, object selection module and layout design module.
+
+---
+
+[Adaptive parameter sharing for multi-agent reinforcement learning](https://arxiv.org/abs/2312.09009)
+
+-  AdaPS: Maps agents to different regions of brain/shared network based on identity vectors obtained with VAE and clusters agents to K classes.
+
+---
+
 [Auto MC-Reward: Automated Dense Reward Design with Large Language Models for Minecraft](https://arxiv.org/abs/2312.09238)
 
 - RL agent using LLM to act as a Reward designer, Reward critic and a Trajectory designer.
@@ -47,6 +67,13 @@ Autonomous Agents (LLMs). Updated daily
 [Vision-Language Models as a Source of Rewards](https://arxiv.org/abs/2312.09187)
 
 - VLMs work as reward models and larger scale improves performance of the reward model.
+
+
+---
+
+[Learning Coalition Structures with Games](https://arxiv.org/abs/2312.09058)
+
+- Coalition Structure Learning (CSL): Learns coalitions of agents via set of games.
 
 
 ---
