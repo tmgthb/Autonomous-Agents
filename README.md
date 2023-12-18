@@ -29,6 +29,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Rational Sensibility: LLM Enhanced Empathetic Response Generation Guided by Self-presentation Theory](https://arxiv.org/abs/2312.08702)
+
+- Self-Representation with Lamb:  Uses semantic label to set tone for the conversation.
+
+
+---
+
 [LiFT: Unsupervised Reinforcement Learning with Foundation Models as Teachers](https://arxiv.org/abs/2312.08958)
 
 - LiFT: Outperforms significantly VPT/other models in MineDojo-ennvironment.
@@ -48,6 +55,14 @@ Autonomous Agents (LLMs). Updated daily
 [Holodeck: Language Guided Generation of 3D Embodied AI Environments](https://arxiv.org/abs/2312.09067)
 
 - HoloDeck: Generating 3d embodied environments with LLM: FLoor-wall module, doorway-window module, object selection module and layout design module.
+
+
+---
+
+[Personalized Path Recourse](https://arxiv.org/abs/2312.08724)
+
+- Personalized Path Recourse (PPR): Personalized path of actions to achieve a certain goal with an agent.
+
 
 ---
 
