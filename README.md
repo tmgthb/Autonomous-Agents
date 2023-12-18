@@ -19,6 +19,8 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 15th of December 2023
+
 [ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent](https://arxiv.org/abs/2312.10003)
 
 - Self-Imepoving LLM model without any human-assisted data for fine tuning achieving significantly better reasoning results with smaller model, when using the synthetic data to distill smaller model.
@@ -27,7 +29,16 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+
 #### 14th od December 2023
+
+[TinyGSM: achieving >80% on GSM8k with small language models](https://arxiv.org/abs/2312.09241)
+
+- First student LLM to learn the Teacher LLM model ( GPT-3.5) performance in mathematical reasoning using synthetic data from the teacher model.  
+- TinyGSM: Two 1.3B LLNs with a 1.3B verifier LLM achieves SOTA level 81.5% accuracy on GSM8k, which consists of a high-quality dataset TinyGSM and use of verifier selecting final answer from multiple output generations.
+
+
+---
 
 [Modeling Complex Mathematical Reasoning via Large Language Model based MathAgent](https://arxiv.org/abs/2312.08926)
 
