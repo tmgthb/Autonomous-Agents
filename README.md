@@ -1253,7 +1253,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ## Definition
 
-Autonomous Agents were defined in 1996 [traditionally defined](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+Autonomous Agents were [defined in 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
 
 In 2023, several research studies have mapped the concepts of Autonomous Agents:
 - [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey)
