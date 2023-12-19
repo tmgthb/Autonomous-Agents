@@ -19,6 +19,15 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 18th of Deceomber 2023
+
+[Agent Assessment of Others Through the Lens of Self](https://arxiv.org/abs/2312.11357)
+
+- Discusses concept of Self-Awareness of Autonomous Agents.
+
+
+---
+
 <div id="restreact"> </div>  
 ---
 
@@ -1220,10 +1229,15 @@ Autonomous Agents (LLMs). Updated daily
 
 ## What are Autonomous Agents?
 
-- Include here definitions made about Autonomous Agents (to be completed).
 
 <div id="what">  </div>
 
+#### 12th of August 1966 
+
+[Is it an Agent, or Just a Program?: A Taxonomy for Autonomous Agents.](https://www.researchgate.net/publication/221457111_Is_it_an_Agent_or_Just_a_Program_A_Taxonomy_for_Autonomous_Agents)
+
+- "Autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+- Key aspects: 1. Operate within an environment, 2. Sense and Act, 3. Over time, 4. Control its own agenda (Autonomous).
 
 
 ----
