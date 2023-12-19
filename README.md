@@ -1218,12 +1218,25 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-#### 22th of May 2023
+#### 22th of May 2020
 
 [Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
 
 - Defines Retrieval-Augmented Generation (RAGs).
 
+---
+
+<div id="autonomousagentdefinition">  </div>
+
+#### 12th of August 1996 
+
+[Is it an Agent, or Just a Program?: A Taxonomy for Autonomous Agents.](https://www.researchgate.net/publication/221457111_Is_it_an_Agent_or_Just_a_Program_A_Taxonomy_for_Autonomous_Agents)
+
+- "Autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+- Definition includes: 1. Operate within an environment, 2. Sense and Act, 3. Over time, 4. Control its own agenda (Autonomous).
+- Studies the multiple previous definitions of Agents / Autonomous Agents, although the perspective is +27 years ago and prior to LLMs. 
+
+---
   
 ----
 
@@ -1232,12 +1245,9 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="what">  </div>
 
-#### 12th of August 1966 
+## Definition
+Autonomous Agents are [traditionally defined](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
 
-[Is it an Agent, or Just a Program?: A Taxonomy for Autonomous Agents.](https://www.researchgate.net/publication/221457111_Is_it_an_Agent_or_Just_a_Program_A_Taxonomy_for_Autonomous_Agents)
-
-- "Autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
-- Key aspects: 1. Operate within an environment, 2. Sense and Act, 3. Over time, 4. Control its own agenda (Autonomous).
 
 
 ----
