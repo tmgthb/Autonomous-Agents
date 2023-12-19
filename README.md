@@ -19,6 +19,9 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+<div id="restreact"> </div>  
+---
+
 #### 15th of December 2023
 
 [ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent](https://arxiv.org/abs/2312.10003)
@@ -1115,6 +1118,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Sparks of Artificial General Intelligence: Early experiments with GPT-4](https://arxiv.org/abs/2303.12712)
+
+- Raises an argument, that GPT-4 model capabilities should be reviewed as an early and incomplete version of Artificial General Intelligence (AGI) systems due the multiple metrics comparing against human level-performance.
+- Raises the argument, that LLMs need to move beyond "next-word prediction" to overcome linear reasoning limitation, which often is possible to solve as incremental tasks with few iterations.
+
+
+---
+
 #### 20th March 2023
 
 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
@@ -1194,8 +1205,15 @@ Autonomous Agents (LLMs). Updated daily
 - This ability is another example of Self-Recursive Learning, altough its not integrated back as training data of the model.
 - This paper as well identified the capability of LLMs to learn multiple tasks by having been only trained to predict the next word. See Jason Wei´s presentation included below, where he covers the "Massively Multi-task learning" of LLMs and I think it helps to gain better insight about LLMs, rather than thinking them as simply "statistical models". 
 
+---
 
+#### 22th of May 2023
 
+[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+
+- Defines Retrieval-Augmented Generation (RAGs).
+
+  
 ----
 
 ## What are Autonomous Agents??
@@ -1211,14 +1229,42 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="why"> </div>
 
-1. LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme). Next-word prediction is very [generic](#extreme) learning process: "<input, output>"-relationship learning can be seen as next-word prediction. 
-2. [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are already +137 known Emerging Abilities, which some are in fact Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model. 
-3. LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference. 
-4. LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
-5. [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call.
-6. LLMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo). 
-7. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+### About predicting next-word:
+- LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme).
+- Next-word prediction is very [generic](#extreme) learning process, where any "<input, output>"-sequence relationship learning is a "next-word prediction task".
+- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
 
+### Demystifying Emerging Abilities
+- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 (and increasing known Emerging Abilities.
+- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
+- GPT-4 performs [high compared to human-level performance on multiple benchrmarks despite incomplete AGI](#sparks), not only on few.
+- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
+
+### Self-Recursive LLMs
+- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
+- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning. 
+- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
+- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
+
+### Tree-structures enable searching large reasoning trees for a solution to a complex problem
+- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
+
+### Synthetic data enables Small Student Models to outperform their Teachers
+- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
+- Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
+
+### Reinforcement Learning Agents
+- RL agents can use LLMs and VLMs as Reward models or to generate reward functions.
+- LLMs can generate code to for a robot, car or embodied agent to interact within an environment. 
+
+### LLM agents
+- Research papers have assigened succesfully wide range of roles, wide range of tasks, wide range of environments and wide range of cognitive functions to LLMs.
+- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future. 
+
+### Autonomous Agents
+- The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
+  
 
 
 ----
