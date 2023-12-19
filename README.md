@@ -794,6 +794,8 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 14th of September 2023
 
+<div id="llmagentsurvey"> </div>
+
 [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf)
 
 -  A conceptual framework for LLM-based agents with three components brain, perception, and action.
@@ -826,6 +828,8 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 8th of September 2023
+
+<div id="autonomousagentssurvey"> </div>
 
 [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
 
@@ -918,7 +922,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 23rd of June 2023 
 
-[LLM Powered Autonomous Agents from June 23, 2023](https://lilianweng.github.io/posts/2023-06-23-agent/)
+<div id="lili"> </div>
+
+[LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
 
 - Lilian Weng from OpenAI article / blog post
 - Covers Planning, Memory and Tool usage of LLM powevered agents
@@ -1246,8 +1252,22 @@ Autonomous Agents (LLMs). Updated daily
 <div id="what">  </div>
 
 ## Definition
-Autonomous Agents are [traditionally defined](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
 
+Autonomous Agents were defined in 1996 [traditionally defined](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+
+In 2023, several research studies have mapped the concepts of Autonomous Agents:
+- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey)
+- Multiple surveys have identified importance of the following concepts: Human-brain like cognitive functions cam be prompted and orchestrated in chains.
+
+These chains may use different types of:
+- Cognitive functions (planning/execution/verification/etc)
+- Memory(short/long/sensorial/embedding),
+- Roles (teacher/student/etc),
+- Tools (other models/vector DBs/APIs/etc),
+- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
+- Environments (code interpreter/browser/api/RL environment/real world),
+- Embodiments (LLM call/virtual enviroment/robotics/real world) and
+- Autonomity (manual/interactive/fully autonomous).
 
 
 ----
