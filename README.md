@@ -883,7 +883,7 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 25th of July 2023
 
-[WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/pdf/2309.07870.pdf](https://arxiv.org/pdf/2307.13854.pdf)
+[WebArena: A Realistic Web Environment for Building Autonomous Agents](https://arxiv.org/abs/2307.13854)
 
 - An environment to test Autonomous agents in an environment with tools, external knowledge.
 
