@@ -1216,7 +1216,9 @@ Autonomous Agents (LLMs). Updated daily
   
 ----
 
-## What are Autonomous Agents??
+## What are Autonomous Agents?
+
+- Include here definitions made about Autonomous Agents (to be completed).
 
 <div id="what">  </div>
 
