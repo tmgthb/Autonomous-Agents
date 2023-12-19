@@ -825,6 +825,8 @@ Autonomous Agents (LLMs). Updated daily
 - Sebastien Bubeck explains the insights from the reserch on Phi-1 regards coding tasks and Phi-1.5. regards reasoning tasks and the models being able to outperform 1000 times larger LLMs.
 - The talk highlights, that the key ingredients on Textbook-like training data and then giving then giving Exercises.
 - Explains the the key ingredient in "Textbooks are all you need"-paper regards the data, is largerly based on TinyStories-paper, which dataset was used to train a high performing model to generate fluent and consistent stories in English language. 
+
+
 ---
 
 #### 8th of September 2023
@@ -1253,13 +1255,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ## Definition
 
-Autonomous Agents were [defined in 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
 
 In 2023, several research studies have mapped the concepts of Autonomous Agents:
+
 - [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey)
-- Multiple surveys have identified importance of the following concepts: Human-brain like cognitive functions cam be prompted and orchestrated in chains.
 
 These chains may use different types of:
+
 - Cognitive functions (planning/execution/verification/etc)
 - Memory(short/long/sensorial/embedding),
 - Roles (teacher/student/etc),
