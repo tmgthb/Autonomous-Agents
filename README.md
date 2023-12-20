@@ -37,6 +37,11 @@ Autonomous Agents (LLMs). Updated daily
 
 - Discusses concept of Self-Awareness of Autonomous Agents.
 
+---
+
+[LLM-ARK: Knowledge Graph Reasoning Using Large Language Models via Deep Reinforcement Learning](https://arxiv.org/abs/2312.11282)
+
+- LLM-ARK: LLM reasons from Knowledge Graphs with DRL.
 
 ---
 
