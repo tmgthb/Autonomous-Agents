@@ -19,6 +19,17 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 19th of December 2023
+
+[Large Language Models Play StarCraft II: Benchmarks and A Chain of Summarization Approach](https://arxiv.org/abs/2312.11865)
+
+- Chain of Summarization (CoS): Improves LLMs capability to extract / analyze information using two compnents: Single-frame summarization and Multi-frame summarization.
+- Plays Starcraft 2 better than an average player by using Chain of Summarization (CoS), python-sc2 and TextStarCraft II-environment.
+- TextStarCraft II-environment processes game information into textual format for LLM model defining macro-actions and a rule-based method for micro-actions
+
+
+---
+
 #### 18th of Deceomber 2023
 
 [Agent Assessment of Others Through the Lens of Self](https://arxiv.org/abs/2312.11357)
