@@ -21,6 +21,14 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 20th of December 2023
 
+[AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation](https://arxiv.org/abs/2312.13010)
+
+- AgentCoder:  Multi-Agent Assistant Code Generation made from Programmer Agent, Test designer Agent and Test executor Agent
+- Uses Self-Refine with CoT in a Multi-Agent System.
+
+
+---
+
 [ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
 
 - ASSISTGUI: Window mouse / keyboard management with LLM.
@@ -1140,6 +1148,15 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 #### 30th of March 2023
+
+[Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)
+
+- Self-Refine refers to Iterative refinement with self-feedback: use the LLM to get Feedback to original output, which is passed back to LLM to Refine a new output.
+- The concept is best understood here in the blog by : [https://selfrefine.info/](https://selfrefine.info/) with GIFs and code examples.
+- Improves base-model performance in tasks like math reasoning and code generation. 
+
+
+---
 
 [HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace](https://arxiv.org/abs/2303.17580)
 
