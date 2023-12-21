@@ -21,6 +21,13 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 20th of December 2023
 
+[ASSISTGUI: Task-Oriented Desktop Graphical User Interface Automation](https://arxiv.org/abs/2312.13108)
+
+- ASSISTGUI: Window mouse / keyboard management with LLM.
+
+
+---
+
 [Generative agents in the streets: Exploring the use of Large Language Models (LLMs) in collecting urban perceptions](https://arxiv.org/abs/2312.13126)
 
 - Explores generative agents in urban environments: includes memory modyke, movement module, visual inference module and a LLM module
