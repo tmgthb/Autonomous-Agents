@@ -19,6 +19,22 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 20th of December 2023
+
+[Generative agents in the streets: Exploring the use of Large Language Models (LLMs) in collecting urban perceptions](https://arxiv.org/abs/2312.13126)
+
+- Explores generative agents in urban environments: includes memory modyke, movement module, visual inference module and a LLM module
+
+
+---
+
+[dIR -- Discrete Information Retrieval: Conversational Search over Unstructured (and Structured) Data with Large Language Models](https://arxiv.org/abs/2312.13264)
+
+- Discrete Information Retrieval (dIR): Text-queries of SQL databases using LLMs.
+
+
+---
+
 #### 19th of December 2023
 
 [Large Language Models Play StarCraft II: Benchmarks and A Chain of Summarization Approach](https://arxiv.org/abs/2312.11865)
