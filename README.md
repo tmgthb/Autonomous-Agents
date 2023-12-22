@@ -775,6 +775,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines](https://arxiv.org/abs/2310.03714)
+
+- DSPy programs (think Langchain as cmparison) help create LLM pipelines, which can outperform few-shot prompting techniques.
+- Help improve mathe world problems or answering complex questions and manage chaining / loops.
+
+
+---
+
 #### 3rd of October 2023
 
 <div id="stop"></div>
