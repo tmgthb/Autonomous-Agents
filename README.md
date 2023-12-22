@@ -19,6 +19,25 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+¤¤¤¤ 21st of December 2023
+
+[AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
+
+- Multimodal VLM agents learn operate popular smartphone apps by creating a knowledge base through: Autonomous exploration and Human demonstrations.
+- Includes: Exploration phase and Deployment phase.
+- Exploration phase learns smartphone functionalities through trial and error, which are saves records of effects to actions and stops, if the current view is unrelated to the assigned task. Exploration stops, whene task is finished. Alternatively these behaviours are shown through human demonstrations, which keeps the agent exploration streamlined and efficient.
+- In deployment phase, the VLM agent has access to the UI screenshot and potential actions. The agent generates a summary of the actions taken and interaction history, which are passed to the next step.
+
+
+---
+
+[Capture the Flag: Uncovering Data Insights with Large Language Models](https://arxiv.org/abs/2312.13876)
+
+- Exlores two types of Data Science Agents: Explorer agent and Aggregator agent 
+
+
+---
+
 #### 20th of December 2023
 
 [AgentCoder: Multi-Agent-based Code Generation with Iterative Testing and Optimisation](https://arxiv.org/abs/2312.13010)
