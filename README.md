@@ -90,7 +90,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-div id="humancap"> </div>  
+<div id="humancap"> </div>  
 
 [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
 
