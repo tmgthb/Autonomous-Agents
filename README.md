@@ -123,7 +123,6 @@ Autonomous Agents (LLMs). Updated daily
 ---
 
 <div id="restreact"> </div>  
----
 
 #### 15th of December 2023
 
