@@ -90,6 +90,8 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+div id="humancap"> </div>  
+
 [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
 
 - Reviews LLM-based agents on their ability to simulate various human-like capabilities.
@@ -1358,7 +1360,7 @@ Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdef
 
 In 2023, several research studies have mapped the concepts of Autonomous Agents:
 
-- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey)
+- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap)
 
 These chains may use different types of:
 
