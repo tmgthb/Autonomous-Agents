@@ -90,6 +90,12 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
+
+- Reviews LLM-based agents on their ability to simulate various human-like capabilities.
+
+
+---
 #### 18th of Deceomber 2023
 
 [Agent Assessment of Others Through the Lens of Self](https://arxiv.org/abs/2312.11357)
