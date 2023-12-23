@@ -19,7 +19,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-¤¤¤¤ 21st of December 2023
+#### 21st of December 2023
 
 [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
 
