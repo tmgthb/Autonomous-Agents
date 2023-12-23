@@ -98,11 +98,21 @@ div id="humancap"> </div>
 
 
 ---
+
 #### 18th of Deceomber 2023
 
 [Agent Assessment of Others Through the Lens of Self](https://arxiv.org/abs/2312.11357)
 
 - Discusses concept of Self-Awareness of Autonomous Agents.
+
+
+---
+
+[Evaluating Language-Model Agents on Realistic Autonomous Tasks](https://arxiv.org/abs/2312.11671)
+
+- Autonomous Replication and Adaption (ARA) framework: reviews ability of LLM agents to acquire resources, create copies of themselves and adapt to novel situations in the real world.
+- Tests LLM-agents using Scaffolding programs to interact with LLMs.
+- Defines implications of potentially ARA-level agents.
 
 ---
 
