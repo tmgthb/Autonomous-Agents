@@ -17,6 +17,16 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+--- 
+
+#### 2nd of January 2024
+
+[LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://arxiv.org/abs/2401.01325)
+
+- LLMs have built-in capability to manage long context, similar as children manage long context such as books mainly by having seen short context text.
+- Self-Extend: No specific training / finetuning required. Plug in 4 lines of code during inference to the attention mechanism, based on LLM with RoPE and FLOOR-operation.
+
+
 ---
 
 #### 21st of December 2023
