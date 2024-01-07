@@ -37,6 +37,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Economics Arena for Large Language Models](https://arxiv.org/abs/2401.01735)
+
+- EconArena: Reviews multiple LLM models jn their ability to act rationally by comparing performance between models and against Nash Equilibrium (NE) rationality.
+- Better models act more rational. LLMs are dynamically able to change strategies based on opponent strategy. Game history improves reasoning. Competing with rational opponent helps to achieve NE quicker.
+
+---
+
 #### 2nd of January 2024
 
 [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://arxiv.org/abs/2401.01325)
