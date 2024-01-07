@@ -26,6 +26,15 @@ Autonomous Agents (LLMs). Updated daily
 - LLava-Phi: VLM using Phi-2 as LLM model with CLIP-ViT-L/14 with 336x336 visual encoder.
 
 
+
+---
+
+### 3rd of January 2024
+
+[Act as You Learn: Adaptive Decision-Making in Non-Stationary Markov Decision Processes](https://arxiv.org/abs/2401.01841)
+
+- Adaptive MCTS (Ada-MCTS): explores using epistemic & aleatoric uncertanties to adapt risk-aversion behaviour vs performance when spending more time in the environment.
+
 ---
 
 #### 2nd of January 2024
