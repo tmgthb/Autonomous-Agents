@@ -19,6 +19,15 @@ Autonomous Agents (LLMs). Updated daily
 
 --- 
 
+### 4th of January 2024
+
+[LLaVA-ϕ: Efficient Multi-Modal Assistant with Small Language Model](https://arxiv.org/abs/2401.02330)
+
+- LLava-Phi: VLM using Phi-2 as LLM model with CLIP-ViT-L/14 with 336x336 visual encoder.
+
+
+---
+
 #### 2nd of January 2024
 
 [LLM Maybe LongLM: Self-Extend LLM Context Window Without Tuning](https://arxiv.org/abs/2401.01325)
