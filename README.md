@@ -1176,6 +1176,18 @@ Autonomous Agents (LLMs). Updated daily
 
 - BabyBeeAGI: a modified from BabyAGI tracking statuses of tasks, task dependencies, identification of required new tasks, assigning tools and results in json-format.
 
+
+---
+
+<div id="consciousnesstest"> </div>  
+
+# 26 of April 2023
+
+["Inside OpenAI [Entire Talk" by Stanford eCorner](https://www.youtube.com/watch?si=nMlyq1_d0r9JQkJ0&v=Wmo2vR7U9ck&feature=youtu.be)
+
+- Interview of Ilya Sustskever, where defined a way to perform "a consciousness test" from a very controlled dataset, see "minute 15".
+ 
+  
 ---
 
 #### 13th of April 2023
@@ -1416,6 +1428,11 @@ These chains may use different types of:
 - Environments (code interpreter/browser/api/RL environment/real world),
 - Embodiments (LLM call/virtual enviroment/robotics/real world) and
 - Autonomity (manual/interactive/fully autonomous).
+
+
+Consciousness research:
+- There is a conceptiually defined [consciousness test](#consciousnesstest).
+
 
 
 ----
