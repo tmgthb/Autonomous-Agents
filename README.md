@@ -157,6 +157,16 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 16th of December 2023
+
+[ProTIP: Progressive Tool Retrieval Improves Planning](https://arxiv.org/abs/2312.10332)
+
+- Progressive Tool Retrieval Improves Planning (ProTIP): Mulit-step planning with external tools, where tasks are decomposed without explicit definition of the sub-task.
+- Addresses the issue, where single-step tool retrieval does not manage to handle dependencies between the tools.
+
+
+---
+
 <div id="restreact"> </div>  
 
 #### 15th of December 2023
