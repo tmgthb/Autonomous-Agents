@@ -17,6 +17,18 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+---
+
+#### 9th of January 2024
+
+[Agent Alignment in Evolving Social Norms](https://arxiv.org/abs/2401.04620)
+
+- EvolutionaryAgent: Evaluates LLM agents based on fitness to social norms using observer LLM within EvolvingSociety-environment.
+- LLM agents producing highest social norm ratings, self-envolve and reproduce into new generation LLM agents. Agents either convert into obsolate or survived.
+- Agents events are recorded within short term memory with a threshold, which defines when long term and higher-level memories are distilled.
+- Defines initial stage of the EnvolvingSociety and the desired direction only.
+
+
 --- 
 
 ### 4th of January 2024
@@ -29,7 +41,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-### 3rd of January 2024
+#### 3rd of January 2024
 
 [Act as You Learn: Adaptive Decision-Making in Non-Stationary Markov Decision Processes](https://arxiv.org/abs/2401.01841)
 
@@ -1039,6 +1051,15 @@ Autonomous Agents (LLMs). Updated daily
 - Introduces Reinforced Self-Training (ReST).
 - Grow step generates data from LLM, Improve step uses this filtered data to fine-tune the LLM. Repeat. 
 
+
+---
+
+####
+
+[AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+
+- AutoGen: An open source framework, where LLM agents converse with other LLM agents either one or many, chat with humans and use tools.
+- LLM agents are able to create new chats with other LLM agents.
 
 ---
 
