@@ -576,6 +576,13 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 31st of October 2023
 
+[Generating Sequences by Learning to Self-Correct](https://arxiv.org/abs/2211.00053)
+
+- Self-Correction: A generative LLM, which includes two modules: Generator and Corrector. 
+
+
+---
+
 [Autonomous Robotic Reinforcement Learning with Asynchronous Human Feedback](https://arxiv.org/abs/2310.20608)
 
 - Autonomously explores real world
