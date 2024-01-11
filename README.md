@@ -17,6 +17,12 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 10th of January 2024
+
+[The Impact of Reasoning Step Length on Large Language Models](https://arxiv.org/abs/2401.04925)
+
+- Adding reasoning steps improvea accuracy unril 5th step.
+
 ---
 
 #### 9th of January 2024
