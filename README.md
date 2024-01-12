@@ -17,7 +17,22 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 11th of January 2024
+
+
+
+
 #### 10th of January 2024
+
+
+[Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566)
+
+- Adds backdoors on LLMs.
+- Trains deceptive LLMs using data, which "acts" based on being either in training vs inference: demonstrates safe code vs unsafe code.
+
+
+---
+
 
 [The Impact of Reasoning Step Length on Large Language Models](https://arxiv.org/abs/2401.04925)
 
