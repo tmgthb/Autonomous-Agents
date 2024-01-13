@@ -19,11 +19,15 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 11th of January 2024
 
+[Designing Heterogeneous LLM Agents for Financial Sentiment Analysis](https://arxiv.org/abs/2401.05799)
 
+- Heterogenoeus multi-Agent Discussion (HAD): Multiple agents with each instructions to pay attention to error category types, which form the resulting answer based on shared disussion. The domain of the research is Financial Sentiment Analysis.
+- Builds on the conclusion, that LLMs are "resources": similar to Minsky's theory about human mind being built from a [Resource-cloud](resourcecloud) to be activated/deactivated on the spot.
+- Defines  Kernel Theory-Based Design: Kernel theory, Meta-requirements, Meta-designs, Testable hypothesis. 
 
+---
 
 #### 10th of January 2024
-
 
 [Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Training](https://arxiv.org/abs/2401.05566)
 
@@ -1448,7 +1452,20 @@ Autonomous Agents (LLMs). Updated daily
 
 - Defines Retrieval-Augmented Generation (RAGs).
 
+
 ---
+
+<div id="resourcecloud">  </div>
+
+#### 28th of July 2005
+
+[The Emotion Machine. Draft.](https://web.media.mit.edu/~minsky/eb1.html)
+
+- Human mind consists according to Minsky, from Cloud of Resources turnable on/off.
+- Important theory, because LLM agents can construct such resources, observed in a human brain, altough years after this theory.
+
+---
+
 
 <div id="autonomousagentdefinition">  </div>
 
