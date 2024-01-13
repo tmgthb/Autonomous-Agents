@@ -22,7 +22,7 @@ Autonomous Agents (LLMs). Updated daily
 [Designing Heterogeneous LLM Agents for Financial Sentiment Analysis](https://arxiv.org/abs/2401.05799)
 
 - Heterogenoeus multi-Agent Discussion (HAD): Multiple agents with each instructions to pay attention to error category types, which form the resulting answer based on shared disussion. The domain of the research is Financial Sentiment Analysis.
-- Builds on the conclusion, that LLMs are "resources": similar to Minsky's theory about human mind being built from a [Resource-cloud](resourcecloud) to be activated/deactivated on the spot.
+- Builds on the conclusion, that LLMs are "resources": similar to Minsky's theory about human mind being built from a [Resource-cloud](#resourcecloud) to be activated/deactivated on the spot.
 - Defines  Kernel Theory-Based Design: Kernel theory, Meta-requirements, Meta-designs, Testable hypothesis. 
 
 ---
@@ -1496,7 +1496,7 @@ In 2023, several research studies have mapped the concepts of Autonomous Agents:
 
 These chains may use different types of:
 
-- Cognitive functions (planning/execution/verification/etc)
+- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
 - Memory(short/long/sensorial/embedding),
 - Roles (teacher/student/etc),
 - Tools (other models/vector DBs/APIs/etc),
@@ -1554,7 +1554,9 @@ Consciousness research:
 ### Autonomous Agents
 - The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
   
-
+### Agents are Resources 
+- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
+- LLM agents prompting enables resource-rich behaviour from LLMs.
 
 ----
 
