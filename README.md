@@ -106,6 +106,13 @@ Autonomous Agents (LLMs). Updated daily
 - LLava-Phi: VLM using Phi-2 as LLM model with CLIP-ViT-L/14 with 336x336 visual encoder.
 
 
+---
+
+[Self-Contrast: Better Reflection Through Inconsistent Solving Perspectives](https://arxiv.org/abs/2401.02009)
+
+- Self-Contrast: Explores potential paths, Contrasts differences and Summarizes them into checklist to better reason.
+- Many LLM agent errors are due to inconsistent feedback.
+
 
 ---
 
