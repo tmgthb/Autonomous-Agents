@@ -19,7 +19,40 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+
+#### 12th of January 2024
+
+[ModaVerse: Efficiently Transforming Modalities with LLMs](https://arxiv.org/abs/2401.06395)
+
+- ModaVerse: Introduces Adaptor+Agent framework for training multi-modal LLM able to process content across audio/video/image modalities.
+- Introduces Input/Output (I/O) Alignment: LLM generates language aligned meta-responses, which are instructions to activate specific generative models.
+- This method is capable of converting variety of modalities, while being very efficient to train.
+
+---
+
+[AntEval: Quantitatively Evaluating Informativeness and Expressiveness of Agent Social Interactions](https://arxiv.org/abs/2401.06509)
+
+- AntEval: a framework to evaluate LLM-agents social interactions with two metrics: Information Exchange Precision and Intention Expresiveness Gap.
+
+
+---
+
+[Mutual Enhancement of Large Language and Reinforcement Learning Models through Bi-Directional Feedback Mechanisms: A Case Study](https://arxiv.org/abs/2401.06603)
+
+- Investigates bi-directional feedback loop, where LLM agent acts as a teacher, while the RL agent acts as a student.
+
+
+---
+
 #### 11th of January 2024
+
+[EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction](https://arxiv.org/abs/2401.06201)
+
+- EASYTOOL: Creates a cleaned version of any tool/API documentation for LLM agent to use via single "tool instruction".
+- Tool documentation is translated into: tool descriptions and tool core functionality. Each are created using specific LLM instructions.
+- Significantly improves tool-based LLM agent performance. 
+
+---
 
 [Designing Heterogeneous LLM Agents for Financial Sentiment Analysis](https://arxiv.org/abs/2401.05799)
 
