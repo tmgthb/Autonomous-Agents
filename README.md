@@ -116,6 +116,12 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[INTERS: Unlocking the Power of Large Language Models in Search with Instruction Tuning](https://arxiv.org/abs/2401.06532)
+
+- Technique to tune LLM for "search": INstruction Tuning datasEt foR Search (INTERS).
+
+---
+
 #### 3rd of January 2024
 
 [Act as You Learn: Adaptive Decision-Making in Non-Stationary Markov Decision Processes](https://arxiv.org/abs/2401.01841)
