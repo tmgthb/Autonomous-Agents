@@ -80,6 +80,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459)
+
+- Reviews systematically "Personal LLM Agents" connected to personal data and devices for personal use.
+
+
+---
+
 
 [The Impact of Reasoning Step Length on Large Language Models](https://arxiv.org/abs/2401.04925)
 
