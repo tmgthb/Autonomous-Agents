@@ -1011,6 +1011,16 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 29th of Setember 2023
+
+[Motif: Intrinsic Motivation from Artificial Intelligence Feedback](https://arxiv.org/abs/2310.00166)
+
+- Motif: Trains a reward fucntion/model from pairs of gameplay captions and LLM observations of these game actions. Then train an agent using RL with the reward model.
+- Diverse behaviours triggered with the LLM improve in performance in specific domain: for example Gold Collector collects more cold.
+
+
+---
+
 #### 28th of September 2023
 
 [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
