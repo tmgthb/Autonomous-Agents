@@ -45,6 +45,11 @@ Autonomous Agents (LLMs). Updated daily
 - Automated resume screening, where segments from CV are classified into information types, personal information is removed. T
 - The HR grading LLM agent rates these resumes and another HR decision making agent picks preferred application with eplanation, which is then available for the HR professional.
 
+---
+
+[A Study on Training and Developing Large Language Models for Behavior Tree Generation](https://arxiv.org/abs/2401.08089)
+
+- LLMs used to generate Behavioural Trees (BT) generation for agents/robots.
 
 ---
 
