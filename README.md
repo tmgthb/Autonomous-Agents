@@ -29,6 +29,23 @@ Autonomous Agents (LLMs). Updated daily
 - The model trained with ultisensory Universe-dataset, performs multiple tasks: navigates, manipulates, uses tools, dialogue,
 - Encodes 3D-scenes as object centric representations, generate action token to be taken from current state token (temperature/tactile/sound/object) within the environment to reach new state observation in time. The new state token is fed back to LLM to drive follow up actions.
 
+
+---
+
+[DoraemonGPT: Toward Understanding Dynamic Scenes with Large Language Models](https://arxiv.org/abs/2401.08392)
+
+- DoramonGPT includes task-related symbolic memory, sub-task/knowledge tools and MCTS planner.
+- The task related symbolic memory will choose either the Spatial or Time-dimension as most relevant based on the LLM.   
+- DoramonGPT collecta information before reasoning, reasons spatial-temporal video, explores different solutions in a large planning space.
+
+---
+
+[Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315)
+
+- Automated resume screening, where segments from CV are classified into information types, personal information is removed. T
+- The HR grading LLM agent rates these resumes and another HR decision making agent picks preferred application with eplanation, which is then available for the HR professional.
+
+
 ---
 
 #### 12th of January 2024
