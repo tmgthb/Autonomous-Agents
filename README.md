@@ -47,9 +47,36 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 15th of January 2024
+
+[Exploring the Potential of Large Language Models in Self-adaptive Systems](https://arxiv.org/abs/2401.07534)
+
+- Literature review of Self-Adaptive Systems with LLMs.
+
+
+---
+
 [A Study on Training and Developing Large Language Models for Behavior Tree Generation](https://arxiv.org/abs/2401.08089)
 
 - LLMs used to generate Behavioural Trees (BT) generation for agents/robots.
+
+
+---
+
+[When Large Language Model Agents Meet 6G Networks: Perception, Grounding, and Alignment](https://arxiv.org/abs/2401.07764)
+
+-  Least Age-of-Thought (LAoT) model caching algorithm to manage local/global compute/network traffic to avoid model with least valuable thoughts. 
+
+
+---
+
+#### 14th of January 2024
+
+[CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/abs/2401.07339)
+
+- Introduces CodeAgent, a LLM agent able to use tools (search, code navigation and code interpreter) to generate code/create repositories (instructions, code dependencies) better than Github Copilot.
+- Introduces CodeAgentBench-dataset.
+- Code symbol navigation is key component, to explore: file/module-based parsing and class/function-symbol navigation. 
 
 ---
 
