@@ -78,6 +78,14 @@ Autonomous Agents (LLMs). Updated daily
 - Introduces CodeAgentBench-dataset.
 - Code symbol navigation is key component, to explore: file/module-based parsing and class/function-symbol navigation. 
 
+
+---
+
+[Small LLMs Are Weak Tool Learners: A Multi-LLM Agent](https://arxiv.org/abs/2401.07324)
+
+-  α-UMi:  Multi-agent LLM, which includes planner/caller and summarizer and tools.
+
+
 ---
 
 #### 12th of January 2024
