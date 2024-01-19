@@ -25,7 +25,7 @@ Autonomous Agents (LLMs). Updated daily
 
 - Self-rewarding LLMs: Ability for LLM to follow instructions and Ability to create/evaluate new training data (Self-Instruction creation).
 - LLLm-as-a-Judge: LLM acts as a reward model and self-reward its own responses.
-- Claims to outperform Claude 2/Gemini Pro/GPT-4 0613 with three iterations and ability to keep continuously improving.
+- Claims to outperform Claude 2/Gemini Pro/GPT-4 0613 with three iterations and ability to keep continuously improving both self-instructions and the reward signal.
 
 
 --- 
