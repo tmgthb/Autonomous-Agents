@@ -19,9 +19,38 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 18th of January 2024
+
+[https://arxiv.org/abs/2401.10020](https://arxiv.org/abs/2401.10020)
+
+- Self-rewarding LLMs: Ability for LLM to follow instructions and Ability to create/evaluate new training data (Self-Instruction creation).
+- LLLm-as-a-Judge: LLM acts as a reward model and self-reward its own responses.
+- Claims to outperform Claude 2/Gemini Pro/GPT-4 0613 with three iterations and ability to keep continuously improving.
+
+
+--- 
+
+
+#### 17th of January 2024
+
+[Large Language Models Are Neurosymbolic Reasoners](https://arxiv.org/abs/2401.09334)
+
+- LLM agent plays text-based game with access to Symbolic module.
+
+
+
+---
 
 #### 16th of January 2024
 
+[https://arxiv.org/abs/2401.08500](Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering)
+
+- AlphaCodium: Improves code solutions through AI code tests.
+- Iteratively reasons about code tests and reflects problem, generates AI tests to improve testing.
+- Two phases: Preprocessing (to reason new AI tests from ranked solutions feom public tests) and Code iteration (with public and AI tests).
+
+
+---
 
 [MultiPLY: A Multisensory Object-Centric Embodied Large Language Model in 3D World](https://arxiv.org/abs/2401.08577)
 
