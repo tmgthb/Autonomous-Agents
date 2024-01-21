@@ -21,7 +21,7 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 18th of January 2024
 
-[https://arxiv.org/abs/2401.10020](Self-Rewarding Language Models)
+[Self-Rewarding Language Models](https://arxiv.org/abs/2401.10020)
 
 - Self-rewarding LLMs: Ability for LLM to follow instructions and Ability to create/evaluate new training data (Self-Instruction creation).
 - LLLm-as-a-Judge: LLM acts as a reward model and self-reward its own responses.
