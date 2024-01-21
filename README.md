@@ -74,6 +74,14 @@ Autonomous Agents (LLMs). Updated daily
 - The task related symbolic memory will choose either the Spatial or Time-dimension as most relevant based on the LLM.   
 - DoramonGPT collecta information before reasoning, reasons spatial-temporal video, explores different solutions in a large planning space.
 
+
+---
+
+[Self-Imagine: Effective Unimodal Reasoning with Multimodal Models using Self-Imagination](https://arxiv.org/abs/2401.08025)
+
+- Self-Imagine: VLM creates HTML code about the text question, renders it as an image and uses the image with the question to answer the question with the VLM.
+
+
 ---
 
 [Application of LLM Agents in Recruitment: A Novel Framework for Resume Screening](https://arxiv.org/abs/2401.08315)
