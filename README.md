@@ -93,6 +93,13 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 15th of January 2024
 
+[AutoMix: Automatically Mixing Language Models](https://arxiv.org/abs/2310.12963)
+
+- AutoMix: Use a smaller LLM to generate initial response and uses Meta-Verifier to check the trustworthy in rough scale. If the answer is trustworthy then use the small LLM answer, otherwise consult a larger LLM.
+- Uses Incremental Benefit Per Unit Cost (IBC) metric to asses effectiveness of this approach.
+
+---
+
 [Exploring the Potential of Large Language Models in Self-adaptive Systems](https://arxiv.org/abs/2401.07534)
 
 - Literature review of Self-Adaptive Systems with LLMs.
