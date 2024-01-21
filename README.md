@@ -38,6 +38,13 @@ Autonomous Agents (LLMs). Updated daily
 - LLM agent plays text-based game with access to Symbolic module.
 
 
+---
+
+[ReFT: Reasoning with Reinforced Fine-Tuning](https://arxiv.org/abs/2401.08967)
+
+- Reinforced Fine-Tuning (ReFT): In the initial SFT-step, the model is trained to produce correct answers to mathematical problems.
+- In the second step, online RL with PPO is used to prompt multiple CoT responses to learn from them.
+- ReFT uses majority voting and reward model reranking. 
 
 ---
 
