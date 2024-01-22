@@ -52,6 +52,13 @@ Autonomous Agents (LLMs). Updated daily
 - Claims to outperform Claude 2/Gemini Pro/GPT-4 0613 with three iterations and ability to keep continuously improving both self-instructions and the reward signal.
 
 
+---
+
+[R-Judge: Benchmarking Safety Risk Awareness for LLM Agents](https://arxiv.org/abs/2401.10019)
+
+- R-Judge: Safety benchmark for LLM-agents, not LLM models on 27 risk scenarios.
+
+
 --- 
 
 
@@ -77,6 +84,12 @@ Autonomous Agents (LLMs). Updated daily
 
 - AIM: Visual models, which scale with both compute and data introduced.
 
+---
+
+[What makes for a 'good' social actor? Using respect as a lens to evaluate interactions with language agents](https://arxiv.org/abs/2401.09082)
+
+- LLM agent as as social (automated) actor.
+- Identifies what makes a good vs negative social behaviour for LLM agents.
 
 ---
 
