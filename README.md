@@ -251,6 +251,14 @@ Autonomous Agents (LLMs). Updated daily
 
 - Adding reasoning steps improvea accuracy unril 5th step.
 
+
+---
+
+[InfiAgent-DABench: Evaluating Agents on Data Analysis Tasks](https://arxiv.org/abs/2401.05507)
+
+- DABench-benchmark for LLM based data analysis and open sources Data analysis agent : DA Agent.
+
+
 ---
 
 #### 9th of January 2024
@@ -262,6 +270,12 @@ Autonomous Agents (LLMs). Updated daily
 - Agents events are recorded within short term memory with a threshold, which defines when long term and higher-level memories are distilled.
 - Defines initial stage of the EnvolvingSociety and the desired direction only.
 
+
+---
+
+[Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects](https://arxiv.org/abs/2401.03428)
+
+- Reviews LLM Intelligent agents: definitions, frameworks, single/multiple agents, compoments, cognitive features etc.
 
 --- 
 
