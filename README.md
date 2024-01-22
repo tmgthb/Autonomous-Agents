@@ -27,6 +27,20 @@ Autonomous Agents (LLMs). Updated daily
 - Tool-LMM: LLM is agent able to process multimodal inputs into APIs of the specific modalities.
 - Input modalities include, text, audio/text, text/video and text/image. The LLM text output includes recommendation of the API to be used and model information.
 
+
+---
+
+[A match made in consistency heaven: when large language models meet evolutionary algorithms](https://arxiv.org/abs/2401.10510)
+
+- Compares and finds multiple similarities between GPT-LLMs and Genetic Algorithm (GA)-evolutionary algorithms.
+
+
+---
+
+[CivRealm: A Learning and Reasoning Odyssey in Civilization for Decision-Making Agents](https://arxiv.org/abs/2401.10568)
+
+- CivicRealm: RL agent generalization benchmark, based on video game environment with various players and dynamic game space, imperfect information and random variability.
+
 ---
 
 #### 18th of January 2024
