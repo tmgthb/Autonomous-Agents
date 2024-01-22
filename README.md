@@ -921,6 +921,13 @@ Autonomous Agents (LLMs). Updated daily
 - Language agent to automatically identify ans quantify extent of generated images.
 - Planning and Reasoning. Tool usage: Intent understanding, Instruction generation, Instruction retrieval, Prompt optimization & Stereotype score generation.
 
+---
+
+#### 17th of October 2023
+
+[The next grand challenge for AI](https://www.ted.com/talks/jim_fan_the_next_grand_challenge_for_ai/transcript)
+
+- Foundational Agent: Agents, which scale in all three axis of: skills, embodiment and realities.  If chatgpt was scaled with data, foundational agents are scaled with realities.
 
 ---
 
@@ -1025,7 +1032,7 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
-#### 7th if October 2023
+#### 7th of October 2023
 
 [Crystal: Introspective Reasoners Reinforced with Self-Feedback](https://arxiv.org/abs/2310.04921)
 
