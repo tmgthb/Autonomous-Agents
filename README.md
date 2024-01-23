@@ -134,6 +134,14 @@ Autonomous Agents (LLMs). Updated daily
 - Automated resume screening, where segments from CV are classified into information types, personal information is removed. T
 - The HR grading LLM agent rates these resumes and another HR decision making agent picks preferred application with eplanation, which is then available for the HR professional.
 
+
+---
+
+[Contrastive Preference Optimization: Pushing the Boundaries of LLM Performance in Machine Translation](https://arxiv.org/abs/2401.08417)
+
+- Contrastive Preference Optimization (CPO): A potential improvement to DPO, applied in machine translation.
+
+
 ---
 
 #### 15th of January 2024
