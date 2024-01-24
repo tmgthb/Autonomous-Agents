@@ -19,6 +19,17 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+
+#### 23rd of January 2024
+
+[HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments](https://arxiv.org/abs/2401.12975)
+
+- HAZARD-benchmark made of three dynamic challenges for an embodied agents: flood, fire and wind, which  performance are evaluated in terms of value, steps and damage.
+- Builds LLM-based pipeline for embodied agents by providing it task description, agent status and target info. Agent reads environment information, includes observation memory and LLM-based decision maker to select the next action.
+- 
+
+---
+
 #### 22th of January 2024
 
 [WARM: On the Benefits of Weight Averaged Reward Models](https://arxiv.org/abs/2401.12187)
