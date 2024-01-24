@@ -22,6 +22,12 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 23rd of January 2024
 
+[AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963)
+
+- AutoRT: Fleet of robots use VLM and LLM 
+
+---
+
 [HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments](https://arxiv.org/abs/2401.12975)
 
 - HAZARD-benchmark made of three dynamic challenges for an embodied agents: flood, fire and wind, which  performance are evaluated in terms of value, steps and damage.
