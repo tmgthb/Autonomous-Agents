@@ -19,6 +19,33 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 22th of January 2024
+
+[WARM: On the Benefits of Weight Averaged Reward Models](https://arxiv.org/abs/2401.12187)
+
+- Weight Averaged Reward Models (WARM) models.
+
+---
+
+[PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety](https://arxiv.org/abs/2401.11880)
+
+- PySafe: Safety research on LLM agents based on behavioural/psychological-characteristics.
+
+---
+
+#### 21st of January 2024
+
+[AttentionLego: An Open-Source Building Block For Spatially-Scalable Large Language Model Accelerator With Processing-In-Memory Technology](https://arxiv.org/abs/2401.11459)
+
+- AttentionLego: LLM is implemented on Processing-In Memory (PIM) HW.
+
+---
+
+[The Conversation is the Command: Interacting with Real-World Autonomous Robot Through Natural Language](https://arxiv.org/abs/2401.11838) 
+
+- Simplistic robotic control using VLM and LLM: VLM to object textual description and scene comprehension. LLM for reasoning and REM-node to translate commands into robot actions.
+
+---
 
 #### 19th of January 2024
 
@@ -284,6 +311,14 @@ Autonomous Agents (LLMs). Updated daily
 [Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects](https://arxiv.org/abs/2401.03428)
 
 - Reviews LLM Intelligent agents: definitions, frameworks, single/multiple agents, compoments, cognitive features etc.
+
+---
+
+[Metacognition is all you need? Using Introspection in Generative Agents to Improve Goal-directed Behavior](https://arxiv.org/abs/2401.10910)
+
+-  Adds a metacognition to LLM agents for emulating System 1 and System 2 processes. The idea is to let LLMs "think about thinking".
+-  The Metacognition module (knowledge about itself, the task and the strategies) gets triggered to ask reflective questions, when the LLM agent is not making significant progress.
+-  The metacognition is used throughout the planning, evaluation, monitoring and cognition-steps using reflective questions and then stored in the meta-memory used.
 
 --- 
 
