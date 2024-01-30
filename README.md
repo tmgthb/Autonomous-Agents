@@ -20,6 +20,20 @@ Autonomous Agents (LLMs). Updated daily
 <div id="papers"> </div>  
 
 
+---
+
+#### 29th of January 2023
+
+[Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158)
+
+- Mobile-Agent: Multimodal Large Language Models (MLLM) for mobile devices, which locates visual/textual, plans, decomposes and executes complex tasks.
+- OS agnostic
+- Introduces Mobile-Eval benchmark and open sources [code](https://github.com/X-PLUG/MobileAgent).
+
+
+---
+
+
 #### 23rd of January 2024
 
 [AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963)
