@@ -20,15 +20,53 @@ Autonomous Agents (LLMs). Updated daily
 <div id="papers"> </div>  
 
 
+#### 30th of January 2024
+
+
+[Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios](https://arxiv.org/abs/2401.17167)
+
+- UltraTool Construction-framework includes three key steps: Query collection, Solution Annotation and Manual refinement. 
+- UltraTool: benchmarking LLM performance in using tools in real world.
+- Reviews tool use performance from planning, tool creation awareness, tool creation, tool usage awareness, tool selection and tool usage.
+
+
 ---
 
-#### 29th of January 2023
+[Can Large Language Models be Trusted for Evaluation? Scalable Meta-Evaluation of LLMs as Evaluators via Agent Debate](https://arxiv.org/abs/2401.16788)
+
+- Scale-Eval: Meta-evaluation framework using agents debates to reach consensus or align with human answer in various task scenarios.
+
+
+---
+
+[LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation](https://arxiv.org/abs/2401.17244)
+
+- LLaMP: ReAct-agents connected with arXiv, Wikiedia, Material Project-agents. Includes promts and json-formats used with the RAG-pipeline. Reduces hallucinations in material science queries.
+  
+
+---
+
+#### 29th of January 2024
 
 [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158)
 
 - Mobile-Agent: Multimodal Large Language Models (MLLM) for mobile devices, which locates visual/textual, plans, decomposes and executes complex tasks.
 - OS agnostic
 - Introduces Mobile-Eval benchmark and open sources [code](https://github.com/X-PLUG/MobileAgent).
+
+
+---
+
+#### 28th of January 2024
+
+[YODA: Teacher-Student Progressive Learning for Language Models](https://arxiv.org/abs/2401.15670)
+
+- YODA: Hunan-like progressive learning paradigm for LLMs, where student agent learns in fixed dataset by learning first basic questions, then learns to generalize and finally learns harder problems.
+- Teacher agent asks then similar questions from the student agent. The teacher agent gradually adds more complex and more generic questions after each iteration and offers feedback to the student agent for the answers provided.
+- The approach helps the student agent to learn to solve problems and generalize problems comprehensively, which leads to 10% improvement in MATH benchmark from the original Llama 2. 
+
+---
+
 
 
 ---
@@ -1767,6 +1805,13 @@ Autonomous Agents (LLMs). Updated daily
 
 - Enables reasoning with LLMs using CoT and Self-Consistency, where multiple, different reasoning paths are used to vote the most consistent answer.
 - Improves reasoning and math problem solving.
+
+
+---
+
+[Chain of Hindsight Aligns Language Models with Feedback](https://arxiv.org/abs/2302.02676)
+
+- Chain of Hindsight (CoH): Humans learn from feedback, which is converted sequences of sentences, ranked with human preferences and used to fine-tune the LLM.
 
 
 ---
