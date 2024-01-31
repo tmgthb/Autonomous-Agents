@@ -23,6 +23,14 @@ Autonomous Agents (LLMs). Updated daily
 #### 30th of January 2024
 
 
+[StrokeNUWA: Tokenizing Strokes for Vector Graphic Synthesis](https://arxiv.org/abs/2401.17093)
+
+- StrokeNUWA: Introduces image representations based on vector graphics using "stroke tokens". The approach does not require using raster/pixel representation.
+-  Includes components of: Vector-Quantized-Stroke (VQ-Stroke), Scalable Vector Graphics (SVG) compression, Encoder-Decoder LLM for SVG generation and post-processing SVG fixer.
+-  Enables 94 times faster inference speed and representing images as more "language like" manner of sequences of strokes.
+
+---
+
 [Planning, Creation, Usage: Benchmarking LLMs for Comprehensive Tool Utilization in Real-World Complex Scenarios](https://arxiv.org/abs/2401.17167)
 
 - UltraTool Construction-framework includes three key steps: Query collection, Solution Annotation and Manual refinement. 
