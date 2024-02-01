@@ -20,6 +20,18 @@ Autonomous Agents (LLMs). Updated daily
 <div id="papers"> </div>  
 
 
+---
+
+#### 1st of February 2024
+
+[Hello OLMo: A truly open LLM](https://blog.allenai.org/hello-olmo-a-truly-open-llm-43f7e7359222)
+
+- OLMo: First open access data, open weights, open source code LLM.
+- The model training data comes with need to agree to AI2's license terms wiith very clearly stated legal implications.
+
+
+---
+
 #### 30th of January 2024
 
 
@@ -28,6 +40,15 @@ Autonomous Agents (LLMs). Updated daily
 - StrokeNUWA: Introduces image representations based on vector graphics using "stroke tokens". The approach does not require using raster/pixel representation.
 -  Includes components of: Vector-Quantized-Stroke (VQ-Stroke), Scalable Vector Graphics (SVG) compression, Encoder-Decoder LLM for SVG generation and post-processing SVG fixer.
 -  Enables 94 times faster inference speed and representing images as more "language like" manner of sequences of strokes.
+
+
+---
+
+[Efficient Tool Use with Chain-of-Abstraction Reasoning](https://arxiv.org/abs/2401.17464)
+
+- Chain-of-Abstraction (CoA): trains LLMs with decoded reasoning chains using abstract placeholders and then call tools to complete the reasoning chain.
+- CoA learns more generic math reasoning and   
+
 
 ---
 
@@ -49,7 +70,7 @@ Autonomous Agents (LLMs). Updated daily
 
 [LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation](https://arxiv.org/abs/2401.17244)
 
-- LLaMP: ReAct-agents connected with arXiv, Wikiedia, Material Project-agents. Includes promts and json-formats used with the RAG-pipeline. Reduces hallucinations in material science queries.
+- LLaMP: ReAct-agents connected with arXiv, Wikipedia, Material Project-agents. Includes promts and json-formats used with the RAG-pipeline. Reduces hallucinations in material science queries.
   
 
 ---
@@ -65,6 +86,20 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Beyond Direct Diagnosis: LLM-based Multi-Specialist Agent Consultation for Automatic Diagnosis](https://arxiv.org/abs/2401.16107)
+
+- Patient consultation with muliple agents, starting with general practioner and then LLM agents in specific specialities: surgeon, respiratory doctor, endocrinologist.
+- Icludes three stages: Individual practitioner consultation, practitioner group consultation and agent-based groupdecision fusion.
+
+---
+
+[Divide and Conquer: Language Models can Plan and Self-Correct for Compositional Text-to-Image Generation](https://arxiv.org/abs/2401.15688)
+
+- CompAgent: LLM agent is manages the task of the entire image generation.
+- The LLM agent is used to plan composition of objects next to each other. Achieves better images for example when prompted to generate image with a red hat next to blue backpack.
+
+---
+
 #### 28th of January 2024
 
 [YODA: Teacher-Student Progressive Learning for Language Models](https://arxiv.org/abs/2401.15670)
@@ -73,8 +108,25 @@ Autonomous Agents (LLMs). Updated daily
 - Teacher agent asks then similar questions from the student agent. The teacher agent gradually adds more complex and more generic questions after each iteration and offers feedback to the student agent for the answers provided.
 - The approach helps the student agent to learn to solve problems and generalize problems comprehensively, which leads to 10% improvement in MATH benchmark from the original Llama 2. 
 
+
 ---
 
+#### 26th of January 2024
+
+[Turn-taking and Backchannel Prediction with Acoustic and Large Language Model Fusion](https://arxiv.org/abs/2401.14717)
+
+- Reviews how voice-assistant systems should predict and manage: turn-taking, backchanneling and continued speaking.
+- Contiying speaking refers to the other party needing to continue listening the current speaker. Backchanneling refers to the current listener needing to produce a short utterance of acceptance without meaning to take over the speaker role. Turn-taking refers to the listered being expected to take over speaking turn from the current speaker.
+- Creates fusion model combining both LLM (GPT-2/RedPajama) and HuBERT-acoustic model.
+
+---
+
+#### 24th of January 2024
+
+[Hi-Core: Hierarchical Knowledge Transfer for Continual Reinforcement Learning](https://arxiv.org/abs/2401.15098)
+
+- Hi-Core: Formulates goals as a high-level policy using LLM reasoning and then low-level policy learning towards these high-level goals. Policy library is used to store policies searchable with embeddings based on policy description.
+- Makes the important point, that to learn high-level human cognitive skills using transfer learning, we need to represent high-level human knowledge effectively to be able to transfer them into models.
 
 
 ---
