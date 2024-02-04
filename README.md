@@ -29,6 +29,13 @@ Autonomous Agents (LLMs). Updated daily
 - OLMo: First open access data, open weights, open source code LLM.
 - The model training data comes with need to agree to AI2's license terms wiith very clearly stated legal implications.
 
+---
+
+[Formal-LLM: Integrating Formal Language and Natural Language for Controllable LLM-based Agents](https://browse.arxiv.org/abs/2402.00798)
+
+
+- Formal-LLM: Context-Free Grammar (CFG) translates guidance and rules for each relevant task, which LLM text generation must follow when generating the plan.
+- Prevents generating invalid plans.   
 
 ---
 
