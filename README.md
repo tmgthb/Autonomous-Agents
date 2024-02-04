@@ -20,14 +20,24 @@ Autonomous Agents (LLMs). Updated daily
 <div id="papers"> </div>  
 
 
+#### 1st of February 2024
+
 ---
 
-#### 1st of February 2024
+[Efficient Exploration for LLMs](https://browse.arxiv.org/abs/2402.00396)
+
+- Actively exploration is used to achieve high performance with less feedback.
+- Uses double Thompson sampling with eistemic neural network (ENNs) to model reward uncertainty and least amount of queries.
+- Gemini Nano is used as baseline model, which output is compared with Best-of-N responses from Gemini Nano based on reward model.
+
+
+---
 
 [Hello OLMo: A truly open LLM](https://blog.allenai.org/hello-olmo-a-truly-open-llm-43f7e7359222)
 
 - OLMo: First open access data, open weights, open source code LLM.
 - The model training data comes with need to agree to AI2's license terms wiith very clearly stated legal implications.
+
 
 ---
 
