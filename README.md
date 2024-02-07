@@ -19,6 +19,39 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 6th of February 2024
+
+[Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
+
+- Reviews LLM agents capability to align humans in terms of emotional states, when new events take place.
+- LLM agent framework, where time series text memories are stored in graph database, which are summarized. As new events take place, the norm of the past episodic memories is combined with the current context. LLM agents emotional state is measured using pre-existing Positive And Negative Affect Schedule (PANAS)-framework to arrive a PANAS score of the current emotional state. Finally, the new memory is added to the graph database.
+- The LLM agent acts in a virtual town with multiple agents interacting for example inviting and assisting a party. Performance is reviewed using pre-existing EmotionBench-benchmark. LLM agents lack to some extent ability to align emotionally like humans.
+- Raises interesting concern, that GPT-3.5 may be biased to provide positive answers and therefore struggle to illustrate negative emotions.
+
+---
+
+[In-context learning agents are asymmetric belief updaters](https://arxiv.org/abs/2402.03969)
+
+- In-context learning: framing of the problem significantly impacts succesfullness.
+- LLMs learn better from better-than-expected outcomes rather than worse-than-expected outcomes. 
+
+
+---
+
+[Systematic Biases in LLM Simulations of Debates](https://arxiv.org/abs/2402.04049)
+
+- Reviews LLMs capability to generate believable simulation and current LLMs include a simulation bias for political debate. 
+- Self-fine tunes LLM to take a specific political stance by using politically-oriented question to reflect answers, which is more effective than prompt-profiling alone.
+- Illustrates the difficulty for LLMs to simulate specific human behaviour like a political views.
+
+
+---
+
+[Prioritizing Safeguarding Over Autonomy: Risks of LLM Agents for Science](https://arxiv.org/abs/2402.04247)
+
+- Takes safety research from LLM safety to LLM agent safety, which is more holistic view.
+- Scientific agent: Reviews LLM agent vulnerabilities within science domain: Data Insuffiency, Planning limitation, Tool limitations, LLM limitations and Lack of measurement. 
+- Introduces triangle framework: Human regulation (Intent), Agent alignment (Red teaming) and Agent regulation (environmental feedback). 
 
 ---
 
@@ -1311,6 +1344,16 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 11th of October 2023
 
+[The Temporal Structure of Language Processing in the Human Brain Corresponds to The Layered Hierarchy of Deep Language Models](https://arxiv.org/abs/2310.07106)
+
+- Evidence about strong correlation between layers activated in Deep Language Models (DLMs) and human brain high-order language areas: auditory,syntactic and semantic areas. 
+- Brain and DLMs both process input into multi dimensional vector embeddings, processed as sequences taking into account the context.
+- Identifies differences. One difference is, that human brain does not perform straightforward linear interpolation between the previous and current words, suggesting RNNs may better mimick human brain language processing. The other difference is, that humans do not learn only by reading text, but use data from multiple modalities.
+
+---
+
+#### 11th of October 2023
+
 [LangNav: Language as a Perceptual Representation for Navigation](https://arxiv.org/abs/2310.07889)
 
 - Uses BLIP to make imgae caption and DETR for object detection on image views to to obtain text descriptions, which a LLM agent uses to generate navigation instruction.
@@ -1940,7 +1983,16 @@ Autonomous Agents (LLMs). Updated daily
 
 - Chain of Hindsight (CoH): Humans learn from feedback, which is converted sequences of sentences, ranked with human preferences and used to fine-tune the LLM.
 
+---
 
+#### 7th of March 2022
+
+[Shared computational principles for language processing in humans and deep language models](https://www.nature.com/articles/s41593-022-01026-4)
+
+- Provides evidence  about three computational principles, shared both by Deep Language Models (DLMs) and human brain to process language.
+- The three principles are: continuous next-word prediction, contextual embeddings and surprise prediction error.
+
+  
 ---
 
 #### 28th of January 2022
