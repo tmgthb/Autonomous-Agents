@@ -42,6 +42,12 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[MobileVLM V2: Faster and Stronger Baseline for Vision Language Model](https://arxiv.org/abs/2402.03766)
+
+- Vision Language Model: MobileVLM V2.
+
+---
+
 
 [QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model](https://arxiv.org/abs/2402.03755)
 
@@ -128,6 +134,16 @@ Autonomous Agents (LLMs). Updated daily
 
 - LLMDB: Detailed data management framework with LLMs.
 - Components include: Preparation, Request pre-processing, Request parsing, Pipeline executor agent, Vector database and Data/Model management.
+
+---
+
+#### 2nd of February 2024
+
+[K-Level Reasoning with Large Language Models](https://arxiv.org/abs/2402.01521)
+
+- K-level of Reasoning: Recursive reasoning process, which improves dynamic reasoning by integrating cognitive hierarchy theory by recursively predicting and responding to the thoughts and actions of rivals.
+- In essence, multiple LLM agents take a context, reason on it and make decision in "k-1"-level. The reasoning is then repeated in the "k"-level by integrating the the analysis from "k-1"-level to arrive decision in the "k"-level.
+
 
 ---
 
