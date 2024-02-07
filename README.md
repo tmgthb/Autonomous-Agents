@@ -20,6 +20,56 @@ Autonomous Agents (LLMs). Updated daily
 <div id="papers"> </div>  
 
 
+---
+
+#### 5th of February 2024
+
+[Chain-of-Feedback: Mitigating the Effects of Inconsistency in Responses](https://arxiv.org/abs/2402.02648)
+
+- Recursive Chain-of-Feedback (R-CoF): Recursively breaks down complex reasoning problems into more easier and more detailed solutions and re-adjusts original reasoning based on the detailed correct reasoning.
+- Given a problem, asks LLM to generate answer using multiple reasoning steps, then LLM verifies the incorrect reasoning steps, LLM then recursively asks only to solve the incorrect reasoning steps using same approach. If the new answer is correct, it gets added to the higher level answer and otherwise repeats the recursive LLM call.
+
+
+[LLM Agents in Interaction: Measuring Personality Consistency and Linguistic Alignment in Interacting Populations of Large Language Models](https://arxiv.org/pdf/2402.02896.pdf)
+
+- Studies LLM agents capability to follow human personality profiles: analytical vs. creative personality.
+- Each profile demonstrates different levels of consistency towards its profile in writing style and in a personality test. 
+
+---
+
+[Graph-enhanced Large Language Models in Asynchronous Plan Reasoning](https://arxiv.org/abs/2402.02805)
+
+- Plan Like a Graph (PLaG): asynchronous plan reasoning with LLM: generates time estimations, identify step dependencies, converts the time estimates and dependencies into a graph processor and finally generate answer.
+- Creates AsyncHow-benchmark: for asynchronous plan reasoning, requiring ability to correctly add time, correctly comparing time durations and ability to solve constrained reasoning.
+- LLMs struggle efficiently completing complex asyncchronous plans without detailed illustration of how to solve the task.
+
+
+---
+
+#### 4th of February 2024
+
+[Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
+
+- Review studies about the LLM agents planning capabilities.
+- Categorizes these planning capabilities into: Task decomposition, Plan selection, External module, Reflection and Memory.
+- Identifies development areas in: evaluating efficiency of the planning, revisiting of planning strategies in multimodality and more realistic evaluations.
+
+---
+
+[Solution-oriented Agent-based Models Generation with Verifier-assisted Iterative In-context Learning](https://arxiv.org/abs/2402.02388)
+
+- SAGE: Modelling and Solving stages with Automatic Design and Generation of ABM.
+  
+
+---
+
+[LLM-Enhanced Data Management](https://arxiv.org/abs/2402.02643)
+
+- LLMDB: Detailed data management framework with LLMs.
+- Components include: Preparation, Request pre-processing, Request parsing, Pipeline executor agent, Vector database and Data/Model management.
+
+---
+
 #### 1st of February 2024
 
 ---
