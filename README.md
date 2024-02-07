@@ -21,6 +21,17 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 6th of February 2024
 
+
+[AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls](https://arxiv.org/abs/2402.04253)
+
+- AnyTool: LLM agent utilizing over 16k APIs.
+- API retriever with hierarchical structure with meta-agent, user query solver using candidate APIs and self-reflection mechanism for initial impractical solutions. Uses GPT-4 with function calling. 
+- Introduces AnyToolBench-benchmark.
+- Meta-agent is linked with multiple category agents each managing collection of tool agents.
+
+
+---
+
 [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
 
 - Reviews LLM agents capability to align humans in terms of emotional states, when new events take place.
@@ -30,6 +41,7 @@ Autonomous Agents (LLMs). Updated daily
 
 
 ---
+
 
 [QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model](https://arxiv.org/abs/2402.03755)
 
