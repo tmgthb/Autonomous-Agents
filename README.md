@@ -28,6 +28,22 @@ Autonomous Agents (LLMs). Updated daily
 - The LLM agent acts in a virtual town with multiple agents interacting for example inviting and assisting a party. Performance is reviewed using pre-existing EmotionBench-benchmark. LLM agents lack to some extent ability to align emotionally like humans.
 - Raises interesting concern, that GPT-3.5 may be biased to provide positive answers and therefore struggle to illustrate negative emotions.
 
+
+---
+
+[QuantAgent: Seeking Holy Grail in Trading by Self-Improving Large Language Model](https://arxiv.org/abs/2402.03755)
+
+- QuantAgent: Includes two LLM agents: Writer and Judge. The Writer-agent retrieves Knowledge Base (KB) and then generates answer based on the KB and submits the answer to real environment for evaluation. The Judge-agent retrieves relevant KB related to the review and it then generates score and feedback used in the next iteration.
+- The iteration continues until maximum number of steps is reached or the score is high enough.
+
+
+---
+
+[Beyond Lines and Circles: Unveiling the Geometric Reasoning Gap in Large Language Models](https://arxiv.org/abs/2402.03877)
+
+- Improves LLMs geometric reasoning with self-correction, collaboration and role specialization using geometric tools and four LLM agents.
+- Uses LLM agents with four roles: Natural language solver and validator, Geometric tool Solver and Validator.
+
 ---
 
 [In-context learning agents are asymmetric belief updaters](https://arxiv.org/abs/2402.03969)
