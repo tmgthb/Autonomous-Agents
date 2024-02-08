@@ -21,6 +21,14 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 6th of February 2024
 
+[Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620)
+
+- Self-Discover: Self-discovers complex reasoning structures outperforming CoT-Self-Consistency in MATH, while being more compute efficient. 
+- Select reasoning modules(for exampel CoT, etc), Adapt reasoning modules and Implement reasoning structures as key-value pair as json. 
+- Works with multiple LLMs and different types of reasoning scenarios.
+ 
+
+---
 
 [AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls](https://arxiv.org/abs/2402.04253)
 
