@@ -19,6 +19,29 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 7th of February 2024
+
+[The Future of Cognitive Strategy-enhanced Persuasive Dialogue Agents: New Perspectives and Trends](https://arxiv.org/abs/2402.04631)
+
+- CogAgent: Persuasion LLM agent framework.
+- Cognitive strategy mining, Cognitive Strategy Prediction for Dialogue Modelling and Application scenarios (bargaining, counselling, debating etc.)
+
+
+---
+
+[Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559)
+
+- Reviews LLM agents ability to simulate Trust. 
+
+---
+
+[ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615)
+
+- ScreenAI: a VLM. Screen user interfaces (UIs) understanding, dataset creation with LLMs.
+
+
+---
+
 #### 6th of February 2024
 
 [Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620)
