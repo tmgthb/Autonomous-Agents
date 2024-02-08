@@ -50,6 +50,15 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[S-Agents: self-organizing agents in open-ended environment](https://arxiv.org/abs/2402.04578)
+
+- S-Agents: Tree-of-Agents, where the leader LLM agent leads tree-like structure wiith executor agents.
+- Hourglass agent framework: Monitor progress and Hierarchical planning. 
+- Monitor progresss: starts with previous plan and perception used to monitor progress against objective. 
+- Hierarchical planning: plans long-term (task planner), takes current task and generates actions (action planner) in the environment and agents.
+
+---
+
 [Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning](https://arxiv.org/abs/2402.03667)
 
 - Indirect Reasoning (IR): Uses logic of contrapositives and contradictions for factual reasoning and math proofs.
