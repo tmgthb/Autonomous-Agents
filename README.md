@@ -42,6 +42,13 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning](https://arxiv.org/abs/2402.03667)
+
+- Indirect Reasoning (IR): Uses logic of contrapositives and contradictions for factual reasoning and math proofs.
+- Adding IR to factual reasoning increases overall accuracy compared to Direct Reasoning (DR) only or IR only. 
+
+---
+
 [MobileVLM V2: Faster and Stronger Baseline for Vision Language Model](https://arxiv.org/abs/2402.03766)
 
 - Vision Language Model: MobileVLM V2.
