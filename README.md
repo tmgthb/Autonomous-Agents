@@ -19,11 +19,6 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
-#### 9th of February
-
-
-
----
 
 #### 8th of February 2024
 
