@@ -19,7 +19,22 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 9th of February
+
+
+
+---
+
 #### 8th of February 2024
+
+[An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929)
+
+- Interactive Agent Foundational Model: A Generalist Agent interacts with humans and the environment with its visual-language capability. Multi-task, Multi-domain.
+- 277M parameter model is pretrained to predict with unified tokenization: text token, visual token and action/agent token. 
+- Defines Agent-based AI generates dynamic behaviours grounded on the contextual understanding of the uncertain environment.
+- Defines Embodied Agent Paradigm-term and defines three guiding principles for Embodied Agents: Perception, Planning and Interaction.
+
+---
 
 [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
 
