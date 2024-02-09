@@ -19,6 +19,16 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 8th of February 2024
+
+[WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
+
+- WebLINX: Real-time webpage control with LLMs.
+- Filters relevant web page elements
+
+
+---
+
 #### 7th of February 2024
 
 [The Future of Cognitive Strategy-enhanced Persuasive Dialogue Agents: New Perspectives and Trends](https://arxiv.org/abs/2402.04631)
