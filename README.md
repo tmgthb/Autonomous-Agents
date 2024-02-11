@@ -671,6 +671,16 @@ Autonomous Agents (LLMs). Updated daily
 -  The Metacognition module (knowledge about itself, the task and the strategies) gets triggered to ask reflective questions, when the LLM agent is not making significant progress.
 -  The metacognition is used throughout the planning, evaluation, monitoring and cognition-steps using reflective questions and then stored in the meta-memory used.
 
+---
+
+#### 7th of January 2024
+
+[Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
+
+- Agent AI system: Perceives and acts in different domains and applications.
+- Multi-modal generalist agent: Environment and Perception with task-planning and skill observation, Agent learning, Memory, Agent action; Cognition.
+
+
 --- 
 
 ### 4th of January 2024
