@@ -1323,6 +1323,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Key-value store for observation retrieval, parsed actions are executed by RCAgent or by Expert Agent.
 
+---
+
+[Diverse Conventions for Human-AI Collaboration](https://arxiv.org/abs/2310.15414)
+
+- Mixed-play: generates diverse conventions (arbitrary solutions to reocurring cooperation problems) by randomly switching between self-play (maximize award) and cross-play (Minimize) actions to maxime mixed-play.
+- CoMeDi (Cross-play optimized, Mixed-play enforced Diversity) algorithm is explained [](https://www.youtube.com/watch?time_continue=30&v=wm4f0sdKIUA&embeds_referring_euri=https%3A%2F%2Filiad.stanford.edu%2F&source_ve_path=MzY4NDIsMjg2NjY&feature=emb_logo).
 
 ---
 
