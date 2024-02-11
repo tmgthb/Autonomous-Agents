@@ -396,6 +396,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 22th of January 2024
 
+[OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics](https://arxiv.org/abs/2401.12202)
+
+- OK-robot (Open-Knowledge): 59% success rate in open ended picking and dropping task.
+- SOTA level in OVMM-benchmark.
+
+---
+
 [WARM: On the Benefits of Weight Averaged Reward Models](https://arxiv.org/abs/2401.12187)
 
 - Weight Averaged Reward Models (WARM) models.
