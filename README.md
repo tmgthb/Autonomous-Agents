@@ -237,6 +237,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - LLMDB: Detailed data management framework with LLMs.
 - Components include: Preparation, Request pre-processing, Request parsing, Pipeline executor agent, Vector database and Data/Model management.
 
+
+---
+
+[Collaborative Agents for Software Engineering](https://arxiv.org/abs/2402.02172)
+
+- CodeAgent: Autonomous Agent, a multi agent code review system.
+- SOTA in code review systema.
+
+
 ---
 
 #### 2nd of February 2024
