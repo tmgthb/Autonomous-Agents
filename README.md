@@ -168,6 +168,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[Guiding Language Model Math Reasoning with Planning Tokens](https://arxiv.org/abs/2310.05707)
+
+- Planning tokens improve LLM reasoning capabilities.
+- Add the planning tokens in the LLM generated answer based on CoT in the beginning of each reasoning step, such as planning token related to multiplying done on that reasoning step,
+
+---
+
 [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300)
 
 - DeepSeekMath: 7B model comparable with math reasoning of a 70B model, close to Gemini Ultra and GPT-4.
