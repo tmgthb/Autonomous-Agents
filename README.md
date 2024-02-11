@@ -31,6 +31,11 @@ Autonomous Agents (LLMs). Updated daily
 Agent actions impact directly task plans by not requiring environment feedback to plan next action.
 - MUltimodal systems preteained cross-modality grounded with environment hallucinate less by being grounded with the physical/virtual environment and require less size, than models pretrained separately/without grounding.
 
+---
+
+[Discovering Temporally-Aware Reinforcement Learning Algorithms](https://arxiv.org/abs/2402.05828)
+
+- Reviews temporal reinforcement learning and Meta-learning.
 
 ---
 
