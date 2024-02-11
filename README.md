@@ -1662,6 +1662,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Multimodal Chain-of-Actions Agents (Auto-UI) interacts directly with the UI
 - Chain-ofAction technique using series of action histories and future action plans.
 
+---
+
+#### 18th of September 2023
+
+[MindAgent: Emergent Gaming Interaction](https://arxiv.org/abs/2309.09971)
+
+- MindAgent: Planning skills and Tools use(Agent location, Tool state, Agent holdings, Pending dishes, Timer), LLM dispatcher, Memory history (Environment, Agent State, Actions and Feedback) and Action module(Controller, Human actions, Action validator, Action Types/Patterns/Names).
+- Introduces CuisineWorld-benchmark, where multiple agents play game simultaneously through multi-agent collaboration.
+
 
 ---
 
