@@ -811,7 +811,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-#### 18th of Deceomber 2023
+#### 18th of December 2023
 
 [Agent Assessment of Others Through the Lens of Self](https://arxiv.org/abs/2312.11357)
 
@@ -1690,6 +1690,18 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Multi-agent: Planning, memory, tool usage, multi-agent communication & symbolic control.
 - Open source library.
 
+
+---
+
+<div id="physicalgrounding"> </div>
+
+#### 13th of September 2023
+
+[Physically Grounded Vision-Language Models for Robotic Manipulation](https://arxiv.org/abs/2309.02561)
+
+- PhysObjects dataset for physical grounding.
+- VLMs with PhysObjects improves its understanding on physical objects.
+- Improves task success rate.
 
 ---
 
