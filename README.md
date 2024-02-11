@@ -39,6 +39,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - WebLINX: Real-time webpage control with LLMs.
 - Filters relevant web page elements
 
+---
+
+[How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863)
+
+- NegotionArena bencbmark: to measure LLMs ability to negotiate. 
 
 ---
 
