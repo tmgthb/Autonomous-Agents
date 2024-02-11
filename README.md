@@ -24,12 +24,19 @@ Autonomous Agents (LLMs). Updated daily
 
 [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929)
 
-
 - Interactive Agent Foundational Model: A generalist agent. Multi-task, Multi-domain: Healthcare, Gaming AI and Robotics.
 - Interactive Agent framework: action encoder, visual encoder and language encoder. Pretrained to predict masked unified tokens for the three modalities: text token, visual token and action/agent token from each separate token per input type. Effectively generalizes between domains.
 - Defines term "Agent-based AI" as generating dynamic behaviours grounded on the context understanding of uncertain environment. Defines "Embodied Agent-paradigm principles": Perception, Planning and Interaction.
 Agent actions impact directly task plans by not requiring environment feedback to plan next action.
 - MUltimodal systems preteained cross-modality grounded with environment hallucinate less by being grounded with the physical/virtual environment and require less size, than models pretrained separately/without grounding.
+
+--- 
+
+[Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
+
+- A literature review of Robotics Foundationa models.
+- Reviews Input/Ourput relationships of models, perception, motion planning and control.
+
 
 ---
 
