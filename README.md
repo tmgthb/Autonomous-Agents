@@ -35,7 +35,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 [Discovering Temporally-Aware Reinforcement Learning Algorithms](https://arxiv.org/abs/2402.05828)
 
-- Reviews temporal reinforcement learning and Meta-learning.
+- Reviews Temporally-aware reinforcement learning and Meta-learning.
 
 ---
 
