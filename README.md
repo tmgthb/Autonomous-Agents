@@ -45,6 +45,9 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 8th of February 2024
 
+<div id="interactiveagent"> </div>  
+
+
 [An Interactive Agent Foundation Model](https://arxiv.org/abs/2402.05929)
 
 - Interactive Agent Foundational Model: A generalist agent. Multi-task, Multi-domain: Healthcare, Gaming AI and Robotics.
@@ -735,6 +738,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 -  The metacognition is used throughout the planning, evaluation, monitoring and cognition-steps using reflective questions and then stored in the meta-memory used.
 
 ---
+
+<div id="agentbasedai"> </div>  
+
 
 #### 7th of January 2024
 
@@ -2353,9 +2359,15 @@ Consciousness research:
 - RL agents can use LLMs and VLMs as Reward models or to generate reward functions.
 - LLMs can generate code to for a robot, car or embodied agent to interact within an environment. 
 
-### LLM agents
+### LLM/VLM agents
 - Research papers have assigened succesfully wide range of roles, wide range of tasks, wide range of environments and wide range of cognitive functions to LLMs.
-- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future. 
+- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future.
+- Multiple papers review LLMs with perception capability using VLMs. In essence, VLM-based models improve system capabilities over LLMs due to their capability to visually ground input text.
+- Other models continue adding more modalities: audio, actions etc. Therefore, Agents are better called as multimodal agents, despite there is not yet generally agreed number of modalities required or desired. 
+
+### Agent-based AI
+- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
+- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
 
 ### Autonomous Agents
 - The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
