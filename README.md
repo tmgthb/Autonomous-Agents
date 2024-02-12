@@ -76,6 +76,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - A literature review of Robotics Foundationa models.
 - Reviews Input/Ourput relationships of models, perception, motion planning and control.
 
+---
+
+[TimeArena: Shaping Efficient Multitasking Language Agents in a Time-Aware Simulation](https://arxiv.org/abs/2402.05733)
+
+- TimeArena: A textual simulation environment for LLM agents to complete tasks as soon as possible.
+- 30 real world like tasks from household activities to laboratory work. Illustrates, that GPT-4 lacks temporal awareness such as failing to recognize opportunities in parallel processing.
 
 ---
 
