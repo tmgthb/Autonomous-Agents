@@ -819,6 +819,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+<div id="spin"> </div>  
+
+[Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/abs/2401.01335)
+
+- Self-Play fIne-tuNing (SPIN): Fine-tuning LLMs based on Self-play mechanism, where the main player is the to-be learned LLM from the current iteration and its opponent is the same LLM from the previous iteration.
+
+---
+
 #### 21st of December 2023
 
 [AppAgent: Multimodal Agents as Smartphone Users](https://arxiv.org/abs/2312.13771)
@@ -2364,6 +2372,7 @@ Consciousness research:
 - [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
 - LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
 - [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
+- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
 ### Tree-structures enable searching large reasoning trees for a solution to a complex problem
 - [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
