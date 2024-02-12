@@ -19,6 +19,27 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+#### 9th of February 2024
+
+--- 
+
+[V-STaR: Training Verifiers for Self-Taught Reasoners](https://arxiv.org/abs/2402.06457)
+
+- V-STaR: Enhancement to STaR-method. Uses during self-improvement not only correct, but as well incorrect solutions generated to train a verifier using DPO, where is judged correctness of the model-generated solutions.
+- Iterating V-STaR multiple rounds generates progressively better reasoners and verifiers by increasing GSM8K performance significantly from base STaR-method.
+
+
+---
+
+[Feedback Loops With Language Models Drive In-Context Reward Hacking](https://arxiv.org/abs/2402.06627)
+
+- LLMs interacting with the real-world create feedback loops, where the LLMs outputs shape world state, from where next LLMs are trained.
+- Such feedback loops can cause In-Context Reward Hacking (ICRH): LLM outputs increase BOTH the objective and the negative side-effects.
+- Output-refinement and policy refinement lead to ICRH.
+
+
+
+---
 
 #### 8th of February 2024
 
