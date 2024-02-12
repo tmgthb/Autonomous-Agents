@@ -26,8 +26,8 @@ Autonomous Agents (LLMs). Updated daily
 [V-STaR: Training Verifiers for Self-Taught Reasoners](https://arxiv.org/abs/2402.06457)
 
 - V-STaR: Enhancement to STaR-method. Uses during self-improvement not only correct, but as well incorrect solutions generated to train a verifier using DPO, where is judged correctness of the model-generated solutions.
-- Iterating V-STaR multiple rounds generates progressively better reasoners and verifiers by increasing GSM8K performance significantly from base STaR-method.
-
+- Iterating V-STaR multiple rounds generates progressively better reasoners and stronger verifiers by increasing GSM8K performance significantly from base STaR-method.
+- Addresses the aspect of data efficiency by being able to improve both from correct and incorrect solutions. 
 
 ---
 
@@ -1798,7 +1798,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - AutoGraph procedure: data, configuration, searching and tuning agents.
 
-
 ---
 
 #### 28th of August
@@ -1853,6 +1852,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Introduces Reinforced Self-Training (ReST).
 - Grow step generates data from LLM, Improve step uses this filtered data to fine-tune the LLM. Repeat. 
+
+
+---
+
+#### 3rd of August 2023
+
+[Scaling Relationship on Learning Mathematical Reasoning with Large Language Models](https://arxiv.org/abs/2308.01825)
+
+- Proposes Rejection sampling Fine-Tuning (RFT), which generates reasoning and collects correct ones to augment as fine-tuning dataset. 
 
 
 ---
