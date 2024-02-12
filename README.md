@@ -39,7 +39,20 @@ Autonomous Agents (LLMs). Updated daily
 - Such feedback loops can cause In-Context Reward Hacking (ICRH): LLM outputs increase BOTH the objective and the negative side-effects.
 - Output-refinement and policy refinement lead to ICRH.
 
+---
 
+<div id="llmsurveymikolov"> </div>  
+
+[Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
+
+- Reviews past years LLM research: LLM model families, building of LLMs, using of LLMs, LLM datasets, LLM metrics and future directions and challenges.
+- Includes deployment pipelines, vector databases, prompting pipelines and LLM training/inference frameworks
+
+---
+
+[Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet](https://arxiv.org/abs/2401.03630)
+
+- Identifies three reasons on why multi-agent path finding with LLMs does not work: model limitation, lack of understanding and lack of reasoning.
 
 ---
 
@@ -2303,7 +2316,7 @@ Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdef
 
 In 2023, several research studies have mapped the concepts of Autonomous Agents:
 
-- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap)
+- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
 
 These chains may use different types of:
 
@@ -2315,7 +2328,6 @@ These chains may use different types of:
 - Environments (code interpreter/browser/api/RL environment/real world),
 - Embodiments (LLM call/virtual enviroment/robotics/real world) and
 - Autonomity (manual/interactive/fully autonomous).
-
 
 Consciousness research:
 - There is a conceptiually defined [consciousness test](#consciousnesstest).
