@@ -85,6 +85,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[In-Context Principle Learning from Mistakes](https://arxiv.org/abs/2402.05403)
+
+- Learning Principles (LEAP): Intentially guide LLM to make mistakes on few examples to reflect on them and learn task-specific principles.
+- Improves MATH reasoning capability. 
+---
+
 [Discovering Temporally-Aware Reinforcement Learning Algorithms](https://arxiv.org/abs/2402.05828)
 
 - Reviews Temporally-aware reinforcement learning and Meta-learning.
@@ -101,6 +107,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863)
 
 - NegotionArena bencbmark: to measure LLMs ability to negotiate. 
+
+---
+
+[Decision Theory-Guided Deep Reinforcement Learning for Fast Learning](https://arxiv.org/abs/2402.06023)
+
+- Decision Theory-guided Deep Reinforcement Learning (DT-guided DRL): addresses cold start problem in RL.
+- Promotes more structural and informed exploration strategy.
+
 
 ---
 
