@@ -18,6 +18,15 @@ Autonomous Agents (LLMs). Updated daily
 
 
 <div id="papers"> </div>  
+
+#### 12th of February 2024
+
+[Predictive representations: building blocks of intelligence](https://arxiv.org/abs/2402.06590)
+
+- Successor Representation (SR) may function as versatile building blocks of intelligence.
+
+
+---
  
 #### 9th of February 2024
 
