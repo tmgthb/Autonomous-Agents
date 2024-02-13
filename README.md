@@ -48,6 +48,14 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Understanding the Weakness of Large Language Model Agents within a Complex Android Environment](https://arxiv.org/abs/2402.06596)
+
+- AndroidArena benchmark for measuring LLMs capability to control a modern operating system.
+- Main failure modes: understanding, reasoning, exploration, and reflection.
+  
+
+---
+
 <div id="llmsurveymikolov"> </div>  
 
 [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
