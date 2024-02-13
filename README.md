@@ -472,6 +472,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 23rd of January 2024
 
+[Meta-Prompting: Enhancing Language Models with Task-Agnostic Scaffolding](https://arxiv.org/abs/2401.12954)
+
+- Meta-prompting: LLM coordinate and execute multiple independent queries with their responses to generate final answer.
+
+
+---
+
+
 [AutoRT: Embodied Foundation Models for Large Scale Orchestration of Robotic Agents](https://arxiv.org/abs/2401.12963)
 
 - AutoRT: Fleet of robots use VLM and LLM 
