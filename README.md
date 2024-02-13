@@ -18,7 +18,7 @@ Autonomous Agents (LLMs). Updated daily
 
 
 <div id="papers"> </div>  
-
+ 
 #### 9th of February 2024
 
 <div id="vstar"> </div>  
@@ -30,6 +30,13 @@ Autonomous Agents (LLMs). Updated daily
 - V-STaR: Enhancement to STaR-method. Uses during self-improvement not only correct, but as well incorrect solutions generated to train a verifier using DPO, where is judged correctness of the model-generated solutions.
 - Iterating V-STaR multiple rounds generates progressively better reasoners and stronger verifiers by increasing GSM8K performance significantly from base STaR-method.
 - Addresses the aspect of data efficiency by being able to improve both from correct and incorrect solutions. 
+
+
+---
+
+[Alphazero-like Tree-Search can Guide Large Language Model Decoding and Training](https://arxiv.org/abs/2309.17179)
+
+- TS-LLM: a tree search guided LLM decoding with learned value function applicable for reasoning tasks.
 
 ---
 
