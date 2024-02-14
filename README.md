@@ -19,18 +19,13 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
-####  14th of February 2024
-
-[Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback](https://arxiv.org/abs/2402.08546)
-
-- Brain-Body LLM(BB-LLM): Brain-LLM defines high-level plans for robot. The BodyLLM converts them into low-level planned actions as robot commands. 
-
-
 ---
 
 #### 13th of February 2024
 
--
+[Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback](https://arxiv.org/abs/2402.08546)
+
+- Brain-Body LLM(BB-LLM): Brain-LLM defines high-level plans for robot. The BodyLLM converts them into low-level planned actions as robot commands. 
 
 
 ---
