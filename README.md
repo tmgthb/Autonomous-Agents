@@ -19,6 +19,22 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+####  14th of February 2024
+
+[Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback](https://arxiv.org/abs/2402.08546)
+
+- Brain-Body LLM(BB-LLM): Brain-LLM defines high-level plans for robot. The BodyLLM converts them into low-level planned actions as robot commands. 
+
+
+---
+
+#### 13th of February 2024
+
+-
+
+
+---
+
 #### 12th of February 2024
 
 [Predictive representations: building blocks of intelligence](https://arxiv.org/abs/2402.06590)
@@ -92,6 +108,17 @@ Autonomous Agents (LLMs). Updated daily
 - Defines term "Agent-based AI" as generating dynamic behaviours grounded on the context understanding of uncertain environment. Defines "Embodied Agent-paradigm principles": Perception, Planning and Interaction.
 Agent actions impact directly task plans by not requiring environment feedback to plan next action.
 - MUltimodal systems preteained cross-modality grounded with environment hallucinate less by being grounded with the physical/virtual environment and require less size, than models pretrained separately/without grounding.
+
+
+---
+
+[UFO: A UI-Focused Agent for Windows OS Interaction](https://arxiv.org/abs/2402.07939)
+
+- UI-Focused (UFO) agent: Automatically controlling Windows OS. The system includes two VLM-based agents: AppAgent (Application Selection Agent) and ActAgent (Action Selection Agent).
+- AppAgent uses User input, Desktop screenshot, App information, Examples and Memory. It chooses application to complete the task, generates global plan. AppAgent outputs observation, Thoughts, Selected App, Status, Global pla and Comment.
+- ActAgent takes as input  User request, Screenshots (highlighted last action, clean, annotated), Control information, Examples and Memory. ActAgent pursues local plans and actions until meeting the goal / receives observations from apps / interacts with memory. Outputs observation, Thoughts, Labeled control operation, Function, Status, Local plan and Comment.
+- Control Interaction module grounds actions.
+
 
 --- 
 
@@ -265,6 +292,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Recursive Chain-of-Feedback (R-CoF): Recursively breaks down complex reasoning problems into more easier and more detailed solutions and re-adjusts original reasoning based on the detailed correct reasoning.
 - Given a problem, asks LLM to generate answer using multiple reasoning steps, then LLM verifies the incorrect reasoning steps, LLM then recursively asks only to solve the incorrect reasoning steps using same approach. If the new answer is correct, it gets added to the higher level answer and otherwise repeats the recursive LLM call.
+
+
+---
+
+[Vision-Language Models Provide Promptable Representations for Reinforcement Learning](https://arxiv.org/abs/2402.02651)
+
+-  Promptable Representations for Reinforcement Learning (PR2L): the model asks from VLM about the game tasks, such as in case a spider is visiblle. The VLM responds semantic features or knowledge, which then better help the system to advance in the game by connecting what is seen with what it needs to do. This ensures, that the system actions are grounded with the reality of what is going on in the game. 
+-  Initializes RL policy using VLM representation.
+-  PR2L was not trained to play Minecraft only, but it still plays at level closed to models specifically trained with Minecraft games.
+
 
 ---
 
