@@ -60,6 +60,15 @@ Autonomous Agents (LLMs). Updated daily
 - Agent Smith: "Infectious Jailbraking" Technique, which infects single LLM agent, that then infects with exponential growth rate the remaining agents.
 - Concering technique reminding traditional computer virus, because the computational/time/resource expenses of infecting single agent remain low, but includes capability of infecting rest of the agents.
 
+
+---
+
+[Simulating Human Strategic Behavior: Comparing Single and Multi-agent LLMs](https://arxiv.org/abs/2402.08189)
+
+- Investigation on LLMs capability to simulate human strategic behaviour.
+- Compares Multiagent vs. Single LLM agent performance in the Ultimatum game and finds multiagent system more accurately simulating human behaviour.
+
+
 ---
 
 [Large Language Models as Minecraft Agents](https://arxiv.org/abs/2402.08392)
