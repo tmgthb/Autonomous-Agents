@@ -22,6 +22,19 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 15th of February 2024
+
+
+[A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/abs/2402.09727)
+
+- ReadAgent: very long context management through gist-memories and pagination for web browsing.
+- ReadAgent: LLM decided what content to store as episode pagination, LLM compresses page memory as shorter gist memory (see fuzzy-trace theory about memory) and LLM decides the pages to look up per given task and the gist memories related to the context of the task. The agent then retrieves the related page information to complete the task.
+- Extends effective context window by 3-20x and keeps failure rate close to 0%, which is significantly less than traversing tree with a MemWalker-like solution.
+- Gist-memory improves Web navigation over using raw html inputs, which is by nature a very long context task.
+
+ 
+---
+
 #### 14th of February 2024
 
 [AgentLens: Visual Analysis for Agent Behaviors in LLM-based Autonomous Systems](https://arxiv.org/abs/2402.08995)
