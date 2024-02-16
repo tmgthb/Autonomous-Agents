@@ -193,10 +193,19 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://arxiv.org/abs/2402.07945)
+
+- VLM to control a real computer screen/GUI.
+- Includes Planning, Acting and Reflecting phases.
+
+---
+
 [In-Context Principle Learning from Mistakes](https://arxiv.org/abs/2402.05403)
 
 - Learning Principles (LEAP): Intentially guide LLM to make mistakes on few examples to reflect on them and learn task-specific principles.
 - Improves MATH reasoning capability. 
+
+
 ---
 
 [Discovering Temporally-Aware Reinforcement Learning Algorithms](https://arxiv.org/abs/2402.05828)
