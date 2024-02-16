@@ -87,10 +87,23 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 12th of February 2024
 
+[OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
+
+- FRIDAY: Self-improving embodied agent to interact with OS.
+- OS-Copilot framework: Planner, Configurator to update or retrieve (Declarative memory for user profile and Semantic knowledge/Procedural memory for tools), Actor (Executor / Critic).
+- Learns to control and self-improve.
+
+---
+
 [Predictive representations: building blocks of intelligence](https://arxiv.org/abs/2402.06590)
 
 - Successor Representation (SR) may function as versatile building blocks of intelligence.
 
+---
+
+[Secret Collusion Among Generative AI Agents](https://arxiv.org/abs/2402.07510)
+
+- Model capability evaluation framework on Secret collusion.
 
 ---
 
