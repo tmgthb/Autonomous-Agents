@@ -24,6 +24,13 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 15th of February 2024
 
+[Chain-of-Thought Reasoning Without Prompting](https://arxiv.org/abs/2402.10200)
+
+- CoT-Decoding: CoT without prompting. LLMs inherently pose reasoning abilities.
+- Uses top-k alternative tokens to uncover CoT paths, which are frequently paths discovered in CoT. 
+
+
+---
 
 [A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts](https://arxiv.org/abs/2402.09727)
 
