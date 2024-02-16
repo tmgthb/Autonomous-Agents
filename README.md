@@ -19,6 +19,31 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+
+---
+
+#### 14th of February 2024
+
+[AgentLens: Visual Analysis for Agent Behaviors in LLM-based Autonomous Systems](https://arxiv.org/abs/2402.08995)
+
+- AgentLens: visual analysis of of LLM based autonomous agents and exploration of their behaviours.
+- UI includesOutline view, Agent view and Monitor view. Summarizes raw events, Descriptions of generated behaviours, Behaviour embeddings, Timeline segmentation.
+- The behavioural embeddings: enables plotting specific behaviours in time, which is very effective approach. 
+
+
+---
+
+[Towards better Human-Agent Alignment: Assessing Task Utility in LLM-Powered Applications](https://arxiv.org/abs/2402.09015)
+
+- AgentEval: framework to verify utility of the LLM tool through automatic criteria creation for a given task to review meeting of user needs. 
+- Includes CriticAgent to list criteria of accepted values and QuantifierAgent verifying suggested criteria.
+
+---
+
+[DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/abs/2402.09353)
+
+- Next generation LoRA. Get more out from your LLM, while not directly related to agents.
+
 ---
 
 #### 13th of February 2024
@@ -30,12 +55,40 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+[Agent Smith: A Single Image Can Jailbreak One Million Multimodal LLM Agents Exponentially Fast](https://arxiv.org/abs/2402.08567)
+
+- Agent Smith: "Infectious Jailbraking" Technique, which infects single LLM agent, that then infects with exponential growth rate the remaining agents.
+- Concering technique reminding traditional computer virus, because the computational/time/resource expenses of infecting single agent remain low, but includes capability of infecting rest of the agents.
+
+---
+
+[Large Language Models as Minecraft Agents](https://arxiv.org/abs/2402.08392)
+
+- Develops Minecraft Builder and Architect LLM agents using JSON-format with capacity to ask clarifying questions from the LLM.
+
+  
+---
+
+[PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment](https://arxiv.org/abs/2402.08702)
+
+- PROMST: Optimizes prompts. Includes TaskLLM and PromptLLM. PromptLLM generates new prompt suggestions from existing best prompts and their feedbacks. New candidates are selected by score prediction model. 
+
+
+---
+
 #### 12th of February 2024
 
 [Predictive representations: building blocks of intelligence](https://arxiv.org/abs/2402.06590)
 
 - Successor Representation (SR) may function as versatile building blocks of intelligence.
 
+
+---
+
+
+[THE COLOSSEUM: A Benchmark for Evaluating Generalization for Robotic Manipulation](https://arxiv.org/abs/2402.08191)
+
+- THE COLOSSEUM benchmark for robot manipulation generalization through 20 diverse tasks.
 
 ---
  
@@ -1765,6 +1818,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[EcoAssistant: Using LLM Assistant More Affordably and Accurately](https://arxiv.org/abs/2310.03046)
+
+- EcoAssistant: Enables LLM agent to converse with code executor to iteratively produce answers based on code produced. Hierachical structure, where cheaper and weaker LLM is used before trying the stronger and expensive LLM.
+- Surpasses GPT-4 10% in performance with 50% less cost.
+- 
+
+---
+
 [Large Language Models as Analogical Reasoners](https://arxiv.org/abs/2310.01714)
 
 - LLM self-generates examples/knowledge related to the task.
@@ -1950,6 +2011,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
+
+- AutoGen: An open source framework, where LLM agents converse with other LLM agents either one or many, chat with humans and use tools.
+- LLM agents are able to create new chats with other LLM agents.
+
+---
+
+
 [WizardMath: Empowering Mathematical Reasoning for Large Language Models via Reinforced Evol-Instruct](https://arxiv.org/abs/2308.09583)
 
 - Improves math reasoning with Reinforcement Learning from Evol-Instruct Feedback (RLEIF): Upward and Downward evolution improve instructions by making questions easier or harder based on their difficulty level.
@@ -1975,15 +2044,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Proposes Rejection sampling Fine-Tuning (RFT), which generates reasoning and collects correct ones to augment as fine-tuning dataset. 
 
-
----
-
-####
-
-[AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation](https://arxiv.org/abs/2308.08155)
-
-- AutoGen: An open source framework, where LLM agents converse with other LLM agents either one or many, chat with humans and use tools.
-- LLM agents are able to create new chats with other LLM agents.
 
 ---
 
@@ -2060,6 +2120,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Auto-GPTs outperforms supervised state-of-the-art Imitiation Learning (IL) models with GPT4 in WebShop- and ALFWorld-benchmarks in unknown external environments.
 - Additional opinions algorithm improves performance, which takes into account additional opinions from external expert models.
+
+
+---
+
+#### 2nd of June 2023
+
+- MathChat: Describes a solid conversational MATH problem solving in four step process.
+- Describes the prompts used.
 
 ---
 
@@ -2150,7 +2218,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Interview of Ilya Sustskever, where defined a way to perform "a consciousness test" from a very controlled dataset, see "minute 15".
  
-  
+---
+
+#### 21st of April 2023
+
+[Improving Grounded Language Understanding in a Collaborative Environment by Interacting with Agents Through Help Feedback](https://arxiv.org/abs/2304.10750)
+
+- LLM agent self-help with LLM to complete IGLU tasks using clarifying questions.
+- 
 ---
 
 #### 13th of April 2023
@@ -2271,6 +2346,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Reflexion agents reflect on task feedback, use it from memory to make better decisions and new attempts.
 
+---
+
+[Cost-Effective Hyperparameter Optimization for Large Language Model Generation Inference](https://arxiv.org/abs/2303.04673)
+
+- EcoOptiGen: Hyperparameter tuning of LLMs.
 
 ---
 
