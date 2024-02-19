@@ -25,7 +25,8 @@ Autonomous Agents (LLMs). Updated daily
 
 [Robust agents learn causal world models](https://arxiv.org/abs/2402.10877)
 
-- Implies causal understanding is required for robust generalization
+- Implies causal understanding is required for robust generalization.
+- Causal models can be learned from adaptive agents.
 
 
 ---
