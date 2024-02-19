@@ -2499,6 +2499,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Defines Retrieval-Augmented Generation (RAGs).
 
+---
+
+#### 12th of November 2020
+
+<div id="rewardisenough">  </div>
+
+[Reward is enough](https://www.sciencedirect.com/science/article/pii/S0004370221000862)
+
+- Reward is sufficient to drive intelligent behaviours instead of requiring special formulations.
+- Agents could learn to obtain various intelligent behaviours through trial and error experiences to maximize reward.
+- Sophisticated intelligence may emerge from simple objective, think what an animal is able to learn to do just by being in hungry.
 
 ---
 
