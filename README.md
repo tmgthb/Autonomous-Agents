@@ -19,6 +19,14 @@ Autonomous Agents (LLMs). Updated daily
 
 <div id="papers"> </div>  
 
+---
+
+#### 16th of February 2024
+
+[Robust agents learn causal world models](https://arxiv.org/abs/2402.10877)
+
+- Implies causal understanding is required for robust generalization
+
 
 ---
 
