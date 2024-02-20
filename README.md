@@ -72,8 +72,7 @@ Autonomous Agents (LLMs). Updated daily
 [LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration](https://arxiv.org/abs/2402.11550)
 
 - LongAgent: Scales LLaMA to 128k context window outperforming GPT-4 through multiagent collaboration.
-- Leader agent organizes team of agents to gather information from documents and resolve conflicts. After few iteration rounds, leader agents decides to generate final response with sufficient information.    
-
+- Leader agent selects agent members of team based on task description, agent team collaboratively reason, deduct answer and finally resolve conflict to generate final answer. 
 
 ---
 
