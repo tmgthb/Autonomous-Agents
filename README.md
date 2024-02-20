@@ -21,6 +21,84 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+#### 19th of February 2024
+
+[AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling](https://arxiv.org/abs/2402.12226)
+
+- AnyGPT: Any-to-Any Multimodal Language Model with any input output between text, speech, image and music.
+- Uses only data preprocessing with modality specific tokenizers to tokenize input into discrete tokens and model outputs by de-tokenizing into specific modality outputs.
+- Introduces multimodal alignment dataset made of conversations.   
+
+---
+
+[Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)
+
+- Studies spontaneuous collaboration between competing LLM agents
+
+
+---
+
+[WorldCoder, a Model-Based LLM Agent: Building World Models by Writing Code and Interacting with the Environment](https://arxiv.org/abs/2402.12275)
+
+- WorldCoder: LLM agent learns World Models (world_model.py) using Python program from interactions with its environment.
+- Outperforms baselines from DeepRL- and ReAct-agents in gridworlds-environment.
+- Incldues sample code of the world_model.py.
+
+---
+
+[Comprehensive Cognitive LLM Agent for Smartphone GUI Automation](https://arxiv.org/abs/2402.11941)
+
+- CoCo-Agent: GUI control with VLM/LLM/CLIP, which includes Comprehensive Environment Perception (CEP) and Conditional Action Prediction (CAP). Includes information such as GUI screenshot, GUI layout information, user objective and action history.
+- Offers SOTA-level performance on GUIs, yet high training cost.  
+
+
+---
+
+[LLM Agents for Psychology: A Study on Gamified Assessments](https://arxiv.org/abs/2402.12326)
+
+- PsychoGAT: Gamification of psychological assessment traditionally performed with questionaries with superior performance. Includes prompt templates.  
+
+---
+
+[Structured Chain-of-Thought Prompting for Few-Shot Generation of Content-Grounded QA Conversations](https://arxiv.org/abs/2402.11770)
+
+- Structured CoT (SCoT): breakdowns into states for for generating actions for each sub-tasks durign the specific state. 
+- For example first state determines, if question is answerable, the next step identifies required steps for the answer and the next state generates the step answer. 
+
+---
+
+#### 18th of February 2024
+
+[LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration](https://arxiv.org/abs/2402.11550)
+
+- LongAgent: Scales LLaMA to 128k context window outperforming GPT-4 through multiagent collaboration.
+- Leader agent organizes team of agents to gather information from documents and resolve conflicts. After few iteration rounds, leader agents decides to generate final response with sufficient information.    
+
+
+---
+
+[Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents](https://arxiv.org/abs/2402.11651)
+
+- Fine-tuning LLMs with Negative examples enhances performance. 
+
+--
+
+[Modelling Political Coalition Negotiations Using LLM-based Agents](https://arxiv.org/abs/2402.11712)
+
+- Political coalition negotiation with LLM agents.
+
+---
+
+#### 17th of February 2024
+
+[LLM can Achieve Self-Regulation via Hyperparameter Aware Generation](https://arxiv.org/abs/2402.11251)
+
+- Hyperparameter Aware Generation (HAG): the LLM learns to modify automatically its hyperparameters (temperature, top_p, top_k, repetition_penalty) for each user task input.
+- Self-regulation of hyperparameters enables the LLM to finetune its responses to different task inputs.
+- Self-regulation takes inspiration from the ability of human body to regulate itself based on different factors like temperature, blood pressure, adrealine etc.
+
+---
+
 #### 16th of February 2024
 
 [Robust agents learn causal world models](https://arxiv.org/abs/2402.10877)
@@ -77,6 +155,14 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 13th of February 2024
 
+
+[GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements](https://arxiv.org/abs/2402.10963)
+
+- GLoRe: Presents a Stepwise Outcome-based Reward models. SORM is in contrat to Outcome-Based Reward models (ORMs) and Process-Based Rewrd Model (PRMs), where trained only on synthetic data to approximate future reward of optimal policy V*.
+- Uses three step refinement training process: 1. Fine-tune base model for Student policy model, 2. SORM training, 3. Refinement training.
+
+---
+
 [Grounding LLMs For Robot Task Planning Using Closed-loop State Feedback](https://arxiv.org/abs/2402.08546)
 
 - Brain-Body LLM(BB-LLM): Brain-LLM defines high-level plans for robot. The BodyLLM converts them into low-level planned actions as robot commands. 
@@ -104,7 +190,7 @@ Autonomous Agents (LLMs). Updated daily
 
 - Develops Minecraft Builder and Architect LLM agents using JSON-format with capacity to ask clarifying questions from the LLM.
 
-  
+
 ---
 
 [PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Preference Alignment](https://arxiv.org/abs/2402.08702)
@@ -2575,7 +2661,21 @@ These chains may use different types of:
 Consciousness research:
 - There is a conceptiually defined [consciousness test](#consciousnesstest).
 
+World Models
 
+[Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
+
+- Minsky defined in 24th of Octoboer 1960 in Steps Towards Artificial Intellicence under chapter: "Models of Oneself":
+
+ "If a creature can answer a question about a hypothetical experiment, without actually performing that experiment, then the answer must have been obtained from some submachine inside the creature. The output of that submachine (representing a correct answer) as well as the input (representing the question) must be coded descriptions of the corresponding external events or event classes. Seen through this pair of encoding and decoding channels, the internal submachine acts like the environment, and so it has the character of a "model." The inductive inference problem may then be regarded as the problem of constructing such a model. 
+ 
+To the extent that the creature's actions affect the environment, :**this internal model of the world will need to include some representation of the creature itself:**. If one asks the creature "why did you decide to do such and such" (or if it asks this of itself), any answer must come from the internal model."
+
+- Minsky writes as well about world models 1968 in the "Matter, Mind and Models", which I recommend to read as a whole, but I add two sentences:
+
+"We use the term "model" in the following sense: To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A."
+
+"A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
 
 ----
 
