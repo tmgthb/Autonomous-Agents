@@ -32,7 +32,7 @@ Autonomous Agents (LLMs). Updated daily
 
 - User-LLM: generates user embeddings from user data with multi-feature autoregressive transformer and then fine-tunes the LLM using these embeddings with cross-attention.
 - The method enables inserting the LLM with long-term user history through compressed user embeddings and short term user context through input prompt.
-- Effective approach for LLM personalization.
+- Effective approach for LLM personalization and user modelling. Includes good chapter on LLM long context research.
 
 
 ---
@@ -42,6 +42,31 @@ Autonomous Agents (LLMs). Updated daily
 - Coins prompting technique called: "Context recalling": improves code debug accuracy from +16% (using CoT) to +40% (using context recalling).
 - Context recalling prompts the model to first recall the relevant information, before doing further reasoning.
 - Introduces long context bencmark: ∞BENCH-benchmark for LLMs with above 100k context window. 
+
+---
+
+[Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent](https://arxiv.org/abs/2402.13717)
+
+- Neeko-agent: Multi-character roleplaying agent with LoRA.
+- Includes Pretraining, Multi-character Role-Playing and Incremental Role-Playing with Fusion and Expansion stages.
+
+
+---
+
+
+#### 20th of February 2024
+
+[MuLan: Multimodal-LLM Agent for Progressive Multi-Object Diffusion](https://arxiv.org/abs/2402.12741)
+
+- MuLan: Multimodal LLM agent, addresses text2image generation errors through progressive multiobject generation with LLM-based planning and VLM-based feedback control.
+- MuLan is training free method.
+
+
+---
+
+[Large Language Model-based Human-Agent Collaboration for Complex Task Solving](https://arxiv.org/abs/2402.12914)
+
+- ReHAC: uman-agent(LLM) collaboration with RL policy model.
 
 
 ---
