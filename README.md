@@ -21,6 +21,31 @@ Autonomous Agents (LLMs). Updated daily
 
 ---
 
+####
+
+
+---
+
+#### 21st of February 2024
+
+[User-LLM: Efficient LLM Contextualization with User Embeddings](https://arxiv.org/abs/2402.13598)
+
+- User-LLM: generates user embeddings from user data with multi-feature autoregressive transformer and then fine-tunes the LLM using these embeddings with cross-attention.
+- The method enables inserting the LLM with long-term user history through compressed user embeddings and short term user context through input prompt.
+- Effective approach for LLM personalization.
+
+
+---
+
+[∞Bench: Extending Long Context Evaluation Beyond 100K Tokens](https://arxiv.org/abs/2402.13718)
+
+- Coins prompting technique called: "Context recalling": improves code debug accuracy from +16% (using CoT) to +40% (using context recalling).
+- Context recalling prompts the model to first recall the relevant information, before doing further reasoning.
+- Introduces long context bencmark: ∞BENCH-benchmark for LLMs with above 100k context window. 
+
+
+---
+
 #### 19th of February 2024
 
 [AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling](https://arxiv.org/abs/2402.12226)
