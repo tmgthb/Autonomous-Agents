@@ -24,7 +24,16 @@ Autonomous Agents (LLMs). Updated daily
 
 #### 
 
+#### 23th of February 2024
 
+[Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
+
+- Genie: a Foundational World Model. The learning paradigm is unsupervised learning from unlabelled internet video.  The approach scales effectively as compute is increased.
+- Includes: Latent Action Model (LAM) for latent action between each video frame in each timestep, 2. Video tokenizer to convert video frames into discrete tokens, 3. Dynamics model to predict next frame 
+- The model/datasets are not released, but the approach is explained in the paper with single GPU implementation details by bringing your own data using the dataset creationg instructions provided. 
+
+
+---
 
 #### 21st of February 2024
 
@@ -2189,7 +2198,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-#### 28th of August
+#### 28th of August 2023
 
 [RecMind: Large Language Model Powered Agent For Recommendation](https://arxiv.org/abs/2308.14296)
 
@@ -2589,6 +2598,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 -  Emergent abilities were detected already with GPT-3, but here its clearly defined as ability detected only after specific scale.
 -  Identifies a list of Emerging abilities not detected in specific smaller model, but identfied in a larger model.
 -  I like the paper, because increasing number of task patterns are learned using single learning objective of next-word prediction as scale increases.
+
+
+---
+
+#### 19th of April 2022
+
+[Deep learning, reinforcement learning, and world models
+](https://www.sciencedirect.com/science/article/pii/S0893608022001150)
+
+- Reviews Deep learning, Reinforcement learning and World models.
+- Claims humans use World model as simulators in the brain, learned through senso-motory interaction with the environment. It is possible to learn world model using deep generative models.
 
 
 ---
