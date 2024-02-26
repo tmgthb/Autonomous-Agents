@@ -6,7 +6,7 @@
 </div>  
 
 
-# Autonomous-Agents
+# Autonomous Agents
 
 Autonomous Agents (LLMs). Updated daily
 - [Research papers.](#papers)
