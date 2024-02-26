@@ -2642,6 +2642,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - CoT can be seen as Self-Recursive Learning, where the LLM improves its own output by having LLM use intermediate steps to solve complex task.
 - The approach effectively demonstrates the LLMs capability to perform Self-Recursive Learning, altough its not integrated back as training data of the model.
 
+---
+
+<div id="qstar"></div>
+
+#### 8th of February 2021
+
+[A* Search Without Expansions: Learning Heuristic Functions with Deep Q-Networks](https://arxiv.org/abs/2102.04518)
+
+- Q* search algorithm: Better version of A* search algoirthm, because reduces computation time and number of nodes to be computed.
 
 ---
 
@@ -2700,6 +2709,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Studies the multiple previous definitions of Agents / Autonomous Agents, although the perspective is +27 years ago and prior to LLMs. 
 
 ---
+
+<div id="astarssearch">  </div>
+
+#### 24th of November 1967
+
+
+[A formal Basis for the Heuristic Determination of Minimum Cost Paths](https://ai.stanford.edu/%7Enilsson/OnlinePubs-Nils/General%20Essays/roboticsandai.pdf)
+
+- A* search algorithm.
+- Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
+
   
 ----
 
