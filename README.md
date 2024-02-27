@@ -2786,7 +2786,7 @@ In essence, Franklin & Graesser (1996) define Autonomous Agents being able to: b
 Therefore, Autonomous Agents need to **generalize** to **new embodiments & tasks** with limited demonstrations using **language**. 
 
 
-**Autonomous General Agent definition"
+**Autonomous General Agent definition**
 
 The two definitions are excellent used together. Thus, I define **Autonomous Generalist Agents":
 
