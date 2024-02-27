@@ -2766,10 +2766,10 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
 
 
-
+----
 
 <div id="what">  
-----
+
 </div>
 
 
