@@ -2786,7 +2786,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 
-#### **Autonomous Agent**
+#### Autonomous Agent
 
 Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
 
@@ -2800,7 +2800,7 @@ Negative aspects:
 
 
 
-####  **Generalist Agent **
+####  Generalist Agent 
 
 [Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
 
@@ -2817,7 +2817,7 @@ Negative aspects:
 
 
 
-####  **Autonomous General Agent **
+####  Autonomous General Agent 
 
 
 I define next a new term **Autonomous Generalist Agents", which combines these two approaches:
