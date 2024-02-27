@@ -2770,8 +2770,10 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ----
 
 
-
 <div id="what">  </div>
+
+
+
 
 
 ## What are Autonomous Agents?
