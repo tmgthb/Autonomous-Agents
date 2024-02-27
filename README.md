@@ -2765,8 +2765,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - A* search algorithm.
 - Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
 
+
   
 ----
+
+
 
 <div id="what">  </div>
 
@@ -2775,7 +2778,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 
-The definition of Autonomous Agents is difficult. I will cover here few useful definitions, which include as well related terminology: Generalist Agents, Intelligent Agents, AI Agents, LLM Agents, VLM Agents and Reinfocement Learning Agents. I offer my own defintiion: Autonomous Generalist Agents. 
 
 #### **Autonomous Agent-definition**
 
@@ -2789,7 +2791,8 @@ Negative aspects about this definition:
 - Lacks aspect of Generalization between tasks/objectives/embodiments
 - Lacks aspect of communication with Language
 
- 
+
+
 ####  **Generalist Agent-definition**
 
 [Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
@@ -2801,6 +2804,8 @@ Positive aspects about this definition:
 
 Negative aspects about this definition:
 - Lacks key aspects defined by Franklin & Graesser.
+
+
 
 
 ####  **Autonomous General Agent definition**
@@ -2817,6 +2822,9 @@ AGA-systems are able to:
 - Interact bi-directionally with the environment
 - Internal clock
 - Generalize novel tasks
+
+
+
 
 
 **LLM/VLM/Multi-modal Agents**
