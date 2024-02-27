@@ -2610,10 +2610,27 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+<div id="generalistagent"></div>
+
+#### 12th of May 2022
+
+[A Generalist Agent](https://arxiv.org/abs/2205.06175)
+
+- Gato: A multi-modal, multi-task, multi-embodiment generalist policy agent.
+- Learns to play Atari, caption images, chat, stack blocks with robot arm, etc. 
+- Includes text tokens, image patch tokens, agent timesteps and action tokens.
+- Argues, that "a generalist agent that can adapt to new embodiments and learn new tasks with few data."
+
+
+
+---
+
 #### 19th of April 2022
 
-[Deep learning, reinforcement learning, and world models
-](https://www.sciencedirect.com/science/article/pii/S0893608022001150)
+<div id="worldmodel2"></div>
+
+
+[Deep learning, reinforcement learning, and world models](https://www.sciencedirect.com/science/article/pii/S0893608022001150)
 
 - Reviews Deep learning, Reinforcement learning and World models.
 - Claims humans use World model as simulators in the brain, learned through senso-motory interaction with the environment. It is possible to learn world model using deep generative models.
@@ -2758,9 +2775,37 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ## Definition
 
-Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future."
+**Autonomous Agent definition**
+Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future."
 
-In 2023, several research studies have mapped the concepts of Autonomous Agents:
+In essence, Franklin & Graesser (1996) define Autonomous Agents being able to: be part of an evironment, sense, act over time and pursue own agenda. 
+ 
+**Generalist Agent definition**
+[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
+
+Therefore, Autonomous Agents need to **generalize** to **new embodiments & tasks** with limited demonstrations using **language**. 
+
+
+**Autonomous General Agent definition"
+
+The two definitions are excellent used together. Thus, I define **Autonomous Generalist Agents":
+
+**Autonomous Generalist Agent perceives, communicates and interacts over time as part of an environments to complete novel objectives on its own agenda.** 
+
+Characteristics:
+- Perception is multimodal
+- Communicate with humans
+- Actions impact environment and the environment affects the agent.
+- Time-constrained and aware
+- Part of an environment
+- Generalizes to novel objectives
+- Pursue own agenda
+
+
+
+**LLM/VLM/Multi-modal Agents**
+
+The recent development of Agentic systems is based on usage of LLMs, Vision-Language MOdels (VLMs) and recently Multi-modal models (MLMs/MLLMs).
 
 - [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
 
@@ -2774,6 +2819,16 @@ These chains may use different types of:
 - Environments (code interpreter/browser/api/RL environment/real world),
 - Embodiments (LLM call/virtual enviroment/robotics/real world) and
 - Autonomity (manual/interactive/fully autonomous).
+
+  
+**Reinforcement Learning Agents** 
+
+Reinforcement Learning Agents is a field, which progressed prior the recent succes of LLM-based agents.
+
+---
+
+
+
 
 Consciousness research:
 - There is a conceptiually defined [consciousness test](#consciousnesstest).
