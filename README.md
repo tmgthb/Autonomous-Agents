@@ -2773,38 +2773,50 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 <div id="what">  </div>
 
-## Definition
+## Definition of Autonomous Agents
 
-#### **Autonomous Agent definition**
+The definition of Autonomous Agents is difficult. I will cover here few useful definitions, which include as well related terminology: Generalist Agents, Intelligent Agents, AI Agents, LLM Agents, VLM Agents and Reinfocement Learning Agents. I offer my own defintiion: Autonomous Generalist Agents. 
 
-Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future."
+#### **Autonomous Agent-definition**
 
-In essence, Franklin & Graesser (1996) define Autonomous Agents being able to: be part of an evironment, sense, act over time and pursue own agenda. 
+Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
+
+Positive aspects about this definition:
+- The defintion is not defined by the technology used, such as Generative AI.
+- Leaves aside aspects about consciousness and human-level intelligence.
+
+Negative aspects about this definition:
+- Lacks aspect of Generalization between tasks/objectives/embodiments
+- Lacks aspect of communication with Language
 
  
-####  **Generalist Agent definition**
+####  **Generalist Agent-definition**
 
 [Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
 
-Therefore, Autonomous Agents need to **generalize** to **new embodiments & tasks** with limited demonstrations using **language**. 
+Positive aspects about this definition:
+- Aspect of Generalization to novel situations
+- Aspect of Communication through language
+- Aspect of data efficiency
+
+Negative aspects about this definition:
+- Lacks key aspects defined by Franklin & Graesser.
 
 
 ####  **Autonomous General Agent definition**
 
-The two definitions are excellent used together. Thus, I define **Autonomous Generalist Agents":
+I define next a new term **Autonomous Generalist Agents", which combines these two approaches:
 
-**Autonomous Generalist Agent perceives, communicates and interacts over time as part of an environments to complete novel objectives on its own agenda.** 
+**Autonomous Generalist Agent (AGA) perceives, reasons, plans communicates and interacts over time as part of an environments to complete novel objectives.** 
 
-
-** Characteristics:
-- Perception is multimodal
-- Communicate with humans
-- Actions impact environment and the environment affects the agent.
-- Time-constrained and aware
-- Part of an environment
-- Generalizes to novel objectives
-- Pursue own agenda
-
+AGA-systems are able to:
+- Perceive multimodal information 
+- Reason
+- Plan own agenda
+- Communicate with language
+- Interact bi-directionally with the environment
+- Internal clock
+- Generalize novel tasks
 
 
 **LLM/VLM/Multi-modal Agents**
