@@ -2768,10 +2768,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
   
 ----
 
+<div id="what">  </div>
+
+
 ## What are Autonomous Agents?
 
-
-<div id="what">  </div>
 
 
 The definition of Autonomous Agents is difficult. I will cover here few useful definitions, which include as well related terminology: Generalist Agents, Intelligent Agents, AI Agents, LLM Agents, VLM Agents and Reinfocement Learning Agents. I offer my own defintiion: Autonomous Generalist Agents. 
