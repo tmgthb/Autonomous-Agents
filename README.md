@@ -2775,24 +2775,28 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ## Definition
 
-**Autonomous Agent definition**
+#### **Autonomous Agent definition**
+
 Autonomous Agents were [defined 1996 by Franklin & Graesser](#autonomousagentdefinition) as ..."a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future."
 
 In essence, Franklin & Graesser (1996) define Autonomous Agents being able to: be part of an evironment, sense, act over time and pursue own agenda. 
+
  
-**Generalist Agent definition**
+####  **Generalist Agent definition**
+
 [Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
 
 Therefore, Autonomous Agents need to **generalize** to **new embodiments & tasks** with limited demonstrations using **language**. 
 
 
-**Autonomous General Agent definition**
+####  **Autonomous General Agent definition**
 
 The two definitions are excellent used together. Thus, I define **Autonomous Generalist Agents":
 
 **Autonomous Generalist Agent perceives, communicates and interacts over time as part of an environments to complete novel objectives on its own agenda.** 
 
-Characteristics:
+
+** Characteristics:
 - Perception is multimodal
 - Communicate with humans
 - Actions impact environment and the environment affects the agent.
