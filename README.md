@@ -2816,7 +2816,7 @@ Negative aspects:
 
 
 
-<hr style="border: 1px dotted #ccc; width: 50px;">
+<hr style="border: 1px dotted #ccc; border-spacing: 10px; width: 50px;">
 
 ####  Autonomous General Agent 
 
