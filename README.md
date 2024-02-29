@@ -2792,7 +2792,7 @@ Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graes
 
 Positive aspects:
 - The defintion is not defined by the technology used, such as Generative AI.
-- Leaves aside aspects about consciousness and human-level intelligence.
+- Leaves aside controvertial aspects about consciousness and human-level intelligence.
 
 Negative aspects:
 - Lacks aspect of Generalization between tasks/objectives/embodiments
@@ -2802,20 +2802,21 @@ Negative aspects:
 
 ####  Generalist Agent 
 
-[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data."
+[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data." through "...a multi-modal, multi-task, multi-embodiment generalist policy."
 
 Positive aspects:
 - Aspect of Generalization to novel situations
-- Aspect of Communication through language
+- Aspect of Multi-modality (Perception / Language / Embodiment)
 - Aspect of data efficiency
 
 Negative aspects:
 - Lacks key aspects defined by Franklin & Graesser.
-- Lacks reasoning and planning
+- Lacks reasoning and planning 
 
 
 
 
+<hr style="border: 1px dotted #ccc; width: 50px;">
 
 ####  Autonomous General Agent 
 
