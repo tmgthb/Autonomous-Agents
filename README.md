@@ -2821,7 +2821,7 @@ Negative aspects:
 [Reinfoceement Learning Agent](http://www.incompleteideas.net/papers/barto-sutton-97.pdf) was defined by Sutton & and Barto (1997): "**The reinforcement-learning agent** and its environment interact over a sequence of discrete time steps. The specification of their interface defines a particular problme: The actiosn are the chocies made by the agent; the situations provide tha agent's basis for making the choices; and the rewards are the basis for evaluating these chocues. Everything inside the agent is completely known and controllable by the agent; everything outside is incompletely controllable but may or may not be completely known. A policy is a stochastic rule by which the agent selects actions as a function of situations. Roughly, the agent's objective is to learn a policy that maximizes the amount of reward it receives over the log run"
 
 <div style="text-align: center;">
-  <img width="271" alt="image" src="https://github.com/tmgthb/Autonomous-Agents/assets/46755670/33306dba-2f81-482d-a8c7-0ce7823ab4bc">
+  <img width="471" alt="image" src="https://github.com/tmgthb/Autonomous-Agents/assets/46755670/33306dba-2f81-482d-a8c7-0ce7823ab4bc">
   <br/>
   <p style="font-size: 12px;">Optional caption text</p>
 </div>
