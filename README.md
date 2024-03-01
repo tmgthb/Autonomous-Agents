@@ -2790,13 +2790,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
 
-Positive aspects:
-- The defintion is not defined by the technology used, such as Generative AI.
-- Leaves aside controvertial aspects about consciousness and human-level intelligence.
 
-Negative aspects:
-- Lacks aspect of Generalization between tasks/objectives/embodiments
-- Lacks aspect of communication with Language
+Good:
+- Technological approach agnostic.
+- Non-controversial definition: leaves aside Consiousness & definition of AGI.
+
+
+Negative:
+- Lacks aspects about generalization: tasks/objectives/embodiments.
+- Vague about human communication and cognitition.
 
 
 ---
@@ -2804,16 +2806,19 @@ Negative aspects:
 
 ####  Generalist Agent 
 
-[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and learn new tasks with few data." through "...a multi-modal, multi-task, multi-embodiment generalist policy."
+[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
 
-Positive aspects:
-- Aspect of Generalization to novel situations
+Positive:
+- Generalization of tasks/embodiments.
+- Generalization to novel situations
+- Multi-modality, especially language/perception/embodiment
 - Aspect of Multi-modality (Perception / Language / Embodiment)
-- Aspect of data efficiency
+- Data efficiency
 
 Negative aspects:
-- Lacks key aspects defined by Franklin & Graesser.
-- Lacks reasoning and planning 
+- Lack of other key observations by Franklin & Graesser.
+- Vague about cognitive skills: reasoning and planning.
+
 
 
 ---
@@ -2824,7 +2829,7 @@ Negative aspects:
 
 [Reinfoceement Learning Agent](http://www.incompleteideas.net/papers/barto-sutton-97.pdf) was defined by Sutton & and Barto (1997): 
 
-"**The reinforcement-learning agent** and its environment interact over a sequence of discrete time steps. The specification of their interface defines a particular problme: The actiosn are the chocies made by the agent; the situations provide tha agent's basis for making the choices; and the rewards are the basis for evaluating these chocues. Everything inside the agent is completely known and controllable by the agent; everything outside is incompletely controllable but may or may not be completely known. A policy is a stochastic rule by which the agent selects actions as a function of situations. Roughly, the agent's objective is to learn a policy that maximizes the amount of reward it receives over the log run"
+"**The reinforcement-learning agent** and its **environment** interact over a sequence of discrete time steps. The specification of their interface defines a particular problme: The actiosn are the choices made by the agent; the situations provide tha agent's basis for making the choices; and **the rewards** are the basis for evaluating these chocices. Everything inside **the agent** is completely known and controllable by the agent; everything outside is incompletely controllable but may or may not be completely known. **A policy** is a stochastic rule by which the agent selects **actions** as a function of situations. Roughly, the agent's objective is to learn a policy that maximizes the amount of reward it receives over the log run"
 
 
 <p align="center">
@@ -2838,23 +2843,25 @@ Negative aspects:
 
 
 
-Positive aspects:
-- Standard illustration of Reinforcement Learning (RL) systems as known today
-- RL systems are used for Optimization, Learns from experience, **Generalization**, Delayed Consequences and Exploration [Stanford cs234 lecture slide 19](https://web.stanford.edu/class/cs234/slides/lecture1.pdf)
-- Similar with Franklin & Graesser (1996) definition of Autonomous Agents.
-- Great for massive planning tasks: [AlphaZero](https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/).
+Positive:
+- Standard definition of the Reinforcement Learning (RL) system. Very similar with An Autonomous Agent-definition by Franklin & Graesser (1996).
+- RL systems are provenly versatile and used for: Optimization, Learns from experience, **Generalization**, Delayed Consequences and Exploration [Stanford cs234 lecture slide 19](https://web.stanford.edu/class/cs234/slides/lecture1.pdf).
+- Most recent LLM-models use RL during fine-tuning phase
+
 
   
-Negative aspects:
-- Not particularly focused on human language on taking advantage from massive text/image-datasets, like LLM- and VLM-agents
+Negative:
+- RL approaches around language/communication require still more investigation.
 
 
 ---
 
 
-**LLM/VLM/AI-Agents**
 
-The recent development of Agentic systems is based on usage of LLMs, Vision-Language MOdels (VLMs) and recently Multi-modal models (MLMs/MLLMs).
+**LLM/VLM/MLML/AI-Agents**
+
+LLM-, VLM- or MMLM-based Agents are often simultaneously called LLM-, VLM-, MLML-, AI-Agents. I summarize here few literature reviews of these papers:
+
 
 - [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
 
@@ -2895,15 +2902,19 @@ AGA-systems are able to:
 
 ---
 
-#### Consciousness research
+
+
+#### Artificial General Intelligence (AGI) / Artificial Super Intelligence (ASI) / Consciousness:
+
+
+Superhuman-level:
+- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
+
 
 What we know about consciousness research?
 
 - Very little concrete to make any conclusions.
 - [consciousness test](#consciousnesstest)
-
-
-
 
 
 --- 
