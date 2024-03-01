@@ -2876,6 +2876,12 @@ These chains may use different types of:
 - Embodiments (LLM call/virtual enviroment/robotics/real world) and
 - Autonomity (manual/interactive/fully autonomous).
 
+### LLM/VLM agents
+- Research papers have assigened succesfully wide range of roles, wide range of tasks, wide range of environments and wide range of cognitive functions to LLMs.
+- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future.
+- Multiple papers review LLMs with perception capability using VLMs. In essence, VLM-based models improve system capabilities over LLMs due to their capability to visually ground input text.
+- Other models continue adding more modalities: audio, actions etc. Therefore, Agents are better called as multimodal agents, despite there is not yet generally agreed number of modalities required or desired. 
+
 
 ---
 
@@ -2904,20 +2910,54 @@ AGA-systems are able to:
 
 
 
-#### Artificial General Intelligence (AGI) / Artificial Super Intelligence (ASI) / Consciousness:
 
 
-Superhuman-level:
-- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
+## Why Autonomous Agents work? 
+
+<div id="why"> </div>
+
+### About predicting next-word:
+- LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme).
+- Next-word prediction is very [generic](#extreme) learning process, where any "<input, output>"-sequence relationship learning is a "next-word prediction task".
+- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
+
+### Demystifying Emerging Abilities
+- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 (and increasing known Emerging Abilities.
+- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
+- GPT-4 performs [high compared to human-level performance on multiple benchrmarks despite incomplete AGI](#sparks), not only on few.
+- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
+
+### World Models
 
 
-What we know about consciousness research?
+### Self-Recursive LLMs
+- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
+- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
+- [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
+- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
+- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
+- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
-- Very little concrete to make any conclusions.
-- [consciousness test](#consciousnesstest)
+### Search planning
+- Tree-structures enable searching large reasoning trees for a solution to a complex problem
+- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
+### Synthetic data enables Small Student Models to outperform their Teachers
+- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
+- Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
 
---- 
+### Agent-based AI
+- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
+- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
+
+### Autonomous Agents
+- The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
+  
+### Agents are Resources 
+- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
+- LLM agents prompting enables resource-rich behaviour from LLMs.
+
 
 #### World Models
 
@@ -2939,60 +2979,21 @@ To the extent that the creature's actions affect the environment, :**this intern
 
 ----
 
+#### Artificial General Intelligence (AGI) / Artificial Super Intelligence (ASI) / Consciousness:
 
-## Why Autonomous Agents work? 
 
-<div id="why"> </div>
+Superhuman-level:
+- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
 
-### About predicting next-word:
-- LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme).
-- Next-word prediction is very [generic](#extreme) learning process, where any "<input, output>"-sequence relationship learning is a "next-word prediction task".
-- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
 
-### Demystifying Emerging Abilities
-- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 (and increasing known Emerging Abilities.
-- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
-- GPT-4 performs [high compared to human-level performance on multiple benchrmarks despite incomplete AGI](#sparks), not only on few.
-- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
+What we know about consciousness research?
 
-### Self-Recursive LLMs
-- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
-- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
-- [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
-- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
-- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
-- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
+- Very little concrete to make any conclusions.
+- [consciousness test](#consciousnesstest)
 
-### Tree-structures enable searching large reasoning trees for a solution to a complex problem
-- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
-- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
-### Synthetic data enables Small Student Models to outperform their Teachers
-- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
-- Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
 
-### Reinforcement Learning Agents
-- RL agents can use LLMs and VLMs as Reward models or to generate reward functions.
-- LLMs can generate code to for a robot, car or embodied agent to interact within an environment. 
-
-### LLM/VLM agents
-- Research papers have assigened succesfully wide range of roles, wide range of tasks, wide range of environments and wide range of cognitive functions to LLMs.
-- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future.
-- Multiple papers review LLMs with perception capability using VLMs. In essence, VLM-based models improve system capabilities over LLMs due to their capability to visually ground input text.
-- Other models continue adding more modalities: audio, actions etc. Therefore, Agents are better called as multimodal agents, despite there is not yet generally agreed number of modalities required or desired. 
-
-### Agent-based AI
-- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
-- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
-
-### Autonomous Agents
-- The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
-  
-### Agents are Resources 
-- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
-- LLM agents prompting enables resource-rich behaviour from LLMs.
-
-----
+---
 
 
 ## Citation
