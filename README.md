@@ -2822,26 +2822,44 @@ Negative aspects:
 
 [Reinfoceement Learning Agent](http://www.incompleteideas.net/papers/barto-sutton-97.pdf) was defined by Sutton & and Barto (1997): 
 
-<p align="center">
-
-  
-  <img width="371" alt="image" src="https://github.com/tmgthb/Autonomous-Agents/assets/46755670/33306dba-2f81-482d-a8c7-0ce7823ab4bc">
-  
-  
-</p>
-
 "**The reinforcement-learning agent** and its environment interact over a sequence of discrete time steps. The specification of their interface defines a particular problme: The actiosn are the chocies made by the agent; the situations provide tha agent's basis for making the choices; and the rewards are the basis for evaluating these chocues. Everything inside the agent is completely known and controllable by the agent; everything outside is incompletely controllable but may or may not be completely known. A policy is a stochastic rule by which the agent selects actions as a function of situations. Roughly, the agent's objective is to learn a policy that maximizes the amount of reward it receives over the log run"
 
 
+<p align="center">
 
+  
+  <img width="335" alt="image" src="https://github.com/tmgthb/Autonomous-Agents/assets/46755670/6711e82c-c8ea-4be4-8701-1014e0389f00">
 
+  
+</p>
 
+Positive aspects:
+- Standard illustration of Reinforcement Learning (RL) systems as known today
+- RL systems are used for Optimization, Learns from experience, **Generalization**, Delayed Consequences and Exploration [Stanford cs234 lecture slide 19](https://web.stanford.edu/class/cs234/slides/lecture1.pdf)
+- Similar with Franklin & Graesser (1996) definition of Autonomous Agents.
+- Great for massive planning tasks: [AlphaZero](https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go/).
 
+  
+Negative aspects:
+- Not particularly focused on human language on taking advantage from massive text/image-datasets, like LLM- and VLM-agents
+  
 
+**LLM/VLM/AI-Agents**
 
+The recent development of Agentic systems is based on usage of LLMs, Vision-Language MOdels (VLMs) and recently Multi-modal models (MLMs/MLLMs).
 
+- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
 
+These chains may use different types of:
 
+- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
+- Memory(short/long/sensorial/embedding),
+- Roles (teacher/student/etc),
+- Tools (other models/vector DBs/APIs/etc),
+- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
+- Environments (code interpreter/browser/api/RL environment/real world),
+- Embodiments (LLM call/virtual enviroment/robotics/real world) and
+- Autonomity (manual/interactive/fully autonomous).
 
 
 
@@ -2868,25 +2886,6 @@ AGA-systems are able to:
 
 
 
-
-
-
-**LLM/VLM/Multi-modal Agents**
-
-The recent development of Agentic systems is based on usage of LLMs, Vision-Language MOdels (VLMs) and recently Multi-modal models (MLMs/MLLMs).
-
-- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
-
-These chains may use different types of:
-
-- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
-- Memory(short/long/sensorial/embedding),
-- Roles (teacher/student/etc),
-- Tools (other models/vector DBs/APIs/etc),
-- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
-- Environments (code interpreter/browser/api/RL environment/real world),
-- Embodiments (LLM call/virtual enviroment/robotics/real world) and
-- Autonomity (manual/interactive/fully autonomous).
 
   
 
