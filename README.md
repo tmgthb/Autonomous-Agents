@@ -2893,18 +2893,24 @@ AGA-systems are able to:
 - Generalize novel tasks
 
 
+---
+
+#### Consciousness research
+
+What we know about consciousness research?
+
+- Very little concrete to make any conclusions.
+- [consciousness test](#consciousnesstest)
+
+
+
 
 
 --- 
 
+#### World Models
 
 
-
-
-Consciousness research:
-- There is a conceptiually defined [consciousness test](#consciousnesstest).
-
-World Models
 
 [Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
 
