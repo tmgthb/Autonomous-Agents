@@ -2799,6 +2799,8 @@ Negative aspects:
 - Lacks aspect of communication with Language
 
 
+---
+
 
 ####  Generalist Agent 
 
