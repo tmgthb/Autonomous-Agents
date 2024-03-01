@@ -2814,7 +2814,7 @@ Negative aspects:
 - Lacks reasoning and planning 
 
 
-
+---
 
 #### Reinforcement Learning Agents
 
@@ -2833,6 +2833,9 @@ Negative aspects:
   
 </p>
 
+
+
+
 Positive aspects:
 - Standard illustration of Reinforcement Learning (RL) systems as known today
 - RL systems are used for Optimization, Learns from experience, **Generalization**, Delayed Consequences and Exploration [Stanford cs234 lecture slide 19](https://web.stanford.edu/class/cs234/slides/lecture1.pdf)
@@ -2842,7 +2845,10 @@ Positive aspects:
   
 Negative aspects:
 - Not particularly focused on human language on taking advantage from massive text/image-datasets, like LLM- and VLM-agents
-  
+
+
+---
+
 
 **LLM/VLM/AI-Agents**
 
@@ -2862,7 +2868,7 @@ These chains may use different types of:
 - Autonomity (manual/interactive/fully autonomous).
 
 
-
+---
 
 ####  Autonomous General Agent 
 
@@ -2887,7 +2893,7 @@ AGA-systems are able to:
 
 
 
-  
+--- 
 
 
 
