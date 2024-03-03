@@ -1315,8 +1315,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+<div id="agenticaisystem"> </div>  
 
 #### 14th od December 2023
+
+[Practices for Governing Agentic AI Systems](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf)
+
+- OpenAI's research on Agentic AI systems with definition of Agentic AI system.
+- Includes level of "Agenticness":  the degree of goal complexity, environment complexity, adaptability and independence.
+
+---
 
 [TinyGSM: achieving >80% on GSM8k with small language models](https://arxiv.org/abs/2312.09241)
 
@@ -2687,6 +2695,21 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - CoT can be seen as Self-Recursive Learning, where the LLM improves its own output by having LLM use intermediate steps to solve complex task.
 - The approach effectively demonstrates the LLMs capability to perform Self-Recursive Learning, altough its not integrated back as training data of the model.
 
+
+---
+
+<div id="languageagentdefinition"></div>
+
+
+#### 26th of March 2021
+
+
+[Alignment of Language Agents](https://arxiv.org/abs/2103.14659)
+
+- Defines Language Agent. 
+
+
+
 ---
 
 <div id="qstar"></div>
@@ -2853,6 +2876,13 @@ Positive:
 Negative:
 - RL approaches around language/communication require still more investigation.
 
+
+---
+
+
+#### Language Agents
+
+[Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
 
 ---
 
