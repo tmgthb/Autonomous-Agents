@@ -2829,7 +2829,7 @@ Negative:
 
 ####  Generalist Agent 
 
-[Reed et al., 2022](#generalistagent) argue the need for "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
+[Generalist Agent was defined by Reed et al. in 2022](#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
 
 Positive:
 - Generalization of tasks/embodiments.
@@ -2887,8 +2887,26 @@ Negative:
 ---
 
 
+#### AI Agent (Agentic AI Systems)
 
-**LLM/VLM/MLML/AI-Agents**
+
+[Shavit et al. (2023)](#agentaidefinition) define AI Agent: "we will generally conceptualize **agentic AI systems** as operating in **pursuit of goals defined by humans** and in **environments determined by humans** (and often in **cooperation with human** “teammates”), rather than fully-autonomous systems that set their own goals."
+
+Positive:
+- Highlights concrete aspects of "agentiness": goal complexity, environment complexity, adaptability and independent execution.
+- Includes cooperation with human-in-the-loop
+- Identifies there is no binary-distinction between LLM (GPT-4) and Agentic AI system.
+
+Negative:
+- Definition itself is porrly framed to reflect the paper's "Agentiness"-aspects such as ability to generalize across variety of tasks.
+- Definition does not highlight any human congitive capabilities like search planning, perception etc.
+- The level of independence and automatization are controversial from user experience perspective.
+  
+---
+
+
+
+**LLM/VLM/MLML-Agents**
 
 LLM-, VLM- or MMLM-based Agents are often simultaneously called LLM-, VLM-, MLML-, AI-Agents. I summarize here few literature reviews of these papers:
 
