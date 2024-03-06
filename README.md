@@ -2386,6 +2386,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
+#### 25th of May 2023
+
+[Voyager: An Open-Ended Embodied Agent with Large Language Models](https://arxiv.org/abs/2305.16291)
+
+- Voyager: open-ended embodied agent with LLM
+
+---
+
 #### 24th May 2023
 
 [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
@@ -2880,7 +2889,7 @@ Negative:
 ---
 
 
-#### Language Agents
+#### Language Agents / LLM Agents
 
 [Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
 
@@ -2893,22 +2902,6 @@ Negative:
 - The definition does not consider RL Agent / Autonomous Agent-aspects, such as environment, embodiment etc.
 
 
----
-
-#### LLM Agents
-
-
-
----
-
-
-#### VLM Agents
-
-Vision-Language Model (VLM)-based Agents
-
-[Llava](https://arxiv.org/abs/2304.08485) 
-
----
 
 #### Embodied Agents
 
@@ -2946,34 +2939,6 @@ Negative:
 - Definition itself is porrly framed to reflect the paper's "Agentiness"-aspects such as ability to generalize across variety of tasks.
 - Definition does not highlight any human congitive capabilities like search planning, perception etc.
 - The level of independence and automatization are controversial from user experience perspective.
-  
----
-
-
-
-**LLM/VLM/MLML-Agents**
-
-LLM-, VLM- or MMLM-based Agents are often simultaneously called LLM-, VLM-, MLML-, AI-Agents. I summarize here few literature reviews of these papers:
-
-
-- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
-
-These chains may use different types of:
-
-- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
-- Memory(short/long/sensorial/embedding),
-- Roles (teacher/student/etc),
-- Tools (other models/vector DBs/APIs/etc),
-- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
-- Environments (code interpreter/browser/api/RL environment/real world),
-- Embodiments (LLM call/virtual enviroment/robotics/real world) and
-- Autonomity (manual/interactive/fully autonomous).
-
-### LLM/VLM agents
-- Research papers have assigened succesfully wide range of roles, wide range of tasks, wide range of environments and wide range of cognitive functions to LLMs.
-- LLM agents research produces research on potential risks and behaviours to be expected in real world, when highly capable LLMs are released in the future.
-- Multiple papers review LLMs with perception capability using VLMs. In essence, VLM-based models improve system capabilities over LLMs due to their capability to visually ground input text.
-- Other models continue adding more modalities: audio, actions etc. Therefore, Agents are better called as multimodal agents, despite there is not yet generally agreed number of modalities required or desired. 
 
 
 ---
@@ -2981,7 +2946,7 @@ These chains may use different types of:
 ####  Autonomous General Agent 
 
 
-I define next a new term **Autonomous Generalist Agents", which combines these two approaches:
+I define next a new term **Autonomous Generalist Agents":
 
 
 
@@ -3000,9 +2965,6 @@ AGA-systems are able to:
 
 
 ---
-
-
-
 
 
 ## Why Autonomous Agents work? 
@@ -3093,6 +3055,25 @@ https://hci.stanford.edu/winograd/papers/context/context.pdf
 #### Free energy principle
 
 [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf)
+
+
+
+
+---
+
+## Related work
+
+- Overviews: [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
+- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
+- Memory(short/long/sensorial/embedding),
+- Roles (teacher/student/etc),
+- Tools (other models/vector DBs/APIs/etc),
+- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
+- Environments (code interpreter/browser/api/RL environment/real world),
+- Embodiments (LLM call/virtual enviroment/robotics/real world) and
+- Autonomity (manual/interactive/fully autonomous).
+
+
 
 ---
 
