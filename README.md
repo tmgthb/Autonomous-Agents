@@ -2895,6 +2895,42 @@ Negative:
 
 ---
 
+#### LLM Agents
+
+
+
+---
+
+
+#### VLM Agents
+
+Vision-Language Model (VLM)-based Agents
+
+[Llava](https://arxiv.org/abs/2304.08485) 
+
+---
+
+#### Embodied Agents
+
+Embodied agent-term was used by Brook (1991) in the ["The Role of Learning in Autonomous Robots"(1991)](https://people.csail.mit.edu/brooks/papers/colt.pdf) and Brooks (1991) defined Embodiment in the AI within the  ["Intelligence without reason"](https://people.csail.mit.edu/brooks/papers/AIM-1293.pdf) and in the book: ["New approaches to Intelligence"](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9e1ef9e0a9de1d1c5e36d1a4c735da2fa313c563):
+
+"Embodiment: The **robots have bodies** and experience the world directly--their actions are part of a dynamic with the world, and the  **actions have immediate feedback on the robots' own sensations. **". 
+
+Brooks revits prior literature of Embodiment in the [Building Brains for Bodies](https://dspace.mit.edu/bitstream/handle/1721.1/5948/AIM-1439.pdf?sequence=2&isAllowed=y). Steel and Brooks (1995) define concept of Embodied AI and Embodied Agents within Autonomous agents in the book: ["The Artificial Life Route to Artificial Intelligence Building Embodied, Situated Agent"](https://www.routledge.com/The-Artificial-Life-Route-to-Artificial-Intelligence-Building-Embodied/Steels-Brooks/p/book/9781138545854). 
+
+
+Positive:
+- Embodiment validates capacity to manage real world.
+- Physical grounding provides meaning to (symbolic) information processed.
+
+Negative:
+- Unclarity regads agents in virtual embodiment in virtual reality.
+- The definition does not consider Cognition/Language aspects.
+
+
+---
+
+
 
 #### AI Agent (Agentic AI Systems)
 
@@ -3047,8 +3083,16 @@ What we know about consciousness research?
 
 - Very little concrete to make any conclusions.
 - [consciousness test](#consciousnesstest)
+- https://consc.net/papers/c-and-c.html
+- 
+What we know about Context?
+https://hci.stanford.edu/winograd/papers/context/context.pdf
 
 
+
+#### Free energy principle
+
+[The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf)
 
 ---
 
