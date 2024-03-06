@@ -2900,7 +2900,10 @@ Positive:
 Negative:
 - Text-only
 - The definition does not consider RL Agent / Autonomous Agent-aspects, such as environment, embodiment etc.
+- LLM-agent poor describes the currently wide variety of components: memory/VLM/reasoning-modules etc. 
 
+
+---
 
 
 #### Embodied Agents
