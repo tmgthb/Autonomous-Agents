@@ -2928,7 +2928,7 @@ Negative:
 
 
 
-#### AI Agent (Agentic AI Systems)
+#### AI-Agents (Agentic AI)
 
 
 [Shavit et al. (2023)](#agentaidefinition) define AI Agent: "we will generally conceptualize **agentic AI systems** as operating in **pursuit of goals defined by humans** and in **environments determined by humans** (and often in **cooperation with human** “teammates”), rather than fully-autonomous systems that set their own goals."
@@ -2949,15 +2949,14 @@ Negative:
 ####  Autonomous General Agent 
 
 
-I define next a new term **Autonomous Generalist Agents":
+I define next a new term **Autonomous Generalist Agents" (AGA):
 
 
 
 **Autonomous Generalist Agent (AGA) perceives, reasons, plans communicates and interacts over time as part of an environments to complete novel objectives.** 
 
 
-
-AGA-systems are able to:
+Positive:
 - Perceive multimodal information 
 - Reason
 - Plan own agenda
@@ -2965,7 +2964,9 @@ AGA-systems are able to:
 - Interact bi-directionally with the environment
 - Internal clock
 - Generalize novel tasks
-
+  
+Negative:
+- Does not include consciousness.
 
 ---
 
