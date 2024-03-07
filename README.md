@@ -2975,19 +2975,27 @@ Negative:
 
 <div id="why"> </div>
 
-### About predicting next-word:
-- LLMs are trained to predict the next-word. The single training objective is known to result [Multi-task learning](#multitask). However, it is better understood as a [Massively Multi-task learning](#extreme).
-- Next-word prediction is very [generic](#extreme) learning process, where any "<input, output>"-sequence relationship learning is a "next-word prediction task".
-- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
+### About predicting next sequence
+
+- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
+- Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
+- Next sequence prediction algorithm is generic algorithm.
+
+1. Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
+2. Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes. 
+3. Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
+4. Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
+
+
+Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
+
 
 ### Demystifying Emerging Abilities
-- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 (and increasing known Emerging Abilities.
+
+- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
 - Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
-- GPT-4 performs [high compared to human-level performance on multiple benchrmarks despite incomplete AGI](#sparks), not only on few.
-- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
 
-### World Models
-
+Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
 
 ### Self-Recursive LLMs
 - LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
@@ -3017,9 +3025,7 @@ Negative:
 - As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
 - LLM agents prompting enables resource-rich behaviour from LLMs.
 
-
-#### World Models
-
+### World Models
 
 
 [Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
@@ -3035,6 +3041,13 @@ To the extent that the creature's actions affect the environment, :**this intern
 "We use the term "model" in the following sense: To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A."
 
 "A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
+
+
+
+#### Free energy principle
+
+[The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf)
+
 
 ----
 
@@ -3056,13 +3069,14 @@ https://hci.stanford.edu/winograd/papers/context/context.pdf
 
 
 
-#### Free energy principle
-
-[The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf)
 
 
+Additional materials:
+- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
+- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
+- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
 
-
+  
 ---
 
 ## Related work
