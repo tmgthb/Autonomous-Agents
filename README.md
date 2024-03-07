@@ -2981,10 +2981,10 @@ Negative:
 - Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
 - Next sequence prediction algorithm is generic algorithm.
 
-1. Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
-2. Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes. 
-3. Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
-4. Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
+        1. Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
+        2. Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes. 
+        3. Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
+        4. Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
 
 
 Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
@@ -2996,6 +2996,11 @@ Overall, the next sequence prediction is one of the most generic single learning
 - Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
 
 Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
+
+
+
+### 
+
 
 ### Self-Recursive LLMs
 - LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
@@ -3104,6 +3109,15 @@ Additional materials:
 - Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
 
 Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
+
+
+
+#### About intelligent behaviour
+
+- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour: 1. Capacity to undertand the physical world, 2. The ability to remember and retrieve things, 3. Persistent memory, 4.The ability to reason and plan.
+
+
+
 
 ---
 
