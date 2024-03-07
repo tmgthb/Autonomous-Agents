@@ -3064,8 +3064,7 @@ What we know about consciousness research?
 - [consciousness test](#consciousnesstest)
 - https://consc.net/papers/c-and-c.html
 - 
-What we know about Context?
-https://hci.stanford.edu/winograd/papers/context/context.pdf
+
 
 
 
@@ -3091,6 +3090,22 @@ Additional materials:
 - Embodiments (LLM call/virtual enviroment/robotics/real world) and
 - Autonomity (manual/interactive/fully autonomous).
 
+
+
+
+
+### About the context window
+
+- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
+- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
+- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).
+
+Overall, text context window appears to steadily increase to above human-level capabilities.
+
+- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal.
+- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers a deeper view on context: out-of-context, communication (encoding-decoding between people) takes place in a context and 7 elements of shared context.
+
+Overall, illustrates the variety of dimensions, which humans see as context when communicating, thinking and perceiving beyond just few thousands of text tokens.
 
 
 ---
