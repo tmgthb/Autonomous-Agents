@@ -3114,7 +3114,12 @@ Overall, context is n-dimensional space, including text-dimension already in LLM
 
 #### About intelligent behaviour
 
-- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour: 1. Capacity to undertand the physical world, 2. The ability to remember and retrieve things, 3. Persistent memory, 4.The ability to reason and plan.
+- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
+
+  - Capacity to undertand the physical world,
+  - The ability to remember and retrieve things,
+  - Persistent memory,
+  - The ability to reason and plan.
 
 
 
