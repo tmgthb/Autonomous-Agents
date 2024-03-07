@@ -2999,7 +2999,21 @@ Overall, emerging abilities have increased so far contiuously as compute is scal
 
 
 
-### 
+---
+
+### About the context window
+
+- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
+- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
+- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).  The textual context window in LLMs is already beyond human-level capacity text. 
+- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal. As the context window in LLMs increase, the focus will inevitable turn towards managing context window perceived from other modalities such as vision, sound, robots,  etc.
+- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers "a must-read" analysisw on the various dimensions and aspects of the context. For exampple Lenat proposes to think context being a region in some n-dimensional space.
+- Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
+
+Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
+
+
+
 
 
 ### Self-Recursive LLMs
@@ -3048,37 +3062,51 @@ To the extent that the creature's actions affect the environment, :**this intern
 "A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
 
 
-
-#### Free energy principle
-
-[The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf)
-
-
 ----
 
-#### Artificial General Intelligence (AGI) / Artificial Super Intelligence (ASI) / Consciousness:
+
+### About Intelligence
+
+#### Artificial General Intelligence (AGI):
+
+- Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
 
 
-Superhuman-level:
+---
+
+#### Artificial Super Intelligence (ASI):
+
+ASI concept seems vague, because current AI systems are not generally more capable across all tasks. 
+
 - [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
 
 
-What we know about consciousness research?
+---
 
-- Very little concrete to make any conclusions.
-- [consciousness test](#consciousnesstest)
-- https://consc.net/papers/c-and-c.html
-- 
+#### Consciousness
 
+Consciousness is a controversial topic in AGI research. I add here few considerations.
 
-
-
+- Chalmers [writes](https://consc.net/papers/c-and-c.html) about conciousness, which gives useful perspectives on the matter.
+- Ilya Sutskever defined a practical [consciousness test](#consciousnesstest) for LLMs.
 
 
-Additional materials:
+---
+
+### Other
+
 - LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
 - GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
 - AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
+
+
+
+--
+
+### Free energy principle
+
+- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
+- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
 
   
 ---
@@ -3096,21 +3124,7 @@ Additional materials:
 - Autonomity (manual/interactive/fully autonomous).
 
 
-
-
-
-### About the context window
-
-- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
-- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
-- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).  The textual context window in LLMs is already beyond human-level capacity text. 
-- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal. As the context window in LLMs increase, the focus will inevitable turn towards managing context window perceived from other modalities such as vision, sound, robots,  etc.
-- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers "a must-read" analysisw on the various dimensions and aspects of the context. For exampple Lenat proposes to think context being a region in some n-dimensional space.
-- Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
-
-Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
-
-
+---
 
 #### About intelligent behaviour
 
