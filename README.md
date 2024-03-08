@@ -28,9 +28,23 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 7th of March 2024
+
+[Acceleron: A Tool to Accelerate Research Ideation](https://arxiv.org/abs/2403.04382)
+
+- Acceleron: LLM agent for research using colleague and mentor personas. Interacts with researcher develop research proposal.
+- Introduces concept of "Unanswerability", when LLM should identify when all the retrieved paragraphs are irrelevant.
 
 
-#### 
+---
+
+#### 6th of March 2024
+
+[Exploring LLM-based Agents for Root Cause Analysis](https://arxiv.org/abs/2403.04123)
+
+- Introduces LLM-based Root-Cause-Analysis (RCA) agent based on ReCT.
+
+---
 
 #### 23th of February 2024
 
@@ -1825,6 +1839,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213)
 
 - LLMs include Function Vectors (FCs) to trigger functions in different contexts.
+
+
+---
+
+[LLM-Based Agent Society Investigation: Collaboration and Confrontation in Avalon Gameplay](https://arxiv.org/abs/2310.14985)
+
+- Explores social behaviour or LLMs in Avalon-game regards team working and other collaboration.
+  
 
 ---
 
