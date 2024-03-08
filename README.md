@@ -44,6 +44,16 @@ Chronological order.
 
 - Introduces LLM-based Root-Cause-Analysis (RCA) agent based on ReCT.
 
+
+---
+
+#### 24th of February 2024
+
+[ByteComposer: a Human-like Melody Composition Method based on Language Model Agent](https://arxiv.org/abs/2402.17785)
+
+- ByteComposer: LLM-agent based melody composer with four elements: Conception analysis, Draft composition, Self-evaluation and modification and Aesthetic selection. 
+
+
 ---
 
 #### 23th of February 2024
