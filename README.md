@@ -40,10 +40,34 @@ Chronological order.
 
 #### 6th of March 2024
 
+[PPTC-R benchmark: Towards Evaluating the Robustness of Large Language Models for PowerPoint Task Completion](https://arxiv.org/abs/2403.03788)
+
+- PowerPoint Task Completion-Robustness (PPTC-R)-benchmark for LLMs PowerPoint completion tasks.
+
+---
+
+[SheetAgent: A Generalist Agent for Spreadsheet Reasoning and Manipulation via Large Language Models](https://arxiv.org/abs/2403.03636)
+
+- SheetAgent: LLM-agent to complete spreadsheet tasks by interacting through iterative task reasoning. Introduces SheetRM-benchmark.
+- Includes three modules: Planner (generates python code to modify the spreadsheet), Informer (produces SQLs to perceive the spreadsheet despite dynamic range) and Retriever (retrieves instructive examples to improve robustness).
+- Includes interesting concept of erroneous code-code repository as Milvus vector database, in order to perform cosine similarity search in case erroneous code.
+
+---
+
 [Exploring LLM-based Agents for Root Cause Analysis](https://arxiv.org/abs/2403.04123)
 
 - Introduces LLM-based Root-Cause-Analysis (RCA) agent based on ReCT.
 
+
+---
+
+#### 5th of March 2024
+
+
+[Language Guided Exploration for RL Agents in Text Environments](https://arxiv.org/abs/2403.03141)
+
+- Introduces Language Guided Exploration (LGE), which in this study outperforms Behaviour Cloning.
+- Explorer: RL agent with LGE outperforms with wide margin behaviour cloning. The key component is the Guide-model (LLM), which provides world knowledge to introduce set of feasible actions and reducing substantially the possible action space.
 
 ---
 
