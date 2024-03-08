@@ -2943,6 +2943,11 @@ Negative:
 - Definition does not highlight any human congitive capabilities like search planning, perception etc.
 - The level of independence and automatization are controversial from user experience perspective.
 
+Alternative definition uses:
+
+
+- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
+
 
 ---
 
@@ -3013,7 +3018,7 @@ Overall, emerging abilities have increased so far contiuously as compute is scal
 Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
 
 
-
+---
 
 
 ### Self-Recursive LLMs
@@ -3024,25 +3029,34 @@ Overall, context is n-dimensional space, including text-dimension already in LLM
 - [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
 - LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
+---
+
 ### Search planning
 - Tree-structures enable searching large reasoning trees for a solution to a complex problem
 - [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
 - Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
+
+---
+
 ### Synthetic data enables Small Student Models to outperform their Teachers
 - The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
 - Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
 
+
+---
+
 ### Agent-based AI
-- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
 - [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
 
-### Autonomous Agents
-- The recent improvements of voice-models, has made it possible voice-controlled UIs with simple integratio with VLMS, LLMs and other APIs.
-  
+
+---
+
 ### Agents are Resources 
 - As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
 - LLM agents prompting enables resource-rich behaviour from LLMs.
+
+---
 
 ### World Models
 
@@ -3070,8 +3084,10 @@ To the extent that the creature's actions affect the environment, :**this intern
 #### Artificial General Intelligence (AGI):
 
 - Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
+- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
+- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.
 
-
+  
 ---
 
 #### Artificial Super Intelligence (ASI):
@@ -3091,17 +3107,9 @@ Consciousness is a controversial topic in AGI research. I add here few considera
 - Ilya Sutskever defined a practical [consciousness test](#consciousnesstest) for LLMs.
 
 
+
+
 ---
-
-### Other
-
-- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.  
-- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
-- AGI definitions are not commonly agreed. GPT-4 lacks for example "agency" and "intrinsic motivation", which LLM agents are mitigate with RAGs, memories and tools.
-
-
-
---
 
 ### Free energy principle
 
