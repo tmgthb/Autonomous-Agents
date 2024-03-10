@@ -89,6 +89,16 @@ Chronological order.
 
 ---
 
+[OPEx: A Component-Wise Analysis of LLM-Centric Agents in Embodied Instruction Following](https://arxiv.org/abs/2403.03017)
+
+- OPEx-agent: Includes Observer, Planner and Executor-roles. Observer-agent processes and interprets sensory inputs, such as vision from the environment. Planner integrates dynamically strategic plans and sub-tasks based on perception. Excutor implements the plans with skills library.
+- Embodied Instruction Following (EIF): agents follows task instruction by interacting with the environment through observations in a ego-centric way .
+- The agent basically includes, what objects the agent is currently observing, what objects have been found, what observations have been so far made and what previous steps have been completed. In addition, there is known the current objective, thought and action.
+
+
+
+---
+
 #### 24th of February 2024
 
 [ByteComposer: a Human-like Melody Composition Method based on Language Model Agent](https://arxiv.org/abs/2402.17785)
