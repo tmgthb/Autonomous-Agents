@@ -105,6 +105,12 @@ Chronological order.
 - Creates LLM personification with complete life story to simulate personality and interacting with external world in human-like manner
 - Uses multi-agent framework to simulate cognitive functions, memory and psychology-guided evaluation to asses the quality of the human simulation with self-reporting and external observations. 
 
+---
+
+[Prospect Personalized Recommendation on Large Language Model-based Agent Platform](https://arxiv.org/abs/2402.18240)
+
+-  Rec4Agentverse: Recommender agent with three steps: User-Agent Interaction, Agent-Recommender, Agents Collaboration.
+
 
 ---
 
