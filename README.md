@@ -69,6 +69,24 @@ Chronological order.
 - Introduces Language Guided Exploration (LGE), which in this study outperforms Behaviour Cloning.
 - Explorer: RL agent with LGE outperforms with wide margin behaviour cloning. The key component is the Guide-model (LLM), which provides world knowledge to introduce set of feasible actions and reducing substantially the possible action space.
 
+
+[KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/abs/2403.03101)
+
+- KnowAgent: LLM-agent to improve planning with explicit action knowledge retrieval. The agent includes Action Knowledge Base (AKB), Planning Path Generation(question, action path, thought and observation) and Kowledgable Self-Learning.
+- Introduces term planning hallucinations, which refers to agent generating conflicting or unnecessary action sequences.
+- AKB contains information to steer action generation process: action name, definition, rule and knowledge.
+- Knowledgable Self-Learning phase improves continuously the understanding and usage of action knowledge
+
+
+---
+
+[Learning to Use Tools via Cooperative and Interactive Agents](https://arxiv.org/abs/2403.03031)
+
+- ConAgents: Cooperative and interactive agents, which iteratively applies three modules: Grounding, Execution and Observation. 
+- Grounding step grounds user query into too definition and target output. Executing defines required tool arguments and completes returned output. Observing addresses long-form data outputs with IterCal-method: LLM agent self-adapts to feedback from tool environment.
+- IterCal-method uses a pseudo-schema, which is basically a simplifie human-readable dictionary of the lengthy output returned from the tool used, see the pseudo-schema in the last page of the paper for quick understanding. 
+
+
 ---
 
 #### 24th of February 2024
