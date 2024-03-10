@@ -96,6 +96,15 @@ Chronological order.
 - The agent basically includes, what objects the agent is currently observing, what objects have been found, what observations have been so far made and what previous steps have been completed. In addition, there is known the current objective, thought and action.
 
 
+---
+
+#### 28th of February 2024
+
+[Human Simulacra: A Step toward the Personification of Large Language Models](https://arxiv.org/abs/2402.18180)
+
+- Creates LLM personification with complete life story to simulate personality and interacting with external world in human-like manner
+- Uses multi-agent framework to simulate cognitive functions, memory and psychology-guided evaluation to asses the quality of the human simulation with self-reporting and external observations. 
+
 
 ---
 
