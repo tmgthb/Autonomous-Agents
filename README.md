@@ -28,6 +28,21 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 8th of March 2024
+
+[RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation](https://arxiv.org/abs/2403.05313)
+
+- Retrieval Augmented Thoughts (RAT): Iterative revising CoTs with retrieval information, which improves LLM reasoning in long-horizon tasks and reduces hallucinations.
+- First generates CoT answer, then uses this answers with a verification prompt. The verification prompt requests to verify correctness of the given answer to the question with the separately added information query, for example by using Bing/Google search (authors implement a separate get_content function in their Github code).
+- The query is based on the draft answer. The retrieved information is used to revise the draft answer. The next thought is then appended and a new round of revision performed. The process is repeated, until all revised thoughts are obtained and the final answer is provided.
+- The github code includes multiple functions to manage inputs and outputs for the LLMs.
+
+
+
+
+---
+
+
 #### 7th of March 2024
 
 [Acceleron: A Tool to Accelerate Research Ideation](https://arxiv.org/abs/2403.04382)
@@ -60,6 +75,7 @@ Chronological order.
 
 
 ---
+
 
 #### 5th of March 2024
 
@@ -122,8 +138,6 @@ Chronological order.
 ---
 
 
-#### 4th of March 2024
-
 [ChatCite: LLM Agent with Human Workflow Guidance for Comparative Literature Summary](https://arxiv.org/abs/2403.02574)
 
 
@@ -131,6 +145,22 @@ Chronological order.
 - Key-Element Extractor: Extracts research questions, methodology, results, conclusions, contributions, innovations and limitations. These are stored in memory.
 - Reflective Incremental Generator: Reflective mechnanism, Comparative summarizer, Reflective Evaluator and Rank & Select. Iteratively repeated.
 
+
+---
+
+#### 4th of March 2024
+
+[Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents](https://arxiv.org/abs/2403.02502)
+
+- Exploration-based Trajectory Optimization (ETO): LLM agent collects failure trajectories to update its policy using failure-success trajectories.
+- ETO includes three steps: Explore (SFT-based behavioral cloning LLM agent), Collect Failures (pairs contrastive trajectories from the failures and expert trajectories) and Optimize trajectories (DPO loss on the pairs).
+
+
+---
+
+[Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach](https://arxiv.org/abs/2306.03604)
+
+- When2Ask: RL agent, which learns when to query LLM for high-level plans to complete a task.
 
 
 ---
@@ -142,11 +172,22 @@ Chronological order.
 - Creates LLM personification with complete life story to simulate personality and interacting with external world in human-like manner
 - Uses multi-agent framework to simulate cognitive functions, memory and psychology-guided evaluation to asses the quality of the human simulation with self-reporting and external observations. 
 
+
 ---
 
 [Prospect Personalized Recommendation on Large Language Model-based Agent Platform](https://arxiv.org/abs/2402.18240)
 
 -  Rec4Agentverse: Recommender agent with three steps: User-Agent Interaction, Agent-Recommender, Agents Collaboration.
+
+
+---
+
+
+[Data Interpreter: An LLM Agent For Data Science](https://arxiv.org/abs/2402.18679)
+
+- Data Interpreter: Data scientist LLM agent with Plan, Code and Verify steps. The pipeline is represented as a DAG-structure. 
+- Plan Real data adaption using dynamic planning with hierarchical graph structures. Code: Dynamic tool integration to improve code execution. Verify: Logical inconsistency identification through feedback
+
 
 
 ---
@@ -2213,6 +2254,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Conceptual framework for Autonomous entities.
 
+
+---
+
+[OceanGPT: A Large Language Model for Ocean Science Tasks](https://arxiv.org/abs/2310.02031)
+
+- DoInstruct (Domain Instruction): Automatically gathers large amount of domain specific instruction data for multi-agent collaboration.
+- Domain Instruction generation: Agents used as experts in each topic. Instructions are augmented rapidly through agent collaboration, which are annotated and finally inspected for high quality fine-tuning dataset. 
+  
 
 ---
 
