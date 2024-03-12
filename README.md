@@ -156,11 +156,6 @@ Chronological order.
 - ETO includes three steps: Explore (SFT-based behavioral cloning LLM agent), Collect Failures (pairs contrastive trajectories from the failures and expert trajectories) and Optimize trajectories (DPO loss on the pairs).
 
 
----
-
-[Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach](https://arxiv.org/abs/2306.03604)
-
-- When2Ask: RL agent, which learns when to query LLM for high-level plans to complete a task.
 
 
 ---
@@ -2516,6 +2511,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Builds multi-agent simulation environment to generate dataset of using many real world apis. 
 - Small models can achieve comparable performance to larger models on tool usage.
+
+
+---
+
+#### 6th of June 2023
+
+[Enabling Intelligent Interactions between an Agent and an LLM: A Reinforcement Learning Approach](https://arxiv.org/abs/2306.03604)
+
+- When2Ask: RL agent, which learns when to query LLM for high-level plans to complete a task.
+- Planner, Actor and Mediator.
+
 
 ---
 
