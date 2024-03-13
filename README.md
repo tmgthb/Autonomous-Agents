@@ -137,7 +137,6 @@ Chronological order.
 
 ---
 
-
 [ChatCite: LLM Agent with Human Workflow Guidance for Comparative Literature Summary](https://arxiv.org/abs/2403.02574)
 
 
@@ -156,6 +155,13 @@ Chronological order.
 - ETO includes three steps: Explore (SFT-based behavioral cloning LLM agent), Collect Failures (pairs contrastive trajectories from the failures and expert trajectories) and Optimize trajectories (DPO loss on the pairs).
 
 
+#### 2nd of March 2024
+
+[SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code](https://arxiv.org/abs/2403.01248)
+
+- SceneCraft: LLM agent converts text into Python code for Blender API 3D-scenes. 
+- Dual-loop: Inner loop keeps improving scene by writing Blender code and rendering and critic-revising this rendered image.
+- Outer loop learns by updating reusable functions to the library.
 
 
 ---
