@@ -160,8 +160,9 @@ Chronological order.
 [SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code](https://arxiv.org/abs/2403.01248)
 
 - SceneCraft: LLM agent converts text into Python code for Blender API 3D-scenes. 
-- Dual-loop: Inner loop keeps improving scene by writing Blender code and rendering and critic-revising this rendered image.
+- Dual-loop: Inner loop keeps improving scene by writing Blender code, Blender API renders the code and critic-revising this rendered image using Vision-Language Model (VLM).
 - Outer loop learns by updating reusable functions to the library.
+- The beaty of this approach is, that VLM model revising the end result, makes it very generich approach for self-improvement.
 
 
 ---
