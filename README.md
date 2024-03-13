@@ -19,6 +19,7 @@ Copyright (C) Teemu Maatta.
 
 </div>  
 
+<div id="topofthepage"> </div>
 
 # Autonomous Agents
 
@@ -3648,8 +3649,8 @@ Consciousness is a controversial topic in AGI research. I add here few considera
 ## Citation
 
 
+How to cite my work?
 
-If you found our work valuable, please cite:
 
 
 ```
@@ -3664,3 +3665,7 @@ If you found our work valuable, please cite:
 ```
 
 ---
+
+
+
+[Back to top](#topofthepage)
