@@ -167,6 +167,16 @@ Chronological order.
 
 ---
 
+#### 1st of March 2024
+
+[Playing NetHack with LLMs: Potential & Limitations as Zero-Shot Agents](https://arxiv.org/abs/2403.00690)
+
+- NetPlay: zero-shot agent, which uses agent loop using GPT-4.
+- Constructs prompt including past events, the current observation, a task description with available skills and the desired output format. Retrieve new skill and Execute it. New events are then observed.
+
+
+---
+
 #### 28th of February 2024
 
 [Human Simulacra: A Step toward the Personification of Large Language Models](https://arxiv.org/abs/2402.18180)
