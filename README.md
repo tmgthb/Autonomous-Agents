@@ -3470,7 +3470,13 @@ Positive:
 Negative:
 - Does not include consciousness.
 
+
+
+[Back to top](#topofthepage)
+
+
 ---
+
 
 
 ## Why Autonomous Agents work? 
@@ -3641,7 +3647,7 @@ Consciousness is a controversial topic in AGI research. I add here few considera
   - The ability to reason and plan.
 
 
-
+[Back to top](#topofthepage)
 
 ---
 
