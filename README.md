@@ -1,13 +1,3 @@
-# Autonomous Agents
-
-
-Autonomous Agents (LLMs). Updated daily
-- [Research papers.](#papers)
-- [What is an Autonomous Agent?](#what)
-- [Why Autonomous Agents work?](#why)
-
-
-
 <div align="center"> 
   
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
@@ -16,7 +6,13 @@ Autonomous Agents (LLMs). Updated daily
 </div>  
 
 
+# Autonomous Agents
 
+
+Autonomous Agents (LLMs). Updated daily
+- [Research papers.](#papers)
+- [What is an Autonomous Agent?](#what)
+- [Why Autonomous Agents work?](#why)
 
 
 
