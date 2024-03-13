@@ -1,3 +1,17 @@
+<!--
+Copyright (C) Teemu Maatta. 
+
+@misc{MaattaAutonomousAgents2023,
+  author = {Teemu Maatta},
+  title = {Autonomous Agents},
+  year = {2023},
+  howpublished = {\url{https://github.com/tmgthb/Autonomous-Agents}},
+  note = {Accessed: YYYY-MM-DD}
+}
+
+-->
+
+
 <div align="center">
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
