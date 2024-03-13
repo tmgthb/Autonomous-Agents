@@ -8,7 +8,7 @@
 
 # Autonomous Agents
 
-Autonomous Agents (LLMs). AI/Generalist/Embodied/LLM agents. Updated daily
+Autonomous Agents (LLMs). Updated daily
 - [Research papers.](#papers)
 - [What is an Autonomous Agent?](#what)
 - [Why Autonomous Agents work?](#why)
