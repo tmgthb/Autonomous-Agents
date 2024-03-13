@@ -67,7 +67,9 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 - Multiagent Data and AI based platform framework: data, playground, web app, embedding model, multiagent orchestration (rest of the components interact with), data security/privacy, APIs/plugins, LLM & cache, Cloud provider, cloud DBs, Data Ops, MLOps, LLMOps and data strategy/ethics/LLM governance. The paper offers very little apart from this list, but the list does include quiet many of the components.
 
+
 ---
+
 #### 11th of March 2024
 
 [RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems](https://arxiv.org/abs/2403.06465)
@@ -119,7 +121,6 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 - RAVA (Reframe Any Video Agen): Perception to interpret user query and video content, Planning to determine aspect ratio/reframin strategies and Execution uses video editing tools to produce final video. 
 
 
-
 ---
 
 #### 9th of March 2024
@@ -160,7 +161,6 @@ during CoT inference.
 - Vision module (GPT-4V) receives screenshots from the Managers and provides text description of it. - Planner uses as input the walkthrough and history and outputs a granular plan to be executed. Uses k-level of experts.
 
 
-
 ---
 
 
@@ -174,11 +174,13 @@ during CoT inference.
 
 ---
 
+
 #### 6th of March 2024
 
 [PPTC-R benchmark: Towards Evaluating the Robustness of Large Language Models for PowerPoint Task Completion](https://arxiv.org/abs/2403.03788)
 
 - PowerPoint Task Completion-Robustness (PPTC-R)-benchmark for LLMs PowerPoint completion tasks.
+
 
 ---
 
@@ -187,6 +189,7 @@ during CoT inference.
 - SheetAgent: LLM-agent to complete spreadsheet tasks by interacting through iterative task reasoning. Introduces SheetRM-benchmark.
 - Includes three modules: Planner (generates python code to modify the spreadsheet), Informer (produces SQLs to perceive the spreadsheet despite dynamic range) and Retriever (retrieves instructive examples to improve robustness).
 - Includes interesting concept of erroneous code-code repository as Milvus vector database, in order to perform cosine similarity search in case erroneous code.
+
 
 ---
 
@@ -206,6 +209,8 @@ during CoT inference.
 - Introduces Language Guided Exploration (LGE), which in this study outperforms Behaviour Cloning.
 - Explorer: RL agent with LGE outperforms with wide margin behaviour cloning. The key component is the Guide-model (LLM), which provides world knowledge to introduce set of feasible actions and reducing substantially the possible action space.
 
+
+---
 
 [KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/abs/2403.03101)
 
@@ -241,6 +246,7 @@ during CoT inference.
 - CoAT includes four parts: Screen context, Action thinking, Action target and Action Result.
 - Screen context explains content of the GUI screenshot. Action thinking takes user query, current screen and history to define possible actions to complete goal. Action target refers to GUI element being actioned such as clicking an icon. Action result maps current screen with next action to future observation. 
 
+
 ---
 
 [InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents](https://arxiv.org/abs/2403.02691)
@@ -274,6 +280,9 @@ during CoT inference.
 
 - Exploration-based Trajectory Optimization (ETO): LLM agent collects failure trajectories to update its policy using failure-success trajectories.
 - ETO includes three steps: Explore (SFT-based behavioral cloning LLM agent), Collect Failures (pairs contrastive trajectories from the failures and expert trajectories) and Optimize trajectories (DPO loss on the pairs).
+
+
+---
 
 
 #### 2nd of March 2024
@@ -322,8 +331,8 @@ during CoT inference.
 - Plan Real data adaption using dynamic planning with hierarchical graph structures. Code: Dynamic tool integration to improve code execution. Verify: Logical inconsistency identification through feedback
 
 
-
 ---
+
 
 #### 24th of February 2024
 
@@ -372,6 +381,7 @@ during CoT inference.
 - Context recalling prompts the model to first recall the relevant information, before doing further reasoning.
 - Introduces long context bencmark: ∞BENCH-benchmark for LLMs with above 100k context window. 
 
+
 ---
 
 [Neeko: Leveraging Dynamic LoRA for Efficient Multi-Character Role-Playing Agent](https://arxiv.org/abs/2402.13717)
@@ -408,6 +418,7 @@ during CoT inference.
 - Uses only data preprocessing with modality specific tokenizers to tokenize input into discrete tokens and model outputs by de-tokenizing into specific modality outputs.
 - Introduces multimodal alignment dataset made of conversations.   
 
+
 ---
 
 [Shall We Talk: Exploring Spontaneous Collaborations of Competing LLM Agents](https://arxiv.org/abs/2402.12327)
@@ -423,6 +434,7 @@ during CoT inference.
 - Outperforms baselines from DeepRL- and ReAct-agents in gridworlds-environment.
 - Incldues sample code of the world_model.py.
 
+
 ---
 
 [Comprehensive Cognitive LLM Agent for Smartphone GUI Automation](https://arxiv.org/abs/2402.11941)
@@ -437,12 +449,14 @@ during CoT inference.
 
 - PsychoGAT: Gamification of psychological assessment traditionally performed with questionaries with superior performance. Includes prompt templates.  
 
+
 ---
 
 [Structured Chain-of-Thought Prompting for Few-Shot Generation of Content-Grounded QA Conversations](https://arxiv.org/abs/2402.11770)
 
 - Structured CoT (SCoT): breakdowns into states for for generating actions for each sub-tasks durign the specific state. 
 - For example first state determines, if question is answerable, the next step identifies required steps for the answer and the next state generates the step answer. 
+
 
 ---
 
@@ -453,17 +467,20 @@ during CoT inference.
 - LongAgent: Scales LLaMA to 128k context window outperforming GPT-4 through multiagent collaboration using inter-member communication.
 - Leader agent selects agent members of team based on task description, agent team collaboratively reason, deduct answer and finally resolve conflict to generate final answer. 
 
+
 ---
 
 [Learning From Failure: Integrating Negative Examples when Fine-tuning Large Language Models as Agents](https://arxiv.org/abs/2402.11651)
 
 - Fine-tuning LLMs with Negative examples enhances performance. 
 
---
+
+---
 
 [Modelling Political Coalition Negotiations Using LLM-based Agents](https://arxiv.org/abs/2402.11712)
 
 - Political coalition negotiation with LLM agents.
+
 
 ---
 
@@ -474,6 +491,7 @@ during CoT inference.
 - Hyperparameter Aware Generation (HAG): the LLM learns to modify automatically its hyperparameters (temperature, top_p, top_k, repetition_penalty) for each user task input.
 - Self-regulation of hyperparameters enables the LLM to finetune its responses to different task inputs.
 - Self-regulation takes inspiration from the ability of human body to regulate itself based on different factors like temperature, blood pressure, adrealine etc.
+
 
 ---
 
@@ -523,13 +541,16 @@ during CoT inference.
 - AgentEval: framework to verify utility of the LLM tool through automatic criteria creation for a given task to review meeting of user needs. 
 - Includes CriticAgent to list criteria of accepted values and QuantifierAgent verifying suggested criteria.
 
+
 ---
 
 [DoRA: Weight-Decomposed Low-Rank Adaptation](https://arxiv.org/abs/2402.09353)
 
 - Next generation LoRA. Get more out from your LLM, while not directly related to agents.
 
+
 ---
+
 
 #### 13th of February 2024
 
@@ -578,6 +599,7 @@ during CoT inference.
 
 ---
 
+
 #### 12th of February 2024
 
 [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
@@ -586,17 +608,20 @@ during CoT inference.
 - OS-Copilot framework: Planner, Configurator to update or retrieve (Declarative memory for user profile and Semantic knowledge/Procedural memory for tools), Actor (Executor / Critic).
 - Learns to control and self-improve.
 
+
 ---
 
 [Predictive representations: building blocks of intelligence](https://arxiv.org/abs/2402.06590)
 
 - Successor Representation (SR) may function as versatile building blocks of intelligence.
 
+
 ---
 
 [Secret Collusion Among Generative AI Agents](https://arxiv.org/abs/2402.07510)
 
 - Model capability evaluation framework on Secret collusion.
+
 
 ---
 
@@ -612,7 +637,7 @@ during CoT inference.
 
 [Self-Correcting Self-Consuming Loops for Generative Model Training](https://arxiv.org/abs/2402.07087)
 
-- 
+- Self-Correcting Functions using expert knowledge for generative model training. 
 
 
 ---
@@ -644,6 +669,7 @@ during CoT inference.
 - Such feedback loops can cause In-Context Reward Hacking (ICRH): LLM outputs increase BOTH the objective and the negative side-effects.
 - Output-refinement and policy refinement lead to ICRH.
 
+
 ---
 
 [Understanding the Weakness of Large Language Model Agents within a Complex Android Environment](https://arxiv.org/abs/2402.06596)
@@ -661,11 +687,13 @@ during CoT inference.
 - Reviews past years LLM research: LLM model families, building of LLMs, using of LLMs, LLM datasets, LLM metrics and future directions and challenges.
 - Includes deployment pipelines, vector databases, prompting pipelines and LLM training/inference frameworks
 
+
 ---
 
 [Why Solving Multi-agent Path Finding with Large Language Model has not Succeeded Yet](https://arxiv.org/abs/2401.03630)
 
 - Identifies three reasons on why multi-agent path finding with LLMs does not work: model limitation, lack of understanding and lack of reasoning.
+
 
 ---
 
@@ -707,12 +735,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - TimeArena: A textual simulation environment for LLM agents to complete tasks as soon as possible.
 - 30 real world like tasks from household activities to laboratory work. Illustrates, that GPT-4 lacks temporal awareness such as failing to recognize opportunities in parallel processing.
 
+
 ---
 
 [ScreenAgent: A Vision Language Model-driven Computer Control Agent](https://arxiv.org/abs/2402.07945)
 
 - VLM to control a real computer screen/GUI.
 - Includes Planning, Acting and Reflecting phases.
+
 
 ---
 
@@ -728,6 +758,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Reviews Temporally-aware reinforcement learning and Meta-learning.
 
+
 ---
 
 [WebLINX: Real-World Website Navigation with Multi-Turn Dialogue](https://arxiv.org/abs/2402.05930)
@@ -735,11 +766,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - WebLINX: Real-time webpage control with LLMs.
 - Filters relevant web page elements
 
+
 ---
 
 [How Well Can LLMs Negotiate? NegotiationArena Platform and Analysis](https://arxiv.org/abs/2402.05863)
 
 - NegotionArena bencbmark: to measure LLMs ability to negotiate. 
+
 
 ---
 
@@ -750,6 +783,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 7th of February 2024
 
@@ -765,6 +799,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Reviews LLM agents ability to simulate Trust. 
 
+
 ---
 
 [ScreenAI: A Vision-Language Model for UI and Infographics Understanding](https://arxiv.org/abs/2402.04615)
@@ -775,6 +810,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ---
 
 #### 6th of February 2024
+
 
 [Self-Discover: Large Language Models Self-Compose Reasoning Structures](https://arxiv.org/abs/2402.03620)
 
@@ -812,6 +848,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Monitor progresss: starts with previous plan and perception used to monitor progress against objective. 
 - Hierarchical planning: plans long-term (task planner), takes current task and generates actions (action planner) in the environment and agents.
 
+
 ---
 
 [Large Language Models as an Indirect Reasoner: Contrapositive and Contradiction for Automated Reasoning](https://arxiv.org/abs/2402.03667)
@@ -819,11 +856,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Indirect Reasoning (IR): Uses logic of contrapositives and contradictions for factual reasoning and math proofs.
 - Adding IR to factual reasoning increases overall accuracy compared to Direct Reasoning (DR) only or IR only. 
 
+
 ---
 
 [MobileVLM V2: Faster and Stronger Baseline for Vision Language Model](https://arxiv.org/abs/2402.03766)
 
 - Vision Language Model: MobileVLM V2.
+
 
 ---
 
@@ -840,6 +879,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Improves LLMs geometric reasoning with self-correction, collaboration and role specialization using geometric tools and four LLM agents.
 - Uses LLM agents with four roles: Natural language solver and validator, Geometric tool Solver and Validator.
+
 
 ---
 
@@ -866,9 +906,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Scientific agent: Reviews LLM agent vulnerabilities within science domain: Data Insuffiency, Planning limitation, Tool limitations, LLM limitations and Lack of measurement. 
 - Introduces triangle framework: Human regulation (Intent), Agent alignment (Red teaming) and Agent regulation (environmental feedback). 
 
+
 ---
 
 #### 5th of February 2024
+
 
 [Chain-of-Feedback: Mitigating the Effects of Inconsistency in Responses](https://arxiv.org/abs/2402.02648)
 
@@ -892,6 +934,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Planning tokens improve LLM reasoning capabilities.
 - Add the planning tokens in the LLM generated answer based on CoT in the beginning of each reasoning step, such as planning token related to multiplying done on that reasoning step,
 
+
 ---
 
 [DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models](https://arxiv.org/abs/2402.03300)
@@ -899,12 +942,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - DeepSeekMath: 7B model comparable with math reasoning of a 70B model, close to Gemini Ultra and GPT-4.
 - Introduces Group Relative Policy Optimization (GRPO).
 
+
 ---
 
 [LLM Agents in Interaction: Measuring Personality Consistency and Linguistic Alignment in Interacting Populations of Large Language Models](https://arxiv.org/pdf/2402.02896.pdf)
 
 - Studies LLM agents capability to follow human personality profiles: analytical vs. creative personality.
 - Each profile demonstrates different levels of consistency towards its profile in writing style and in a personality test. 
+
 
 ---
 
@@ -919,11 +964,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 4th of February 2024
 
+
 [Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
 
 - Review studies about the LLM agents planning capabilities.
 - Categorizes these planning capabilities into: Task decomposition, Plan selection, External module, Reflection and Memory.
 - Identifies development areas in: evaluating efficiency of the planning, revisiting of planning strategies in multimodality and more realistic evaluations.
+
 
 ---
 
@@ -952,6 +999,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 2nd of February 2024
 
+
 [K-Level Reasoning with Large Language Models](https://arxiv.org/abs/2402.01521)
 
 - K-level of Reasoning: Recursive reasoning process, which improves dynamic reasoning by integrating cognitive hierarchy theory by recursively predicting and responding to the thoughts and actions of rivals.
@@ -959,6 +1007,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 1st of February 2024
 
@@ -986,6 +1035,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Formal-LLM: Context-Free Grammar (CFG) translates guidance and rules for each relevant task, which LLM text generation must follow when generating the plan.
 - Prevents generating invalid plans.   
+
 
 ---
 
@@ -1032,6 +1082,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 29th of January 2024
 
 [Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception](https://arxiv.org/abs/2401.16158)
@@ -1057,6 +1108,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 28th of January 2024
 
 [YODA: Teacher-Student Progressive Learning for Language Models](https://arxiv.org/abs/2401.15670)
@@ -1068,6 +1120,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 26th of January 2024
 
 [Turn-taking and Backchannel Prediction with Acoustic and Large Language Model Fusion](https://arxiv.org/abs/2401.14717)
@@ -1075,6 +1128,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Reviews how voice-assistant systems should predict and manage: turn-taking, backchanneling and continued speaking.
 - Contiying speaking refers to the other party needing to continue listening the current speaker. Backchanneling refers to the current listener needing to produce a short utterance of acceptance without meaning to take over the speaker role. Turn-taking refers to the listered being expected to take over speaking turn from the current speaker.
 - Creates fusion model combining both LLM (GPT-2/RedPajama) and HuBERT-acoustic model.
+
 
 ---
 
@@ -1103,15 +1157,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - AutoRT: Fleet of robots use VLM and LLM 
 
+
 ---
 
 [HAZARD Challenge: Embodied Decision Making in Dynamically Changing Environments](https://arxiv.org/abs/2401.12975)
 
 - HAZARD-benchmark made of three dynamic challenges for an embodied agents: flood, fire and wind, which  performance are evaluated in terms of value, steps and damage.
 - Builds LLM-based pipeline for embodied agents by providing it task description, agent status and target info. Agent reads environment information, includes observation memory and LLM-based decision maker to select the next action.
-- 
+
 
 ---
+
 
 #### 22th of January 2024
 
@@ -1126,13 +1182,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Weight Averaged Reward Models (WARM) models.
 
+
 ---
 
 [PsySafe: A Comprehensive Framework for Psychological-based Attack, Defense, and Evaluation of Multi-agent System Safety](https://arxiv.org/abs/2401.11880)
 
 - PySafe: Safety research on LLM agents based on behavioural/psychological-characteristics.
 
+
 ---
+
 
 #### 21st of January 2024
 
@@ -1140,13 +1199,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - AttentionLego: LLM is implemented on Processing-In Memory (PIM) HW.
 
+
 ---
 
 [The Conversation is the Command: Interacting with Real-World Autonomous Robot Through Natural Language](https://arxiv.org/abs/2401.11838) 
 
 - Simplistic robotic control using VLM and LLM: VLM to object textual description and scene comprehension. LLM for reasoning and REM-node to translate commands into robot actions.
 
+
 ---
+
 
 #### 19th of January 2024
 
@@ -1169,7 +1231,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - CivicRealm: RL agent generalization benchmark, based on video game environment with various players and dynamic game space, imperfect information and random variability.
 
+
 ---
+
 
 #### 18th of January 2024
 
@@ -1219,7 +1283,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - LLM agent as as social (automated) actor.
 - Identifies what makes a good vs negative social behaviour for LLM agents.
 
+
 ---
+
 
 #### 16th of January 2024
 
@@ -1272,9 +1338,8 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 15th of January 2024
-
-
 
 [Exploring the Potential of Large Language Models in Self-adaptive Systems](https://arxiv.org/abs/2401.07534)
 
@@ -1297,6 +1362,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 14th of January 2024
 
 [CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges](https://arxiv.org/abs/2401.07339)
@@ -1315,6 +1381,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 12th of January 2024
 
 [ModaVerse: Efficiently Transforming Modalities with LLMs](https://arxiv.org/abs/2401.06395)
@@ -1322,6 +1389,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - ModaVerse: Introduces Adaptor+Agent framework for training multi-modal LLM able to process content across audio/video/image modalities.
 - Introduces Input/Output (I/O) Alignment: LLM generates language aligned meta-responses, which are instructions to activate specific generative models.
 - This method is capable of converting variety of modalities, while being very efficient to train.
+
 
 ---
 
@@ -1347,6 +1415,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Tool documentation is translated into: tool descriptions and tool core functionality. Each are created using specific LLM instructions.
 - Significantly improves tool-based LLM agent performance. 
 
+
 ---
 
 [Designing Heterogeneous LLM Agents for Financial Sentiment Analysis](https://arxiv.org/abs/2401.05799)
@@ -1363,7 +1432,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Evidence-to-Generation (E2G): Single LLM produces in two-steps answer step-by-step based on evidence from the context/question provided.
 - E2G represents context-aware reasoning.
 
+
 ---
+
 
 #### 10th of January 2024
 
@@ -1397,6 +1468,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 9th of January 2024
 
 [Agent Alignment in Evolving Social Norms](https://arxiv.org/abs/2401.04620)
@@ -1421,6 +1493,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 -  The Metacognition module (knowledge about itself, the task and the strategies) gets triggered to ask reflective questions, when the LLM agent is not making significant progress.
 -  The metacognition is used throughout the planning, evaluation, monitoring and cognition-steps using reflective questions and then stored in the meta-memory used.
 
+
 ---
 
 <div id="agentbasedai"> </div>  
@@ -1435,6 +1508,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 --- 
+
 
 ### 4th of January 2024
 
@@ -1459,11 +1533,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 3rd of January 2024
 
 [Act as You Learn: Adaptive Decision-Making in Non-Stationary Markov Decision Processes](https://arxiv.org/abs/2401.01841)
 
 - Adaptive MCTS (Ada-MCTS): explores using epistemic & aleatoric uncertanties to adapt risk-aversion behaviour vs performance when spending more time in the environment.
+
 
 ---
 
@@ -1472,7 +1548,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - EconArena: Reviews multiple LLM models jn their ability to act rationally by comparing performance between models and against Nash Equilibrium (NE) rationality.
 - Better models act more rational. LLMs are dynamically able to change strategies based on opponent strategy. Game history improves reasoning. Competing with rational opponent helps to achieve NE quicker.
 
+
 ---
+
 
 #### 2nd of January 2024
 
@@ -1490,7 +1568,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Self-Play fIne-tuNing (SPIN): Fine-tuning LLMs based on Self-play mechanism, where the main player is the to-be learned LLM from the current iteration and its opponent is the same LLM from the previous iteration.
 
+
 ---
+
 
 #### 21st of December 2023
 
@@ -1510,6 +1590,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 20th of December 2023
 
@@ -1551,6 +1632,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 19th of December 2023
 
 [Large Language Models Play StarCraft II: Benchmarks and A Chain of Summarization Approach](https://arxiv.org/abs/2312.11865)
@@ -1560,6 +1642,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - TextStarCraft II-environment processes game information into textual format for LLM model defining macro-actions and a rule-based method for micro-actions
 - System prompt includes: Situation Overview, Situation Analysis, Strategic Planning, Opponent Strategy, Analysis, Strategic Recommendations, Decision-Making rocess.
 - Reduces 10x the need of LLM API calls and improves strategic, analytical and judging capabilities. 
+
 
 ---
 
@@ -1571,6 +1654,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 18th of December 2023
 
@@ -1595,6 +1679,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 16th of December 2023
 
 [ProTIP: Progressive Tool Retrieval Improves Planning](https://arxiv.org/abs/2312.10332)
@@ -1607,6 +1692,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 <div id="restreact"> </div>  
 
+
 #### 15th of December 2023
 
 [ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent](https://arxiv.org/abs/2312.10003)
@@ -1618,6 +1704,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ---
 
 <div id="agenticaisystem"> </div>  
+
 
 #### 14th od December 2023
 
@@ -1685,6 +1772,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 -  AdaPS: Maps agents to different regions of brain/shared network based on identity vectors obtained with VAE and clusters agents to K classes.
 
+
 ---
 
 [Auto MC-Reward: Automated Dense Reward Design with Large Language Models for Minecraft](https://arxiv.org/abs/2312.09238)
@@ -1707,6 +1795,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 12th of December 2023
 
@@ -1733,6 +1822,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 11th of December 2023
 
 [Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models](https://arxiv.org/abs/2312.06585)
@@ -1743,6 +1833,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 8th of Decembebr 2023
 
@@ -1755,6 +1846,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 7th of December 2023
 
@@ -1786,6 +1878,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 6th of December 2023
 
 [Generative agent-based modeling with actions grounded in physical, social, or digital space using Concordia](https://arxiv.org/abs/2312.03664)
@@ -1793,6 +1886,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Concordia-library: Simulation environment made of multiple agents and Grand Master (GM) inspired by the Dungeons and Dragons game.
 - Agents consume observations and GM agent actions. Agent produces actions and GM event statements (such as physical grounding). 
 - Includes long and short term memory, which include state of the world.
+
 
 ---
 
@@ -1802,6 +1896,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 5th of December 2022
 
@@ -1820,6 +1915,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 4th of December 2023
 
 [Exchange-of-Thought: Enhancing Large Language Model Capabilities through Cross-Model Communication](https://arxiv.org/abs/2312.01823)
@@ -1827,6 +1923,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Exchange-of-Thought (EoT): Improvement from CoT and Self-Consistency, where thoughts from other LLMs are considered, outperforming in mathematical reasoning the CoT with Self-Consistency
 - Proposes four communication paradigms to define the setup of the Exchange-of-Thought: Memory, Report, Relay and Debate. 
 - For example in Debate-mode: two LLM agents produce first ansswer the question and the two rationalizations are provided to the third LLM agent in order to debate these solutions in order to provide the right answer.
+
 
 ---
 
@@ -1847,6 +1944,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 29th of Novemebr 2023
 
 [Universal Self-Consistency for Large Language Model Generation](https://arxiv.org/abs/2311.17311)
@@ -1856,6 +1954,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 28th of Novemebr 2023
 
@@ -1867,6 +1966,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
   
 
 ---
+
 
 #### 27th of Novemeber 2023 
 
@@ -1881,6 +1981,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 22th of November 2023
 
 [Building the Future of Responsible AI: A Pattern-Oriented Reference Architecture for Designing Large Language Model based Agents](https://arxiv.org/abs/2311.13148)
@@ -1889,6 +1990,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
   
 ---
+
 
 #### 21st of November 2023
 
@@ -1900,6 +2002,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 20th of November 2023
 
 [Igniting Language Intelligence: The Hitchhiker's Guide From Chain-of-Thought Reasoning to Language Agents](https://arxiv.org/abs/2311.11797)
@@ -1908,6 +2011,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 17th of November 2023
 
@@ -1920,6 +2024,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 16th of November 2023
 
 [Digital Socrates: Evaluating LLMs through explanation critiques](https://arxiv.org/abs/2311.09613)
@@ -1928,6 +2033,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 15th of November 2023
 
@@ -1939,6 +2045,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 14th of November 2023
 
 [DeepThought: An Architecture for Autonomous Self-motivated Systems](https://arxiv.org/abs/2311.08547)
@@ -1948,6 +2055,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ----
+
 
 #### 9th of November 2023
 
@@ -1967,6 +2075,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 8th of November 2023
 
 [ADaPT: As-Needed Decomposition and Planning with Language Models](https://arxiv.org/abs/2311.05772)
@@ -1975,6 +2084,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 2nd of November 2023
 
@@ -1994,6 +2104,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - I recommend to check this especially from safety-aspects on the point "sandbox-flag" and to better understand the 
 
 ---
+
 
 #### 1st of November 2023
 
@@ -2023,6 +2134,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 31st of October 2023
 
@@ -2092,12 +2204,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Key-value store for observation retrieval, parsed actions are executed by RCAgent or by Expert Agent.
 
+
 ---
 
 [Diverse Conventions for Human-AI Collaboration](https://arxiv.org/abs/2310.15414)
 
 - Mixed-play: generates diverse conventions (arbitrary solutions to reocurring cooperation problems) by randomly switching between self-play (maximize award) and cross-play (Minimize) actions to maxime mixed-play.
 - CoMeDi (Cross-play optimized, Mixed-play enforced Diversity) algorithm is explained [](https://www.youtube.com/watch?time_continue=30&v=wm4f0sdKIUA&embeds_referring_euri=https%3A%2F%2Filiad.stanford.edu%2F&source_ve_path=MzY4NDIsMjg2NjY&feature=emb_logo).
+
 
 ---
 
@@ -2122,6 +2236,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 23th of October 2023
 
 [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213)
@@ -2137,6 +2252,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
   
 
 ---
+
 
 #### 20th of October 2023
 
@@ -2157,6 +2273,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 19th of October 2023
 
 [AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://arxiv.org/abs/2310.12823)
@@ -2165,6 +2282,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 18th of October 2023
 
@@ -2175,13 +2293,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 17th of October 2023
 
 [The next grand challenge for AI](https://www.ted.com/talks/jim_fan_the_next_grand_challenge_for_ai/transcript)
 
 - Foundational Agent: Agents, which scale in all three axis of: skills, embodiment and realities.  If chatgpt was scaled with data, foundational agents are scaled with realities.
 
+
 ---
+
 
 #### 16th of October 2023
 
@@ -2190,12 +2311,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - OpenAgents-platform: Data agent, Plugin/Tools and Web agent
 - Automatic tool selection from over 200 tools
 
+
 ---
 
 [Improving Large Language Model Fine-tuning for Solving Math Problems](https://arxiv.org/abs/2310.10047)
 
 - Introduces multi-task sequential fine-tuning method, where solution generation is improved by including solution evaluation as part of the fine-tuning objective together with the generated solution to provide higher-quality guidance to solution generator.
 - Quality and style of the step-by-step solutions used for fine-tuning impact model performance. Solution re-ranking and Majority voting used together are effective way to improve model performance with fine-tuning.
+
 
 ---
 
@@ -2215,6 +2338,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 12th of October 2023
 
@@ -2257,6 +2381,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 11th of October 2023
 
 [The Temporal Structure of Language Processing in the Human Brain Corresponds to The Layered Hierarchy of Deep Language Models](https://arxiv.org/abs/2310.07106)
@@ -2265,7 +2390,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Brain and DLMs both process input into multi dimensional vector embeddings, processed as sequences taking into account the context.
 - Identifies differences. One difference is, that human brain does not perform straightforward linear interpolation between the previous and current words, suggesting RNNs may better mimick human brain language processing. The other difference is, that humans do not learn only by reading text, but use data from multiple modalities.
 
+
 ---
+
 
 #### 11th of October 2023
 
@@ -2276,6 +2403,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 9th of October 2023
 
 [FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/abs/2310.05915)
@@ -2285,6 +2413,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 8th of October 2023
 
 [Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading](https://arxiv.org/abs/2310.05029)
@@ -2293,6 +2422,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 7th of October 2023
 
@@ -2310,6 +2440,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 6th of October 2023
 
 [Language Agent Tree Search Unifies Reasoning Acting and Planning in Language Models](https://arxiv.org/abs/2310.04406)
@@ -2320,6 +2451,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 5th of October 2023
 
 [Agent Instructs Large Language Models to be General Zero-Shot Reasoners](https://arxiv.org/abs/2310.03710)
@@ -2328,6 +2460,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 5th of October 2023
 
@@ -2345,6 +2478,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 3rd of October 2023
 
@@ -2372,7 +2506,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - EcoAssistant: Enables LLM agent to converse with code executor to iteratively produce answers based on code produced. Hierachical structure, where cheaper and weaker LLM is used before trying the stronger and expensive LLM.
 - Surpasses GPT-4 10% in performance with 50% less cost.
-- 
+  
 
 ---
 
@@ -2398,6 +2532,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 2nd of October 2023
 
 [SmartPlay : A Benchmark for LLMs as Intelligent Agents](https://arxiv.org/abs/2310.01557)
@@ -2418,6 +2553,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 1st of October 2023
 
 [RoleLLM: Benchmarking, Eliciting, and Enhancing Role-Playing Abilities of Large Language Models](https://arxiv.org/abs/2310.00746)
@@ -2426,6 +2562,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 29th of Setember 2023
 
@@ -2437,6 +2574,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 28th of September 2023
 
 [Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution](https://arxiv.org/abs/2309.16797)
@@ -2446,6 +2584,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 23th of September 2023
 [Natural Language based Context Modeling and Reasoning with LLMs: A Tutorial](https://arxiv.org/abs/2309.15074)
 
@@ -2453,6 +2592,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 20th of September 2023
 
@@ -2463,6 +2603,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 18th of September 2023
 
 [MindAgent: Emergent Gaming Interaction](https://arxiv.org/abs/2309.09971)
@@ -2472,6 +2613,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 14th of September 2023
 
@@ -2494,6 +2636,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 <div id="physicalgrounding"> </div>
 
+
 #### 13th of September 2023
 
 [Physically Grounded Vision-Language Models for Robotic Manipulation](https://arxiv.org/abs/2309.02561)
@@ -2502,7 +2645,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - VLMs with PhysObjects improves its understanding on physical objects.
 - Improves task success rate.
 
+
 ---
+
 
 #### 12th of September 2023
 
@@ -2522,6 +2667,8 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
+
 #### 8th of September 2023
 
 <div id="autonomousagentssurvey"> </div>
@@ -2531,6 +2678,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - AutoGraph procedure: data, configuration, searching and tuning agents.
 
 ---
+
 
 #### 28th of August 2023
 
