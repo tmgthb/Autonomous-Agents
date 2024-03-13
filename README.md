@@ -15,11 +15,6 @@ Autonomous Agents (LLMs). Updated daily
 
 
 
-<form action="/" method="get">
-  <label for="search">Search Papers:</label>
-  <input type="text" id="search" name="search" placeholder="Enter keywords,  names">
-  <button type="submit">Search</button>
-</form>
 
 
 
