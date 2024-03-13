@@ -3068,6 +3068,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 28th March 2023 
 
 [Task-driven Autonomous Agent Utilizing GPT-4, Pinecone, and LangChain for Diverse Applications](https://yoheinakajima.com/task-driven-autonomous-agent-utilizing-gpt-4-pinecone-and-langchain-for-diverse-applications/)
@@ -3086,6 +3087,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
 #### 20th March 2023
 
 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
@@ -3099,6 +3101,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - EcoOptiGen: Hyperparameter tuning of LLMs.
 
 ---
+
 
 #### 20th of October 2022
 
@@ -3295,7 +3298,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
 
 
-----
+
 
 <div id="what">  
 
@@ -3303,7 +3306,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 
-
+----
 
 
 
