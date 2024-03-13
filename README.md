@@ -15,6 +15,13 @@ Autonomous Agents (LLMs). Updated daily
 
 
 
+<form action="/" method="get">
+  <label for="search">Search Papers:</label>
+  <input type="text" id="search" name="search" placeholder="Enter keywords,  names">
+  <button type="submit">Search</button>
+</form>
+
+
 
 ---
 
@@ -28,7 +35,110 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 13th of March 2024
+
+[Scaling Instructable Agents Across Many
+Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/sima-generalist-ai-agent-for-3d-virtual-environments/Scaling%20Instructable%20Agents%20Across%20Many%20Simulated%20Worlds.pdf)
+
+- SIMA: The Scalable, Instructable, Multiworld Agent based on image from the screen and text instruction provided by user. SIMA agent uses text encoder, image encoder and video encoder to process the input image and text and output only the embodied action.
+- Real-tme, embodied agent generalizes in 3D environment to any human task and coordinated by natural language instructions. Agent trained on multiple games outperformed an agent trained on single game. Performs nearly as well in new unseen game environments.
+- Data collection from commercial video game environments, Training of SIMA Agent model with text instruction-actions and human evaluation. 
+
+
+---
+
+#### 12th of March 2024
+
+[NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/abs/2403.07376)
+
+- NavCoT (Navigational CoT): LLM acts as a world model and a navigational reasoning agent.
+- LLM is prompted to forecast the navigational NavCoT: 1. act as world model to imagine the next observation based on instruction, 2. select best aligned candidate observation fitting to the imagination, 3. determine action based on reasoning from prior steps.
+- In the Future Imagination-step (FI), the LLM is prompted to imagine the next observation, such as seeing a Patio. Visual Information Filter (VIF) selects from the available options provided by the VLM (image and description of the action towards it), the best matching to the FI. Action Prediction (AP)-step generates action prediction based on the selected option.
+
+
+---
+
+[WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks?](https://arxiv.org/abs/2403.07718)
+
+- Introduces two benchmarks WorkArena- and BrowserGym--benchmarks to evaluate LLM-agent interacting with software via browser.
+- WorkArena (list, form, knowledge base, service catalog, menus) includes 23k tasks to interact with ServiceNow.
+- BrowserGym designs and evaluates web agents in Python environment, which includes html content, raw pixels and acccessibility tree. and  
+- Illustrates clear difference in web browsing expertise between GPT-3.5 vs. GPT-4.
+
+
+---
+
+[Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations](https://arxiv.org/abs/2403.07769)
+
+- Multiagent Data and AI based platform framework: data, playground, web app, embedding model, multiagent orchestration (rest of the components interact with), data security/privacy, APIs/plugins, LLM & cache, Cloud provider, cloud DBs, Data Ops, MLOps, LLMOps and data strategy/ethics/LLM governance. The paper offers very little apart from this list, but the list does include quiet many of the components.
+
+---
+#### 11th of March 2024
+
+[RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems](https://arxiv.org/abs/2403.06465)
+
+- RecAI: Recommender systems based on LLMs, where user makes query, the LLM agent makes tool queries to get the correct items.
+- Includes Profile memory, info query, item retrieval and item ranker.
+- The LLM chain includes: init state, dynamic demo, plan  execute and reflection.
+- Refers to planning called Plan-First method, which creates comprehensive execution plan and then strictly follows this plan. The planning input includes: user input, context, tool descriptions and demonstrations for in-context learning to create tool utilization plan.
+
+
+---
+
+[DriveDreamer-2: LLM-Enhanced World Models for Diverse Driving Video Generation](https://arxiv.org/abs/2403.06845)
+
+- DriveDreamer-2: First world model to generate customized driving videos, including uncommon scenes. 
+- LLM generates user-defined driving videos: LLM converts user request into agent based trajectories, which is used to generate HDMap (python script creates Bird Eye View (BEV)) with respecting traffic rules. Unified Multi-View Model (UniMVM) improve temporal and spatial coherence of the generated video.
+
+
+---
+
+[Academically intelligent LLMs are not necessarily socially intelligent](https://arxiv.org/abs/2403.06591)
+
+- SESI (Situational Evaluation of Social Intelligence)-benchmark: Superficial friendliness is principal reason for errors.
+- Reviews: Empathy, Social-cognition, self-presentation, influence and concern.
+- Illustrates interesting insight about GPT-4 not being better in this benchmark than GPT-3.5 turbo and Mistral model outperforming Llama 2.
+
+
+---
+
+#### 10th of March 2024
+
+[TRAD: Enhancing LLM Agents with Step-Wise Thought Retrieval and Aligned Decision](https://arxiv.org/abs/2403.06221)
+
+- TRAD: Thought Retrieval Aligned Decision.
+- Includes three sub-processes: Temporal Expansion, Relative Order Mark and History Alignment.
+
+
+---
+
+[ArgMed-Agents: Explainable Clinical Decision Reasoning with Large Language Models via Argumentation Schemes](https://arxiv.org/abs/2403.06294)
+
+- ArgMed-agent: Generator of the Argumentation Schema (AS), Verifier of the AS and Reasoner as symbolic solver.
+
+
+---
+
+[Reframe Anything: LLM Agent for Open World Video Reframing](https://arxiv.org/abs/2403.06070)
+
+- RAVA (Reframe Any Video Agen): Perception to interpret user query and video content, Planning to determine aspect ratio/reframin strategies and Execution uses video editing tools to produce final video. 
+
+
+
+---
+
+#### 9th of March 2024
+
+[Cached Model-as-a-Resource: Provisioning Large Language Model Agents for Edge Intelligence in Space-air-ground Integrated Networks](https://arxiv.org/abs/2403.05826)
+
+- Model caching optimization on edge devices. Age of Thought (AoT): to measure the relevance/coherence of intermediate thoughts
+during CoT inference.
+
+
+---
+
 #### 8th of March 2024
+
 
 [RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation](https://arxiv.org/abs/2403.05313)
 
@@ -37,6 +147,22 @@ Chronological order.
 - The query is based on the draft answer. The retrieved information is used to revise the draft answer. The next thought is then appended and a new round of revision performed. The process is repeated, until all revised thoughts are obtained and the final answer is provided.
 - The github code includes multiple functions to manage inputs and outputs for the LLMs.
 
+
+---
+
+[FLAP: Flow Adhering Planning with Constrained Decoding in LLMs](https://arxiv.org/abs/2403.05766)
+
+- FLAP (Flow Adhering Planning): Static planning in task oriented dialogs using constrained decoding algorithm based on lookahead heuristics.
+- The research is static planning, but the authors plan a follow up research with dynamic planning.
+- Aligns suggested plan thoughts using three scale score regards: user intent alignment, permitted flow steps, API selected, API permitted and structrally correct.
+
+
+---
+
+[Will GPT-4 Run DOOM?](https://arxiv.org/abs/2403.05468)
+
+- Doom-game agent, consisting Python-based Manager module connected to Doom code and three modules: Planner, Vision and Agent.
+- Vision module (GPT-4V) receives screenshots from the Managers and provides text description of it. - Planner uses as input the walkthrough and history and outputs a granular plan to be executed. Uses k-level of experts.
 
 
 
@@ -2500,6 +2626,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
 
 #### 16th of July 2023
 
