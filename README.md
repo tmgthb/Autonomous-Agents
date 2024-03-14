@@ -61,6 +61,23 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 ---
 
+[SOTOPIA-π: Interactive Learning of Socially Intelligent Language Agents](https://arxiv.org/abs/2403.08715)
+
+-  SOTOPIA-π: LLMs with social intelligence engage, act safer and persuade more.
+-  Achieves social interaction goal completion capability of GPT-4 using 7B LLM. 
+-  Starts by generating social tasks with each character with its own social goal. Continues by collecting this training data using behavioural cloning (expert signal) and self-reinforcement(strongly performing signals from itself). Improve the agent policy with the LLM ratings. Generate SOTOPIA tasks with characters and evaluate their interaction with LLM rating and human rating.  
+
+
+---
+
+[System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
+
+- Systematic Literature Reviews (SLRs)-agent: planner, literature identification, data extraction, data compilation, performance validation. The code includes concrete prompts used with each step.
+
+
+---
+
+
 #### 12th of March 2024
 
 [NavCoT: Boosting LLM-Based Vision-and-Language Navigation via Learning Disentangled Reasoning](https://arxiv.org/abs/2403.07376)
@@ -85,6 +102,13 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 [Transforming Competition into Collaboration: The Revolutionary Role of Multi-Agent Systems and Language Models in Modern Organizations](https://arxiv.org/abs/2403.07769)
 
 - Multiagent Data and AI based platform framework: data, playground, web app, embedding model, multiagent orchestration (rest of the components interact with), data security/privacy, APIs/plugins, LLM & cache, Cloud provider, cloud DBs, Data Ops, MLOps, LLMOps and data strategy/ethics/LLM governance. The paper offers very little apart from this list, but the list does include quiet many of the components.
+
+
+---
+
+[DexCap: Scalable and Portable Mocap Data Collection System for Dexterous Manipulation](https://arxiv.org/abs/2403.07788)
+
+- DexCap: a hand motion data capture system.
 
 
 ---
