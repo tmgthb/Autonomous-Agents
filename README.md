@@ -77,6 +77,21 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 ---
 
+[Hierarchical Auto-Organizing System for Open-Ended Multi-Agent Navigation](https://arxiv.org/abs/2403.08282)
+
+- HAS (Hierarchical Auto-organizing System): Auto-organizes LLM-agents to complete navigation tasks using dynamic maps and auto-organizing-mechanism.
+- Centralized planning (planner, describer, critic and deployer) with global multi-modal memory, distributed execution (actor, curriculum, critic and skill) with local-multi-modal memory and multimodal information (vision, audio, object and map) with environment state.
+
+
+---
+
+[CleanAgent: Automating Data Standardization with LLM-based Agents](https://arxiv.org/abs/2403.08291)
+
+- CleanAgent: a data preparation LLM agent. 
+
+
+---
+
 
 #### 12th of March 2024
 
