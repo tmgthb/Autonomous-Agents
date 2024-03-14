@@ -128,6 +128,14 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 ---
 
+[AesopAgent: Agent-driven Evolutionary System on Story-to-Video Production](https://arxiv.org/abs/2403.07952)
+
+- Aesop-agent: Multimodal content generation agent.
+- Includes RAG from database(expert experience/professional knowledge), script generation, image generation, video assembly and utility layer. 
+
+
+---
+
 #### 11th of March 2024
 
 [RecAI: Leveraging Large Language Models for Next-Generation Recommender Systems](https://arxiv.org/abs/2403.06465)
