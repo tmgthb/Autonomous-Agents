@@ -84,6 +84,13 @@ Chronological order.
 
 ---
 
+[USimAgent: Large Language Models for Simulating Search Users](https://arxiv.org/abs/2403.09142)
+
+- USimAgent: generates search interaction sequence through multiple rounds, taking into account context generated in prior rounds, each with steps: reasoning/action, query generation and click behaviour. 
+
+
+---
+
 
 #### 13th of March 2024
 
