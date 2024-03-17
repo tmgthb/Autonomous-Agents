@@ -49,6 +49,18 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+
+#### 14th of March 2024
+
+[Enhancing Trust in Autonomous Agents: An Architecture for Accountability and Explainability through Blockchain and Large Language Models](https://arxiv.org/abs/2403.09567)
+
+- Blockchain based Autonomous agent not only with explanation, but as well with record auditable interpretation.
+- Components: Autonomous agent, blockchain, Non-expert users, Automatic evaluation, Explainability component and Asynchronous task.
+
+
+---
+
+
 #### 13th of March 2024
 
 [Scaling Instructable Agents Across Many
