@@ -76,6 +76,14 @@ Chronological order.
 
 ---
 
+[LLM-based agents for automating the enhancement of user story quality: An early report](https://arxiv.org/abs/2403.09442)
+
+- ALAS (Autonomous LLM-based Agent System): LLM-based system between different agent profiles to develop and maintain high-quality IT user stories.
+- Agent profiles: Product Owner/Requirements Engineer. User story. Task preparation phase: task, sub-tasks, context and vision statement. Task conduction-phase.
+
+
+---
+
 
 #### 13th of March 2024
 
