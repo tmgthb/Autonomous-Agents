@@ -52,6 +52,15 @@ Chronological order.
 
 #### 14th of March 2024
 
+
+[Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking](https://arxiv.org/abs/2403.09629)
+
+- Quiet-Star: Extension and generalization of STaR-paper. Improves significantly LLM performance on GSM8K-benchmark.
+- Uses "meta-tokens" at the start/end of each thought, to learn when to generate a rationale and when it should make prediction-based on that rationale.
+
+
+---
+
 [Enhancing Trust in Autonomous Agents: An Architecture for Accountability and Explainability through Blockchain and Large Language Models](https://arxiv.org/abs/2403.09567)
 
 - Blockchain based Autonomous agent not only with explanation, but as well with record auditable interpretation.
