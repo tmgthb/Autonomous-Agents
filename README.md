@@ -121,6 +121,15 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 ---
 
+[TINA: Think, Interaction, and Action Framework for Zero-Shot Vision Language Navigation](https://arxiv.org/abs/2403.08833)
+
+- TINA (Thinking, Interacting and Action)-framework: a zero-shot Vision-Language Navigation (VLN) based LLM-agent, visual perceptor making observations and a memory.
+- Agent inputs include: Task description, Instuction and Memory. Trajectory memorizer summarizes observations/actions to memory. 
+
+
+
+---
+
 [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
 
 - Systematic Literature Reviews (SLRs)-agent: planner, literature identification, data extraction, data compilation, performance validation. The code includes concrete prompts used with each step.
@@ -132,6 +141,13 @@ Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blo
 
 - HAS (Hierarchical Auto-organizing System): Auto-organizes LLM-agents to complete navigation tasks using dynamic maps and auto-organizing-mechanism.
 - Centralized planning (planner, describer, critic and deployer) with global multi-modal memory, distributed execution (actor, curriculum, critic and skill) with local-multi-modal memory and multimodal information (vision, audio, object and map) with environment state.
+
+
+---
+
+[Cultural evolution in populations of Large Language Models](https://arxiv.org/abs/2403.08882)
+
+- Models cultural evolution in LLM-agent population.  
 
 
 ---
