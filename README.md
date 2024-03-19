@@ -50,6 +50,18 @@ Chronological order.
 
 
 
+#### 15th of March 2024
+
+
+[AUTONODE: A Neuro-Graphic Self-Learnable Engine for Cognitive GUI Automation](https://arxiv.org/abs/2403.10171)
+
+- AUTONODE (Autonomous User-Interface Transformation through Online Neuro-graphic Operations and Deep Exploration).
+- Integrates Dora (Discovery and mapping Opertion for graph Retrieval Agents).
+
+
+---
+
+
 #### 14th of March 2024
 
 
