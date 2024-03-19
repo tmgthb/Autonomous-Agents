@@ -12,6 +12,13 @@ Copyright (C) Teemu Maatta.
 -->
 
 
+
+<p align="center">
+  <img height="100" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/autonomous_agents_logo.png" alt="Autonomous Agents">
+</p>
+
+
+
 <div align="center">
 
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
@@ -49,9 +56,27 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
-
 #### 15th of March 2024
 
+[DiPaCo: Distributed Path Composition](https://arxiv.org/abs/2403.10616)
+
+- DiPaCo (DIstributed PAth COmposition): a modlular ML paradigm, where computing is distributed by path. Path refers to sequence of modules defining input-output function.
+- Paths are small in relation to the overall model. During both training and deployment, a query is routed to replica of a path (sparsely activated), not the entire model.
+- The training phase distributes computation by paths through set of shared modules. The inference phase computes single path.
+- First large-scale, more modular and less synchronous learning, when FLOPs are relatively cheap and communication is relatively expensive.
+- Exceeds 1B parameter dense Transformer by choosing 256 possible paths with size of 150 million parameters.
+
+
+---
+
+[PERL: Parameter Efficient Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2403.10704)
+
+- PERL (Parameter Efficient Reinforcement Learning): Compares reward modelling training and RL using LoRA against traditional RLHF. The study focuses on device UI control, such as sending email.
+- PERL achieves similar level of performance with less training compute and less memory used.
+- Releases self-dialogue: Taskmaster Coffee and Ticketing-datasets and still pending, but planned release of UI automation-dataset called "S-dataset". Unclear, if the NPOV-dataset apart is kept internal. 
+
+
+---
 
 [AUTONODE: A Neuro-Graphic Self-Learnable Engine for Cognitive GUI Automation](https://arxiv.org/abs/2403.10171)
 
