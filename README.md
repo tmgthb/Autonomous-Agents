@@ -61,6 +61,20 @@ Chronological order.
 
 ---
 
+[Enhancing Human-Centered Dynamic Scene Understanding via Multiple LLMs Collaborated Reasoning](https://arxiv.org/abs/2403.10107)
+
+- V-HOU Multi-LLMs Collaborated Reasoning: video scene understanding.
+
+
+---
+
+[Can a GPT4-Powered AI Agent Be a Good Enough Performance Attribution Analyst?](https://arxiv.org/abs/2403.10482)
+
+- LLM agent for performance attrition using CoT and Plan and Solve (PS).
+
+
+---
+
 
 #### 14th of March 2024
 
