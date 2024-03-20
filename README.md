@@ -69,6 +69,14 @@ Chronological order.
 
 ---
 
+[Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881)
+
+- Agent-FLAN (Finetuned LANguage models for aents): finetuning for agentic tasks. Llama-2 7B model with Agent-FLAN surpasses by 3.5% existing SOTA models. Works both for tool utilization and agentic tasks.
+- Makes observations: LLMs overfit to specific agentic task formats like JSON, Learning speed of LLMs vary for agentic tasks and current training methods introduce hallucinations.
+
+
+---
+
 
 #### 18th of March 2024
 
