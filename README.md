@@ -57,6 +57,17 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 18th of March 2024
+
+[EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014)
+
+- EnvGen-framework: Use LLM-agent creates training environment for reasoning, so smaller embodied RL-agents improve their weak skills.
+- Benefits from the LLM-agents world knowledge and the small, yet capable RL agents.
+
+
+---
+
+
 #### 15th of March 2024
 
 [DiPaCo: Distributed Path Composition](https://arxiv.org/abs/2403.10616)
