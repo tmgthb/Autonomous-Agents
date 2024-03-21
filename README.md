@@ -59,6 +59,23 @@ Chronological order.
 
 #### 19th of March 2024
 
+
+[Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881)
+
+- Agent-FLAN (Finetuned LANguage models for aents): finetuning for agentic tasks.
+- Llama-2 7B model with Agent-FLAN surpasses by 3.5% existing SOTA models. Works both for tool utilization and agentic tasks.
+- Observes: LLMs overfit to specific agentic task formats like JSON, Learning speed of LLMs vary for agentic tasks and current training methods introduce hallucinations.
+
+
+---
+
+[Characteristic AI Agents via Large Language Models](https://arxiv.org/abs/2403.12368)
+
+- Characteristics AI: simulates real-life individuals in different situations. Releases Character100-dataset.
+  
+
+---
+
 [HYDRA: A Hyper Agent for Dynamic Compositional Visual Reasoning](https://arxiv.org/abs/2403.12884)
 
 - HYDRA (HYper Dynamic Reasoning Agent): multi-stage dynamic compositional visual reasoning, to make hyper-decisions (fast, strategic and efficient decisions).
@@ -69,10 +86,16 @@ Chronological order.
 
 ---
 
-[Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881)
+[Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)
 
-- Agent-FLAN (Finetuned LANguage models for aents): finetuning for agentic tasks. Llama-2 7B model with Agent-FLAN surpasses by 3.5% existing SOTA models. Works both for tool utilization and agentic tasks.
-- Makes observations: LLMs overfit to specific agentic task formats like JSON, Learning speed of LLMs vary for agentic tasks and current training methods introduce hallucinations.
+- Introduces prompt-based orgnizational structure. Reduces LLM errors related to redundant information and complying any instruction. Includesc communication- and action phases. Criticize-Reflect architecture.
+
+
+---
+
+[Contextual Moral Value Alignment Through Context-Based Aggregation](https://arxiv.org/abs/2403.12805)
+
+- CMVA-GS: moral value agents with different profiles pass through contextual aggregator.
 
 
 ---
@@ -80,10 +103,25 @@ Chronological order.
 
 #### 18th of March 2024
 
+[Multimodal Human-Autonomous Agents Interaction Using Pre-Trained Language and Visual Foundation Models](https://arxiv.org/abs/2403.12273)
+
+- Dual-modality frameworkk: leverages independent LLM/VLM/SR models in order to interact autonomous robots.
+- Includes components of visual understanding, LLM and Speech regognition.
+
+
+---
+
 [EnvGen: Generating and Adapting Environments via LLMs for Training Embodied Agents](https://arxiv.org/abs/2403.12014)
 
 - EnvGen-framework: Use LLM-agent creates training environment for reasoning, so smaller embodied RL-agents improve their weak skills.
 - Benefits from the LLM-agents world knowledge and the small, yet capable RL agents.
+
+
+---
+
+[From Pixels to Insights: A Survey on Automatic Chart Understanding in the Era of Large Foundation Models](https://arxiv.org/abs/2403.12027)
+
+- Chart understanding task (chart Q&A, captioning, fact-checking, -to-table conversion, factual error correction).
 
 
 ---
