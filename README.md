@@ -57,6 +57,71 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+
+#### 21st of March 2024
+
+[ReAct Meets ActRe: Autonomous Annotations of Agent Trajectories for Contrastive Self-Training](https://arxiv.org/abs/2403.14589)
+
+- A^3T (Autonomous Annotation Agent Trajectories): Closed-loop self-improvement for LLM agents.
+- Autonomous annotation of agent trajectories with ReAct for contrastive self-training. Reduces human-effort of data-collection.
+- Agent reasons for actions taken (ActRe-prompting agent).Contrastive self-training uses rewards decisions made based on accumulated successful trajectoriess.
+- The model outperforms GPT-4 and matches human average in Webshop-benchmark 
+
+
+
+
+---
+
+[ERD: A Framework for Improving LLM Reasoning for Cognitive Distortion Classification](https://arxiv.org/abs/2403.14255)
+
+- ERD: Three step approach to reason cognitive distortions of user input: extraction, reasoning (CoT, Diagnosis of Thought) and debate between two LLM-agents and one LLM-judge.
+
+---
+
+[PeerGPT: Probing the Roles of LLM-based Peer Agents as Team Moderators and Participants in Children's Collaborative Learning](https://arxiv.org/abs/2403.14227)
+
+- PeerGPT: pedagogical agents in Children collaborative learning with peer agent as team moderator or peer agent as a participant.
+
+
+---
+
+[RoleInteract: Evaluating the Social Interaction of Role-Playing Agents](https://arxiv.org/abs/2403.13679)
+
+- RoleInteract-benchmark: Measures Sociality skills of role-playing LLM-agents. Conversation memory is one aspect to improve conversational agents. Complex group dynamics are still hard.
+
+
+---
+
+[Polaris: A Safety-focused LLM Constellation Architecture for Healthcare](https://arxiv.org/abs/2403.13313)
+
+- Polaris: 1T parameter LLM as a co-operative agent for patient friendly conversation with multiple specialist agents like nurses/social workers/nutritionists. Uses iterative co-training to optmize diverse objectives. Uses healthcare-related data, including propietary data.
+- Performs on par with human nurses and outperform significantly GPT-4. 
+
+
+---
+
+
+#### 20th of March 2024
+
+[Large Language Models meet Network Slicing Management and Orchestration](https://arxiv.org/abs/2403.13721)
+
+- LLM slices isolated virtual network of a Physical infrastructure. 
+
+
+
+---
+
+
+
+#### 19th of March 2024
+
+[]()
+
+
+---
+
+
+
 #### 19th of March 2024
 
 
@@ -2658,8 +2723,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[Empowering Psychotherapy with Large Language Models: Cognitive Distortion Detection through Diagnosis of Thought Prompting](https://arxiv.org/abs/2310.07146)
 
-#### 11th of October 2023
+- Diagnosis-of-Thought: Cognitive distortion detection through prompting: Subjective assessment, contrastive reasoning and schema analysis.
+
+---
 
 [LangNav: Language as a Perceptual Representation for Navigation](https://arxiv.org/abs/2310.07889)
 
