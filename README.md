@@ -111,19 +111,16 @@ Chronological order.
 
 ---
 
+[Mapping LLM Security Landscapes: A Comprehensive Stakeholder Risk Assessment Proposal](https://arxiv.org/abs/2403.13309)
 
+- Traditional risk assessment framework for LLMs through 10 categories: prompt injection, insecure plugin design, training data poisoning, model denial of service, supply chain vulnerabilities, sensitive information disclosure, insecure output handling, excessive agency, overreliance and model theft.
 
-#### 19th of March 2024
-
-[]()
 
 
 ---
 
 
-
 #### 19th of March 2024
-
 
 [Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models](https://arxiv.org/abs/2403.12881)
 
@@ -131,13 +128,6 @@ Chronological order.
 - Llama-2 7B model with Agent-FLAN surpasses by 3.5% existing SOTA models. Works both for tool utilization and agentic tasks.
 - Observes: LLMs overfit to specific agentic task formats like JSON, Learning speed of LLMs vary for agentic tasks and current training methods introduce hallucinations.
 
-
----
-
-[Characteristic AI Agents via Large Language Models](https://arxiv.org/abs/2403.12368)
-
-- Characteristics AI: simulates real-life individuals in different situations. Releases Character100-dataset.
-  
 
 ---
 
@@ -150,6 +140,14 @@ Chronological order.
 
 
 ---
+
+[Characteristic AI Agents via Large Language Models](https://arxiv.org/abs/2403.12368)
+
+- Characteristics AI: simulates real-life individuals in different situations. Releases Character100-dataset.
+  
+
+---
+
 
 [Embodied LLM Agents Learn to Cooperate in Organized Teams](https://arxiv.org/abs/2403.12482)
 
