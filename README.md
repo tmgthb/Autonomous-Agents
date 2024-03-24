@@ -189,6 +189,13 @@ Chronological order.
 
 ---
 
+[https://arxiv.org/abs/2403.11835](Agent3D-Zero: An Agent for Zero-shot 3D Understanding)
+
+- Agent3D-Zero: 3D scene understanding agent with VLM by selecting and analyzing series of viewpoints for 3D understanding. 
+
+
+---
+
 
 #### 15th of March 2024
 
