@@ -57,6 +57,16 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 27th of March 2024
+
+[Long-form factuality in large language models](https://arxiv.org/abs/2403.18802)
+
+- Search-Augmented Factuality Evaluator (SAFE): long-form factual check with LLM agent using a 38 topic question set (LongFast). Uses multi-step reasoning and determines, if factuality is supported by google search results.
+- LLM generates answer to question, this answer is splitted into individual facts. The facts are converted into self-contained, so the fact can be understood without rest of the facts. The individual facts are retrieved with google search: Facts supported by search results are labelled as supported and rest as non supported. If the fact is not relevant to the question, then the fact is labelled as irrelevant.
+- Achieves super-human level performance and measures this with a F1-score. 
+
+---
+
 
 #### 21st of March 2024
 
