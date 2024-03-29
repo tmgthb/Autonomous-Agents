@@ -99,6 +99,13 @@ Chronological order.
 #### 22th of March 2024
 
 
+[Can large language models explore in-context?](https://arxiv.org/abs/2403.15371)
+
+- Reviews, if LLMs can explore effectively in-context, similar to Reinforcement learning-like agents.
+- Suggest need for external summarization, larger models like GPT-4 and careful prompt engineering.
+
+---
+
 [CoLLEGe: Concept Embedding Generation for Large Language Models](https://arxiv.org/abs/2403.15362)
 
 - CoLLEGe (Concept Learning with Language Embedding Generation): few-shot learning for new-concept acquisition and knowledge augmentation for LLMs.
