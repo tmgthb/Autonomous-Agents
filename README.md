@@ -76,6 +76,15 @@ Chronological order.
 
 ---
 
+#### 26th of March 2024
+
+[MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
+
+- MAGIS: Resolves Github issues with multi-agent LLMs: Manager, Repository Custodian, Developer and Quality Assurance engineer. 
+
+
+---
+
 #### 25th of March 2024
 
 [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971)
