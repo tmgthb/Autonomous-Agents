@@ -65,8 +65,16 @@ Chronological order.
 - LLM generates answer to question, this answer is splitted into individual facts. The facts are converted into self-contained, so the fact can be understood without rest of the facts. The individual facts are retrieved with google search: Facts supported by search results are labelled as supported and rest as non supported. If the fact is not relevant to the question, then the fact is labelled as irrelevant.
 - Achieves super-human level performance and measures this with a F1-score. 
 
+
 ---
 
+[CoLLEGe: Concept Embedding Generation for Large Language Models](https://arxiv.org/abs/2403.15362)
+
+- CoLLEGe (Concept Learning with Language Embedding Generation): few-shot learning for new-concept acquisition and knowledge augmentation for LLMs.
+- Generates concept embedding with CoLLEGe based on two example sentences, where the concept is used, creates a definition-sentence using this concept-embedding and asks LLM to generate the definition of the concept.  
+
+
+---
 
 #### 21st of March 2024
 
@@ -1515,6 +1523,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 #### 22th of January 2024
+
+
+[Memory Matters: The Need to Improve Long-Term Memory in LLM-Agents](https://ojs.aaai.org/index.php/AAAI-SS/article/view/27688)
+
+- Reviews memory management of LLM-agents with useful insights about using different types meta-data in vector db along the word embeddings as long-term memory.
+- Identifies in past research example ways of storing: thoughts/skills in vector db, but as well gaps in retrieving information, when different memories may contradict the retrieval. 
+
+
+---
 
 [OK-Robot: What Really Matters in Integrating Open-Knowledge Models for Robotics](https://arxiv.org/abs/2401.12202)
 
