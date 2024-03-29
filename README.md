@@ -68,6 +68,14 @@ Chronological order.
 
 ---
 
+[Large Language Models Need Consultants for Reasoning: Becoming an Expert in a Complex Human System Through Behavior Simulation](https://arxiv.org/abs/2403.18230)
+
+- MEOW (MOsaic Expert Observation Wall): improves LLM reasoning with behaviour simulation. 
+- Expert model is trained with simulated data from experience of specific task. Tested in communication game.
+
+
+---
+
 #### 25th of March 2024
 
 [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971)
