@@ -56,6 +56,22 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 28th of March 2024
+
+[MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation](https://arxiv.org/abs/2403.19305)
+
+- MatEval: LLM agents emulate human collaboration discussion. Uses self-reflection, CoT and feedback mechnamism.
+- Achieves high-correlation with human evaluation. Includes evaluator-, feedback(to imrpove discussion)- and summarizer-agents. 
+
+---
+
+[Change-Agent: Towards Interactive Comprehensive Change Interpretation and Analysis from Change Detection and Change Captioning](https://arxiv.org/abs/2403.19646)
+
+- Change-Agent: Change deteection and interpretation using LLM from earth surface changes.
+
+
+---
+
 
 #### 27th of March 2024
 
