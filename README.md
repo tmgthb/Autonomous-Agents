@@ -68,6 +68,17 @@ Chronological order.
 
 ---
 
+#### 25th of March 2024
+
+[AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971)
+
+- AIOS-architecture ofr LLM agent OS: AIOS SDK, LLM Kernel (Kernel layer), OS Kernel, Agent applications (Application layer), HW layer.
+- LLM kernel: Agent scheduler, Context manager, Memory manager, Storage manager, Tool manager and Access manager.
+
+
+
+---
+
 #### 22th of March 2024
 
 
