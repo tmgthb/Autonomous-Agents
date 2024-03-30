@@ -115,6 +115,14 @@ Chronological order.
 
 ---
 
+[Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games](https://arxiv.org/abs/2403.17674)
+
+- SecurityBot: role-based multiagent collaborative framework with RL agent as mentors for LLM agent to support cybersecurity operations. Includes modules: profiles, memory, reflection and action using LLMs.
+- Collaboration mechanism: cursor for dynamic suggestions taking, aggregator for multiple mentors suggestion ranking & caller for proactive suggestion asking.
+
+
+---
+
 #### 25th of March 2024
 
 [AIOS: LLM Agent Operating System](https://arxiv.org/abs/2403.16971)
