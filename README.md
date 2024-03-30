@@ -92,6 +92,13 @@ Chronological order.
 
 ---
 
+[A Path Towards Legal Autonomy: An interoperable and explainable approach to extracting, transforming, loading and computing legal information using large language models, expert systems and Bayesian networks](https://arxiv.org/abs/2403.18537)
+
+- Reviews the concept of legal autonomy of LLM agents for the first time: extracting, loading and transforming computing legal information.
+
+
+---
+
 #### 26th of March 2024
 
 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
