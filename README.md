@@ -130,6 +130,11 @@ Chronological order.
 - AIOS-architecture ofr LLM agent OS: AIOS SDK, LLM Kernel (Kernel layer), OS Kernel, Agent applications (Application layer), HW layer.
 - LLM kernel: Agent scheduler, Context manager, Memory manager, Storage manager, Tool manager and Access manager.
 
+---
+
+[RepairAgent: An Autonomous, LLM-Based Agent for Program Repair](https://arxiv.org/abs/2403.17134)
+
+- RepairAgent: Automated program repair with LLMs with dynamically updated prompt format.
 
 
 ---
