@@ -99,6 +99,13 @@ Chronological order.
 
 ---
 
+[A Study of Three Influencer Archetypes for the Control of Opinion Spread in Time-Varying Social Networks](https://arxiv.org/abs/2403.18163)
+
+- Reviews automated agents in social networks for opinion control: opinion inference engine with LLM, content generation using opinion vectors.
+
+
+---
+
 #### 26th of March 2024
 
 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
