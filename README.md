@@ -130,6 +130,7 @@ Chronological order.
 - AIOS-architecture ofr LLM agent OS: AIOS SDK, LLM Kernel (Kernel layer), OS Kernel, Agent applications (Application layer), HW layer.
 - LLM kernel: Agent scheduler, Context manager, Memory manager, Storage manager, Tool manager and Access manager.
 
+
 ---
 
 [RepairAgent: An Autonomous, LLM-Based Agent for Program Repair](https://arxiv.org/abs/2403.17134)
@@ -138,6 +139,14 @@ Chronological order.
 
 
 ---
+
+[CYGENT: A cybersecurity conversational agent with log summarization powered by GPT-3](https://arxiv.org/abs/2403.17160)
+
+- CYGENT: Fine-tunes LLM for cybersecurity tasks and LLM agent provides/analyzes/summarizes user information from log files, detected events
+
+
+---
+
 
 #### 22th of March 2024
 
