@@ -151,8 +151,9 @@ Chronological order.
 
 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852)
 
-- LCG: Multi-agent LLM consisting of waterfall, scrum and Test-Driven-Development sw development workflows with CoT.
-- LLM agent includes roles: requirements engineer, architect, developer, tester and scrum master.
+- LCG: Multi-agent LLM consisting of waterfall, scrum and Test-Driven-Development sw development workflows with CoT and Self-refinement.
+- LLM agent includes roles: requirements engineer, architect, developer, tester and scrum master. Uses same prompt, with role-identifier, role-specific instruction and task-information to drive dynamic prompting.
+
 
 
 ---
@@ -174,6 +175,23 @@ Chronological order.
 
 
 ---
+
+[Language Models in Dialogue: Conversational Maxims for Human-AI Interactions](https://arxiv.org/abs/2403.15115)
+
+- Proposes principles for effective human-AI conversation: quantity, quality, relevance and manner, benevolence and transparency.
+
+
+--- 
+
+[CACA Agent: Capability Collaboration based AI Agent](https://arxiv.org/abs/2403.15137)
+
+- CACA (Capability Collaboration based AI Agent): LLM agent with the following components: profile capability, reception capability, workflow capability, tool capability, tool service, methodology capability, add domain knowledge and planning capability.
+- Processes: user request, generate plan, search methodology, get profile, discover tool, invoke service, add domain knowledge and register tool service.
+
+
+
+---
+
 
 #### 21st of March 2024
 
