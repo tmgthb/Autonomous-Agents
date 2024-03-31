@@ -147,6 +147,14 @@ Chronological order.
 
 ---
 
+
+[TwoStep: Multi-agent Task Planning using Classical Planners and Large Language Models](https://arxiv.org/abs/2403.17246)
+
+- TwoStep: Combines classical planning with LLMs.
+
+
+---
+
 #### 23th of March 2024
 
 [When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852)
