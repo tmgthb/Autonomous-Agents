@@ -147,6 +147,15 @@ Chronological order.
 
 ---
 
+#### 23th of March 2024
+
+[When LLM-based Code Generation Meets the Software Development Process](https://arxiv.org/abs/2403.15852)
+
+- LCG: Multi-agent LLM consisting of waterfall, scrum and Test-Driven-Development sw development workflows with CoT.
+- LLM agent includes roles: requirements engineer, architect, developer, tester and scrum master.
+
+
+---
 
 #### 22th of March 2024
 
