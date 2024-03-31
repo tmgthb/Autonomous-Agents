@@ -176,6 +176,14 @@ Chronological order.
 
 ---
 
+[LLM-Driven Agents for Influencer Selection in Digital Advertising Campaigns](https://arxiv.org/abs/2403.15105)
+
+- Influencer Dynamics Simulator (IDS): LLM-agent based influencer selection for digital ad campaigns.
+- Includes: Influencer pre-selection, user profile generation, follower behaviour prediction and influencer tracking.
+
+
+---
+
 [Language Models in Dialogue: Conversational Maxims for Human-AI Interactions](https://arxiv.org/abs/2403.15115)
 
 - Proposes principles for effective human-AI conversation: quantity, quality, relevance and manner, benevolence and transparency.
