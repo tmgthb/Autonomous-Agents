@@ -56,6 +56,20 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+
+
+#### 30th of March 2024
+
+[Alignment of brain embeddings and artificial contextual embeddings in natural language points to common geometric patterns](https://www.nature.com/articles/s41467-024-46631-y)
+
+- Aligns LLM word embeddings with human brain embeddings.
+- Brain embeddings are generated from fine-grained spatiotemporal neural recordings in a continuous embedding space.
+- Aligning is based on similar geometric shapes between brain and llm word embeddings.
+
+
+
+---
+
 #### 28th of March 2024
 
 [MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation](https://arxiv.org/abs/2403.19305)
