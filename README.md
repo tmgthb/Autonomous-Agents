@@ -67,6 +67,26 @@ Chronological order.
 - Aligning is based on similar geometric shapes between brain and llm word embeddings.
 
 
+---
+
+#### 29th of March 2024
+
+[Gecko: Versatile Text Embeddings Distilled from Large Language Models](https://arxiv.org/abs/2403.20327)
+
+- Gecko: "SOTA level" text embeddings with 768-dimensions with 7x smaller embedding model compared to prior SOTA. Gecko embeddings with 256 dimensions all existting 768-dimension text embeddings in MTEB
+- Gecko uses FRet (Few-shot Prompted Retrieval dataset)-fine tuning dataset: task description, input query, positive passage, negative passage.
+- FRet generates with LLM the relevant task and query for a passage. The query and task are fed into a pre-trained embedding model to get neighbor passages. LLM scores them either as positive or negative passages.
+- Original passage may not become relevant positive/negative passage. 
+- I think the overall idea could work even as prompt-engineering technique, where original passage is sent to LLM to define query/task, generate positive/negative passage and finally use the query, task, positive, negative passage as basis of retrieval. 
+
+---
+
+[ITCMA: A Generative Agent Based on a Computational Consciousness Structure](https://arxiv.org/abs/2403.20097)
+
+- ITCMA (Internal Time-Consciousness Machine): an an architecture for generative agents called ITCMA-agent. It is"a computational consciousness structure" and good at utility and generalization to real world.
+- ITCMA framework includes LLM, VLM, Agents under consciousness channels (composed of retention, primal impression and protention each next time step further) and Memory.
+- Slowness is a downside.
+
 
 ---
 
@@ -164,7 +184,7 @@ Chronological order.
 
 [TwoStep: Multi-agent Task Planning using Classical Planners and Large Language Models](https://arxiv.org/abs/2403.17246)
 
-- TwoStep: Combines classical planning with LLMs.
+- TwoStep: Combines classical planning with LLMs (Helper Plan and Main Plan).   
 
 
 ---
@@ -4103,12 +4123,19 @@ ASI concept seems vague, because current AI systems are not generally more capab
 
 #### Consciousness
 
-Consciousness is a controversial topic in AGI research. I add here few considerations.
+I add in this section definitions, experiments and thoughts of researchers on the controversial subject of consciousness.
 
-- Chalmers [writes](https://consc.net/papers/c-and-c.html) about conciousness, which gives useful perspectives on the matter.
-- Ilya Sutskever defined a practical [consciousness test](#consciousnesstest) for LLMs.
+[Consciousness: Here, There but Not Everywhere](https://arxiv.org/abs/1405.7089)
 
+- Integrated Information Theory: Theoretical framework understanding consciousness with mathematical model for a systems consciousness, reviews the subjective-experience, makes testable predictions through experiments and not only limited to human brain-like consciousness.
 
+[Perspetives on Consciousness by Chalmers](https://consc.net/papers/c-and-c.html)
+
+- Useful perspectives on this controversial topic.
+
+[Ilya Sutskever defined a practicalconsciousness test](#consciousnesstest) for LLMs.
+
+- AI Consciousness test.
 
 
 ---
