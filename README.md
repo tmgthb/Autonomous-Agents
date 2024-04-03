@@ -58,6 +58,36 @@ Chronological order.
 
 
 
+#### 2th of April 2024
+
+[A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039)
+
+- Survey about LLM-based Game agents.
+- Unified architecture of LLMGAs: Perception(text, image, state, etc.), Thinking(reasoning, reflection, planning), Memory, Role-playing (role, experience, emotion), Action-module (control, dialogue, API, etc.) and Learning module.
+
+ 
+---
+
+[Advancing LLM Reasoning Generalists with Preference Trees](https://arxiv.org/abs/2404.02078)
+
+- Eurus: LLMs optimized for reasoning. Trains reward model using UltraInteract-dataset, which consists of Preference Trees.
+- Preference Tree: Diverse planning strategies in single pattern (such as tool creation, sequential processing). Multi-turn interaction trajectories with environment and the critique (learn to apply feedback and correct prior errors). Paired correct and incorrect actions in a tree structure. The data pair includes: instruction, correct response and incorrect response.   
+- DPO (instruction fine-tuned) hurts performance, while KTO and NCA improve performance. Indicates, that DPO may be less suitable for reasoning tasks. 
+
+
+
+#### 1st of April 2024
+
+[LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models](https://arxiv.org/abs/2404.01230)
+
+- Survey about Strategic reasoning of LLMs: methodologies and metrics. These approaches are categorizied into: Prompt engineering, Modular enhancements, Theory of Mind and Fine-tuning.
+- Reasoning tasks include: Common Sense reasoning, Mathematical reasoning, Symbolic reasoning, Causal reasoning and Strategic reasoning. 
+- Strategic reasoning differs from being a more dynamic form of reasoning with the environment and due to the uncertainty of the adversary action.
+- Key traits of strategic reasoning are: Goal-oriented, Interactive, Predictive nature and Adaptability.
+
+
+---
+
 #### 30th of March 2024
 
 [Alignment of brain embeddings and artificial contextual embeddings in natural language points to common geometric patterns](https://www.nature.com/articles/s41467-024-46631-y)
