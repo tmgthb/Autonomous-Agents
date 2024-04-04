@@ -86,6 +86,7 @@ Chronological order.
 - Key traits of strategic reasoning are: Goal-oriented, Interactive, Predictive nature and Adaptability.
 
 
+
 ---
 
 #### 30th of March 2024
