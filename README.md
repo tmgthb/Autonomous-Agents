@@ -1558,6 +1558,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+### 3rd of Februry 2024
+
+[More Agents Is All You Need](https://arxiv.org/abs/2402.05120)
+
+- Scaling up LLM-agents increases performance with sampling & majority voting.
+- Performance improvements increase and then decrease as difficult level gets harder. Improvements increase in function of number of steps. Prior probability of correct answer increases performance gains.
+
+
+
+---
+
 #### 2nd of February 2024
 
 
