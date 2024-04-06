@@ -765,6 +765,14 @@ during CoT inference.
 #### 5th of March 2024
 
 
+[Reaching Consensus in Cooperative Multi-Agent Reinforcement Learning with Goal Imagination](https://arxiv.org/abs/2403.03172)
+
+- MAGI (Multi-Agent Goal Imagination)-framework: agents reach consensus (and cooperatively reaching valuable future states) through imagined common goal.
+- Future states are modeled with CVAE-based self-supervised generative modelling. Samples a common goal with high-potential value for multi-agent consensus to guide policies of all agents.
+- CVAE is self-supervised conditional variational auto-encoder to model the distribution of future states.
+
+---
+
 [Language Guided Exploration for RL Agents in Text Environments](https://arxiv.org/abs/2403.03141)
 
 - Introduces Language Guided Exploration (LGE), which in this study outperforms Behaviour Cloning.
