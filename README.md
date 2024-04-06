@@ -1566,6 +1566,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Performance improvements increase and then decrease as difficult level gets harder. Improvements increase in function of number of steps. Prior probability of correct answer increases performance gains.
 
 
+---
+
+[Affordable Generative Agents](https://arxiv.org/abs/2402.02053)
+
+- Affordable Generative Agents (AGA) framework: agent environment interaction and inter-agent interactions.
+- Believable, low cost LLM-agents by replacing repetitive LLM inferences with learned policies. Models social relationships between LLM-agents and compresses auxiliary dialogue information.
+- Emergent believable behaviour: LLM-agents generate finite behaviours in limited environments. Defines "mind wandering"-technique in memorory to generate diverse social behaviour by sampling both: highly relevant events and sampling ranly unrelated events. The idea is to randomness & spontaneus responses, like a real person.
+- Social memory: relationship, feeling, events summary between the agents.
+
+
 
 ---
 
