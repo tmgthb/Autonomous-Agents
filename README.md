@@ -68,6 +68,14 @@ Chronological order.
 
 ---
 
+[Visualization-of-Thought Elicits Spatial Reasoning in Large Language Models](https://arxiv.org/abs/2404.03622)
+
+- Visualization-ofThought
+
+
+
+---
+
 
 #### 2th of April 2024
 
