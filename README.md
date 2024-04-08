@@ -96,6 +96,13 @@ Chronological order.
 
 ---
 
+[Self-Organized Agents: A LLM Multi-Agent Framework toward Ultra Large-Scale Code Generation and Optimization](https://arxiv.org/abs/2404.02183)
+
+- SoA (Self-Organized multi-Agent framework): Self-organized LLMs collaborate to generate code base and dynamically multiple based on complexity. Uses Mother and Child-agents.
+- Helps to scale the SoA to longer context lengths of code generation.
+
+---
+
 
 [Large Language Models for Orchestrating Bimanual Robots](https://arxiv.org/abs/2404.02018)
 
