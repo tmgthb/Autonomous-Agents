@@ -94,6 +94,13 @@ Chronological order.
 - DPO (instruction fine-tuned) hurts performance, while KTO and NCA improve performance. Indicates, that DPO may be less suitable for reasoning tasks. 
 
 
+---
+
+
+[Large Language Models for Orchestrating Bimanual Robots](https://arxiv.org/abs/2404.02018)
+
+- LABOR (LAnguage-modelbased Bimanual ORchestration)-agent.
+
 
 #### 1st of April 2024
 
