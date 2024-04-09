@@ -65,10 +65,7 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 - Reviews the scaling of LLMs on persuasion tasks. Finds, that Claude 3 Opus is statistically as convincing as human.
 
 
-
-
 ---
-
 
 #### 8th of March 2024
 
@@ -89,6 +86,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 ---
 
 [Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws](https://arxiv.org/abs/2404.05405)
+
+- Presents 12 insights on LLM training duration model architecture, quantization, sparsity and data signal-to-noise ratio.
+- Finds junk data significantly reduces model capacity, which can be avoided to large extent by adding special token in the beginning of text. LLM learns to autonomously label data as high-quality.
 
 
 ---
