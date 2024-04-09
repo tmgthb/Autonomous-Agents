@@ -57,6 +57,112 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 9th of March 2024
+
+[Measuring the Persuasiveness 
+of Language Models](https://www.anthropic.com/news/measuring-model-persuasiveness)
+
+- Reviews the scaling of LLMs on persuasion tasks. Finds, that Claude 3 Opus is statistically as convincing as human.
+
+
+
+---
+
+
+#### 8th of March 2024
+
+[Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://arxiv.org/abs/2404.05719)
+
+- Ferret-UI: Outperforms GPT-4V on elementary UI-tasks. 
+
+
+---
+
+[Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws](https://arxiv.org/abs/2404.05405)
+
+
+---
+
+[360°REA: Towards A Reusable Experience Accumulation with 360° Assessment for Multi-Agent System](https://arxiv.org/abs/2404.05569)
+
+---
+
+[HAMMR: HierArchical MultiModal React agents for generic VQA](https://arxiv.org/abs/2404.05465)
+
+
+---
+
+[AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427)
+
+
+
+
+
+---
+
+[Long-horizon Locomotion and Manipulation on a Quadrupedal Robot with Large Language Models](https://arxiv.org/abs/2404.05291)
+
+
+#### 7th of March 2024
+
+[AI2Apps: A Visual IDE for Building LLM-based AI Agent Applications](https://arxiv.org/abs/2404.04902)
+
+
+---
+
+[LLM-Based Multi-Agent Systems for Software Engineering: Vision and the Road Ahead](https://arxiv.org/abs/2404.04834)
+
+---
+
+#### 6th of March 2024
+
+[Self-organizing Multiagent Target Enclosing under Limited Information and Safety Guarantees](https://arxiv.org/abs/2404.04497)
+
+---
+
+[Challenges Faced by Large Language Models in Solving Multi-Agent Flocking](https://arxiv.org/abs/2404.04752)
+
+
+---
+
+[Autonomous Artificial Intelligence Agents for Clinical Decision Making in Oncology](https://arxiv.org/abs/2404.04667)
+
+---
+
+[Do We Really Need a Complex Agent System? Distill Embodied Agent into a Single Model](https://arxiv.org/abs/2404.04619)
+
+---
+
+
+[The Case for Developing a Foundation Model for Planning-like Tasks from Scratch](https://arxiv.org/abs/2404.04540)
+
+---
+
+#### 5th of March 2024
+
+
+[Exploring Autonomous Agents through the Lens of Large Language Models: A Review](https://arxiv.org/abs/2404.04442)
+
+
+---
+
+[Increased LLM Vulnerabilities from Fine-tuning and Quantization](https://arxiv.org/abs/2404.04392)
+
+
+
+
+---
+
+[Cleared for Takeoff? Compositional & Conditional Reasoning may be the Achilles Heel to (Flight-Booking) Language Agents](https://arxiv.org/abs/2404.04237)
+
+---
+
+[ROMA-iQSS: An Objective Alignment Approach via State-Based Value Learning and ROund-Robin Multi-Agent Scheduling](https://arxiv.org/abs/2404.03984)
+
+---
+
+
+
 #### 4th of March 2024
 
 [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648)
@@ -72,7 +178,40 @@ Chronological order.
 
 - Visualization-ofThought
 
+[Language Model Evolution: An Iterated Learning Perspective](https://arxiv.org/abs/2404.04286)
 
+
+---
+
+[Anticipate & Collab: Data-driven Task Anticipation and Knowledge-driven Planning for Human-robot Collaboration](https://arxiv.org/abs/2404.03587)
+
+---
+
+[CONFLARE: CONFormal LArge language model REtrieval](https://arxiv.org/abs/2404.04287)
+
+
+
+---
+
+#### 3rd of April 2024
+
+
+
+
+[MIMIR: A Streamlined Platform for Personalized Agent Tuning in Domain Expertise](https://arxiv.org/abs/2404.04285)
+
+---
+[I-Design: Personalized LLM Interior Designer](https://arxiv.org/abs/2404.02838)
+---
+[On the Importance of Uncertainty in Decision-Making with Large Language Models](https://arxiv.org/abs/2404.02649)
+---
+[Learn to Disguise: Avoid Refusal Responses in LLM's Defense via a Multi-agent Attacker-Disguiser Game](https://arxiv.org/abs/2404.02532)
+---
+[Designing for Human-Agent Alignment: Understanding what humans want from their agents](https://arxiv.org/abs/2404.04289)
+
+
+---
+[PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948)
 
 ---
 
@@ -108,6 +247,20 @@ Chronological order.
 
 - LABOR (LAnguage-modelbased Bimanual ORchestration)-agent.
 
+---
+[CMAT: A Multi-Agent Collaboration Tuning Framework for Enhancing Small Language Models](https://arxiv.org/abs/2404.01663)
+
+---
+[InsightLens: Discovering and Exploring Insights from Conversational Contexts in Large-Language-Model-Powered Data Analysis](https://arxiv.org/abs/2404.01644)
+
+---
+[Helmsman of the Masses? Evaluate the Opinion Leadership of Large Language Models in the Werewolf Game](https://arxiv.org/abs/2404.01602)
+
+---
+[]()
+
+
+---
 
 #### 1st of April 2024
 
@@ -119,8 +272,47 @@ Chronological order.
 - Key traits of strategic reasoning are: Goal-oriented, Interactive, Predictive nature and Adaptability.
 
 
+---
+[Large Language Model Evaluation Via Multi AI Agents: Preliminary results](https://arxiv.org/abs/2404.01023)
 
 ---
+[]()
+
+---
+[]()
+
+
+---
+
+#### 31st of March 2024
+
+
+---
+[CHOPS: CHat with custOmer Profile Systems for Customer Service with LLMs](https://arxiv.org/abs/2404.01343)
+
+---
+[DiffAgent: Fast and Accurate Text-to-Image API Selection with Large Language Model](https://arxiv.org/abs/2404.01342)
+---
+[Algorithmic Collusion by Large Language Models](https://arxiv.org/abs/2404.00806)
+
+---
+["My agent understands me better": Integrating Dynamic Human-like Memory Recall and Consolidation in LLM-Based Agents]()
+---
+[](https://arxiv.org/abs/2404.00573)
+---
+[]()
+
+---
+[]()
+
+
+---
+[]()
+
+
+---
+
+
 
 #### 30th of March 2024
 
@@ -129,6 +321,24 @@ Chronological order.
 - Aligns LLM word embeddings with human brain embeddings.
 - Brain embeddings are generated from fine-grained spatiotemporal neural recordings in a continuous embedding space.
 - Aligning is based on similar geometric shapes between brain and llm word embeddings.
+
+
+---
+[Language Models are Spacecraft Operators](https://arxiv.org/abs/2404.00413)
+
+
+---
+[A Taxonomy for Human-LLM Interaction Modes: An Initial Exploration](https://arxiv.org/abs/2404.00405)
+
+
+
+---
+[Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods](https://arxiv.org/abs/2404.00282)
+
+
+
+---
+[Your Co-Workers Matter: Evaluating Collaborative Capabilities of Language Models in Blocks World](https://arxiv.org/abs/2404.00246)
 
 
 ---
@@ -180,6 +390,38 @@ Chronological order.
 
 ---
 
+[Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning](https://arxiv.org/abs/2403.19962)
+
+---
+
+[Change-Agent: Towards Interactive Comprehensive Remote Sensing Change Interpretation and Analysis](https://arxiv.org/abs/2403.19646)
+
+
+
+---
+[LLMs as Academic Reading Companions: Extending HCI Through Synthetic Personae](https://arxiv.org/abs/2403.19506)
+
+
+---
+[MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation](https://arxiv.org/abs/2403.19305)
+
+---
+[]()
+---
+[]()
+
+
+---
+[]()
+
+---
+[]()
+---
+[]()
+
+
+---
+
 
 #### 27th of March 2024
 
@@ -213,6 +455,13 @@ Chronological order.
 
 
 ---
+[]()
+---
+[]()
+
+
+
+---
 
 #### 26th of March 2024
 
@@ -227,6 +476,26 @@ Chronological order.
 
 - SecurityBot: role-based multiagent collaborative framework with RL agent as mentors for LLM agent to support cybersecurity operations. Includes modules: profiles, memory, reflection and action using LLMs.
 - Collaboration mechanism: cursor for dynamic suggestions taking, aggregator for multiple mentors suggestion ranking & caller for proactive suggestion asking.
+
+
+---
+[Large Language Models Need Consultants for Reasoning: Becoming an Expert in a Complex Human System Through Behavior Simulation](https://arxiv.org/abs/2403.18230)
+---
+[A Study of Three Influencer Archetypes for the Control of Opinion Spread in Time-Varying Social Networks](https://arxiv.org/abs/2403.18163)
+
+
+---
+[Depending on yourself when you should: Mentoring LLM with RL agents to become the master in cybersecurity games](https://arxiv.org/abs/2403.17674)
+---
+[OVER-NAV: Elevating Iterative Vision-and-Language Navigation with Open-Vocabulary Detection and StructurEd Representation](https://arxiv.org/abs/2403.17334)
+
+
+
+---
+[]()
+---
+[]()
+
 
 
 ---
@@ -261,6 +530,73 @@ Chronological order.
 - TwoStep: Combines classical planning with LLMs (Helper Plan and Main Plan).   
 
 
+
+
+---
+[Temporal and Semantic Evaluation Metrics for Foundation Models in Post-Hoc Analysis of Robotic Sub-tasks](https://arxiv.org/abs/2403.17238)
+---
+[Do LLM Agents Have Regret? A Case Study in Online Learning and Games](https://arxiv.org/abs/2403.16843)
+
+
+
+---
+[An LLM-Based Digital Twin for Optimizing Human-in-the Loop Systems](https://arxiv.org/abs/2403.16809)
+
+
+---
+[Harnessing the power of LLMs for normative reasoning in MASs](https://arxiv.org/abs/2403.16524)
+
+
+---
+[Norm Violation Detection in Multi-Agent Systems using Large Language Models: A Pilot Study](https://arxiv.org/abs/2403.16517)
+
+
+---
+[Towards Automatic Evaluation for LLMs' Clinical Capabilities: Metric, Data, and Algorithm](https://arxiv.org/abs/2403.16446)
+
+
+---
+[Re2LLM: Reflective Reinforcement Large Language Model for Session-based Recommendation](https://arxiv.org/abs/2403.16427)
+
+
+---
+[]()
+
+
+---
+[]()
+
+
+
+---
+
+
+#### 24th of March 2024
+
+
+
+
+---
+[AgentFL: Scaling LLM-based Fault Localization to Project-Level Context](https://arxiv.org/abs/2403.16362)
+---
+[Combining Fine-Tuning and LLM-based Agents for Intuitive Smart Contract Auditing with Justifications](https://arxiv.org/abs/2403.16073)
+
+
+---
+[]()
+
+---
+[]()
+
+---
+[]()
+
+---
+[]()
+
+---
+[]()
+
 ---
 
 #### 23th of March 2024
@@ -269,6 +605,20 @@ Chronological order.
 
 - LCG: Multi-agent LLM consisting of waterfall, scrum and Test-Driven-Development sw development workflows with CoT and Self-refinement.
 - LLM agent includes roles: requirements engineer, architect, developer, tester and scrum master. Uses same prompt, with role-identifier, role-specific instruction and task-information to drive dynamic prompting.
+
+
+---
+[Towards a RAG-based Summarization Agent for the Electron-Ion Collider](https://arxiv.org/abs/2403.15729)
+
+---
+[]()
+
+
+---
+[]()
+
+---
+[]()
 
 
 
@@ -419,6 +769,14 @@ Chronological order.
 
 - CMVA-GS: moral value agents with different profiles pass through contextual aggregator.
 
+---
+
+[LLMs-based Few-Shot Disease Predictions using EHR: A Novel Approach Combining Predictive Agent Reasoning and Critical Agent Instruction](https://arxiv.org/abs/2403.15464)
+
+
+---
+
+[]()
 
 ---
 
@@ -497,6 +855,10 @@ Chronological order.
 
 - LLM agent for performance attrition using CoT and Plan and Solve (PS).
 
+---
+
+[ChatPattern: Layout Pattern Customization via Natural Language](https://arxiv.org/abs/2403.15434)
+
 
 ---
 
@@ -553,6 +915,10 @@ Chronological order.
 
 
 #### 13th of March 2024
+
+[Gemma: Open Models Based on Gemini Research and Technology](https://arxiv.org/abs/2403.08295)
+
+---
 
 [Scaling Instructable Agents Across Many
 Simulated Worlds](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/sima-generalist-ai-agent-for-3d-virtual-environments/Scaling%20Instructable%20Agents%20Across%20Many%20Simulated%20Worlds.pdf)
@@ -1561,6 +1927,10 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Creates AsyncHow-benchmark: for asynchronous plan reasoning, requiring ability to correctly add time, correctly comparing time durations and ability to solve constrained reasoning.
 - LLMs struggle efficiently completing complex asyncchronous plans without detailed illustration of how to solve the task.
 
+
+---
+
+[C-RAG: Certified Generation Risks for Retrieval-Augmented Language Models](https://arxiv.org/abs/2402.03181)
 
 ---
 
