@@ -69,6 +69,15 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 #### 8th of March 2024
 
+
+[HAMMR: HierArchical MultiModal React agents for generic VQA](https://arxiv.org/abs/2404.05465)
+
+- HAMMR: Uses multimodal ReAct-based agent, which is hierarchical by letting the agent call other specialized agents.
+- Outperforms PaLI-X VQA by 5%.
+
+---
+
+
 [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://arxiv.org/abs/2404.05719)
 
 - Ferret-UI: Outperforms GPT-4V on elementary UI-tasks with capability for referring (widget classification, OCR, icon recognition), grounding (find widget/icon/text and widget listing) and reasoning.
@@ -77,10 +86,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 ---
 
-[Finding Visual Task Vectors](https://arxiv.org/abs/2404.05729)
+[AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427)
 
-- Identifies Task Vectors.
-- Uses task vectors to perform different tasks without any sample input.
+-
 
 
 ---
@@ -103,12 +111,11 @@ assessment.
 
 ---
 
-[HAMMR: HierArchical MultiModal React agents for generic VQA](https://arxiv.org/abs/2404.05465)
+[Finding Visual Task Vectors](https://arxiv.org/abs/2404.05729)
 
+- Identifies Task Vectors.
+- Uses task vectors to perform different tasks without any sample input.
 
----
-
-[AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427)
 
 
 
