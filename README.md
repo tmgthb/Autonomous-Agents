@@ -78,6 +78,11 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 ---
 
+[Finding Visual Task Vectors](https://arxiv.org/abs/2404.05729)
+
+
+---
+
 [Physics of Language Models: Part 3.3, Knowledge Capacity Scaling Laws](https://arxiv.org/abs/2404.05405)
 
 
