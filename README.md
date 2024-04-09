@@ -332,6 +332,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 - Brain embeddings are generated from fine-grained spatiotemporal neural recordings in a continuous embedding space.
 - Aligning is based on similar geometric shapes between brain and llm word embeddings.
 
+[Injecting New Knowledge into Large Language Models via Supervised Fine-Tuning](https://arxiv.org/abs/2404.00213)
+
+
 
 ---
 [Language Models are Spacecraft Operators](https://arxiv.org/abs/2404.00413)
