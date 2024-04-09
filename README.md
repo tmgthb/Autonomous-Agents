@@ -95,6 +95,12 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [360°REA: Towards A Reusable Experience Accumulation with 360° Assessment for Multi-Agent System](https://arxiv.org/abs/2404.05569)
 
+
+- Reusable Experience Accumulation with 360° Assessment (360°REA): a hierarchical multi-agent framework to evaluate and accumulate experience from feedback.
+- Uses Deal-experience pool and 360◦ performance
+assessment.
+- Dual-experience pool: helps LLM-agents collect useful experiences in complex tasks using local experience/high-level experience.
+
 ---
 
 [HAMMR: HierArchical MultiModal React agents for generic VQA](https://arxiv.org/abs/2404.05465)
