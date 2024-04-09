@@ -82,6 +82,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Finding Visual Task Vectors](https://arxiv.org/abs/2404.05729)
 
+- Identifies Task Vectors.
+- Uses task vectors to perform different tasks without any sample input.
+
 
 ---
 
