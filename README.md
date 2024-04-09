@@ -722,6 +722,14 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 #### 20th of March 2024
 
+
+[Reverse Training to Nurse the Reversal Curse](https://arxiv.org/abs/2403.13799)
+
+- Reverse training: trains LLMs using reverse order to solve the reverse curse, where the LLM struggles to learn: B is a feature of A.
+- Reverse curse has been key issue in the current LLM training.
+
+---
+
 [Large Language Models meet Network Slicing Management and Orchestration](https://arxiv.org/abs/2403.13721)
 
 - LLM slices isolated virtual network of a Physical infrastructure. 
