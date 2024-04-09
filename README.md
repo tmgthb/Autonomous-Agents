@@ -66,6 +66,7 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 
 
+
 ---
 
 
@@ -73,7 +74,8 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs](https://arxiv.org/abs/2404.05719)
 
-- Ferret-UI: Outperforms GPT-4V on elementary UI-tasks. 
+- Ferret-UI: Outperforms GPT-4V on elementary UI-tasks with capability for referring (widget classification, OCR, icon recognition), grounding (find widget/icon/text and widget listing) and reasoning.
+- "Any resolution" (anyres) enlarges small UI-objects in images like icons within varying screen aspect ratios. Screen capture is divided into two sub-sections. Each UI-element is referenced with type, text and bounding box. Uses 250k examples of training data. 
 
 
 ---
