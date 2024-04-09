@@ -3298,6 +3298,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 17th of October 2023
 
+[Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V](https://arxiv.org/abs/2310.11441)
+
+- Set-of-Mark (SoM)-visual prompting technique to answer questions by partioning image into regions with different level of granularity and insert numbers for each region.
+- Studies VLM model prompting techniques. 
+
+
+---
+
 [The next grand challenge for AI](https://www.ted.com/talks/jim_fan_the_next_grand_challenge_for_ai/transcript)
 
 - Foundational Agent: Agents, which scale in all three axis of: skills, embodiment and realities.  If chatgpt was scaled with data, foundational agents are scaled with realities.
