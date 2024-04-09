@@ -2729,6 +2729,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+#### 17th of December 2023
+
+[Learning to Act without Actions](https://arxiv.org/abs/2312.10812)
+
+- LAPO (Latent Action Policy).
+
+
+---
 
 #### 16th of December 2023
 
