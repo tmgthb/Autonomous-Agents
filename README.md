@@ -920,6 +920,12 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 ---
 
+[MM1: Methods, Analysis & Insights from Multimodal LLM Pre-training](https://arxiv.org/abs/2403.09611)
+
+- MM1: MLLM training.
+
+---
+
 
 #### 13th of March 2024
 
@@ -1725,6 +1731,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Learning Principles (LEAP): Intentially guide LLM to make mistakes on few examples to reflect on them and learn task-specific principles.
 - Improves MATH reasoning capability. 
+
+
+---
+
+[Keyframer: Empowering Animation Design using Large Language Models](https://arxiv.org/abs/2402.06071)
+
+- Keyframer: LLM-powered animation generator from SVG images.
 
 
 ---
@@ -3770,6 +3783,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Introduces Reinforced Self-Training (ReST).
 - Grow step generates data from LLM, Improve step uses this filtered data to fine-tune the LLM. Repeat. 
+
+
+---
+
+[Never-ending Learning of User Interfaces](https://arxiv.org/abs/2308.08726)
+
+- Never-ending UI Learner: automatically installs apps from an appstore and crawls them to learn difficult training examples
 
 
 ---
