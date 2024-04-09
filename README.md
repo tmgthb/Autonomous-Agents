@@ -88,7 +88,8 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [AutoCodeRover: Autonomous Program Improvement](https://arxiv.org/abs/2404.05427)
 
--
+- AutoCodeRover: autonomous sw engineering by solve Github issues (program repair and improvement). Solves 67 Github issues within 10 minutes. Future directions could include issue reproducer/semantic artifacts and human involvement.
+- Includes two stages: context retrieval stage to produce buggy locations and Patch generation stage to produce final patch.
 
 
 ---
