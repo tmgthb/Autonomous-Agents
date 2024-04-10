@@ -87,7 +87,7 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 - AgentsCoDriver: multi-car collaboration using LLMs.
 - The system includes the following modules: observation, reasoning engine, cognitive memory, reinforcement reflection, and communication.
-
+- Includes useful designs on prompt generation and module designs.
 
 ---
 
