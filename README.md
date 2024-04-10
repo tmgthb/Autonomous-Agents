@@ -57,7 +57,7 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
-#### 9th of March 2024
+#### 9th of April 2024
 
 [Measuring the Persuasiveness 
 of Language Models](https://www.anthropic.com/news/measuring-model-persuasiveness)
@@ -67,7 +67,90 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 ---
 
-#### 8th of March 2024
+[Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems](https://arxiv.org/abs/2404.06413)
+
+
+---
+
+[AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents](https://arxiv.org/abs/2404.06411)
+
+
+---
+
+[AgentsCoDriver: Large Language Model Empowered Collaborative Driving with Lifelong Learning](https://arxiv.org/abs/2404.06345)
+
+---
+
+[Automatic Authorities: Power and AI](https://arxiv.org/abs/2404.05990)
+
+
+
+---
+
+[Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
+
+
+---
+
+[Wu's Method can Boost Symbolic AI to Rival Silver Medalists and AlphaGeometry to Outperform Gold Medalists at IMO Geometry](https://arxiv.org/abs/2404.06405)
+
+
+---
+
+[Graph Reinforcement Learning for Combinatorial Optimization: A Survey and Unifying Perspective](https://arxiv.org/abs/2404.06492)
+
+
+
+---
+
+[Text-Based Reasoning About Vector Graphics](https://arxiv.org/abs/2404.06479)
+
+
+
+---
+
+[pfl-research: simulation framework for accelerating research in Private Federated Learning](https://arxiv.org/abs/2404.06430)
+
+
+---
+
+[MuPT: A Generative Symbolic Music Pretrained Transformer](https://arxiv.org/abs/2404.06393)
+
+
+---
+
+[VISION2UI: A Real-World Dataset with Layout for Code Generation from UI Designs](https://arxiv.org/abs/2404.06369)
+
+
+---
+
+[ActNetFormer: Transformer-ResNet Hybrid Method for Semi-Supervised Action Recognition in Videos](https://arxiv.org/abs/2404.06243)
+
+
+---
+
+[Elephants Never Forget: Memorization and Learning of Tabular Data in Large Language Models](https://arxiv.org/abs/2404.06209)
+
+
+---
+
+[Open-Source AI-based SE Tools: Opportunities and Challenges of Collaborative Software Learning](https://arxiv.org/abs/2404.06201)
+
+
+---
+
+[THOUGHTSCULPT: Reasoning with Intermediate Revision and Search](https://arxiv.org/abs/2404.05966)
+
+
+[VisualWebBench: How Far Have Multimodal LLMs Evolved in Web Page Understanding and Grounding?](https://arxiv.org/abs/2404.05955)
+
+
+
+
+---
+
+
+#### 8th of April 2024
 
 
 [HAMMR: HierArchical MultiModal React agents for generic VQA](https://arxiv.org/abs/2404.05465)
@@ -117,34 +200,65 @@ assessment.
 - Identifies Task Vectors.
 - Uses task vectors to perform different tasks without any sample input.
 
+---
+
+[LLM Reasoners: New Evaluation, Library, and Analysis of Step-by-Step Reasoning with Large Language Models](https://arxiv.org/abs/2404.05221)
 
 
+---
 
+[LLM-Augmented Retrieval: Enhancing Retrieval Models Through Language Models and Doc-Level Embedding](https://arxiv.org/abs/2404.05825)
 
+---
+
+[WILBUR: Adaptive In-Context Learning for Robust and Accurate Web Agents](https://arxiv.org/abs/2404.05902)
+
+---
+
+[Attention-Driven Multi-Agent Reinforcement Learning: Enhancing Decisions with Expertise-Informed Tasks](https://arxiv.org/abs/2404.05840)
 
 ---
 
 [Long-horizon Locomotion and Manipulation on a Quadrupedal Robot with Large Language Models](https://arxiv.org/abs/2404.05291)
 
+---
 
-#### 7th of March 2024
+[Dense Training, Sparse Inference: Rethinking Training of Mixture-of-Experts Language Models](https://arxiv.org/abs/2404.05567)
+
+---
+
+#### 7th of April 2024
 
 [AI2Apps: A Visual IDE for Building LLM-based AI Agent Applications](https://arxiv.org/abs/2404.04902)
+
 
 
 ---
 
 [LLM-Based Multi-Agent Systems for Software Engineering: Vision and the Road Ahead](https://arxiv.org/abs/2404.04834)
 
+
+
 ---
 
-#### 6th of March 2024
+[StockGPT: A GenAI Model for Stock Prediction and Trading](https://arxiv.org/abs/2404.05101)
+
+
+[Prompting Multi-Modal Tokens to Enhance End-to-End Autonomous Driving Imitation Learning with LLMs](https://arxiv.org/abs/2404.04869)
+
+---
+
+#### 6th of April 2024
 
 [Self-organizing Multiagent Target Enclosing under Limited Information and Safety Guarantees](https://arxiv.org/abs/2404.04497)
 
 ---
 
 [Challenges Faced by Large Language Models in Solving Multi-Agent Flocking](https://arxiv.org/abs/2404.04752)
+
+---
+
+[Transform then Explore: a Simple and Effective Technique for Exploratory Combinatorial Optimization with Reinforcement Learning](https://arxiv.org/abs/2404.04661)
 
 
 ---
@@ -162,7 +276,12 @@ assessment.
 
 ---
 
-#### 5th of March 2024
+[MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems](https://arxiv.org/abs/2404.04735)
+
+
+---
+
+#### 5th of April 2024
 
 
 [Exploring Autonomous Agents through the Lens of Large Language Models: A Review](https://arxiv.org/abs/2404.04442)
@@ -185,9 +304,18 @@ assessment.
 
 ---
 
+[Hypothesis Generation with Large Language Models](https://arxiv.org/abs/2404.04326)
+
+---
+
+[KGExplainer: Towards Exploring Connected Subgraph Explanations for Knowledge Graph Completion](https://arxiv.org/abs/2404.03893)
 
 
-#### 4th of March 2024
+
+---
+
+
+#### 4th of April 2024
 
 [AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent](https://arxiv.org/abs/2404.03648)
 
@@ -213,6 +341,55 @@ assessment.
 
 [CONFLARE: CONFormal LArge language model REtrieval](https://arxiv.org/abs/2404.04287)
 
+---
+
+[SELF-[IN]CORRECT: LLMs Struggle with Refining Self-Generated Responses](https://arxiv.org/abs/2404.04298)
+
+---
+
+
+[Reason from Fallacy: Enhancing Large Language Models' Logical Reasoning through Logical Fallacy Understanding](https://arxiv.org/abs/2404.04293)
+
+---
+
+[Direct Nash Optimization: Teaching Language Models to Self-Improve with General Preferences](https://arxiv.org/abs/2404.03715)
+
+---
+
+[Comprehensible Artificial Intelligence on Knowledge Graphs: A survey](https://arxiv.org/abs/2404.03499)
+
+---
+
+[Benchmarking ChatGPT on Algorithmic Reasoning](https://arxiv.org/abs/2404.03441)
+
+---
+
+[Capabilities of Large Language Models in Control Engineering: A Benchmark Study on GPT-4, Claude 3 Opus, and Gemini 1.0 Ultra](https://arxiv.org/abs/2404.03647)
+
+---
+
+
+[ReFT: Representation Finetuning for Language Models](https://arxiv.org/abs/2404.03592)
+
+---
+
+[CodeEditorBench: Evaluating Code Editing Capability of Large Language Models](https://arxiv.org/abs/2404.03543)
+
+---
+
+[A Cause-Effect Look at Alleviating Hallucination of Knowledge-grounded Dialogue Generation](https://arxiv.org/abs/2404.03491)
+
+---
+
+[Can Small Language Models Help Large Language Models Reason Better?: LM-Guided Chain-of-Thought](https://arxiv.org/abs/2404.03414)
+
+---
+
+[Embodied Neuromorphic Artificial Intelligence for Robotics: Perspectives, Challenges, and Research Development Stack](https://arxiv.org/abs/2404.03325)
+
+---
+
+[RALL-E: Robust Codec Language Modeling with Chain-of-Thought Prompting for Text-to-Speech Synthesis](https://arxiv.org/abs/2404.03204)
 
 
 ---
@@ -236,6 +413,22 @@ assessment.
 
 ---
 [PiSSA: Principal Singular Values and Singular Vectors Adaptation of Large Language Models](https://arxiv.org/abs/2404.02948)
+
+---
+
+[Testing the Effect of Code Documentation on Large Language Model Code Understanding](https://arxiv.org/abs/2404.03114)
+
+---
+
+[The RealHumanEval: Evaluating Large Language Models' Abilities to Support Programmers](https://arxiv.org/abs/2404.02806)
+
+---
+
+[Measuring Social Norms of Large Language Models](https://arxiv.org/abs/2404.02491)
+
+---
+
+[Exploring Backdoor Vulnerabilities of Chat Models](https://arxiv.org/abs/2404.02406)
 
 ---
 
@@ -281,9 +474,15 @@ assessment.
 [Helmsman of the Masses? Evaluate the Opinion Leadership of Large Language Models in the Werewolf Game](https://arxiv.org/abs/2404.01602)
 
 ---
-[]()
+[Collapse of Self-trained Language Models](https://arxiv.org/abs/2404.02305)
 
+---
 
+[RAT: Retrieval-Augmented Transformer for Click-Through Rate Prediction](https://arxiv.org/abs/2404.02249)
+
+---
+
+[Is Exploration All You Need? Effective Exploration Characteristics for Transfer in Reinforcement Learning](https://arxiv.org/abs/2404.02235)
 ---
 
 #### 1st of April 2024
@@ -587,7 +786,7 @@ assessment.
 
 
 ---
-[]()
+[RL for Consistency Models: Faster Reward Guided Text-to-Image Generation](https://arxiv.org/abs/2404.03673)
 
 
 ---
@@ -811,7 +1010,7 @@ assessment.
 
 ---
 
-[]()
+[The Use of Generative Search Engines for Knowledge Work and Complex Tasks](https://arxiv.org/abs/2404.04268)
 
 ---
 
@@ -844,6 +1043,13 @@ assessment.
 [https://arxiv.org/abs/2403.11835](Agent3D-Zero: An Agent for Zero-shot 3D Understanding)
 
 - Agent3D-Zero: 3D scene understanding agent with VLM by selecting and analyzing series of viewpoints for 3D understanding. 
+
+
+---
+
+#### 17th of March 2024
+
+[Logic Query of Thoughts: Guiding Large Language Models to Answer Complex Logic Queries with Knowledge Graphs](https://arxiv.org/abs/2404.04264)
 
 
 ---
