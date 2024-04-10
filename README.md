@@ -57,6 +57,7 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+
 #### 9th of April 2024
 
 [Measuring the Persuasiveness 
@@ -69,6 +70,8 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Large Language Models to the Rescue: Deadlock Resolution in Multi-Robot Systems](https://arxiv.org/abs/2404.06413)
 
+- Hierarchical LLM guides robot away from deadlock situation by assigning leader-agent and give it direction to continue and GNN executes the low level policy.
+- Finds LLMs effective in various environments for high-level planning tonresolve deadlocks.
 
 ---
 
