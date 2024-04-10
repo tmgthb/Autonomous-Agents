@@ -80,9 +80,14 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 - AgentQuest: modular benchmark for multi-step reasoning with possibility via API to extend to different environments.
 - Traditional benchmark includes single environment. AgentQuest uses driver to connect with a specific environment.
 
+
 ---
 
 [AgentsCoDriver: Large Language Model Empowered Collaborative Driving with Lifelong Learning](https://arxiv.org/abs/2404.06345)
+
+- AgentsCoDriver: multi-car collaboration using LLMs.
+- The system includes the following modules: observation, reasoning engine, cognitive memory, reinforcement reflection, and communication.
+
 
 ---
 
