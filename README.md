@@ -89,11 +89,6 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 - The system includes the following modules: observation, reasoning engine, cognitive memory, reinforcement reflection, and communication.
 - Includes useful designs on prompt generation and module designs.
 
----
-
-[Automatic Authorities: Power and AI](https://arxiv.org/abs/2404.05990)
-
-
 
 ---
 
