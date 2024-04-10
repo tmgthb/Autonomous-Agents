@@ -77,6 +77,8 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [AgentQuest: A Modular Benchmark Framework to Measure Progress and Improve LLM Agents](https://arxiv.org/abs/2404.06411)
 
+- AgentQuest: modular benchmark for multi-step reasoning with possibility via API to extend to different environments.
+- Traditional benchmark includes single environment. AgentQuest uses driver to connect with a specific environment.
 
 ---
 
