@@ -64,6 +64,14 @@ Chronological order.
 
 ---
 
+[GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications](https://arxiv.org/abs/2404.06921)
+
+- Gorilla Execution Engine (GoEx): open-source runtime to execute LLM actions, apps and microservices.
+- LLMs evolve from dialogue to autonomous agents, which as well make decisions.
+- "Post-facto Validation": human checks correctness of the generated output, instead of intermediate results. Introduces concet of "Undo" and "Damage confinement" to manage unintended risks with autonomous agents.
+
+---
+
 
 #### 9th of April 2024
 
