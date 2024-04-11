@@ -101,6 +101,11 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Autonomous Evaluation and Refinement of Digital Agents](https://arxiv.org/abs/2404.06474)
 
+- Review domain-generic automatic evaluators to improve "digital agents", which improve SOTA performance in WebArena-benchmark by 29%.
+- Evaluators are applied to improve agents with fine-tuning and inference-time guidance.
+- Policy evaluation works by using VLM to perform user screen captioning, which is processed by LLM together with user instructions and agent trajectory(states/actions). The LLM-reasoner response is evaluated together with VLM-based reasoner to provide final failure/success-evaluation.
+- Autonomous refinement uses inference-time guidance (reflexion) and Filtered behaviour cloning. 
+
 
 ---
 
