@@ -111,6 +111,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Wu's Method can Boost Symbolic AI to Rival Silver Medalists and AlphaGeometry to Outperform Gold Medalists at IMO Geometry](https://arxiv.org/abs/2404.06405)
 
+- Combines Wu's method with AlphaGeometry to solve 27/30 IMO geometry problems (SOTA-level), which is 2 above AlphaGeometry alone or Wu's method alone only solves 15.
+- First AI (fully symbolic baseline) to outperform a human in IMO geometry problems.
+
 
 ---
 
