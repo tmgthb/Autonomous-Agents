@@ -495,9 +495,23 @@ assessment.
 ---
 
 [Is Exploration All You Need? Effective Exploration Characteristics for Transfer in Reinforcement Learning](https://arxiv.org/abs/2404.02235)
+
+
 ---
 
 #### 1st of April 2024
+
+[Stream of Search (SoS): Learning to Search in Language](https://arxiv.org/abs/2404.03683)
+
+- Stream of Search (SoS): Symbolic reasoning with next-sequence prediction (LLMs). 
+- LLM pretrained with SoS-dataset generated with 500k search trajectories (also called as SoS) using various search strategies (BFS/DFS-based) to learn internal world model of search, which include problem solving using exploration and backtracking. 
+- Enables generic and adaptive form of search: symbolic search is based on explicity environmental model, while SoS learns state transitions. The approach is likely to work in real world due to the complex/variable/branching nature of the game.
+- The policy is improved using APA (Advantage-induces Policy Alignment)- and fine-tuning with [STaR-technique](#star) for threee iterations using 100k correct trajectories. 
+- APA is a Actor-Critic RL technique. It creates copy of the LLM used as value network to enhance policy in the LLM. Reward function reviews the length and correctness of the generated trajectory.
+
+
+
+---
 
 [LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models](https://arxiv.org/abs/2404.01230)
 
@@ -4438,7 +4452,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Claims humans use World model as simulators in the brain, learned through senso-motory interaction with the environment. It is possible to learn world model using deep generative models.
 
 
+
+
+<div id="star"></div>
+
 ---
+
 
 #### 28th of March 2022
 
