@@ -57,6 +57,19 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 11th of April 2024
+
+[OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
+
+
+---
+
+
+[ODA: Observation-Driven Agent for integrating LLMs and Knowledge Graphs](https://arxiv.org/abs/2404.07677)
+
+---
+
+
 #### 10th of April 2024 
 
 
@@ -69,6 +82,11 @@ Chronological order.
 - Gorilla Execution Engine (GoEx): open-source runtime to execute LLM actions, apps and microservices.
 - LLMs evolve from dialogue to autonomous agents, which as well make decisions.
 - "Post-facto Validation": human checks correctness of the generated output, instead of intermediate results. Introduces concet of "Undo" and "Damage confinement" to manage unintended risks with autonomous agents.
+
+
+---
+
+[Vision-Language Model-based Physical Reasoning for Robot Liquid Perception](https://arxiv.org/abs/2404.06904)
 
 ---
 
@@ -149,6 +167,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [VISION2UI: A Real-World Dataset with Layout for Code Generation from UI Designs](https://arxiv.org/abs/2404.06369)
 
+---
+
+[WESE: Weak Exploration to Strong Exploitation for LLM Agents](https://arxiv.org/abs/2404.07456)
 
 ---
 
@@ -158,6 +179,7 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 ---
 
 [Elephants Never Forget: Memorization and Learning of Tabular Data in Large Language Models](https://arxiv.org/abs/2404.06209)
+
 
 
 ---
@@ -879,7 +901,7 @@ assessment.
 [Towards a RAG-based Summarization Agent for the Electron-Ion Collider](https://arxiv.org/abs/2403.15729)
 
 ---
-[]()
+[EduAgent: Generative Student Agents in Learning](https://arxiv.org/abs/2404.07963)
 
 
 ---
@@ -930,7 +952,9 @@ assessment.
 - CACA (Capability Collaboration based AI Agent): LLM agent with the following components: profile capability, reception capability, workflow capability, tool capability, tool service, methodology capability, add domain knowledge and planning capability.
 - Processes: user request, generate plan, search methodology, get profile, discover tool, invoke service, add domain knowledge and register tool service.
 
+---
 
+[Content Knowledge Identification with Multi-Agent Large Language Models (LLMs)](https://arxiv.org/abs/2404.07960)
 
 ---
 
