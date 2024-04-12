@@ -61,6 +61,8 @@ Chronological order.
 
 [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
 
+- OSWorld: scalable multimodal agents for Ubuntu/Windows/MacOS to perform open-ended web/desktop tasks.
+- Discovers humans complete 72% of tasks, while best agent completes only 12%. The main issues are GUI grounding/operational knowledge.
 
 ---
 
