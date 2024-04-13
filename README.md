@@ -80,6 +80,12 @@ Chronological order.
 
 [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143)
 
+- Infinite-Attention: Infinite long context window using compressed memory/local attention.
+- The local attention computes using the in context. The compressed memory computes using the out-of-context.
+- Google tests 1B LLN for 1M sequence length, which is difficult for such small model. I believe there are no existing benchmarks yet for testing such long context windows above +1M context window.
+- Ahieves 114x compression ratio.
+
+
 ---
 
 [GoEX: Perspectives and Designs Towards a Runtime for Autonomous LLM Applications](https://arxiv.org/abs/2404.06921)
