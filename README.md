@@ -69,6 +69,9 @@ Chronological order.
 
 [ODA: Observation-Driven Agent for integrating LLMs and Knowledge Graphs](https://arxiv.org/abs/2404.07677)
 
+- ODA: LLM with knowledge graph (KGs) using iteratively observation, action and reflection to help solve tasks. 
+- The observation phase uses a global view of the entire KG and selectively picks relevant parts for reasoning.
+
 ---
 
 
