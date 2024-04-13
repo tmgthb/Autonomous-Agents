@@ -59,6 +59,17 @@ Chronological order.
 
 #### 11th of April 2024
 
+[Rho-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965)
+
+- Rho-1: trains LLM with Selective Language Modelling (SLM) with useful tokens (based on loss pattern).
+- The SLM calculates each token loss using reference model and then selectively removes loss of the unwanted tokens.
+- Rho-1 1B and 7B achieve SOTA results at their size.
+
+
+---
+
+
+
 [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
 
 - OSWorld: scalable multimodal agents for Ubuntu/Windows/MacOS to perform open-ended web/desktop tasks.
@@ -71,6 +82,27 @@ Chronological order.
 
 - ODA: LLM with knowledge graph (KGs) using iteratively observation, action and reflection to help solve tasks. 
 - The observation phase uses a global view of the entire KG and selectively picks relevant parts for reasoning.
+
+
+---
+
+[DesignQA: A Multimodal Benchmark for Evaluating Large Language Models' Understanding of Engineering Documentation](https://arxiv.org/abs/2404.07917)
+
+---
+
+[Monte Carlo Tree Search with Boltzmann Exploration](https://arxiv.org/abs/2404.07732)
+
+
+---
+
+[WESE: Weak Exploration to Strong Exploitation for LLM Agents](https://arxiv.org/abs/2404.07456)
+
+
+---
+
+[Behavior Trees Enable Structured Programming of Language Model Agents](https://arxiv.org/abs/2404.07439)
+
+
 
 ---
 
