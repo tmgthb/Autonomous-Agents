@@ -88,6 +88,9 @@ Chronological order.
 
 [DesignQA: A Multimodal Benchmark for Evaluating Large Language Models' Understanding of Engineering Documentation](https://arxiv.org/abs/2404.07917)
 
+- DesignQA-benchmark: Measures VLMs capcity to solve engineering tasks, including CAD images, drawings and engineering requirements. Includes: rule comprehension, rule compliance and rule extraction.
+
+
 ---
 
 [Monte Carlo Tree Search with Boltzmann Exploration](https://arxiv.org/abs/2404.07732)
