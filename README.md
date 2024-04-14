@@ -95,6 +95,9 @@ Chronological order.
 
 [Monte Carlo Tree Search with Boltzmann Exploration](https://arxiv.org/abs/2404.07732)
 
+- Boltzmann Tree Search (BTS): replace soft values with Bellman values in MENTS.
+- Decaying ENtropy Tree Search (DETS): Interpolates between BTS and MENTS.
+
 
 ---
 
