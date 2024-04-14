@@ -97,7 +97,7 @@ Chronological order.
 
 - Boltzmann Tree Search (BTS): replace soft values with Bellman values in MENTS.
 - Decaying ENtropy Tree Search (DETS): Interpolates between BTS and MENTS.
-
+- Alias method samples actions fast and demonstrate high performance in game of Go.
 
 ---
 
