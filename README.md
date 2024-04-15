@@ -59,6 +59,15 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 12th of April 2024
+
+[Enhancing Autonomous Vehicle Training with Language Model Integration and Critical Scenario Generation](https://arxiv.org/abs/2404.08570)
+
+
+
+---
+
+
 #### 11th of April 2024
 
 [Rho-1: Not All Tokens Are What You Need](https://arxiv.org/abs/2404.07965)
