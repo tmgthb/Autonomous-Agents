@@ -34,12 +34,14 @@ Copyright (C) Teemu Maatta.
 
 Autonomous Agents (LLMs). Updated daily
 
-- [Research papers.](#papers)
+- [Research](#papers)
 - [What is an Autonomous Agent?](#what)
+  - [Definitions](#definitions)
+  - [Literature reviews](#literaturereviews)
+  - [Capabilities](#capabilities)
+  - [Benchmarks](#benchmarks)
 - [Why Autonomous Agents work?](#why)
-
-
-
+- [Emerging Frontiers](#emergingfrontiers)
 
 
 
@@ -1155,7 +1157,7 @@ assessment.
 
 ---
 
-[https://arxiv.org/abs/2403.11835](Agent3D-Zero: An Agent for Zero-shot 3D Understanding)
+[Agent3D-Zero: An Agent for Zero-shot 3D Understanding](https://arxiv.org/abs/2403.11835)
 
 - Agent3D-Zero: 3D scene understanding agent with VLM by selecting and analyzing series of viewpoints for 3D understanding. 
 
@@ -2660,7 +2662,8 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 16th of January 2024
 
-[https://arxiv.org/abs/2401.08500](Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering)
+[Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering](https://arxiv.org/abs/2401.08500)
+
 
 - AlphaCodium: Improves code solutions through AI code tests.
 - Iteratively reasons about code tests and reflects problem, generates AI tests to improve testing.
@@ -3279,7 +3282,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 5th of December 2022
 
-[https://arxiv.org/abs/2312.03052](https://arxiv.org/abs/2312.03052)
+
+[Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models](https://arxiv.org/abs/2312.03052)
+
 
 - Answers visual questions by creating programs, that can review the image such as count number of specific types of objects and use tools.
 - Answer is provided with CoT reasoning based on filtered program from many programs executed.
@@ -4019,7 +4024,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 <div id="llmagentsurvey"> </div>
 
-[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/pdf/2309.07864.pdf)
+[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
 
 -  A conceptual framework for LLM-based agents with three components brain, perception, and action.
 
@@ -4101,7 +4106,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 21st of August 2023
 
-[https://arxiv.org/abs/2308.10848](https://arxiv.org/abs/2308.10848)
+[AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors](https://arxiv.org/abs/2308.10848)
 
 - AgentVerse: multi-agent collaborarion and individual agents social bjeaviours.
 
@@ -4424,7 +4429,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Self-Refine: Iterative Refinement with Self-Feedback](https://arxiv.org/abs/2303.17651)
 
 - Self-Refine refers to Iterative refinement with self-feedback: use the LLM to get Feedback to original output, which is passed back to LLM to Refine a new output.
-- The concept is best understood here in the blog by : [https://selfrefine.info/](https://selfrefine.info/) with GIFs and code examples.
+- The concept is best understood here in the blog by : [Self-Refine: Iterative Refinement with Self-Feedback](https://selfrefine.info/) with GIFs and code examples.
 - Improves base-model performance in tasks like math reasoning and code generation. 
 
 
@@ -4698,16 +4703,36 @@ Agent actions impact directly task plans by not requiring environment feedback t
 </div>
 
 
-
-----
-
-
-
-
+---
 
 
 ## What are Autonomous Agents?
 
+- [Definitions](#definitions)
+- [Literature reviews](#literaturereviews)
+- [Capabilities](#capabilities)
+
+
+<div id="definitions">  
+
+</div>
+
+
+
+### Definitions
+
+- [Autonomous Agent](#autonomousagent_definition)
+- [Generalist Agent](#generalistagent_definition)
+- [Reinforcement Learning Agent](#rlagent_definition)
+- [LLM Agent](#llmagent_definition)
+- [Embodied Agent](#embodiedagent_definition)
+- [AI Agent](#aiagent_defintion)
+- [Autonomous Generalist Agent](#aga_definition)
+
+
+<div id="autonomousagent_definition">  
+
+</div>
 
 
 
@@ -4729,6 +4754,12 @@ Negative:
 ---
 
 
+<div id="generalistagent_definition">  
+
+</div>
+
+
+
 ####  Generalist Agent 
 
 [Generalist Agent was defined by Reed et al. in 2022](#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
@@ -4747,6 +4778,13 @@ Negative aspects:
 
 
 ---
+
+<div id="rlagent_definition">  
+
+</div>
+
+
+
 
 #### Reinforcement Learning Agents
 
@@ -4782,6 +4820,14 @@ Negative:
 ---
 
 
+
+<div id="llmagent_definition">  
+
+</div>
+
+
+
+
 #### Language Agents / LLM Agents
 
 [Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
@@ -4797,6 +4843,12 @@ Negative:
 
 
 ---
+
+
+<div id="embodiedagent_definition">  
+
+</div>
+
 
 
 #### Embodied Agents
@@ -4818,6 +4870,11 @@ Negative:
 
 
 ---
+
+
+<div id="aiagent_defintion">  
+
+</div>
 
 
 
@@ -4844,6 +4901,15 @@ Alternative definition uses:
 
 ---
 
+
+
+<div id="aga_definition">  
+
+</div>
+
+
+
+
 ####  Autonomous General Agent 
 
 
@@ -4867,22 +4933,87 @@ Negative:
 - Does not include consciousness.
 
 
+---
 
-[Back to top](#topofthepage)
 
+<div id="literaturereviews">  
 
-<div id="why"> </div>
+</div>
+
+### Literature review 
+
+- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey),
+- [LLM Powered Autonomous Agents](#lili),
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey),
+- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap),
+- [LLMs](#llmsurveymikolov),
+- [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
+- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
+- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
+- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459)
+- [Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
+- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
+- [Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods](https://arxiv.org/abs/2404.00282)
+- [LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models](https://arxiv.org/abs/2404.01230)
+- [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039)
+- [Comprehensible Artificial Intelligence on Knowledge Graphs: A survey](https://arxiv.org/abs/2404.03499)
+- [Graph Reinforcement Learning for Combinatorial Optimization: A Survey and Unifying Perspective](https://arxiv.org/abs/2404.06492)
+- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
+- [Exploring Autonomous Agents through the Lens of Large Language Models: A Review](https://arxiv.org/abs/2404.04442)
+- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
+- [Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
+- [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559)
+- [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
+
 
 
 ---
 
 
 
+
+<div id="capabilities">  
+
+</div>
+
+
+### Capabilities
+
+
+- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
+- Memory(short/long/sensorial/embedding),
+- Roles (teacher/student/etc),
+- Tools (other models/vector DBs/APIs/etc),
+- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
+- Environments (code interpreter/browser/api/RL environment/real world),
+- Embodiments (LLM call/virtual enviroment/robotics/real world) and
+- Autonomity (manual/interactive/fully autonomous).
+
+
+---
+
+
+<div id="why">  
+
+</div>
+
+
 ## Why Autonomous Agents work? 
 
+- [About next sequence prediction](#nextsequenceprediction)
+- [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
+- [World models](#worldmodels)
+- [Resource mind-view](#resourcemind)
+- [Free energy principle](#freeenergyprinciple)
 
+<div id="nextsequenceprediction">  
+
+</div>
 
 ### About predicting next sequence
+
+
+
 
 - LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
 - Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
@@ -4897,6 +5028,11 @@ Negative:
 Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
 
 
+
+<div id="demystifyingemergingabilities">  
+
+</div>
+
 ### Demystifying Emerging Abilities
 
 - [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
@@ -4905,60 +5041,9 @@ Overall, the next sequence prediction is one of the most generic single learning
 Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
 
 
+<div id="worldmodels">  
 
----
-
-### About the context window
-
-- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
-- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
-- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).  The textual context window in LLMs is already beyond human-level capacity text. 
-- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal. As the context window in LLMs increase, the focus will inevitable turn towards managing context window perceived from other modalities such as vision, sound, robots,  etc.
-- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers "a must-read" analysisw on the various dimensions and aspects of the context. For exampple Lenat proposes to think context being a region in some n-dimensional space.
-- Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
-
-Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
-
-
----
-
-
-### Self-Recursive LLMs
-- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
-- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
-- [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
-- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
-- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
-- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
-
----
-
-### Search planning
-- Tree-structures enable searching large reasoning trees for a solution to a complex problem
-- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
-- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
-
-
----
-
-### Synthetic data enables Small Student Models to outperform their Teachers
-- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
-- Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
-
-
----
-
-### Agent-based AI
-- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
-
-
----
-
-### Agents are Resources 
-- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
-- LLM agents prompting enables resource-rich behaviour from LLMs.
-
----
+</div>
 
 ### World Models
 
@@ -4978,10 +5063,120 @@ To the extent that the creature's actions affect the environment, :**this intern
 "A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
 
 
+
+---
+
+<div id="resourcemind">  
+
+</div>
+
+### Agents are Resources 
+
+- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
+- LLM agents prompting enables resource-rich behaviour from LLMs.
+
+---
+
+<div id="freeenergyprinciple">  
+
+</div>
+
+
+### Free energy principle
+
+- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
+- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
+
+
+
+<div id="emergingfrontiers">  
+
+</div>
+
+## Emerging Frontiers 
+
+- [Infite context window](#contextwindow)
+- [Self-Learning / Self-Recursive Improvement](#selflearning)
+- [Search planning](#searchplanning)
+- [Synthetic data](#syntheticdata)
+- [Perception](#perception)
+- [Physical grounding](#physicalgrounding)
+- [Real world](#realworld)
+- [Measuring Intelligence, Conciousness and Intelligent Behaviour](#measuringintelligence)
+
+<div id="contextwindow">  
+
+</div>
+
+
+### Infite context window
+
+- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
+- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
+- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).  The textual context window in LLMs is already beyond human-level capacity text. 
+- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal. As the context window in LLMs increase, the focus will inevitable turn towards managing context window perceived from other modalities such as vision, sound, robots,  etc.
+- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers "a must-read" analysisw on the various dimensions and aspects of the context. For exampple Lenat proposes to think context being a region in some n-dimensional space.
+- Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
+
+Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
+
+Latest research suggest attention can be extended to infite context window in LLMs.
+
+---
+
+### Self-Learning / Self-Recursive Improvement
+
+
+- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
+- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
+- [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
+- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
+- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
+- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
+
+---
+
+
+<div id="searchplanning">  
+
+</div>
+
+### Search Planning
+
+- Tree-structures enable searching large reasoning trees for a solution to a complex problem
+- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
+
+
+---
+
+### Synthetic data
+
+- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
+- Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
+
+
+---
+
+### Physical grounding
+
+- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
+
+
+### Real world
+
+
 ----
 
 
-### About Intelligence
+### Measuring Intelligence, Conciousness and Intelligent Behaviour
+
+- [Measuring Human Intelligence](#human_intelligence)
+- [Measuring Artificial General Intelligence](#agi_intelligence)
+- [Measuring Artificial Super Intelligence](#asi_intelligence)
+- [Measuring Conciousness](#conciousness)
+
+
 
 #### Artificial General Intelligence (AGI):
 
@@ -5020,30 +5215,8 @@ I add in this section definitions, experiments and thoughts of researchers on th
 
 ---
 
-### Free energy principle
 
-- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
-- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
-
-  
----
-
-## Related work
-
-- Overviews: [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey), [LLM Powered Autonomous Agents](#lili) and [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey) and [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap) and simply about [LLMs](#llmsurveymikolov)
-- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
-- Memory(short/long/sensorial/embedding),
-- Roles (teacher/student/etc),
-- Tools (other models/vector DBs/APIs/etc),
-- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
-- Environments (code interpreter/browser/api/RL environment/real world),
-- Embodiments (LLM call/virtual enviroment/robotics/real world) and
-- Autonomity (manual/interactive/fully autonomous).
-
-
----
-
-#### About intelligent behaviour
+#### Intelligent behaviour
 
 - Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
 
@@ -5052,10 +5225,8 @@ I add in this section definitions, experiments and thoughts of researchers on th
   - Persistent memory,
   - The ability to reason and plan.
 
-
-[Back to top](#topofthepage)
-
 ---
+
 
 
 ## Citation
