@@ -15,7 +15,7 @@ Copyright (C) Teemu Maatta.
 
 
 <p align="center">
-  <img height="250" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_agents_repository_logo_type.png" alt="Autonomous Agents">
+  <img height="150" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_agents_repository_logo_type.png" alt="Autonomous Agents">
 </p>
 
 
