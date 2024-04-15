@@ -61,6 +61,16 @@ Chronological order.
 
 #### 12th of April 2024
 
+
+[Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery](https://arxiv.org/abs/2404.08511)
+
+
+---
+
+[Augmenting Knowledge Graph Hierarchies Using Neural Transformers](https://arxiv.org/abs/2404.08020)
+
+---
+
 [Enhancing Autonomous Vehicle Training with Language Model Integration and Critical Scenario Generation](https://arxiv.org/abs/2404.08570)
 
 
@@ -68,6 +78,19 @@ Chronological order.
 
 [LLM Agents can Autonomously Exploit One-day Vulnerabilities](https://arxiv.org/abs/2404.08144)
 
+
+---
+
+[Memory Traces: Are Transformers Tulving Machines?](https://arxiv.org/abs/2404.08543)
+
+---
+
+[Study of Emotion Concept Formation by Integrating Vision, Physiology, and Word Information using Multilayered Multimodal Latent Dirichlet Allocation](https://arxiv.org/abs/2404.08295)
+
+
+---
+
+[
 
 ---
 
