@@ -64,6 +64,10 @@ Chronological order.
 [Enhancing Autonomous Vehicle Training with Language Model Integration and Critical Scenario Generation](https://arxiv.org/abs/2404.08570)
 
 
+---
+
+[LLM Agents can Autonomously Exploit One-day Vulnerabilities](https://arxiv.org/abs/2404.08144)
+
 
 ---
 
