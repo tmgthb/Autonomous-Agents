@@ -67,49 +67,10 @@ Chronological order.
 
 ---
 
-
 [ChatShop: Interactive Information Seeking with Language Agents](https://arxiv.org/abs/2404.09911)
 
 
 ---
-
-
-[Interactive Generative AI Agents for Satellite Networks through a Mixture of Experts Transmission](https://arxiv.org/abs/2404.09134)
-
-
----
-
-[Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation](https://arxiv.org/abs/2404.09127)
-
-
----
-
-[CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge Graph Prompting](https://arxiv.org/abs/2404.09077)
-
-
----
-
-[CodeCloak: A Method for Evaluating and Mitigating Code Leakage by LLM Code Assistants](https://arxiv.org/abs/2404.09066)
-
-
----
-
-["Don't forget to put the milk back!" Dataset for Enabling Embodied Agents to Detect Anomalous Situations](https://arxiv.org/abs/2404.08827)
-
-
----
-
-[Do LLMs Play Dice? Exploring Probability Distribution Sampling in Large Language Models for Behavioral Simulation](https://arxiv.org/abs/2404.09043)
-
-
----
-
-[Generative AI Agent for Next-Generation MIMO Design: Fundamentals, Challenges, and Vision](https://arxiv.org/abs/2404.08878)
-
-
-
----
-
 
 [A Survey on Deep Learning for Theorem Proving](https://arxiv.org/abs/2404.09939)
 
@@ -179,89 +140,67 @@ Chronological order.
 [Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/abs/2404.09941)
 
 
-
 ---
 
 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937)
 
 
-
 ---
-
 
 [Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/abs/2404.09932)
 
 
-
 ---
-
 
 [Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval](https://arxiv.org/abs/2404.09889)
 
 
-
 ---
-
 
 [Empowering Embodied Visual Tracking with Visual Foundation Models and Offline RL](https://arxiv.org/abs/2404.09857)
 
 
-
 ---
-
 
 [Video2Game: Real-time, Interactive, Realistic and Browser-Compatible Environment from a Single Video](https://arxiv.org/abs/2404.09833)
 
 
-
 ---
-
 
 [KG-CTG: Citation Generation through Knowledge Graph-guided Large Language Models](https://arxiv.org/abs/2404.09763)
 
 
-
 ---
-
 
 [Effective Reinforcement Learning Based on Structural Information Principles](https://arxiv.org/abs/2404.09760)
 
 
-
 ---
-
 
 [Unveiling Imitation Learning: Exploring the Impact of Data Falsity to Large Language Model](https://arxiv.org/abs/2404.09717)
 
 
-
 ---
-
 
 [Higher Replay Ratio Empowers Sample-Efficient Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2404.09715)
 
 
-
 ---
-
 
 [Are Large Language Models Reliable Argument Quality Annotators?](https://arxiv.org/abs/2404.09696)
 
 
 ---
 
-
 [LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models](https://arxiv.org/abs/2404.09695)
 
 
 ---
 
-
 [Harnessing GPT-4V(ision) for Insurance: A Preliminary Exploration](https://arxiv.org/abs/2404.09690)
 
 
 ---
-
 
 [Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation](https://arxiv.org/abs/2404.09682)
 
@@ -274,68 +213,62 @@ Chronological order.
 
 ---
 
-
 [Efficient and accurate neural field reconstruction using resistive memory](https://arxiv.org/abs/2404.09613)
 
 
 ---
 
-
 [A Self-feedback Knowledge Elicitation Approach for Chemical Reaction Predictions](https://arxiv.org/abs/2404.09606)
 
----
 
+---
 
 [Building Semantic Communication System via Molecules: An End-to-End Training Approach](https://arxiv.org/abs/2404.09595)
 
----
 
+---
 
 [σ-GPTs: A New Approach to Autoregressive Models](https://arxiv.org/abs/2404.09562)
 
----
 
+---
 
 [Characterization and Mitigation of Insufficiencies in Automated Driving Systems](https://arxiv.org/abs/2404.09557)
 
----
 
+---
 
 [Inferring Behavior-Specific Context Improves Zero-Shot Generalization in Reinforcement Learning](https://arxiv.org/abs/2404.09521)
 
----
 
+---
 
 [State Space Model for New-Generation Network Alternative to Transformers: A Survey](https://arxiv.org/abs/2404.09516)
 
----
 
+---
 
 [PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI](https://arxiv.org/abs/2404.09465)
 
----
 
+---
 
 [Exploring Text-to-Motion Generation with Human Preference](https://arxiv.org/abs/2404.09445)
 
 
 ---
 
-
 [The 8th AI City Challenge](https://arxiv.org/abs/2404.09432)
 
 
 ---
-
 
 [RankCLIP: Ranking-Consistent Language-Image Pretraining](https://arxiv.org/abs/2404.09387)
 
 
 ---
 
-
 [Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384)
-
 
 
 ---
@@ -344,48 +277,53 @@ Chronological order.
 
 #### 14th of April 2024
 
-[TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173)
 
+[TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173)
 
 - Unlimited context window 
 
+
 ---
 
+[Interactive Generative AI Agents for Satellite Networks through a Mixture of Experts Transmission](https://arxiv.org/abs/2404.09134)
+
+
+---
+
+[Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation](https://arxiv.org/abs/2404.09127)
+
+
+---
 
 [LLeMpower: Understanding Disparities in the Control and Access of Large Language Models](https://arxiv.org/abs/2404.09356)
 
 
 ---
 
-
 [Towards Practical Tool Usage for Continually Learning LLMs](https://arxiv.org/abs/2404.09339)
 
 
 ---
-
 
 [Self-Selected Attention Span for Accelerating Large Language Model Inference](https://arxiv.org/abs/2404.09336)
 
 
 ---
 
-
 [SNN4Agents: A Framework for Developing Energy-Efficient Embodied Spiking Neural Networks for Autonomous Agents](https://arxiv.org/abs/2404.09331)
 
 
 ---
 
-
 [Text-to-Song: Towards Controllable Music Generation Incorporating Vocals and Accompaniment](https://arxiv.org/abs/2404.09313)
 
 
-
+---
 
 [TrafficVLM: A Controllable Visual Language Model for Traffic Video Captioning](https://arxiv.org/abs/2404.09275)
 
 
 ---
-
 
 [Task-Driven Exploration: Decoupling and Inter-Task Feedback for Joint Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2404.09263)
 
@@ -411,7 +349,6 @@ Chronological order.
 
 
 ---
-
 
 [Survey on Embedding Models for Knowledge Graph and its Applications](https://arxiv.org/abs/2404.09167)
 
@@ -446,7 +383,30 @@ Chronological order.
 
 #### 13th of April 2024
 
+["Don't forget to put the milk back!" Dataset for Enabling Embodied Agents to Detect Anomalous Situations](https://arxiv.org/abs/2404.08827)
 
+
+---
+
+[Do LLMs Play Dice? Exploring Probability Distribution Sampling in Large Language Models for Behavioral Simulation](https://arxiv.org/abs/2404.09043)
+
+
+---
+
+[Generative AI Agent for Next-Generation MIMO Design: Fundamentals, Challenges, and Vision](https://arxiv.org/abs/2404.08878)
+
+
+---
+
+[CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge Graph Prompting](https://arxiv.org/abs/2404.09077)
+
+
+---
+
+[CodeCloak: A Method for Evaluating and Mitigating Code Leakage by LLM Code Assistants](https://arxiv.org/abs/2404.09066)
+
+
+---
 
 [Exploring Explainability in Video Action Recognition](https://arxiv.org/abs/2404.09067)
 
@@ -472,7 +432,6 @@ Chronological order.
 
 
 ---
-
 
 [Understanding Multimodal Deep Neural Networks: A Concept Selection View](https://arxiv.org/abs/2404.08964)
 
@@ -503,13 +462,13 @@ Chronological order.
 
 ---
 
-
 [Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery](https://arxiv.org/abs/2404.08511)
 
 
 ---
 
 [Augmenting Knowledge Graph Hierarchies Using Neural Transformers](https://arxiv.org/abs/2404.08020)
+
 
 ---
 
@@ -525,6 +484,7 @@ Chronological order.
 
 [Memory Traces: Are Transformers Tulving Machines?](https://arxiv.org/abs/2404.08543)
 
+
 ---
 
 [Study of Emotion Concept Formation by Integrating Vision, Physiology, and Word Information using Multilayered Multimodal Latent Dirichlet Allocation](https://arxiv.org/abs/2404.08295)
@@ -539,19 +499,22 @@ Chronological order.
 
 [SQBC: Active Learning using LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions](https://arxiv.org/abs/2404.08078)
 
----
 
+---
 
 [Training a Vision Language Model as Smartphone Assistant](https://arxiv.org/abs/2404.08755)
 
+
 ---
 
-
 [Apollonion: Profile-centric Dialog Agent](https://arxiv.org/abs/2404.08692)
+
+
 
 ---
 
 [Strategic Interactions between Large Language Models-based Agents in Beauty Contests](https://arxiv.org/abs/2404.08492)
+
 
 ---
 
