@@ -59,6 +59,440 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+
+#### 15th of April 2024
+
+[Memory Sharing for Large Language Model based Agents](https://arxiv.org/abs/2404.09982)
+
+
+---
+
+
+[ChatShop: Interactive Information Seeking with Language Agents](https://arxiv.org/abs/2404.09911)
+
+
+---
+
+
+[Interactive Generative AI Agents for Satellite Networks through a Mixture of Experts Transmission](https://arxiv.org/abs/2404.09134)
+
+
+---
+
+[Confidence Calibration and Rationalization for LLMs via Multi-Agent Deliberation](https://arxiv.org/abs/2404.09127)
+
+
+---
+
+[CuriousLLM: Elevating Multi-Document QA with Reasoning-Infused Knowledge Graph Prompting](https://arxiv.org/abs/2404.09077)
+
+
+---
+
+[CodeCloak: A Method for Evaluating and Mitigating Code Leakage by LLM Code Assistants](https://arxiv.org/abs/2404.09066)
+
+
+---
+
+["Don't forget to put the milk back!" Dataset for Enabling Embodied Agents to Detect Anomalous Situations](https://arxiv.org/abs/2404.08827)
+
+
+---
+
+[Do LLMs Play Dice? Exploring Probability Distribution Sampling in Large Language Models for Behavioral Simulation](https://arxiv.org/abs/2404.09043)
+
+
+---
+
+[Generative AI Agent for Next-Generation MIMO Design: Fundamentals, Challenges, and Vision](https://arxiv.org/abs/2404.08878)
+
+
+
+---
+
+
+[A Survey on Deep Learning for Theorem Proving](https://arxiv.org/abs/2404.09939)
+
+
+---
+
+[Progressive Knowledge Graph Completion](https://arxiv.org/abs/2404.09897)
+
+
+---
+
+[Synergising Human-like Responses and Machine Intelligence for Planning in Disaster Response](https://arxiv.org/abs/2404.09877)
+
+
+---
+
+[HyperMono: A Monotonicity-aware Approach to Hyper-Relational Knowledge Representation](https://arxiv.org/abs/2404.09848)
+
+
+---
+
+[Action Model Learning with Guarantees](https://arxiv.org/abs/2404.09631)
+
+
+---
+
+[Explainable Generative AI (GenXAI): A Survey, Conceptualization, and Research Agenda](https://arxiv.org/abs/2404.09554)
+
+
+---
+
+[MyGO: Discrete Modality Information as Fine-Grained Tokens for Multi-modal Knowledge Graph Completion](https://arxiv.org/abs/2404.09468)
+
+
+---
+
+[Monte Carlo Search Algorithms Discovering Monte Carlo Tree Search Exploration Terms](https://arxiv.org/abs/2404.09304)
+
+
+---
+
+[Assessing Economic Viability: A Comparative Analysis of Total Cost of Ownership for Domain-Adapted Large Language Models versus State-of-the-art Counterparts in Chip Design Coding Assistance](https://arxiv.org/abs/2404.08850)
+
+
+---
+
+[Handling Reward Misspecification in the Presence of Expectation Mismatch](https://arxiv.org/abs/2404.08791)
+
+
+---
+
+[Generating Games via LLMs: An Investigation with Video Game Description Language](https://arxiv.org/abs/2404.08706)
+
+
+---
+
+[MMInA: Benchmarking Multihop Multimodal Internet Agents](https://arxiv.org/abs/2404.09992)
+
+
+---
+
+[Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/abs/2404.09941)
+
+
+---
+
+[Evolving Interpretable Visual Classifiers with Large Language Models](https://arxiv.org/abs/2404.09941)
+
+
+
+---
+
+[Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937)
+
+
+
+---
+
+
+[Foundational Challenges in Assuring Alignment and Safety of Large Language Models](https://arxiv.org/abs/2404.09932)
+
+
+
+---
+
+
+[Is Table Retrieval a Solved Problem? Join-Aware Multi-Table Retrieval](https://arxiv.org/abs/2404.09889)
+
+
+
+---
+
+
+[Empowering Embodied Visual Tracking with Visual Foundation Models and Offline RL](https://arxiv.org/abs/2404.09857)
+
+
+
+---
+
+
+[Video2Game: Real-time, Interactive, Realistic and Browser-Compatible Environment from a Single Video](https://arxiv.org/abs/2404.09833)
+
+
+
+---
+
+
+[KG-CTG: Citation Generation through Knowledge Graph-guided Large Language Models](https://arxiv.org/abs/2404.09763)
+
+
+
+---
+
+
+[Effective Reinforcement Learning Based on Structural Information Principles](https://arxiv.org/abs/2404.09760)
+
+
+
+---
+
+
+[Unveiling Imitation Learning: Exploring the Impact of Data Falsity to Large Language Model](https://arxiv.org/abs/2404.09717)
+
+
+
+---
+
+
+[Higher Replay Ratio Empowers Sample-Efficient Multi-Agent Reinforcement Learning](https://arxiv.org/abs/2404.09715)
+
+
+
+---
+
+
+[Are Large Language Models Reliable Argument Quality Annotators?](https://arxiv.org/abs/2404.09696)
+
+
+---
+
+
+[LoRAP: Transformer Sub-Layers Deserve Differentiated Structured Compression for Large Language Models](https://arxiv.org/abs/2404.09695)
+
+
+---
+
+
+[Harnessing GPT-4V(ision) for Insurance: A Preliminary Exploration](https://arxiv.org/abs/2404.09690)
+
+
+---
+
+
+[Multi-News+: Cost-efficient Dataset Cleansing via LLM-based Data Annotation](https://arxiv.org/abs/2404.09682)
+
+
+---
+
+
+[All-in-one simulation-based inference](https://arxiv.org/abs/2404.09636)
+
+
+---
+
+
+[Efficient and accurate neural field reconstruction using resistive memory](https://arxiv.org/abs/2404.09613)
+
+
+---
+
+
+[A Self-feedback Knowledge Elicitation Approach for Chemical Reaction Predictions](https://arxiv.org/abs/2404.09606)
+
+---
+
+
+[Building Semantic Communication System via Molecules: An End-to-End Training Approach](https://arxiv.org/abs/2404.09595)
+
+---
+
+
+[σ-GPTs: A New Approach to Autoregressive Models](https://arxiv.org/abs/2404.09562)
+
+---
+
+
+[Characterization and Mitigation of Insufficiencies in Automated Driving Systems](https://arxiv.org/abs/2404.09557)
+
+---
+
+
+[Inferring Behavior-Specific Context Improves Zero-Shot Generalization in Reinforcement Learning](https://arxiv.org/abs/2404.09521)
+
+---
+
+
+[State Space Model for New-Generation Network Alternative to Transformers: A Survey](https://arxiv.org/abs/2404.09516)
+
+---
+
+
+[PhyScene: Physically Interactable 3D Scene Synthesis for Embodied AI](https://arxiv.org/abs/2404.09465)
+
+---
+
+
+[Exploring Text-to-Motion Generation with Human Preference](https://arxiv.org/abs/2404.09445)
+
+
+---
+
+
+[The 8th AI City Challenge](https://arxiv.org/abs/2404.09432)
+
+
+---
+
+
+[RankCLIP: Ranking-Consistent Language-Image Pretraining](https://arxiv.org/abs/2404.09387)
+
+
+---
+
+
+[Tasks People Prompt: A Taxonomy of LLM Downstream Tasks in Software Verification and Falsification Approaches](https://arxiv.org/abs/2404.09384)
+
+
+
+---
+
+
+
+#### 14th of April 2024
+
+[TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173)
+
+
+- Unlimited context window 
+
+---
+
+
+[LLeMpower: Understanding Disparities in the Control and Access of Large Language Models](https://arxiv.org/abs/2404.09356)
+
+
+---
+
+
+[Towards Practical Tool Usage for Continually Learning LLMs](https://arxiv.org/abs/2404.09339)
+
+
+---
+
+
+[Self-Selected Attention Span for Accelerating Large Language Model Inference](https://arxiv.org/abs/2404.09336)
+
+
+---
+
+
+[SNN4Agents: A Framework for Developing Energy-Efficient Embodied Spiking Neural Networks for Autonomous Agents](https://arxiv.org/abs/2404.09331)
+
+
+---
+
+
+[Text-to-Song: Towards Controllable Music Generation Incorporating Vocals and Accompaniment](https://arxiv.org/abs/2404.09313)
+
+
+
+
+[TrafficVLM: A Controllable Visual Language Model for Traffic Video Captioning](https://arxiv.org/abs/2404.09275)
+
+
+---
+
+
+[Task-Driven Exploration: Decoupling and Inter-Task Feedback for Joint Moment Retrieval and Highlight Detection](https://arxiv.org/abs/2404.09263)
+
+
+---
+
+[Knowledgeable Agents by Offline Reinforcement Learning from Large Language Model Rollouts](https://arxiv.org/abs/2404.09248)
+
+
+---
+
+[Towards Fast Inference: Exploring and Improving Blockwise Parallel Drafts](https://arxiv.org/abs/2404.09221)
+
+
+---
+
+[TextHawk: Exploring Efficient Fine-Grained Perception of Multimodal Large Language Models](https://arxiv.org/abs/2404.09204)
+
+
+---
+
+[Prior-agnostic Multi-scale Contrastive Text-Audio Pre-training for Parallelized TTS Frontend Modeling](https://arxiv.org/abs/2404.09192)
+
+
+---
+
+
+[Survey on Embedding Models for Knowledge Graph and its Applications](https://arxiv.org/abs/2404.09167)
+
+
+---
+
+[GeMQuAD : Generating Multilingual Question Answering Datasets from Large Language Models using Few Shot Learning](https://arxiv.org/abs/2404.09163)
+
+
+---
+
+[Fusion-Mamba for Cross-modality Object Detection](https://arxiv.org/abs/2404.09146)
+
+
+---
+
+[ToNER: Type-oriented Named Entity Recognition with Generative Language Model](https://arxiv.org/abs/2404.09145)
+
+
+---
+
+[Provable Interactive Learning with Hindsight Instruction Feedback](https://arxiv.org/abs/2404.09123)
+
+
+---
+
+[Semantic In-Domain Product Identification for Search Queries](https://arxiv.org/abs/2404.09091)
+
+
+---
+
+
+#### 13th of April 2024
+
+
+
+[Exploring Explainability in Video Action Recognition](https://arxiv.org/abs/2404.09067)
+
+
+---
+
+[Adapting Mental Health Prediction Tasks for Cross-lingual Learning via Meta-Training and In-context Learning with Large Language Model](https://arxiv.org/abs/2404.09045)
+
+
+---
+
+[Navigating the Landscape of Large Language Models: A Comprehensive Review and Analysis of Paradigms and Fine-Tuning Strategies](https://arxiv.org/abs/2404.09022)
+
+
+---
+
+[Smart Help: Strategic Opponent Modeling for Proactive and Adaptive Robot Assistance in Households](https://arxiv.org/abs/2404.09001)
+
+
+---
+
+[Intuition-aware Mixture-of-Rank-1-Experts for Parameter Efficient Finetuning](https://arxiv.org/abs/2404.08985)
+
+
+---
+
+
+[Understanding Multimodal Deep Neural Networks: A Concept Selection View](https://arxiv.org/abs/2404.08964)
+
+
+---
+
+[EIVEN: Efficient Implicit Attribute Value Extraction using Multimodal LLM](https://arxiv.org/abs/2404.08886)
+
+
+---
+
+[An evaluation framework for synthetic data generation models](https://arxiv.org/abs/2404.08866)
+
+
+---
+
+[On Speculative Decoding for Multimodal Large Language Models](https://arxiv.org/abs/2404.08856)
+
+
+
 #### 12th of April 2024
 
 
@@ -98,7 +532,31 @@ Chronological order.
 
 ---
 
-[
+[Inverse Kinematics for Neuro-Robotic Grasping with Humanoid Embodied Agents](https://arxiv.org/abs/2404.08825)
+
+
+---
+
+[SQBC: Active Learning using LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions](https://arxiv.org/abs/2404.08078)
+
+---
+
+
+[Training a Vision Language Model as Smartphone Assistant](https://arxiv.org/abs/2404.08755)
+
+---
+
+
+[Apollonion: Profile-centric Dialog Agent](https://arxiv.org/abs/2404.08692)
+
+---
+
+[Strategic Interactions between Large Language Models-based Agents in Beauty Contests](https://arxiv.org/abs/2404.08492)
+
+---
+
+[Enhancing Autonomous Vehicle Training with Language Model Integration and Critical Scenario Generation](https://arxiv.org/abs/2404.08570)
+
 
 ---
 
@@ -3482,7 +3940,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Includes supervisor module, Deep Reinforcement Learning module, Attention Schema (long-term memory), Language/Auditory/Vision modules and Embedding store.
 
 
-----
+---
 
 
 #### 9th of November 2023
@@ -4782,6 +5240,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### Autonomous Agent
 
+
 Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
 
 
@@ -4803,8 +5262,8 @@ Negative:
 </div>
 
 
-
 ####  Generalist Agent 
+
 
 [Generalist Agent was defined by Reed et al. in 2022](#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
 
@@ -4831,7 +5290,6 @@ Negative aspects:
 
 
 #### Reinforcement Learning Agents
-
 
 
 [Reinfoceement Learning Agent](http://www.incompleteideas.net/papers/barto-sutton-97.pdf) was defined by Sutton & and Barto (1997): 
@@ -4874,6 +5332,7 @@ Negative:
 
 #### Language Agents / LLM Agents
 
+
 [Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
 
 Positive:
@@ -4896,6 +5355,7 @@ Negative:
 
 
 #### Embodied Agents
+
 
 Embodied agent-term was used by Brook (1991) in the ["The Role of Learning in Autonomous Robots"(1991)](https://people.csail.mit.edu/brooks/papers/colt.pdf) and Brooks (1991) defined Embodiment in the AI within the  ["Intelligence without reason"](https://people.csail.mit.edu/brooks/papers/AIM-1293.pdf) and in the book: ["New approaches to Intelligence"](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9e1ef9e0a9de1d1c5e36d1a4c735da2fa313c563):
 
@@ -4984,7 +5444,12 @@ Negative:
 
 </div>
 
-### Literature review 
+
+---
+
+
+### Literature reviews
+
 
 - [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey),
 - [LLM Powered Autonomous Agents](#lili),
@@ -5011,14 +5476,12 @@ Negative:
 
 
 
----
-
-
-
-
 <div id="capabilities">  
 
 </div>
+
+
+---
 
 
 ### Capabilities
@@ -5042,7 +5505,11 @@ Negative:
 </div>
 
 
+---
+
+
 ## Why Autonomous Agents work? 
+
 
 - [About next sequence prediction](#nextsequenceprediction)
 - [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
@@ -5050,13 +5517,15 @@ Negative:
 - [Resource mind-view](#resourcemind)
 - [Free energy principle](#freeenergyprinciple)
 
+
 <div id="nextsequenceprediction">  
 
 </div>
 
+---
+
+
 ### About predicting next sequence
-
-
 
 
 - LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
@@ -5077,7 +5546,12 @@ Overall, the next sequence prediction is one of the most generic single learning
 
 </div>
 
+
+---
+
+
 ### Demystifying Emerging Abilities
+
 
 - [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
 - Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
@@ -5088,6 +5562,7 @@ Overall, emerging abilities have increased so far contiuously as compute is scal
 <div id="worldmodels">  
 
 </div>
+
 
 ### World Models
 
@@ -5110,16 +5585,21 @@ To the extent that the creature's actions affect the environment, :**this intern
 
 ---
 
+
 <div id="resourcemind">  
 
 </div>
 
+
 ### Agents are Resources 
+
 
 - As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
 - LLM agents prompting enables resource-rich behaviour from LLMs.
 
+
 ---
+
 
 <div id="freeenergyprinciple">  
 
@@ -5128,16 +5608,17 @@ To the extent that the creature's actions affect the environment, :**this intern
 
 ### Free energy principle
 
+
 - Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
 - In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
 
 
 
-<div id="emergingfrontiers">  
+<div id="emergingfrontiers">  </div>
 
-</div>
 
 ## Emerging Frontiers 
+
 
 - [Infite context window](#contextwindow)
 - [Self-Learning / Self-Recursive Improvement](#selflearning)
@@ -5145,15 +5626,14 @@ To the extent that the creature's actions affect the environment, :**this intern
 - [Synthetic data](#syntheticdata)
 - [Perception](#perception)
 - [Physical grounding](#physicalgrounding)
-- [Real world](#realworld)
 - [Measuring Intelligence, Conciousness and Intelligent Behaviour](#measuringintelligence)
 
-<div id="contextwindow">  
 
-</div>
+<div id="contextwindow">  </div>
 
 
 ### Infite context window
+
 
 - Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
 - The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
@@ -5166,7 +5646,9 @@ Overall, context is n-dimensional space, including text-dimension already in LLM
 
 Latest research suggest attention can be extended to infite context window in LLMs.
 
+
 ---
+
 
 ### Self-Learning / Self-Recursive Improvement
 
@@ -5178,6 +5660,7 @@ Latest research suggest attention can be extended to infite context window in LL
 - [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
 - LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
+
 ---
 
 
@@ -5185,7 +5668,9 @@ Latest research suggest attention can be extended to infite context window in LL
 
 </div>
 
+
 ### Search Planning
+
 
 - Tree-structures enable searching large reasoning trees for a solution to a complex problem
 - [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
@@ -5194,7 +5679,9 @@ Latest research suggest attention can be extended to infite context window in LL
 
 ---
 
+
 ### Synthetic data
+
 
 - The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
 - Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
@@ -5202,18 +5689,18 @@ Latest research suggest attention can be extended to infite context window in LL
 
 ---
 
-### Physical grounding
+
+### Physical grounding in real world
+
 
 - [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
 
 
-### Real world
-
-
-----
+---
 
 
 ### Measuring Intelligence, Conciousness and Intelligent Behaviour
+
 
 - [Measuring Human Intelligence](#human_intelligence)
 - [Measuring Artificial General Intelligence](#agi_intelligence)
@@ -5221,8 +5708,11 @@ Latest research suggest attention can be extended to infite context window in LL
 - [Measuring Conciousness](#conciousness)
 
 
+---
+
 
 #### Artificial General Intelligence (AGI):
+
 
 - Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
 - GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
@@ -5231,16 +5721,21 @@ Latest research suggest attention can be extended to infite context window in LL
   
 ---
 
+
 #### Artificial Super Intelligence (ASI):
+
 
 ASI concept seems vague, because current AI systems are not generally more capable across all tasks. 
 
 - [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
 
 
+
 ---
 
+
 #### Consciousness
+
 
 I add in this section definitions, experiments and thoughts of researchers on the controversial subject of consciousness.
 
@@ -5257,10 +5752,12 @@ I add in this section definitions, experiments and thoughts of researchers on th
 - AI Consciousness test.
 
 
+
 ---
 
 
 #### Intelligent behaviour
+
 
 - Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
 
@@ -5268,6 +5765,8 @@ I add in this section definitions, experiments and thoughts of researchers on th
   - The ability to remember and retrieve things,
   - Persistent memory,
   - The ability to reason and plan.
+
+
 
 ---
 
