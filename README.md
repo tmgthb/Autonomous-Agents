@@ -64,6 +64,7 @@ Chronological order.
 
 [Memory Sharing for Large Language Model based Agents](https://arxiv.org/abs/2404.09982)
 
+- Memory-Sharing (MS)-framework: Multi LLM-agents use real-time memory retrieval, which stores both the query and real-time response and shared between the agents. Improves In-Context Learning.
 
 ---
 
