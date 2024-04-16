@@ -62,6 +62,14 @@ Chronological order.
 #### 12th of April 2024
 
 
+[Megalodon: Efficient LLM Pretraining and Inference with Unlimited Context Length](https://arxiv.org/abs/2404.08801)
+
+- Megalodon: Inlimited contrxt length
+
+
+---
+
+
 [Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery](https://arxiv.org/abs/2404.08511)
 
 
