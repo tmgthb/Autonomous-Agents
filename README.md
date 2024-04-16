@@ -283,6 +283,15 @@ Chronological order.
 #### 14th of April 2024
 
 
+[Self-Selected Attention Span for Accelerating Large Language Model Inference](https://arxiv.org/abs/2404.09336)
+
+- Fine-tunes LLM to self-identify minimal attention span in each step of the task.
+- Speeds up inference 28% by dynamically adjusting self-attention.
+- Allows LLMs to autonoumsly optimize computation.
+
+
+---
+
 [TransformerFAM: Feedback attention is working memory](https://arxiv.org/abs/2404.09173)
 
 - Unlimited context window 
@@ -306,11 +315,6 @@ Chronological order.
 ---
 
 [Towards Practical Tool Usage for Continually Learning LLMs](https://arxiv.org/abs/2404.09339)
-
-
----
-
-[Self-Selected Attention Span for Accelerating Large Language Model Inference](https://arxiv.org/abs/2404.09336)
 
 
 ---
