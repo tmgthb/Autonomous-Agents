@@ -64,9 +64,10 @@ Chronological order.
 
 [Memory Sharing for Large Language Model based Agents](https://arxiv.org/abs/2404.09982)
 
-- Memory-Sharing (MS)-framework: Multi LLM-agents share Memory Pool of query/response pairs, which improves In-Context Learning.
+- Memory-Sharing (MS)-framework: Multi LLM-agents share Memory Pool of query/response pairs, which improves In-Context Learning. Retriever-model is trained to retrieve memories based on user query.
 - LLM agent answers based on query and retrieved memories. Scorer evaluates query / response. High scoring pairs are added to the Memory Pool, which is queried with cosine similarity.
 - The shared memory helps all agents to learn from each other.
+- The Retriever model is trained using pre-trained sentence similarity model, which retrieves data from jsonl-file to train a model and it is later used to pick relevant memories for each user query.
 
 
 ---
