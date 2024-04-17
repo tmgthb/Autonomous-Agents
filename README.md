@@ -131,7 +131,7 @@ Chronological order.
 
 [Bootstrapping Linear Models for Fast Online Adaptation in Human-Agent Collaboration](https://arxiv.org/abs/2404.10733)
 
--
+- BLR-HAC (Bootstrapped Logistic Regression for Human Agent Collaboration): pretrains transformer to generate parameters of a shallow parametrized policy. Update it using human-agent collaboration with online logistic regression.
 
 
 ---
