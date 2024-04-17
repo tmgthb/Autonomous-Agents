@@ -186,13 +186,6 @@ Chronological order.
 
 ---
 
-[Can AI Understand Our Universe? Test of Fine-Tuning GPT by Astrophysical Data](https://arxiv.org/abs/2404.10019)
-
--
-
-
----
-
 [Emergent Language Symbolic Autoencoder (ELSA) with Weak Supervision to Model Hierarchical Brain Networks](https://arxiv.org/abs/2404.10031)
 
 -
