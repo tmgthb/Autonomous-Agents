@@ -110,7 +110,7 @@ Chronological order.
 
 [Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases](https://arxiv.org/abs/2404.10595)
 
--
+- CODA-LM: Vision-Language benchmark for autonomous driving.
 
 
 ---
