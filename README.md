@@ -88,7 +88,7 @@ Chronological order.
 [N-Agent Ad Hoc Teamwork](https://arxiv.org/abs/2404.10740)
 
 - N-Agent ad-hoc Team work (NAHT): various  number and and unknown autonomous agents interact and cooperate dynamically to maximize return in a task. 
-- Policy Optimization with Agent Modelling (POAM)-algorithm: each agent has its policy based on same underlining parameters. Critic is trained using information both from controlled and uncontrolled agents, while actor is trained using only controlled agents. Critic evaluates how good actions are at current status, while Actor decides the action to be taken at the status.
+- Policy Optimization with Agent Modelling (POAM)-algorithm: each agent has its policy based on same underlining parameters. Critic is trained using information both from controlled and uncontrolled agents, while actor is trained using only controlled agents. Critic evaluates how good actions are at current status, while Actor decides the action to be taken at the status. Both actor and critic use team vector to capture information from all agents.
 
 ---
 
