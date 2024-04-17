@@ -145,8 +145,7 @@ Chronological order.
 
 [Private Attribute Inference from Images with Vision-Language Models](https://arxiv.org/abs/2404.10618)
 
--
-
+- VLMs identify personal attributes of the image owners, which may cause privacy risk when misused. 
 
 ---
 
