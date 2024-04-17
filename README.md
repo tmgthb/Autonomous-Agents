@@ -158,9 +158,16 @@ Chronological order.
 
 ---
 
+[Chinchilla Scaling: A replication attempt](https://arxiv.org/abs/2404.10102)
+
+- Finds Chinchilla-scaling laws inconsistent.
+
+
+---
+
 [TEL'M: Test and Evaluation of Language Models](https://arxiv.org/abs/2404.10200)
 
--
+- TEL’M (Test and Evaluation of Language Models): five evaluations Identification of interesting LLM tasks, Identification of Task properties of interest, Identification of task property metrics, Design of measurement experiments, Execution and analysis of experiments.
 
 
 ---
@@ -170,12 +177,6 @@ Chronological order.
 
 ---
 
-[Chinchilla Scaling: A replication attempt](https://arxiv.org/abs/2404.10102)
-
--
-
-
----
 
 [Model-based Offline Quantum Reinforcement Learning](https://arxiv.org/abs/2404.10017)
 
