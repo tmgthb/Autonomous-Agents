@@ -117,7 +117,7 @@ Chronological order.
 
 [White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency](https://arxiv.org/abs/2404.10508)
 
--
+- Identifies language agency bias in LLMs: gender, racial and intersectional.
 
 
 ---
