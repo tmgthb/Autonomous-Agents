@@ -80,7 +80,8 @@ Chronological order.
 
 [SCALE: Self-Correcting Visual Navigation for Mobile Robots via Anti-Novelty Estimation](https://arxiv.org/abs/2404.10675)
 
--
+- SCALE: self-correcting visual navigation using image-goal conditioned implicity Q-learning, which when faced Out-of-distribution observation, the "Localization Recovery" generates possible future trajectories. 
+- SOTA-level open-world navigation
 
 ---
 
