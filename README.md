@@ -147,23 +147,18 @@ Chronological order.
 
 - VLMs identify personal attributes of the image owners, which may cause privacy risk when misused. 
 
+
 ---
 
-[Find The Gap: Knowledge Base Reasoning For Visual Question Answering](https://arxiv.org/abs/2404.10226)
+[CoTAR: Chain-of-Thought Attribution Reasoning with Multi-level Granularity](https://arxiv.org/abs/2404.10513)
 
--
+- CoTAR (Attribute-oriented CoT): Identifies most crucial aspects of the given context to answer using direct citations to referenced parts.
+- Three levels: Span guidance, Sentence guidance, Passage guidance
 
 
 ---
 
 [TEL'M: Test and Evaluation of Language Models](https://arxiv.org/abs/2404.10200)
-
--
-
-
----
-
-[Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://arxiv.org/abs/2404.10209)
 
 -
 
@@ -385,13 +380,6 @@ Chronological order.
 
 ---
 
-[CoTAR: Chain-of-Thought Attribution Reasoning with Multi-level Granularity](https://arxiv.org/abs/2404.10513)
-
--
-
-
----
-
 [Unveiling the Misuse Potential of Base Large Language Models via In-Context Learning](https://arxiv.org/abs/2404.10552)
 
 -
@@ -455,6 +443,14 @@ Chronological order.
 ---
 
 [MEEL: Multi-Modal Event Evolution Learning]()
+
+-
+
+
+---
+
+
+[Find The Gap: Knowledge Base Reasoning For Visual Question Answering](https://arxiv.org/abs/2404.10226)
 
 -
 
