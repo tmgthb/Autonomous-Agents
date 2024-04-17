@@ -465,8 +465,6 @@ Chronological order.
 
 #### 15th of April 2024
 
-[Cross-Modal Self-Training: Aligning Images and Pointclouds to Learn Classification without Labels](https://arxiv.org/abs/2404.10146)
-
 
 [Memory Sharing for Large Language Model based Agents](https://arxiv.org/abs/2404.09982)
 
@@ -479,6 +477,11 @@ Chronological order.
 ---
 
 [Reimagining Self-Adaptation in the Age of Large Language Models](https://arxiv.org/abs/2404.09866)
+
+- Self-Adaptive SW system: Includes Managed system (operational SW system) and Managing System (handles adaptions).
+- Managing system includes Prompt generator, LLM engine, Response parser, Monitor (logs, metrics), Knowledge/Memory (conversation history, fine-tuned models, system config and system prompts) and Execute (verifier/executor). 
+
+
 ---
 
 [Deferred NAM: Low-latency Top-K Context Injection via DeferredContext Encoding for Non-Streaming ASR](https://arxiv.org/abs/2404.10180)
