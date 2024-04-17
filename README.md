@@ -138,7 +138,7 @@ Chronological order.
 
 [What is Meant by AGI? On the Definition of Artificial General Intelligence](https://arxiv.org/abs/2404.10731)
 
--
+- Attempts to define AGI: "An Artificial General Intelligence (AGI) system is a computer that is adaptive to the open environment with limited computational resources and that satisfies certain principles."
 
 
 ---
