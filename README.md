@@ -102,7 +102,8 @@ Chronological order.
 
 [HLAT: High-quality Large Language Model Pre-trained on AWS Trainium](https://arxiv.org/abs/2404.10630)
 
--
+- Trains LLMs of 7B and 70B with 1.8T tokens with AWS Trainium GPUs, showing 54% of cost compared with Nvidia GPU.
+- Illustrates the approach for training LLMs using AWS Traininum GPUS and AWS Neuron SDK.
 
 
 ---
