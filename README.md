@@ -59,8 +59,425 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 16th of April 2024
+
+[Self-playing Adversarial Language Game Enhances LLM Reasoning](https://arxiv.org/abs/2404.10642)
+
+- SPAG (Self-Play Adversial language Game): LLM plays both "attacker" and  "defender" in a language game called "Adversial Taboo". The "attacker" aims to trigger the "defender" to state the target word only known to it,  while the "defender" aims to guess the target word based on communications made by the "attacker".
+- The LLM is supervised fine tuned using RL with ReST based on the game outcomes from wide range of topics.
+- This self-play technique improves the LLMs reasoning capabilities in three epoch.
+
+
+---
+
+[Self-Explore to Avoid the Pit: Improving the Reasoning Capabilities of Language Models with Fine-grained Rewards](https://arxiv.org/abs/2404.10346)
+
+- Self-Explore: LLMs explore Pits (wrong steps) in the reasoning and use these explorations as signals in further exploration.
+- Outperforms SFT on GSM8K/MATH-datasets using three different LLMs.
+- Applies step-level fine-grained reward.
+  
+---
+
+[SCALE: Self-Correcting Visual Navigation for Mobile Robots via Anti-Novelty Estimation](https://arxiv.org/abs/2404.10675)
+
+-
+
+---
+
+[N-Agent Ad Hoc Teamwork](https://arxiv.org/abs/2404.10740)
+
+-
+
+
+---
+
+[Emergent intelligence of buckling-driven elasto-active structures](https://arxiv.org/abs/2404.10614)
+
+-
+
+
+---
+
+[HLAT: High-quality Large Language Model Pre-trained on AWS Trainium](https://arxiv.org/abs/2404.10630)
+
+-
+
+
+---
+
+[Automated Evaluation of Large Vision-Language Models on Self-driving Corner Cases](https://arxiv.org/abs/2404.10595)
+
+-
+
+
+---
+
+[White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency](https://arxiv.org/abs/2404.10508)
+
+-
+
+
+---
+
+[Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://arxiv.org/abs/2404.10209)
+
+-
+
+
+---
+
+[COMBO: Compositional World Models for Embodied Multi-Agent Cooperation](https://arxiv.org/abs/2404.10775)
+
+-
+
+
+---
+
+[Privacy Can Arise Endogenously in an Economic System with Learning Agents](https://arxiv.org/abs/2404.10767)
+
+-
+
+
+---
+
+[Bootstrapping Linear Models for Fast Online Adaptation in Human-Agent Collaboration](https://arxiv.org/abs/2404.10733)
+
+-
+
+
+---
+
+[What is Meant by AGI? On the Definition of Artificial General Intelligence](https://arxiv.org/abs/2404.10731)
+
+-
+
+
+---
+
+[Private Attribute Inference from Images with Vision-Language Models](https://arxiv.org/abs/2404.10618)
+
+-
+
+
+---
+
+[Find The Gap: Knowledge Base Reasoning For Visual Question Answering](https://arxiv.org/abs/2404.10226)
+
+-
+
+
+---
+
+[TEL'M: Test and Evaluation of Language Models](https://arxiv.org/abs/2404.10200)
+
+-
+
+
+---
+
+[Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://arxiv.org/abs/2404.10209)
+
+-
+
+
+---
+
+[Deceiving to Enlighten: Coaxing LLMs to Self-Reflection for Enhanced Bias Detection and Mitigation](https://arxiv.org/abs/2404.10160)
+
+
+---
+
+[Chinchilla Scaling: A replication attempt](https://arxiv.org/abs/2404.10102)
+
+-
+
+
+---
+
+[Model-based Offline Quantum Reinforcement Learning](https://arxiv.org/abs/2404.10017)
+
+-
+
+
+---
+
+[Can AI Understand Our Universe? Test of Fine-Tuning GPT by Astrophysical Data](https://arxiv.org/abs/2404.10019)
+
+-
+
+
+---
+
+[Emergent Language Symbolic Autoencoder (ELSA) with Weak Supervision to Model Hierarchical Brain Networks](https://arxiv.org/abs/2404.10031)
+
+-
+
+
+---
+
+[AIGeN: An Adversarial Approach for Instruction Generation in VLN](https://arxiv.org/abs/2404.10054)
+
+-
+
+
+---
+
+[Language Model Cascades: Token-level uncertainty and beyond](https://arxiv.org/abs/2404.10136)
+
+-
+
+
+---
+
+[Shaping Realities: Enhancing 3D Generative AI with Fabrication Constraints](https://arxiv.org/abs/2404.10142)
+
+-
+
+
+---
+
+[EyeFormer: Predicting Personalized Scanpaths with Transformer-Guided Reinforcement Learning](https://arxiv.org/abs/2404.10163)
+
+-
+
+
+---
+
+[How faithful are RAG models? Quantifying the tug-of-war between RAG and LLMs' internal prior](https://arxiv.org/abs/2404.10198)
+
+-
+
+
+---
+
+[CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting](https://arxiv.org/abs/2404.10199)
+
+-
+
+
+---
+
+[Towards a Novel Perspective on Adversarial Examples Driven by Frequency](https://arxiv.org/abs/2404.10202)
+
+-
+
+
+---
+
+[Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration](https://arxiv.org/abs/2404.10218)
+
+-
+
+
+---
+
+[Closed-Loop Open-Vocabulary Mobile Manipulation with GPT-4V](https://arxiv.org/abs/2404.10220)
+
+-
+
+
+---
+
+[Rethinking Software Engineering in the Foundation Model Era: From Task-Driven AI Copilots to Goal-Driven AI Pair Programmers](https://arxiv.org/abs/2404.10225)
+
+-
+
+
+---
+
+[Vision-and-Language Navigation via Causal Learning](https://arxiv.org/abs/2404.10241)
+
+-
+
+
+---
+
+[Uncovering Latent Arguments in Social Media Messaging by Employing LLMs-in-the-Loop Strategy](https://arxiv.org/abs/2404.10259)
+
+-
+
+
+---
+
+[HelixFold-Multimer: Elevating Protein Complex Structure Prediction to New Heights](https://arxiv.org/abs/2404.10260)
+
+-
+
+
+---
+
+[Continuous Control Reinforcement Learning: Distributed Distributional DrQ Algorithms](https://arxiv.org/abs/2404.10645)
+
+-
+
+
+---
+
+[Social Choice for AI Alignment: Dealing with Diverse Human Feedback](https://arxiv.org/abs/2404.10271)
+
+-
+
+
+---
+
+[Engineering software 2.0 by interpolating neural networks: unifying training, solving, and calibration](https://arxiv.org/abs/2404.10296)
+
+-
+
+
+---
+
+[Future Language Modeling from Temporal Document History](https://arxiv.org/abs/2404.10297)
+
+-
+
+
+---
+
+[Hierarchical Context Merging: Better Long Context Understanding for Pre-trained LLMs](https://arxiv.org/abs/2404.10308)
+
+-
+
+
+---
+
+[Prescribing the Right Remedy: Mitigating Hallucinations in Large Vision-Language Models via Targeted Instruction Tuning](https://arxiv.org/abs/2404.10332)
+
+-
+
+
+---
+
+[Reasoning on Efficient Knowledge Paths:Knowledge Graph Guides Large Language Model for Domain Question Answering](https://arxiv.org/abs/2404.10384)
+
+-
+
+
+---
+
+[SparseDM: Toward Sparse Efficient Diffusion Models](https://arxiv.org/abs/2404.10445)
+
+-
+
+
+---
+
+[Advancing Long-Term Multi-Energy Load Forecasting with Patchformer: A Patch and Transformer-Based Approach](https://arxiv.org/abs/2404.10458)
+
+-
+
+
+---
+
+[DESTEIN: Navigating Detoxification of Language Models via Universal Steering Pairs and Head-wise Activation Fusion](https://arxiv.org/abs/2404.10464)
+
+-
+
+
+---
+
+[When Emotional Stimuli meet Prompt Designing: An Auto-Prompt Graphical Paradigm](https://arxiv.org/abs/2404.10500)
+
+-
+
+
+---
+
+[Self-Supervised Visual Preference Alignment](https://arxiv.org/abs/2404.10501)
+
+-
+
+
+---
+
+[White Men Lead, Black Women Help: Uncovering Gender, Racial, and Intersectional Bias in Language Agency](https://arxiv.org/abs/2404.10508)
+
+-
+
+
+---
+
+[CoTAR: Chain-of-Thought Attribution Reasoning with Multi-level Granularity](https://arxiv.org/abs/2404.10513)
+
+-
+
+
+---
+
+[Unveiling the Misuse Potential of Base Large Language Models via In-Context Learning](https://arxiv.org/abs/2404.10552)
+
+-
+
+
+---
+
+[Generative Text Steganography with Large Language Model](https://arxiv.org/abs/2404.10229)
+
+-
+
+---
+
+[EMC$^2$: Efficient MCMC Negative Sampling for Contrastive Learning with Global Convergence](https://arxiv.org/abs/2404.10575)
+
+
+---
+
+[Continual Offline Reinforcement Learning via Diffusion-based Dual Generative Replay](https://arxiv.org/abs/2404.10662)
+
+
+---
+
+[Question Difficulty Ranking for Multiple-Choice Reading Comprehension](https://arxiv.org/abs/2404.10704)
+
+
+---
+
+[Insight Gained from Migrating a Machine Learning Model to Intelligence Processing Units](https://arxiv.org/abs/2404.10730)
+
+
+---
+
+[MiniCheck: Efficient Fact-Checking of LLMs on Grounding Documents](https://arxiv.org/abs/2404.10774)
+
+
+---
+
+[LegalPro-BERT: Classification of Legal Provisions by fine-tuning BERT Large Language Model](https://arxiv.org/abs/2404.10097)
+
+
+---
+
+[Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study](https://arxiv.org/abs/2404.10719)
+
+
+---
+
+[Automating REST API Postman Test Cases Using LLM](https://arxiv.org/abs/2404.10678)
+
+-
+
+
+---
+
+[Spiral of Silences: How is Large Language Model Killing Information Retrieval? -- A Case Study on Open Domain Question Answering](https://arxiv.org/abs/2404.10496)
+
+-
+
+
+---
+
+[MEEL: Multi-Modal Event Evolution Learning]()
+
+-
+
+
+---
+
 
 #### 15th of April 2024
+
+[Cross-Modal Self-Training: Aligning Images and Pointclouds to Learn Classification without Labels](https://arxiv.org/abs/2404.10146)
+
 
 [Memory Sharing for Large Language Model based Agents](https://arxiv.org/abs/2404.09982)
 
@@ -72,8 +489,25 @@ Chronological order.
 
 ---
 
+[Reimagining Self-Adaptation in the Age of Large Language Models](https://arxiv.org/abs/2404.09866)
+---
+
+[Deferred NAM: Low-latency Top-K Context Injection via DeferredContext Encoding for Non-Streaming ASR](https://arxiv.org/abs/2404.10180)
+
+
+---
+
 [ChatShop: Interactive Information Seeking with Language Agents](https://arxiv.org/abs/2404.09911)
 
+
+---
+
+[TabSQLify: Enhancing Reasoning Capabilities of LLMs Through Table Decomposition](https://arxiv.org/abs/2404.10150)
+
+
+---
+
+[LLMorpheus: Mutation Testing using Large Language Models](https://arxiv.org/abs/2404.09952)
 
 ---
 
@@ -149,6 +583,10 @@ Chronological order.
 
 [Compression Represents Intelligence Linearly](https://arxiv.org/abs/2404.09937)
 
+
+---
+
+[Glitch Tokens in Large Language Models: Categorization Taxonomy and Effective Detection](https://arxiv.org/abs/2404.09894)
 
 ---
 
@@ -392,6 +830,9 @@ Chronological order.
 
 #### 13th of April 2024
 
+[When Hindsight is Not 20/20: Testing Limits on Reflective Thinking in Large Language Models](https://arxiv.org/abs/2404.09129)
+
+
 ["Don't forget to put the milk back!" Dataset for Enabling Embodied Agents to Detect Anomalous Situations](https://arxiv.org/abs/2404.08827)
 
 
@@ -471,6 +912,22 @@ Chronological order.
 
 ---
 
+[Is Next Token Prediction Sufficient for GPT? Exploration on Code Logic Comprehension](https://arxiv.org/abs/2404.08885)
+
+---
+
+[Aligning LLMs for FL-free Program Repair](https://arxiv.org/abs/2404.08877)
+
+---
+
+[LLM In-Context Recall is Prompt Dependent](https://arxiv.org/abs/2404.08865)
+
+---
+
+[CATS: Contextually-Aware Thresholding for Sparsity in Large Language Models](https://arxiv.org/abs/2404.08763)
+
+---
+
 [Leveraging Multi-AI Agents for Cross-Domain Knowledge Discovery](https://arxiv.org/abs/2404.08511)
 
 
@@ -532,6 +989,15 @@ Chronological order.
 
 ---
 
+[Toward a Theory of Tokenization in LLMs](https://arxiv.org/abs/2404.08335)
+
+---
+
+[Exploring the Frontier of Vision-Language Models: A Survey of Current Methodologies and Future Directions](https://arxiv.org/abs/2404.07214)
+
+
+---
+
 
 #### 11th of April 2024
 
@@ -544,7 +1010,13 @@ Chronological order.
 
 ---
 
+[Large Language Model Can Continue Evolving From Mistakes](https://arxiv.org/abs/2404.08707)
 
+---
+
+[Auctions with LLM Summaries](https://arxiv.org/abs/2404.08126)
+
+---
 
 [OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments](https://arxiv.org/abs/2404.07972)
 
@@ -584,13 +1056,34 @@ Chronological order.
 
 [Behavior Trees Enable Structured Programming of Language Model Agents](https://arxiv.org/abs/2404.07439)
 
+---
 
+[LLoCO: Learning Long Contexts Offline](https://arxiv.org/abs/2404.07979)
+
+---
+
+[ChatGPT Can Predict the Future when it Tells Stories Set in the Future About the Past](https://arxiv.org/abs/2404.07396)
 
 ---
 
 
 #### 10th of April 2024 
 
+[Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs](https://arxiv.org/abs/2404.07103)
+
+--
+
+[Accelerating Inference in Large Language Models with a Unified Layer Skipping Strategy](https://arxiv.org/abs/2404.06954)
+
+---
+
+[Superposition Prompting: Improving and Accelerating Retrieval-Augmented Generation](https://arxiv.org/abs/2404.06910)
+
+---
+
+[Not All Contexts Are Equal: Teaching LLMs Credibility-aware Generation](https://arxiv.org/abs/2404.06809)
+
+---
 
 [Leave No Context Behind: Efficient Infinite Context Transformers with Infini-attention](https://arxiv.org/abs/2404.07143)
 
@@ -613,6 +1106,11 @@ Chronological order.
 
 [Vision-Language Model-based Physical Reasoning for Robot Liquid Perception](https://arxiv.org/abs/2404.06904)
 
+
+---
+
+[BISCUIT: Scaffolding LLM-Generated Code with Ephemeral UIs in Computational Notebooks](https://arxiv.org/abs/2404.07387)
+
 ---
 
 
@@ -623,6 +1121,10 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 - Reviews the scaling of LLMs on persuasion tasks. Finds, that Claude 3 Opus is statistically as convincing as human.
 
+
+---
+
+[Can Feedback Enhance Semantic Grounding in Large Vision-Language Models?](https://arxiv.org/abs/2404.06510)
 
 ---
 
@@ -676,7 +1178,9 @@ of Language Models](https://www.anthropic.com/news/measuring-model-persuasivenes
 
 [Text-Based Reasoning About Vector Graphics](https://arxiv.org/abs/2404.06479)
 
+---
 
+[Sandwich attack: Multi-language Mixture Adaptive Attack on LLMs](https://arxiv.org/abs/2404.07242)
 
 ---
 
@@ -802,6 +1306,11 @@ assessment.
 
 ---
 
+[Xiwu: A Basis Flexible and Learnable LLM for High Energy Physics](Xiwu: A Basis Flexible and Learnable LLM for High Energy Physics)
+
+
+---
+
 #### 7th of April 2024
 
 [AI2Apps: A Visual IDE for Building LLM-based AI Agent Applications](https://arxiv.org/abs/2404.04902)
@@ -853,6 +1362,10 @@ assessment.
 
 [MACM: Utilizing a Multi-Agent System for Condition Mining in Solving Complex Mathematical Problems](https://arxiv.org/abs/2404.04735)
 
+
+---
+
+[Goal-guided Generative Prompt Injection Attack on Large Language Models](https://arxiv.org/abs/2404.07234)
 
 ---
 
@@ -1009,6 +1522,17 @@ assessment.
 
 
 #### 2th of April 2024
+
+
+[Mixture-of-Depths: Dynamically allocating compute in transformer-based language models](Mixture-of-Depths: Dynamically allocating compute in transformer-based language models)
+
+- Mixture-of-Depth (MoD) Transformer: Transformers learn to assign compute dynamically to specific spots in the sequence.
+- Top-k routing: defines tokens participating in block's computation. Learns to route harder tokens through more layers.
+- Helps to speed up
+
+
+---
+
 
 [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039)
 
@@ -1249,6 +1773,12 @@ assessment.
 
 ---
 
+[What are human values, and how do we align AI to them?](https://arxiv.org/abs/2404.10636)
+
+
+
+---
+
 [Large Language Models Need Consultants for Reasoning: Becoming an Expert in a Complex Human System Through Behavior Simulation](https://arxiv.org/abs/2403.18230)
 
 - MEOW (MOsaic Expert Observation Wall): improves LLM reasoning with behaviour simulation. 
@@ -1307,10 +1837,13 @@ assessment.
 
 
 ---
-[]()
----
-[]()
 
+[Compressed Federated Reinforcement Learning with a Generative Model](https://arxiv.org/abs/2404.10635)
+
+
+---
+
+[]()
 
 
 ---
@@ -1691,6 +2224,10 @@ assessment.
 
 [ChatPattern: Layout Pattern Customization via Natural Language](https://arxiv.org/abs/2403.15434)
 
+
+---
+
+[ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://arxiv.org/abs/2404.07947)
 
 ---
 
@@ -3754,7 +4291,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ---
 
 
-#### 5th of December 2022
+#### 5th of December 2023
 
 
 [Visual Program Distillation: Distilling Tools and Programmatic Reasoning into Vision-Language Models](https://arxiv.org/abs/2312.03052)
@@ -4859,8 +5396,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-#### 11th April 2023
-
 [Teaching Large Language Models to Self-Debug](https://arxiv.org/abs/2304.05128)
 
 - The model generates new code together with code explanation. The code is then executed and this executed code is sent back as feedback together with the code explanation. This feedback
@@ -4967,6 +5502,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - EcoOptiGen: Hyperparameter tuning of LLMs.
 
+
+---
+
+[Improving Multimodal Interactive Agents with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2211.11602)
+
+
 ---
 
 
@@ -5006,6 +5547,28 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Argues, that "a generalist agent that can adapt to new embodiments and learn new tasks with few data."
 
 
+---
+
+[Large-Scale Retrieval for Reinforcement Learning
+](https://arxiv.org/abs/2206.05314)
+
+
+[Creating Multimodal Interactive Agents with Imitation and Self-Supervised Learning](https://arxiv.org/abs/2112.03763)
+
+[Retrieval-Augmented Reinforcement Learning](https://arxiv.org/abs/2202.08417)
+
+[Evaluating Multimodal Interactive Agents](https://arxiv.org/abs/2205.13274)
+
+[Intra-agent speech permits zero-shot task acquisition](https://arxiv.org/abs/2206.03139)
+
+[How to Learn and Represent Abstractions: An Investigation using Symbolic Alchemy](https://arxiv.org/abs/2112.08360)
+
+[Rapid Task-Solving in Novel Environments](https://arxiv.org/abs/2006.03662)
+
+
+[A Unified, Scalable Framework for Neural Population Decoding](https://arxiv.org/abs/2310.16046)
+
+[Toward Next-Generation Artificial Intelligence: Catalyzing the NeuroAI Revolution](https://arxiv.org/abs/2210.08340)
 
 ---
 
