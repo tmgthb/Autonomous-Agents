@@ -124,14 +124,7 @@ Chronological order.
 
 [Demonstration of DB-GPT: Next Generation Data Interaction System Empowered by Large Language Models](https://arxiv.org/abs/2404.10209)
 
--
-
-
----
-
-[COMBO: Compositional World Models for Embodied Multi-Agent Cooperation](https://arxiv.org/abs/2404.10775)
-
--
+- DB-GPT: Open-source AI app development framework. Includes: RAG, Generative Business Intelligence, Fine-tuning, Data-driven Multi-agents, Data factory and Data sources, Text-to-SQL module and agents. AWEL: Agentic Workflow Expression Language. 
 
 
 ---
