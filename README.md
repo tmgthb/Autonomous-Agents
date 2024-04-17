@@ -174,6 +174,7 @@ Chronological order.
 
 [Deceiving to Enlighten: Coaxing LLMs to Self-Reflection for Enhanced Bias Detection and Mitigation](https://arxiv.org/abs/2404.10160)
 
+- Reduces bias in LLMs by stating the views are not LLMs own ones, which activates LLMs internal attention to improve sensitivity.
 
 ---
 
