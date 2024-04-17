@@ -129,13 +129,6 @@ Chronological order.
 
 ---
 
-[Privacy Can Arise Endogenously in an Economic System with Learning Agents](https://arxiv.org/abs/2404.10767)
-
--
-
-
----
-
 [Bootstrapping Linear Models for Fast Online Adaptation in Human-Agent Collaboration](https://arxiv.org/abs/2404.10733)
 
 -
