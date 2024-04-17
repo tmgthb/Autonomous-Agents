@@ -181,7 +181,7 @@ Chronological order.
 
 [Model-based Offline Quantum Reinforcement Learning](https://arxiv.org/abs/2404.10017)
 
--
+- First model-based offline quantum RL algorithm
 
 
 ---
