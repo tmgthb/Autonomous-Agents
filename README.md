@@ -94,7 +94,8 @@ Chronological order.
 
 [Emergent intelligence of buckling-driven elasto-active structures](https://arxiv.org/abs/2404.10614)
 
--
+- Microbot design using elacticity to control collective motion.
+- Enables autonomous maze navigation by two self-propelled microbots connected by polyester beam (bucklebot) in 25 seconds, which is not possible by an individual microbot.
 
 
 ---
