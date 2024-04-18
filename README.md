@@ -59,6 +59,46 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+
+#### 17th of April 2024
+
+[The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey](https://arxiv.org/abs/2404.11584)
+
+- Survey on AI agents.
+- Reviews single- and multi-agent architectures, challenges and future directions.
+
+
+---
+
+[AgentKit: Flow Engineering with Graphs, not Coding](https://arxiv.org/abs/2404.11483)
+
+- AgentKit: Prompting framework for multifunctional agents. Constructs complex "thought process" from prompts. Consists of nodes.
+- Nodes: prompts for specific task. User compiles Chain-of-Nodes (CoNs), which are structured thought processes in a graph.  
+- Agents designed with AgentKit are SOTA-level in WebShop/Crafter-benchmarks. 
+- Includes Github-repository with the code, where the graphs are build.
+
+
+---
+
+[Octopus v3: Technical Report for On-device Sub-billion Multimodal AI Agent](https://arxiv.org/abs/2404.11459)
+
+- Octopus v3: 1B multimodal AI agent.
+- Uses "functional tokens": represents any function as a token.
+- Applies multi-stage training: first trains image-language, which is followed by the learning of functional tokens and finally the functional tokens provide feedback to keep improving the model with RL and external LLM used as a reward model.
+- Operates in edge-devices like Rasberry Pi.
+  
+
+---
+
+[Open-Ended Wargames with Large Language Models](https://arxiv.org/abs/2404.11446)
+
+- Snow Globe: LLM-based multi-agent plays automatically qualititative wargames (open-ended).
+- Information flows: Incident, Response, Inject and Response. The approach could be used in other domains.   
+
+---
+
+
+
 #### 16th of April 2024
 
 [Self-playing Adversarial Language Game Enhances LLM Reasoning](https://arxiv.org/abs/2404.10642)
@@ -66,6 +106,16 @@ Chronological order.
 - SPAG (Self-Play Adversial language Game): LLM plays both "attacker" and  "defender" in a language game called "Adversial Taboo". The "attacker" aims to trigger the "defender" to state the target word only known to it,  while the "defender" aims to guess the target word based on communications made by the "attacker".
 - The LLM is supervised fine tuned using RL with ReST based on the game outcomes from wide range of topics.
 - This self-play technique improves the LLMs reasoning capabilities in three epoch.
+
+
+---
+
+[Closed-Loop Open-Vocabulary Mobile Manipulation with GPT-4V](https://arxiv.org/abs/2404.10220)
+
+- COME(Closed-loop Open-vocabulary MobilE Manipulation): VLM-based robot consisting of Active Perception, Situated Commonsense Reasoning and Recover from Failure.
+- Helps to recover from mistakes, free-form instructions and follow long-horizon task plans.
+- Improves SOTA-level performance by 25% in real-world tabletop and manipulation tasks, which are Open-Vocabulary Mobile Manipulation (OVMM)-tasks.   
+- Step towards autonomous robots in real-world scenarios. The high level-reasoning and planning uses: role, feedback handling, robot setup, APIs, response guidelines and Tips. The paper includes system prompt.
 
 
 ---
@@ -186,75 +236,39 @@ Chronological order.
 
 ---
 
-[Emergent Language Symbolic Autoencoder (ELSA) with Weak Supervision to Model Hierarchical Brain Networks](https://arxiv.org/abs/2404.10031)
-
--
-
-
----
-
 [AIGeN: An Adversarial Approach for Instruction Generation in VLN](https://arxiv.org/abs/2404.10054)
 
--
+- AUGeN: consists of Instructor generator and Instruction discriminator.
+- Instruction generator describes actions needed to navigate to a specific location based on images from the environment.
+- Instruction discriminator matches images as real/fake in case image descriptions match with the instruction provided). 
 
 
 ---
 
 [Language Model Cascades: Token-level uncertainty and beyond](https://arxiv.org/abs/2404.10136)
 
--
-
-
----
-
-[Shaping Realities: Enhancing 3D Generative AI with Fabrication Constraints](https://arxiv.org/abs/2404.10142)
-
--
+- Cascading LLM: simple queries are guided to "easy"-LLM, while complicated queries are guided to "hard"-LLM. This deferral decision is made by 5-layer MLP model.
+- Applies token-level uncertainty, where length bias is mitigated when making deferral decision. Easy sequence have most tokens in low percentile, while hard sequences have some tokens with high uncertainty.
 
 
 ---
 
 [EyeFormer: Predicting Personalized Scanpaths with Transformer-Guided Reinforcement Learning](https://arxiv.org/abs/2404.10163)
 
--
+- EyeFormer: predictive model for scanpath (human vision attention behaviour) for both natural scenes and user interfaces. Illustrates using of scanpaths for personalized UI optimization.
+- Deep RL with Transformer, which predicts spatial and temporal characteristics of scanpaths about viewer behaviours.
 
 
 ---
 
 [How faithful are RAG models? Quantifying the tug-of-war between RAG and LLMs' internal prior](https://arxiv.org/abs/2404.10198)
 
--
+- The LLM is less likely to trust retrieved information with RAG, the more likely the LLM is to trust its response without the RAG (Prior).
+- The LLM is more likely to stick to Prior (knowledge), the more unrealistic the RAG pertubated information is. 
 
 
 ---
 
-[CULTURE-GEN: Revealing Global Cultural Perception in Language Models through Natural Language Prompting](https://arxiv.org/abs/2404.10199)
-
--
-
-
----
-
-[Towards a Novel Perspective on Adversarial Examples Driven by Frequency](https://arxiv.org/abs/2404.10202)
-
--
-
-
----
-
-[Autonomous Implicit Indoor Scene Reconstruction with Frontier Exploration](https://arxiv.org/abs/2404.10218)
-
--
-
-
----
-
-[Closed-Loop Open-Vocabulary Mobile Manipulation with GPT-4V](https://arxiv.org/abs/2404.10220)
-
--
-
-
----
 
 [Rethinking Software Engineering in the Foundation Model Era: From Task-Driven AI Copilots to Goal-Driven AI Pair Programmers](https://arxiv.org/abs/2404.10225)
 
