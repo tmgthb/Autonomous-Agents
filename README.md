@@ -128,6 +128,15 @@ Chronological order.
   
 ---
 
+[VASA-1: Lifelike Audio-Driven Talking Faces Generated in Real Time](https://arxiv.org/abs/2404.10667)
+
+- VASA-1: The model produces lip movement based on audio and an image.
+- Visual Affective Skills (VAS): uses diffusion-based holistic facial dynamics.
+
+
+---
+
+
 [SCALE: Self-Correcting Visual Navigation for Mobile Robots via Anti-Novelty Estimation](https://arxiv.org/abs/2404.10675)
 
 - SCALE: self-correcting visual navigation using image-goal conditioned implicity Q-learning, which when faced Out-of-distribution observation, the "Localization Recovery" generates possible future trajectories. 
