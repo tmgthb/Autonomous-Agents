@@ -65,7 +65,7 @@ Chronological order.
 
 - mABC (multi-Agent Blockchain-inspired Collaboration): AI agent workflow, where multiple LLM-agents reach consensus in standardized voting process to manage RCA of microservices.
 - The voting mechanism is blockchain-style. 
-- Two workflows: ReAct answer (action, observation and reasoning and Direct answer (reasoning with zero-shot/CoT/N-ofThought).
+- Two workflows: ReAct answer (action, observation and reasoning for real-time/additional data and Direct answer (reasoning with zero-shot/CoT/N-ofThought) when is not required external tools.
 
 
 ---
