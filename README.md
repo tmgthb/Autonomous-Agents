@@ -15,7 +15,7 @@ Copyright (C) Teemu Maatta.
 
 
 <p align="center">
-  <img height="150" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_agents_repository_logo_type.png" alt="Autonomous Agents">
+  <img height="100" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_agents_repository_logo_type.png" alt="Autonomous Agents">
 </p>
 
 
@@ -58,6 +58,17 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+
+#### 18th of April 2024
+
+[mABC: multi-Agent Blockchain-Inspired Collaboration for root cause analysis in micro-services architecture](https://arxiv.org/abs/2404.12135)
+
+- mABC (multi-Agent Blockchain-inspired Collaboration): AI agent workflow, where multiple LLM-agents reach consensus in standardized voting process to manage RCA of microservices.
+- The voting mechanism is blockchain-style. 
+- Two workflows: ReAct answer (action, observation and reasoning and Direct answer (reasoning with zero-shot/CoT/N-ofThought).
+
+
+---
 
 
 #### 17th of April 2024
