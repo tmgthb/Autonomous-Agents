@@ -66,6 +66,16 @@ Chronological order.
 - Help LLMs answer complex questions, even when not able to provide final answer.
 - Generates thoughts, then actions to retrieve knowledge, makes observations from the actions. The thoughts are then processed as thought-chain. The paper includes a detailed GoG-instruction implemented using two LLM-prompts.
 
+
+---
+
+#### 22th of April 2024
+
+[A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387)
+
+- Alibaba's literarture survey on Self-Evonvolving LLMs.
+- Reviews paradigm shift in LLMs from pretraining (2018), SFT(2019), human alignment (2022) and Self-Evolution(2023).
+
 ---
 
 
