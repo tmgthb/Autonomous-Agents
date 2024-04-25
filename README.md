@@ -76,7 +76,15 @@ Chronological order.
 - Alibaba's literarture survey on Self-Evonvolving LLMs.
 - Reviews paradigm shift in LLMs from pretraining (2018), SFT(2019), human alignment (2022) and Self-Evolution(2023).
 
+
 ---
+
+#### 21st of April 2024
+
+[A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501)
+
+- Huawei's literature review on memory mechanism in LLM-agents.
+- Why memory is required, how to design and evaluate memory-based LLMs? 
 
 
 #### 19th of April 2024
