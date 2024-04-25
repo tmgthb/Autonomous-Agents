@@ -58,6 +58,17 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+
+#### 24th of April 2024
+
+[Retrieval Head Mechanistically Explains Long-Context Factuality](https://arxiv.org/abs/2404.15574)
+
+- How LLMs obtain capacity to retrieve information from long-context?
+- Retrieval-attention heads have the following characteristics: Universal, Sparse, Intrinsic, Dynamically-activated, Causal and Impact heavily on CoT reasoning. 
+
+
+---
+
 #### 23th of April 2024
 
 [Generate-on-Graph: Treat LLM as both Agent and KG in Incomplete Knowledge Graph Question Answering](https://arxiv.org/abs/2404.14741)
