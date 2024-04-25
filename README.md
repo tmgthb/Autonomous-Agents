@@ -100,6 +100,14 @@ Chronological order.
 
 #### 18th of April 2024
 
+[Aligning Language Models to Explicitly Handle Ambiguity](https://arxiv.org/abs/2404.11972)
+
+- Introduces disambiguation procedure for LLMs
+- Four-step alignment pipeline: Explicit prediction, Implicity ambiguity detection ( Self-disambiguation and Measure Information-gain), Data construction (Information-gain > epsilon) and SFT.
+
+
+---
+
 [mABC: multi-Agent Blockchain-Inspired Collaboration for root cause analysis in micro-services architecture](https://arxiv.org/abs/2404.12135)
 
 - mABC (multi-Agent Blockchain-inspired Collaboration): AI agent workflow, where multiple LLM-agents reach consensus in standardized voting process to manage RCA of microservices.
