@@ -58,6 +58,27 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 23th of April 2024
+
+[Generate-on-Graph: Treat LLM as both Agent and KG in Incomplete Knowledge Graph Question Answering](https://arxiv.org/abs/2404.14741)
+
+- Generate-on-Graph (GoG): applies selecting/generating/answering-framework for IKGQA (Incomplete Knowledge Graph Question Answering).
+- Help LLMs answer complex questions, even when not able to provide final answer.
+- Generates thoughts, then actions to retrieve knowledge, makes observations from the actions. The thoughts are then processed as thought-chain. The paper includes a detailed GoG-instruction implemented using two LLM-prompts.
+
+---
+
+
+#### 19th of April 2024
+
+[AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation](https://arxiv.org/abs/2404.12753)
+
+- AutoCrawler: LLM-based web crawler agent, which automatically defines set of intermediate rules (reusability) / action sequences to extract target information from the website based on varying types of websites and task requirements. 
+- Includes Progressive generation-phase (top-down, step-back, action sequence) and Synthesis-phases(set of action sequences).
+
+
+---
+
 
 #### 18th of April 2024
 
