@@ -3041,6 +3041,12 @@ during CoT inference.
 
 #### 12th of February 2024
 
+[T-RAG: Lessons from the LLM Trenches](https://arxiv.org/abs/2402.07483)
+
+
+---
+
+
 [OS-Copilot: Towards Generalist Computer Agents with Self-Improvement](https://arxiv.org/abs/2402.07456)
 
 - FRIDAY: Self-improving embodied agent to interact with OS.
