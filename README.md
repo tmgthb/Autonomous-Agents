@@ -108,6 +108,13 @@ Chronological order.
 
 ---
 
+[SOPHON: Non-Fine-Tunable Learning to Restrain Task Transferability For Pre-trained Models](https://arxiv.org/abs/2404.12699)
+
+- SOPHON: Pretraining protection frameworkd to avoid fine-tuning LLMs for adversary tasks, which results overhead cost for adversary use above training the model from scratch
+
+
+---
+
 
 #### 18th of April 2024
 
