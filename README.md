@@ -5303,6 +5303,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - ChatDev: Define task and automatically generate SW designing, coding, testing, and documentation using "Chat Chains", where LLM-based chats include different roles for each sub-task: CEO, programmer, CTO etc.
 - Includes role-assignment, memory and self-reflection.  
 
+
+---
+
+[xTrimoPGLM: Unified 100B-Scale Pre-trained Transformer for Deciphering the Language of Protein](https://www.biorxiv.org/content/10.1101/2023.07.05.547496v3)
+
+- Protein Language Model: xTrimoPGLM.
+
 ---
 
 #### 23rd of June 2023 
