@@ -4798,6 +4798,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Set-of-Mark (SoM)-visual prompting technique to answer questions by partioning image into regions with different level of granularity and insert numbers for each region.
 - Studies VLM model prompting techniques. 
 
+---
+
+[VeRA: Vector-based Random Matrix Adaptation](https://arxiv.org/abs/2310.11454)
+
+- VeRA
+
 
 ---
 
