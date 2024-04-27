@@ -80,6 +80,14 @@ Chronological order.
 
 ---
 
+[Rethinking LLM Memorization through the Lens of Adversarial Compression](https://arxiv.org/abs/2404.15146)
+
+- Reviews memorization of LLMs, whoch refers to LLMscapability to reproduce data with a shorter string than the source data.
+- Proposes: Adversial Compression Ratio (ACR)-metric to measure level of memorizarion.
+
+
+---
+
 #### 22th of April 2024
 
 [A Survey on Self-Evolution of Large Language Models](https://arxiv.org/abs/2404.14387)
