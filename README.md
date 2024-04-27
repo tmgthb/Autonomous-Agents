@@ -116,6 +116,13 @@ Chronological order.
 
 ---
 
+[Let's Think Dot by Dot: Hidden Computation in Transformer Language Models{(https://arxiv.org/abs/2404.15758)
+
+- Reviews use of "Filler tokens" instead of CoT.
+Filler token refers to "...".
+
+---
+
 [SOPHON: Non-Fine-Tunable Learning to Restrain Task Transferability For Pre-trained Models](https://arxiv.org/abs/2404.12699)
 
 - SOPHON: Pretraining protection frameworkd to avoid fine-tuning LLMs for adversary tasks, which results overhead cost for restricted domain fine-tuning above training the model from scratch
