@@ -4441,6 +4441,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[OpenVoice: Versatile Instant Voice Cloning](https://arxiv.org/abs/2312.01479)
+
+- OpenVoice: Voice cloning almost from instant voice record.
+
+
+---
+
 
 #### 29th of Novemebr 2023
 
