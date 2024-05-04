@@ -58,6 +58,13 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 2nd of May 2024
+
+[Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
+
+- Plan-Seq-Learn (PSL): High-level planning module, Sequenncing module (RL based Pose estimation/Motion planner) and Learning module (RL-based).
+- Achieves SOTA level in 25 robotic long horizon tasks.
+
 
 #### 1st of May 2024
 
