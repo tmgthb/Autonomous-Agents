@@ -59,6 +59,28 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 1st of May 2024
+
+[Social Life Simulation for Non-Cognitive Skills Learning](https://arxiv.org/abs/2405.00273)
+
+- Emotional intelligence in LLM agents based on narrative.
+
+
+---
+
+
+#### 29th of April 2024
+
+[Reinforcement Learning Problem Solving with Large Language Models](https://arxiv.org/abs/2404.18638)
+
+- Prompt LLM iteratively to solve Markov Decision Process (MDP) RL tasks
+- Uses prompting technique for simulating episodes and Q-learning.
+
+
+---
+
+
+
 #### 24th of April 2024
 
 [Retrieval Head Mechanistically Explains Long-Context Factuality](https://arxiv.org/abs/2404.15574)
