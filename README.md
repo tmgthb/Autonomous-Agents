@@ -69,11 +69,23 @@ Chronological order.
 
 ---
 
+[Efficient Data Generation for Source-grounded Information-seeking Dialogs: A Use Case for Meeting Transcripts](https://arxiv.org/abs/2405.01121)
+
+- MISeD (Meeting Information Seeking Dialogs dataset): combines human annotation with LLMs to generate source-grounded information seeking dialog-datasets.
+- Models fine-tuned with MISeD perform well. 
+
+---
+
 [OmniDrive: A Holistic LLM-Agent Framework for Autonomous Driving with 3D Perception, Reasoning and Planning](https://arxiv.org/abs/2405.01533)
 
 - OmniDrive: E2E autonomous driving with LLM-agents, and OmniDrive-nuScenes benchmark.
-- Visual encoder extracts multi-view image features, which are fed into Q-Former3D and finally to the LLM. 
+- Visual encoder extracts multi-view image features, which are fed into Q-Former3D and finally to the LLM.
 
+---
+
+[CACTUS: Chemistry Agent Connecting Tool-Usage to Science](https://arxiv.org/abs/2405.00972)
+
+- CACTUS: Uses CoT-reasoning with planning, action, execution and observation-phases.
 
 ---
 
@@ -82,6 +94,13 @@ Chronological order.
 [Social Life Simulation for Non-Cognitive Skills Learning](https://arxiv.org/abs/2405.00273)
 
 - Emotional intelligence in LLM agents based on narrative.
+
+
+---
+
+[Can a Hallucinating Model help in Reducing Human "Hallucination"?](https://arxiv.org/abs/2405.00843)
+
+- Compares LLMs with humans in terms capability to distinguish logical reasoning errors. LLMs perform better than humans in psychometric assessments. Finds LLMs could be used as personalized LLM-agents to expose misinformation.
 
 
 ---
@@ -965,6 +984,14 @@ Filler token refers to "...".
 
 
 #### 13th of April 2024
+
+[LLMSat: A Large Language Model-Based Goal-Oriented Agent for Autonomous Space Exploration](https://arxiv.org/abs/2405.01392)
+
+- LLMSat: LLM-based spacecraft control and space missions.
+
+
+---
+
 
 [When Hindsight is Not 20/20: Testing Limits on Reflective Thinking in Large Language Models](https://arxiv.org/abs/2404.09129)
 
