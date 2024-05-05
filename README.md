@@ -66,7 +66,17 @@ Chronological order.
 - Achieves SOTA level in 25 robotic long horizon tasks from scratch by team partly consisting team by Mistral.AI and Carnegie Mellon University.
 - RL and LLMs complement each other strengths with LLMs able to divide long horizon goals into achievable sub-goals and RL capable of learning low-level robot control strategy.
 - Includes prompt examples.
-  
+
+---
+
+[OmniDrive: A Holistic LLM-Agent Framework for Autonomous Driving with 3D Perception, Reasoning and Planning](https://arxiv.org/abs/2405.01533)
+
+- OmniDrive: E2E autonomous driving with LLM-agents, and OmniDrive-nuScenes benchmark.
+- Visual encoder extracts multi-view image features, which are fed into Q-Former3D and finally to the LLM. 
+
+
+---
+
 #### 1st of May 2024
 
 [Social Life Simulation for Non-Cognitive Skills Learning](https://arxiv.org/abs/2405.00273)
