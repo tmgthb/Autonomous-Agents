@@ -102,6 +102,12 @@ Chronological order.
 
 - Compares LLMs with humans in terms capability to distinguish logical reasoning errors. LLMs perform better than humans in psychometric assessments. Finds LLMs could be used as personalized LLM-agents to expose misinformation.
 
+---
+
+["Ask Me Anything": How Comcast Uses LLMs to Assist Agents in Real Time](https://arxiv.org/abs/2405.00801)
+
+- "Ask Me Anything" (AMA): COMCAST applies LLMs (RAG-like) in human-to-human communcition in customer support by using LLMs to help resolve client calls in real-time. Led to millions of dollars savings in reduced time in the calls with positive evaluation by the customers.
+
 
 ---
 
