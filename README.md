@@ -122,6 +122,15 @@ Chronological order.
 
 ---
 
+#### 28th of April 2024
+
+[From Persona to Personalization: A Survey on Role-Playing Language Agents](https://arxiv.org/abs/2404.18231)
+
+- Reviews Role-Playing Language Agents (RPLAs) with LLMs.
+- Categorizes personas: demographic (statistical), character (established figures), individualized (customized through interactions) personas.
+
+
+---
 
 
 #### 24th of April 2024
