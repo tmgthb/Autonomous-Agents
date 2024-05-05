@@ -62,10 +62,10 @@ Chronological order.
 
 [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
 
-- Plan-Seq-Learn (PSL): High-level planning module, Sequenncing module (RL based Pose estimation/Motion planner) and Learning module (RL-based).
-- Achieves SOTA level in 25 robotic long horizon tasks.
-
-
+- Plan-Seq-Learn (PSL): Consists of three modules: LLM-based high-level planning module, Sequencing the LLM-generated plan with Pose Estimator/Motion planner with RL and Learning RL control policy module.
+- Achieves SOTA level in 25 robotic long horizon tasks from scratch by team partly consisting team by Mistral.AI and Carnegie Mellon University.
+- RL and LLMs complement each other strengths with LLMs able to divide long horizon goals into achievable sub-goals and RL capable of learning low-level robot control strategy
+  
 #### 1st of May 2024
 
 [Social Life Simulation for Non-Cognitive Skills Learning](https://arxiv.org/abs/2405.00273)
