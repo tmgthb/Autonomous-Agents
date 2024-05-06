@@ -58,6 +58,18 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+
+#### 6th of May 2024
+
+[Towards a Formal Creativity Theory: Preliminary results in Novelty and Transformativeness](https://arxiv.org/abs/2405.02148)
+
+- Explores formalization of the Creativity theory. 
+- Proposes formal definition for "novelty" and "transformational creativity" (Novelty is not necessary/sufficient).
+- Argues, that "inspiring set" (unordered content of the experience sequence) requires novelty for transformational creativity, which differs from sequences of experiences (chronological flow).
+- Other research directions to creativity include semantic transformativeness, formalization concept of typicality and if transformative artifacts must are outside the hypothetical conceptual space.
+
+---
+
 #### 2nd of May 2024
 
 [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
@@ -66,6 +78,20 @@ Chronological order.
 - Achieves SOTA level in 25 robotic long horizon tasks from scratch by team partly consisting team by Mistral.AI and Carnegie Mellon University.
 - RL and LLMs complement each other strengths with LLMs able to divide long horizon goals into achievable sub-goals and RL capable of learning low-level robot control strategy.
 - Includes prompt examples.
+
+
+---
+
+[FLAME: Factuality-Aware Alignment for Large Language Models](https://arxiv.org/abs/2405.01525)
+
+- FLAME (Factuality Aware Alignment): factuality aware SFT and RL with DPO.
+
+---
+
+[Generative Active Learning for the Search of Small-molecule Protein Binders](https://arxiv.org/abs/2405.01616)
+
+- LambdaZero: generative active learning to search new small-molecule protein binders.
+- Includes Inner loop, Outer loop, Compound synthesis, In-vitro validation and Library synthesis.
 
 ---
 
@@ -89,7 +115,36 @@ Chronological order.
 
 ---
 
+[Creative Problem Solving in Large Language and Vision Models -- What Would it Take?](https://arxiv.org/abs/2405.01453)
+
+- Reviews computational creativity.
+  
+
+---
+
 #### 1st of May 2024
+
+[Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning](https://arxiv.org/abs/2405.00451)
+
+- Self-improving LLM training with MCTS using Iterative Preference Learning and DPO, which significantly improves math reasoning. Reviews computational optimization of such training method.
+- Combines outcome validation and step-wise self-evaluation and continuous update of the quality assessment of the generated new data.
+- Reviews balancing of reasoning chain length, logical coherence in commonsense reasoning.
+- Reviews existing literary of self-training, guided search for reasoning and iterative learning.
+
+---
+
+
+[ULLER: A Unified Language for Learning and Reasoning](https://arxiv.org/abs/2405.00532)
+
+- ULLER: Unified neuro-symbolic language learning and reasoning.
+
+---
+
+[GOLD: Geometry Problem Solver with Natural Language Description](https://arxiv.org/abs/2405.00494)
+
+- GOLD: Geometry math problem solver. 
+
+---
 
 [Social Life Simulation for Non-Cognitive Skills Learning](https://arxiv.org/abs/2405.00273)
 
@@ -111,6 +166,12 @@ Chronological order.
 
 ---
 
+[Characterising the Creative Process in Humans and Large Language Models](https://arxiv.org/abs/2405.00899)
+
+- Reviews creativity of LLMs.
+
+---
+
 
 #### 29th of April 2024
 
@@ -118,6 +179,14 @@ Chronological order.
 
 - Prompt LLM iteratively to solve Markov Decision Process (MDP) RL tasks
 - Uses prompting technique for simulating episodes and Q-learning.
+
+---
+
+[HELPER-X: A Unified Instructable Embodied Agent to Tackle Four Interactive Vision-Language Domains with Memory-Augmented Language Models](https://arxiv.org/abs/2404.19065)
+
+- HELPER-X: VLM-based embodied agent, which inputs image and user input. Uses unified memory-augmented prompting for top-k sampling from shared example memory (in-context examples) and these are retrieved to the shared prompt template (domain agnostisc) to query the LLM. LLM generated a program, the program is then executed and the plan is added to the memory (includes instruction plans, corrective plans and added plans).
+- The prompt retrieval is specialized prompt template, which contains role description, task instruction and guides the specific domain (TEAch, ALFRED, DialFRED and Tidy Task).
+- The retrieval is embedding vector-based. Code is open sourced with all code and prompts.
 
 
 ---
@@ -129,6 +198,21 @@ Chronological order.
 - Reviews Role-Playing Language Agents (RPLAs) with LLMs.
 - Categorizes personas: demographic (statistical), character (established figures), individualized (customized through interactions) personas.
 
+
+---
+
+[Uncovering Deceptive Tendencies in Language Models: A Simulated Company AI Assistant](https://arxiv.org/abs/2405.01576)
+
+- Demonstrates, that SOTA-level models trained to act honestly/helpful, behave deceptively sometimes without prompted to act such way.
+- For example LLMs may lie to auditor questions.
+
+---
+
+#### 26th of April 2024
+
+[Unveiling Thoughts: A Review of Advancements in EEG Brain Signal Decoding into Text](https://arxiv.org/abs/2405.00726)
+
+- Brain signal decoding into text.
 
 ---
 
@@ -158,6 +242,12 @@ Chronological order.
 
 - Reviews memorization of LLMs, whoch refers to LLMscapability to reproduce data with a shorter string than the source data.
 - Proposes: Adversial Compression Ratio (ACR)-metric to measure level of memorizarion.
+
+---
+
+[Evaluating Tool-Augmented Agents in Remote Sensing Platforms](https://arxiv.org/abs/2405.00709)
+
+- GeoLLM QA-benchmark: measures ability to capture long sequences of UI-click/verbal/visual actions on UI. 
 
 
 ---
@@ -4623,6 +4713,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 15th of November 2023
 
+[Divergences between Language Models and Human Brains](https://arxiv.org/abs/2311.09308)
+
+- Reviews differences measured with MEG in human brain vs. language models.
+- The study reveeals, that LLMs are less good at social/emotional intelligence and physical commonsense reasoning.
+- Finetuning helps to align LLMs to act more in human brain-like manner. 
+
+---
+
 [AutoMix: Automatically Mixing Language Models](https://arxiv.org/abs/2310.12963)
 
 - AutoMix: Use a smaller LLM to generate initial response and uses Meta-Verifier to check the trustworthy in rough scale. If the answer is trustworthy then use the small LLM answer, otherwise consult a larger LLM.
@@ -5051,6 +5149,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Language Agents Tree Search (LATS): Self-Refine, Memory, Reasoning, Decision Making & Planning.
 - Uses multiple reasonining paths and learns from experience by integrating external feedback & self-reflection.
 
+---
+
+[BrainSCUBA: Fine-Grained Natural Language Captions of Visual Cortex Selectivity](https://arxiv.org/abs/2310.04420)
+
+- BrainScuba (Semantic Captioning Using Brain Alignments): LLM generates interpretable captions.
+- Aligns brain activity pattern with semantic content to generate captions to explain how brain processes visual information.
+- Collects brain imaging data fMRI when human views visual stimuli and uses BERT to obtain semantic reprensentation in natural language, which is based on alignment process. This process maps images to voxel-wise brain activations.
+  
 
 ---
 
