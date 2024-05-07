@@ -82,6 +82,14 @@ Chronological order.
 
 ---
 
+[Language Evolution for Evading Social Media Regulation via LLM-based Multi-agent Simulation](https://arxiv.org/abs/2405.02858)
+
+- Language evolution using LLM-based multi-agent simulation.
+- Includes supervisory and participant agents.
+
+
+---
+
 #### 2nd of May 2024
 
 [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
