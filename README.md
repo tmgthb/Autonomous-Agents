@@ -70,6 +70,18 @@ Chronological order.
 
 ---
 
+#### 5th of May 2024
+
+[Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/abs/2405.02957)
+
+- Agent Hospital: MedAgent-Zero-method, where LLM-based doctor agents provide SOTA level medical care in MedQA-dataset.
+- Learns to scale knowledge base through inference simulation with doctor agents.
+- MedAgent-Zero-method is a self-evolution method, where medical agents continuously evolve by processing cases and engaging in self-feedback.
+- Uses knowledge database to accumulate successful and unsuccesful treatments performed. 
+
+
+---
+
 #### 2nd of May 2024
 
 [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
