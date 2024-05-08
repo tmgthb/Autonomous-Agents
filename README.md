@@ -343,6 +343,12 @@ Chronological order.
 
 ---
 
+[Generative Active Learning for the Search of Small-molecule Protein Binders](https://arxiv.org/abs/2405.01616)
+
+- LambdaZero: generative ai for searching synthesizable molecules with particular type of desired characteristics.
+
+---
+
 #### 1st of May 2024
 
 [Monte Carlo Tree Search Boosts Reasoning via Iterative Preference Learning](https://arxiv.org/abs/2405.00451)
