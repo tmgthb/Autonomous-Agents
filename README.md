@@ -300,6 +300,7 @@ Chronological order.
 
 - FLAME (Factuality Aware Alignment): factuality aware SFT and RL with DPO.
 
+
 ---
 
 [Generative Active Learning for the Search of Small-molecule Protein Binders](https://arxiv.org/abs/2405.01616)
@@ -332,7 +333,13 @@ Chronological order.
 [Creative Problem Solving in Large Language and Vision Models -- What Would it Take?](https://arxiv.org/abs/2405.01453)
 
 - Reviews computational creativity.
-  
+
+---
+
+[CoS: Enhancing Personalization and Mitigating Bias with Context Steering](https://arxiv.org/abs/2405.01768)
+
+- CoS (Context Steering): adjusting LLM to context based on likelihood difference between the LLM output when it has seen / not seen the context. 
+
 
 ---
 
