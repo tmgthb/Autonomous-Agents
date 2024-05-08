@@ -66,6 +66,12 @@ Chronological order.
 - NeurDB: AI system combining AI model and the DB.
 - Includes interesting discussion and design choices for next generation DBs.
 
+---
+
+[Iterative Experience Refinement of Software-Developing Agents](https://arxiv.org/abs/2405.04219)
+
+- Iterative Experience Refinement: Autonomous agents with LLMs adjust experiences iteratively when executing the task.
+- Introduces two patterns: succesive pattern (based on nearest experiences in task batch) and cumulative pattern (acquiring experiences from all task batches) 
 
 ---
 
