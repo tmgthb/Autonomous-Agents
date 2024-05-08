@@ -278,6 +278,12 @@ Chronological order.
 
 ---
 
+[Comparative Analysis of Retrieval Systems in the Real World](https://arxiv.org/abs/2405.02048)
+
+- Reviews existing search and retrieval systems for LLMs.
+
+---
+
 #### 2nd of May 2024
 
 [Plan-Seq-Learn: Language Model Guided RL for Solving Long Horizon Robotics Tasks](https://arxiv.org/abs/2405.01534)
