@@ -69,6 +69,14 @@ Chronological order.
 
 ---
 
+[Unveiling Disparities in Web Task Handling Between Human and Web Agent](https://arxiv.org/abs/2405.04497)
+
+- Studies VLML and LLM capability to perform web tasks.
+- Compares web agent and human-like behaviour.
+
+
+---
+
 [Verified Neural Compressed Sensing](https://arxiv.org/abs/2405.04260)
 
 - THis DeepMind study opens avenue for neural networks to solve mathematical and scientific problems, which are automatically verifieble to be correct without any human intervention.
