@@ -246,7 +246,6 @@ Chronological order.
 
 - ECLAIR (Enterprise sCaLe AI for woRkflows): Self-imrpoving and minimal supervision requiring enterprise workflow automation system using foundational models (FM).
 - Includes three stages: Automatic process mapping (video record flow is converted with FM to Standard Operating Procedure), Robust/flexible reasoning-based (using the Standard Operating Procedure and FM), Automated auditing (FM to rate ok / not ok and self-improve).
-- 
 - The github repository includes prompt examples and code.
 
 ---
@@ -256,6 +255,14 @@ Chronological order.
 - Reviews AI Consciousness and proposes Neuromorphic Correlates of Artificial Consciousness (NCAC)-framework.
 - The framework consists of Quantification, Simulation, Adaptation, and Implementation.
 - Interesting details in general about conciousness research such as Integrated Information Theory (IIT)
+
+---
+
+[What matters when building vision-language models?](https://arxiv.org/abs/2405.02246)
+
+- Reviews VLMs.
+- Builds 8B parameter Idefics2-model achieving SOTA-level performance at its size. 
+
 
 ---
 
