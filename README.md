@@ -59,7 +59,148 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
+#### 7th of May 2024
+
+[NeurDB: An AI-powered Autonomous Data System](https://arxiv.org/abs/2405.03924)
+
+- NeurDB: AI system combining AI model and the DB.
+- Includes interesting discussion and design choices for next generation DBs.
+
+
+---
+
+[Verified Neural Compressed Sensing](https://arxiv.org/abs/2405.04260)
+
+- THis DeepMind study opens avenue for neural networks to solve mathematical and scientific problems, which are automatically verifieble to be correct without any human intervention.
+
+
+---
+
+[Iterative Experience Refinement of Software-Developing Agents](https://arxiv.org/abs/2405.04219)
+
+- Iterative Experience Refinement: SW-Agents adapt and improve iteratively during task execution. 
+- Refining from neareast exerience within a task batch and Cumulatively acquiring experiences from all prior batches. Experience elimination, where high-quality experienced are prioritized.
+
+
+---
+
+[Policy Learning with a Language Bottleneck](https://arxiv.org/abs/2405.04118)
+
+- Policy Learning with Language Bottleneck (PLLB): AI-agents using rule-generation stage (LLMs) and update stage (learn new policies).
+- Demonstrate generalizable behaviour.
+
+
+---
+
 #### 6th of May 2024
+
+[Advancing Multimodal Medical Capabilities of Gemini](https://arxiv.org/abs/2405.03162)
+
+- Med-Gemini: SOTA-level medical reasoning (medical image classification/VQA/report generation/genomic risk prediction) in 17 out of 20 benchmarks.
+- Different data modalities use one of the three unique visual encoders, which are separated to own models.
+- Med-Gemini-2D (conventional 2D images: chest X-ray/CT slices/pathology patches), Med-Gemini-3D (3D medical data like CT), and Med-Gemini-Polygenic (non image features like genomics).
+
+
+
+---
+
+
+[AlphaMath Almost Zero: process Supervision without process](https://arxiv.org/abs/2405.03553)
+
+- Super Mario (from Alibaba group): Applies a novel AlphaMath-method, which uses MCTS to improve LLM math reasoning skills without human annotated solution proces.
+- The approach objective is to generate a MCTS Value Model, which is able to confidently review partial solution to a math problem, so the LLM can generate the next reasoning steps. The value model training requires definition of reward or Policy model.
+- AlphaMath includes three stages: Data collection of math problems and answer pairs as first step. MCTS evaluation generates solution paths (correct/incorrect) and evaluates node values. Policy model and Value model are optimized with the MCTS generated data and the model is Iteratively trained.
+- Achieves SOTA-level math benchmark results of 81.4 (GSM8K)- and 63.7(MATH)-datasets using 7B parameter model.
+- The training data includes 15k question-answer pairs, but this data does not include human-annoted solutions.  
+
+
+---
+
+[Animate Your Thoughts: Decoupled Reconstruction of Dynamic Natural Vision from Slow Brain Activity](https://arxiv.org/abs/2405.03280)
+
+- Mind Animator: Maps human dynamic vision from brain activity between fMRI (semantic/structural/motion features) and video.
+- Achieves SOTA-level performance.
+
+---
+
+[Enhancing Q-Learning with Large Language Model Heuristics](https://arxiv.org/abs/2405.03341)
+
+- LLM-guided Q-learning. 
+
+---
+
+[Large Language Models (LLMs) as Agents for Augmented Democracy](https://arxiv.org/abs/2405.03452)
+
+- LLMs predict individual political preferences with 69%-76% accuracy.
+
+
+---
+
+[Meta-Evolve: Continuous Robot Evolution for One-to-many Policy Transfer](https://arxiv.org/abs/2405.03534)
+
+- Meta-Evolve-method: transfer expert policy from source robot to multiple target robots using continuous robot evolution.
+
+---
+
+[Position Paper: Leveraging Foundational Models for Black-Box Optimization: Benefits, Challenges, and Future Directions](https://arxiv.org/abs/2405.03547)
+
+- DeepMind research on Black-box optimization.
+
+---
+
+[Conformity, Confabulation, and Impersonation: Persona Inconstancy in Multi-Agent LLM Collaboration](https://arxiv.org/abs/2405.03862)
+
+- Reviews LLMs difficulty to consistently apply specific cultural persona.
+
+---
+
+[Self-Improving Customer Review Response Generation Based on LLMs](https://arxiv.org/abs/2405.03845)
+
+- SCRABLE (Self-improving Customer Review Response Automation Based on LLMs): Self-improves prompts and uses LLM-as-a-Judge-mechanism.
+- Customized and automated prompt engineering (LLM as the prompt generator) increases customer satisfaction/engagement. 
+- Iterative refinement prompts LLM to apply insights from the human expert answer.
+
+---
+
+[Select to Perfect: Imitating desired behavior from large multi-agent data](https://arxiv.org/abs/2405.03735)
+
+- AI driving agents using Exchange Value, measuring individual agent collective desirability score.
+- Imitates agents with positive Exchange Value, for example how few traffic incidents the agent causes.
+
+---
+
+[When LLMs Meet Cybersecurity: A Systematic Literature Review](https://arxiv.org/abs/2405.03644)
+
+- Includes a comphrensive review of LLM-cybersecurity research from 180 different research pappers.
+- Includes an updated link on LLM-cybersecurity research, which I think is very useful.
+- 
+
+---
+
+[FOKE: A Personalized and Explainable Education Framework Integrating Foundation Models, Knowledge Graphs, and Prompt Engineering](https://arxiv.org/abs/2405.03734)
+
+- FOKE: Integrates KGs, LLMs and prompt engineering.
+
+---
+
+[Language-Image Models with 3D Understanding](https://arxiv.org/abs/2405.03685)
+
+- Cube-LLM: 3D-grounded reasoning with LLMs.
+
+---
+
+[Thoughtful Things: Building Human-Centric Smart Devices with Small Language Models](https://arxiv.org/abs/2405.03821)
+
+- Reviews LLMs integrated into smart devices like lamp, which adjusts color of light with voice control using Rasberry Pi 5. Applies small fine-tuned LLMs to reason about their (own) device behaviour.
+
+---
+
+[Organizing a Society of Language Models: Structures and Mechanisms for Enhanced Collective Intelligence](https://arxiv.org/abs/2405.03825)
+
+- Reviews collective intelligence in LLMs: hierarchical/flat/dynamic and federated.
+
+
+---
 
 [Towards a Formal Creativity Theory: Preliminary results in Novelty and Transformativeness](https://arxiv.org/abs/2405.02148)
 
@@ -67,6 +208,15 @@ Chronological order.
 - Proposes formal definition for "novelty" and "transformational creativity" (Novelty is not necessary/sufficient).
 - Argues, that "inspiring set" (unordered content of the experience sequence) requires novelty for transformational creativity, which differs from sequences of experiences (chronological flow).
 - Other research directions to creativity include semantic transformativeness, formalization concept of typicality and if transformative artifacts must are outside the hypothetical conceptual space.
+
+
+---
+
+[OmniActions: Predicting Digital Actions in Response to Real-World Multimodal Sensory Inputs with LLMs](https://arxiv.org/abs/2405.03901)
+
+- OmniActions: LLM processes multimodal inputs (scene description, object detection, OCR, sound classifier and speech content and contextual information: place/activity) using CoT from users, to predict follow up actions
+
+
 
 ---
 
@@ -87,6 +237,37 @@ Chronological order.
 - Language evolution using LLM-based multi-agent simulation.
 - Includes supervisory and participant agents.
 
+
+---
+
+#### 3th o May 2024
+
+[Automating the Enterprise with Foundation Models](https://arxiv.org/abs/2405.03710)
+
+- ECLAIR (Enterprise sCaLe AI for woRkflows): Self-imrpoving and minimal supervision requiring enterprise workflow automation system using foundational models (FM).
+- Includes three stages: Automatic process mapping (video record flow is converted with FM to Standard Operating Procedure), Robust/flexible reasoning-based (using the Standard Operating Procedure and FM), Automated auditing (FM to rate ok / not ok and self-improve).
+- 
+- The github repository includes prompt examples and code.
+
+---
+
+[Neuromorphic Correlates of Artificial Consciousness](https://arxiv.org/abs/2405.02370)
+
+- Reviews AI Consciousness and proposes Neuromorphic Correlates of Artificial Consciousness (NCAC)-framework.
+- The framework consists of Quantification, Simulation, Adaptation, and Implementation.
+- Interesting details in general about conciousness research such as Integrated Information Theory (IIT)
+
+---
+
+[CodeGRAG: Extracting Composed Syntax Graphs for Retrieval Augmented Cross-Lingual Code Generation](https://arxiv.org/abs/2405.02355)
+
+- CODEGRAG: effective retrieval method for code in code improving.
+
+---
+
+[Beyond Helpfulness and Harmlessness: Eliciting Diverse Behaviors from Large Language Models with Persona In-Context Learning](https://arxiv.org/abs/2405.02501)
+
+- Persona In-Context Learning (PICLe): LLM method to replicate target persona behaviour using ICL.
 
 ---
 
@@ -195,6 +376,18 @@ Chronological order.
 
 #### 29th of April 2024
 
+[Capabilities of gemini models in medicine](https://arxiv.org/abs/2404.18416)
+
+- Med-Gemini: Med-Gemini-L 1.0 for medical care reasoning.
+- Uses self-training with search (the model iteratively generates CoT reasoning responses with/without web query and applies in-context expert demonstrations) and Uncertainty-guided search at inference (iteratively generate multiple CoT reasoning paths, filter based on uncertainty and retrieve search results for more accurate responses).
+- SOTA-level model in 10 medical reasoning tasks and surpassing human-expert on some of them.
+- Integrates web-search queries when the model is uncertain.
+
+
+
+
+---
+
 [Reinforcement Learning Problem Solving with Large Language Models](https://arxiv.org/abs/2404.18638)
 
 - Prompt LLM iteratively to solve Markov Decision Process (MDP) RL tasks
@@ -287,7 +480,16 @@ Chronological order.
 [A Survey on the Memory Mechanism of Large Language Model based Agents](https://arxiv.org/abs/2404.13501)
 
 - Huawei's literature review on memory mechanism in LLM-agents.
-- Why memory is required, how to design and evaluate memory-based LLMs? 
+- Why memory is required, how to design and evaluate memory-based LLMs?
+
+---
+
+[Accelerating Medical Knowledge Discovery through Automated Knowledge Graph Generation and Enrichment](https://arxiv.org/abs/2405.02321)
+
+- Medical Knowledge Graph Automation (M-KGA)
+
+
+---
 
 
 #### 19th of April 2024
