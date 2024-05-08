@@ -74,6 +74,13 @@ Chronological order.
 - Studies VLML and LLM capability to perform web tasks.
 - Compares web agent and human-like behaviour.
 
+---
+
+[Deception in Reinforced Autonomous Agents: The Unconventional Rabbit Hat Trick in Legislation](https://arxiv.org/abs/2405.04325)
+
+- Reviews deception by autonomous agents.
+- Highlights a concern in autonomous agents: potentially triggering humans towards its programmed goal.
+
 
 ---
 
