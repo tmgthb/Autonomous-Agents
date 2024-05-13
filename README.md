@@ -80,6 +80,14 @@ Chronological order.
 - GPTCoach: Physical activity behaviour change with LLMs. Uses prompt chains: Dialogue state manager, Strategy prediction, Response generation, Tool call prediction, tool call generation and execution of tool call.
 
 
+[Air Gap: Protecting Privacy-Conscious Conversational Agents](https://arxiv.org/abs/2405.05175)
+
+- AirGapAgent: privacy-conscious LLM agent, which limits leaking private data by limiting data (minimization prompts) provided to the agent. 
+- Introduces context-hijacking and refers to contextual integrity. Introduces an adversial thread-model attempting to extract private data. 
+- Components include User data, Minimizer LM, task, privacy directive, which are sealed by AirGap to minimize user data given to the environment. 
+
+
+
 ---
 
 #### 7th of May 2024
