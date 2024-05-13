@@ -61,6 +61,25 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 9th of May 2024
+
+[Smurfs: Leveraging Multiple Proficiency Agents with Context-Efficiency for Tool Planning](https://arxiv.org/abs/2405.05955)
+
+- Smurfs: multi-agent LLM: prompting technique for unique roles to facilitate collaboration between specialized agents.
+- Outperforms GPT-4 model performance in ToolBench I2/I3 with Mistral 7B model.
+- Includes: Planning (task decomposition), Executor (choosing/executing tools), Answer, Verifier agents.
+- Uses to-do list, local memory, tool doc and global memory. Tool errors are managed either by deleting the tool or by restarting the tool-step.
+- Executor agent flow includes: hint, thought, tool list, action, local memory, tool doc and action input. 
+- Paper includes exact prompts used for each agent.
+
+---
+
+[Supporting Physical Activity Behavior Change with LLM-Based Conversational Agents](https://arxiv.org/abs/2405.06061)
+
+- GPTCoach: Physical activity behaviour change with LLMs. Uses prompt chains: Dialogue state manager, Strategy prediction, Response generation, Tool call prediction, tool call generation and execution of tool call.
+
+
+---
 
 #### 7th of May 2024
 
