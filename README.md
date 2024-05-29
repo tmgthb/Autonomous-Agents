@@ -62,6 +62,13 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+[A Human-Like Reasoning Framework for Multi-Phases Planning Task with Large Language Models](https://arxiv.org/abs/2405.18208)
+
+- Introduces a multi-stage Human-like planning framework with LLM-agents.
+
+
+---
+
 #### 27th of May 2024
 
 [An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
