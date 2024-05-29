@@ -62,6 +62,11 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 27th of May 2024
+
+[An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
+
+- Reviews VLMs: VLM model types, training and evaluation of them.
 
 ---
 
