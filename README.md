@@ -63,14 +63,6 @@ Autonomous Agents (LLMs). Updated daily
 Chronological order. 
 
 
-[AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288)
-
-- AutoAgents: Planner agent receives user input and converts it into a plan. Multiple agent roles take actions in this plan to convert into a result. 
-- Observers: Observer agent reviews, if the created agent roles meet the requirements. Plan observer agent reviews, if the plan meets expectations. Action observer reviews, if the action response meets expectations.
-- Includes drafting stage (with agent observer and plan observer agents) and Execution stage (with action observer).
-
-
-
 ---
 
 #### 9th of May 2024
