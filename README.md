@@ -62,6 +62,16 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+#### 28th of May 2024
+
+[Faithful Logical Reasoning via Symbolic Chain-of-Thought](https://arxiv.org/abs/2405.18357)
+
+- Symbolic CoT: to improve logical reasoning.
+- Uses four step approach.
+
+
+---
+
 [A Human-Like Reasoning Framework for Multi-Phases Planning Task with Large Language Models](https://arxiv.org/abs/2405.18208)
 
 - Introduces a multi-stage Human-like planning framework with LLM-agents.
