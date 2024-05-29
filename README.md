@@ -5575,8 +5575,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+#### 29th of September 2023
 
-#### 29th of Setember 2023
+[AutoAgents: A Framework for Automatic Agent Generation](https://arxiv.org/abs/2309.17288)
+
+- AutoAgents: Planner agent receives user input and converts it into a plan. Multiple agent roles take actions in this plan to convert into a result. 
+- Observers: Observer agent reviews, if the created agent roles meet the requirements. Plan observer agent reviews, if the plan meets expectations. Action observer reviews, if the action response meets expectations.
+- Includes drafting stage (with agent observer and plan observer agents) and Execution stage (with action observer).
+
+
+---
 
 [Motif: Intrinsic Motivation from Artificial Intelligence Feedback](https://arxiv.org/abs/2310.00166)
 
