@@ -60,7 +60,18 @@ Autonomous Agents (LLMs). Updated daily
 
 ## Research
 
+
 Chronological order. 
+
+#### 29th of May 2029
+
+[Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719)
+
+- CoPE (Contextual Position Encoding): LLMs attentionmechanism, which pays attention to i-th sentence and not only i-th token.
+- CoPE solves new tasks, which position embeddings fail.
+- Uses context-vectors to count, which token to pay attention.
+
+---
 
 #### 28th of May 2024
 
