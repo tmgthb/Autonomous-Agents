@@ -63,7 +63,16 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
-#### 29th of May 2029
+#### 30th of May 2024
+
+[Large Language Models Can Self-Improve At Web Agent Tasks](https://arxiv.org/abs/2405.20309)
+
+- Reviews LLM agents self-improvement capability
+
+
+---
+
+#### 29th of May 2024
 
 [Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719)
 
