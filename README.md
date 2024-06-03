@@ -35,6 +35,25 @@ Copyright (C) Teemu Maatta.
 
 # Autonomous Agents
 
+<table>
+  <tr>
+    <td>
+      <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+      </ul>
+    </td>
+    <td>
+      <ul>
+        <li>Item 4</li>
+        <li>Item 5</li>
+        <li>Item 6</li>
+      </ul>
+    </td>
+  </tr>
+</table>
+
 
 Autonomous Agents (LLMs). Updated daily
 
