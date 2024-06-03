@@ -146,6 +146,7 @@ Chronological order.
 
 - RL-based LLM agent to play ONUW-game. Includes belief-modelling (observation-belief), discussion tactic selection (discussion tactic candidates, discussion policy) and decision making (action phase).
 
+
 ---
 
 
@@ -154,6 +155,13 @@ Chronological order.
 [Artificial Intelligence Index Report 2024](https://arxiv.org/abs/2405.19522)
 
 - Yearly AI Index Report 2024.
+
+---
+
+[Adaptive In-conversation Team Building for Language Model Agents](https://arxiv.org/abs/2405.19425)
+
+- Captain Agent: Adaptive team building with LLM agents: Adaptive builder-agent, Reflector-agent and LLM agent team.
+
 
 ---
 
