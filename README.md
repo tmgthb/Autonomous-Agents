@@ -35,7 +35,7 @@ Copyright (C) Teemu Maatta.
 
 # Autonomous Agents
 
-<table>
+<table border="0">
   <tr>
     <td>
       <ul>
