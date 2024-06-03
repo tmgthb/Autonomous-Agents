@@ -35,15 +35,15 @@ Copyright (C) Teemu Maatta.
 
 # Autonomous Agents
 
-<div style="display: grid; grid-template-columns: 1fr 1fr;">
-  <div>
+<div style="display: flex;">
+  <div style="flex: 1;">
     <ul>
       <li>Item 1</li>
       <li>Item 2</li>
       <li>Item 3</li>
     </ul>
   </div>
-  <div>
+  <div style="flex: 1;">
     <ul>
       <li>Item 4</li>
       <li>Item 5</li>
@@ -51,6 +51,7 @@ Copyright (C) Teemu Maatta.
     </ul>
   </div>
 </div>
+
 
 
 
