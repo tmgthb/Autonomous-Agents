@@ -103,6 +103,14 @@ Chronological order.
 - Interaction module includes world/user representation, long-term memory, knowledge, user interaction, emotional analysis, short-term memory, emotions, mood, personality, internet search, new search, wikipedia, weather search and behaviour generation.
 - Robot control includes gaze, gesture/pose, facial expression, lip synchronization, animation engine, actuator control and speech synthesis.
 
+
+---
+
+[Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://arxiv.org/abs/2405.19888)
+
+- Parrot: Proposes "Semantic Variable", to program LLM applications using single pipeline to multiple LLM service providers.
+  
+
 ---
 
 [Auto Arena of LLMs: Automating LLM Evaluations with Agent Peer-battles and Committee Discussions](https://arxiv.org/abs/2405.20267)
@@ -137,8 +145,8 @@ Chronological order.
 
 - RL-based LLM agent to play ONUW-game. Includes belief-modelling (observation-belief), discussion tactic selection (discussion tactic candidates, discussion policy) and decision making (action phase).
 
-
 ---
+
 
 #### 29th of May 2024
 
