@@ -133,6 +133,13 @@ Chronological order.
 
 ---
 
+[Learning to Discuss Strategically: A Case Study on One Night Ultimate Werewolf](https://arxiv.org/abs/2405.19946)
+
+- RL-based LLM agent to play ONUW-game. Includes belief-modelling (observation-belief), discussion tactic selection (discussion tactic candidates, discussion policy) and decision making (action phase).
+
+
+---
+
 #### 29th of May 2024
 
 [Artificial Intelligence Index Report 2024](https://arxiv.org/abs/2405.19522)
