@@ -35,16 +35,16 @@ Copyright (C) Teemu Maatta.
 
 # Autonomous Agents
 
-<table border="0">
+<table style="width: 100%; table-layout: fixed;"> 
   <tr>
-    <td>
+    <td style="width: 50%;"> 
       <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
       </ul>
     </td>
-    <td>
+    <td style="width: 50%;"> 
       <ul>
         <li>Item 4</li>
         <li>Item 5</li>
@@ -53,6 +53,7 @@ Copyright (C) Teemu Maatta.
     </td>
   </tr>
 </table>
+
 
 
 
