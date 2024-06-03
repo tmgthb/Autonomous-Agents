@@ -108,8 +108,9 @@ Chronological order.
 
 [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://arxiv.org/abs/2405.19888)
 
-- Parrot: Proposes "Semantic Variable", to program LLM applications using single pipeline to multiple LLM service providers.
-  
+- Parrot: E2E LLM service for LLM applicationsin python.
+- Proposes "Semantic Variable", to program LLM applications using single pipeline to multiple LLM service providers.
+- Includes interesting insights about serving LLM models / applications when served at large scale.  
 
 ---
 
