@@ -63,16 +63,77 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+
+#### 31st of May 2024
+
+[SaySelf: Teaching LLMs to Express Confidence with Self-Reflective Rationales](https://arxiv.org/abs/2405.20974)
+
+- SaySelf: produces self-reflective rationales on uncertainty and confidence estimates.
+
+---
+
+[LACIE: Listener-Aware Finetuning for Confidence Calibration in Large Language Models](https://arxiv.org/abs/2405.21028)
+
+- LACIE: LLM listener model, which reviews confidence of given answer to question and fine-tuned based on preference data by non-expert LLM listerner confidence data.
+
+
+--- 
+
 #### 30th of May 2024
+
+
+[Towards Hierarchical Multi-Agent Workflows for Zero-Shot Prompt Optimization](https://arxiv.org/abs/2405.20252)
+
+- HMAW (Hierarchical Multi-Agent Workflow): generic prompt optimization technique, which includes CEO layer, manager prompt, manager layer, worker prompt and worker layer.
+- The HMAW automated prompting method is zero-shot, task agnostic and query-specific.
+
+
+---
+
+[Nadine: An LLM-driven Intelligent Social Robot with Affective Capabilities and Human-like Memory](https://arxiv.org/abs/2405.20189)
+
+- Nadine: Social robot, LLM agent based on SoR-ReAct. Includes perception, interaction  and robot control.
+- Perception includes skeleton tracking, action recognition, face recognition, emotion recognition, audio localization and speech recognition.
+- Interaction module includes world/user representation, long-term memory, knowledge, user interaction, emotional analysis, short-term memory, emotions, mood, personality, internet search, new search, wikipedia, weather search and behaviour generation.
+- Robot control includes gaze, gesture/pose, facial expression, lip synchronization, animation engine, actuator control and speech synthesis.
+
+---
+
+[Auto Arena of LLMs: Automating LLM Evaluations with Agent Peer-battles and Committee Discussions](https://arxiv.org/abs/2405.20267)
+
+- Auto-Arena: automatic evaluation of LLMs.
+- Examiner LLM creates prompts, two LLMs engage in multi-turn conversation on the prompt to reveal difference in performance and LLM judges discusses the performance of different LLM agents to pick the better LLM.
+
+  
+---
+
+[From Words to Actions: Unveiling the Theoretical Underpinnings of LLM-Driven Autonomous Systems](https://arxiv.org/abs/2405.19883)
+
+- PAR (Planner-Actor-Reporter) system with LLM agents: uses hierarchical RL model with LLM handling high-level planning and low level execution.
+
+
+---
 
 [Large Language Models Can Self-Improve At Web Agent Tasks](https://arxiv.org/abs/2405.20309)
 
-- Reviews LLM agents self-improvement capability
+- Reviews LLM agents self-improvement capability.
+
+---
+
+[CausalQuest: Collecting Natural Causal Questions for AI Agents](https://arxiv.org/abs/2405.20318)
+
+- CausalQuest: Trains a classifier for identifying causal questions, reviews causal question types and formalizes the definition of the "causal question". Introduces dataset for causal questions.
 
 
 ---
 
 #### 29th of May 2024
+
+[Artificial Intelligence Index Report 2024](https://arxiv.org/abs/2405.19522)
+
+- Yearly AI Index Report 2024.
+
+---
 
 [Contextual Position Encoding: Learning to Count What's Important](https://arxiv.org/abs/2405.18719)
 
@@ -104,6 +165,17 @@ Chronological order.
 [An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
 
 - Reviews VLMs: VLM model types, training and evaluation of them.
+
+
+---
+
+#### 24th of May 2024
+
+[Large Language Model Sentinel: Advancing Adversarial Robustness by LLM Agent](https://arxiv.org/abs/2405.20770)
+
+- LLAMOS (Large LAnguage MOdel Sentinel): adversial attach protection technique, where LLM prompts are reviewed before sending to the target LLM and in case necessary replace the adversial input with a purified version.
+- The LLM input is converted into adversial example, which the target LLM would interpret as invalid. In such case, the system would create a purified version of the prompt, which would be accepted by the LLM target.
+
 
 ---
 
