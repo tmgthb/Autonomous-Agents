@@ -35,20 +35,23 @@ Copyright (C) Teemu Maatta.
 
 # Autonomous Agents
 
-<div style="width: 50%; float: left;">
-  <ul>
-    <li>Item 1</li>
-    <li>Item 2</li>
-    <li>Item 3</li>
-  </ul>
+<div style="display: grid; grid-template-columns: 1fr 1fr;">
+  <div>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </div>
+  <div>
+    <ul>
+      <li>Item 4</li>
+      <li>Item 5</li>
+      <li>Item 6</li>
+    </ul>
+  </div>
 </div>
-<div style="width: 50%; float: left;">
-  <ul>
-    <li>Item 4</li>
-    <li>Item 5</li>
-    <li>Item 6</li>
-  </ul>
-</div>
+
 
 
 
