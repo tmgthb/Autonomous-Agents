@@ -44,13 +44,13 @@ Autonomous Agents (LLMs). Updated daily
   - [Literature reviews](#literaturereviews)
   - [Capabilities](#capabilities)
   - [Benchmarks](#benchmarks)
-- [Why Autonomous Agents work?](#why)
 - [Autonomous Agent Systems](#systems)
   - [Perception](#perception)
   - [Planning](#planning)
   - [Memory](#memory)
   - [Emotional Intelligence](#emotions)
   - [Reasoning](#reasoning)
+- [Why Autonomous Agents work?](#why)
 - [Emerging Frontiers](#emergingfrontiers)
 
 
