@@ -37,14 +37,14 @@ Copyright (C) Teemu Maatta.
 
 <table style="width: 100%; table-layout: fixed;"; border="0"> 
   <tr>
-    <td style="width: 50%;"> 
+    <td style="width: 50%;"; border="0"> 
       <ul>
         <li>Item 1</li>
         <li>Item 2</li>
         <li>Item 3</li>
       </ul>
     </td>
-    <td style="width: 50%;"> 
+    <td style="width: 50%;"; border="0"> 
       <ul>
         <li>Item 4</li>
         <li>Item 5</li>
