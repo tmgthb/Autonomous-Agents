@@ -6776,6 +6776,71 @@ Negative:
 ---
 
 
+<div id="systems">  
+
+</div>
+
+
+---
+
+## Autonomous Agents Systems
+
+- [Perception](#perception)
+- [Planning](#planning)
+- [Memory](#memory)
+- [Emotional Intelligence](#emotions)
+- [Reasoning](#reasoning)
+
+
+---
+
+<div id="perception">  
+
+</div>
+
+### Perception
+
+---
+
+<div id="planning">  
+
+</div>
+
+### Planning
+
+
+---
+
+<div id="memory">  
+
+</div>
+
+### Memory
+
+
+---
+
+<div id="emotions">  
+
+</div>
+
+### Emotional Intelligence
+
+
+---
+
+<div id="reasoning">  
+
+</div>
+
+### Reasoning
+
+
+
+
+---
+
+
 <div id="why">  
 
 </div>
