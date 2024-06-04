@@ -69,6 +69,25 @@ Autonomous Agents (LLMs). Updated daily
 
 Chronological order. 
 
+<div id="reasoning_paper"> </div>  
+
+#### 3rd of June 2024
+
+[SpatialRGPT: Grounded Spatial Reasoning in Vision Language Model](https://arxiv.org/abs/2406.01584v1)
+
+- SpatialRGPT: Spatial understanding with VLMs by using depth maps together with RGB images for geometric reasoning.
+- Introduces SpatialBench-benchmark.
+
+---
+
+
+#### 2nd of June 2024
+
+[A Survey of Useful LLM Evaluation](https://arxiv.org/abs/2406.00936)
+
+- Reviews LLMs core capabilities from three perspectives: reasoning, societal and domain knowledge. 
+
+---
 
 #### 31st of May 2024
 
@@ -6824,6 +6843,11 @@ Negative:
 
 ### Perception
 
+F. Rosenblatt was an early investigator of Perception through the (Perceptron)[https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf]-paper from 1958.
+
+Modern AI systems refer perception through VLMs.
+
+
 ---
 
 <div id="planning">  
@@ -6840,6 +6864,22 @@ Negative:
 </div>
 
 ### Memory
+
+Memory (refers)[https://dictionary.cambridge.org/dictionary/english/memory] to abilitty to remember according to Cambridge dictionary.
+
+Autonomous agents require memory for multiple reasons: to retrieve information, to learn from past, tracking progress, to make decisions, to use context and to communicate.   
+
+According to (Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1], the Memory in LLM-based agents can be divided into:
+- Inside-trial information
+- Cross-trial information
+- External Knowledge.
+
+(Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1] find three types of memory operations: memory reading, memory writing and memory management. 
+
+(Li et al. (2024))[https://arxiv.org/abs/2211.05110] divide memory research into three parts:
+- World knowledge in LLMs
+- Knowledge update in LLMs
+- Contextual and Parametric knowledge
 
 
 ---
@@ -6859,11 +6899,28 @@ Negative:
 
 ### Reasoning
 
+Reasoning is (defined)[https://dictionary.cambridge.org/dictionary/english/reasoning] by Cambridge dictionary: "the process of thinking about something in order to make a decision".
+
+An autonomous agent is characterized by its ability to make decisions autonomously in order to pursue its goals. Therefore, the reasoning is a fundamental characteristics of the autonomous agent. 
+
+Humans reason in multiple ways. For example mathematical reasoning cannot be only solved using only perception/memory/planning. 
+
+[Peng et al. 2024](#reasoning_study) categorize reasoning into:
+- Logical reasoning ((Gemini Ultra)[https://arxiv.org/abs/2312.11805] achieves 80.8% in ChartQA)
+  - Inductive
+  - Deductive
+  - Abductive
+- Mathematical reasoning ((Claude 3 Opus)[https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf]: 95% in GSM8K, 60.1% in MATH)
+- Commonsense reasoning ((Gemini Ultra)[https://arxiv.org/abs/2312.11805]/(GPT-4)[https://rowanzellers.com/hellaswag/]/(Claude 3 Opus)[https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf]: 95.3%/95.4% in HellaSwag)
+- Multi-hop reasoning ((Claude 3)[https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf] 96.4% in ARC)
+- Structured-data reasoning (See research such as (Chain-of-Table by Wang et al 2024)[https://arxiv.org/abs/2401.04398v2])
+
+The overall reasoning capability is currently roughly 86.6% (MMLU-benchmark) with (Claude 3 Opus)[https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf] published in March 2024. 
 
 
+Full human-level reasoning requires more progress/better reliability/better datasets/better benchmarks in multiple dimensions of reasoning such as spatial, tempoeral, emotional, meta-cognition and probabilistic. 
 
 ---
-
 
 <div id="why">  
 
@@ -6904,6 +6961,16 @@ Negative:
 
 
 Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
+
+We should still not forget the progress made during the last two years in LLMs based on "simplistic" next-sequence prediction objective. Computational reasoning has not only advanced in the last two years, but it is multiple dimensions close to human-level reasoning. 
+
+I like to refer this  surprising phenomenon as the "Paradox of Lexical Labyrinth".
+
+Paradox of Lexical Labyrinth:
+
+The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequence prediction, such as predicting the next word in a language, gives rise to advanced cognitive skills like profound reasoning capabilities. The labyrinth refers to the vast & complex  landscape of language, characterized by its infinite potential for meaning and expression.
+
+---
 
 
 
