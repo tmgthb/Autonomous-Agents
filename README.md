@@ -6856,6 +6856,11 @@ Modern AI systems refer perception through VLMs.
 
 ### Planning
 
+Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/english/planning] dictionary as: "the act of deciding how to do something".
+
+According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
+
+
 
 ---
 
