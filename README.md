@@ -1,5 +1,4 @@
 <!--Autonomous Agents -->
-
 <!--
 Copyright (C) Teemu Maatta. 
 
@@ -10,8 +9,16 @@ Copyright (C) Teemu Maatta.
   howpublished = {\url{https://github.com/tmgthb/Autonomous-Agents}},
   note = {Accessed: YYYY-MM-DD}
 }
-
 -->
+
+<div id="topofthepage"> </div>
+
+<div align="center">
+  
+[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
+[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftmgthb%2FAutonomous-Agents&count_bg=%23F2C027&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](https://github.com/tmgthb/Autonomous-Agents)
+</div>
 
 
 <p align="center">
@@ -20,20 +27,10 @@ Copyright (C) Teemu Maatta.
 
 
 
-<div align="center">
-
-[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=social)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
-[![Twitter Follow](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftmgthb%2FAutonomous-Agents&count_bg=%23F2C027&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=false)](https://hits.seeyoufarm.com)
+<h1 align="center"> Autonomous Agents</h1>
 
 
 
-
-</div>  
-
-<div id="topofthepage"> </div>
-
-# Autonomous Agents
 
 
 Autonomous Agents (LLMs). Updated daily
@@ -50,7 +47,7 @@ Autonomous Agents (LLMs). Updated daily
   - [Memory](#memory)
   - [Emotional Intelligence](#emotions)
   - [Reasoning](#reasoning)
-- [Why Autonomous Agents work?](#why)
+- [Why Autonomous Agents work?](#why) 
 - [Emerging Frontiers](#emergingfrontiers)
 
 
@@ -71,6 +68,26 @@ Chronological order.
 
 <div id="reasoning_paper"> </div>  
 
+#### 4th of June 2024
+
+[CoNav: A Benchmark for Human-Centered Collaborative Navigation](https://arxiv.org/abs/2406.02425)
+
+- CoNav-benchmark: 3D-navigation environment, which tests ability to reason human-intentions and navigate collaboratively.
+- Proposes an intention aware agent, which observes humans, avoids human collision and navigates to destinaton
+- Uses panoramic depht-camera view (RGB-D images), historical views, history trajectories and agent pose. Includes ResNet-object detector, Intention predictor (Long-term and short term) for intended activity/object/trajectory and agent pose (gps and compass sensor).
+
+
+---
+
+[MARS: Benchmarking the Metaphysical Reasoning Abilities of Language Models with a Multi-task Evaluation Dataset](https://arxiv.org/abs/2406.02106)
+
+- Mars (MetAphysical ReaSoning)-benchmark: measures metaphysical reasoning capability: the understanding of the agent to adapt for situational transitions triggered by environment changes in order to act in a concious way with the environment. 
+- Agents face a challenge in the environment due to the infinite possible changes triggered by an event. The benchmark systematically reviews reasoning of the LLMs in such situations regards changes in actions, states caused by changed actions and situational transitions caused by changes in actions.
+- SOTA models struggle even after fine-tuning in this benchmark.
+
+
+---
+
 #### 3rd of June 2024
 
 [SpatialRGPT: Grounded Spatial Reasoning in Vision Language Model](https://arxiv.org/abs/2406.01584v1)
@@ -86,6 +103,13 @@ Chronological order.
 [A Survey of Useful LLM Evaluation](https://arxiv.org/abs/2406.00936)
 
 - Reviews LLMs core capabilities from three perspectives: reasoning, societal and domain knowledge. 
+
+---
+
+[Teams of LLM Agents can Exploit Zero-Day Vulnerabilities](https://arxiv.org/abs/2406.01637)
+
+- HPTSA: Research with a planning agent explores environment and decides, which subagents to use in zero-day vulnerabilities exploits.
+
 
 ---
 
@@ -174,6 +198,14 @@ Chronological order.
 [Artificial Intelligence Index Report 2024](https://arxiv.org/abs/2405.19522)
 
 - Yearly AI Index Report 2024.
+
+
+---
+
+[STAT: Shrinking Transformers After Training](https://arxiv.org/abs/2406.00061)
+
+- STAT: a structured pruning approach, that compresses Transformer into smaller size without fine-tuning taking 1 minute to compress BERT model or 3 hours 7B parameter model with 1 GPU.
+- 
 
 ---
 
@@ -6943,6 +6975,7 @@ Full human-level reasoning requires more progress/better reliability/better data
 - [World models](#worldmodels)
 - [Resource mind-view](#resourcemind)
 - [Free energy principle](#freeenergyprinciple)
+- [Real World Environments](#realworldenvironments)
 
 
 <div id="nextsequenceprediction">  
@@ -7173,8 +7206,14 @@ ASI concept seems vague, because current AI systems are not generally more capab
 
 #### Consciousness
 
-
 I add in this section definitions, experiments and thoughts of researchers on the controversial subject of consciousness.
+
+In the article The Stream of Consciousness by William James (1892) defines [four characterstics of consciousness](https://webspace.ship.edu/cgboer/jamesselection.html)
+
+- Consciousness is persnal
+- Consciousness is in constant change
+- Personal consciousness is continuous
+- Humans pay pays attention to parts of the consciousness, while excluding others parts
 
 [Consciousness: Here, There but Not Everywhere](https://arxiv.org/abs/1405.7089)
 
