@@ -13,7 +13,7 @@ Copyright (C) Teemu Maatta.
 
 <div id="topofthepage"> </div>
 
-<br>
+
 
 <div align="center">
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers) 
