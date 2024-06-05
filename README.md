@@ -30,12 +30,13 @@ Copyright (C) Teemu Maatta.
 <div align="center">
 
   # Autonomous Agents
+  Autonomous Agents (LLMs). Updated daily
 
 
   
 </div>
 
-Autonomous Agents (LLMs). Updated daily
+
 
 - [Research](#papers)
 - [What is an Autonomous Agent?](#what)
