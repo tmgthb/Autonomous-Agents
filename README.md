@@ -31,24 +31,21 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
+
 - [Research](#papers)
-- [What is an Autonomous Agent?](#what)
-  - [Definitions](#definitions)
-  - [Literature reviews](#literaturereviews)
-  - [Capabilities](#capabilities)
-  - [Benchmarks](#benchmarks)
-- [Why Autonomous Agents work?](#why) 
-- [Emerging Frontiers](#emergingfrontiers)
-
-<!--
 - [Autonomous Agent Systems](#systems)
-  - [Perception](#perception)
-  - [Planning](#planning)
-  - [Memory](#memory)
-  - [Emotional Intelligence](#emotions)
-  - [Reasoning](#reasoning)
-  -->
-
+  - [Introduction: Why Autonomous agents work?](#why)
+  - [Definition of Autonomous Agents](#definitions)
+  - [Literature reviews](#literaturereviews)
+  - [Benchmarks](#benchmarks)
+  - Architecture of Autonomous Agents
+    - [Perception](#perception)
+    - [Planning](#planning)
+    - [Memory](#memory)
+    - [Emotional Intelligence](#emotions)
+    - [Reasoning](#reasoning)
+  - [Future research challenges](#emergingfrontiers)
+    - Consciousness research
 
 
 ---
