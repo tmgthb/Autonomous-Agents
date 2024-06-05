@@ -37,11 +37,11 @@ Copyright (C) Teemu Maatta.
   - [Literature reviews](#literaturereviews)
   - [Capabilities](#capabilities)
   - [Benchmarks](#benchmarks)
-- [Autonomous Agent Systems](#systems)
 - [Why Autonomous Agents work?](#why) 
 - [Emerging Frontiers](#emergingfrontiers)
 
-<!-- 
+<!--
+- [Autonomous Agent Systems](#systems)
   - [Perception](#perception)
   - [Planning](#planning)
   - [Memory](#memory)
