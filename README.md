@@ -54,12 +54,10 @@ Copyright (C) Teemu Maatta.
 
 <div id="papers"> </div>  
 
-<details>
-  <summary>
+
     
   ## Research
     
-  </summary>
 
 
 
@@ -6550,7 +6548,7 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 
-</details>
+
 
 
 
