@@ -57,7 +57,10 @@ Copyright (C) Teemu Maatta.
 <div id="papers"> </div>  
 
 <details>
-  <summary>## Research</summary>
+  <summary>
+    
+    ## Research
+  </summary>
 
 
 
