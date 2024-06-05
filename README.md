@@ -50,14 +50,17 @@ Copyright (C) Teemu Maatta.
 
 <div id="papers" align="center">
 
-## Research
+## Research papers
 
 Chronological order. 
 
 </div>  
 
 
-
+<div class="button-container">
+  <button class="my-button">Button 1</button>
+  <button class="my-button secondary">Button 2</button>
+</div>
 
 
 
