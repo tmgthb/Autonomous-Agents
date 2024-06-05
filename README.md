@@ -27,11 +27,6 @@ Copyright (C) Teemu Maatta.
 <div align="center">
 
   # Autonomous Agents
-   
-
-</div>
-
-
 <details>
   <summary>Autonomous Agents-research papers. Updated daily.</summary>
   
@@ -51,6 +46,11 @@ Copyright (C) Teemu Maatta.
 - [Emerging Frontiers](#emergingfrontiers)
 
 </details>
+   
+
+</div>
+
+
 
 
 
