@@ -59,7 +59,8 @@ Copyright (C) Teemu Maatta.
 <details>
   <summary>
     
-    ## Research
+  ## Research
+    
   </summary>
 
 
