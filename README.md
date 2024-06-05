@@ -33,11 +33,11 @@ Copyright (C) Teemu Maatta.
 
 ## Table of Contents
 - [Research](#papers)
-- [Autonomous Agents Systems](#what)
-  - [Introduction: Why Autonomous agents work?](#why)
-  - [Definition of Autonomous Agents](#definitions)
+- [Why Autonomous agents work?](#why)
+- [Introduction to Autonomous Agents](#introduction)
+  - [Definition](#definitions)
   - [Benchmarks](#benchmarks)
-  - [Literature reviews](#literaturereviews)
+  - [Related work](#literaturereviews)
 - [Autonomous Agent Systems](#systems)
   - [Perception](#perception)
   - [Planning](#planning)
@@ -57,10 +57,6 @@ Chronological order.
 </div>  
 
 
-<div class="button-container">
-  <button class="my-button">Button 1</button>
-  <button class="my-button secondary">Button 2</button>
-</div>
 
 
 
@@ -6548,11 +6544,56 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 
+---
 
 
 
+## Why Autonomous Agents work? 
 
-<div id="what">  
+
+- [About next sequence prediction](#nextsequenceprediction)
+- [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
+- [World models](#worldmodels)
+- [Resource mind-view](#resourcemind)
+- [Free energy principle](#freeenergyprinciple)
+- [Real World Environments](#realworldenvironments)
+
+
+<div id="nextsequenceprediction">  
+
+</div>
+
+---
+
+
+### About predicting next sequence
+
+
+- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
+- Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
+- Next sequence prediction algorithm is generic algorithm.
+
+    - Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
+    - Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes.
+    - Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
+    - Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
+
+
+Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
+
+We should still not forget the progress made during the last two years in LLMs based on "simplistic" next-sequence prediction objective. Computational reasoning has not only advanced in the last two years, but it is multiple dimensions close to human-level reasoning. 
+
+I like to refer this  surprising phenomenon as the "Paradox of Lexical Labyrinth".
+
+Paradox of Lexical Labyrinth:
+
+The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequence prediction, such as predicting the next word in a language, gives rise to advanced cognitive skills like profound reasoning capabilities. The labyrinth refers to the vast & complex  landscape of language, characterized by its infinite potential for meaning and expression.
+
+---
+
+
+
+<div id="demystifyingemergingabilities">  
 
 </div>
 
@@ -6560,11 +6601,88 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ---
 
 
-## What are Autonomous Agents?
+### Demystifying Emerging Abilities
 
-- [Definitions](#definitions)
+
+- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
+- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
+
+Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
+
+
+<div id="worldmodels">  
+
+</div>
+
+
+### World Models
+
+
+[Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
+
+- Minsky defined in 24th of Octoboer 1960 in Steps Towards Artificial Intellicence under chapter: "Models of Oneself":
+
+ "If a creature can answer a question about a hypothetical experiment, without actually performing that experiment, then the answer must have been obtained from some submachine inside the creature. The output of that submachine (representing a correct answer) as well as the input (representing the question) must be coded descriptions of the corresponding external events or event classes. Seen through this pair of encoding and decoding channels, the internal submachine acts like the environment, and so it has the character of a "model." The inductive inference problem may then be regarded as the problem of constructing such a model. 
+ 
+To the extent that the creature's actions affect the environment, :**this internal model of the world will need to include some representation of the creature itself:**. If one asks the creature "why did you decide to do such and such" (or if it asks this of itself), any answer must come from the internal model."
+
+- Minsky writes as well about world models 1968 in the "Matter, Mind and Models", which I recommend to read as a whole, but I add two sentences:
+
+"We use the term "model" in the following sense: To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A."
+
+"A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
+
+
+
+---
+
+
+<div id="resourcemind">  
+
+</div>
+
+
+### Agents are Resources 
+
+
+- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
+- LLM agents prompting enables resource-rich behaviour from LLMs.
+
+
+---
+
+
+<div id="freeenergyprinciple">  
+
+</div>
+
+
+### Free energy principle
+
+
+- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
+- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
+
+
+
+
+
+
+<div id="introduction">  
+
+</div>
+
+
+---
+
+
+
+## Introduction to Autonomous Agents
+
+- [Definition](#definitions)
+- [Benchmarks](#benchmarks)
 - [Literature reviews](#literaturereviews)
-- [Capabilities](#capabilities)
+
 
 
 <div id="definitions">  
@@ -6968,120 +7086,6 @@ Full human-level reasoning requires more progress/better reliability/better data
 ---
 
 
-## Why Autonomous Agents work? 
-
-
-- [About next sequence prediction](#nextsequenceprediction)
-- [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
-- [World models](#worldmodels)
-- [Resource mind-view](#resourcemind)
-- [Free energy principle](#freeenergyprinciple)
-- [Real World Environments](#realworldenvironments)
-
-
-<div id="nextsequenceprediction">  
-
-</div>
-
----
-
-
-### About predicting next sequence
-
-
-- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
-- Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
-- Next sequence prediction algorithm is generic algorithm.
-
-    - Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
-    - Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes.
-    - Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
-    - Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
-
-
-Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
-
-We should still not forget the progress made during the last two years in LLMs based on "simplistic" next-sequence prediction objective. Computational reasoning has not only advanced in the last two years, but it is multiple dimensions close to human-level reasoning. 
-
-I like to refer this  surprising phenomenon as the "Paradox of Lexical Labyrinth".
-
-Paradox of Lexical Labyrinth:
-
-The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequence prediction, such as predicting the next word in a language, gives rise to advanced cognitive skills like profound reasoning capabilities. The labyrinth refers to the vast & complex  landscape of language, characterized by its infinite potential for meaning and expression.
-
----
-
-
-
-<div id="demystifyingemergingabilities">  
-
-</div>
-
-
----
-
-
-### Demystifying Emerging Abilities
-
-
-- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
-- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
-
-Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
-
-
-<div id="worldmodels">  
-
-</div>
-
-
-### World Models
-
-
-[Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
-
-- Minsky defined in 24th of Octoboer 1960 in Steps Towards Artificial Intellicence under chapter: "Models of Oneself":
-
- "If a creature can answer a question about a hypothetical experiment, without actually performing that experiment, then the answer must have been obtained from some submachine inside the creature. The output of that submachine (representing a correct answer) as well as the input (representing the question) must be coded descriptions of the corresponding external events or event classes. Seen through this pair of encoding and decoding channels, the internal submachine acts like the environment, and so it has the character of a "model." The inductive inference problem may then be regarded as the problem of constructing such a model. 
- 
-To the extent that the creature's actions affect the environment, :**this internal model of the world will need to include some representation of the creature itself:**. If one asks the creature "why did you decide to do such and such" (or if it asks this of itself), any answer must come from the internal model."
-
-- Minsky writes as well about world models 1968 in the "Matter, Mind and Models", which I recommend to read as a whole, but I add two sentences:
-
-"We use the term "model" in the following sense: To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A."
-
-"A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
-
-
-
----
-
-
-<div id="resourcemind">  
-
-</div>
-
-
-### Agents are Resources 
-
-
-- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
-- LLM agents prompting enables resource-rich behaviour from LLMs.
-
-
----
-
-
-<div id="freeenergyprinciple">  
-
-</div>
-
-
-### Free energy principle
-
-
-- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
-- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
 
 
 
