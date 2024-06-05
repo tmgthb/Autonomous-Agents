@@ -38,7 +38,7 @@ Copyright (C) Teemu Maatta.
   - [Definition of Autonomous Agents](#definitions)
   - [Literature reviews](#literaturereviews)
   - [Benchmarks](#benchmarks)
-  - Architecture of Autonomous Agents
+  - [Architecture of Autonomous Agents](#what)
     - [Perception](#perception)
     - [Planning](#planning)
     - [Memory](#memory)
