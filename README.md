@@ -38,11 +38,13 @@ Copyright (C) Teemu Maatta.
   - [Capabilities](#capabilities)
   - [Benchmarks](#benchmarks)
 - [Autonomous Agent Systems](#systems)
+- <!-- 
   - [Perception](#perception)
   - [Planning](#planning)
   - [Memory](#memory)
   - [Emotional Intelligence](#emotions)
   - [Reasoning](#reasoning)
+  -->
 - [Why Autonomous Agents work?](#why) 
 - [Emerging Frontiers](#emergingfrontiers)
 
