@@ -14,11 +14,13 @@ Copyright (C) Teemu Maatta.
 <div id="topofthepage"> </div>
 
 
-<h1 align="center"> Autonomous Agents</h1>
-
 <p align="center">
   <img height="80" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/autonomous_agent_logo.png" alt="Autonomous Agents">
 </p>
+
+
+<h1 align="center"> Autonomous Agents</h1>
+
 
 
 <div align="center">
