@@ -31,11 +31,9 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-
 <details>
-  <summary>Contents</summary>
-  
-- [Research](#papers)
+  <summary>- [Research](#papers)</summary>
+</details>
 - [What is an Autonomous Agent?](#what)
   - [Definitions](#definitions)
   - [Literature reviews](#literaturereviews)
@@ -50,7 +48,7 @@ Copyright (C) Teemu Maatta.
 - [Why Autonomous Agents work?](#why) 
 - [Emerging Frontiers](#emergingfrontiers)
 
-</details>
+
 
 
 
