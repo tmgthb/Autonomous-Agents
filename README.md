@@ -38,6 +38,9 @@ Copyright (C) Teemu Maatta.
   - [Capabilities](#capabilities)
   - [Benchmarks](#benchmarks)
 - [Autonomous Agent Systems](#systems)
+- [Why Autonomous Agents work?](#why) 
+- [Emerging Frontiers](#emergingfrontiers)
+
 <!-- 
   - [Perception](#perception)
   - [Planning](#planning)
@@ -45,10 +48,6 @@ Copyright (C) Teemu Maatta.
   - [Emotional Intelligence](#emotions)
   - [Reasoning](#reasoning)
   -->
-- [Why Autonomous Agents work?](#why) 
-- [Emerging Frontiers](#emergingfrontiers)
-
-
 
 
 
