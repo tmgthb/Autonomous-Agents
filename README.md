@@ -30,8 +30,6 @@ Copyright (C) Teemu Maatta.
   Autonomous Agents-research papers. Updated daily.
 
 </div>
-
-Table of Contents:
 - [Research](#papers)
 - [Autonomous Agent Systems](#systems)
   - [Introduction: Why Autonomous agents work?](#why)
