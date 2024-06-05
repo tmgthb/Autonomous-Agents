@@ -31,7 +31,7 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-## Index
+## Table of Contents
 - [Research](#papers)
 - [Autonomous Agent Systems](#systems)
   - [Introduction: Why Autonomous agents work?](#why)
