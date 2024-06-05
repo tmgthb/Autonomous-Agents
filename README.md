@@ -31,9 +31,7 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-<details>
-  <summary>- [Research](#papers)</summary>
-</details>
+- [Research](#papers)
 - [What is an Autonomous Agent?](#what)
   - [Definitions](#definitions)
   - [Literature reviews](#literaturereviews)
@@ -58,8 +56,10 @@ Copyright (C) Teemu Maatta.
 
 <div id="papers"> </div>  
 
+<details>
+  <summary>## Research</summary>
 
-## Research
+
 
 
 Chronological order. 
@@ -6546,6 +6546,9 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - A* search algorithm.
 - Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
 
+
+
+</details>
 
 
 
