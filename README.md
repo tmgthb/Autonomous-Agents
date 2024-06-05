@@ -52,12 +52,14 @@ Copyright (C) Teemu Maatta.
 
 ## Research
 
+Chronological order. 
+
 </div>  
 
 
 
 
-Chronological order. 
+
 
 <div id="reasoning_paper"> </div>  
 
