@@ -335,6 +335,25 @@ Includes list of literature reviews by other authors for quick reference.
 - [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
 
 
+---
+
+
+<div id="benchmarks">  
+
+</div>
+
+
+### Benchmarks
+
+
+
+
+---
+
+
+
+
+
 
 <div id="capabilities">  
 
@@ -342,19 +361,6 @@ Includes list of literature reviews by other authors for quick reference.
 
 
 ---
-
-
-### Capabilities
-
-
-- Cognitive functions / human mind mental resources (#resourcecloud) (planning/execution/verification/etc)
-- Memory(short/long/sensorial/embedding),
-- Roles (teacher/student/etc),
-- Tools (other models/vector DBs/APIs/etc),
-- Reasoning paths (vanilla/CoT/ToT/GoT/etc),
-- Environments (code interpreter/browser/api/RL environment/real world),
-- Embodiments (LLM call/virtual enviroment/robotics/real world) and
-- Autonomity (manual/interactive/fully autonomous).
 
 
 ---
@@ -371,9 +377,20 @@ Includes list of literature reviews by other authors for quick reference.
 
 - [Perception](#perception)
 - [Planning](#planning)
-- [Memory](#memory)
+- [Memory / Context ](#memory)
 - [Emotional Intelligence](#emotions)
-- [Reasoning](#reasoning)
+- [Reasoning](#reasoning): CoT/ToT/GoT/etc.
+
+Additional aspects:
+
+- [Tool use](#tools): APIs, robot arms, vector DBs, etc
+- Environments (code interpreter/browser/api/RL environment/real world),
+- Embodiments (LLM call/virtual enviroment/robotics/real world) and
+- Autonomity (manual/interactive/fully autonomous).
+- Roles (teacher/student/etc),
+
+
+
 
 
 ---
