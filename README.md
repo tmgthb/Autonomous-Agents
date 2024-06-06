@@ -48,6 +48,17 @@ Chronological order.
 
 <div id="reasoning_paper"> </div>  
 
+#### 5th of June 2024
+
+[The Good, the Bad, and the Hulk-like GPT: Analyzing Emotional Decisions of Large Language Models in Cooperation and Bargaining Games](https://arxiv.org/abs/2406.03299)
+
+- Simulates human behaviour using LLMs and finds emotions impact the LLM performance to simulate human-like behaviour.
+- Finds in specific, that angry-emotional state aligns surprisingly well with real human behaviour.
+- GPT-4 responds rationally even when prompted with strong emotions.
+
+---
+
+
 #### 4th of June 2024
 
 [CoNav: A Benchmark for Human-Centered Collaborative Navigation](https://arxiv.org/abs/2406.02425)
