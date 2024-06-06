@@ -628,7 +628,7 @@ Latest research suggest attention can be extended to infite context window in LL
 
 - LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
 - LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
-- [V-STaR](#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
+- [V-STaR](https://github.com/tmgthb/Autonomous-Agents/edit/main/README.md#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
 - LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
 - [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
 - LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
