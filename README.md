@@ -6532,6 +6532,26 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+## Citation
+
+
+How to cite my work?
+
+
+
+```
+@misc{MaattaAutonomousAgents2023,
+  author = {Teemu Maatta},
+  title = {Autonomous Agents},
+  year = {2023},
+  howpublished = {\url{https://github.com/tmgthb/Autonomous-Agents}},
+  note = {Accessed: YYYY-MM-DD}
+}
+
+```
+
+---
+
+
+
 [Back to top](#topofthepage)
-
-
