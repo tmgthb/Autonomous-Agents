@@ -32,7 +32,7 @@ Copyright (C) Teemu Maatta.
 </div>
 
 - [Introduction to Autonomous Agents](#introduction)
-  - [Definition](#definitions)
+  - [Definitions](#definitions)
   - [Benchmarks](#benchmarks)
   - [Related work](#relatedwork)
 - [Autonomous Agent Systems](#systems)
