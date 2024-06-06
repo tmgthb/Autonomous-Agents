@@ -58,7 +58,7 @@ Copyright (C) Teemu Maatta.
 
 ## Introduction to Autonomous Agents
 
-There exists already over +1k research papers, which directly reference the term "Autonomous Agent".
+There exists already over +1k research papers with term: "Autonomous Agent" [in arXiv](https://arxiv.org/search/?searchtype=all&query=%22Autonomous+Agents%22&abstracts=show&size=50&order=-announced_date_first) and +700 Github [repositories](https://github.com/search?q=%22Autonomous%20Agent%22&type=repositories).
 
 </div>
 
