@@ -343,7 +343,13 @@ Includes list of literature reviews by other authors for quick reference.
 </div>
 
 
+<div align="center">
+
 ### Benchmarks
+I add here benchmarks, which measure the Autonomous Agents based their performance on the component level. 
+</div>
+
+
 
 
 
