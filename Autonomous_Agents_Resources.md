@@ -82,7 +82,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 - [LLM Agent](#llmagent_definition)
 - [Embodied Agent](#embodiedagent_definition)
 - [AI Agent](#aiagent_defintion)
-- [Autonomous Generalist Agent](#aga_definition)
+- [Autonomous Agent (my definition)](#aga_definition)
 
 
 <div id="autonomousagent_definition">  
@@ -267,7 +267,7 @@ Alternative definition uses:
 
 
 
-####  Autonomous General Agent 
+####  Autonomous Agent (my definition) 
 
 TAll the above definitions include gaps, which I have noted along them. 
 
