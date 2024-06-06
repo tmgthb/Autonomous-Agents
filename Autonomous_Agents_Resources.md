@@ -295,15 +295,19 @@ Negative:
 ---
 
 
-<div id="literaturereviews">  
+<div id="relatedwork">  
 
 </div>
 
 
 ---
 
+<div align="center">  
 
-### Literature reviews
+### Related work
+Includes list of literature reviews by other authors for quick reference.
+</div>
+
 
 
 - [A Survey on Large Language Model based Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#autonomousagentssurvey),
