@@ -31,21 +31,6 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-
----
-
-
-
-
-
-
-
-# Autonomous Agents
-
-
-
-
-## Table of Contents
 - [Research papers](#researchpapers)
 - [Introduction to Autonomous Agents](#introduction)
   - [Definition](#definitions)
@@ -59,3 +44,4 @@ Copyright (C) Teemu Maatta.
   - [Emotional Intelligence](#emotions)
 - [Why Autonomous agents work?](#why)
 - [Future work](#emergingfrontiers)
+
