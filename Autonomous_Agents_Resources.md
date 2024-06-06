@@ -183,7 +183,7 @@ Negative:
 
 
 
-#### Language Agents / LLM Agents
+#### LLM Agents / Language Agents
 
 
 [Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
