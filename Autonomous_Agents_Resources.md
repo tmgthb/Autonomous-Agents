@@ -269,12 +269,11 @@ Alternative definition uses:
 
 ####  Autonomous General Agent 
 
+TAll the above definitions include gaps, which I have noted along them. 
 
-I define next a new term **Autonomous Generalist Agents" (AGA):
+Therefore, I found it necessary to add my own definition, which I call simply: **Autonomous Agent" (AA):
 
-
-
-**Autonomous Generalist Agent (AGA) perceives, reasons, hierarchically plans and interacts using language, memories, emotions and tools over time as part of an environments to complete novel objectives.** 
+**Autonomous Agent (AA) perceives, reasons, plans and interacts using language, memories, emotions and tools as part of an environments made of infinite actors, actions, modalities and events to complete novel objectives over time.** 
 
 
 Positive:
