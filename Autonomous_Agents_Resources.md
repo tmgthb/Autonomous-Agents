@@ -62,7 +62,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 
 </div>
 
-- [Definition](#definitions)
+- [Definitions](#definitions)
 - [Related work](#relatedwork)
 - [Benchmarks](#benchmarks)
 
