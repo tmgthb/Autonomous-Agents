@@ -347,35 +347,20 @@ Includes list of literature reviews by other authors for quick reference.
 
 
 
-
 ---
 
 
+<div id="systems">  
 
 
-
-
-<div id="capabilities">  
-
-</div>
 
 
 ---
 
-
----
-
-
-<div id="systems" align="center>  
+<div align="center">
 
 ## Autonomous Agent Systems
 </div>
-
-
----
-
-
-
 
 - [Perception](#perception)
 - [Planning](#planning)
