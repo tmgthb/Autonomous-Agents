@@ -366,14 +366,16 @@ Includes list of literature reviews by other authors for quick reference.
 ---
 
 
-<div id="systems">  
+<div id="systems" align="center>  
 
+## Autonomous Agent Systems
 </div>
 
 
 ---
 
-## Autonomous Agents Systems
+
+
 
 - [Perception](#perception)
 - [Planning](#planning)
