@@ -54,13 +54,15 @@ Copyright (C) Teemu Maatta.
 
 ---
 
-
+<div align="center">
 
 ## Introduction to Autonomous Agents
 
+</div>
+
 - [Definition](#definitions)
 - [Benchmarks](#benchmarks)
-- [Literature reviews](#literaturereviews)
+- [Related work](#relatedwork)
 
 
 
