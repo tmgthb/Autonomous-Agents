@@ -32,19 +32,19 @@ Copyright (C) Teemu Maatta.
 </div>
 
 ## Table of Contents
-1. [Research papers](#researchpapers)
-2. [Introduction to Autonomous Agents](#introduction)
-  2.1. [Definition](#definitions)
-  - [Benchmarks](#benchmarks)
-  - [Related work](#relatedwork)
-3. [Autonomous Agent Systems](#systems)
-  - [Reasoning](#reasoning)
-  - [Perception](#perception)
-  - [Planning](#planning)
-  - [Memory](#memory)
-  - [Emotional Intelligence](#emotions)
-4. [Why Autonomous agents work?](#why)
-5. [Future work](#emergingfrontiers)
+[Research papers](#researchpapers)
+[Introduction to Autonomous Agents](#introduction)
+- [Definition](#definitions)
+- [Benchmarks](#benchmarks)
+- [Related work](#relatedwork)
+[Autonomous Agent Systems](#systems)
+- [Reasoning](#reasoning)
+- [Perception](#perception)
+- [Planning](#planning)
+- [Memory](#memory)
+- [Emotional Intelligence](#emotions)
+[Why Autonomous agents work?](#why)
+[Future work](#emergingfrontiers)
 
 ---
 
