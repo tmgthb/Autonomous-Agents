@@ -274,7 +274,7 @@ I define next a new term **Autonomous Generalist Agents" (AGA):
 
 
 
-**Autonomous Generalist Agent (AGA) perceives, reasons, plans communicates and interacts over time as part of an environments to complete novel objectives.** 
+**Autonomous Generalist Agent (AGA) perceives, reasons, hierarchically plans and interacts using language, memories, emotions and tools over time as part of an environments to complete novel objectives.** 
 
 
 Positive:
@@ -282,12 +282,15 @@ Positive:
 - Reason
 - Plan own agenda
 - Communicate with language
+- Emotional aware
+- Includes memory
+- Uses tools
 - Interact bi-directionally with the environment
 - Internal clock
 - Generalize novel tasks
   
 Negative:
-- Does not include consciousness.
+- Do agent find useful human-like consciousness? How it would work?
 
 
 ---
