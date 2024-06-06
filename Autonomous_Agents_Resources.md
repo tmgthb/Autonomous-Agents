@@ -67,8 +67,8 @@ Copyright (C) Teemu Maatta.
 ### About predicting next sequence
 
 
-- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](#multitask). Single training objective results a [Massively Multi-task learning](#extreme). 
-- Next sequence prediction is [generic](#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
+- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#multitask). Single training objective results a [Massively Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#extreme). 
+- Next sequence prediction is [generic](https://github.com/tmgthb/Autonomous-Agents#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
 - Next sequence prediction algorithm is generic algorithm.
 
     - Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
@@ -102,8 +102,8 @@ The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequenc
 ### Demystifying Emerging Abilities
 
 
-- [Emerming Abilities](#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
-- Emerging abilities include Emerging Prompting Strategies such as: [CoT](#cot), which was not present in GPT-2 and emerged in GPT-3 model.
+- [Emerming Abilities](https://github.com/tmgthb/Autonomous-Agents#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
+- Emerging abilities include Emerging Prompting Strategies such as: [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), which was not present in GPT-2 and emerged in GPT-3 model.
 
 Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
 
@@ -143,7 +143,7 @@ To the extent that the creature's actions affect the environment, :**this intern
 ### Agents are Resources 
 
 
-- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](#resourcecloud).
+- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](https://github.com/tmgthb/Autonomous-Agents#resourcecloud).
 - LLM agents prompting enables resource-rich behaviour from LLMs.
 
 
@@ -209,7 +209,7 @@ To the extent that the creature's actions affect the environment, :**this intern
 #### Autonomous Agent
 
 
-Autonomous Agents was [defined](#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
+Autonomous Agents was [defined](https://github.com/tmgthb/Autonomous-Agents#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
 
 
 Good:
@@ -233,7 +233,7 @@ Negative:
 ####  Generalist Agent 
 
 
-[Generalist Agent was defined by Reed et al. in 2022](#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
+[Generalist Agent was defined by Reed et al. in 2022](https://github.com/tmgthb/Autonomous-Agents#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
 
 Positive:
 - Generalization of tasks/embodiments.
@@ -353,7 +353,7 @@ Negative:
 #### AI-Agents (Agentic AI)
 
 
-[Shavit et al. (2023)](#agentaidefinition) define AI Agent: "we will generally conceptualize **agentic AI systems** as operating in **pursuit of goals defined by humans** and in **environments determined by humans** (and often in **cooperation with human** “teammates”), rather than fully-autonomous systems that set their own goals."
+[Shavit et al. (2023)](https://github.com/tmgthb/Autonomous-Agents#agentaidefinition) define AI Agent: "we will generally conceptualize **agentic AI systems** as operating in **pursuit of goals defined by humans** and in **environments determined by humans** (and often in **cooperation with human** “teammates”), rather than fully-autonomous systems that set their own goals."
 
 Positive:
 - Highlights concrete aspects of "agentiness": goal complexity, environment complexity, adaptability and independent execution.
@@ -368,7 +368,7 @@ Negative:
 Alternative definition uses:
 
 
-- [Agent AI](#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
+- [Agent AI](https://github.com/tmgthb/Autonomous-Agents#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
 
 
 ---
@@ -419,11 +419,11 @@ Negative:
 ### Literature reviews
 
 
-- [A Survey on Large Language Model based Autonomous Agents](#autonomousagentssurvey),
-- [LLM Powered Autonomous Agents](#lili),
-- [The Rise and Potential of Large Language Model Based Agents: A Survey](#llmagentsurvey),
-- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](#humancap),
-- [LLMs](#llmsurveymikolov),
+- [A Survey on Large Language Model based Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#autonomousagentssurvey),
+- [LLM Powered Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#lili),
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://github.com/tmgthb/Autonomous-Agents#llmagentsurvey),
+- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://github.com/tmgthb/Autonomous-Agents#humancap),
+- [LLMs](https://github.com/tmgthb/Autonomous-Agents#llmsurveymikolov),
 - [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
 - [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
 - [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
@@ -559,7 +559,7 @@ An autonomous agent is characterized by its ability to make decisions autonomous
 
 Humans reason in multiple ways. For example mathematical reasoning cannot be only solved using only perception/memory/planning. 
 
-[Peng et al. 2024](#reasoning_study) categorize reasoning into:
+[Peng et al. 2024](https://github.com/tmgthb/Autonomous-Agents#reasoning_study) categorize reasoning into:
 - Logical reasoning ((Gemini Ultra)[https://arxiv.org/abs/2312.11805] achieves 80.8% in ChartQA)
   - Inductive
   - Deductive
@@ -626,12 +626,12 @@ Latest research suggest attention can be extended to infite context window in LL
 ### Self-Learning / Self-Recursive Improvement
 
 
-- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](#cot), [Self-Consistency](#selfconsistency) and [In-Context Learning](#multitask) during Inference.
-- LLMs can Self-Improve its model weights with: [STaR](#star), where the LLM itself is fine-tuned using correct CoT reasoning.
+- LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), [Self-Consistency](https://github.com/tmgthb/Autonomous-Agents#selfconsistency) and [In-Context Learning](https://github.com/tmgthb/Autonomous-Agents#multitask) during Inference.
+- LLMs can Self-Improve its model weights with: [STaR](https://github.com/tmgthb/Autonomous-Agents#star), where the LLM itself is fine-tuned using correct CoT reasoning.
 - [V-STaR](https://github.com/tmgthb/Autonomous-Agents#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
-- LMs [Recursively Self-Improving (RSI)](#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](#stopvideo).
-- [LLM Self-Improves its LLM](#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
-- LLM fine-tuning may be based on [Self-Play](#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
+- LMs [Recursively Self-Improving (RSI)](https://github.com/tmgthb/Autonomous-Agents#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](https://github.com/tmgthb/Autonomous-Agents#stopvideo).
+- [LLM Self-Improves its LLM](https://github.com/tmgthb/Autonomous-Agents#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
+- LLM fine-tuning may be based on [Self-Play](https://github.com/tmgthb/Autonomous-Agents#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
 
 ---
@@ -646,7 +646,7 @@ Latest research suggest attention can be extended to infite context window in LL
 
 
 - Tree-structures enable searching large reasoning trees for a solution to a complex problem
-- [Tree-Of-Thought](#tot) and (ToT or [Graph-of-Thought](#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+- [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
 - Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
 
@@ -656,7 +656,7 @@ Latest research suggest attention can be extended to infite context window in LL
 ### Synthetic data
 
 
-- The trend of LLMs using [TinyStories](#tinystories) or [Textbook-like datasets with Exercises](#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
+- The trend of LLMs using [TinyStories](https://github.com/tmgthb/Autonomous-Agents#tinystories) or [Textbook-like datasets with Exercises](https://github.com/tmgthb/Autonomous-Agents#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](https://github.com/tmgthb/Autonomous-Agents#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
 - Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
 
 
@@ -666,7 +666,7 @@ Latest research suggest attention can be extended to infite context window in LL
 ### Physical grounding in real world
 
 
-- [Interactive Agent Foundational Model](#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
+- [Interactive Agent Foundational Model](https://github.com/tmgthb/Autonomous-Agents#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
 
 
 ---
@@ -675,10 +675,10 @@ Latest research suggest attention can be extended to infite context window in LL
 ### Measuring Intelligence, Conciousness and Intelligent Behaviour
 
 
-- [Measuring Human Intelligence](#human_intelligence)
-- [Measuring Artificial General Intelligence](#agi_intelligence)
-- [Measuring Artificial Super Intelligence](#asi_intelligence)
-- [Measuring Conciousness](#conciousness)
+- [Measuring Human Intelligence](https://github.com/tmgthb/Autonomous-Agents#human_intelligence)
+- [Measuring Artificial General Intelligence](https://github.com/tmgthb/Autonomous-Agents#agi_intelligence)
+- [Measuring Artificial Super Intelligence](https://github.com/tmgthb/Autonomous-Agents#asi_intelligence)
+- [Measuring Consciousness](https://github.com/tmgthb/Autonomous-Agents#conciousness)
 
 
 ---
@@ -726,7 +726,7 @@ In the article The Stream of Consciousness by William James (1892) defines [four
 
 - Useful perspectives on this controversial topic.
 
-[Ilya Sutskever defined a practicalconsciousness test](#consciousnesstest) for LLMs.
+[Ilya Sutskever defined a practicalconsciousness test](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
 
 - AI Consciousness test.
 
