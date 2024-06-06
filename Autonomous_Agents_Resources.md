@@ -84,6 +84,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 - [AI Agent](#aiagent_defintion)
 - [Autonomous Agent (my definition)](#aga_definition)
 
+---
 
 <div id="autonomousagent_definition">  
 
