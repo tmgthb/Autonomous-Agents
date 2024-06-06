@@ -58,6 +58,8 @@ Copyright (C) Teemu Maatta.
 
 ## Introduction to Autonomous Agents
 
+There exists already over +1k research papers, which directly reference the term "Autonomous Agent".
+
 </div>
 
 - [Definition](#definitions)
