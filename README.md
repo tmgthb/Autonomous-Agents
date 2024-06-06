@@ -27,7 +27,7 @@ Copyright (C) Teemu Maatta.
 <div align="center">
 
   # Autonomous Agents
-  Autonomous Agents-research papers. Updated daily.
+  Autonomous Agents-research papers. Updated daily. Additional [information](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents.md).
 
 </div>
 
