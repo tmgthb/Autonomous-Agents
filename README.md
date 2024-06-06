@@ -34,7 +34,7 @@ Copyright (C) Teemu Maatta.
 ## Table of Contents
 1. [Research papers](#researchpapers)
 2. [Introduction to Autonomous Agents](#introduction)
-  - [Definition](#definitions)
+  2.1. [Definition](#definitions)
   - [Benchmarks](#benchmarks)
   - [Related work](#relatedwork)
 3. [Autonomous Agent Systems](#systems)
