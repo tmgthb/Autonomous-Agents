@@ -61,6 +61,15 @@ Chronological order.
 
 #### 4th of June 2024
 
+
+[Chain of Agents: Large Language Models Collaborating on Long-Context Tasks](https://arxiv.org/abs/2406.02818)
+
+- Chain-of-Agents (CoA): Addresses long-content problems by using multi-agent collaboration to add information and reason with LLMs.
+- Consists of two steps: first text is divided into small chunks, which each LLM-agent manage. Then, the worker agents synthesize information sequentially. Finally manager agent consumes these sequences to produce to the final answer.
+
+
+---
+
 [CoNav: A Benchmark for Human-Centered Collaborative Navigation](https://arxiv.org/abs/2406.02425)
 
 - CoNav-benchmark: 3D-navigation environment, which tests ability to reason human-intentions and navigate collaboratively.
