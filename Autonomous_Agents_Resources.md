@@ -66,6 +66,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 - [Related work](#relatedwork)
 - [Benchmarks](#benchmarks)
 
+---
 
 <div id="definitions">  
 
