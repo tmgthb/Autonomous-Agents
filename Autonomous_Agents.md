@@ -31,7 +31,6 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-- [Research papers](#researchpapers)
 - [Introduction to Autonomous Agents](#introduction)
   - [Definition](#definitions)
   - [Benchmarks](#benchmarks)
