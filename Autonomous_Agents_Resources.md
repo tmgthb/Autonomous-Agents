@@ -33,16 +33,27 @@ Copyright (C) Teemu Maatta.
 
 - [Introduction to Autonomous Agents](#introduction)
   - [Definitions](#definitions)
-  - [Benchmarks](#benchmarks)
+  - [Evaluation frameworks and Benchmarks](#benchmarks)
   - [Related work](#relatedwork)
 - [Autonomous Agent Systems](#systems)
+-   [Perception](#perception)
   - [Reasoning](#reasoning)
-  - [Perception](#perception)
   - [Planning](#planning)
   - [Memory](#memory)
+  - [Tools](#tools)
+  - [Self-Recursive Learning](#selflearning)
+  - [Embodiment](#embodiment)
+  - [Role play](#roles)
   - [Emotional Intelligence](#emotions)
 - [Why Autonomous agents work?](#why)
-- [Future work](#emergingfrontiers)
+  - [Next sequence prediction](#nextsequenceprediction)
+  - [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
+  - [Free energy principle](#freeenergyprinciple)
+  - [Interpretability](#interpretability)
+  - [Synthetic data](#syntheticdata)
+- [Future work](#futureresearch)
+  - [Consciousness](#consciousness)
+  - [Real World Environments](#realworldenvironments)
 
 
 
@@ -345,23 +356,60 @@ Includes list of literature reviews by other authors for quick reference.
 
 <div align="center">
 
-### Benchmarks
-I add here benchmarks, which measure the Autonomous Agents based their performance on the component level. 
+### Evaluation frameworks and Benchmarks
+The benchmarks section includes few well known generic evaluation frameworks around AI research on Intelligence and set of Autonomous Agent component-level benchmarks. 
 </div>
 
+- [Intelligent behaviour](#intelligentbehaviour)
+- [Artificial General Intelligence](#agi)
+- [Artificial Super Intelligence](#asi)
+  
+
+---
+
+<div id="intelligentbehaviour"> </div>
+
+#### Intelligent behaviour
+
+
+- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
+
+  - Capacity to undertand the physical world,
+  - The ability to remember and retrieve things,
+  - Persistent memory,
+  - The ability to reason and plan.
+ 
+---
+
+<div id="agi"> </div>
+
+#### Artificial General Intelligence (AGI):
+
+
+- Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
+- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
+- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.
+
+  
+---
+
+<div id="asi"> </div>
+
+#### Artificial Super Intelligence (ASI):
+
+
+ASI concept seems vague, because current AI systems are not generally more capable across all tasks. 
+
+- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
 
 
 
 
 ---
-
-
-<div id="systems">  
-
-
-
-
 ---
+
+<div id="systems">  </div>
+
 
 <div align="center">
 
@@ -369,28 +417,20 @@ I add here benchmarks, which measure the Autonomous Agents based their performan
 </div>
 
 - [Perception](#perception)
+- [Reasoning](#reasoning)
 - [Planning](#planning)
-- [Memory / Context ](#memory)
+- [Memory & Context window](#memory)
+- [Tools](#tools)
+- [Self-Recursive Learning](#selflearning)
+- [Embodiment](#embodiment)
+- [Role play](#roles)
 - [Emotional Intelligence](#emotions)
-- [Reasoning](#reasoning): CoT/ToT/GoT/etc.
 
-Additional aspects:
-
-- [Tool use](#tools): APIs, robot arms, vector DBs, etc
-- Environments (code interpreter/browser/api/RL environment/real world),
-- Embodiments (LLM call/virtual enviroment/robotics/real world) and
-- Autonomity (manual/interactive/fully autonomous).
-- Roles (teacher/student/etc),
-
-
-
-
+ 
 
 ---
 
-<div id="perception">  
-
-</div>
+<div id="perception"></div>
 
 ### Perception
 
@@ -401,57 +441,7 @@ Modern AI systems refer perception through VLMs.
 
 ---
 
-<div id="planning">  
-
-</div>
-
-### Planning
-
-Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/english/planning] dictionary as: "the act of deciding how to do something".
-
-According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
-
-
-
----
-
-<div id="memory">  
-
-</div>
-
-### Memory
-
-Memory (refers)[https://dictionary.cambridge.org/dictionary/english/memory] to abilitty to remember according to Cambridge dictionary.
-
-Autonomous agents require memory for multiple reasons: to retrieve information, to learn from past, tracking progress, to make decisions, to use context and to communicate.   
-
-According to (Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1], the Memory in LLM-based agents can be divided into:
-- Inside-trial information
-- Cross-trial information
-- External Knowledge.
-
-(Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1] find three types of memory operations: memory reading, memory writing and memory management. 
-
-(Li et al. (2024))[https://arxiv.org/abs/2211.05110] divide memory research into three parts:
-- World knowledge in LLMs
-- Knowledge update in LLMs
-- Contextual and Parametric knowledge
-
-
----
-
-<div id="emotions">  
-
-</div>
-
-### Emotional Intelligence
-
-
----
-
-<div id="reasoning">  
-
-</div>
+<div id="reasoning"></div>
 
 ### Reasoning
 
@@ -478,162 +468,52 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 ---
 
-<div id="why">  
-
-</div>
-
-
-
-
-## Why Autonomous Agents work? 
-
-
-- [About next sequence prediction](#nextsequenceprediction)
-- [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
-- [World models](#worldmodels)
-- [Resource mind-view](#resourcemind)
-- [Free energy principle](#freeenergyprinciple)
-- [Real World Environments](#realworldenvironments)
-
-
-<div id="nextsequenceprediction">  
-
-</div>
-
----
-
-
-### About predicting next sequence
-
-
-- LLMs are trained to predict the next word/token. We empirically know this results [Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#multitask). Single training objective results a [Massively Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#extreme). 
-- Next sequence prediction is [generic](https://github.com/tmgthb/Autonomous-Agents#extreme) learning process: any "<input, output>"-sequence relationship learning is a "next-word prediction task".
-- Next sequence prediction algorithm is generic algorithm.
-
-    - Information is typically sequential: language is sequence of words, DNA is sequence of nucleotides, computer programs are sequences of instructions.
-    - Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes.
-    - Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
-    - Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
-
-
-Overall, the next sequence prediction is one of the most generic single learning objectives in a system, which attempts to learn a model about itself or about the world.
-
-We should still not forget the progress made during the last two years in LLMs based on "simplistic" next-sequence prediction objective. Computational reasoning has not only advanced in the last two years, but it is multiple dimensions close to human-level reasoning. 
-
-I like to refer this  surprising phenomenon as the "Paradox of Lexical Labyrinth".
-
-Paradox of Lexical Labyrinth:
-
-The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequence prediction, such as predicting the next word in a language, gives rise to advanced cognitive skills like profound reasoning capabilities. The labyrinth refers to the vast & complex  landscape of language, characterized by its infinite potential for meaning and expression.
-
----
-
-
-
-<div id="demystifyingemergingabilities">  
-
-</div>
 
 
 ---
 
-
-### Demystifying Emerging Abilities
-
-
-- [Emerming Abilities](https://github.com/tmgthb/Autonomous-Agents#emerging) refers to ability present in a larger LLM and not in a smaller one. There are +137 known Emerging abilities(increasing).
-- Emerging abilities include Emerging Prompting Strategies such as: [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), which was not present in GPT-2 and emerged in GPT-3 model.
-
-Overall, emerging abilities have increased so far contiuously as compute is scaled up and more data introduced. 
-
-
-<div id="worldmodels">  
+<div id="planning">  
 
 </div>
 
+### Planning
 
-### World Models
+Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/english/planning] dictionary as: "the act of deciding how to do something".
 
+According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
 
-[Internal model of the world](https://web.media.mit.edu/~minsky/papers/steps.html)
-
-- Minsky defined in 24th of Octoboer 1960 in Steps Towards Artificial Intellicence under chapter: "Models of Oneself":
-
- "If a creature can answer a question about a hypothetical experiment, without actually performing that experiment, then the answer must have been obtained from some submachine inside the creature. The output of that submachine (representing a correct answer) as well as the input (representing the question) must be coded descriptions of the corresponding external events or event classes. Seen through this pair of encoding and decoding channels, the internal submachine acts like the environment, and so it has the character of a "model." The inductive inference problem may then be regarded as the problem of constructing such a model. 
- 
-To the extent that the creature's actions affect the environment, :**this internal model of the world will need to include some representation of the creature itself:**. If one asks the creature "why did you decide to do such and such" (or if it asks this of itself), any answer must come from the internal model."
-
-- Minsky writes as well about world models 1968 in the "Matter, Mind and Models", which I recommend to read as a whole, but I add two sentences:
-
-"We use the term "model" in the following sense: To an observer B, an object A* is a model of an object A to the extent that B can use A* to answer questions that interest him about A."
-
-"A man's **model of the world** has a distinctly bipartite structure: One part is concerned with matters of mechanical, geometrical, physical character, while the other is associated with things like goals, meanings, social matters, and the like. This division of W* carries through the representations of many things in W*, especially to M itself."
-
-
-
----
-
-
-<div id="resourcemind">  
-
-</div>
-
-
-### Agents are Resources 
-
-
-- As per defined by Minsky in 2005, human mind can be seen as a [Resource-cloud](https://github.com/tmgthb/Autonomous-Agents#resourcecloud).
-- LLM agents prompting enables resource-rich behaviour from LLMs.
-
-
----
-
-
-<div id="freeenergyprinciple">  
-
-</div>
-
-
-### Free energy principle
-
-
-- Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
-- In essence, LLMs take large body of text by deploying compute, which results local order in form of LLM model with various capabilities, but as side result increases entropy through the applied training compute
-
-
-
-
-
-
+Chain-of-Thought:
+- Tree-structures enable searching large reasoning trees for a solution to a complex problem
+- [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call.
+- [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
+- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
 
 
 
 ---
 
+<div id="memory">  
 
+</div>
 
+### Memory & Context window
 
+Memory (refers)[https://dictionary.cambridge.org/dictionary/english/memory] to abilitty to remember according to Cambridge dictionary.
 
-<div id="emergingfrontiers">  </div>
+Autonomous agents require memory for multiple reasons: to retrieve information, to learn from past, tracking progress, to make decisions, to use context and to communicate.   
 
+According to (Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1], the Memory in LLM-based agents can be divided into:
+- Inside-trial information
+- Cross-trial information
+- External Knowledge.
 
-## Emerging Frontiers 
+(Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1] find three types of memory operations: memory reading, memory writing and memory management. 
 
-
-- [Infite context window](#contextwindow)
-- [Self-Learning / Self-Recursive Improvement](#selflearning)
-- [Search planning](#searchplanning)
-- [Synthetic data](#syntheticdata)
-- [Perception](#perception)
-- [Physical grounding](#physicalgrounding)
-- [Measuring Intelligence, Conciousness and Intelligent Behaviour](#measuringintelligence)
-
-
-<div id="contextwindow">  </div>
-
-
-### Infite context window
+(Li et al. (2024))[https://arxiv.org/abs/2211.05110] divide memory research into three parts:
+- World knowledge in LLMs
+- Knowledge update in LLMs
+- Contextual and Parametric knowledge
 
 
 - Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
@@ -651,7 +531,45 @@ Latest research suggest attention can be extended to infite context window in LL
 ---
 
 
-### Self-Learning / Self-Recursive Improvement
+<div id="embodiment">  
+
+</div>
+
+### Embodiment
+Real-world physical interaction requires Autonomous Agents capable of making emebodied actions and decisions. 
+
+- [Interactive Agent Foundational Model](https://github.com/tmgthb/Autonomous-Agents#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
+
+---
+
+<div id="tools">  
+
+</div>
+
+### Tool use
+
+
+---
+
+
+
+---
+
+<div id="emotions">  
+
+</div>
+
+### Emotional Intelligence
+
+
+
+---
+
+<div id="selflearning">  
+
+</div>
+
+### Self-Recursive Improvement
 
 
 - LLMs can Self-Improve its own reasoning outputs using techniques such as [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), [Self-Consistency](https://github.com/tmgthb/Autonomous-Agents#selfconsistency) and [In-Context Learning](https://github.com/tmgthb/Autonomous-Agents#multitask) during Inference.
@@ -662,122 +580,185 @@ Latest research suggest attention can be extended to infite context window in LL
 - LLM fine-tuning may be based on [Self-Play](https://github.com/tmgthb/Autonomous-Agents#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
 
+
+
 ---
 
-
-<div id="searchplanning">  
+<div id="why">  
 
 </div>
 
 
-### Search Planning
 
 
-- Tree-structures enable searching large reasoning trees for a solution to a complex problem
-- [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call. [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
-- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
+<div align="center">
+
+## Why Autonomous Agents work? 
+
+</div>
+
+- [Next sequence prediction](#nextsequenceprediction)
+- [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
+- [Free energy principle](#freeenergyprinciple)
+- [Interpretability](#interpretability)
+- [Synthetic data](#syntheticdata)
+
+
+<div id="nextsequenceprediction">  
+
+</div>
+
+---
+
+
+### Next sequence prediction
+
+LLMs are trained to predict the next word/token, which leads to: [Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#multitask):
+- Backed up by empirical evidence.
+
+The single training objective: "predict next token" results a [Massively Multi-task learning](https://github.com/tmgthb/Autonomous-Agents#extreme).
+- "Massively Multi-task learning" results massive amount of new skills learned from a single objective. 
+
+Next sequence prediction algorithm is generic algorithm.
+- Next sequence prediction is [generic learning process](https://github.com/tmgthb/Autonomous-Agents#extreme).
+- Any "<input, output>"-sequence relationship, can be learned as "next-sequence prediction task".
+
+Information is typically sequential: 
+- language is sequence of words,
+- DNA is sequence of nucleotides,
+- computer programs are sequences of instructions.
+- Media: Videos are sequence of images, Music is sequence of notes, image is sequence of pixels and speech is sequence of phonemes.
+- Actions: Dance is sequence of movements, day is sequence of events, time is sequence of time steps.
+- Concepts about the world: Causality is sequential (cause-effect). Time is sequential(before-after). Life is sequential(parent-child).
+
+Cross-modality Transformers:
+- The universal nature of next-sequence prediction is empirically visible in different Transformer models: ViT for Images, Whisper for Audio, SORA for video.
+
+Next sequence prediction is perhaps the most generic single learning objective known to produce intelligent behaviour. 
+
+    I call this surprising, yet unexpected phenomenon as the "Paradox of Lexical Labyrinth".
+
+    Paradox of Lexical Labyrinth:
+
+    The paradoxical phenomenon whereby seemingly simple mechnanism of a next sequence prediction, such as predicting the next word in a     language, gives rise to advanced cognitive skills like profound reasoning capabilities. The labyrinth refers to the vast & complex      landscape of language, characterized by its infinite potential for compressing meaning, expressions and intelligence.
+
+    Teemu Maatta, 07.06.2024
+
+---
+
+
+
+<div id="demystifyingemergingabilities">  
+
+</div>
 
 
 ---
 
+
+### Demystifying Emerging Abilities
+
+[Emerming Abilities](https://github.com/tmgthb/Autonomous-Agents#emerging) refers to ability present in a larger LLM and not in a smaller one.
+- The initial definition refers to situation, where emerging abilities have increased so far contiuously as compute is scaled up and more data introduced.
+
+There are +137 known Emerging abilities(increasing).
+- Emerging abilities include Emerging Prompting Strategies such as: [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), which was not present in GPT-2 and emerged in GPT-3 model.
+
+Research has [proven](https://arxiv.org/abs/2403.15796) the existing of Emergent abilities from perspective of pre-training loss, even with continuous metrics.
+
+Overall, Emergent abilities are proven to on language models from the perspective of pre-training loss, instead of model/data size.
+
+Emergent abilities suggest that AI models self-organize internal structures to perform tasks to reduce pre-training loss, even without being explicitly programmed for those specific capabilities.
+
+
+---
+
+
+<div id="freeenergyprinciple">  
+
+</div>
+
+
+### Free energy principle
+
+Friston (2010) claims in the [The free energy principle and cognitive agents](https://www.uab.edu/medicine/cinl/images/KFriston_FreeEnergy_BrainTheory.pdf), that biological systems, like human brains, reduce free energy by acting on the world and optimizing their internal states related to perception and action.
+- The basic idea is, that biological agents minimize free energy.
+
+Just like human brain mnimizes free energy, the LLMs minimize the prediction error:
+- If we give a LLM the training objective of minimizing loss for "next-sequence prediction" and lot of energy/compute and data, then it will self-organize its weights into optimal local order.
+- This compression enables LLMs to learn emerging skills beyond merely memorizing the training data.
+
+
+---
+
+<div id="interpretability">  </div>
+
+### Interpretability
+
+The ability [to extract and directly interpret LLM features](https://arxiv.org/abs/2406.04093) helps to build Autonomous agents, which understand and interact effectively with human language. 
+
+We know as well, that [CLIP-model neurons](https://distill.pub/2021/multimodal-neurons/) can be matched with biological human brain neurons.
+
+Overall, we are now able to both match human and AI model neurons, but as well interpret LLM model features. 
+
+
+---
+
+<div id="syntheticdata">  </div>
 
 ### Synthetic data
 
+Synthetic data is not useful to train even larger AI models, but more importantly to use efficiently scarce-domain data.
 
-- The trend of LLMs using [TinyStories](https://github.com/tmgthb/Autonomous-Agents#tinystories) or [Textbook-like datasets with Exercises](https://github.com/tmgthb/Autonomous-Agents#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](https://github.com/tmgthb/Autonomous-Agents#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
+The trend of LLMs using [TinyStories](https://github.com/tmgthb/Autonomous-Agents#tinystories) or [Textbook-like datasets with Exercises](https://github.com/tmgthb/Autonomous-Agents#textbookvideo) is known to significantly improve performance of the LLMs. [TinyGSM](https://github.com/tmgthb/Autonomous-Agents#tinygsm) achieved 81.5% accuracy in GSM8K, outperforming significantly larger LLMs. Synthetic data offers in these examples possibility to distill smaller, yet high performing Student LLMs from the Teacher LLM with similar performance level. Secondly, LLMs can be used to generate diverse, yet cheaply available synthetic data to improve reasoning capabilities.
 - Autonomous Agents help generate long-range planning and action data withing real-world, which is motivated by enabling finetuning VLMs or LLMs with this data.
 
-
 ---
-
-
-### Physical grounding in real world
-
-
-- [Interactive Agent Foundational Model](https://github.com/tmgthb/Autonomous-Agents#interactiveagent) uses action tokens to enhance grounding with cross-reality data.
-
-
----
-
-
-### Measuring Intelligence, Conciousness and Intelligent Behaviour
-
-
-- [Measuring Human Intelligence](https://github.com/tmgthb/Autonomous-Agents#human_intelligence)
-- [Measuring Artificial General Intelligence](https://github.com/tmgthb/Autonomous-Agents#agi_intelligence)
-- [Measuring Artificial Super Intelligence](https://github.com/tmgthb/Autonomous-Agents#asi_intelligence)
-- [Measuring Consciousness](https://github.com/tmgthb/Autonomous-Agents#conciousness)
-
-
----
-
-
-#### Artificial General Intelligence (AGI):
-
-
-- Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
-- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
-- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.
-
-  
----
-
-
-#### Artificial Super Intelligence (ASI):
-
-
-ASI concept seems vague, because current AI systems are not generally more capable across all tasks. 
-
-- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
 
 
 
 ---
 
 
-#### Consciousness
+<div id="futureresearch">  </div>
 
-I add in this section definitions, experiments and thoughts of researchers on the controversial subject of consciousness.
 
-In the article The Stream of Consciousness by William James (1892) defines [four characterstics of consciousness](https://webspace.ship.edu/cgboer/jamesselection.html)
+<div align="center">
 
-- Consciousness is persnal
-- Consciousness is in constant change
-- Personal consciousness is continuous
-- Humans pay pays attention to parts of the consciousness, while excluding others parts
+## Future research
+I add into this section areas for future research, which are required for Autonomous Agents mimicking human-like behaviour.
+</div>
 
-[Consciousness: Here, There but Not Everywhere](https://arxiv.org/abs/1405.7089)
+- [Consciousness](#consciousness)
+- [Real World Environments](#realworldenvironments)
 
-- Integrated Information Theory: Theoretical framework understanding consciousness with mathematical model for a systems consciousness, reviews the subjective-experience, makes testable predictions through experiments and not only limited to human brain-like consciousness.
+---
 
-[Perspetives on Consciousness by Chalmers](https://consc.net/papers/c-and-c.html)
+<div id="consciousness"> </div>
 
-- Useful perspectives on this controversial topic.
+### Consciousness
 
-[Ilya Sutskever defined a practicalconsciousness test](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
+There is no single generally agreed definition of Consciousness and I will not try to define it here. 
 
-- AI Consciousness test.
+[Integrated Information Theory (IIT)](https://arxiv.org/abs/1405.7089) and its latest [version 4.0](https://arxiv.org/abs/2212.14787) are one of the key theories existing. This theory includes "Phi", which measures amount of integrated information to quantify level of consciousness of the system. The IIT includes 5 key characteristics:
+- Intrinsic
+- Composition
+- Information
+- Integration
+- Exclusion
 
+The IIT allows making predictions, which can be tested through experiments and it is not limited to human brain-like consciousness.
+
+[Ilya Sutskever defined, perhaps the first, test-scenario to test, if AI models has consciousness:](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
+
+Literature reviews on consciousness:
+- [Survey of Consciousness Theory from Computational Perspective](https://arxiv.org/abs/2309.10063)
+- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708)
 
 
 ---
 
-
-#### Intelligent behaviour
-
-
-- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
-
-  - Capacity to undertand the physical world,
-  - The ability to remember and retrieve things,
-  - Persistent memory,
-  - The ability to reason and plan.
-
-
-
----
-
-
+- [Real World Environments](#realworldenvironments)
 
 ## Citation
 
@@ -802,7 +783,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
-
-
 
