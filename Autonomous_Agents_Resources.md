@@ -36,7 +36,7 @@ Copyright (C) Teemu Maatta.
   - [Evaluation frameworks and Benchmarks](#benchmarks)
   - [Related work](#relatedwork)
 - [Autonomous Agent Systems](#systems)
--   [Perception](#perception)
+  - [Perception](#perception)
   - [Reasoning](#reasoning)
   - [Planning](#planning)
   - [Memory](#memory)
