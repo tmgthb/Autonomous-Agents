@@ -48,6 +48,24 @@ Chronological order.
 
 <div id="reasoning_paper"> </div>  
 
+#### 6th of June 2024
+
+[Aligning Agents like Large Language Models](https://arxiv.org/abs/2406.04208)
+
+- Aligns a 3D video game agent using RLHF similarly as fine-tuning a LLM. 
+- The agent receives only the image input and outputs action from one of the 12 buttons or 2 joysticks.
+
+---
+
+[AgentGym: Evolving Large Language Model-based Agents across Diverse Environments](https://arxiv.org/abs/2406.04151)
+
+- AgentGym-framework: Generally capable LLM agent with self-evolution ability.
+- Exposes agents to multiple diverse environments, providing a basic trajectory set, and applying the novel AgentEvol method for self-evolution.
+- AgentEvol: Benchmark to evaluate self-evolution capability over new tasks and environments.
+
+
+---
+
 #### 5th of June 2024
 
 [The Good, the Bad, and the Hulk-like GPT: Analyzing Emotional Decisions of Large Language Models in Cooperation and Bargaining Games](https://arxiv.org/abs/2406.03299)
