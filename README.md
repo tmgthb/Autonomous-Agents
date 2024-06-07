@@ -50,6 +50,14 @@ Chronological order.
 
 #### 6th of June 2024
 
+[On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
+
+- Releases new AndroidControl-dataset with 15k demonstrations on every day tasks in Android apps.
+- Tests an Android agent, which receives task information, pre-processes screen using accessibility trees / html about the screen (so, not using directly screenshot) to include only UI elements with text description, creates textual representation of the accessibility trees / html about the screen.
+- Includes prompts used and references on the accessibility tree / html performance against directly interpreting the screenshot.
+
+---
+
 [Aligning Agents like Large Language Models](https://arxiv.org/abs/2406.04208)
 
 - Aligns a 3D video game agent using RLHF similarly as fine-tuning a LLM. 
