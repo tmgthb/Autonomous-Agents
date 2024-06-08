@@ -84,6 +84,12 @@ Chronological order.
 
 ---
 
+[DriVLMe: Enhancing LLM-based Autonomous Driving Agents with Embodied and Social Experiences](https://arxiv.org/abs/2406.03008)
+
+- DriVLMe: autonomous driving agent, which reads video input, uses route planner for shortest route. The model uses the video token and textual tokens about: current instruction, dialogue history and action history to produce dialogue response and the physical action to the simulator.
+- Identifies several challenges, which are applicable in other domains using LLM agents.
+
+---
 
 #### 4th of June 2024
 
