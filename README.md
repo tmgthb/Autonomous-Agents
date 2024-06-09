@@ -56,6 +56,7 @@ Chronological order.
 - Tests an Android agent, which receives task information, pre-processes screen using accessibility trees / html about the screen (so, not using directly screenshot) to include only UI elements with text description, creates textual representation of the accessibility trees / html about the screen.
 - Includes prompts used and references on the accessibility tree / html performance against directly interpreting the screenshot.
 
+
 ---
 
 [Aligning Agents like Large Language Models](https://arxiv.org/abs/2406.04208)
