@@ -55,6 +55,8 @@ Chronological order.
 - DARA (Decomposition-Alignment-Reasoning Autonomous Language Agent): solves formal queries by high-level iterative task decomposition and low-level task grounding. 
 - Makes pososible training DARA with small number of high-quality reasoning trajectories.
 - SOTA-level performance: Fine-tuned DARA (Llama-2-7B) zero-shot outperforms agents using GPT-4 In-context learning.
+- Iteratively performs task decomposition and task grounding.
+
 
 ---
 
