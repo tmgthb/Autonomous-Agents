@@ -70,6 +70,14 @@ Chronological order.
 
 ---
 
+[Advancing Tool-Augmented Large Language Models: Integrating Insights from Errors in Inference Trees](https://arxiv.org/abs/2406.07115)
+
+- ToolPrefer-LLaMA (TP-LLaMA): Inference trajectory optimization by fine-tuning with expert demonstrations and then optimizing with DPO by using the ToolPreference-dataset.
+- Introduces ToolPreference-dataset, which includes tool-augmented LLM succesfull/failed exploration trees from ToolBench-dataset.
+
+
+---
+
 #### 6th of June 2024
 
 [On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
