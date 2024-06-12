@@ -65,8 +65,8 @@ Chronological order.
 
 [A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217)
 
-- SynthPAI: synthetic dataset of 7800 comments labelled with personal attributes.
-
+- SynthPAI: synthetic dataset of 7800 comments labelled with personal attributes to investigate misuse of profiling personal attributes from public data.
+- Starts by generating synthetic profiles (each with 8 personal attributes: : age/sex/income level /locationvbirthplace/educationvoccupation/relationship status) of LLM agents, generates chats with these agents and uses LLM agents to add labels (sex, age etc).
 
 ---
 
