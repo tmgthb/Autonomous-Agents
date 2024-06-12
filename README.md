@@ -50,6 +50,14 @@ Chronological order.
 
 #### 11th of June 2024
 
+[DARA: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs](https://arxiv.org/abs/2406.07080)
+
+- DARA (Decomposition-Alignment-Reasoning Autonomous Language Agent): solves formal queries by high-level iterative task decomposition and low-level task grounding. 
+- Makes pososible training DARA with small number of high-quality reasoning trajectories.
+- Fine-tuned DARA (Llama-2-7B) zero-shot outperforms agents using GPT-4 In-context learning.
+
+---
+
 [RS-Agent: Automating Remote Sensing Tasks through Intelligent Agents](https://arxiv.org/abs/2406.07089)
 
 - RS-Agent (Remote-Sensing Agent): LLM-based remote sensing agent.
