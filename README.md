@@ -48,6 +48,28 @@ Chronological order.
 
 <div id="reasoning_paper"> </div>  
 
+#### 11th of June 2024
+
+[World Models with Hints of Large Language Models for Goal Achieving](https://arxiv.org/abs/2406.07381)
+
+- DLLM (Dreaming with Large Language Models: multi-modal model RL, which uses natural hints/goals from LLM in long-horizon tasks.
+- The use of LLM to propose sub-goals (or language hints) improves goal discovery and efficiency of exploration.
+
+---
+
+[DCA-Bench: A Benchmark for Dataset Curation Agents](https://arxiv.org/abs/2406.07275)
+
+- DCA-Bench-benchmark for dataset curation agents.
+
+---
+
+[A Synthetic Dataset for Personal Attribute Inference](https://arxiv.org/abs/2406.07217)
+
+- SynthPAI: synthetic dataset of 7800 comments labelled with personal attributes.
+
+
+---
+
 #### 6th of June 2024
 
 [On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
