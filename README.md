@@ -50,6 +50,13 @@ Chronological order.
 
 #### 11th of June 2024
 
+[RS-Agent: Automating Remote Sensing Tasks through Intelligent Agents](https://arxiv.org/abs/2406.07089)
+
+- RS-Agent (Remote-Sensing Agent): LLM-based remote sensing agent.
+
+---
+
+
 [World Models with Hints of Large Language Models for Goal Achieving](https://arxiv.org/abs/2406.07381)
 
 - DLLM (Dreaming with Large Language Models: multi-modal model RL, which uses natural hints/goals from LLM in long-horizon tasks.
