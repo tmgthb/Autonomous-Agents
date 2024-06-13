@@ -48,6 +48,21 @@ Chronological order.
 
 <div id="reasoning_paper"> </div>  
 
+[MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
+
+- MobileAgentBench-benchmark: Highlights issues in current benchmarks related to Scalability and Usability, Robustness and Flexibility and Realistic environment.
+
+
+
+
+#### 12th of June 2024
+
+[A Dialogue Game for Eliciting Balanced Collaboration](https://arxiv.org/abs/2406.08202)
+
+- Studies flexible and balanced role-taking with LLM agents in social dialogue.
+
+---
+
 #### 11th of June 2024
 
 [DARA: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs](https://arxiv.org/abs/2406.07080)
