@@ -63,6 +63,12 @@ Chronological order.
 
 - A survey, which reviews threats and protective measures on privacy and security concerns with LLMs in five stages: pre-training/fine-tuning/RAG system/deploying/LLM-based agent.
 
+---
+
+[Can Large Language Models Understand Spatial Audio?](https://arxiv.org/abs/2406.07914)
+
+- Multichannel audio understanding with LLMs.
+
 
 ---
 
