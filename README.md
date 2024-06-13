@@ -56,6 +56,14 @@ Chronological order.
 
 - Studies flexible and balanced role-taking with LLM agents in social dialogue.
 
+
+---
+
+[Unique Security and Privacy Threats of Large Language Model: A Comprehensive Survey](https://arxiv.org/abs/2406.07973)
+
+- A survey, which reviews threats and protective measures on privacy and security concerns with LLMs in five stages: pre-training/fine-tuning/RAG system/deploying/LLM-based agent.
+
+
 ---
 
 #### 11th of June 2024
