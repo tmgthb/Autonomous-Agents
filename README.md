@@ -44,18 +44,13 @@ Chronological order.
 
 
 
-
-
-<div id="reasoning_paper"> </div>  
+#### 12th of June 2024
 
 [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
 
 - MobileAgentBench-benchmark: Highlights issues in current benchmarks related to Scalability and Usability, Robustness and Flexibility and Realistic environment.
 
-
-
-
-#### 12th of June 2024
+---
 
 [A Dialogue Game for Eliciting Balanced Collaboration](https://arxiv.org/abs/2406.08202)
 
