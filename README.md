@@ -53,6 +53,11 @@ Chronological order.
 
 ---
 
+[Multi-Agent Software Development through Cross-Team Collaboration](https://arxiv.org/abs/2406.08979)
+
+- CTC (Cross-Team-Collaboration): creates a multi-agent-framework of LLM-agent teams jointly collaborating to make decisions, communicate insights and generate solutions.
+- For example generates different phases: design, coding and testing, which each include sub-tasks. Various agents collaborate to generates ideas from tasks, which are then converted into final code via multi-turn chat chain. 
+
 
 #### 13th of June 2024
 
