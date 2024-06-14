@@ -43,11 +43,23 @@ Chronological order.
 </div>  
 
 
-####
+#### 14th of June 2024
 
-[]()
+[GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning](https://arxiv.org/abs/2406.09187)
 
-- 
+- GuardAgent: guardrails-agent for LLMs based on knowledge-enabled reasoning.
+- Includes task-planning, action plan, memory, tools and code generation and execution.
+- Task planning includes: specification of the target agent, guard request (things the agent cannot perform based on the target agent profile) and target agent (inputs, outputs and logs).
+
+---
+
+
+#### 13th of June 2024
+
+[StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747)
+
+- StreamBench-benchmark: simulated learning environment, where LLM receives continuous feedback to iteratively improve performance.
+- Reviews the LLMs self-improving capability in online-setting, instead of only fixed offline-benchmarks
 
 ---
 
@@ -123,6 +135,19 @@ Chronological order.
 - ToolPrefer-LLaMA (TP-LLaMA): Inference trajectory optimization by fine-tuning with expert demonstrations and then optimizing with DPO by using the ToolPreference-dataset.
 - Introduces ToolPreference-dataset, which includes tool-augmented LLM succesfull/failed exploration trees from ToolBench-dataset.
 - Reasons with  Depth-First Search (DFS) by constructing expert trajectories with decision trees (Tree-of-Thought), where each tree represents LLM thought/API response/API/decision on an API call.
+
+---
+
+#### 7th of June 2024
+
+[Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692)
+
+- Mixture-of-Agents (MoA): MoA-architecture, where LLM agents are stacked into layers on top of each other. Takes advantage on the phenomenon, where the LLM output tends to get better, when it receives as an input a LLM model output (even from smamller LLM).
+- An agent in given layer takes output from previous layer as an input to generate its output.
+- Implements Together MoA, which achieves SOTA-performance in various benchmarks surpassing GPT-4 Omni in various benchmarks.
+- The MoA ranker selects answers more accurately than LLM alone and tends to select best answer.
+- The model has a limitation in Time-to-First-Token (TTFT), because the prior level model output is required to produce the next level output.
+
 
 ---
 
