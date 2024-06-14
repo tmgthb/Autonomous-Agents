@@ -51,6 +51,7 @@ Chronological order.
 - Includes task-planning, action plan, memory, tools and code generation and execution.
 - Task planning includes: specification of the target agent, guard request (things the agent cannot perform based on the target agent profile) and target agent (inputs, outputs and logs).
 
+
 ---
 
 [Multi-Agent Software Development through Cross-Team Collaboration](https://arxiv.org/abs/2406.08979)
@@ -59,12 +60,15 @@ Chronological order.
 - For example generates different phases: design, coding and testing, which each include sub-tasks. Various agents collaborate to generates ideas from tasks, which are then converted into final code via multi-turn chat chain. 
 
 
+---
+
 #### 13th of June 2024
 
 [StreamBench: Towards Benchmarking Continuous Improvement of Language Agents](https://arxiv.org/abs/2406.08747)
 
 - StreamBench-benchmark: simulated learning environment, where LLM receives continuous feedback to iteratively improve performance.
 - Reviews the LLMs self-improving capability in online-setting, instead of only fixed offline-benchmarks
+
 
 ---
 
@@ -73,6 +77,7 @@ Chronological order.
 [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
 
 - MobileAgentBench-benchmark: Highlights issues in current benchmarks related to Scalability and Usability, Robustness and Flexibility and Realistic environment.
+
 
 ---
 
@@ -86,6 +91,7 @@ Chronological order.
 [Unique Security and Privacy Threats of Large Language Model: A Comprehensive Survey](https://arxiv.org/abs/2406.07973)
 
 - A survey, which reviews threats and protective measures on privacy and security concerns with LLMs in five stages: pre-training/fine-tuning/RAG system/deploying/LLM-based agent.
+
 
 ---
 
