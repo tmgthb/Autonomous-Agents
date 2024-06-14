@@ -72,6 +72,14 @@ Chronological order.
 
 ---
 
+[RL-JACK: Reinforcement Learning-powered Black-box Jailbreaking Attack against LLMs](https://arxiv.org/abs/2406.08725)
+
+- RL-Jack: Designs a novel Deep Reinforcement Learning method to generate novel black-box jailbreaking prompts.
+- Formulates the search of jailbreaking prompts as a search planning problem. 
+
+
+---
+
 #### 12th of June 2024
 
 [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
