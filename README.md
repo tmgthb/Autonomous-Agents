@@ -80,6 +80,21 @@ Chronological order.
 
 ---
 
+[When LLM Meets DRL: Advancing Jailbreaking Efficiency via DRL-guided Search](https://arxiv.org/abs/2406.08705)
+
+- RLBreaker: black-box jailbreaking with Deep Reinformcent Learning agent from mainly same authors as the RL-Jack paper.
+- Formulates the search of jailbreaking prompts as a search planning problem.
+
+
+---
+
+[Batch-Instructed Gradient for Prompt Evolution:Systematic Prompt Optimization for Enhanced Text-to-Image Synthesis](https://arxiv.org/abs/2406.08713)
+
+- Multi-agent prompting for text-to image generation by dynamic instructions. The instructions evolve in iteratively with feedback and with a database of professional promts.
+
+
+---
+
 #### 12th of June 2024
 
 [MobileAgentBench: An Efficient and User-Friendly Benchmark for Mobile LLM Agents](https://arxiv.org/abs/2406.08184)
