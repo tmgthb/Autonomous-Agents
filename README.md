@@ -196,6 +196,15 @@ Chronological order.
 
 #### 11th of June 2024
 
+[Accessing GPT-4 level Mathematical Olympiad Solutions via Monte Carlo Tree Self-refine with LLaMa-3 8B](https://arxiv.org/abs/2406.07394)
+
+- Introduces MCT Self-Refine (MCTSr): integrates LLM with MCTS.
+- Improves solving MATH and complex math Olympiad-problems reasoning.
+- Includes selection, self-refine, self-evaluation and backpropagation-processes.
+
+
+---
+
 [DARA: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs](https://arxiv.org/abs/2406.07080)
 
 - DARA (Decomposition-Alignment-Reasoning Autonomous Language Agent): solves formal queries by high-level iterative task decomposition and low-level task grounding. 
