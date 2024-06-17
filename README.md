@@ -285,6 +285,13 @@ Chronological order.
 
 ---
 
+[SelfGoal: Your Language Agents Already Know How to Achieve High-level Goals](https://arxiv.org/abs/2406.04784)
+
+- SelfGoal: Divides high-level goals into tree-structure with practical sub-goals.
+- Improves performance of LLM-agents in various tasks.
+
+---
+
 [Language Guided Skill Discovery](https://arxiv.org/abs/2406.06615)
 
 - LGSD (Language Guided Skill Discovery): reviews language guided skill discovery using LLM.
