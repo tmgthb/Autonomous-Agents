@@ -37,7 +37,6 @@ Copyright (C) Teemu Maatta.
 <div id="researchpapers" align="center">
 
 ## Research papers
-
 Chronological order. 
 
 </div>  
