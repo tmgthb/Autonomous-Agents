@@ -110,6 +110,12 @@ Chronological order.
 
 ---
 
+[First Multi-Dimensional Evaluation of Flowchart Comprehension for Multimodal Large Language Models](https://arxiv.org/abs/2406.10057)
+
+- Flowchart comphrehension with VLM. Includes logical verification, information extraction, localization recognition, reasoning and summarization.
+
+---
+
 
 #### 13th of June 2024
 
