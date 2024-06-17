@@ -241,6 +241,15 @@ Chronological order.
 
 ---
 
+#### 10th of June 2024
+
+[FinVerse: An Autonomous Agent System for Versatile Financial Analysis](https://arxiv.org/abs/2406.06379)
+
+- FinVerse: financial information processing agent, which connects to 600 APIs. Plans to open source the dataset.
+
+
+---
+
 #### 9th of June 2024
 
 
