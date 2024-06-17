@@ -116,6 +116,12 @@ Chronological order.
 
 ---
 
+[HIRO: Hierarchical Information Retrieval Optimization](https://arxiv.org/abs/2406.09979)
+
+- HIRO (Hierarchical Information Retrieval Optimization): RAG query approach using hierarchical structures to store information. 
+
+---
+
 
 #### 13th of June 2024
 
