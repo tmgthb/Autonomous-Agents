@@ -261,6 +261,13 @@ Chronological order.
 - The MoA ranker selects answers more accurately than LLM alone and tends to select best answer.
 - The model has a limitation in Time-to-First-Token (TTFT), because the prior level model output is required to produce the next level output.
 
+---
+
+[Language Guided Skill Discovery](https://arxiv.org/abs/2406.06615)
+
+- LGSD (Language Guided Skill Discovery): reviews language guided skill discovery using LLM.
+- LLM converts input into semantically distint skills in order for the agent to visit semantically unique states.
+
 
 ---
 
