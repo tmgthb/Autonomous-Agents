@@ -43,6 +43,11 @@ Chronological order.
 </div>  
 
 
+
+
+---
+
+
 #### 14th of June 2024
 
 [GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning](https://arxiv.org/abs/2406.09187)
@@ -54,13 +59,20 @@ Chronological order.
 
 ---
 
-[Multi-Agent Software Development through Cross-Team Collaboration](https://arxiv.org/abs/2406.08979)
+[Details Make a Difference: Object State-Sensitive Neurorobotic Task Planning](https://arxiv.org/abs/2406.09988)
 
-- CTC (Cross-Team-Collaboration): creates a multi-agent-framework of LLM-agent teams jointly collaborating to make decisions, communicate insights and generate solutions.
-- For example generates different phases: design, coding and testing, which each include sub-tasks. Various agents collaborate to generates ideas from tasks, which are then converted into final code via multi-turn chat chain. 
-
+- OSSA (Object-State-Sensitive Agent): Reviws VLMs and LLMs capacity to generate object-state sensitive plans. Includes two methods: LLM-based (modular) and VLM-based (monolithic).
 
 ---
+
+[Rapport-Driven Virtual Agent: Rapport Building Dialogue Strategy for Improving User Experience at First Meeting](https://arxiv.org/abs/2406.09839)
+
+- Free Rapport Agent: Builds a rapport-oriented dialogue agent with focus on user engagement through small talk.
+- Identifies strategies for rapport-techniques.
+- The Free Rapport Agent achieves superior ratings in categories such as naturality, satisfaction, usability an rapport aspects. A potential future research field in investing rapport with TSS-models.
+
+---
+
 
 #### 13th of June 2024
 
@@ -68,6 +80,14 @@ Chronological order.
 
 - StreamBench-benchmark: simulated learning environment, where LLM receives continuous feedback to iteratively improve performance.
 - Reviews the LLMs self-improving capability in online-setting, instead of only fixed offline-benchmarks
+
+
+---
+
+[Multi-Agent Software Development through Cross-Team Collaboration](https://arxiv.org/abs/2406.08979)
+
+- CTC (Cross-Team-Collaboration): creates a multi-agent-framework of LLM-agent teams jointly collaborating to make decisions, communicate insights and generate solutions.
+- For example generates different phases: design, coding and testing, which each include sub-tasks. Various agents collaborate to generates ideas from tasks, which are then converted into final code via multi-turn chat chain. 
 
 
 ---
