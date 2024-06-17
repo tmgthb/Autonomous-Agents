@@ -95,6 +95,12 @@ Chronological order.
 - URDF-model: Agents acquire non-verbal communication skills with imitation sign language gestures from RGB video for words.
 - Learsn 5 different signs involving upper body.
 
+---
+
+[RoboGolf: Mastering Real-World Minigolf with a Reflective Multi-Modality Vision-Language Model](https://arxiv.org/abs/2406.10157)
+
+- RoboGolf: plays real-world minigolf.
+- Framework includes dual-camera input with VLM, inner closed-loop control (reasoning, action, robot arm execution, execution result, evaluation and recovery from failure modes) and outer closed-loop reflective equilibrium (active feedback, counterfactual reasoning).   
 
 ---
 
