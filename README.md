@@ -100,7 +100,13 @@ Chronological order.
 [RoboGolf: Mastering Real-World Minigolf with a Reflective Multi-Modality Vision-Language Model](https://arxiv.org/abs/2406.10157)
 
 - RoboGolf: plays real-world minigolf.
-- Framework includes dual-camera input with VLM, inner closed-loop control (reasoning, action, robot arm execution, execution result, evaluation and recovery from failure modes) and outer closed-loop reflective equilibrium (active feedback, counterfactual reasoning).   
+- Framework includes dual-camera input with VLM, inner closed-loop control (reasoning, action, robot arm execution, execution result, evaluation and recovery from failure modes) and outer closed-loop reflective equilibrium (active feedback, counterfactual reasoning).
+
+---
+
+[SkySenseGPT: A Fine-Grained Instruction Tuning Dataset and Model for Remote Sensing Vision-Language Understanding](https://arxiv.org/abs/2406.10100)
+
+- SkySenseGPT: dataset for remote sensing video-language understanding. 
 
 ---
 
