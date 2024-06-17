@@ -71,6 +71,15 @@ Chronological order.
 - Identifies strategies for rapport-techniques.
 - The Free Rapport Agent achieves superior ratings in categories such as naturality, satisfaction, usability an rapport aspects. A potential future research field in investing rapport with TSS-models.
 
+
+---
+
+[Bridging the Communication Gap: Artificial Agents Learning Sign Language through Imitation](https://arxiv.org/abs/2406.10043)
+
+- URDF-model: Agents acquire non-verbal communication skills with imitation sign language gestures from RGB video for words.
+- Learsn 5 different signs involving upper body.
+
+
 ---
 
 
