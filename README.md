@@ -60,6 +60,14 @@ Chronological order.
 
 ---
 
+[VideoGUI: A Benchmark for GUI Automation from Instructional Videos](https://arxiv.org/abs/2406.10227)
+
+- VideoGUI-benchmark: Automation using instructional videos in visual GUI tasks.
+- Failure modes include: High-level planning, middle-level planning and atomic action execution.
+- Pipeline includes: video selection, human demonstration, manual annotation and  review & creation. 
+
+---
+
 [Details Make a Difference: Object State-Sensitive Neurorobotic Task Planning](https://arxiv.org/abs/2406.09988)
 
 - OSSA (Object-State-Sensitive Agent): Reviws VLMs and LLMs capacity to generate object-state sensitive plans. Includes two methods: LLM-based (modular) and VLM-based (monolithic).
