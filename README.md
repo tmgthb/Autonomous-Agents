@@ -241,6 +241,16 @@ Chronological order.
 
 ---
 
+#### 9th of June 2024
+
+
+[Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security](https://arxiv.org/abs/2406.07561)
+
+- ReaperAI: designs an autonomous ai agent to design and stimulate cyberattack-scenario.
+
+
+---
+
 #### 7th of June 2024
 
 [Mixture-of-Agents Enhances Large Language Model Capabilities](https://arxiv.org/abs/2406.04692)
