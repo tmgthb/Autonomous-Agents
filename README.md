@@ -252,11 +252,15 @@ Chronological order.
 
 #### 9th of June 2024
 
+[A Survey on LLM-Based Agentic Workflows and LLM-Profiled Components](https://arxiv.org/abs/2406.05804)
+
+- Survey on LLM agentic workflows and LLM-Profiled Components (LLMPCs)
+
+--- 
 
 [Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security](https://arxiv.org/abs/2406.07561)
 
 - ReaperAI: designs an autonomous ai agent to design and stimulate cyberattack-scenario.
-
 
 ---
 
