@@ -68,7 +68,8 @@ Chronological order.
 
 [TRIP-PAL: Travel Planning with Guarantees by Combining Large Language Models and Automated Planners](https://arxiv.org/abs/2406.10196)
 
-- TRIP-PAL: Uses LLMs as automatic planner agents for travel plans.
+- TRIP-PAL: Uses LLMs and automatic planners for automatic planner agents of travel plans.
+- Includes Travel information retrieval,  LLM-based planner and Automated Planning.
 
 ---
 
