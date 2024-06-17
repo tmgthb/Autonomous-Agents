@@ -65,6 +65,12 @@ Chronological order.
 
 ---
 
+[TRIP-PAL: Travel Planning with Guarantees by Combining Large Language Models and Automated Planners](https://arxiv.org/abs/2406.10196)
+
+- TRIP-PAL: Uses LLMs as automatic planner agents for travel plans.
+
+---
+
 [Rapport-Driven Virtual Agent: Rapport Building Dialogue Strategy for Improving User Experience at First Meeting](https://arxiv.org/abs/2406.09839)
 
 - Free Rapport Agent: Builds a rapport-oriented dialogue agent with focus on user engagement through small talk.
