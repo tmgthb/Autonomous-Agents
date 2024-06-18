@@ -49,6 +49,40 @@ Chronological order.
 ---
 
 
+#### 17th of June 2024
+
+[MASAI: Modular Architecture for Software-engineering AI Agents](https://arxiv.org/abs/2406.11638)
+
+- MASAI (Modular Architecture for Software-engineering AI): multiple LLM-agents are tasked with sub-objectives and strategies to achieve those objectives in modular approach. Avoids long-tracectories of LLM agents, enables gathering information from different sources and usage of specific problem solving strategies.
+- Includes five different sub-agents: Test template generator, Issue reproducer, Edit localizer (finds files related to buggy code), Fixer and Ranker (observes the patches passing the test).
+
+---
+
+[Instruct, Not Assist: LLM-based Multi-Turn Planning and Hierarchical Questioning for Socratic Code Debugging](https://arxiv.org/abs/2406.11709)
+
+- TreeInstruct (Socratic questioning): Includes three roles Teacher, Student and Verifier. Asks clarifying questions to help students independently resolve errors by estimating students conceptual knowledge using dynamically generation question tree based on student answers.
+- Uses state space estimation to plan the conversation by identifying distance between student initial answer and the optimal answer.
+- Dynamic conversation restructuring to update conversational plan based on student progress for both questioning and teaching.
+- State space estimation works by using specific task categories, where LLM-verifier reviews student answer for each task-category either as failed or Correct.
+- Tree nodes represent instructor questions and edges reflect the paths to new level of understanding.
+
+---
+
+[Input Conditioned Graph Generation for Language Agents](https://arxiv.org/abs/2406.11555)
+
+- Language Agents as Graphs.
+- Dynamic and learnable agents by using LLMs as graphs. Attempts to learn a model, which generates edges for every input of the LLM in order to represent hte flow of communication in the graph.
+- Outperforms static approaches by 6% in MMLU. 
+
+---
+
+[Pre-Training and Personalized Fine-Tuning via Over-the-Air Federated Meta-Learning: Convergence-Generalization Trade-Offs](https://arxiv.org/abs/2406.11569)
+
+-
+
+
+---
+
 #### 14th of June 2024
 
 [GuardAgent: Safeguard LLM Agents by a Guard Agent via Knowledge-Enabled Reasoning](https://arxiv.org/abs/2406.09187)
