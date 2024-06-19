@@ -92,6 +92,15 @@ Chronological order.
 - PerfSense: LLM-agent to review performance sensitive configurations of code bases.
 - Includes two LLM-agents: DevAgent and PerfAgent for code analysis of large codebases using limited-sized LLMs. Relies on prompt chaining and RAG (memory). 
 
+
+---
+
+[CodeNav: Beyond tool-use to using real-world codebases with LLM agents](https://arxiv.org/abs/2406.12276)
+
+- CodeNav: LLM-agent navigates new unseen code repositories to solve user query by automatically indexing code blocks.
+- The agent automatically finds code snippets from the target code repository, imports the snippets and iteratively generates solution.
+
+
 ---
 
 [P-Tailor: Customizing Personality Traits for Language Models via Mixture of Specialized LoRA Experts](https://arxiv.org/abs/2406.12548)
