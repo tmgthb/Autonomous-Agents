@@ -59,6 +59,15 @@ Chronological order.
 
 ---
 
+[Problem-Solving in Language Model Networks](https://arxiv.org/abs/2406.12374)
+
+- Represents each agent as a node, which create a connected multi-agent network with self-reflection.
+- Finds self-reflection is useful, when surrounded by incorrect LLM-agents and less useful, when surrounded by LLM-agents providing correct answers.
+- LLM agents are likely to agree for consensus, when the LLM answer is correct. The LLM answer is more likely to be incorrect, when LLMs are more divided.
+
+
+---
+
 [Ask-before-Plan: Proactive Language Agents for Real-World Planning](https://arxiv.org/abs/2406.12639)
 
 - CEP-agent: mutli-agent with three specialized Clarification (trajectory tuning schema)/Execution (static and dynamic)/Planning-agents. 
