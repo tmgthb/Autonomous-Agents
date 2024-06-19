@@ -48,6 +48,67 @@ Chronological order.
 
 ---
 
+#### 18th of June 2024
+
+[Talk With Human-like Agents: Empathetic Dialogue Through Perceptible Acoustic Reception and Reaction](https://arxiv.org/abs/2406.12707)
+
+- PerceptiveAgent: empathic multi modal agent, using acoustic information from speech for empathic responses adjusting to speaking style.
+- Captures more accurately speakers real intentions (captions) and interacts (speech attributes) using adjusted tone for the context.
+- Framework includes three compoments: Speech captioner (Speech encoder, Q-former and text encoder), LLM and MSMA-Synthesizer (speaker embedder, Attribute embedder and HiFiGAN vocoder).
+
+
+---
+
+[Ask-before-Plan: Proactive Language Agents for Real-World Planning](https://arxiv.org/abs/2406.12639)
+
+- CEP-agent: mutli-agent with three specialized Clarification (trajectory tuning schema)/Execution (static and dynamic)/Planning-agents. 
+- Reviews Proactive Agent Planning, where the LLM agent must predict situations when to ask clarifications based on context from conversation/environment interaction/invoice tool calls/generate plan.
+- Trajectory tuning: fine-tunes clarification and execution agents with past trajectories in static setting.
+- Memory recollection: reuse self-reflective feedback from prior time steps.
+
+
+---
+
+[AgentReview: Exploring Peer Review Dynamics with LLM Agents](https://arxiv.org/abs/2406.12708)
+
+- AgentReview: LLM-based peer-review simulation framework of scientific papers such as related to NLP.
+- Includes three LLM- based roles: reviewers, authors and Area Chairs.
+- Review process includes: reviwer assessment, author-reviewer discussion, reviewer-area chair discussion, meta-review compilation and paper decision.
+
+
+---
+
+[Identifying Performance-Sensitive Configurations in Software Systems through Code Analysis with LLM Agents](https://arxiv.org/abs/2406.12806)
+
+- PerfSense: LLM-agent to review performance sensitive configurations of code bases.
+- Includes two LLM-agents: DevAgent and PerfAgent for code analysis of large codebases using limited-sized LLMs. Relies on prompt chaining and RAG (memory). 
+
+---
+
+[P-Tailor: Customizing Personality Traits for Language Models via Mixture of Specialized LoRA Experts](https://arxiv.org/abs/2406.12548)
+
+- P-Tailor: MoE-based LLMs model 5 big personality traits using specialized LoRA experts.
+- Models multiple characters such as openness.
+- Introduces PCD-dataset on personality traits in various topics.
+
+
+---
+
+[MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL](https://arxiv.org/abs/2406.12692)
+
+- MAGIC: text-to-SQL multi-agent, which generates automatically self-correction guideline.
+- Framework includes three agents: manager(Planning, Tool and Memory), correction- and feedback-agents.
+
+
+---
+
+[Large Language Models based Multi-Agent Framework for Objective Oriented Control Design in Power Electronics](https://arxiv.org/abs/2406.12628)
+
+- Includes a multi-agent framework with Manager/Objective design/Model design/Control algorithm design/Control parameter design/Control verification-agents. Use various tools: model tool, control algorithm tool, optimization tool and Verify tool. Applied in Power electronics-domain.
+
+
+---
+
 
 #### 17th of June 2024
 
@@ -6318,6 +6379,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Addresses LLM training data to be "text-book-like":  clear, self-contained, instructive, and balanced. The method is used in Phi-models.
 
+
+---
+
+[BuboGPT: Enabling Visual Grounding in Multi-Modal LLMs](https://arxiv.org/abs/2307.08581)
+
+- BuboGPT: Uses Vicuna LLM by receiving text input inserting together visual and audio inputs separately with Q-former. The Vicuna output is then processed using SAM-model for visual grounding.
+- Achieves coherent and grounded descriptions
 
 ---
 
