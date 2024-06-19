@@ -106,6 +106,11 @@ Chronological order.
 
 - Includes a multi-agent framework with Manager/Objective design/Model design/Control algorithm design/Control parameter design/Control verification-agents. Use various tools: model tool, control algorithm tool, optimization tool and Verify tool. Applied in Power electronics-domain.
 
+---
+
+[The Power of LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions](https://arxiv.org/abs/2406.12480)
+
+- Stance detection on political discussion with LLMs and synthetic data with significant improvement on accuracy.
 
 ---
 
