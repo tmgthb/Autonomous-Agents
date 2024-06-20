@@ -130,6 +130,13 @@ Chronological order.
 
 - Stance detection on political discussion with LLMs and synthetic data with significant improvement on accuracy.
 
+
+---
+
+[VoCo-LLaMA: Towards Vision Compression with Large Language Models](https://arxiv.org/abs/2406.12275)
+
+- 
+
 ---
 
 
@@ -162,7 +169,12 @@ Chronological order.
 
 [Pre-Training and Personalized Fine-Tuning via Over-the-Air Federated Meta-Learning: Convergence-Generalization Trade-Offs](https://arxiv.org/abs/2406.11569)
 
--
+
+---
+
+[GUICourse: From General Vision Language Models to Versatile GUI Agents](https://arxiv.org/abs/2406.11317)
+
+
 
 
 ---
@@ -237,6 +249,13 @@ Chronological order.
 [HIRO: Hierarchical Information Retrieval Optimization](https://arxiv.org/abs/2406.09979)
 
 - HIRO (Hierarchical Information Retrieval Optimization): RAG query approach using hierarchical structures to store information. 
+
+
+---
+
+[DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2406.11896)
+
+- 
 
 ---
 
@@ -6538,6 +6557,11 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Tree of Thoughts: Deliberate Problem Solving with Large Language Models](https://arxiv.org/abs/2305.10601) 
 
 - Tree of Thoughts (ToT)-technique makes decisions using multiple different reasoning paths, self-evaluating choices to decide next action with ability to look back/forward for global decisions.
+
+
+---
+
+[Mobile-Env: Building Qualified Evaluation Benchmarks for LLM-GUI Interaction](https://arxiv.org/abs/2305.08144)
 
 
 ---
