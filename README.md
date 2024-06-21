@@ -269,6 +269,11 @@ Chronological order.
 
 ---
 
+[4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities](https://arxiv.org/abs/2406.09406)
+
+
+---
+
 
 #### 13th of June 2024
 
