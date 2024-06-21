@@ -44,7 +44,17 @@ Chronological order.
 </div>  
 
 
+---
 
+
+#### 20th of June 2024
+
+[Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning](https://arxiv.org/abs/2406.14283)
+
+- Q*: Improves multi-step reasoning of LLMs through heuristic search planning in MDP.
+- Objective is to find most suitable reasoning with maximum utility.
+- Introduces multiple general approaches (offline RL/best sequence from rollout/completion with stronger LLM) to calculate the Q-value.
+- The approach works as such in various reasoning tasks.
 
 ---
 
