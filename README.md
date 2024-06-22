@@ -56,6 +56,15 @@ Chronological order.
 - Introduces multiple general approaches (offline RL/best sequence from rollout/completion with stronger LLM) to calculate the Q-value.
 - The approach works as such in various reasoning tasks.
 
+
+---
+
+[GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/abs/2406.14550)
+
+- GraphReader: LLM agent converts long text into graph structure to explore by performing step-by-step analysis and by generating detailed plan.
+- Achieves performance level of 128k context window LLM using 4k context window LLM by converting the long text into graph structure.
+- The LLM agent records insights from the explored graph and reflects current situation to optimize answer generation.
+
 ---
 
 #### 18th of June 2024
