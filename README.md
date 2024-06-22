@@ -65,6 +65,28 @@ Chronological order.
 - Achieves performance level of 128k context window LLM using 4k context window LLM by converting the long text into graph structure.
 - The LLM agent records insights from the explored graph and reflects current situation to optimize answer generation.
 
+
+---
+
+[LLaSA: Large Multimodal Agent for Human Activity Analysis Through Wearable Sensors](https://arxiv.org/abs/2406.14498)
+
+- LLaSA (Large Language and Sensor Assistan): Text query received is converted into text embedding and sensor reading into IMU embeddings (inertia measurements unit embeddings). Both inputs are passed to LLaSA model and its output to LLM to produce final answer.
+
+
+---
+
+[Artificial Leviathan: Exploring Social Evolution of LLM Agents Through the Lens of Hobbesian Social Contract Theory](https://arxiv.org/abs/2406.14373)
+
+- Evaluates LLM-based multi-agent society. This society includes psychological drives and social relationships.
+- Evaluates Hobb's Social Contract Theory.
+
+
+---
+
+[EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/abs/2406.14228)
+
+- EvoAgent: reviews specialized agents extension into multi-agent system through evolutionary pipeline. 
+
 ---
 
 #### 18th of June 2024
