@@ -104,7 +104,14 @@ Chronological order.
 
 - AlanaVLM: SOTA-level (surpasses in spatial reasoning) 7B VLM trained with EVUD-dataset to understand embodied and ecocentric video understanding.
 - Introduces Ecocentric video understanding dataset (EVUD).
--  
+
+
+---
+
+[SpatialBot: Precise Spatial Understanding with Vision Language Models](https://arxiv.org/abs/2406.13642)
+
+- SpatialBot: VLM trained with SpatialQA-dataset (includes VQAs with low, middle and high-level), which comprehends spatial information in thre levels (point depth/depth description, proximity/object depth and spatial relationship/counting).
+- Introduces SpatialBench-benchmark to review VLMs spatial understanding.
 
 
 ---
