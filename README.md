@@ -116,6 +116,14 @@ Chronological order.
 
 ---
 
+[LIT: Large Language Model Driven Intention Tracking for Proactive Human-Robot Collaboration -- A Robot Sous-Chef Application](https://arxiv.org/abs/2406.13787)
+
+- LIT (Language-driven Intention Tracking): LLM and VLM system, which tracks human actions from images using VLM to predict human intentions. Uses  graph reasoning to generate a plan steps with LLM.
+- The VLM generates for each image a captioning about what is being done by the human and predicts the likelihood of this task to relate to specific step in the plan.
+- Based on the predicted plan step, the system predicts the most likely next step being performed by the human.
+
+---
+
 #### 18th of June 2024
 
 [Talk With Human-like Agents: Empathetic Dialogue Through Perceptible Acoustic Reception and Reaction](https://arxiv.org/abs/2406.12707)
