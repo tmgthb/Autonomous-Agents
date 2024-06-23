@@ -87,6 +87,26 @@ Chronological order.
 
 - EvoAgent: reviews specialized agents extension into multi-agent system through evolutionary pipeline. 
 
+
+
+---
+
+#### 19th of June 2024
+
+[Prism: A Framework for Decoupling and Assessing the Capabilities of VLMs](https://arxiv.org/abs/2406.14544)
+
+- Prism: evaluation framework separately reviews VLMs perception and planning capabilities. Uses single LLM to compare various VLMs (VLM Zoo) perception capabilities or uses multiple LLMs (LLM zoo) with single VLM to evaluate planning capabilities. 
+
+
+---
+
+[AlanaVLM: A Multimodal Embodied AI Foundation Model for Egocentric Video Understanding](https://arxiv.org/abs/2406.13807)
+
+- AlanaVLM: SOTA-level (surpasses in spatial reasoning) 7B VLM trained with EVUD-dataset to understand embodied and ecocentric video understanding.
+- Introduces Ecocentric video understanding dataset (EVUD).
+-  
+
+
 ---
 
 #### 18th of June 2024
