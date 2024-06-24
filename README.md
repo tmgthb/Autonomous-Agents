@@ -44,6 +44,83 @@ Chronological order.
 </div>  
 
 
+#### 21st of June 2024
+
+---
+
+[GenoTEX: A Benchmark for Evaluating LLM-Based Exploration of Gene Expression Data in Alignment with Bioinformaticians](https://arxiv.org/abs/2406.15341)
+
+- GenoAgent: LLM-based genomics data-analysis.  
+
+
+---
+
+[ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models](https://arxiv.org/abs/2406.14952)
+
+- ESC-Role: LLM-agent for Emotional Support Conversation (ESC) tasks.  Includes ESC-Eval benchmark.
+
+
+---
+
+[Autonomous Agents for Collaborative Task under Information Asymmetry](https://arxiv.org/abs/2406.14928)
+
+- iAgents (Informative Multi-Agent Systems): multi-agent system based on human social network, where person has an agent with access to information only from its user.
+- Introduces InformativeBench-benchmark to evaluate LLM task solving capability when access to only part of information (information asymmetry).
+- iAgents collaborate in social network of 140 individuals and 588 relationships and communicate 30 turns.
+
+
+---
+
+[FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents](https://arxiv.org/abs/2406.14884)
+
+- FlowBench-benchmark: reviews workflow-guided (think flowcharts) planning capability of LLMs.  
+
+
+---
+
+[Direct Multi-Turn Preference Optimization for Language Agents](https://arxiv.org/abs/2406.14868)
+
+- DMPO-loss function to optimize RL objectives in multiturn agent tasks.
+
+
+---
+
+[Evaluating RAG-Fusion with RAGElo: an Automated Elo-based Framework](https://arxiv.org/abs/2406.14783)
+
+- RAGElo-benchmark reviews retrieval performance as well in RAF-Fusion use (fuses top-k retrievals). 
+
+
+---
+
+[DiPEx: Dispersing Prompt Expansion for Class-Agnostic Object Detection](https://arxiv.org/abs/2406.14924)
+
+- DiPEX (Dispersing Prompt Expansion)-approach: Uses VLM and DiPEX to improve class-agnostic object detection.
+
+
+---
+
+[Behaviour Distillation](https://arxiv.org/abs/2406.15042)
+
+- Behaviour Distillation: compresses information for training expert policy in RL by learning synthetic data (HaDES-method) of state-action pairs without requiring the expert data.
+
+
+---
+
+[Uni-Mol2: Exploring Molecular Pretraining Model at Scale](https://arxiv.org/abs/2406.14969)
+
+- Uni-Mol2: 1.1B parameter model for molecular representation based on f Uni-Mol+ architecture (two track transformer).
+
+
+---
+
+[From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](https://arxiv.org/abs/2406.14859)
+
+- Survey on multimodal / VLM / LLM jailbreaking research.
+
+
+
+
+
 ---
 
 
@@ -87,6 +164,20 @@ Chronological order.
 
 - EvoAgent: reviews specialized agents extension into multi-agent system through evolutionary pipeline. 
 
+
+---
+
+
+[Do LLMs Have Distinct and Consistent Personality? TRAIT: Personality Testset designed for LLMs with Psychometrics](https://arxiv.org/abs/2406.14703)
+
+- Introduces TRAIT-personality test to review LLM personality.   
+
+
+---
+
+[Can LLMs Learn by Teaching? A Preliminary Study](https://arxiv.org/abs/2406.14629)
+
+- Learning by Teaching (LbT): LbT includes three methods: Observing student feedback, learning from the feedback and learning iteratively.
 
 
 ---
