@@ -54,6 +54,7 @@ Copyright (C) Teemu Maatta.
 - [Future work](#futureresearch)
   - [Consciousness](#consciousness)
   - [Real World Environments](#realworldenvironments)
+  - [Brain research](#brainresearch)
 
 
 
@@ -758,7 +759,28 @@ Literature reviews on consciousness:
 
 ---
 
+
+### Brain research
+
+
+[Movie reconstruction from mouse visual cortex activity](https://www.biorxiv.org/content/10.1101/2024.06.19.599691v1)
+
+- Reconstructs ground-truth video using images from mouse brain.
+
+
+---
+
+[Brain representation in conscious and unconscious vision](https://www.biorxiv.org/content/10.1101/2024.05.27.596053v1)
+
+- Discovers fronto-parietal cortex is involved in representing unconscious content.
+
+
+---
+
 - [Real World Environments](#realworldenvironments)
+
+
+---
 
 ## Citation
 
