@@ -44,6 +44,18 @@ Chronological order.
 </div>  
 
 
+#### 27st of June 2024
+
+[Fundamental Problems With Model Editing: How Should Rational Belief Revision Work in LLMs?](https://arxiv.org/abs/2406.19354)
+
+- Reviews model editing of LLMs.
+- Identifies existence of editable beliefs in LLMs.
+- Develops model editing benchmark.
+- Reviews difference between LLMs acting as agents vs. agent simulators.
+
+---
+
+
 #### 21st of June 2024
 
 ---
