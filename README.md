@@ -53,6 +53,16 @@ Chronological order.
 - Develops model editing benchmark.
 - Reviews difference between LLMs acting as agents vs. agent simulators.
 
+
+---
+
+
+[Tools Fail: Detecting Silent Errors in Faulty Tools](https://arxiv.org/abs/2406.19228)
+
+- Reviews LLM tool use failure recovery from "silent errors". Tool output is accurate only when: input is accurate, context is sufficient and tool makes correct predictions.
+- Introduces taxanomy for categorising tool-related errors and methods to recovery from them (refine and recovery).
+- Identifies challenges in tool recovery: failure detection/fault assignment/recovery planning.
+
 ---
 
 
