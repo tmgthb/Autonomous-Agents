@@ -79,6 +79,14 @@ Chronological order.
 - UniGen: Textual dataset generation with LLM-dataset generation approach and reviewed in benchmarking and data augmentation context.
 - Demonstrates the data augmentation technique is effective and adds capabilities to the LLM, while discusses the technique limitations in Appendix A such as knowledge intensive tasks Knowledge intensive tasks could benefit instead from Out-Of-Distribution data, still unmastered by the LLM. 
 
+
+---
+
+[Capturing Minds, Not Just Words: Enhancing Role-Playing Language Models with Personality-Indicative Data](https://arxiv.org/abs/2406.18921)
+
+- RPLM (Role Playing Language Model): Develops RPLM with personality behaviours/traits/tendencies. Introduces RolePersonality-dataset based on 14 psychology dimensions, which is gathered using role-playing expert agent interviewing with questions based on the 14 dimensions. 
+
+
 ---
 
 
