@@ -56,15 +56,23 @@ Chronological order.
 
 ---
 
-
 [Tools Fail: Detecting Silent Errors in Faulty Tools](https://arxiv.org/abs/2406.19228)
 
 - Reviews LLM tool use failure recovery from "silent errors". Tool output is accurate only when: input is accurate, context is sufficient and tool makes correct predictions.
 - Introduces taxanomy for categorising tool-related errors and methods to recovery from them (refine and recovery).
 - Identifies challenges in tool recovery: failure detection/fault assignment/recovery planning.
 
+
 ---
 
+[Simulating Classroom Education with LLM-Empowered Agents](https://arxiv.org/abs/2406.19226)
+
+- SimClass: simulates multi-agent classroom teaching. Includes manager (observe/tutor/interact), teacher, assistant and classmate agents with the user.
+- Session controller manages modules: Class State Receptor, Function executor and Manager agent. 
+- Observing uses class-states (class roles, learning materials and dialogue history). Tutoring functions include next page/teaching, which are only directed by the teacher. Interaction functions are performed agent to agent. Classmate agents have different roles like note taker, deep thinker, idea creator etc.
+
+
+---
 
 #### 21st of June 2024
 
