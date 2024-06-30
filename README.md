@@ -7175,6 +7175,14 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
+[Prediction and Adaptation in an Evolving Chaotic Environment](https://arxiv.org/abs/adap-org/9306005)
+
+- Defines the concept of "Predictive Agent" as adaptive predictors.
+
+
+---
+
 <div id="astarssearch">  </div>
 
 #### 24th of November 1967
