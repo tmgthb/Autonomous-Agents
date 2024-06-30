@@ -74,6 +74,24 @@ Chronological order.
 
 ---
 
+[UniGen: A Unified Framework for Textual Dataset Generation Using Large Language Models](https://arxiv.org/abs/2406.18966)
+
+- UniGen: Textual dataset generation with LLM-dataset generation approach and reviewed in benchmarking and data augmentation context.
+- Demonstrates the data augmentation technique is effective and adds capabilities to the LLM, while discusses the technique limitations in Appendix A such as knowledge intensive tasks Knowledge intensive tasks could benefit instead from Out-Of-Distribution data, still unmastered by the LLM. 
+
+---
+
+
+#### 26th of June 2024
+
+[MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
+
+- MAGIS: LLM-based framework to resolve Github issues using four agents: Manager, Repository Custodian, Developer and Quality Assurance Engineer.
+- Reviews correlation in task success rate and task complexity/ability to locate relevant code line.
+- Planning part includes locating files/code, building team, kick-off meeting. Coding part includes developer producing code and then QAE validating it.
+
+---
+
 #### 21st of June 2024
 
 ---
@@ -4256,7 +4274,15 @@ during CoT inference.
 - Extends effective context window by 3-20x and keeps failure rate close to 0%, which is significantly less than traversing tree with a MemWalker-like solution.
 - Gist-memory improves Web navigation over using raw html inputs, which is by nature a very long context task.
 
- 
+
+---
+
+[AI Hospital: Benchmarking Large Language Models in a Multi-agent Medical Interaction Simulator](https://arxiv.org/abs/2402.09742)
+
+- AI Hospital: LLM acts with doctor, patient, examiner and physician-roles. Categorises medical information into: subjective, objective and Diagnosis/Treatment. 
+- MVME-benchmark (Multi-View Medical Evaluation): evaluates LLMs in symptop collection, recommendation analysis and diagnosis.
+
+
 ---
 
 #### 14th of February 2024
