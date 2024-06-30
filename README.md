@@ -7180,6 +7180,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Defines the concept of "Predictive Agent" as adaptive predictors.
 
+---
+
+[A Learning Algorithm that
+Mimics Human Learning](https://www.santafe.edu/research/results/working-papers/a-learning-algorithm-that-mimics-human-learning)
+
+- Reviews Artificial Agents learning like humans.
 
 ---
 
