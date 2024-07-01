@@ -52,6 +52,14 @@ Chronological order.
 - Tool refiner has access to wide variety of tools, which it limits to subset of tools available for the agent in particular task.
 - Introduces: "Programmable Prompts", which generalises ReAct and PlanReAct by using iterative sequence consisting of pre-defined steps A...X.
 
+
+---
+
+[Scaling Synthetic Data Creation with 1,000,000,000 Personas](https://arxiv.org/abs/2406.20094)
+
+- Persona-Hub: Diverse 1B personas web dataset using persona-driven data synthesis method. Includes only main characteristics without fine-grained details.
+    
+
 ---
 
 #### 27st of June 2024
