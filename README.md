@@ -182,6 +182,13 @@ Chronological order.
 - Planner agent divides tasks into sub-tasks. 
 - Optimized for on-device usage through usage of fine-tuning instead of in-context learning.
 
+---
+
+#### 24th of June 2024
+
+[RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale]()
+
+- Evaluates LLMs on repository-level coding. Claude Sonnet 3.5 outperforms by 12% the GPT-4o. 
 
 ---
 
