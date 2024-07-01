@@ -527,6 +527,11 @@ Chronological order.
 ---
 
 
+[Embodied Question Answering via Multi-LLM Systems](https://arxiv.org/abs/2406.10918)
+
+- CAM (Central Answer Model): Embodied QA multi-agent framework, where multiple individual LLM-agents respond queries about household environment.
+
+---
 
 #### 14th of June 2024
 
