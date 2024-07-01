@@ -133,6 +133,41 @@ Chronological order.
 
 ---
 
+[Mental Modeling of Reinforcement Learning Agents by Language Models](https://arxiv.org/abs/2406.18505)
+
+- XRL (eXplainable RL): Reviews LLMs capacity to build mental models about RL agent behaviour. Finds, that LLMs lack mental modeling capabilities about RL agents.
+- LLM-Xavier workflow: RL agent rolls a trajectory, which LLM-agent reasons to provide an answer. This evaluation is compared with the ground truth data.
+- Offers a way to explain behaviour of black-box RL agents.
+
+
+-- 
+
+[AI-native Memory: A Pathway from LLMs Towards AGI](https://arxiv.org/abs/2406.18312)
+
+- Claims AGI-like systems require AI-native memory, which is deep neural network parametrising different types of memories beyond language. Claims such Large Personal Model (LPM) would be unique for each person with every detail about the user for personalised generation.
+- Includes useful ideas about what data the personalised memory could look include or the various levels of data granularity.
+
+
+---
+
+[Role-Play Zero-Shot Prompting with Large Language Models for Open-Domain Human-Machine Conversation](https://arxiv.org/abs/2406.18460)
+
+- Investigates role-play zero-shot prompting in conversational agent.
+
+
+---
+
+[LLCoach: Generating Robot Soccer Plans using Multi-Role Large Language Models](https://arxiv.org/abs/2406.18285)
+
+- LLCoach: Reviews advance planning capabilities of robots in dynamic/unstructured environments.
+- The system offline components collects plans from video frames to the Coach VLM and refines them using LLM, which retrieves Acctions from vector db and synchronises into multi-agent plans. Online component retrieves and executes most similar plan to the world model status.
+
+
+
+---
+
+
+
 #### 21st of June 2024
 
 ---
@@ -270,6 +305,17 @@ Chronological order.
 
 
 ---
+
+
+[MultiAgent Collaboration Attack: Investigating Adversarial Attacks in Large Language Model Collaborations via Debate](https://arxiv.org/abs/2406.14711)
+
+- Persuasion by adversial agent in multi-agent debate, which undermines shared interests. 
+
+
+
+---
+
+
 
 #### 19th of June 2024
 
@@ -435,6 +481,16 @@ Chronological order.
 
 
 ---
+
+
+[CLARA: Classifying and Disambiguating User Commands for Reliable Interactive Robotic Agents](https://arxiv.org/abs/2306.10376)
+
+- CLARA: classification of users robot commands as infeasible/ambigious. 
+
+
+---
+
+
 
 #### 14th of June 2024
 
@@ -5770,6 +5826,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Beyond Isolation: Multi-Agent Synergy for Improving Knowledge Graph Constructio](https://arxiv.org/abs/2312.03022)
 
 - Uses three LLM agents for entity, event and relation extraction to build knowledge graph.
+
+
+---
+
+[Large Knowledge Model: Perspectives and Challenges](https://arxiv.org/abs/2312.02706)
+
+- Large Knowledge Models: Reviews combination of LLMs (neural representation) and Knowledge graphs (symbolic representation) through usage of knowledge graph embeddings and text embeddings with LLMs. 
 
 
 ---
