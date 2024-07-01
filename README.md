@@ -176,7 +176,14 @@ Chronological order.
 
 ---
 
+[Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
 
+- OctoPlanner: Separates planner/action-steps into OctoPlanner (planner) agent and Action agent (Octopus model) with function execution.
+- Planner agent divides tasks into sub-tasks. 
+- Optimized for on-device usage through usage of fine-tuning instead of in-context learning.
+
+
+---
 
 #### 21st of June 2024
 
@@ -1035,8 +1042,15 @@ Chronological order.
 - Components include User data, Minimizer LM, task, privacy directive, which are sealed by AirGap to minimize user data given to the environment. 
 
 
+---
+
+[Truthful Aggregation of LLMs with an Application to Online Advertising](https://arxiv.org/abs/2405.05905)
+
+- Reviews usage of LLMs as advertising platforms by balancing user satisfaction vs. influencing via ads to LLM responses.
+
 
 ---
+
 
 #### 7th of May 2024
 
