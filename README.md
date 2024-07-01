@@ -179,8 +179,20 @@ Chronological order.
 [Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
 
 - OctoPlanner: Separates planner/action-steps into OctoPlanner (planner) agent and Action agent (Octopus model) with function execution.
-- Planner agent divides tasks into sub-tasks. 
+- Planner agent divides tasks into sub-tasks.
 - Optimized for on-device usage through usage of fine-tuning instead of in-context learning.
+
+
+---
+
+#### 25th of June 2024
+
+[Human-Object Interaction from Human-Level Instructions](https://arxiv.org/abs/2406.17840)
+
+- Develops complete system to synthesize object motion, full-body motion and finger motion simultaneously. 
+- Applies High-evel planner to generate target scene layout/task plan and then uses low-level motion generation with four stage appproach with: CoarseNet/GraspPose/RefineNet and FingerNet.
+- Planner includes three stages: Generate spatial relationships between objects in natural language (to improve performance), calculate target layouts and generate detailed plan.
+
 
 ---
 
