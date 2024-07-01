@@ -89,14 +89,47 @@ Chronological order.
 
 ---
 
+[LayoutCopilot: An LLM-powered Multi-agent Collaborative Framework for Interactive Analog Layout Design](https://arxiv.org/abs/2406.18873)
+
+- LayoutCopilot: LLM-based analog layout design framework.
+
+
+---
+
 
 #### 26th of June 2024
+
+[Symbolic Learning Enables Self-Evolving Agents](https://arxiv.org/abs/2406.18532)
+
+- Agent Symbolic Optimizers: introduces agent symbolic learning framework. Optimizes symbolic components (prompts/tools/their orchestration) of the LLM agent. Attempts to optimize agent to solve real-world task by enabling LLM-agent to learn from data and self-evolve.
+- Proposes, that key to achieve AGI is to move from model-centric or engineering-centric to data-centric language agents, which learn and envolve autonomously in environments.
+- Agent symbolic learning optimizes symbolic network within language agents. 
+
+
+---
 
 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
 
 - MAGIS: LLM-based framework to resolve Github issues using four agents: Manager, Repository Custodian, Developer and Quality Assurance Engineer.
 - Reviews correlation in task success rate and task complexity/ability to locate relevant code line.
 - Planning part includes locating files/code, building team, kick-off meeting. Coding part includes developer producing code and then QAE validating it.
+
+
+---
+
+[Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models](https://arxiv.org/abs/2406.18746)
+
+
+- LRLL-agent (Lifelong Robot Library Learning): increases continuously the robot skill library by using soft memory module, self-guided exploration, skill abstractor and lifelong learning algorithm.
+- The framework is inspired by wake-sleep optimization, where wake phase (interacts with environment) is followed by sleep phase (agent reflects experiences).
+
+
+---
+
+[Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship](https://arxiv.org/abs/2406.18702)
+
+- Reviews use of LLM to understand and improve legislative process.
+
 
 ---
 
@@ -6180,6 +6213,12 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization](https://arxiv.org/abs/2310.10134)
 
 - A Continually Learning Generative Agent from Interactions (CLIN): Memory generator updates memory, Controller manages tasks and Executor converts it into actions towards the goal. 
+
+---
+
+[Theory of Mind for Multi-Agent Collaboration via Large Language Models](https://arxiv.org/abs/2310.10701)
+
+- LLM-based agent manages complex multi-agent collaboration task with performance level comparable with RL agent. 
 
 
 ---
