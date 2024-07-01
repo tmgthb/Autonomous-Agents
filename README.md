@@ -43,6 +43,16 @@ Chronological order.
 
 </div>  
 
+#### 28st of June 2024
+
+[BMW Agents -- A Framework For Task Automation Through Multi-agent Collaboration](https://arxiv.org/abs/2406.20041)
+
+- BMW Agents: Includes three main components for the LLM-based agents: Planning, Execution and Verification. 
+- Retrieve a task from task queue DB and coordinator agent orchestrates the agent workflow. Includes Tools, Memory and Persona/Objectives.
+- Tool refiner has access to wide variety of tools, which it limits to subset of tools available for the agent in particular task.
+- Introduces: "Programmable Prompts", which generalises ReAct and PlanReAct by using iterative sequence consisting of pre-defined steps A...X.
+
+---
 
 #### 27st of June 2024
 
