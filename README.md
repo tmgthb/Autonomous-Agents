@@ -4270,6 +4270,13 @@ during CoT inference.
 
 #### 23th of February 2024
 
+[Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
+
+- Survey on multi-modal AI and LLM agents.
+
+
+---
+
 [Genie: Generative Interactive Environments](https://arxiv.org/abs/2402.15391)
 
 - Genie: a Foundational World Model. The learning paradigm is unsupervised learning from unlabelled internet video.  The approach scales effectively as compute is increased.
