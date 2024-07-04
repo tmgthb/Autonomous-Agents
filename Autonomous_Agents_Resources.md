@@ -345,7 +345,8 @@ Includes list of literature reviews by other authors for quick reference.
 - [Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
 - [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559)
 - [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
-
+- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
+- [Intelligent agents: theory and practice](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)
 
 ---
 
