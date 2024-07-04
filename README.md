@@ -43,6 +43,26 @@ Chronological order.
 
 </div>  
 
+
+#### 3rd of July 2024
+
+[Cactus: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory](https://arxiv.org/abs/2407.03103)
+
+- Cactus: multi-turn dialogue dataset for mental health counseling, consisting of goal-oriented/structured Cognitive Behavioral Therapy interation.
+- Trains Camel-LLM using the Cactus-dataset.
+
+
+---
+
+#### 2nd of July 2024
+
+[MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/abs/2407.02483)
+
+- MMedAgent: MMedAgent outperforms GPT-4o-agent in medical tasks based on LLaVA-Med-model by fine-tuning data from 6 different tools.
+
+
+---
+
 #### 28st of June 2024
 
 [BMW Agents -- A Framework For Task Automation Through Multi-agent Collaboration](https://arxiv.org/abs/2406.20041)
