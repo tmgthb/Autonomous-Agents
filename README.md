@@ -69,6 +69,16 @@ Chronological order.
 
 ---
 
+#### 1st of July 2024
+
+[Agentless: Demystifying LLM-based Software Engineering Agents](https://arxiv.org/abs/2407.01489)
+
+- Agentless: Argues, that it s not required to deploy complex autonomous sw agents.
+- Uses two step approach: Localization (files requiring sw fix) and Repair.
+- Framework begins from codebase and an issue. It then reviews repo structure and issue to localize top n-files, localizes classes/functions, localizes edit locations. In the repair-phase, the LLM generates various patches, which are filtered and ranked to submit the patch to the issue.
+
+---
+
 #### 28st of June 2024
 
 [BMW Agents -- A Framework For Task Automation Through Multi-agent Collaboration](https://arxiv.org/abs/2406.20041)
