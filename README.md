@@ -56,6 +56,12 @@ Chronological order.
 
 #### 2nd of July 2024
 
+[GRASP: A Grid-Based Benchmark for Evaluating Commonsense Spatial Reasoning](https://arxiv.org/abs/2407.01892)
+
+- GRASP: Large scale  spatial reasoning benchmark and dataset in structured grid environment requiring planning and commonsense reasoning.
+
+---
+
 [MMedAgent: Learning to Use Medical Tools with Multi-modal Agent](https://arxiv.org/abs/2407.02483)
 
 - MMedAgent: MMedAgent outperforms GPT-4o-agent in medical tasks based on LLaVA-Med-model by fine-tuning data from 6 different tools.
