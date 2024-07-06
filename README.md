@@ -46,6 +46,15 @@ Chronological order.
 
 #### 3rd of July 2024
 
+[LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control](https://arxiv.org/abs/2407.03168)
+
+- LivePortrait: generates realistic video from single portrait image with facial expressions and head poses from different angles. 
+- Offers better computational efficiency and controllability over diffusion models, by using implicit-keypoint-based framework.
+- Generation speed is 12.8 ms with RTX 4090.
+
+
+---
+
 [Cactus: Towards Psychological Counseling Conversations using Cognitive Behavioral Theory](https://arxiv.org/abs/2407.03103)
 
 - Cactus: multi-turn dialogue dataset for mental health counseling, consisting of goal-oriented/structured Cognitive Behavioral Therapy interation.
