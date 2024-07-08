@@ -44,6 +44,23 @@ Chronological order.
 </div>  
 
 
+#### 5th of July 2024
+
+[On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/abs/2407.04622)
+
+- Explores debate and consultancy to supervise AI.
+- Finds debate outperforms consultancy in general. Better debater models modestly improve judge accuracy. 
+
+
+---
+
+[When LLMs Play the Telephone Game: Cumulative Changes and Attractors in Iterated Cultural Transmissions](https://arxiv.org/abs/2407.04503)
+
+- Reviews toxicity/bias in LLM agent multi-step inputs/outputs, instead of individual LLM input-output. 
+
+
+---
+
 #### 3rd of July 2024
 
 [LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control](https://arxiv.org/abs/2407.03168)
