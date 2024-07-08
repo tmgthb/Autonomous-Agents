@@ -61,6 +61,13 @@ Chronological order.
 
 ---
 
+[Are Large Language Models Strategic Decision Makers? A Study of Performance and Bias in Two-Player Non-Zero-Sum Games](https://arxiv.org/abs/2407.04467)
+
+- Reviews LLMs in strategic games. LLMs come with systematic bias: positional bias, payoff bias and behavioural bias. LLMs performance decreases, when the mentioned bias-dimensions are misaligned.  
+
+
+---
+
 #### 3rd of July 2024
 
 [LivePortrait: Efficient Portrait Animation with Stitching and Retargeting Control](https://arxiv.org/abs/2407.03168)
