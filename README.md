@@ -44,6 +44,19 @@ Chronological order.
 </div>  
 
 
+
+#### 11th of July 2024
+
+[GTA: A Benchmark for General Tool Agents](https://arxiv.org/abs/2407.08713)
+
+- GTA-benchmark: evaluates general tool usage of LLM agents in real user queries with real deployed tools. for example web page screenshots.
+- Evaluates perception, operation, logic and creativity tools.
+- Defines "Real-World" as helping humans in real-life with being step/tool-implicit. 
+- GPT-4 solves 50% of these tasks.
+- Includes illustration of executable tool chains.
+
+---
+
 #### 5th of July 2024
 
 [On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/abs/2407.04622)
