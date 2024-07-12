@@ -55,6 +55,17 @@ Chronological order.
 - GPT-4 solves 50% of these tasks.
 - Includes illustration of executable tool chains.
 
+
+---
+
+[Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence](https://arxiv.org/abs/2407.07061)
+
+- Internet of Agents (IoA): LLM agents lack capability to interact in dynamic environments with other agents outside its hard-coded communication pipeline.
+- Limitations include: ecosystem isolation, single-device simulation and rigid communication/coordination.
+- IoA acts in Internet-like environment to achieve collective intelligence and new capabilities.
+- Includes architectural design of the IoA-framework.
+
+
 ---
 
 #### 5th of July 2024
