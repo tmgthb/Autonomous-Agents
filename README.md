@@ -68,6 +68,26 @@ Chronological order.
 
 ---
 
+#### 10th of July 2024
+
+[WorldAPIs: The World Is Worth How Many APIs? A Thought Experiment](https://arxiv.org/abs/2407.07778)
+
+- Discovers lower-bound of covering 0.5% of WikiHow instructions equals roughly usage of 300 APIs, which we can consider lower-bound limit for covering wide variety of WikiHow instructions in Embodied agent tasks.
+- The framework iteratively produces action spaces for APIs to be used by a LLM based embodied agent. 
+- This two-step process works by iteratively generating through hallucination: semi-executable agent policies with python by LLM few-shot prompting from WikiHow instructions, parse partial/full python programs into pool of APIs
+
+
+---
+
+#### 9th of July 2024
+
+[Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models](https://arxiv.org/abs/2407.07086)
+
+- Hypothetical Minds: Introduces "Theory-of-Mind"-module. Includes as well perception, memory and hierarchical two-level planning.
+
+
+---
+
 #### 5th of July 2024
 
 [On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/abs/2407.04622)
