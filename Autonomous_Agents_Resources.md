@@ -119,6 +119,10 @@ Negative:
 - Lacks aspects about generalization: tasks/objectives/embodiments.
 - Vague about human communication and cognitition.
 
+There are alternatives for this term, such as [Mae(1993):](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf)
+
+"Autonomous Agents are systems that inhabit dynamic, unpredictable environment in which they try to satisfy a set of time-dependent goals or motivations."
+
 
 ---
 
@@ -247,7 +251,6 @@ Negative:
 </div>
 
 
-
 #### AI-Agents (Agentic AI)
 
 
@@ -347,7 +350,7 @@ Includes list of literature reviews by other authors for quick reference.
 - [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
 - [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
 - [Intelligent agents: theory and practice](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)
-- [Modeling Adaptive Autonomous Agents](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf)
+
 ---
 
 
