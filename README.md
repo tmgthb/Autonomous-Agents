@@ -153,6 +153,13 @@ Chronological order.
 
 ---
 
+[Vision language models are blind](https://arxiv.org/abs/2407.06581)
+
+- Reviews 7 visual tasks, where SOTA-level VLMs perform shockingly bad.
+
+
+---
+
 #### 5th of July 2024
 
 [On scalable oversight with weak LLMs judging strong LLMs](https://arxiv.org/abs/2407.04622)
@@ -292,6 +299,13 @@ Chronological order.
 
 ---
 
+[Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108)
+
+- Explores emergence of self-replicating programs. Introduces "high-order entropy"-metric to measure complexity of the system studied.
+
+
+---
+
 
 #### 26th of June 2024
 
@@ -389,6 +403,9 @@ Chronological order.
 - Evaluates LLMs on repository-level coding. Claude Sonnet 3.5 outperforms by 12% the GPT-4o. 
 
 ---
+
+[RES-Q: Evaluating Code-Editing Large Language Model Systems at the Repository Scale](https://arxiv.org/abs/2406.16801)
+
 
 #### 21st of June 2024
 
