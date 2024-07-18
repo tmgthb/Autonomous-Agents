@@ -44,6 +44,29 @@ Chronological order.
 </div>  
 
 
+#### 12th of July 2024
+
+[PersonaRAG: Enhancing Retrieval-Augmented Generation Systems with User-Centric Agents](https://arxiv.org/abs/2407.09394)
+
+- PersonaRAG: Includes compoments k-docs retrieval, user interaction analysis (user profile/contextual retrieval/live session/document ranking/feedback agents) and cognitive dynamic adaption(selective/collaborative use of agents).
+
+
+---
+
+[Instruction Following with Goal-Conditioned Reinforcement Learning in Virtual Environments](https://arxiv.org/abs/2407.09287)
+
+- IGOR (Instruction following with GOal-conditioned RL): LLM translates instructions into high-level action plan with sub-goals and RL executes them.
+
+
+---
+
+[Large Language Models as Biomedical Hypothesis Generators: A Comprehensive Evaluation](https://arxiv.org/abs/2407.08940)'
+
+- LLMs generate novel and diverse biomedical hypthesis through multi-agent interaction.
+
+
+---
+
 
 #### 11th of July 2024
 
@@ -67,6 +90,48 @@ Chronological order.
 
 
 ---
+
+
+
+[Converging Paradigms: The Synergy of Symbolic and Connectionist AI in LLM-Empowered Autonomous Agents](https://arxiv.org/abs/2407.08516)
+
+- LAAs (LLM-empowered Autonomous Agents): Introduces concept of LAAs, which include three elements: external tools, LLMs (knowledge modelling) and Agentic workflow (human-like symbolic reasoning).
+- LAAs are characterised by natural language dialogue, decision making, planning, task decomposition and actionining.
+
+
+---
+
+[GPT-4 is judged more human than humans in displaced and inverted Turing tests](https://arxiv.org/abs/2407.08853)
+
+- Introduces Inverted Turing text.
+
+
+---
+
+[Beyond Instruction Following: Evaluating Rule Following of Large Language Models](https://arxiv.org/abs/2407.08440)
+
+- RuleBench-benchmark: evaluates LLMs capability to follow rules.
+- Evaluation dimensions include: executing rules, triggering rules, following formal rules, applying rules and following counterfactual rules.
+
+
+---
+
+
+[Large Models of What? Mistaking Engineering Achievements for Human Linguistic Agency](https://arxiv.org/abs/2407.08790)
+
+- Argues, that LLMs cannot be linguistic agents in the actual form by lacking embodiment, participation and precariousness. 
+
+
+---
+
+
+[Incorporating Large Language Models into Production Systems for Enhanced Task Automation and Flexibility](https://arxiv.org/abs/2407.08550)
+
+- Reviews integration of LLMs into Automated Production Systems.
+
+
+---
+
 
 #### 10th of July 2024
 
