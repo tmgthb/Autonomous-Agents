@@ -44,6 +44,15 @@ Chronological order.
 </div>  
 
 
+[The Vision of Autonomic Computing: Can LLMs Make It a Reality?](https://arxiv.org/abs/2407.14402)
+
+- Explores feasibility of Autonomic Computing Vision (ACV) with multi-agent framework based on LLMs.
+- LLM-based multi-agent framework achieves level 3 autonomy.
+- The original ACV-framework identified 4 pillars: self-configuration, self-optimization, self-healing and self-protection.
+
+
+---
+
 #### 12th of July 2024
 
 [PersonaRAG: Enhancing Retrieval-Augmented Generation Systems with User-Centric Agents](https://arxiv.org/abs/2407.09394)
