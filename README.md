@@ -60,7 +60,13 @@ Chronological order.
 - Includes meeting/task-phases.
 - Agents pose personality-component: generated with personality prompt from pre-defined set of personalities: behaviour/decision-making, which contribute to more dynamism/realism.
 
+
 ---
+
+[LawLuo: A Chinese Law Firm Co-run by LLM Agents](https://arxiv.org/abs/2407.16252)
+
+- LawLuo: includes LLM-based receptionist/lawyer/secrretary/boss-agents to realistic legal consultation company based on SOP (Standard Operating Principle).
+
 
 #### 19th of July 2024
 
