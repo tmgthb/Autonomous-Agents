@@ -54,6 +54,14 @@ Chronological order.
 
 ---
 
+[AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game](https://arxiv.org/abs/2407.16521)
+
+- AmongAgents: multi-agent LLM-framework with memory, reflection and interaction in social deduction game with ambiguous and deceptive characters.
+- Includes meeting/task-phases.
+- Agents pose personality-component: generated with personality prompt from pre-defined set of personalities: behaviour/decision-making, which contribute to more dynamism/realism.
+
+---
+
 #### 19th of July 2024
 
 
