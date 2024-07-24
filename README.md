@@ -44,6 +44,16 @@ Chronological order.
 </div>  
 
 
+#### 23rd of July 2024
+
+[RedAgent: Red Teaming Large Language Models with Context-aware Autonomous Language Agent](https://arxiv.org/abs/2407.16667)
+
+- RedAgent: Introduces concept of "Jaillbreaking strategy" (strategies used by attackers to construct jaillbreaking prompts) red teaming through multi-agent self-reflection from context feedback and skill memory.
+- The approach can jaillbreak LLMs and LLM-based apps (even more vulnerable) using just few queries.
+- The Red-Agent architecture includes skill memory and multiple roles (profile constructor/planner/attacker/evaluator) and short/long term memory.
+
+---
+
 #### 19th of July 2024
 
 
