@@ -48,7 +48,8 @@ Chronological order.
 
 [Reinforced Prompt Personalization for Recommendation with Large Language Models](https://arxiv.org/abs/2407.17115)
 
-- Reinforced Prompt Personalization (RPP): uses instance-based prompting, instead of task-based (role-play/history/reasoning guidance/output format). Instance-based prompting personalises the four-characters.
+- Reinforced Prompt Personalization (RPP): uses instance-based prompting with MARL.
+- Instead of task-based (role-play/history/reasoning guidance/output format), Instance-based prompting personalises to these four-characteristics with MARL.
 
 
 ---
@@ -7607,7 +7608,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Agents could learn to obtain various intelligent behaviours through trial and error experiences to maximize reward.
 - Sophisticated intelligence may emerge from simple objective, think what an animal is able to learn to do just by being in hungry.
 
+
 ---
+
+
+#### 24th of November 2019
+
+[Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635)
+
+- MARL: Introduces Multi-Agent Reinforcement Learning (MARL).
+
 
 <div id="resourcecloud">  </div>
 
