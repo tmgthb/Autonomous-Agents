@@ -54,6 +54,13 @@ Chronological order.
 
 ---
 
+[AI-Gadget Kit: Integrating Swarm User Interfaces with LLM-driven Agents for Rich Tabletop Game Applications](https://arxiv.org/abs/2407.17086)
+
+- AI-gadget Kit: multi-agent driven Swarm UI (SUI) tabletop gaming system, which consist of meta-motion, interactive behaviour, interactive relationship and application.  
+
+
+---
+
 [3D Question Answering for City Scene Understanding](https://arxiv.org/abs/2407.17398)
 - Sg-CityU: 3D multimodal QA, which uses scene graph to provide answers related to spatial relationships about city-scenes
 
