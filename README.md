@@ -111,6 +111,17 @@ Chronological order.
 - LawLuo: includes LLM-based receptionist/lawyer/secrretary/boss-agents to realistic legal consultation company based on SOP (Standard Operating Principle).
 
 
+---
+
+#### 22th of July 2024
+
+[TaskGen: A Task-Based, Memory-Infused Agentic Framework using StrictJSON](https://arxiv.org/abs/2407.15734
+
+- TaskGen: LLM-agent framework to solve tasks by dividing task into sub-tasks, executed by its own agent/equipped function. Manages memory/information based on need-to-know. Uses in StrictJson-format.
+- Includes meta-agent, inner-agent, function-calls, sub-tasks, shared memory and passing context/shared memory to inner agent/function.
+
+---
+
 #### 19th of July 2024
 
 
