@@ -45,6 +45,14 @@ Chronological order.
 
 #### 24th of July 2024
 
+
+[Reinforced Prompt Personalization for Recommendation with Large Language Models](https://arxiv.org/abs/2407.17115)
+
+- Reinforced Prompt Personalization (RPP): uses instance-based prompting, instead of task-based (role-play/history/reasoning guidance/output format). Instance-based prompting personalises the four-characters.
+
+
+---
+
 [3D Question Answering for City Scene Understanding](https://arxiv.org/abs/2407.17398)
 - Sg-CityU: 3D multimodal QA, which uses scene graph to provide answers related to spatial relationships about city-scenes
 
