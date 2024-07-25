@@ -43,6 +43,13 @@ Chronological order.
 
 </div>  
 
+#### 24th of July 2024
+
+[3D Question Answering for City Scene Understanding](https://arxiv.org/abs/2407.17398)
+- Sg-CityU: 3D multimodal QA, which uses scene graph to provide answers related to spatial relationships about city-scenes
+
+
+---
 
 #### 23rd of July 2024
 
