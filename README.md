@@ -63,6 +63,12 @@ Chronological order.
 
 ---
 
+
+[Artificial Agency and Large Language Models](https://arxiv.org/abs/2407.16190)
+
+
+- Reviews theoretical models for agents, LLM agents and concept of artificial agency.
+
 [LawLuo: A Chinese Law Firm Co-run by LLM Agents](https://arxiv.org/abs/2407.16252)
 
 - LawLuo: includes LLM-based receptionist/lawyer/secrretary/boss-agents to realistic legal consultation company based on SOP (Standard Operating Principle).
