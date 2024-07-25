@@ -91,8 +91,15 @@ Chronological order.
 - The framework includes: interaction mechanism (event stream), environment(sandbox environment for code execution),  interface(human-like), multi-agent delegation (co-operate) and evaluation framework.
 - Event stream tracks history of action and observation.
 
+
 ---
 
+[PyBench: Evaluating LLM Agent on various real-world coding tasks](https://arxiv.org/abs/2407.16732)
+
+- Introduces PyBench-benchmark for real-world like coding tasks withh LLM-agents.
+- Introduces high-performance PyLlama3 model for coding tasks.
+
+---
 
 [Artificial Agency and Large Language Models](https://arxiv.org/abs/2407.16190)
 
