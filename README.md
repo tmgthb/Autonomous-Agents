@@ -123,6 +123,17 @@ Chronological order.
 
 ---
 
+[Odyssey: Empowering Agents with Open-World Skills](https://arxiv.org/abs/2407.15325)
+
+- Odyssey: interactive (plan-actor-critic) LLM-agent (fine-tuned Llama 3) with real world skill library.
+- Introduces long-term planning/dynamic-immediate planning/autonomous exploration benchmark.
+- Planner decomposes long-term goals into sub-goals with ultimate goals/behavioural constraints/agent states/achievements.
+- Actor executes skill code using query context/similarity match/skill selection.
+- Critic uses execution feedback/self-validation/self-reflection.
+
+
+---
+
 #### 19th of July 2024
 
 
