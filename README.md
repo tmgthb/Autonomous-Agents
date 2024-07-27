@@ -43,6 +43,17 @@ Chronological order.
 
 </div>  
 
+
+#### 25th of July 2024
+
+[Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://arxiv.org/abs/2407.18219)
+
+- RISE (Recursive IntroSpEction): iteratively sel-improve LLM responses through fine-tuning with RL. 
+- RISE starts with turn 1, where only prompt is provided. In turn 2, the prompt, the original response and its feedback is provided to generate the turn 2 response. Majority voting is used to select the final response from multiple responses generated.
+
+
+---
+
 #### 24th of July 2024
 
 
