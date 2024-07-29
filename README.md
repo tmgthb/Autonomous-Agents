@@ -46,6 +46,15 @@ Chronological order.
 
 #### 25th of July 2024
 
+[PersonaGym: Evaluating Persona Agents and LLMs](https://arxiv.org/abs/2407.18416)
+
+- Introduces PersnaGym-benchmark to evaluate persona LLM-agents.
+- Sets an automatic PersonaScore-metric to evaluate five different capabilities.
+- Finds SOTA level LLMs to offer highly varying level of capabilities as persona-agents.
+- Increasing model size is not guarantee of better persona agent performance with varying level of persona agent performance detected.
+
+---
+
 [Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://arxiv.org/abs/2407.18219)
 
 - RISE (Recursive IntroSpEction): iteratively sel-improve LLM responses through fine-tuning with RL. 
