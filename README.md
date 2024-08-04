@@ -43,6 +43,15 @@ Chronological order.
 
 </div>  
 
+#### 1st of August 2024
+
+[AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764)
+
+- AgentGen: Generates diverse LLM agent environments and planning tasks.
+- Uses inspirational corpus to generate environment context (actions/restrictions/etc). Generates tasks, which include "difficulty diversification: easy/medium/hard with bidirectional evolution (Bi-Evol) to smoothly acquire new planning skills.
+
+---
+
 
 #### 25th of July 2024
 
