@@ -47,11 +47,21 @@ Chronological order.
 
 [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764)
 
-- AgentGen: Generates diverse LLM agent environments and planning tasks.
+- AgentGen: Generates diverse LLM agent environments and planning tasks. LLM fine-tuned with this data improves significantly planning capabilities.
 - Uses inspirational corpus to generate environment context (actions/restrictions/etc). Generates tasks, which include "difficulty diversification: easy/medium/hard with bidirectional evolution (Bi-Evol) to smoothly acquire new planning skills.
+
 
 ---
 
+#### 31st of July 2024
+
+[Tulip Agent -- Enabling LLM-Based Agents to Solve Tasks Using Large Tool Libraries](https://arxiv.org/abs/2407.21778)
+
+- Tulip Agent and AutoTulipAgent: LLM-agent has priviledges to create, update, delete and edit tool library. 
+- Self-Recursively extendible tool library. 
+- AutoTulipAgent includes 5 generic tools: 2 to decompose tasks/search tools, includes apart capability to create/delete/update tools. 
+
+---
 
 #### 25th of July 2024
 
