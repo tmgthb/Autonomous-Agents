@@ -43,6 +43,16 @@ Chronological order.
 
 </div>  
 
+#### 2nd of July 2024
+
+[Coalitions of Large Language Models Increase the Robustness of AI Agents](https://arxiv.org/abs/2408.01380)
+
+- Coalition of LLM models outperform single model and fine-tuned LLMs.
+- Specific LLMs fit for particular tasks and cheaper interference.
+
+
+---
+
 #### 1st of August 2024
 
 [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764)
@@ -60,6 +70,16 @@ Chronological order.
 - Tulip Agent and AutoTulipAgent: LLM-agent has priviledges to create, update, delete and edit tool library. 
 - Self-Recursively extendible tool library. 
 - AutoTulipAgent includes 5 generic tools: 2 to decompose tasks/search tools, includes apart capability to create/delete/update tools. 
+
+
+---
+
+#### 28th of July 2024
+
+[Solving Robotics Problems in Zero-Shot with Vision-Language Models](https://arxiv.org/abs/2407.19094)
+
+- Wonderful Team: uses off-shelf VLM model for high-level planning, low-level location extraction and action execution.
+
 
 ---
 
