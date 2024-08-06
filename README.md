@@ -41,7 +41,20 @@ Copyright (C) Teemu Maatta.
 
 Chronological order.
 
-</div>  
+</div>
+
+#### 5th of August 2024
+
+[ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems](https://arxiv.org/abs/2408.02248)
+
+- ReDel (Recursive Delegation): Recursive multi-agent framework, where LLM decides when to delegate/how to delegate (delegation graph).
+- Includes custom tool-use, delegation schema, event-based logging and interactive replay (web UI).
+- Icludes open-source Python package.
+- ReDel delegation schemes include DelegateOne (wait parent-agent until child-agent completion) and DelegateWait (provide separate function for parent agent to retrieve child agent response).
+- Event-driven logging includes built-in events ans custom events.
+
+
+--- 
 
 #### 2nd of July 2024
 
