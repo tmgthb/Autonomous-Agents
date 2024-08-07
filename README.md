@@ -43,6 +43,18 @@ Chronological order.
 
 </div>
 
+#### 6th of August 2024
+
+[Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314)
+
+- Reviews scaling up inference compute (test-time) in order to built self-improving agents. Quantifies the amount of improvement, when increasing inference.
+- Test-time compute outperforms 14x larger models.
+- Compute optiml scaling strategy can improve efficiency of test-time compute by factor of up to 4x.
+
+
+---
+
+
 #### 5th of August 2024
 
 [ReDel: A Toolkit for LLM-Powered Recursive Multi-Agent Systems](https://arxiv.org/abs/2408.02248)
