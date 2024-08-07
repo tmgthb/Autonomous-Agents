@@ -43,6 +43,7 @@ Chronological order.
 
 </div>
 
+
 #### 6th of August 2024
 
 [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314)
@@ -65,6 +66,15 @@ Chronological order.
 - ReDel delegation schemes include DelegateOne (wait parent-agent until child-agent completion) and DelegateWait (provide separate function for parent agent to retrieve child agent response).
 - Event-driven logging includes built-in events ans custom events.
 
+
+---
+
+#### 3rd of August 2024
+
+[The Drama Machine: Simulating Character Development with LLM Agents](https://arxiv.org/abs/2408.01725)
+
+- Drama Machine: Reviews Automated Identity-generation with LLMs.  Uses multiple LLMs to simulate dynamic/complex AI characters in domain of drama scenes: interview/detective.
+- Roles include Ego, SuperEgo, Autobiography, Director and Critic.
 
 --- 
 
