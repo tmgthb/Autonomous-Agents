@@ -44,6 +44,26 @@ Chronological order.
 </div>
 
 
+#### 8th of August 2024
+
+[Can LLMs Beat Humans in Debating? A Dynamic Multi-agent Framework for Competitive Debate](https://arxiv.org/abs/2408.04472)
+
+- Agent4Debate: collaborative and dynamic multi-agent (searcher/analyzer/writer/reviewer) LLM for competitive debate.
+- Includes Chinese Debate Arena-benchmark with
+- Framework begins with context/motion/position/stage. Searcher gathers information, analyzer reviews arguments, writer generates arguments/debates and reviewer provides feedback on debate.
+
+---
+
+#### 7th of August 2024
+
+[Perceive, Reflect, and Plan: Designing LLM Agent for Goal-Directed City Navigation without Instructions](https://arxiv.org/abs/2408.04168)
+
+- PReP: city-navigation to goal using visual perception and memory (working, episodic & semantic) without instructions.
+- Semantic memory summarizer memories from multiple steps, to perform high-level navigtion.
+
+
+---
+
 #### 6th of August 2024
 
 [Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/abs/2408.03314)
