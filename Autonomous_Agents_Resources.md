@@ -757,6 +757,7 @@ The IIT allows making predictions, which can be tested through experiments and i
 [Ilya Sutskever defined, perhaps the first, test-scenario to test, if AI models has consciousness:](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
 
 Literature reviews on consciousness:
+- [Mathematical Approaches in the Scientific Study of Consciousness](https://jkleiner.de/uploads/preprints/Mathematical%20Approaches%20in%20the%20Scientific%20Study%20of%20Consciousness%20(Preprint,%20Johannes%20Kleiner).pdf)
 - [Survey of Consciousness Theory from Computational Perspective](https://arxiv.org/abs/2309.10063)
 - [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708)
 
