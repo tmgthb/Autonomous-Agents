@@ -52,6 +52,15 @@ Chronological order.
 - Includes Chinese Debate Arena-benchmark with
 - Framework begins with context/motion/position/stage. Searcher gathers information, analyzer reviews arguments, writer generates arguments/debates and reviewer provides feedback on debate.
 
+
+---
+
+[RiskAwareBench: Towards Evaluating Physical Risk Awareness for High-level Planning of LLM-based Embodied Agents](https://arxiv.org/abs/2408.04449)
+
+- RiskAwareBench: reviews physical risk awareness of embodied LLM agents. 
+- Includes modules: safety tip generation/risky scene generation/plan generation & evaluation/ isk assesment.
+
+
 ---
 
 #### 7th of August 2024
@@ -60,6 +69,13 @@ Chronological order.
 
 - PReP: city-navigation to goal using visual perception and memory (working, episodic & semantic) without instructions.
 - Semantic memory summarizer memories from multiple steps, to perform high-level navigtion.
+
+
+---
+
+[CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases](https://arxiv.org/abs/2408.03910)
+
+- LLM uses cod RAG. Builds code graph db from code repository. Nodes represent symbols, edges represent relationships between symbols and schema defines how code graphs are stored in the code db.
 
 
 ---
