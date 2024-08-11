@@ -106,6 +106,14 @@ Chronological order.
 
 ---
 
+[SpecRover: Code Intent Extraction via LLMs](https://arxiv.org/abs/2408.02232)
+
+- SpecRover/AutoCodeRover-v2: autonomous github issue fixing by understanding developer intent from Github repo structure / developer behaviour.
+- Claims Github issues can be solved as little as $0.65 /issue.
+
+
+---
+
 #### 3rd of August 2024
 
 [The Drama Machine: Simulating Character Development with LLM Agents](https://arxiv.org/abs/2408.01725)
