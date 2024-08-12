@@ -71,6 +71,13 @@ Chronological order.
 - Semantic memory summarizer memories from multiple steps, to perform high-level navigtion.
 
 
+---
+
+[Forecasting Live Chat Intent from Browsing History](https://arxiv.org/abs/2408.04668)
+
+- LLM-based user intent prediction (to predict why user needs live-chat agen support) from high-level categories classified from browsing history and then in second step predicts fine-grained user intent with the high-level intent class and browsing history.
+
+
 
 ---
 
