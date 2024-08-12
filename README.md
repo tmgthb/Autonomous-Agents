@@ -44,6 +44,17 @@ Chronological order.
 </div>
 
 
+
+#### 9th of August 2024
+
+[Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement](https://arxiv.org/abs/2408.05006)
+
+- MASTER (CoMunicative Agent BaSed DaTa REfinement FRamework): code repair with LLM. Consists of Code Quizzer (code debug expert creates questions of the error), Code Learner (answers the generated questions) and Code Teacher (reviews and corrects incorrect answers) agents.
+- Inclues DEBUGEVAL-benchmark.
+
+
+---
+
 #### 8th of August 2024
 
 [Can LLMs Beat Humans in Debating? A Dynamic Multi-agent Framework for Competitive Debate](https://arxiv.org/abs/2408.04472)
