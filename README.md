@@ -50,7 +50,7 @@ Chronological order.
 [Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement](https://arxiv.org/abs/2408.05006)
 
 - MASTER (CoMunicative Agent BaSed DaTa REfinement FRamework): code repair with LLM. Consists of Code Quizzer (code debug expert creates questions of the error), Code Learner (answers the generated questions) and Code Teacher (reviews and corrects incorrect answers) agents.
-- Inclues DEBUGEVAL-benchmark.
+- Includes DEBUGEVAL-benchmark: bug localization, bug identification, code review and code repair.
 
 
 ---
