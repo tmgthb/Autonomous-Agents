@@ -45,6 +45,15 @@ Chronological order.
 
 
 
+#### 12th of August 2024
+
+[The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
+
+- AI Scientist: claims fully automatic scientific discovery by generating novel research ideas, writing code, executing experiments, visualizing results, drscribing findings to research paper and simulating evaluation process.
+
+
+---
+
 #### 9th of August 2024
 
 [Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement](https://arxiv.org/abs/2408.05006)
