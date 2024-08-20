@@ -44,6 +44,60 @@ Chronological order.
 </div>
 
 
+#### 19th of August 2024
+
+[MegaAgent: A Practical Framework for Autonomous Cooperation in Large-Scale LLM Agent Systems](https://arxiv.org/abs/2408.09955)
+
+- MegaAgent: Autonomous co-operation between dynamically generated LLM agents for specific task requirements. .
+- Automatically generates sub-tasks (delegated to to sub-task admin, which coordinates the sub-task to group of agents), hierarchically plans systematically (boss agent) and monitors concurrent agent activities. OS agent coordinates, that agents communicate in proper format and progress with the task.
+- The Storage module includes: log, memory db, task monitor, interactive python exec/Python, Files and Checklist.
+- MegaAgent claims to pose high scalability/parallelism (due to agents communication cost grows logarithmically, not linearly), high effectiveness (manages 590 agents quicker than CAMEL-framework managed 2 agents. Summarizes previous conversations to store them in vector db) and high autonomy.
+
+
+---
+
+[GoNoGo: An Efficient LLM-based Multi-Agent System for Streamlining Automotive Software Release Decision-Making](https://arxiv.org/abs/2408.09785)
+
+- GoNoGo: LLM-agent system, which includes Planner- and Actor-agents to process high-level queries for decision support in 120 seconds. Planner interprets user queries/plans analysis strategies. Actor generates code, resolves errors with memory/plugins/coder LLM with self-reflection.
+
+---
+
+#### 18th of August 2024
+
+[HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model](https://arxiv.org/abs/2408.09559)
+
+- HiAgent: LLM-based agent, which uses subgoals to define working memory (intrial memory), instead of retrieving entire crosstrial memory (between experiments).
+- The LLM-agent replaces previous subgoals with the relevant summarized observations (action-observation pairs) for the current task.
+
+
+---
+
+#### 16th of August 2024
+
+
+[EmoDynamiX: Emotional Support Dialogue Strategy Prediction by Modelling MiXed Emotions and Discourse Dynamics](https://arxiv.org/abs/2408.08782)
+
+- EmoDynamiX: an LLM agent predicting optimal socio-emotional strategy (strategy embedding) and emotion state (emotion embedding) in a dialogue.
+- Uses Heterogeneous Graph (HG) to model the dialogue interaction: node types reflect past strategies/emotional states/predicted strategy of the agent and edge types reflect dialogue dependencies between turns and speaker role-awareness. 
+
+
+---
+
+
+#### 15th of August 2024
+
+
+[Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435)
+
+- ADAS (Automated Design of Agentic Systems): the Meta agents discovers new agents with superior performance compared to hand-designed agents. Suggests a research direction for higher-order ADAS, where ADAS is used to improve the meta agent itself in the ADAS.
+- The system consists of Meta Agent, which generates new agents and corrects them until error free. The new agent is tested and then added to Agent library. For example specific agents consists of specific blocks such as COT/Verifier/Sub-problem division/etc., which are used in specific order in the system flow.
+- Meta Agent Search-algorithm generates automatically new agentic system designs and system blocks.
+- The Meta Agent Search-algorithm samples new agents optimizing performance in the Search space (prompts/control flows) evaluated with the Evaluation Function (cost/latency/safety). 
+- Includes codes of few of the discovered agents.
+
+
+---
+
 
 #### 12th of August 2024
 
