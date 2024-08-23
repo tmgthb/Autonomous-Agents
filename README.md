@@ -43,6 +43,56 @@ Chronological order.
 
 </div>
 
+#### 22th of August 2024
+
+[MEDCO: Medical Education Copilots Based on A Multi-Agent Framework](https://arxiv.org/abs/2408.12496)
+
+- MEDCO (Medical EDucation COpilots): Includes patient, student, expert doctor and radiologist multimodal (X-rays/CT scans/MRIs/ultrasounds) LLM-agents. Student agents are trained/taught with feedback provided and then stored in student memory module to improve future diagnosis.
+
+
+---
+
+[Graph Retrieval Augmented Trustworthiness Reasoning](https://arxiv.org/abs/2408.12333)
+
+- GRATR (Graph Retrieval Augmented Reasoning): Improves trustworthiness reasoning of the LLM agent using Evidence base.
+- Evidence base is updated based on observation analysis and observation assessment.
+
+---
+
+[MDD-5k: A New Diagnostic Conversation Dataset for Mental Disorders Synthesized via Neuro-Symbolic LLM Agents](https://arxiv.org/abs/2408.12142)
+
+- Neuro-symbolic multi agent framework, which includes doctor, patient and tool LLM-agent interaction and dynamic (patient specific information) diagnosis tree. Introduces mental disorders diagnosis dataset MDD-5k.
+- Doctor agent includes persona, diagnosis result, dialogue generation. Patient agent includes patient information, patient experience and knowledge graph.
+- Establishes deeper engagement with patient to help generate diagnosis by generating the dynamic diagnosis tree. 
+
+---
+
+[Balancing Act: Prioritization Strategies for LLM-Designed Restless Bandit Rewards](https://arxiv.org/abs/2408.12112)
+
+- Introduces customizable Social Choice Language Model: Uses an external adjudicator to manage tradeoffs via a user-selected social welfare function. Uses LLM to design reward functions in Restless Multi-Armed Bandits-allocation problems.
+- Suggests, that prompt engineering alone 
+
+
+
+---
+
+
+#### 21st of August 2024
+
+[Story3D-Agent: Exploring 3D Storytelling Visualization with Large Language Models](https://arxiv.org/abs/2408.11801)
+
+- Story3D-Agent: LLM-agent used in 3D storytelling visualization with consistent contextually and narrative.
+
+---
+
+#### 20th of August 2024
+
+
+[FLAME: Learning to Navigate with Multimodal LLM in Urban Environments](https://arxiv.org/abs/2408.11051)
+
+- FLAME (FLAMingo Architected Embodied Agent): a multimodal language-vision agent for navigational tasks by using three-step tuning: single perception tuning/multiple perception tuning/end-to-end training on VLN datasets.
+
+---
 
 #### 19th of August 2024
 
