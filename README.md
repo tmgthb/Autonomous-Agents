@@ -1842,6 +1842,12 @@ Chronological order.
 - MedAgent-Zero-method is a self-evolution method, where medical agents continuously evolve by processing cases and engaging in self-feedback.
 - Uses knowledge database to accumulate successful and unsuccesful treatments performed. 
 
+---
+
+[AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
+
+- AppAgent v2: introduces multimodal agent, which emulates human-like interaction on mobile device GUI. Includes exploration (documenting UI elements) and deployment phase (efficient task execution with RAG).
+
 
 ---
 
