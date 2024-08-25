@@ -294,6 +294,17 @@ Chronological order.
 
 ---
 
+#### 26th of July 2024
+
+[AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents](https://arxiv.org/abs/2407.18901)
+
+- AppWorld-benchmark: simulates LLM-agents using App World Engine-execution environment (mimicking 9 real-world apps/simulates 457 APIs/100 ficticious and related users) by measuring 750 complex tasks (records database start state and end state to review correct/incorrect actions to Base DB), which require iterative/interactive code generation without real-world consequences. 
+- Generates task scenarios, which are used by the task generator (setup/validation/evaluation). 
+- Each task is checked to be: well-defined/includes distractors/has real distractors/contrasts from exissting other tasks.
+- Includes Supervisor (provides passwords/credit cards/etc about the user), (API parameters/descriptions) and Execution Shell to run code.
+
+
+---
 #### 25th of July 2024
 
 [PersonaGym: Evaluating Persona Agents and LLMs](https://arxiv.org/abs/2407.18416)
