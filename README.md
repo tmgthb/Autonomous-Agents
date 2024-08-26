@@ -43,6 +43,24 @@ Chronological order.
 
 </div>
 
+
+#### 23th of August 2024
+
+[LIMP: Large Language Model Enhanced Intent-aware Mobility Prediction](https://arxiv.org/abs/2408.12832)
+
+- LIMP (LLMs for Intent-aware Mobility Prediction): Fine-tunes LLama 3-8B-Instruct model with Analyze-Abstract-Infer (A2I)-agentic workflow for mobility intent reasoning.
+
+
+---
+
+[Intelligent OPC Engineer Assistant for Semiconductor Manufacturing](https://arxiv.org/abs/2408.12775)
+
+- RL / multimodal LLM-agents solve Optical Proximity Correction (OPC)-problems in semiconductor manufacturing using RL-based recipe search, which typically require years of OPC engineering experience.
+
+
+---
+
+
 #### 22th of August 2024
 
 [MEDCO: Medical Education Copilots Based on A Multi-Agent Framework](https://arxiv.org/abs/2408.12496)
@@ -73,15 +91,58 @@ Chronological order.
 - Suggests, that prompt engineering alone 
 
 
-
 ---
 
+[Can LLMs Understand Social Norms in Autonomous Driving Games?](https://arxiv.org/abs/2408.12680)
+
+- LLM-agent autonomously drives in multi-agent driving game with social norms. Agents make self-driven decisions without attempting to cooperate.
+
+
+---
 
 #### 21st of August 2024
 
 [Story3D-Agent: Exploring 3D Storytelling Visualization with Large Language Models](https://arxiv.org/abs/2408.11801)
 
 - Story3D-Agent: LLM-agent used in 3D storytelling visualization with consistent contextually and narrative.
+
+
+---
+
+[Leveraging Chemistry Foundation Models to Facilitate Structure Focused Retrieval Augmented Generation in Multi-Agent Workflows for Catalyst and Materials Design](https://arxiv.org/abs/2408.11793)
+
+- Improves chemistry information retrieval/catalyst and materials design usage of Chemical Foundational model (such as MolFormer-XL) by combining it with RAG.
+
+
+---
+
+[LLM4VV: Exploring LLM-as-a-Judge for Validation and Verification Testsuites](https://arxiv.org/abs/2408.11729)
+
+- Agent-based prompting and validation pipeline increase quality of the LLM as a Judge for compiler tests.
+
+
+---
+
+[DreamFactory: Pioneering Multi-Scene Long Video Generation with a Multi-Agent Framework](https://arxiv.org/abs/2408.11788)
+
+- DreamFactory: video generation-framework, which generates long/complex and stylistically coherent videos using multi-agent video production agent team.
+- Includes requirement analysis/planning/framework preparation/script generation/scenes design/shots design/key-frames generation and video generation. 
+- Lacks still creativity (artistic/devising plots) due to reliance on prompts, seems as individual videos stitched together based on synthetic audio clip and need for significant computational resources.
+
+
+---
+
+[Leveraging Fine-Tuned Retrieval-Augmented Generation with Long-Context Support: For 3GPP Standards](https://arxiv.org/abs/2408.11775)
+
+- Implements fine-tuned Phi-2 with RAG (semantic chunking/extended context support) in telecommunications. 
+
+
+---
+
+[Cause-Aware Empathetic Response Generation via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2408.11599)
+
+- CFEG (Cause-aware Fine-tuning Empathetic Generation)-method: Uses emotion cause reasoning and fine-tuned LLM with CoT. Demonstrates superior empathetic dialogue responses.
+
 
 ---
 
@@ -245,6 +306,13 @@ Chronological order.
 
 ---
 
+[LLM Agents Improve Semantic Code Search](https://arxiv.org/abs/2408.11058)
+
+- RAG-agent (ensemble architecture), which adds relevant contextual information to the user query from the Github repository. 
+- Uses RepoRift-platform, which improves code search by: narrows context search to single repository, uses agentic interaction and returns easy-to-understand results with low latency.
+
+
+---
 #### 3rd of August 2024
 
 [The Drama Machine: Simulating Character Development with LLM Agents](https://arxiv.org/abs/2408.01725)
