@@ -164,6 +164,13 @@ Chronological order.
 
 ---
 
+[Strategist: Learning Strategic Skills by LLMs via Bi-Level Tree Search](https://arxiv.org/abs/2408.10635)
+
+- Strategist: LLM-agent learns new skills through self-improvement based on MCTS and LLM-based reflection. Generates new ideas based on performance in simulated self-play by analysing good ideas.
+
+
+---
+
 #### 19th of August 2024
 
 [MegaAgent: A Practical Framework for Autonomous Cooperation in Large-Scale LLM Agent Systems](https://arxiv.org/abs/2408.09955)
