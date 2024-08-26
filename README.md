@@ -171,6 +171,12 @@ Chronological order.
 
 ---
 
+[MagicDec: Breaking the Latency-Throughput Tradeoff for Long Context Generation with Speculative Decoding](https://arxiv.org/abs/2408.11049)
+
+- MagicDec: Speculative Decoding speeds throughput mid/long-context serving with sparse KV cache.
+
+---
+
 #### 19th of August 2024
 
 [MegaAgent: A Practical Framework for Autonomous Cooperation in Large-Scale LLM Agent Systems](https://arxiv.org/abs/2408.09955)
