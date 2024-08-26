@@ -153,6 +153,15 @@ Chronological order.
 
 - FLAME (FLAMingo Architected Embodied Agent): a multimodal language-vision agent for navigational tasks by using three-step tuning: single perception tuning/multiple perception tuning/end-to-end training on VLN datasets.
 
+
+---
+
+[Athena: Safe Autonomous Agents with Verbal Contrastive Learning](https://arxiv.org/abs/2408.11021)
+
+- Athena: Improves aligned with verbal contrastive learning, which guides LLM-agent behaviour with past safe/unsafe trajectories as in-context contrastive examples and critiquing mechanism. Contains LLM-agents: Actor/Critic/Emulator interacting to complete given task.
+- Introduces safety evalution benchmark for LLM-agents with 80 toolkits in 8 categories.
+
+
 ---
 
 #### 19th of August 2024
