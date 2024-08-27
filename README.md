@@ -361,6 +361,7 @@ Chronological order.
 - OmniParser: VLM agent parsing GUI screenshots into structured data. Attempts to ground actions grounded on GUI regions.
 - Includes detection model to captura interactable GUI regions. Caption model retrieves functional semantics of these detected elements. OCR generates structured reprentation of the GUI.
 - Improves action prediction accuracy. Includes icon-detection dataset.
+- Reviews comphrehensively screen coordinate detection problem of VLMs.
 
 ---
 
