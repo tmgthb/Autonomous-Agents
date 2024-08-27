@@ -356,6 +356,14 @@ Chronological order.
 
 #### 1st of August 2024
 
+[OmniParser for Pure Vision Based GUI Agent](https://arxiv.org/abs/2408.00203)
+
+- OmniParser: VLM agent parsing GUI screenshots into structured data. Attempts to ground actions grounded on GUI regions.
+- Includes detection model to captura interactable GUI regions. Caption model retrieves functional semantics of these detected elements. OCR generates structured reprentation of the GUI.
+- Improves action prediction accuracy. Includes icon-detection dataset.
+
+---
+
 [AgentGen: Enhancing Planning Abilities for Large Language Model based Agent via Environment and Task Generation](https://arxiv.org/abs/2408.00764)
 
 - AgentGen: Generates diverse LLM agent environments and planning tasks. LLM fine-tuned with this data improves significantly planning capabilities.
