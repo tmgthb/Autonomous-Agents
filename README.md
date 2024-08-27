@@ -1945,6 +1945,17 @@ Chronological order.
 
 ---
 
+[Graphical user interface agents optimization for visual instruction grounding using multi-modal artificial intelligence systems](https://arxiv.org/abs/2407.01558)
+
+- SIC (Search Instruction Coordinates): a multimodal framework to locate objects GUI. Includes two approaches: SICocri and SICdirect.
+- SICocri applies fine-tuned YOLO-V8 (object detection to list all items and fine-tuned for GUIs) with an OCR module (identifies in each UI element the specific texts to separate buttons: cancel vs. submit). The buttons and their OCR-recognized texts and combined by matching their coordinates. 
+GPT-4 (LLM used for component name and type extraction) identifies the best match to requested UI element and provides: UI element Id, type, role, and coordinates.
+- SICdirect instead fuses visual embeddings and prompt embeddings into Encoder/Decoder Transformer to obtain the coordinates. 
+- Introduces metric called Central Point Validation (CPV), which checks if the central coordinates of the predicted bounding box locates inside ground truth UI element and converting this boolean value into % by calculating percentage value from total observations.
+
+
+---
+
 [AppAgent v2: Advanced Agent for Flexible Mobile Interactions](https://arxiv.org/abs/2408.11824)
 
 - AppAgent v2: introduces multimodal agent, which emulates human-like interaction on mobile device GUI. Includes exploration (documenting UI elements) and deployment phase (efficient task execution with RAG).
