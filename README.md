@@ -5643,6 +5643,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 1st of February 2024
 
+[Multimodal Embodied Interactive Agent for Cafe Scene](https://arxiv.org/abs/2402.00290v1)
+
+- MEIA (Multimodal Embodied Interactive Agent): Uses Multimodal Environment Memory (MEM) with LLM and VLM, to store egocentric environmental information (object IDs/coordinates as textual memory and visual observations as image memories) to improve significantly task planning and execution.
+- MEIA is able to perform various tasks such as seating guidance, order taking and environmental adjustments being robust in zero-shot learning for real world tasks.
+- It appears to be the first paper to introduce multimodal memory, which improves significantly performance and increases precision of the planning.
+- Includes two measurement metrics: ESR (Executable Success Rate) and SSL (Succcess Rate Weighted by Step Length) with formulas included.
+- Uses RGB images (stored in image memory)/depth images/segmentation images. 
+
+
 ---
 
 [Efficient Exploration for LLMs](https://browse.arxiv.org/abs/2402.00396)
