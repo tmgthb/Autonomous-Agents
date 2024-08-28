@@ -43,6 +43,21 @@ Chronological order.
 
 </div>
 
+#### 27th of August 2024
+
+[AgentMonitor: A Plug-and-Play Framework for Predictive and Secure Multi-Agent Systems](https://arxiv.org/abs/2408.14972)
+
+- AgentMonitor: Captures multi agent (MAS) inputs and outputs to predict task performance and correcting security risks in real-time.
+- Includes 5 different MAS configurations.
+
+---
+
+[HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/abs/2408.14812)
+
+- Introduces Hierarchical Prompt Tuning (HPT) and HPT++. Adapts VLM by creating a graph from each description with hierachical relationship guided attention module.
+
+
+---
 
 #### 23th of August 2024
 
