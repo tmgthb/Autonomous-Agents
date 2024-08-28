@@ -68,6 +68,14 @@ Chronological order.
 
 ---
 
+[AgentMove: Predicting Human Mobility Anywhere Using Large Language Model based Agentic Framework](https://arxiv.org/abs/2408.13986)
+
+- AgentMove: Mobility prediction LLM agent.
+- Includes spatial-temporal memory.
+
+
+---
+
 [SWE-bench-java: A GitHub Issue Resolving Benchmark for Java](https://arxiv.org/abs/2408.14354)
 
 - Benchmark to evaluate LLM-agent based coding for Java programming language (SWE-bench for Java).
