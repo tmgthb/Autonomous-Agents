@@ -59,6 +59,22 @@ Chronological order.
 
 ---
 
+#### 26th of August 2024
+
+[Foundation Models for Music: A Survey](https://arxiv.org/abs/2408.14340)
+
+- Reviews research available on Foundational models for Music: representations of music, applications, foundational model techniques, datasets/evals and ethics. 
+
+
+---
+
+[SWE-bench-java: A GitHub Issue Resolving Benchmark for Java](https://arxiv.org/abs/2408.14354)
+
+- Benchmark to evaluate LLM-agent based coding for Java programming language (SWE-bench for Java).
+
+
+---
+
 #### 23th of August 2024
 
 [LIMP: Large Language Model Enhanced Intent-aware Mobility Prediction](https://arxiv.org/abs/2408.12832)
