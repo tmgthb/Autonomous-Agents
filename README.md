@@ -43,6 +43,89 @@ Chronological order.
 
 </div>
 
+
+#### 28th of August 2024
+
+[A Survey on Evaluation of Multimodal Large Language Models](https://arxiv.org/abs/2408.15769)
+
+- The Survey reviews Multi Modal Language Models (MLLMs).
+
+
+---
+
+[WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://arxiv.org/abs/2408.15978)
+
+- WebPilot: Introduces Multi-Agent System with Planner(generate and refine plan)/Controller(judge sub-task terminatation, asses sub-task completion, generate strategic reflection)/Extractor(extract information)/Explorer(generate action, analyse observation, generate tactical reflection)/Apprasier(asses state)/Verifier(format action, deduplicate action) LLM-agents.
+- Uses  Global Optimization (decomposing tasks/refining high-level plans with reflective analysis) and Local Optimization (executes sub-tasks with customized MCTS/refining decisions iteratively through with each observation).
+- Tasks include navigating forums/upvoting posts/extracting contributor emails.
+
+
+---
+
+[AutoGen Studio: A No-Code Developer Tool for Building and Debugging Multi-Agent Systems](https://arxiv.org/abs/2408.15247)
+
+- AutoGen Studio: Build on top of AutoGen, the AutoGen Studio includes drag & drop web-UI to customize/attach model/skills/tools/memory/agents involved.
+- The workflow is saved as declarative json-structure. Users can export this json and share it to other users. Apart includes built-in DB Manager, Workflow Manager and Profiler-classes.
+- Backend includes Python API, web API and CLI. 
+
+
+---
+
+[Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions](https://arxiv.org/abs/2408.15787)
+
+- Investigates using LLM-agents for Psychological Counseling dialogue (counselor/client) based on client profiles (mental health issue description/detailed description of the disorder/symptom/problem/chief complaint) and counselor simulation is based on exploration, insight, and action.
+
+
+---
+
+[BattleAgentBench: A Benchmark for Evaluating Cooperation and Competition Capabilities of Language Models in Multi-Agent Systems](https://arxiv.org/abs/2408.15971)
+
+- Introduces BattleAgentBench-benchmark, which reviews rule understanding, spatial perception, competition, static cooperation and dynamic cooperation.
+
+---
+
+[Atari-GPT: Investigating the Capabilities of Multimodal Large Language Models as Low-Level Policies for Atari Games](https://arxiv.org/abs/2408.15950)
+
+- Atari-GPT: Applies Multi Modal Language Model as low-level policy (controller). 
+
+
+---
+
+
+[FlowAct: A Proactive Multimodal Human-robot Interaction System with Continuous Flow of Perception and Modular Action Sub-systems](https://arxiv.org/abs/2408.15864)
+
+- FlowAct: Introduces human-robot interaction system, which continuously perceives and acts. Uses two controllers: Environment State Tracking (EST) and Action Planner. 
+
+
+---
+
+[Retrieval-Augmented Instruction Tuning for Automated Process Engineering Calculations : A Tool-Chaining Problem-Solving Framework with Attributable Reflection](https://arxiv.org/abs/2408.15866)
+
+- RAIT (Retrieval Augmented Instruction Fine-tuning): Introduces RAIT fine-tuning approach in chemical / process engineering, which combines small language models (SMLs) with Retrieval Augmented Code Generation (RACG).
+
+---
+
+[Towards Fully Autonomous Research Powered by LLMs: Case Study on Simulations](https://arxiv.org/abs/2408.15512)
+
+- Reviews feasibility of Autonomous Simulation Agent (ASA) to automate E2E research process using LLMs and API automation (AutoProg).
+
+
+---
+
+[LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2408.15778)
+
+- LogicGame: Benchmarks rule-based reasoning, execution and planning of LLMs.
+
+
+---
+
+[Persuasion Games using Large Language Models](https://arxiv.org/abs/2408.15879)
+
+- Introduces persuasion framework with LLM-agents, but the paper is not clearly indicating conclusions about persuasion with LLMs with doubts as well on exact roles/prompts. 
+
+
+---
+
 #### 27th of August 2024
 
 [AgentMonitor: A Plug-and-Play Framework for Predictive and Secure Multi-Agent Systems](https://arxiv.org/abs/2408.14972)
@@ -55,6 +138,15 @@ Chronological order.
 [HPT++: Hierarchically Prompting Vision-Language Models with Multi-Granularity Knowledge Generation and Improved Structure Modeling](https://arxiv.org/abs/2408.14812)
 
 - Introduces Hierarchical Prompt Tuning (HPT) and HPT++. Adapts VLM by creating a graph from each description with hierachical relationship guided attention module.
+
+
+---
+
+[TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering](https://arxiv.org/abs/2408.15299)
+
+- TourSnmbio-Agent: Performs protein engineering tasks using TourSynbio-7B model (fine-tuned on text and protein sequences).
+- Includes intent classification steps, where is defined in case the user intent is generic question or agent-specific task. 
+- Keywords are used in agent selection.
 
 
 ---
