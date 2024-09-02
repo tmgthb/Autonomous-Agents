@@ -7756,6 +7756,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+
+#### 14th of July 2023
+
+[Large Language Models Understand and Can be Enhanced by Emotional Stimuli](https://arxiv.org/abs/2307.11760)
+
+- EmotionPrompt: adds to prompt an emotional stimuli, which improves performance by 10.9%.
+- An example of an emotional stimuli is to state that the work is important for career. 
+
+
+
+
 #### 23rd of June 2023 
 
 <div id="lili"> </div>
