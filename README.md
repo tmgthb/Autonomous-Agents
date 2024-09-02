@@ -259,6 +259,15 @@ Chronological order.
 - Suggests, that prompt engineering alone 
 
 
+--
+
+[SocialQuotes: Learning Contextual Roles of Social Media Quotes on the Web](https://arxiv.org/abs/2407.16007)
+
+- Introduces SocialQuotes-dataset to classify social media / web context into roles (influencer, expert, marketer, commenter, etc.)
+
+
+---
+
 ---
 
 [Can LLMs Understand Social Norms in Autonomous Driving Games?](https://arxiv.org/abs/2408.12680)
