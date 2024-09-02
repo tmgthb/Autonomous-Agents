@@ -44,6 +44,34 @@ Chronological order.
 </div>
 
 
+#### 30th of August 2024
+
+[Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios](https://arxiv.org/abs/2408.16991)
+
+- Tool-SQL: LLM-agent for SQL code inspection and fixing using retrieval and refinement. 
+
+
+---
+
+#### 29th of August 2024
+
+
+[Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling](https://arxiv.org/abs/2408.16737)
+
+- Suggests, that LLMs fine-tuned with synthetic data from weaker, yet cheaper LLM is more compute optimal, than using stronger, yet more expensive LLM.
+- Samples data from Gemini Pro 1.5 (more expensive, stronger) compared to Gemini Flash 1.5. by using pricing per token as a proxy.
+
+
+---
+
+[CogVLM2: Visual Language Models for Image and Video Understanding](https://arxiv.org/abs/2408.16500)
+
+- Introduces CogVLM2-family of models: CogVLM2, CogVLM2-Video and GLM-4V.
+- Relates to CogAgent-GUI agent introduced in December 2023.
+
+---
+
+
 #### 28th of August 2024
 
 [A Survey on Evaluation of Multimodal Large Language Models](https://arxiv.org/abs/2408.15769)
@@ -122,6 +150,15 @@ Chronological order.
 [Persuasion Games using Large Language Models](https://arxiv.org/abs/2408.15879)
 
 - Introduces persuasion framework with LLM-agents, but the paper is not clearly indicating conclusions about persuasion with LLMs with doubts as well on exact roles/prompts. 
+
+
+---
+
+[EPO: Hierarchical LLM Agents with Environment Preference Optimization](https://arxiv.org/abs/2408.16090)
+
+- EPO (Environment Preference Optimization): Generates preference signals from environmental feedback for long-horizon decision making with LLM-agents.
+- LLM predicts sub-goals and respective low-level actions.
+- Interaction module generates two types of sub-goals: navigation and interaction.
 
 
 ---
