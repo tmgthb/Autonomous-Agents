@@ -365,6 +365,18 @@ Chronological order.
 
 #### 18th of August 2024
 
+
+[Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval](https://arxiv.org/abs/2408.01875)
+
+- Re-Invoice: 
+- LLM (Query generator) generates distinct queries from tools document index. Synthetic query copiess are stored with tool name, description and query. LLM (Intent extractor) retrieves most similar tools for new user queries based on multi-view ranking algorithm.
+- The multi view-ranking defines for each intent, the most similar tools. For each intent, it picks the most relevant tool, starting with the intent with highest individual tool similarity. 
+- Includes an intent extractor prompt, which works just by adding it as a system instruction.
+
+---
+
+
+
 [HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model](https://arxiv.org/abs/2408.09559)
 
 - HiAgent: LLM-based agent, which uses subgoals to define working memory (intrial memory), instead of retrieving entire crosstrial memory (between experiments).
