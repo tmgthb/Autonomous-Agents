@@ -43,6 +43,30 @@ Chronological order.
 
 </div>
 
+#### 3rd of September 2024
+
+[Empirical evidence of Large Language Model's influence on human spoken communication](https://arxiv.org/abs/2409.01754)
+
+- Empirical evidence, that humans imitate LLMs.
+- Finds, that LLMs reduce linguistic diversity, but it appears an interesting topic to discover, if LLMs only decrease diversity or impact other ways / the ways content creation automation impacts overall to society.
+
+
+---
+
+[AgentRE: An Agent-Based Framework for Navigating Complex Information Landscapes in Relation Extraction](https://arxiv.org/abs/2409.01854)
+
+- AgentRe: Relation Extraction (RE) agent includes three components: retrieval (static knowledge to help store/retrieve information), memory(dynamic knowledge: shallow memory for extraction results, deep memory for historical action summaries/reflections) and extraction modules (ReAct-based, pulls information based on retrieval and memory).
+- Avoids extracting for incomplete entities, such as phrases referring in general to Museums without being precise on the exact name of the museum.
+
+---
+
+[Focus Agent: LLM-Powered Virtual Focus Group](https://arxiv.org/abs/2409.01907)
+
+- Focus Agent: Simulates moderation of focus groups with human participants and alignment of focus agent opinions with this group.
+- Simulates planning, moderation, questions, discussion and reflection with LLM-agents.
+
+---
+
 
 #### 30th of August 2024
 
