@@ -63,6 +63,11 @@ Chronological order.
 - Cognitive maps include spatial memories about scene descriptions and landmarks in time step. 
 - Limits search space by employing dual-channel waypoint using information about the landmark objects (what) and spatial characteristics (where).
 
+---
+
+[Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977)
+
+- Survey about SW engineering LLM-agents.
 
 ---
 
