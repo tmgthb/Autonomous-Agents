@@ -43,6 +43,29 @@ Chronological order.
 
 </div>
 
+
+#### 5th of September 2024
+
+[xLAM: A Family of Large Action Models to Empower AI Agent Systems](https://arxiv.org/abs/2409.03215)
+
+- xLAM: Series (from 1B dense to  8x22B MoE) of Large Action Models (LAMs) for AI agent tasks. Achieves high performance in function calling.
+- Fine-tunes basically from a LLM (DeekSeeker/Mistral models) a LAM, which is able to perform highly accurate function calling.
+
+
+---
+
+#### 4th of September 2024
+
+[Cog-GA: A Large Language Models-based Generative Agent for Vision-Language Navigation in Continuous Environments](https://arxiv.org/abs/2409.02522)
+
+- Cog-GA (Cognitive-Generative Agent)-agent: Introduces Visual-Language Navigation (VLN)-agent in continuous environments with cognitive maps (spatial, temporal and semantic information) and reflection.
+- Includes instruction processor, high-level planner, waypoint predictor, memory stream (reflection memory/cognitive map), reflection generator and low-level actuator. Instructions are provided as text, panorama input image. Target waypoints are stored in the cognitive maps-memory.
+- Cognitive maps include spatial memories about scene descriptions and landmarks in time step. 
+- Limits search space by employing dual-channel waypoint using information about the landmark objects (what) and spatial characteristics (where).
+
+
+---
+
 #### 3rd of September 2024
 
 [Empirical evidence of Large Language Model's influence on human spoken communication](https://arxiv.org/abs/2409.01754)
