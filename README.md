@@ -101,7 +101,13 @@ Chronological order.
 
 ---
 
+[LanguaShrink: Reducing Token Overhead with Psycholinguistics](https://arxiv.org/abs/2409.00855)
+
+- LannguageShrink: Reduces prompt length (tokens to process) by optimising the prompt by applying psycholinguistic principles and the Ebbinghaus memory curve.
+- For example removes words like "usually" from the prompt, which add complexity, ambiguity, irrelevance etc.
+
 ---
+
 #### 30th of August 2024
 
 [Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios](https://arxiv.org/abs/2408.16991)
