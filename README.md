@@ -95,6 +95,18 @@ Chronological order.
 
 ---
 
+#### 2nd of September 2024
+
+[The Compressor-Retriever Architecture for Language Model OS](https://arxiv.org/abs/2409.01495)
+
+- Compressor-Retriever-architectore: Introduces concept of stateful LLM OS by using only base model forward function to compress and retrieve context.
+- Reviews concept of LLM acting as a CPU and its context window acting as RAM.
+- Identifies life-long context as infite, which is core issue with actual session-based interactions.
+- Compressor builds hierarchical db to save previously chunked context. The retriever searches relevant context.
+
+
+---
+
 #### 1st of September 2024
 
 [Self-evolving Agents with reflective and memory-augmented abilities](https://arxiv.org/abs/2409.00872)
