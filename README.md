@@ -90,7 +90,18 @@ Chronological order.
 
 ---
 
+#### 1st of September 2024
 
+[Self-evolving Agents with reflective and memory-augmented abilities](https://arxiv.org/abs/2409.00872)
+
+- SAGE: Introduces self-evolving LLM-agent consisting of user/assistant/checker-agents with iterative feedback, reflection and memory optimization (Ebbinghaus-forgetting curve). 
+- Self-evolution includes adaptive adjust strategies, optimizing information storage and transmission and reduction of cognitive context.
+- Mimics human brain / memory by creating MemorySyntax, which combines Ebbinghaus forgetting curve and linguistic knowledge.  
+
+
+---
+
+---
 #### 30th of August 2024
 
 [Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios](https://arxiv.org/abs/2408.16991)
