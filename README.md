@@ -73,6 +73,14 @@ Chronological order.
 
 ---
 
+[Configurable Foundation Models: Building LLMs from a Modular Perspective](https://arxiv.org/abs/2409.02877)
+
+- Reviews modularity of LLMs. The idea is to instead of re-training from scratch a LLM, to add new knowledge as modules (called emergent bricks pretrained and customised bricks postrained).
+- Identifies the following brick-operations: retrieval / routing, merging, updating and growing.
+
+
+---
+
 [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977)
 
 - Survey about SW engineering LLM-agents.
