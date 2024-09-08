@@ -46,6 +46,17 @@ Chronological order.
 
 #### 5th of September 2024
 
+
+[Game On: Towards Language Models as RL Experimenters](https://arxiv.org/abs/2409.03402)
+
+- Introduces RL experiment workflow using VLM (not fine-tuned) to perform tasks assigned typically to human experimenter. 
+- The system monitors/analyses experiment progress, suggests new tasks, decomposes tasks and retrieves skills to execute. Does not automate
+- Enables embodied autonomous agent to acquire zero-shot new skills. 
+
+---
+
+
+
 [From MOOC to MAIC: Reshaping Online Teaching and Learning through LLM-driven Agents](https://arxiv.org/abs/2409.03512)
 
 - MAIC (Massively AI-empowered Course): Introduces multi LLM-agent system for scalable (like Massive Open Online Courses), but still adaptive (to personal needs / aptitudes) online education. Includes few comments from students, which highlight the limitss of its current approach.
