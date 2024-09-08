@@ -46,6 +46,14 @@ Chronological order.
 
 #### 5th of September 2024
 
+[From MOOC to MAIC: Reshaping Online Teaching and Learning through LLM-driven Agents](https://arxiv.org/abs/2409.03512)
+
+- MAIC (Massively AI-empowered Course): Introduces multi LLM-agent system for scalable (like Massive Open Online Courses), but still adaptive (to personal needs / aptitudes) online education. Includes few comments from students, which highlight the limitss of its current approach.
+- Includes LLM-agents acting both teachers, students, assistant, manager analyser and other agents. Teacher agents adjust style based on communication with the student. Human-student can select style of AI-classmates with the student.
+- Classroom environment incldues current slide, dialogue history, class roles / course management. Course preparation includes read / plan stage, where slide content extraction, structure extraction, function generation and agent generation takes place.
+
+---
+
 [xLAM: A Family of Large Action Models to Empower AI Agent Systems](https://arxiv.org/abs/2409.03215)
 
 - xLAM: Series (from 1B dense to  8x22B MoE) of Large Action Models (LAMs) for AI agent tasks. Achieves high performance in function calling.
