@@ -44,6 +44,19 @@ Chronological order.
 </div>
 
 
+#### 11th of September 2024
+
+[Agent Workflow Memory](https://arxiv.org/abs/2409.07429)
+
+- Agent Workflow Memory (AWM): LLM-agent retrieves and reuses reusable routines, which it extracts and generalises from past examples.
+- Consists of LLM, memory and environment state (action-observation).
+- Memory consists of: workflow description, workflow steps (environment state description, deduction process and action sequence). The memory-unit is described as text-based "system"-prompt. 
+- Adds increasingly difficult workflows from previously acquired workflows and new experiences.
+- Uses previously learned skills in new settings. Eliminates workflow steps, not required.
+
+---
+
+
 #### 5th of September 2024
 
 
