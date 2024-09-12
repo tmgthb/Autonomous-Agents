@@ -66,6 +66,14 @@ Chronological order.
 - Refers to concept of "Chat-chain", where multiple LLM-agents (CEO, CTO, CPO, Tester, Coder and Designer) operate.
 - Converts processes to process textual descriptions: process-to-text and finally to process textual description.
 
+---
+
+#### 9th of September 2024
+
+[SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning](https://arxiv.org/abs/2409.05556)
+
+- SciAgents: Multi-agent graph-reasoning LLM-framework with retrieval for scientific discovery. 
+
 
 ---
 
