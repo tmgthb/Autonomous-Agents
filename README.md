@@ -56,6 +56,18 @@ Chronological order.
 
 ---
 
+#### 10th of September 2024
+
+[Think-on-Process: Dynamic Process Generation for Collaborative Development of Multi-Agent System](https://arxiv.org/abs/2409.06568)
+
+- ToP (Think-on-Process): Multi-agent LLM-framework, which generates SW development processes using experiential knowledge.
+- Each chat includes role assignment, memory stream and self-reflection.
+- ToP-framework includes: instance generating, llm enhancing, instance filtering and software developing.
+- Refers to concept of "Chat-chain", where multiple LLM-agents (CEO, CTO, CPO, Tester, Coder and Designer) operate.
+- Converts processes to process textual descriptions: process-to-text and finally to process textual description.
+
+
+---
 
 #### 5th of September 2024
 
