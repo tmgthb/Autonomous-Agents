@@ -43,6 +43,17 @@ Chronological order.
 
 </div>
 
+#### 12th of August 2024
+
+[Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264)
+
+- Navi: inteoduces a multi modal agent for Windows OS.
+- Processes screen information called SoM (Set of Marks) with multiple alternative methods : UIA (User Interface Automation) tree, parses DOM tree, uses propietary OCR, icon/image detection and OmniParser-model.
+- Agent prompt includes: task instruction, description of action space, history of actions, clipboard content and thought-variable memory. The prompt includes as well previus/current step screenshot with SoMs.
+- Introduced WindowsAgentArena-benchmark.
+- Includes the agent prompt.
+
+---
 
 #### 11th of September 2024
 
@@ -117,6 +128,10 @@ Chronological order.
 
 ---
 
+
+
+---
+
 [Configurable Foundation Models: Building LLMs from a Modular Perspective](https://arxiv.org/abs/2409.02877)
 
 - Reviews modularity of LLMs. The idea is to instead of re-training from scratch a LLM, to add new knowledge as modules (called emergent bricks pretrained and customised bricks postrained).
@@ -128,6 +143,16 @@ Chronological order.
 [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977)
 
 - Survey about SW engineering LLM-agents.
+
+
+---
+
+[MoA is All You Need: Building LLM Research Team using Mixture of Agents](https://arxiv.org/abs/2409.07487)
+
+- MoA (Mixture-of-Agents)-framework (name was already used before) is a framework with planner, aggregator and varios LLM-agentseach with their own RAG, grouped together.
+
+
+
 
 ---
 
