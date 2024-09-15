@@ -89,6 +89,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 ### Definitions
 
 - [Autonomous Agent](#autonomousagent_definition)
+- [Artificial General Intelligence (AGi)](}agi_definition)
 - [Generalist Agent](#generalistagent_definition)
 - [Reinforcement Learning Agent](#rlagent_definition)
 - [LLM Agent](#llmagent_definition)
@@ -125,6 +126,23 @@ There are alternatives for this term, such as [Mae(1993):](https://www.cs.uml.ed
 
 
 ---
+
+<div id="agi_definition">  
+
+</div>
+
+####  Artificial General Intelligence (AGI)
+
+Artificial General Intelligence (AGI) was used first time by Avrum [Gubrud in 1997](https://web.archive.org/web/20180126125209/https://foresight.org/Conferences/MNT05/Papers/Gubrud/index.html) and defined "By advanced artificial general intelligence, I mean AI systems that rival or surpass the human brain in complexity and speed, that can acquire, manipulate and reason with general knowledge, and that are usable in essentially any phase of industrial or military operations where a human intelligence would otherwise be needed. Such systems may be modeled on the human brain, but they do not necessarily have to be, and they do not have to be "conscious" or possess any other competence that is not strictly relevant to their application. What matters is that such systems can be used to replace human brains in tasks ranging from organizing and running a mine or a factory to piloting an airplane, analyzing intelligence data or planning a battle."
+
+Most AI researchers cite instead as the first use of the term AGI, a term suggested by Shane Legg during 2001 to Goertzel. [Goertzel & Pennachin](http://repo.darmajaya.ac.id/5336/2/Springer%20-%20Artificial%20General%20Intelligence%20%28%20PDFDrive%20%29.pdf) (2007) published this definition in a book called Artificial General Intelligence:
+"
+
+
+
+
+---
+
 
 
 <div id="generalistagent_definition">  
