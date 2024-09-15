@@ -89,7 +89,7 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 ### Definitions
 
 - [Autonomous Agent](#autonomousagent_definition)
-- [Artificial General Intelligence (AGi)](}agi_definition)
+- [Artificial General Intelligence (AGi)](#agi_definition)
 - [Generalist Agent](#generalistagent_definition)
 - [Reinforcement Learning Agent](#rlagent_definition)
 - [LLM Agent](#llmagent_definition)
@@ -135,10 +135,19 @@ There are alternatives for this term, such as [Mae(1993):](https://www.cs.uml.ed
 
 Artificial General Intelligence (AGI) was used first time by Avrum [Gubrud in 1997](https://web.archive.org/web/20180126125209/https://foresight.org/Conferences/MNT05/Papers/Gubrud/index.html) and defined "By advanced artificial general intelligence, I mean AI systems that rival or surpass the human brain in complexity and speed, that can acquire, manipulate and reason with general knowledge, and that are usable in essentially any phase of industrial or military operations where a human intelligence would otherwise be needed. Such systems may be modeled on the human brain, but they do not necessarily have to be, and they do not have to be "conscious" or possess any other competence that is not strictly relevant to their application. What matters is that such systems can be used to replace human brains in tasks ranging from organizing and running a mine or a factory to piloting an airplane, analyzing intelligence data or planning a battle."
 
-Most AI researchers cite instead as the first use of the term AGI, a term suggested by Shane Legg during 2001 to Goertzel. [Goertzel & Pennachin](http://repo.darmajaya.ac.id/5336/2/Springer%20-%20Artificial%20General%20Intelligence%20%28%20PDFDrive%20%29.pdf) (2007) published this definition in a book called Artificial General Intelligence:
-"
+However, the term Artificial General Intelligence (AGI) is currently known throught the terminology defined by Shane [Shane Legg at 2001](https://www.ted.com/talks/shane_legg_and_chris_anderson_the_transformative_potential_of_agi_and_when_it_might_arrive?subtitle=en&geo=es) to Goertzel, who later we went to publish a collection of articules called "Artificial General Intelligence - [Goertzel & Pennachin (2007)](http://repo.darmajaya.ac.id/5336/2/Springer%20-%20Artificial%20General%20Intelligence%20%28%20PDFDrive%20%29.pdf). This original definition refers:
 
+"Applying these ideas to AI, we come to the conclusion that, to roughly emulate the nature of human general intelligence, an artificial general intelligence system should have:
+ - the ability to solve general problems in a non-domain-restricted way, in the same sense that a human can;
+ - most probably, the ability to solve problems in particular domains and particular contexts with particular efficiency;
+ - the ability to use its more generalized and more specialized intelligence capabilities together, in a unified way;
+ - the ability to learn from its environment, other intelligent systems, and teachers;
+ - the ability to become better at solving novel types of problems as it gains
+ experience with them."
 
+[Shane Legg](https://www.ted.com/talks/shane_legg_and_chris_anderson_the_transformative_potential_of_agi_and_when_it_might_arrive?subtitle=en&geo=es) clarified his original definition (see TED talk: 4 min 15 sec) was just systems able to play Go-game, AGI systems were able to do "...many, many other things.", while his current definition is "AGI is a system that can do all cognitive tasks, that people can do, possibly more, but at least the cognitive task, that people can typically do."
+
+AGI is referred in addition with various types of definitions. Perhaps the best paper to check is by [Morris et al (2023)](https://arxiv.org/abs/2311.02462), which not only reviews the different groups (Turing test, Strong AI / AI with consciousness, analogy to human brain, human level cognitive tasks, ability to learn tasks, economically valuable work/OpenAI, flexible and general, capable to earn money and generally performing) of AGI definers, but as well operationalises these groupings into different levels of AGI and defines 6 principles for AGI.
 
 
 ---
