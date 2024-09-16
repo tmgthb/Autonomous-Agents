@@ -45,6 +45,13 @@ Chronological order.
 
 #### 12th of August 2024
 
+[Enabling Language Models to Implicitly Learn Self-Improvement](https://arxiv.org/abs/2310.00898)
+
+- ImPlicit Self-ImprovenT (PIT)-framework: introduces self-improvement, where LLMs self-improve its response quality with human preference data without extensive human annotation.
+
+
+---
+
 [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264)
 
 - Navi: inteoduces a multi modal agent for Windows OS.
@@ -85,6 +92,14 @@ Chronological order.
 
 - SciAgents: Multi-agent graph-reasoning LLM-framework with retrieval for scientific discovery. 
 
+
+#### 8th of September 2024
+
+[Self-Reflection in LLM Agents: Effects on Problem-Solving Performance](https://arxiv.org/abs/2405.06682)
+
+- Self-Reflection-Agents: Finds, that self-reflection improves performance of LLM agents in 6 different LLM tested.
+- Self-Reflections, which contain more information (instructions, explanations, and solutions) perform better, than self-reflections with less data. 
+- Retry-agent improves significantly performance, which indicates knowledge of a mistake, improves performance of the LLM.
 
 ---
 
@@ -7494,6 +7509,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [LangNav: Language as a Perceptual Representation for Navigation](https://arxiv.org/abs/2310.07889)
 
 - Uses BLIP to make imgae caption and DETR for object detection on image views to to obtain text descriptions, which a LLM agent uses to generate navigation instruction.
+
+---
+
+#### 10th of October 2023
+
+[Towards Mitigating Hallucination in Large Language Models via Self-Reflection](https://arxiv.org/abs/2310.06271)
+
+- Self-Reflection: Introduces self-reflection prompting, similar to "Reflection"-prompting. Evaluates via LLM-loom, if the answer knowledge is factual enough and in second loop, if the answer is enough consistent.
+- Human reviewers are asked to evaluate sentence in answer in case is generic, fact-inconsistent or fact-consistent. The user is as well asked to categorise answer to be question-inconsistent(inconsistent), tangential (consistent, but not on topic) or answerable (consistent and answers).
 
 
 ---
