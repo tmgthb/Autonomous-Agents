@@ -58,13 +58,6 @@ Chronological order.
 
 #### 12th of August 2024
 
-[Enabling Language Models to Implicitly Learn Self-Improvement](https://arxiv.org/abs/2310.00898)
-
-- ImPlicit Self-ImprovenT (PIT)-framework: introduces self-improvement, where LLMs self-improve its response quality with human preference data without extensive human annotation.
-
-
----
-
 [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264)
 
 - Navi: introduces a multi modal agent for Windows OS.
@@ -7700,10 +7693,18 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 2nd of October 2023
 
+[Enabling Language Models to Implicitly Learn Self-Improvement](https://arxiv.org/abs/2310.00898)
+
+- ImPlicit Self-ImprovemenT (PIT)-framework: introduces self-improvement, where LLMs self-improve its response quality with human preference data without extensive human annotation.
+
+
+---
+
+
 [SmartPlay : A Benchmark for LLMs as Intelligent Agents](https://arxiv.org/abs/2310.01557)
 
 - SmartPlay: a benchmark to test LLM-based agents from 9 perspectives.
-- Tests: Reasoning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. 
+- Tests: Reasonning with object dependencies, planning ahead, spatial reasoning, learning from history, and understanding randomness. 
 
 
 ---
