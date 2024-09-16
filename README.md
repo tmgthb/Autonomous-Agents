@@ -5283,6 +5283,15 @@ during CoT inference.
 
 #### 2nd of March 2024
 
+[AutoDefense: Multi-Agent LLM Defense against Jailbreak Attacks](https://arxiv.org/abs/2403.04783v1)
+
+- AutoDefence: Introduces multi-agent LLM-jailbreaking prevention framework with input agent, defence agent and output agents.
+- Defence agent includes prompt analyser agent, intention analyser agent, judge agent and coordinator agent.
+- Reduces success rate of prompt attacks.
+
+
+---
+
 [SceneCraft: An LLM Agent for Synthesizing 3D Scene as Blender Code](https://arxiv.org/abs/2403.01248)
 
 - SceneCraft: LLM agent converts text into Python code for Blender API 3D-scenes. 
@@ -6636,6 +6645,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Self-Play fIne-tuNing (SPIN): Fine-tuning LLMs based on Self-play mechanism, where the main player is the to-be learned LLM from the current iteration and its opponent is the same LLM from the previous iteration.
 
+
+
+#### 22th of December 2023
+
+[Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning](https://arxiv.org/abs/2312.14878)
+
+- Pangu-Agent: Introduces a generic RL-based objective to improve agents intrinsic and extrinsic functions. 
 
 ---
 
@@ -8071,6 +8087,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
+#### 18th of May 2023
+
+[Think Outside the Code: Brainstorming Boosts Large Language Models in Code Generation](https://arxiv.org/abs/2305.10679)
+
+- Brainstorm: uses brainstorming step to generate and select diverse thoughts in code generation.
+- Uses three steps: brainstorming, thought selection (trains a thought ranker for this) and writing code.
+
+
 
 #### 17th May 2023
 
