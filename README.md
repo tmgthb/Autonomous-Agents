@@ -43,6 +43,19 @@ Chronological order.
 
 </div>
 
+#### 13th of September 2024
+
+[Agents in Software Engineering: Survey, Landscape, and Vision](https://arxiv.org/abs/2409.09030)
+
+- Introduce LLM-agents with perception, memory and actions for SW engineering. Includes multi-agent workflow with feedback, refinement and roles.
+- Actions include internal (reasoning, learning and retrieval) and external (digital environment, dialogue with human/agent)). 
+- Memory includes procedural, semantic and episodic.
+- Perception includes textual (UML, execution result, text/code), visual and auditory.
+- Includes good overview of different reasoning techniques for the CoT-action.
+
+
+---
+
 #### 12th of August 2024
 
 [Enabling Language Models to Implicitly Learn Self-Improvement](https://arxiv.org/abs/2310.00898)
