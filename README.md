@@ -4368,6 +4368,15 @@ assessment.
 
 #### 28th of March 2024
 
+
+[STaR-GATE: Teaching Language Models to Ask Clarifying Questions](https://arxiv.org/abs/2403.19154)
+
+- STaR(Self-Taught Reasoner)-GATE (Generative Active Task Elicitation)-algorithm: Self-improves LLM's ability to elicit user preference by generating questions and generalises beyond the trained role-player.
+- Fine tunes LLM by generating a synthetic dataset for math problem dialogues with persona-task prompts.
+- Teaches the LLM to ask clarifying questions to provide personalised responses.
+
+---
+
 [MATEval: A Multi-Agent Discussion Framework for Advancing Open-Ended Text Evaluation](https://arxiv.org/abs/2403.19305)
 
 - MatEval: LLM agents emulate human collaboration discussion. Uses self-reflection, CoT and feedback mechnamism.
