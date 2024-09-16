@@ -67,7 +67,7 @@ Chronological order.
 
 [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264)
 
-- Navi: inteoduces a multi modal agent for Windows OS.
+- Navi: introduces a multi modal agent for Windows OS.
 - Processes screen information called SoM (Set of Marks) with multiple alternative methods : UIA (User Interface Automation) tree, parses DOM tree, uses propietary OCR, icon/image detection and OmniParser-model.
 - Agent prompt includes: task instruction, description of action space, history of actions, clipboard content and thought-variable memory. The prompt includes as well previus/current step screenshot with SoMs.
 - Introduced WindowsAgentArena-benchmark.
