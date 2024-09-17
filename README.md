@@ -80,6 +80,20 @@ Chronological order.
 
 ---
 
+#### 14th of September 2024
+
+[PeriGuru: A Peripheral Robotic Mobile App Operation Assistant based on GUI Image Understanding and Prompting with LLM](https://arxiv.org/abs/2409.09354)
+
+-
+
+
+---
+
+[Enhancing Decision-Making for LLM Agents via Step-Level Q-Value Models](https://arxiv.org/abs/2409.09345)
+
+-
+
+---
 #### 13th of September 2024
 
 [Agents in Software Engineering: Survey, Landscape, and Vision](https://arxiv.org/abs/2409.09030)
