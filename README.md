@@ -62,6 +62,24 @@ Chronological order.
 
 
 ---
+
+[Central Answer Modeling for an Embodied Multi-LLM System](https://arxiv.org/abs/2406.10918)
+
+- CAM (Central Answering Model): Introduces CAM-framework, where instead of LLM-agent directly answering question, multiple LLM-agent instances generate answer and a central LLM-agent responds to the question.
+
+
+---
+
+#### 15th of September 2024
+
+[RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation](https://arxiv.org/abs/2409.09584)
+
+- RethinkMCTS: conducts thought-level searches before generating code and adds both verbal feedback to refine thoughts and code execution feedback from incorrect code. 
+- Increasing the number of rethink- and rollout-operations improve code generation.
+
+
+---
+
 #### 13th of September 2024
 
 [Agents in Software Engineering: Survey, Landscape, and Vision](https://arxiv.org/abs/2409.09030)
