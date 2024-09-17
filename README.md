@@ -84,7 +84,7 @@ Chronological order.
 
 [PeriGuru: A Peripheral Robotic Mobile App Operation Assistant based on GUI Image Understanding and Prompting with LLM](https://arxiv.org/abs/2409.09354)
 
--
+- PeriGuru: LLM-agent for GUI with perception, decision and action steps.
 
 
 ---
