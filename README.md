@@ -43,6 +43,25 @@ Chronological order.
 
 </div>
 
+#### 16th of September 2024
+
+[Instigating Cooperation among LLM Agents Using Adaptive Information Modulation](https://arxiv.org/abs/2409.10372)
+
+- SLA (Strategic LLM Agent): combines LLM agents (SLAs) and RL-agent called Pro-social Promoting Agent (PPA) to increase cooperation rate.
+- Adjusts dynamically access to SLA's information (cooperation history with neighbours, average) to increase facilitate social interaction.
+
+
+---
+
+[Cognitive Kernel: An Open-source Agent System towards Generalist Autopilots](https://arxiv.org/abs/2409.10277)
+
+- Cognitive Kernel: introduces autopilot-like LLM-agent with access to internet with the web browser (appears to use Playwright-library) to interact "human-like" manner (click, scroll, etc).
+- The LLM agent interacts with user and task environment. Includes reasoning kernel, memory kernel and perception kernel.
+- LLM is fine tuned to interact with the environment through atomic actions, which a normal person could perform, rather than API call.
+- Offers interesting ideas for each sub-compoment, as each includes plenty of detailed functionalities. 
+
+
+---
 #### 13th of September 2024
 
 [Agents in Software Engineering: Survey, Landscape, and Vision](https://arxiv.org/abs/2409.09030)
