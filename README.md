@@ -1916,6 +1916,14 @@ Chronological order.
 
 --- 
 
+
+[A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning]()
+
+- Introduces a survey on LLM-agents with tool use/RAG/planning/feedback learning.
+
+
+---
+
 [Artificial Intelligence as the New Hacker: Developing Agents for Offensive Security](https://arxiv.org/abs/2406.07561)
 
 - ReaperAI: designs an autonomous ai agent to design and stimulate cyberattack-scenario.
