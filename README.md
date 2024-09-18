@@ -54,6 +54,14 @@ Chronological order.
 
 ---
 
+[Visual grounding for desktop graphical user interfaces](https://arxiv.org/abs/2407.01558)
+
+- Introduces autonomous GUI-agent. Includes a decent overview about autonomous GUI navigation.
+- Proposes visual grounding with LLM using YoloV8/ChatGPT/OCR-module or multi modal IGVDirect-approach.
+- Introduces new metric: Central Point Validation (if center of the predicted bounding box is inside the target GUI element).
+
+---
+
 [P-RAG: Progressive Retrieval Augmented Generation For Planning on Embodied Everyday Task](https://arxiv.org/abs/2409.11279)
 
 - P-RAG: Introduces iteratively updated RAG (self-iterations). P-RAG adds more task-specific knowledge.
