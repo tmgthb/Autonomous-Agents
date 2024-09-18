@@ -118,9 +118,11 @@ Chronological order.
 
 [Enhancing Decision-Making for LLM Agents via Step-Level Q-Value Models](https://arxiv.org/abs/2409.09345)
 
--
+- Introduces task-relevant Q-value model for guiding action selection.
+- Includes review of the different methods to improve reasoning, such as LLMs using MCTS.
 
 ---
+
 #### 13th of September 2024
 
 [Agents in Software Engineering: Survey, Landscape, and Vision](https://arxiv.org/abs/2409.09030)
