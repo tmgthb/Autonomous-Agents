@@ -43,6 +43,18 @@ Chronological order.
 
 </div>
 
+#### 17th of September 2024
+
+[LLM-Agent-UMF: LLM-based Agent Unified Modeling Framework for Seamless Integration of Multi Active/Passive Core-Agents](https://arxiv.org/abs/2409.11393)
+
+- LLM-agent UMF (Unified Modelling Framework): Introduces modular LLM-agent framework, which includes core agent coordinating with planning, memory, profile, action and security modules.
+- Proposes various multi agent frameworks.
+- Proposes active and passive information types. 
+- Includes lots of useful ideas for each component.
+
+
+---
+
 #### 16th of September 2024
 
 [Instigating Cooperation among LLM Agents Using Adaptive Information Modulation](https://arxiv.org/abs/2409.10372)
