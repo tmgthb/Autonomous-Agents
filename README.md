@@ -8161,6 +8161,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 24th May 2023
 
+[Reasoning with Language Model is Planning with World Model](https://arxiv.org/abs/2305.14992)
+
+- RAP (Reasoning via Planning): Uses LLM as both world model and reasoning LLM-agent. Integrates MCTS search planning algorithm.
+- Incrementally generates reasoning tree with LLM in domains of plan generation, math reasoning and logical inference.
+
+---
+
 [Gorilla: Large Language Model Connected with Massive APIs](https://arxiv.org/abs/2305.15334)
 
 - Gorilla is a retrieve-aware finetuned LLaMA-7B model for API calls using self-instruct to generate Instruction-API pairs. 
