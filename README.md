@@ -59,6 +59,7 @@ Chronological order.
 - Introduces autonomous GUI-agent. Includes a decent overview about autonomous GUI navigation.
 - Proposes visual grounding with LLM using YoloV8/ChatGPT/OCR-module or multi modal IGVDirect-approach.
 - Introduces new metric: Central Point Validation (if center of the predicted bounding box is inside the target GUI element).
+- Includes GUI-perception prompt.
 
 ---
 
