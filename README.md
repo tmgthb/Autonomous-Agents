@@ -62,6 +62,14 @@ Chronological order.
 
 ---
 
+[EmPO: Emotion Grounding for Empathetic Response Generation through Preference Optimization](https://arxiv.org/abs/2406.19071)
+
+- EmPO: Introduces the EmpatheticDialogues-dataset for fine tuning LLMs with empathic response generation (ERG). 
+
+
+---
+
+
 #### 16th of September 2024
 
 [Instigating Cooperation among LLM Agents Using Adaptive Information Modulation](https://arxiv.org/abs/2409.10372)
