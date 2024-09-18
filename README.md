@@ -52,6 +52,13 @@ Chronological order.
 - Proposes active and passive information types. 
 - Includes lots of useful ideas for each component.
 
+---
+
+[P-RAG: Progressive Retrieval Augmented Generation For Planning on Embodied Everyday Task](https://arxiv.org/abs/2409.11279)
+
+- P-RAG: Introduces iteratively updated RAG (self-iterations). P-RAG adds more task-specific knowledge.
+- The RAG stores the following information: goal instruction, scene graph, history and done.
+
 
 ---
 
