@@ -514,6 +514,8 @@ Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/e
 
 According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
 
+Noam Brown (2024) highlighted [the importance of planning](https://www.youtube.com/watch?v=eaAonE58sLU), because verification is easier than planning correct solutions, while large companies will prefer to pay more for higher upfront development cost of the model, compared paying for high inference costs.
+
 Chain-of-Thought:
 - Tree-structures enable searching large reasoning trees for a solution to a complex problem
 - [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call.
