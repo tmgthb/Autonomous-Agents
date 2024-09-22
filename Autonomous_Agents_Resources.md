@@ -514,15 +514,27 @@ Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/e
 
 According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
 
-Noam Brown (2024) highlighted [the importance of planning](https://www.youtube.com/watch?v=eaAonE58sLU), because verification is easier than planning correct solutions, while large companies will prefer to pay more for higher upfront development cost of the model, compared paying for high inference costs.
-
-Chain-of-Thought:
+"Let's think step by step"
+- Technique better known as Chain-of-Thought (CoT).
+- 
 - Tree-structures enable searching large reasoning trees for a solution to a complex problem
 - [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call.
 - [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
 - Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
 
 
+Why planning works so well in so many domains?
+
+According to [Noam Brown (2024)](https://www.youtube.com/watch?v=eaAonE58sLU), scaling up "test-time compute" for search planning has been key ingredient in the past AI-breakthroughts (Chess, Go, Poker & No-Press Diplomacy). Cicero-model employed test-time compute in its planning module by predicting actions of all players/predicting what other plays would think Cicero would take/deciding output action and intent for the dialogue model to generate communication back to other players. This additional planning compute made the model especially effective in No-Press Diplomacy game. 
+
+- Considering the AI-models play these games above human-level, I see it logical to apply these methods in LLMs.
+- Brown says, that it is easier for humans to verify ("Let's verify step by step") correctness of reasoning chain in specific domains (math/programming/puzzles, while not true in image recognition/information retrieval), than generating the reasoning solution, which means LLMs are better verifiers than generators of the correct reasoning chains.
+- Brown calls this as the "Generator-Verifier-gap".
+- Brown argues, that if in a given domain, there is a generator-verifier-gap, and we have a good verifier, then it is possible to scale up compute of solution generation and then verify.
+- Brown continues, that the "Let's verify step by step"-paper introduces process reward mdel, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal.
+- Brown notes, that large companies will prefer scaling up "training/development costs", while maintaining low "inference costs".
+
+Zhang et al. (2024) show, that [GenRM-CoT](https://arxiv.org/abs/2408.15240) outperforms discriminatory verifiers, scaling in inference-time compute, model capacity and dataset size.
 
 
 ---
