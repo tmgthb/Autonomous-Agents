@@ -81,6 +81,12 @@ Chronological order.
 
 ---
 
+[AutoVerus: Automated Proof Generation for Rust Code](https://arxiv.org/abs/2409.13082)
+
+- AutoVerus: LLM generates correctness proofs for Rust-code using multi-agent framework (proof generation, refinement and debugging).
+
+---
+
 #### 17th of September 2024
 
 [LLM-Agent-UMF: LLM-based Agent Unified Modeling Framework for Seamless Integration of Multi Active/Passive Core-Agents](https://arxiv.org/abs/2409.11393)
