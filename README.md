@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+
+#### 19th of September 2024
+
+[Training Language Models to Self-Correct via Reinforcement Learning](https://arxiv.org/abs/2409.12917)
+
+- SCoRe (Self-Correct via Reinforcement Learning): Increases LLMs capacity to self-correct via multi-turn Reinforcement Learning.
+- Achieves positive intrinsic self-correction performance as first model.
+
+---
+
 #### 17th of September 2024
 
 [LLM-Agent-UMF: LLM-based Agent Unified Modeling Framework for Seamless Integration of Multi Active/Passive Core-Agents](https://arxiv.org/abs/2409.11393)
@@ -431,6 +441,21 @@ Chronological order.
 ---
 
 #### 27th of August 2024
+
+#### 27th of August 2024
+
+[Generative Verifiers: Reward Modeling as Next-Token Prediction](https://arxiv.org/abs/2408.15240)
+
+- GenRM-verifier (Generative Reward Models): proposes training verifiers with next-token prediction objective.
+- Combines verification and solution generation, whichh improves verification-process.
+- GenRM outperforms classifier-based discriminatary (assigns numerical score to answer, which is used to classify as correct/incorrect answer) verifiers and LLM-as-a-judge (tends to underperform trained LLM-based verifiers).
+- Integrates with fine-tuning, CoT and is able to use inference-time compute in form of majority vote to improve verification.
+- Enables inference-time compute for CoT Verifiers (GenRM-CoT). Uses [reference-guided grading](https://arxiv.org/abs/2306.05685) to assist "Let's verify step by step"-verification on test-time problems lacking reference solution.
+- See [slides here](https://drive.google.com/file/d/1komQ7s9kPPvDx_8AxTh9A6tlfJA0j6dR/view).
+
+--- 
+
+
 
 [AgentMonitor: A Plug-and-Play Framework for Predictive and Secure Multi-Agent Systems](https://arxiv.org/abs/2408.14972)
 
@@ -887,9 +912,12 @@ Chronological order.
 
 [Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://arxiv.org/abs/2407.18219)
 
-- RISE (Recursive IntroSpEction): iteratively sel-improve LLM responses through fine-tuning with RL. 
-- RISE starts with turn 1, where only prompt is provided. In turn 2, the prompt, the original response and its feedback is provided to generate the turn 2 response. Majority voting is used to select the final response from multiple responses generated.
-
+- RISE (Recursive IntroSpEction): iteratively sel-improve LLM responses through fine-tuning with RL.
+- LLM loss is lower, when using multi-turn data compared instead of only the final answer. Works only for reasoning, not knowledge tasks.
+- Indicates strongly, that Full online RL is feasible with RISE and using iterative self-training procedure (such as STaR), because RISE improves the LLM with 5-turns with/without oracle model. 
+- Demonstrates, that LLMs can self-improve its own mistakes to beyond level of propietary models, when trained with RISE. The self-improvement continues up to 6 iterations, demonstrating lower loss. 
+- RISE starts with turn 1, where only prompt is provided. In turn 2, the prompt, the original response and its feedback is provided to generate the turn 2 response. Majority voting is used to select the final response from multiple responses generated. Alternatively, oracle model can be used to assist, when such is available.
+- Why self-improvement works? RISE is compared to diffusion models, where generation is refined step-by-step. Similarly LLMs may lack "capacity" to process the request, which RISE can help to refine. See the talk on this paper [here.](https://www.youtube.com/watch?v=Qv8aTLthfhs).
 
 ---
 
@@ -1959,7 +1987,14 @@ Chronological order.
 
 ---
 
-#### 6th of June 2024
+
+#### 6th of June 2024 
+
+[Open-Endedness is Essential for Artificial Superhuman Intelligence](https://arxiv.org/abs/2406.04268)
+
+- Defines open-endedness in the context of ASI: "From the perspective of an observer, a system is open-ended if and only if the sequence of artifacts it produces is both novel and learnable."
+
+---
 
 [On the Effects of Data Scale on Computer Control Agents](https://arxiv.org/abs/2406.03679)
 
@@ -2791,6 +2826,17 @@ Filler token refers to "...".
 
 
 #### 17th of April 2024
+
+[Many-Shot In-Context Learning](https://arxiv.org/abs/2404.11018)
+
+- Introduces Many-shot ICL, which differs from few-shot ICL by increasing significantly the amount of examples provided within the context window.
+- Improves task-performance across domains over few-shot prompting across variety of domains.
+- One of the first attempts to scale in-context learning or "test-time inference".
+- Introduces the concept of Reinforced ICL, where model generated rationales are used for ICL by using zero-shot / few-shot CoTs prompts as examples to sample more examples. The generated examples are filtered to include only reaching a correct answer (requires ground truth and potentially generates false-positives).
+- Introduces concet of Unsupervised ICL, without CoTs and prompt the model using only inputs (includes example problem/list of unsolved problems/zero-short or few-shot instruction of desired output format). The unsupervised ICL prompt is included to the paper.
+
+---
+
 
 [The Landscape of Emerging AI Agent Architectures for Reasoning, Planning, and Tool Calling: A Survey](https://arxiv.org/abs/2404.11584)
 
