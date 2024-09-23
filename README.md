@@ -1024,6 +1024,17 @@ Chronological order.
 
 ---
 
+#### 18th of July 2024
+
+[Prover-Verifier Games improve legibility of LLM outputs](https://arxiv.org/abs/2407.13692)
+
+- Prover-Verifier: Direct RL on solution correctness generates solutions difficult for humans to evaluate and obtains.
+- Checkability training results prover, which maintains legibility, while taking a a legibility tax in form of losing some performance to make them more easier to check for humans. 
+- Discusses the possibility of training two models: train model with CoT to maximize accuracy and another model to turn the CoT produced by the model into legible version understandable for humans.
+
+
+---
+
 #### 12th of July 2024
 
 [PersonaRAG: Enhancing Retrieval-Augmented Generation Systems with User-Centric Agents](https://arxiv.org/abs/2407.09394)
@@ -1209,6 +1220,14 @@ Chronological order.
 ---
 
 #### 28st of June 2024
+
+[LLM Critics Help Catch LLM Bugs](https://arxiv.org/abs/2407.00215)
+
+- Focuses on self-correction or self-critique in the domain of code bug fixing in real-world.
+- Finds majority of the critique generated automatically is better than human generated.
+
+
+---
 
 [BMW Agents -- A Framework For Task Automation Through Multi-agent Collaboration](https://arxiv.org/abs/2406.20041)
 
