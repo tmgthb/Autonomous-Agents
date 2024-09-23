@@ -43,6 +43,34 @@ Chronological order.
 
 </div>
 
+#### 20th of September 2024
+
+[RRM: Robust Reward Model Training Mitigates Reward Hacking](https://arxiv.org/abs/2409.13156)
+
+- RRM (Robust Reward Model): Reviews reward models ability to differentiate signal from the genuine context and irrelevant information to decide preference. Proposes usage of causal graph.
+- Produces more robust reward model.
+
+---
+
+[ChainBuddy: An AI Agent System for Generating LLM Pipelines](https://arxiv.org/abs/2409.13588)
+
+- ChainBuddy: Includes requirements gathering agent (primary user goal/list of req./user preferences/suggested Cot strategy), planner agent (includes replanner), task-specific agents, connection agent and post-hoc reviewer agent.
+
+---
+
+[Minstrel: Structural Prompt Generation with Multi-Agents Coordination for Non-AI Experts](https://arxiv.org/abs/2409.13449)
+
+- Minstrel: a multi-agent framework for automated prompt optimization. Prompts are constructed using role, profile, constraints, goals, initialization and examples, workflow, skills, suggestions, background, style, output format and command modules.
+- Agents are assigned to working groups in charge of similar small tasks.
+
+---
+
+[ShizishanGPT: An Agricultural Large Language Model Integrating Tools and Resources](https://arxiv.org/abs/2409.13537)
+
+- ShizishanGPT: LLM agent for answering with agriculture-based RAG.
+
+---
+
 
 #### 19th of September 2024
 
