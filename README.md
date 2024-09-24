@@ -43,6 +43,15 @@ Chronological order.
 
 </div>
 
+#### 23rd of September 2025
+
+[ERABAL: Enhancing Role-Playing Agents through Boundary-Aware Learning](https://arxiv.org/abs/2409.14710)
+
+- ERABEL: Introduces boubdary-aware role playing framework to maintain role comsistency in multiturn conversation.
+- Includes dialogue planner/topic manager/question generator/response generator-agents.
+- Includes prompts for esch agent.
+
+
 #### 20th of September 2024
 
 [RRM: Robust Reward Model Training Mitigates Reward Hacking](https://arxiv.org/abs/2409.13156)
