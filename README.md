@@ -45,14 +45,29 @@ Chronological order.
 
 #### 26th of September 2024
 
+[Control Industrial Automation System with Large Language Models](https://arxiv.org/abs/2409.18009)
+
+- Introduces multi LLM-agent industrial control system, which consists of summarizer-, manager- (planning level), event log manager-, operator-agents (control-level) and command line/event log memory/prompt templates/events/function calls.
+
+
+---
+
 [Compositional Hardness of Code in Large Language Models -- A Probabilistic Perspective]()
 
 - Reviews the difficulty of processing multiple sub-tasks within single LLM call with ICL to produce correct solution, which is called "In-Context Hardness of Composition".
 - Refers to new term called "Screening", which refers to LLMs capacity to isolate the relevant context. For example LLM with capacity to perform two tasks, may fail performing both within same context.
-- Finds, that is better to distribute tasks to multiple LLM-agents, when task becomes complex.
-- Excellent literature review of the CoT problem solving and agents-research intersection.
+- Finds, that is better to distribute tasks to multiple LLM-agents, when task becomes complex. Offers a literature review of the CoT problem solving and agents-research intersection.
+
+---
+
+#### 25th of September 2024
+
+[Language Grounded Multi-agent Communication for Ad-hoc Teamwork](https://arxiv.org/abs/2409.17348)
+
+- Grounds MARL agent communication with LLM generated synthetic data, which improves communicatio and zero-shot collaboration between agents.
 
 
+---
 
 ---
 
