@@ -43,7 +43,30 @@ Chronological order.
 
 </div>
 
-#### 23rd of September 2025
+#### 26th of September 2024
+
+[Compositional Hardness of Code in Large Language Models -- A Probabilistic Perspective]()
+
+- Reviews the difficulty of processing multiple sub-tasks within single LLM call with ICL to produce correct solution, which is called "In-Context Hardness of Composition".
+- Refers to new term called "Screening", which refers to LLMs capacity to isolate the relevant context. For example LLM with capacity to perform two tasks, may fail performing both within same context.
+- Finds, that is better to distribute tasks to multiple LLM-agents, when task becomes complex.
+- Excellent literature review of the CoT problem solving and agents-research intersection.
+
+
+
+---
+
+#### 24th of September 2024
+
+[MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents](https://arxiv.org/abs/2409.16120)
+
+- MOSS (llM-oriented Operating System Simulation): LLM-based code 
+
+
+---
+
+
+#### 23rd of September 2024
 
 [ERABAL: Enhancing Role-Playing Agents through Boundary-Aware Learning](https://arxiv.org/abs/2409.14710)
 
@@ -104,6 +127,16 @@ Chronological order.
 - Proposes various multi agent frameworks.
 - Proposes active and passive information types. 
 - Includes lots of useful ideas for each component.
+
+
+---
+
+[NVLM: Open Frontier-Class Multimodal LLMs](https://arxiv.org/abs/2409.11402)
+
+- NVLM: frontier level VLM model and high performance as LLM only.
+- Finds, that dataset quality and task diversity impact more than scale.
+- Finds positive transfer from image to text only modality.
+
 
 ---
 
