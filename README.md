@@ -62,12 +62,19 @@ Chronological order.
 
 #### 25th of September 2024
 
-[Language Grounded Multi-agent Communication for Ad-hoc Teamwork](https://arxiv.org/abs/2409.17348)
+[Turn Every Application into an Agent: Towards Efficient Human-Agent-Computer Interaction with API-First LLM-Based Agents](https://arxiv.org/abs/2409.17140)
 
-- Grounds MARL agent communication with LLM generated synthetic data, which improves communicatio and zero-shot collaboration between agents.
+- AXIS: Priorites task completing API-calls above UI-agent actions, which decrases task completion time and cognitive workload.
+- It is more useful to generate efficient API-call agent using programmatic API, than slower human-like UI agent.
+- Includes Explorer-, Follower-, Monitor-, Generator-, Evaluator- and Translator-agents.
+- Enables converting any application, with basic API/documentation and: environment state interface/basic action interface, into agent. Uses self-exploratory framework to identify control elements.
 
 
 ---
+
+[Language Grounded Multi-agent Communication for Ad-hoc Teamwork](https://arxiv.org/abs/2409.17348)
+
+- Grounds MARL agent communication with LLM generated synthetic data, which improves communicatio and zero-shot collaboration between agents.
 
 ---
 
