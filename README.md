@@ -47,7 +47,9 @@ Chronological order.
 
 [AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environment](https://arxiv.org/abs/2409.17655)
 
-- AssistantX: LLM-agent framework to help users achieve goals in virtual / physical environments.
+- AssistantX: multi LLM-agent framework (PPDR4X) to help users achieve goals in virtual / physical environments.
+- PPDR4X-framework includes short term memory (initial instructions/dialogue data/agent thoughts/cyber tasks/real world tasks), long-term memory (environment information), perception-agent, planning-agent, reflection agent and decision agent. 
+
 
 ---
 
