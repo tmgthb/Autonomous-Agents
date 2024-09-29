@@ -45,6 +45,12 @@ Chronological order.
 
 #### 26th of September 2024
 
+[AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environment](https://arxiv.org/abs/2409.17655)
+
+- 
+
+---
+
 [Control Industrial Automation System with Large Language Models](https://arxiv.org/abs/2409.18009)
 
 - Introduces multi LLM-agent industrial control system, which consists of summarizer-, manager- (planning level), event log manager-, operator-agents (control-level) and command line/event log memory/prompt templates/events/function calls.
@@ -68,6 +74,15 @@ Chronological order.
 - It is more useful to generate efficient API-call agent using programmatic API, than slower human-like UI agent.
 - Includes Explorer-, Follower-, Monitor-, Generator-, Evaluator- and Translator-agents.
 - Enables converting any application, with basic API/documentation and: environment state interface/basic action interface, into agent. Uses self-exploratory framework to identify control elements.
+
+---
+
+[Plurals: A System for Guiding LLMs Via Simulated Social Ensembles](https://arxiv.org/abs/2409.17213)
+
+- Introduces Plurals-framework: generates diverse agents (stakeholder) based on demographic data to interact diverse opinions using a structrured debate and moderator.
+- The demographic data is basis for generating the agents, which helps to tune the messages to specific audiences.
+- Includes Structures, which forces LLM-agents to share information with a properly formed structure.
+- Moderator-agent then summarises this discussion by trying to take into account the diverse opinions.
 
 
 ---
