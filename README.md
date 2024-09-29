@@ -75,6 +75,15 @@ Chronological order.
 - Includes Explorer-, Follower-, Monitor-, Generator-, Evaluator- and Translator-agents.
 - Enables converting any application, with basic API/documentation and: environment state interface/basic action interface, into agent. Uses self-exploratory framework to identify control elements.
 
+
+---
+
+[A Roadmap for Embodied and Social Grounding in LLMs](https://arxiv.org/abs/2409.16900)
+
+- Reviews the grounding of LLMs with physical world. Highlights the importance of social grounding of physical experiences. For example a child can build understanding of heavy objects just by observing an adult trying to lift a heavy box.
+- Interesting ideas about the way human perception in physical world.
+
+
 ---
 
 [Plurals: A System for Guiding LLMs Via Simulated Social Ensembles](https://arxiv.org/abs/2409.17213)
