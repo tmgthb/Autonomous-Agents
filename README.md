@@ -47,7 +47,7 @@ Chronological order.
 
 [AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environment](https://arxiv.org/abs/2409.17655)
 
-- 
+- AssistantX: LLM-agent framework to help users achieve goals in virtual / physical environments.
 
 ---
 
