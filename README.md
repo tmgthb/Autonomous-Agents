@@ -45,11 +45,25 @@ Chronological order.
 
 #### 7th of October 2024
 
+[Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents](https://arxiv.org/abs/2410.05130)
+
+- GraphAgent-Reasoner (GAR): explicit and precise graph-reasoning with multi-agent collaboration.
+- Distributes tasks into nodes (over 1000) to multiple agents collaborating between each other.
+
+---
+
 [Grounding Partially-Defined Events in Multimodal Data](https://arxiv.org/abs/2410.05267)
 
 - Reviews event extraction from unstructured video data using multimodal event analysis with LLMs.
 
+---
 
+[GLEE: A Unified Framework and Benchmark for Language-based Economic Environments](https://arxiv.org/abs/2410.05254)
+
+- Introduces GLEE (Games in Language-based Economic Environments)-benchmark, which reviews LLMs in two-player economic game families of bargaining, negotiation andd persuasion.
+
+
+---
 
 #### 26th of September 2024
 
