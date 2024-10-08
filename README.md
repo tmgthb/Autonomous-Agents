@@ -43,6 +43,14 @@ Chronological order.
 
 </div>
 
+#### 7th of October 2024
+
+[Grounding Partially-Defined Events in Multimodal Data](https://arxiv.org/abs/2410.05267)
+
+- Reviews event extraction from unstructured video data using multimodal event analysis with LLMs.
+
+
+
 #### 26th of September 2024
 
 [AssistantX: An LLM-Powered Proactive Assistant in Collaborative Human-Populated Environment](https://arxiv.org/abs/2409.17655)
