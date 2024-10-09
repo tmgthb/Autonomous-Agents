@@ -48,7 +48,10 @@ Chronological order.
 [Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents](https://arxiv.org/abs/2410.05130)
 
 - GraphAgent-Reasoner (GAR): explicit and precise graph-reasoning with multi-agent collaboration.
+- Works to solve real-world graph-reasoning such as webpage ranking,
 - Distributes tasks into nodes (over 1000) to multiple agents collaborating between each other.
+- Includes stages: Algorithmic establishment (retrieve/initialisation/adjust/design), Distributed execution (Master LLM assigns task, agent network communicates) and Master summarisation (termination/aggregation/conclusion).
+- Master LLM defines for each problem 6 components: State/Message/Initialization/Send/Update/Termination.
 
 ---
 
