@@ -100,6 +100,13 @@ Chronological order.
 
 #### 7th of October 2024
 
+[LLMs Are In-Context Reinforcement Learners](https://arxiv.org/abs/2410.05362)
+
+- In-Context Reinforcement Learning (ICRL): Introduces ICRL-algorithm (increases test-time compute), which effectively learns reward from a classification task. The explorative-version concentrates on positive episodes and stochasticity.
+- Naive ICRL explores poorly.
+
+---
+
 [Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents](https://arxiv.org/abs/2410.05130)
 
 - GraphAgent-Reasoner (GAR): explicit and precise graph-reasoning with multi-agent collaboration.
