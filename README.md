@@ -43,6 +43,61 @@ Chronological order.
 
 </div>
 
+
+#### 9th of October 2024
+
+[Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making](https://arxiv.org/abs/2410.07166)
+
+- Introduces Embodied Agent Interface-benchmark for embodied decision making LLM-agents.
+- Reviews four critical capabilities: Goal interpretation, Subgoal decomposition, Action sequencing and Transition modelling.
+
+
+---
+
+[I Want to Break Free! Anti-Social Behavior and Persuasion Ability of LLMs in Multi-Agent Settings with Social Hierarchy](https://arxiv.org/abs/2410.07109)
+
+- zAImbardo-framework: Introduces LLM-agent simulation between prisoner/guard-agents using prompts, which are either shared or private.
+- Shared prompts: communication rules/environment description/research oversight/risks. Private prompts: Starting prompt/personality/goals.
+
+
+---
+
+[Towards Realistic UAV Vision-Language Navigation: Platform, Benchmark, and Methodology](https://arxiv.org/abs/2410.07087)
+
+- Introduces UAV navigation agent using MLLM. Includes three levels of assistants: constant/difficult situations/hazard situations.
+
+
+---
+
+[MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses](https://arxiv.org/abs/2410.07076)
+
+- Moose-Chem: multi-agent framework to discover novel chemistry research hypothesises from given information.
+
+
+---
+
+[Seeker: Enhancing Exception Handling in Code with LLM-based Multi-Agent Approach](https://arxiv.org/abs/2410.06949)
+
+- Seeker: introduces LLM-based multi-agent framework for exception handling with planner/detector/predator/ranker/handler-agents.
+
+
+---
+
+[ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents](https://arxiv.org/abs/2410.06703)
+
+- ST-WebAgentBench-benchmark: Evaluates safety and trustworthy of web agents against performing undesired operations in business/user applications.
+
+
+---
+
+[Do great minds think alike? Investigating Human-AI Complementarity in Question Answering with CAIMIRA](https://arxiv.org/abs/2410.06524)
+
+- CAIMIRA (Content-Aware, Identifiable, Multidimensional, Item Response Analysis)-framework: Reviews differences between humans and SOTA-level LLMs in QA-tasks in reasoning and textual understanding. 
+
+
+---
+
+
 #### 7th of October 2024
 
 [Scalable and Accurate Graph Reasoning with LLM-based Multi-Agents](https://arxiv.org/abs/2410.05130)
