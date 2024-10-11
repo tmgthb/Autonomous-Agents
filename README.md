@@ -43,6 +43,9 @@ Chronological order.
 
 </div>
 
+
+#### 9th of October 2024
+
 [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2410.08102)
 
 - Introduces LLM-based multi-agent system for efficient LLM pretraining data selection. LLM converges faster in the pretraining and the method improves LLM output quality.
