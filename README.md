@@ -43,6 +43,48 @@ Chronological order.
 
 </div>
 
+[Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2410.08102)
+
+- Introduces LLM-based multi-agent system for efficient LLM pretraining data selection. LLM converges faster in the pretraining and the method improves LLM output quality.
+- The Data console integrates data inisghts dynamically from the different agents during the training process. 
+- Agent console include quality/domain/topic-agents. Includes as well memory.
+
+
+---
+
+
+[Optima: Optimizing Effectiveness and Efficiency for LLM-Based Multi-Agent System](https://arxiv.org/abs/2410.08115)
+
+- Optima (OPTImising effectiveness and efficiency for LLM-based Multi-Agent systems): Introduces framework to train LLM-based multi-agent system (MAS). 
+- Includes 4 iterative steps: Generate/Rank/Select/Train.
+- Investigates scaling laws of inference compute.
+- Optima helps to make LLMs highly efficient conversationalists.
+
+---
+
+
+[DelTA: An Online Document-Level Translation Agent Based on Multi-Level Memory](https://arxiv.org/abs/2410.08143)
+
+- DelTA (Document-level Translation Agent): Introduces translation LLM-agent using multi-layer memory components to improve translation consistency/quality.
+- Memory components include: Proper noun memory(to apply correct terminology)/Bilingual summary/long-term/short-term-memory units.
+
+
+---
+
+[Mars: Situated Inductive Reasoning in an Open-World Environment](https://arxiv.org/abs/2410.08126)
+
+- Mars: Introduces framework for Situated Inductive Reasoning-benchmark and a framework with LLM-agents called: IfR (Induction from Reflection). 
+- The paper identifies two critical components for inductive reasoning: situatedness (situational context) and abstractiveness (abstract conclusions).
+- IfR-framework includes task proposer/planner/controller/reflection-steps, rule library (when this, do that) and skill library. The LLM-based reflection-step induces new rules, which actual LLMs struggle currentyly.
+
+
+---
+
+[Benchmarking Agentic Workflow Generation](https://arxiv.org/abs/2410.07869)
+
+- Introduces WorFEBench-benchmark for unified workflow generation and WorFEval evaluation protocol of workflows for LLM-agents.
+
+
 
 #### 9th of October 2024
 
