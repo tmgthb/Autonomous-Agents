@@ -5628,6 +5628,14 @@ during CoT inference.
 
 ---
 
+[Cradle: Empowering Foundation Agents Towards General Computer Control](https://arxiv.org/abs/2403.03186v3)
+
+- Cradle-framework: MLLM-based agent to control GUI with screenshot input/audio and outputs executable code for mouse/keyboard action.
+- Includes 6 modules: information gathering/self-reflection/task inference/skill curator/action planning/memory. 
+- Introduces the term General Computer Control (GCC) to relate control of computer interfaces in this setting.
+
+---
+
 [KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents](https://arxiv.org/abs/2403.03101)
 
 - KnowAgent: LLM-agent to improve planning with explicit action knowledge retrieval. The agent includes Action Knowledge Base (AKB), Planning Path Generation(question, action path, thought and observation) and Kowledgable Self-Learning.
