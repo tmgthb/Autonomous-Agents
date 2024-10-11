@@ -5630,9 +5630,12 @@ during CoT inference.
 
 [Cradle: Empowering Foundation Agents Towards General Computer Control](https://arxiv.org/abs/2403.03186v3)
 
-- Cradle-framework: MLLM-based agent to control GUI with screenshot input/audio and outputs executable code for mouse/keyboard action.
-- Includes 6 modules: information gathering/self-reflection/task inference/skill curator/action planning/memory. 
-- Introduces the term General Computer Control (GCC) to relate control of computer interfaces in this setting.
+- Cradle-framework: MLLM-based agent to control GUI with screenshot input and outputs executable code for keyboard/mouse action(key to press/where/duration/speed/location to move).
+- Includes 6 modules: information gathering/self-reflection/task inference/skill curator/action planning/memory(episodic for retaining information/procedural for skills).
+- Introduces the term General Computer Control (GCC) to relate control of computer interfaces, which challenges include long-term memory for useful experiences andefficient exploration/self-improvement beside multi mod
+- Uses PyDirectInput instead of pyautogui for keyboard control. Includes low-level wrapper, which uses ctypes in windows and AppleScript in Mac to communicate low-level mouse controls.
+- Procedural memory is based on topk matches of the skills (text embeddings). Episodic memory consists of short-term (screenshots/task guidance actions/reasoningand long-term summary. Short-term memory includes forgetting factor k set to 5-interactions. 
+- The long-term memory includes recurrent information summary to avoid losing track of long-horozon task objective while inside short-horizon task: ongoing task/the past entities met/past behaviours.
 
 ---
 
