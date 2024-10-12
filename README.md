@@ -91,6 +91,26 @@ Chronological order.
 
 #### 9th of October 2024
 
+[AgentBank: Towards Generalized LLM Agents via Fine-Tuning on 50000+ Interaction Trajectories](https://arxiv.org/abs/2410.07706)
+
+- Samoyed: Introduces LLM-models fine-tuned with AgentBank-dataset for general agent tasks.
+- AgentBank-dataset includes dimensions: reasoning/math/programming/web/embodied AI.
+
+
+---
+
+
+[Smart Audit System Empowered by LLM](https://arxiv.org/abs/2410.07677)
+
+- Introduces Smart Audit System with LLMs, which include dynamic risk assessment model/manufacturing compliance copilot/Commonality analysis agent. Developed by Apple researchers.
+- Dynamic risk assessment model adjusts audit: focus/sample size/critical items/resource allocation.  
+- Manufacturing compliance copilot self-adjusts its the knowledge base with new information.
+- Commonality analysis agent manages an autonomous agent conducting real-time analysis to custom requests, in order to drive supplier improvements. Includes planning/memory/tools/selecting and usage of tools/generating responses. 
+
+
+---
+
+
 [Embodied Agent Interface: Benchmarking LLMs for Embodied Decision Making](https://arxiv.org/abs/2410.07166)
 
 - Introduces Embodied Agent Interface-benchmark for embodied decision making LLM-agents.
