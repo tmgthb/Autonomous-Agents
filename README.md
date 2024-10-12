@@ -44,7 +44,7 @@ Chronological order.
 </div>
 
 
-#### 9th of October 2024
+#### 10th of October 2024
 
 [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2410.08102)
 
