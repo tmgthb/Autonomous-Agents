@@ -44,6 +44,14 @@ Chronological order.
 </div>
 
 
+#### 14th of October 2024
+
+[AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762)
+
+- AFlow: Optimises LLM-agent workflow with MCTS.
+- Includes search space (node, operators, code represented edges), search via AFliw and Search result (math, Q&A and code generation workflows.)
+
+
 #### 10th of October 2024
 
 [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2410.08102)
