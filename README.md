@@ -54,6 +54,12 @@ Chronological order.
 
 ---
 
+[AGENTiGraph: An Interactive Knowledge Graph Platform for LLM-based Chatbots Utilizing Private Data](https://arxiv.org/abs/2410.11531)
+
+- AGENTiGraph (Adaptive Generative ENgine for Task-based Interaction and Graphical Representation): LLM-based multi-agent knowledge management framework with knowledge graphs.
+- Includes knowledge extraction/integration/real-time visualization.
+- Dynamically interprets user intent/manage tasks/integrate new knowledge. Classifies tasks. Extracts key concepts. Constructs knowledge graphs. Includes prompts used. 
+
 
 #### 14th of October 2024
 
