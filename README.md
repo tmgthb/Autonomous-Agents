@@ -44,6 +44,17 @@ Chronological order.
 </div>
 
 
+#### 15th of October 2024
+
+[G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks](https://arxiv.org/abs/2410.11782)
+
+- G-Designer: introduces designer of multi-agent LLM-graphs based on MACP. Includes Materials/Construct/Design/Optimize-steps.  
+- Proposes a LLM-agent communication protocol for multi-agent systems called MACP. MACP includes performance/adaptability/robustness.
+
+
+---
+
+
 #### 14th of October 2024
 
 [AFlow: Automating Agentic Workflow Generation](https://arxiv.org/abs/2410.10762)
@@ -51,6 +62,9 @@ Chronological order.
 - AFlow: Optimises LLM-agent workflow with MCTS.
 - Includes search space (node, operators, code represented edges), search via AFliw and Search result (math, Q&A and code generation workflows.)
 
+
+
+---
 
 #### 10th of October 2024
 
