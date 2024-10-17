@@ -43,6 +43,17 @@ Chronological order.
 
 </div>
 
+#### 18th of October 2024
+
+[AI can help humans find common ground in democratic deliberation](https://www.science.org/doi/10.1126/science.adq2852)
+
+- Habermas Machine: AI mediation technique promoting fair/inclusive debate.
+- LLM-agent opinions/critiques refine group statement to maximize group approval.
+- Aims to improve collective decision making in political discussion/conflict resolution.
+
+
+---
+
 #### 16th of October 2024
 
 [Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
