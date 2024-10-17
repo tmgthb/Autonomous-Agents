@@ -48,7 +48,7 @@ Chronological order.
 [Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
 
 - Reviews planning capabilities of LLMs and identifies current models like o1 only achieve 15.6% performance in real-world tasks. 
-- Identifies two core issues: interpretation of constraints/diminishing context in long-form planning tasks.
+- Identifies two core issues: interpretation of constraints/loss of focus in long-horizon planning tasks.
 - Episodic and parametric memory help, but do not resolve the lack of planning capabilities. 
 
 ---
