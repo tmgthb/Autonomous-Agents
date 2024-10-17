@@ -74,6 +74,11 @@ Chronological order.
 - Activates specialised agents (own prompt template) dynamically by recognizing intent. 
 - Includes contextual encoder. 
 
+---
+
+[Aegis:An Advanced LLM-Based Multi-Agent for Intelligent Functional Safety Engineering](https://arxiv.org/abs/2410.12475)
+
+- Aegis: LLM-based multi-agent framework for FSRs (Functional Safety Requirements) and HARA (Hazard Analysis and Risk Assessment). 
 
 ---
 #### 15th of October 2024
