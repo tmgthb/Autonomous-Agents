@@ -43,7 +43,31 @@ Chronological order.
 
 </div>
 
+#### 16th of October 2024
 
+[JudgeBench: A Benchmark for Evaluating LLM-based Judges](https://arxiv.org/abs/2410.12784)
+
+- JudgeBench-benchmark: Evaluates LLM-judge agents, which focuses on instruction following/factuality/logic/style.
+
+
+---
+
+[Robust RL with LLM-Driven Data Synthesis and Policy Adaptation for Autonomous Driving](https://arxiv.org/abs/2410.12568)
+
+- RAPID: Improves RL performance in autonomous driving with LLM-reasoning. Uses LLM-agent data for offline RL distillation and then adapts online RL-agent with LLM-data.
+
+
+---
+
+
+[MedAide: Towards an Omni Medical Aide via Specialized LLM-based Multi-Agent Collaboration](https://arxiv.org/abs/2410.12532)
+
+- MedAide: Introduces LLM-based multi-agent framework, which includes query input/query rewriting/intent recognition/agent collaboration. 
+- Activates specialised agents (own prompt template) dynamically by recognizing intent. 
+- Includes contextual encoder. 
+
+
+---
 #### 15th of October 2024
 
 [G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks](https://arxiv.org/abs/2410.11782)
@@ -60,6 +84,17 @@ Chronological order.
 - Includes knowledge extraction/integration/real-time visualization.
 - Dynamically interprets user intent/manage tasks/integrate new knowledge. Classifies tasks. Extracts key concepts. Constructs knowledge graphs. Includes prompts used. 
 
+
+---
+
+#### 15th of October 2024
+
+[Revisiting Benchmark and Assessment: An Agent-based Exploratory Dynamic Evaluation Framework for LLMs](https://arxiv.org/abs/2410.11507)
+
+- TestAgent-framework: quantitative/qualitative benchmark using agent-based evaluation with RL, multi-turn interaction from knowledge base/topics of interests.
+
+
+---
 
 #### 14th of October 2024
 
