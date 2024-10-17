@@ -45,6 +45,14 @@ Chronological order.
 
 #### 16th of October 2024
 
+[Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
+
+- Reviews planning capabilities of LLMs and identifies current models like o1 only achieve 15.6% performance in real-world tasks. 
+- Identifies two core issues: limited role of constraints/diminishing influence of questions.
+- Episodic and parametric memory help, but do not resolve the lack of planning capabilities. 
+
+---
+
 
 [Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios](https://arxiv.org/abs/2410.12468)
 
