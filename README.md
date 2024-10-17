@@ -52,6 +52,14 @@ Chronological order.
 
 ---
 
+[SAC-GLAM: Improving Online RL for LLM agents with Soft Actor-Critic and Hindsight Relabeling](https://arxiv.org/abs/2410.12481)
+
+- SAC-GLAM: Proposes a more autonomous LLM-agents based on adaptation of SAC (Soft Actor-Critic) and HER (Hindsight Experience Replay) for LLM-agents in multi-goal RL environment to perform sequential decision making tasks.
+- Reviews LLM-agents moving from external objective driven towards more autotelic ("self" + "goals") with an intrinsic purpose rather than extrinsic. 
+
+
+---
+
 [Robust RL with LLM-Driven Data Synthesis and Policy Adaptation for Autonomous Driving](https://arxiv.org/abs/2410.12568)
 
 - RAPID: Improves RL performance in autonomous driving with LLM-reasoning. Uses LLM-agent data for offline RL distillation and then adapts online RL-agent with LLM-data.
