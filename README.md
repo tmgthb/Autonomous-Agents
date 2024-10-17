@@ -77,6 +77,8 @@ Chronological order.
 
 - FS-Reasoning Agent: introduces LLM-based multi-agent trading framework by splitting reasoning processes between factual and subjective reasoning.
 - Includes Statistics/Fact reasoning/Fact/Subjectivity/Subjectivity reasoning/Trading/Reflection agents.
+- Concludes, that superiority of the LLM model is not sufficient to guarantee it outperforming multi-step reasoning.
+
 
 ---
 
