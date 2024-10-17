@@ -71,6 +71,11 @@ Chronological order.
 
 - RAPID: Improves RL performance in autonomous driving with LLM-reasoning. Uses LLM-agent data for offline RL distillation and then adapts online RL-agent with LLM-data.
 
+---
+
+[Enhancing LLM Trading Performance with Fact-Subjectivity Aware Reasoning](https://arxiv.org/abs/2410.12464)
+
+- FS-Reasoning Agent: introduces LLM-based multi-agent trading framework by splitting reasoning processes between factual and subjective reasoning.
 
 ---
 
