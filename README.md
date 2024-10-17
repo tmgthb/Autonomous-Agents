@@ -45,6 +45,13 @@ Chronological order.
 
 #### 16th of October 2024
 
+
+[Evaluating Software Development Agents: Patch Patterns, Code Quality, and Issue Complexity in Real-World GitHub Scenarios](https://arxiv.org/abs/2410.12468)
+
+- Reviews LLM-agents ability to patch code, suggesting smaller sub-tasks to patch code to be easier for LLM-agents.
+
+---
+
 [JudgeBench: A Benchmark for Evaluating LLM-based Judges](https://arxiv.org/abs/2410.12784)
 
 - JudgeBench-benchmark: Evaluates LLM-judge agents, which focuses on instruction following/factuality/logic/style.
