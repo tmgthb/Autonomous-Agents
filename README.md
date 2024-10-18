@@ -54,6 +54,41 @@ Chronological order.
 
 ---
 
+#### 17th of October 2024
+
+[AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents](https://arxiv.org/abs/2410.13825)
+
+- AgentOccam: Refines LLM-agent observation/action space to improve its performance in web tasks with three methods. Sets SOTA in WebArena.
+- Introduces planning actions: branching and pruning. Minimizes trivial interaction space. Removes unnecessary web content. 
+- Agent prompt includes general instructions (task description/output specification/action specification) and Online Task Information.
+- Simplifies web content/selectively replays web elements/selectively replays past pages.
+
+
+---
+
+[Harnessing Webpage UIs for Text-Rich Visual Understanding](https://arxiv.org/abs/2410.13824)
+
+- Introduces MultiUI-dataset of 1 million websites for web / UI agents. 
+
+
+---
+
+[Rapid and Automated Alloy Design with Graph Neural Network-Powered LLM-Driven Multi-Agent Systems](https://arxiv.org/abs/2410.13768)
+
+- Multi-agent system including LLMs, AI agents (multi modal LLM-agents) and GNNs to discover automatically new metallic alloys.
+- The LLM-agent roles include: planner-, executor-, coder-, reviewer- and multi-modal-agents.  
+
+
+---
+
+[A Comparative Study on Reasoning Patterns of OpenAI's o1 Model](https://arxiv.org/abs/2410.13639)
+
+- Reviews o1-model against other test-time compute methods like BoN/Self-Refin/Agent workflow. 
+- Identifies 6 reasoning patterns with o1-model: systematic analysis/method reuse/divide & conquer / self-refinement / context identification / emphasizing constraints.
+
+
+---
+
 #### 16th of October 2024
 
 [Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
