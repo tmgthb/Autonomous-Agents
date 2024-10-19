@@ -89,6 +89,22 @@ Chronological order.
 
 ---
 
+
+[MeNTi: Bridging Medical Calculator and LLM Agent with Nested Tool Calling](https://arxiv.org/abs/2410.13610)
+
+- MeNTI-framework chooses appropriate meta-tool, fills data according to the meta-tool documentation and nested-calling verifies task completion. 
+
+
+---
+
+[Integrating Large Language Models and Reinforcement Learning for Non-Linear Reasoning](https://arxiv.org/abs/2410.13501)
+
+- RL guides LLM's exploration. The architecture includes: LLM-module/validation module/reasoning tree/RL agent. Applied in code generation. 
+- LLM module generates n-candidates, validation module reviews characteristics of each candidate, the features of each review are added to reasoning tree and finally RL explores this reasoning tree to decide the node to explore next. 
+
+
+---
+
 #### 16th of October 2024
 
 [Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
