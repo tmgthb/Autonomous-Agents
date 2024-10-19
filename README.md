@@ -111,6 +111,17 @@ Chronological order.
 
 ---
 
+[RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images with Autonomous Agents](https://arxiv.org/abs/2410.13384)
+
+- 
+
+
+---
+
+[Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/abs/2410.13232)
+
+-
+
 #### 16th of October 2024
 
 [Revealing the Barriers of Language Agents in Planning](https://arxiv.org/abs/2410.12409)
