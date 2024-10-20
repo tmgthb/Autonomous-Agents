@@ -113,7 +113,7 @@ Chronological order.
 
 [RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images with Autonomous Agents](https://arxiv.org/abs/2410.13384)
 
-- 
+- RescueADI (Rescue Adaptive Disaster Interpretation): 
 
 
 ---
