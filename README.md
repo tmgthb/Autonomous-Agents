@@ -122,7 +122,7 @@ Chronological order.
 
 - Proposes World-Model-Augmented (WMA) web agent by simulating planned actions to obtain outcome before using them (metacognitive monitoring) in order to avoid performing erroneous moves. Reviews LLMs lack of capability to avoid performing errors, which humans can easily avoid by posing world model. 
 - Introduces "Transition-focused observation abstraction": world model generates free-form important state differences before / after. Agent simulates outcomes of each possible action with world model and reward model asesses each one. 
-
+- Includes prompts.
 
 
 ---
