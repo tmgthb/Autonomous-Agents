@@ -156,14 +156,10 @@ Chronological order.
 
 ---
 
-[Chain of Ideas: Revolutionizing Research in Novel Idea Development with LLM Agents](https://arxiv.org/abs/2410.13185)
+[Graph-constrained Reasoning: Faithful Reasoning on Knowledge Graphs with Large Language Models](https://arxiv.org/abs/2410.13080)
 
-- CoI (Chain-of-Ideas): CoI-agent generates research ideas comparable to human-level by organizing literature in a chain structure to avoid logical inconsistencies in ideation.
-- Improves LLMs research ideation capabilities. Consists of three steps: CoI-construction (identifies current trends), Idea generation (consolidates ideas) and Experience design (final experiment design).
-- CoI-prompts include: converting topic in search query for literature retrieval/evaluation of paper relevance to the topic/extract research paper ideas, experiments, entities and reference/summarising trends of the this CoI. 
-- Idea generation prompts include: predict future trends / generate ideas / novelty check of ideas.
-- Experiment design prompts include: generate experiment design / review experiment design / obtain queries to edit experiment design / refine experiment design. 
-
+- GCR (Graph-Constrained Reasoning): Integrates Knowledge Graph (KG) into LLM decoding to reduce hallucinations in reasoning.
+- Uses KG-Trie method. 
 
 ---
 
