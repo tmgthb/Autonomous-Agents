@@ -120,7 +120,12 @@ Chronological order.
 
 [Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/abs/2410.13232)
 
--
+- Proposes World-Model-Augmented (WMA) web agent by simulating planned actions to obtain outcome before using them (metacognitive monitoring) in order to avoid performing erroneous moves. Reviews LLMs lack of capability to avoid performing errors, which humans can easily avoid by posing world model. 
+- Introduces "Transition-focused observation abstraction": world model generates free-form important state differences before / after. Agent simulates outcomes of each possible action with world model and reward model asesses each one. 
+
+
+
+---
 
 #### 16th of October 2024
 
