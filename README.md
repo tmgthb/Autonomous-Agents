@@ -82,6 +82,13 @@ Chronological order.
 - Agent prompt includes general instructions (task description/output specification/action specification) and Online Task Information.
 - Simplifies web content/selectively replays web elements/selectively replays past pages.
 
+---
+
+[AdaSwitch: Adaptive Switching between Small and Large Agents for Effective Cloud-Local Collaborative Learning](https://arxiv.org/abs/2410.13181)
+
+- AdaSwitch: Uses local agents for basic and cloud agent for complex tasks.
+- Includes self-practicing, collaborative examination and reflective learning steps. 
+
 
 ---
 
