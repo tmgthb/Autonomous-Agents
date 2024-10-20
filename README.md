@@ -56,6 +56,14 @@ Chronological order.
 
 #### 17th of October 2024
 
+[Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/abs/2410.13232)
+
+- Proposes World-Model-Augmented (WMA) web agent by simulating planned actions to obtain outcome before using them (metacognitive monitoring) in order to avoid performing erroneous moves. Reviews LLMs lack of capability to avoid performing errors, which humans can easily avoid by posing world model. 
+- Introduces "Transition-focused observation abstraction": world model generates free-form important state differences before / after. Agent simulates outcomes of each possible action with world model and reward model asesses each one. 
+- Includes prompts.
+
+
+---
 [AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents](https://arxiv.org/abs/2410.13825)
 
 - AgentOccam: Refines LLM-agent observation/action space to improve its performance in web tasks with three methods. Sets SOTA in WebArena.
@@ -113,19 +121,12 @@ Chronological order.
 
 [RescueADI: Adaptive Disaster Interpretation in Remote Sensing Images with Autonomous Agents](https://arxiv.org/abs/2410.13384)
 
-- RescueADI (Rescue Adaptive Disaster Interpretation): 
-
-
----
-
-[Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation](https://arxiv.org/abs/2410.13232)
-
-- Proposes World-Model-Augmented (WMA) web agent by simulating planned actions to obtain outcome before using them (metacognitive monitoring) in order to avoid performing erroneous moves. Reviews LLMs lack of capability to avoid performing errors, which humans can easily avoid by posing world model. 
-- Introduces "Transition-focused observation abstraction": world model generates free-form important state differences before / after. Agent simulates outcomes of each possible action with world model and reward model asesses each one. 
-- Includes prompts.
-
+- ADI (Adaptive Disaster Interpretation)-framework: introduces an multimodal LLM-agents interpreting disaster scenarios using tools. Introduces RescueADI-dataset. 
+- ADI-framework includes perception/recognition/planning/tools-modules.
 
 ---
+
+
 
 #### 16th of October 2024
 
