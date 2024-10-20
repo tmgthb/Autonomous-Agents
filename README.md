@@ -8082,6 +8082,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 16th of October 2023
 
+[Character-LLM: A Trainable Agent for Role-Playing](https://arxiv.org/abs/2310.10158)
+
+- Character-LLM: simulates historical figures using LLMs, which mimick profile / experiences and emotional states of specific individuals.
+- Applies "Experience Reconstruction" with detailed experiences and memories.
+- Specialises a base model for character generation.
+- Evaluates using step-by-step LLM-judge aproach by evaluating one dimension at each step.
+
+---
+
 [OpenAgents: An Open Platform for Language Agents in the Wild](https://arxiv.org/abs/2310.10634)
 
 - OpenAgents-platform: Data agent, Plugin/Tools and Web agent
