@@ -8968,6 +8968,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[LLM-Planner: Few-Shot Grounded Planning for Embodied Agents with Large Language Models](https://arxiv.org/abs/2212.04088)
+
+- LLM-Planner: Uses LLM for few-shot planning with embodied agents based on natural language and visual perception of the environment.
+- Improves planning with physical grounding to create and update plans.
+- Includes task introduction/goal instruction/step-by-step instructions/plan list//object list/retrieval message (next plan).
+
+---
 
 #### 20th of October 2022
 
