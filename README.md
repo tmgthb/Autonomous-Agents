@@ -62,6 +62,17 @@ Chronological order.
 - Introduces "Transition-focused observation abstraction": world model generates free-form important state differences before / after. Agent simulates outcomes of each possible action with world model and reward model asesses each one. 
 - Includes prompts.
 
+---
+
+[Chain of Ideas: Revolutionizing Research in Novel Idea Development with LLM Agents](https://arxiv.org/abs/2410.13185)
+
+- CoI (Chain-of-Ideas): CoI-agent generates research ideas comparable to human-level by organizing literature in a chain structure to avoid logical inconsistencies in ideation.
+- Improves LLMs research ideation capabilities. Consists of three steps: CoI-construction (identifies current trends), Idea generation (consolidates ideas) and Experience design (final experiment design).
+- CoI-prompts include: converting topic in search query for literature retrieval/evaluation of paper relevance to the topic/extract research paper ideas, experiments, entities and reference/summarising trends of the this CoI. 
+- Idea generation prompts include: predict future trends / generate ideas / novelty check of ideas.
+- Experiment design prompts include: generate experiment design / review experiment design / obtain queries to edit experiment design / refine experiment design. 
+
+
 
 ---
 [AgentOccam: A Simple Yet Strong Baseline for LLM-Based Web Agents](https://arxiv.org/abs/2410.13825)
