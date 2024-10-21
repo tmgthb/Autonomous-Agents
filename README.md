@@ -45,6 +45,15 @@ Chronological order.
 
 #### 18th of October 2024
 
+[Teaching Models to Balance Resisting and Accepting Persuasion](https://arxiv.org/abs/2410.14596)
+
+- PBT (Persuasion Balanced Training): Uses multi-agent recursive dialogue trees to train models with preference optimization to accept persuasion in acceptable situations. PBT-trained model outperform in multi-agent debates.
+- Agents argue based on logical reasoning/emotional appeal/established credibility.
+- Refers to research by [Woolley et al. (2010)](https://www.researchgate.net/publication/47369848_Evidence_of_a_Collective_Intelligence_Factor_in_the_Performance_of_Human_Groups), where group intelligence is argued to be driven by diversity/turn-taking/social sensitive, rather than individual intelligence.
+
+
+---
+
 [AI can help humans find common ground in democratic deliberation](https://www.science.org/doi/10.1126/science.adq2852)
 
 - Habermas Machine: AI mediation technique promoting fair/inclusive debate.
@@ -1498,6 +1507,18 @@ Chronological order.
 
 #### 19th of July 2024
 
+
+
+#### 19th of July 2024
+
+[System-1.x: Learning to Balance Fast and Slow Planning with Language Models](https://arxiv.org/abs/2407.14414)
+
+- System-1.x Planner: introduces a controllable planning framework (inference time compute) capable of producing hybrid plans balancing system 1 and system 2 thinking. Includes Controller/System-1 Planner/System-2 Planner. 
+- The Controller manages the x-factor, which is the degree to how much to use System-1 vs. System-2 thinking to decompose planning into sub-goals. 
+- Demonstrates: controllability/flexibility/generalizability to different search algorithms. 
+
+
+---
 
 [The Vision of Autonomic Computing: Can LLMs Make It a Reality?](https://arxiv.org/abs/2407.14402)
 
