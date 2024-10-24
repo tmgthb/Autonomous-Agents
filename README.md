@@ -231,9 +231,8 @@ Chronological order.
 - ADI (Adaptive Disaster Interpretation)-framework: introduces an multimodal LLM-agents interpreting disaster scenarios using tools. Introduces RescueADI-dataset. 
 - ADI-framework includes perception/recognition/planning/tools-modules.
 
+
 ---
-
-
 
 #### 16th of October 2024
 
@@ -301,7 +300,9 @@ Chronological order.
 
 - Aegis: LLM-based multi-agent framework for FSRs (Functional Safety Requirements) and HARA (Hazard Analysis and Risk Assessment). 
 
+
 ---
+
 #### 15th of October 2024
 
 [G-Designer: Architecting Multi-agent Communication Topologies via Graph Neural Networks](https://arxiv.org/abs/2410.11782)
@@ -321,8 +322,6 @@ Chronological order.
 
 ---
 
-#### 15th of October 2024
-
 [Revisiting Benchmark and Assessment: An Agent-based Exploratory Dynamic Evaluation Framework for LLMs](https://arxiv.org/abs/2410.11507)
 
 - TestAgent-framework: quantitative/qualitative benchmark using agent-based evaluation with RL, multi-turn interaction from knowledge base/topics of interests.
@@ -336,7 +335,6 @@ Chronological order.
 
 - AFlow: Optimises LLM-agent workflow with MCTS.
 - Includes search space (node, operators, code represented edges), search via AFliw and Search result (math, Q&A and code generation workflows.)
-
 
 
 ---
