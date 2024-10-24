@@ -43,6 +43,46 @@ Chronological order.
 
 </div>
 
+#### 23rd of October 2024
+
+[GraphTeam: Facilitating Large Language Model-based Graph Analysis via Multi-Agent Collaboration](https://arxiv.org/abs/2410.18032)
+
+- GraphTeam: LLM-based collaborative multi agent and graph-based system using three modules: input-output normalization/external knowledge retrieval/problem solving.
+- Includes question(reformats question)/search/coding/reasoning/answer-agents. 
+- Constructs to knowledge graphs: documentation and experience. 
+
+
+---
+
+[MiniFed : Integrating LLM-based Agentic-Workflow for Simulating FOMC Meeting](https://arxiv.org/abs/2410.18012)
+
+- MiniFed: Simulates real world Federal Reserve FOMC-meetings using LLM-agent based multi-agent framework.
+- Consists of initialization/data collection/simulation/decision making/evaluation.
+
+
+---
+
+#### 21st of October 2024
+
+[Long Term Memory: The Foundation of AI Self-Evolution](https://arxiv.org/abs/2410.15665)
+
+- Reviews and defines AI Self-Evolution-capability and Long Term Memory (LTM).
+- Identifies benefits in Personalized Models. 
+- Identifies limitations in prompt-based memory mechanisms. 
+
+
+---
+
+
+[Improving Parallel Program Performance Through DSL-Driven Code Generation with LLM Optimizers](https://arxiv.org/abs/2410.15625)
+
+- Designs Domain Specific Language (DSL) in mapper (maps computations to processors like GPUs, CPUs, etc.) generation related to assignment of compute / memory. 
+- The DSL helps to manage high-level inference decisions without interacting with the low-level C++ code APIs.
+
+---
+
+
+
 #### 18th of October 2024
 
 [Teaching Models to Balance Resisting and Accepting Persuasion](https://arxiv.org/abs/2410.14596)
