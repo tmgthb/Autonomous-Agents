@@ -383,6 +383,7 @@ Chronological order.
 - Introduces WorFEBench-benchmark for unified workflow generation and WorFEval evaluation protocol of workflows for LLM-agents.
 
 
+---
 
 #### 9th of October 2024
 
@@ -570,6 +571,8 @@ Chronological order.
 - Includes prompts for esch agent.
 
 
+---
+
 #### 20th of September 2024
 
 [RRM: Robust Reward Model Training Mitigates Reward Hacking](https://arxiv.org/abs/2409.13156)
@@ -596,6 +599,7 @@ Chronological order.
 
 - ShizishanGPT: LLM agent for answering with agriculture-based RAG.
 
+
 ---
 
 
@@ -611,6 +615,7 @@ Chronological order.
 [AutoVerus: Automated Proof Generation for Rust Code](https://arxiv.org/abs/2409.13082)
 
 - AutoVerus: LLM generates correctness proofs for Rust-code using multi-agent framework (proof generation, refinement and debugging).
+
 
 ---
 
@@ -678,6 +683,7 @@ Chronological order.
 
 ---
 
+
 #### 15th of September 2024
 
 [RethinkMCTS: Refining Erroneous Thoughts in Monte Carlo Tree Search for Code Generation](https://arxiv.org/abs/2409.09584)
@@ -687,6 +693,7 @@ Chronological order.
 
 
 ---
+
 
 #### 14th of September 2024
 
@@ -702,7 +709,9 @@ Chronological order.
 - Introduces task-relevant Q-value model for guiding action selection.
 - Includes review of the different methods to improve reasoning, such as LLMs using MCTS.
 
+
 ---
+
 
 #### 13th of September 2024
 
@@ -717,6 +726,7 @@ Chronological order.
 
 ---
 
+
 #### 12th of August 2024
 
 [Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale](https://arxiv.org/abs/2409.08264)
@@ -726,6 +736,7 @@ Chronological order.
 - Agent prompt includes: task instruction, description of action space, history of actions, clipboard content and thought-variable memory. The prompt includes as well previus/current step screenshot with SoMs.
 - Introduced WindowsAgentArena-benchmark.
 - Includes the agent prompt.
+
 
 ---
 
@@ -767,6 +778,7 @@ Chronological order.
 - Self-Reflection-Agents: Finds, that self-reflection improves performance of LLM agents in 6 different LLM tested.
 - Self-Reflections, which contain more information (instructions, explanations, and solutions) perform better, than self-reflections with less data. 
 - Retry-agent improves significantly performance, which indicates knowledge of a mistake, improves performance of the LLM.
+
 
 ---
 
@@ -810,10 +822,6 @@ Chronological order.
 
 ---
 
-
-
----
-
 [Configurable Foundation Models: Building LLMs from a Modular Perspective](https://arxiv.org/abs/2409.02877)
 
 - Reviews modularity of LLMs. The idea is to instead of re-training from scratch a LLM, to add new knowledge as modules (called emergent bricks pretrained and customised bricks postrained).
@@ -834,9 +842,8 @@ Chronological order.
 - MoA (Mixture-of-Agents)-framework (name was already used before) is a framework with planner, aggregator and varios LLM-agentseach with their own RAG, grouped together.
 
 
-
-
 ---
+
 
 #### 3rd of September 2024
 
