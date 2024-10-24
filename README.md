@@ -79,9 +79,17 @@ Chronological order.
 - Designs Domain Specific Language (DSL) in mapper (maps computations to processors like GPUs, CPUs, etc.) generation related to assignment of compute / memory. 
 - The DSL helps to manage high-level inference decisions without interacting with the low-level C++ code APIs.
 
+
 ---
 
+#### 20th of October 2024
 
+[Redefining Proactivity for Information Seeking Dialogue](https://arxiv.org/abs/2410.15297)
+
+- Introduces Information Seeking Dialogue (ISD) agents with proactiveness to include information relevant to the user query.
+- Introduces new prompting strategies: 3-step CoT and 3-in-1 CoT.
+
+---
 
 #### 18th of October 2024
 
