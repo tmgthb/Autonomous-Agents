@@ -62,6 +62,37 @@ Chronological order.
 
 ---
 
+[Guide for Defense (G4D): Dynamic Guidance for Robust and Balanced Defense in Large Language Models](https://arxiv.org/abs/2410.17922)
+
+- G4D (Guide for Defense): LLM-based multi agent with external knowledge to discover user intent as safe with a defense framework against jailbreaks.
+- Includes intention detector (intention extraction, key entities identification and information retrieval)/question paraphraser/safety analyzer-components.
+
+
+---
+
+[An Intelligent Agentic System for Complex Image Restoration Problems](https://arxiv.org/abs/2410.17809)
+
+- AgenticIR: VLM/LLM-agent based image restoration using perception/scheduling/reflection/rescheduling/execution-agents.
+- Includes Rollback-mechanism, where agent returns previous working stage, when an issue.
+
+
+---
+
+[ReflecTool: Towards Reflection-Aware Tool-Augmented Clinical Agents](https://arxiv.org/abs/2410.17657)
+
+- ReflecTool: Introduces clinical agent, using progressively built long-term memory to assist domain-specific tool selection and improve tool usage. Includes optimization and inference stages. 
+
+
+---
+
+[Navigate Complex Physical Worlds via Geometrically Constrained LLM](https://arxiv.org/abs/2410.17529)
+
+- Reviews LLMs-capability to reconstruct physical world from textual knowledge. 
+- Uses LLM-based multi agent framework with scenery designer/object designer/object manufacturer/arranger-agents and geometric constraint solver and generic algorithm.
+
+
+---
+
 #### 21st of October 2024
 
 [Long Term Memory: The Foundation of AI Self-Evolution](https://arxiv.org/abs/2410.15665)
@@ -88,6 +119,7 @@ Chronological order.
 
 - Introduces Information Seeking Dialogue (ISD) agents with proactiveness to include information relevant to the user query.
 - Introduces new prompting strategies: 3-step CoT and 3-in-1 CoT.
+
 
 ---
 
