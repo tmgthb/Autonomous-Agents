@@ -27,7 +27,7 @@ Copyright (C) Teemu Maatta.
 <div align="center">
 
   # Autonomous Agents
-  Autonomous Agents Resources. Updated daily. See as well the [Research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents.md)-section. 
+  Autonomous Agents Resources. Updated daily. See as well the [Research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents)-section. 
 
 </div>
 
@@ -52,8 +52,9 @@ Copyright (C) Teemu Maatta.
   - [Interpretability](#interpretability)
   - [Synthetic data](#syntheticdata)
 - [Future work](#futureresearch)
-  - [Consciousness](#consciousness)
   - [Real World Environments](#realworldenvironments)
+  - [Simulation](#simulation)
+  - [Consciousness](#consciousness)
   - [Brain research](#brainresearch)
 
 
@@ -535,6 +536,46 @@ According to [Noam Brown (2024)](https://www.youtube.com/watch?v=eaAonE58sLU), s
 - Brown notes, that large companies will prefer scaling up "training/development costs", while maintaining low "inference costs".
 
 Zhang et al. (2024) show, that [GenRM-CoT](https://arxiv.org/abs/2408.15240) outperforms discriminatory verifiers, scaling in inference-time compute, model capacity and dataset size.
+
+Valmeekam et al. (2022) introduced [PlanBench](https://arxiv.org/abs/2206.10498) reviews LLMs planning capabilities using classic planning domains.
+- Gives few-shot examples for the planner to learn the planner for the given domain together with instructions about the planning environment. This forces the LLM to think through the planning examples (to evaluate actual reasoning capacity), rather than rather than capability to pattern match training data.
+- 8 challenges: basic plan, complex plan for unexpected changes etc. 
+- GPT-4 struggled with complex planning scenarios managing only 34% of planning scenarios. LLMs memorize specific words, which change leads to lack of planning capability. LLMs recognize well similar planning scenarios to understand user intent. LLMs struggle to adapt sudden changes in the dynamic environment. Research is required to improve explainability of the LLM planning.
+
+Valmeekam et al. (2023) reviewed further planning capabilities, which [critizes](https://arxiv.org/abs/2305.15771) further LLMs planning capability to:
+- model-based reasoning,
+- rules & constraints,
+- grounding to reality and
+- to get feedback.
+
+Suggests to improve planning capabilities using: neurosymbolic AI, train AI models specific for planning (reward working plans). Two groups using LLMs for planning resulted no statistically significant difference between the grou using LLM and group not using it.
+
+Potential use cases for LLMs in planning:
+- LLMs can process vast amount of information in complex problem into different planning styles.
+- Adapting with dynamic planning by adjusting quickly for example navigation route in case of an accident.
+- LLMs can sub-divide tasks into smaller pieces.
+- Personal productivity to schedule and prioritize tasks.
+
+Valmeekam et al. (2024) finds o1 is slightly better in travel planning, but difficult to plan in advance is more costly, than traditional LLMs. Suggests using LRM-Modulo approach, which uses external verifier to offer better guarantee. How to ensure control and transparency of the LM model based planning systems? 
+
+Valmeekam et al. (2024) reviewed [self-critiquing its plans](https://arxiv.org/abs/2310.08118) by testing LLM vs. LLM with verifier specifically in planning:
+- LLM with verifier was only slightly better, because the errors made by the verifier.
+- LLM had fundamental problems to evaluate the models responses.
+- One possibility is that LLMs are still poor in understanding cause-and-effect and lack of collobrative reasoning.
+
+Kunde et al. 2024 (review)[https://arxiv.org/abs/2311.00226] finds, that transformers robustly adapt to new tasks through few-shot in-context learning without explicit model optimization. 
+
+Kambhampati et al. (2024) [finds](https://arxiv.org/abs/2402.01817) only 12% of plans are operatable and struggle in self-verification.
+- Investigates classical planning problems such as travel planning tasks.
+- Suggests "LLM-Modulo"-framework: bringing team-work into LLM planning using collaborative approach with team of experts.
+- Offers large boost in LLM planning capabilities.
+- Includes problem specification, prompt generator, plan backboard, reformatter, formal critics, commonsense constraint critic, hard constraint critic and meta controller.
+
+Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm from the demonstrations rather than its ability to execute that algorithm. 
+- Suggests that few-shot examples are not guaranteed to improve the generic procedural reasoning of the LLMs in novel instances.
+- Suggests, that CoT prompts are likely to only work consistently in sufficiently narrow problem class.
+- Suggests, that more important to evaluate the chain-of-thought-process, rather than the final result.
+
 
 
 ---
