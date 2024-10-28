@@ -46,11 +46,27 @@ Chronological order.
 
 #### 25th of October 2024
 
+
+[VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs](https://arxiv.org/abs/2410.19245)
+
+- VisionCoder: Multi agent framework with team leader, module leader, function coordinator and development group
+- Identifies excellent two aspects for the Agent-definitions: structural (explains the agents place in the overall structure/scope/responsibilities) and functional (operational steps/reasoning path expected from the agent and the output format requirements).
+- Includes bi-directional workflow: hierarchical tasks are divided into smaller units (forward task flow) and then restored back (backward task flow) from smaller pieces to larger units. Pair programming-concept includes coder and tester: coder produces code, tester reviews it and then the roles are reversed. The pair programming step is repeated three rounds with code execution with incorporation of the error messages to get final working code. 
+
+
+---
+
+[Designing LLM-Agents with Personalities: A Psychometric Approach](https://arxiv.org/abs/2410.19238)
+
+- Reviews creation of psychometrically sound LLM-based agents based on the theory about big 5 personality traits (openess/conscientiousness/extraversion/agreeabless/neuroticism).
+
+
+---
+
 [FISHNET: Financial Intelligence from Sub-querying, Harmonizing, Neural-Conditioning, Expert Swarms, and Task Planning](https://arxiv.org/abs/2410.19727)
 
 - FISHNET: Multi agent-framework for insights from SEC regulatory forms. Includes sub-querying (converts query into sub-queries)-, task planning- , experts (Swarm Intelligence)-, harmonizer(routes to specific expert based on embedding match vs. agent persona/tables description)-agents and long term memory.
 - Expert agents consist of: n-port-, n-mfp-, adv-, n-cen-, n-csrv- and 13f-agents, which are experts in different forms related to SEC regulations.
-- Applies routing 
 
 
 ---
@@ -88,24 +104,6 @@ Chronological order.
 
 ---
 
-[VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs](https://arxiv.org/abs/2410.19245)
-
-- VisionCoder: Multi agent framework with team leader, module leader, function coordinator and development group
-- Identifies excellent two aspects for the Agent-definitions: structural (explains the agents place in the overall structure/scope/responsibilities) and functional (operational steps/reasoning path expected from the agent and the output format requirements).
-- Includes bi-directional workflow: hierarchical tasks are divided into smaller units (forward task flow) and then restored back (backward task flow) from smaller pieces to larger units. Pair programming-concept includes coder and tester: coder produces code, tester reviews it and then the roles are reversed. The pair programming step is repeated three rounds with code execution with incorporation of the error messages to get final working code. 
-
-
----
-
-[Designing LLM-Agents with Personalities: A Psychometric Approach](https://arxiv.org/abs/2410.19238)
-
-- Reviews creation of psychometrically sound LLM-based agents based on the theory about big 5 personality traits (openess/conscientiousness/extraversion/agreeabless/neuroticism).
-
-
-
----
-
-
 
 #### 24th of October 2024
 
@@ -114,12 +112,9 @@ Chronological order.
 - Unbounded: Introduces a conceptual and technical implementation of concept called "generative infinite game". 
 - Addresses semantically alignedconsistent environment/characters.
 - Trained an LLM based game engine game engine (generating coherent and real-time game mechanisms, narratives and contextual character responses) and "Regional IP-Adapter", which creates visually consistent characters/environments between multiple images while applying creativity. Regional IP-Adapter tracks changes overtime, so if your character gets injured in forest, the injury remains in the following images and the character still wears same clothes, while giving creative touches to the visuals. 
-- Generates 
 
 
 ---
-
-
 
 [PDL: A Declarative Prompt Programming Language](https://arxiv.org/abs/2410.19135)
 
@@ -138,10 +133,6 @@ Chronological order.
 
 
 ---
-
-
-
-
 
 #### 23rd of October 2024
 
