@@ -139,6 +139,12 @@ Chronological order.
 - The simulation evolves with a module called News Evolution Simulator. 
 - Includes content deviation metrics.
 
+---
+
+[PRACT: Optimizing Principled Reasoning and Acting of LLM Agent](https://arxiv.org/abs/2410.18528)
+
+- PRAct (Principled Reasoning and Acting)-framework: improves action understanding of agents by including action principles. Introduces RPO (Reflective Principle Optimization).
+
 
 ---
 
