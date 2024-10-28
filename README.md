@@ -116,6 +116,14 @@ Chronological order.
 
 ---
 
+[AR: Operating System Control via State-Aware Reasoning and Re-Planning](https://arxiv.org/abs/2410.18963)
+
+- OSCAR: Introduces GUI-agent with unified control interfaces / GUI grounding (dual grounding) / exploration-based simulation and re-planning (task driven replanning of only specific tasks).
+- Works both in smartphones and desktop OS. Reviews GUI agents. Includes system prompts.
+- Agent states include: init/observe/plan/execute/error/verify/fail/success/reset. Includes context memory.
+
+
+---
 [PDL: A Declarative Prompt Programming Language](https://arxiv.org/abs/2410.19135)
 
 
