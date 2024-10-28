@@ -43,6 +43,106 @@ Chronological order.
 
 </div>
 
+
+#### 25th of October 2024
+
+[FISHNET: Financial Intelligence from Sub-querying, Harmonizing, Neural-Conditioning, Expert Swarms, and Task Planning](https://arxiv.org/abs/2410.19727)
+
+- FISHNET: Multi agent-framework for insights from SEC regulatory forms. Includes sub-querying (converts query into sub-queries)-, task planning- , experts (Swarm Intelligence)-, harmonizer(routes to specific expert based on embedding match vs. agent persona/tables description)-agents and long term memory.
+- Expert agents consist of: n-port-, n-mfp-, adv-, n-cen-, n-csrv- and 13f-agents, which are experts in different forms related to SEC regulations.
+- Applies routing 
+
+
+---
+
+
+[AGENT-CQ: Automatic Generation and Evaluation of Clarifying Questions for Conversational Search with LLMs](https://arxiv.org/abs/2410.19692)
+
+- Agent-CQ: Introduces a framework for generating and evaluating conversational search questions and answers. Includes generation (question generation / filtering / answer generation)- and evaluation (multiple LLM-judge calls to review generated questions/answers)-stages.
+
+
+---
+
+[EDGE: Enhanced Grounded GUI Understanding with Enriched Multi-Granularity Synthetic Data](https://arxiv.org/abs/2410.19461)
+
+- EDGE: Introduces framework to generate training data for GUI-tasks in the internet. Introduces element- and action-grounding. 
+
+
+---
+
+
+[Investigating the Role of Prompting and External Tools in Hallucination Rates of Large Language Models](https://arxiv.org/abs/2410.19385)
+
+- Investigates prompting techniques and finds simpler is often better and best prompts are problem specific.
+- In math problems self-consistency with majority vote works well, Chat protect helps to manage amount of hallucinated answers and Self-Verification worked well with MMLU.
+
+
+---
+
+[AgentSense: Benchmarking Social Intelligence of Language Agents through Interactive Scenarios](https://arxiv.org/abs/2410.19346)
+
+- AgentSense-benchmark: introduces a multiturn evaluation of LLM-agents regards social intelligence. Focuses on goal competition and implicit reasoning.
+- Character-info includes: attributes/relationships/rules of replacement. Scenarios include: background/characters/social goals/private info.
+- Includes a sample agent-prompt. 
+
+
+---
+
+[VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs](https://arxiv.org/abs/2410.19245)
+
+- VisionCoder: Multi agent framework with team leader, module leader, function coordinator and development group
+- Identifies excellent two aspects for the Agent-definitions: structural (explains the agents place in the overall structure/scope/responsibilities) and functional (operational steps/reasoning path expected from the agent and the output format requirements).
+- Includes bi-directional workflow: hierarchical tasks are divided into smaller units (forward task flow) and then restored back (backward task flow) from smaller pieces to larger units. Pair programming-concept includes coder and tester: coder produces code, tester reviews it and then the roles are reversed. The pair programming step is repeated three rounds with code execution with incorporation of the error messages to get final working code. 
+
+
+---
+
+[Designing LLM-Agents with Personalities: A Psychometric Approach](https://arxiv.org/abs/2410.19238)
+
+- Reviews creation of psychometrically sound LLM-based agents based on the theory about big 5 personality traits (openess/conscientiousness/extraversion/agreeabless/neuroticism).
+
+
+
+---
+
+
+
+#### 24th of October 2024
+
+[Unbounded: A Generative Infinite Game of Character Life Simulation](https://arxiv.org/abs/2410.18975)
+
+- Unbounded: Introduces a conceptual and technical implementation of concept called "generative infinite game". 
+- Addresses semantically alignedconsistent environment/characters.
+- Trained an LLM based game engine game engine (generating coherent and real-time game mechanisms, narratives and contextual character responses) and "Regional IP-Adapter", which creates visually consistent characters/environments between multiple images while applying creativity. Regional IP-Adapter tracks changes overtime, so if your character gets injured in forest, the injury remains in the following images and the character still wears same clothes, while giving creative touches to the visuals. 
+- Generates 
+
+
+---
+
+
+
+[PDL: A Declarative Prompt Programming Language](https://arxiv.org/abs/2410.19135)
+
+
+- PDL (Prompt Declarative Language): Introduces declarative and data-oriented language based on YAML to construct LLN prompt programs. Every PDL program is a valid YAML-document with PDL-schema. 
+
+
+---
+
+[From a Tiny Slip to a Giant Leap: An LLM-Based Simulation for Fake News Evolution](https://arxiv.org/abs/2410.19064)
+
+
+- FUSE (Fake News evlUtion Simulation framEwork): Reviews the way true news convert into fake news with LLMs. Includes LLM-based agents: spreaders/commentators/verifiers/bystanders.
+- The simulation evolves with a module called News Evolution Simulator. 
+- Includes content deviation metrics.
+
+
+---
+
+
+
+
+
 #### 23rd of October 2024
 
 [GraphTeam: Facilitating Large Language Model-based Graph Analysis via Multi-Agent Collaboration](https://arxiv.org/abs/2410.18032)
@@ -130,6 +230,17 @@ Chronological order.
 - PBT (Persuasion Balanced Training): Uses multi-agent recursive dialogue trees to train models with preference optimization to accept persuasion in acceptable situations. PBT-trained model outperform in multi-agent debates.
 - Agents argue based on logical reasoning/emotional appeal/established credibility.
 - Refers to research by [Woolley et al. (2010)](https://www.researchgate.net/publication/47369848_Evidence_of_a_Collective_Intelligence_Factor_in_the_Performance_of_Human_Groups), where group intelligence is argued to be driven by diversity/turn-taking/social sensitive, rather than individual intelligence.
+
+
+---
+
+#### 18th of October 2024
+
+[Make LLMs better zero-shot reasoners: Structure-orientated autonomous reasoning](https://arxiv.org/abs/2410.19000)
+
+- SARA (Structure-oriented Autonomous Reasoning Agents): Introduces multi agent LLM-based reasoning framework with structure-oriented analysis by refinement and RAG.
+- Outperforms in some cases few-shot learning.
+- Includes reason (structured oriented analysis)-, retrieval-, refinement-agents and shared memory. Includes prompts used.
 
 
 ---
