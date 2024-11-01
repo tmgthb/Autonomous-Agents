@@ -43,6 +43,14 @@ Chronological order.
 
 </div>
 
+#### 31st of October 2024
+
+[Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks](https://arxiv.org/abs/2410.24032)
+
+- CARE (Collaborative Assistant for Personalised Exploration): Introduces personalized LLM-based multi agent framework, where user interface includes chat/solution/needs-panels.
+- Focuses on improving multi-turn contextual understanding, personalization, exploration and reduce cognitive load.
+- Employs inquiry/ranking/needs discovery/solution crafting/milestone-agents.
+
 
 #### 25th of October 2024
 
