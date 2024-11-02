@@ -64,6 +64,18 @@ Chronological order.
 
 ---
 
+
+#### 29th of October 2024
+
+[BENCHAGENTS: Automated Benchmark Creation with Agent Interaction](https://arxiv.org/abs/2410.22584)
+
+- BENCHAGENTS: Introduces LLM-agent framework automating benchmark creation, which includes four components: planning/generation/data verification/evaluation-agents.
+- Dynamic benchmarks help to identify common failure modes/model differences, while LLM models improve quickly.
+- Planning includes: prompt/task-specific parameters/constraints (positive/negative/positional/sequencing/conditional/iterative).
+
+
+---
+
 #### 25th of October 2024
 
 
