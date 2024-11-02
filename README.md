@@ -88,6 +88,14 @@ Chronological order.
 
 #### 25th of October 2024
 
+[Cooperative Strategic Planning Enhances Reasoning Capabilities in Large Language Models](https://arxiv.org/abs/2410.20007)
+
+- CoPlanner (Cooperative Planner): Improves reasoning capabilities of LLM by separating reasoning steps. Each agent gets assigned unique reasoning step.
+- Includes planning agent and reasoning agent.
+- Pre-defines 10 human cognition-based meta-strategies. Includes 5 logical reasoning methods: deduction/induction/abduction/analogy/contradiction and four problem solving methods: decomposition/enumeration/elimination/reflection and meta-strategy: finish to indicate end of reasoning.
+
+  
+---
 
 [VisionCoder: Empowering Multi-Agent Auto-Programming for Image Processing with Hybrid LLMs](https://arxiv.org/abs/2410.19245)
 
