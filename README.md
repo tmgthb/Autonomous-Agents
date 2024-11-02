@@ -54,6 +54,16 @@ Chronological order.
 
 ---
 
+#### 30th of October 2024
+
+
+[Aligning Audio-Visual Joint Representations with an Agentic Workflow](https://arxiv.org/abs/2410.23230)
+
+- AVAgent: Adapts audio signal with visual data using LLM-based agent framework, which plans edits of the audio signals and reflection with VLM to evaluate the modifications and uses tool to convert video and audio modality to text.
+
+
+---
+
 #### 25th of October 2024
 
 
