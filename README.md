@@ -57,6 +57,14 @@ Chronological order.
 #### 30th of October 2024
 
 
+[EMOS: Embodiment-aware Heterogeneous Multi-robot Operating System with LLM Agents](https://arxiv.org/abs/2410.22662)
+
+- EMOS: multi-agent framework for multi-robot system with embodiment & spatial-aware reasoning/navigation/manipulation/object rearrangement. 
+- Includes hierarchical task planning, assignment and actioning. Evaluates success rate, sub-goal success rate, token usage and simulation step.
+- Uses "Robot Resume": a self-prompting, instead of "human roleplay" by interpreting the robot URDF files to call robot kinematics tools to generate descriptions of its physical abilities for guiding its planning/action execution. 
+
+---
+
 [Aligning Audio-Visual Joint Representations with an Agentic Workflow](https://arxiv.org/abs/2410.23230)
 
 - AVAgent: Adapts audio signal with visual data using LLM-based agent framework, which plans edits of the audio signals and reflection with VLM to evaluate the modifications and uses tool to convert video and audio modality to text.
