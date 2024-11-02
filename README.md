@@ -76,6 +76,16 @@ Chronological order.
 
 ---
 
+#### 28th of October 2024
+
+
+[Asynchronous Tool Usage for Real-Time Agents](https://arxiv.org/abs/2410.21620)
+
+- Asynchronous AI agents: Introduces asynchronous, parallel thought processing and real-time tool use based on event-driven finite state-machines.
+- Time stamp is in the messages to enable clock awareness, which enables time-constrained tasks. 
+- Event states include idle/listening/generating/emitting.
+
+
 #### 25th of October 2024
 
 
