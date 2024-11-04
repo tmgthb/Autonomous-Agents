@@ -43,6 +43,17 @@ Chronological order.
 
 </div>
 
+#### 1st of November 2024
+
+[DARD: A Multi-Agent Approach for Task-Oriented Dialog Systems](https://arxiv.org/abs/2411.00427)
+
+- DARD (Domain Assigned Response Generation): LLM-based multi agent framework in multi domain & task oriented dialogue.
+- Introduces dialogue manager/hotel/attraction/restaurant/train/taxi-agents, external db and dialogue state tracker.
+- Uses both fine-tuned LLMs and Sonnet 3.0. Reviews differences in performance.
+
+
+---
+
 #### 31st of October 2024
 
 [Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks](https://arxiv.org/abs/2410.24032)
