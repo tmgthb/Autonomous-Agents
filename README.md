@@ -43,6 +43,21 @@ Chronological order.
 
 </div>
 
+#### 6th of November 2024
+
+[AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making](https://arxiv.org/abs/2411.03865)
+
+- AdaSociety: multi-agent environment to simulate decision making with physical(resources, events, agents skill inventories)/social(establish, alter, form groups, hierarchies)-components. 
+- Introduces social states: multilayer directed graph to describe adaptive / dynamic connections, which drive long-term coalition formation / hierarchy.
+- Dynamically connects with other agents to establish autonomously non-deterministic connection with the other agent.
+- State and action space dynamically advance. 
+- Identifies research challenges in collective reasoning, social cognition, adaptation, communication and emergence of new social skills and norms.
+
+---
+
+
+
+
 #### 1st of November 2024
 
 [DARD: A Multi-Agent Approach for Task-Oriented Dialog Systems](https://arxiv.org/abs/2411.00427)
