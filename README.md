@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+#### 7th of November 2024
+
+[GUI Agents with Foundation Models: A Comprehensive Survey](https://arxiv.org/abs/2411.04890)
+
+- Introduces Survey about GUI Agents.
+- Divides LLM-based GUI agents into: GUI Perceiver, Task Planner, Decision Maker, Excecutor and Memory Planner (internal memory: actions/screenshots, external memory: manual construct/auto exploration and self-evolution: transition diagram/documents).
+- Identifies challenges related to inference efficiency, self-evolution and real world vs. benchmark gap.
+
+---
+
 #### 6th of November 2024
 
 [AdaSociety: An Adaptive Environment with Social Structures for Multi-Agent Decision-Making](https://arxiv.org/abs/2411.03865)
