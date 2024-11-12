@@ -113,6 +113,13 @@ Chronological order.
 ---
 
 
+[MRJ-Agent: An Effective Jailbreak Agent for Multi-Round Dialogue](https://arxiv.org/abs/2411.03814)
+
+- MRJ-Agent: Introduces multi-round dialogue jailbreaking agent, which decomposes harmful queries into multiple sub-queries.
+- This widely generalizable jailbreaking-technnique achieves SOTA-level success rates. 
+
+
+---
 
 
 #### 1st of November 2024
