@@ -43,6 +43,27 @@ Chronological order.
 
 </div>
 
+#### 10th of November 2024
+
+[Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://arxiv.org/abs/2411.06559)
+
+- WebDreamer: LLM-based web-agent framework by using LLM to predict outcomes of candidate actions in web environment in order to pick optimal action.
+- The LLM simulates as world-model actions using prompt like: "what would happen if I click this button" and then evaluates the imagined outcomes. 
+- Model-based planning enables safe simulation of possible actions before taking them (some web environments do not allow going back to previous step, which complicates tree-based search by investigating candidate next steps).
+- Includes system prompts of the world model and reward model.
+ 
+---
+
+#### 9th of November 2024
+
+[IOPO: Empowering LLMs with Complex Instruction Following via Input-Output Preference Optimization](https://arxiv.org/abs/2411.06208)
+
+- IOPO (Input-Output Preference Optimization): Aligns/fine-tunes LLMs based on both the input data (new approach) and the output data (traditional approach). 
+- Explores instruction preference space.
+
+---
+
+
 #### 7th of November 2024
 
 [Interactive Dialogue Agents via Reinforcement Learning on Hindsight Regenerations](https://arxiv.org/abs/2411.05194)
