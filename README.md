@@ -116,11 +116,27 @@ Chronological order.
 [MRJ-Agent: An Effective Jailbreak Agent for Multi-Round Dialogue](https://arxiv.org/abs/2411.03814)
 
 - MRJ-Agent: Introduces multi-round dialogue jailbreaking agent, which decomposes harmful queries into multiple sub-queries.
-- This widely generalizable jailbreaking-technnique achieves SOTA-level success rates. 
+- This widely generalizable jailbreaking-technnique achieves SOTA-level success rates.
 
 
 ---
 
+[From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning](https://arxiv.org/abs/2411.03817)
+
+- StepAgent: Optimizes LLM-agents wit step-wise RL with inspection- and reflection-steps.  
+
+
+---
+
+#### 5th of November 2024
+
+[SAUCE: Synchronous and Asynchronous User-Customizable Environment for Multi-Agent LLM Interaction](https://arxiv.org/abs/2411.03397)
+
+- SAUCE (Synchronous and Asynchronous User-Customizable Environment): Introduces LLM-based multi agent framework with asynchronous communication feature, where models decide when to speak and what to say.
+- Includes experiment(configures discussio, participants, host and end criteria)/session room(manages ongoing experiment and exit criteria)/host (directs interaction)/person(human or LLM).
+- Implements LLM-agent personas (and human participant) as class-objects in Python.
+
+---
 
 #### 1st of November 2024
 
