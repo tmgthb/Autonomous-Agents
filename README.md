@@ -715,6 +715,16 @@ Chronological order.
 
 ---
 
+#### 8th of October 2024
+
+[AgentSquare: Automatic LLM Agent Search in Modular Design Space](https://arxiv.org/abs/2410.06153)
+
+- AgentSquare: Introduces modular LLM-agent framework using module evolution, recombination and performance predictor(skip unpromising agent designs). The framework includes 4 standardized modules: Planning/Reasoning/Tool use/Memory.
+- Introduces research term for MoLAS (Modularized LLM Agent Search), which optimizes LLM-agent designs by leveraging existing designs. 
+- Includes search-, program-level search- and performance predictor-meta prompts. 
+
+
+---
 
 #### 7th of October 2024
 
