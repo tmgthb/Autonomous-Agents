@@ -258,6 +258,17 @@ Chronological order.
 
 ---
 
+
+[AI Metropolis: Scaling Large Language Model-based Multi-Agent Simulation with Out-of-order Execution](https://arxiv.org/abs/2411.03519)
+
+- AI Metropolis: introduces multi agent LLM-based framework, which enables out-of-order execution (parallel processing) of agents by tracking dynamically real dependencies between agents. 
+- LLM agents often wait unnecessarily each step to complete, before proceeding, even when it is a false dependency.
+- LLM agents can be: blocked (another blocks proceeding), coupled (proceed together), clustered (group needs to synchronize), worker (independent process handling cluster) or controller (main process communicating with workers).
+- The related work-section offers comphrensive view on the different scheduling approaches to with agentic AI.
+
+
+---
+
 #### 1st of November 2024
 
 [DARD: A Multi-Agent Approach for Task-Oriented Dialog Systems](https://arxiv.org/abs/2411.00427)
