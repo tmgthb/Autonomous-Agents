@@ -155,6 +155,15 @@ Chronological order.
 
 ---
 
+[From References to Insights: Collaborative Knowledge Minigraph Agents for Automating Scholarly Literature Review](https://arxiv.org/abs/2411.06159)
+
+- Introduces CKMAs (Collaborative Knowledge Minigraph Agents), which automate literature reviews. Building knowledge minigraphs by organizing information and relationships from research papers.
+- Includes KMCA (Knowledge Minigraph Construction Agent) and MPSA (Multiple Path Summarization Agent), which both prompts are included.
+
+
+---
+
+
 #### 8th of November 2024
 
 [The influence of persona and conversational task on social interactions with a LLM-controlled embodied conversational agent](https://arxiv.org/abs/2411.05653)
