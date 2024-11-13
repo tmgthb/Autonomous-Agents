@@ -155,6 +155,25 @@ Chronological order.
 
 ---
 
+#### 8th of November 2024
+
+[The influence of persona and conversational task on social interactions with a LLM-controlled embodied conversational agent](https://arxiv.org/abs/2411.05653)
+
+- Reviews effect of the LLM-based agent persona traits to user experience.
+- Manipulation of the personality traits strongly influences social interaction and user experience.
+
+
+---
+
+
+[Game-theoretic LLM: Agent Workflow for Negotiation Games](https://arxiv.org/abs/2411.05990)
+
+- Studies with game-theoretic analysis the rationality of LLM-based (with various LLMs) negotiation workflow in various complete-information games and in a incomplete-information game.
+
+
+---
+
+
 
 #### 7th of November 2024
 
