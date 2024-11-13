@@ -43,6 +43,98 @@ Chronological order.
 
 </div>
 
+
+#### 12th of November 2024
+
+
+[RedCode: Risky Code Execution and Generation Benchmark for Code Agents](https://arxiv.org/abs/2411.07781)
+
+- RedCode-benchmark: Evaluates safety of code agents capacity to generate / execute code and reviews code agents capacity to recognize/manage unsafe code execution.
+- Includes two steps: RedCode-Gen (evaluates code generated) and RedCode-Exec (evaluates code execution).
+
+
+---
+
+[World Models: The Safety Perspective](https://arxiv.org/abs/2411.07690)
+
+- Introduces a Survey about World Models in Embodied AI agents from safety perspective.
+
+
+---
+
+[BudgetMLAgent: A Cost-Effective LLM Multi-Agent system for Automating Machine Learning Tasks](https://arxiv.org/abs/2411.07464)
+
+- BudgetLMAgent: Multi agent framework using cascading (sequentially invoking/chaining) free/low cost/frontier LLMs with distinct roles: planner (default/expert)/workers(high-level actions/low-level actions).
+- Gives LLM-agent an option to call more advanced LLM-model to request help (with maximum retries) in complex planning problems.
+- Reduces operation cost by 94% compared to single agent with GPT-4 and improved success rate. 
+
+
+---
+
+[LLMPhy: Complex Physical Reasoning Using Large Language Models and World Models](https://arxiv.org/abs/2411.08027)
+
+- LLMPhy: Combines LLM with Mujoco-physics engine for complex physical reasoning tasks and introduces TraySim-dataset consisting of 100 scenes.
+- Claims, that LLMs have enough world knowledge with physics engine for better interactive reasoning and LLMs trained with more scientific reasoning tasks tend to demonstrate superior physical reasoning in LLMPhy-pipeline.
+
+
+---
+
+[From General to Specific: Utilizing General Hallucation to Automatically Measure the Role Relationship Fidelity for Specific Role-Play Agents](https://arxiv.org/abs/2411.07965)
+
+- Introduces an automatic evaluation framework for Role-Playing Agents (RPAs) that generates claims from a knowledge graph and has characters discuss them with the main character.
+- Evaluates the believability of interactions by leveraging the inherent hallucination properties of RPAs. Defines relationship hallucination metric.
+
+
+---
+
+[Mitigating Bias in Queer Representation within Large Language Models: A Collaborative Agent Approach](https://arxiv.org/abs/2411.07656)
+
+- Focuses on inclusive / gender neutrality in LLM-agents with: assistant/language analysis/optimizer-agents.
+
+
+---
+
+#### 11th of November 2024
+
+[Mr.Steve: Instruction-Following Agents in Minecraft with What-Where-When Memory](https://arxiv.org/abs/2411.06736)
+
+- Mr.Steve (Memory Recall Steve-1): Improves long-horizon task solving by incorporating solver module and  Place Event Memory (PEM), which recalls what-, where- and when-information from episodes.
+- Includes memory-augmented task solving and exploration strategy.
+
+
+---
+
+[Using Generative AI and Multi-Agents to Provide Automatic Feedback](https://arxiv.org/abs/2411.07407)
+
+- Autofeedback: Introduces multi agent LLM-based framework for student feedback, which includes: feedback generation- and feedback validation/modifier. Reduces over-praising and over-inference. 
+- Includes prompts of both agents.
+
+
+---
+
+[Script-Strategy Aligned Generation: Aligning LLMs with Expert-Crafted Dialogue Scripts and Therapeutic Strategies for Psychotherapy](https://arxiv.org/abs/2411.06723)
+
+- SSAG (Script-Strategy Aligned Generation): Aligns LLMs with key therapeutic strategies in Motivational Interviewing. Claims, that LLMs aligned with expert prompting outperform rule-based chatbots and pure LLMs. 
+
+
+---
+
+[Tooling or Not Tooling? The Impact of Tools on Language Agents for Chemistry Problem Solving](https://arxiv.org/abs/2411.07228)
+
+- ChemAgent-framework: Introduces agent for chemistry tasks, which includes reasoning/grounding and tool use. 
+
+
+---
+
+[A Multi-Agent Approach for REST API Testing with Semantic Graphs and LLM-Driven Inputs](https://arxiv.org/abs/2411.07098)
+
+- AutoRestTest: Introduces MARL-framework with Semantic Property Dependency Graphs (SDG) and LLMs for REST API exploration.
+- Includes dependency/operation/parameter/value-agents.
+
+
+---
+
+
 #### 10th of November 2024
 
 [Is Your LLM Secretly a World Model of the Internet? Model-Based Planning for Web Agents](https://arxiv.org/abs/2411.06559)
