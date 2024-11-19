@@ -44,6 +44,63 @@ Chronological order.
 </div>
 
 
+#### 18th of November 2024
+
+[OASIS: Open Agents SOCIAL INTERACTION Simulations on One Million Agents](https://arxiv.org/abs/2411.11581)
+
+- OASIS (Open Agents SOCIAL INTERACTION Simulations on One Million Agents): Introduces generalizable, scalable (millions of agents) social media (twitter/reddit-like) simulator LLM-based agents  supporting dynamic social networks, diverse actions and recommendation systems. Includes registration and simulation phases.
+- OASIS pulls in the registration phase information about user, past posts, self-description and name.
+- Simulation phase consists of Environment server(sends agent information, posts and user relationships)/RecSys(recommends visible content to user and agents)/Agent module(generates actions updating environment state)/Time engine(updates agents temporal behaviours)/Scalable Inferencer-components(handles large scale inference requests by user).
+- OASIS replicates social phenomena observed in human-societies, including group polarization and herd effect, which take place in dynamically updating environments with diverse action spaces.
+- Uses event-driven architecture, where agent communicates with server in dedicated channel, which consists of asynchronous message queue.
+
+---
+
+[A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532)
+
+- CodeGraphGPT: a framework that leverages a code knowledge graph and an LLM-powered intelligent agent to automate fuzz driver generation (sw testing technique by feeding unexpected random data as program inputs to discover bugs). 
+- Includes agents for API combination generation (knowledge into graphs and then embeddings to query), dynamic program repair (past example embeddings), and crash analysis (bugs embeddings). 
+- Constructs knowledge graph of code repos, tailors fuzz drivers and input seeds, resolves compilation errors, and analyzes crash reports.
+
+
+---
+
+#### 16th of November 2024
+
+[Developer Challenges on Large Language Models: A Study of Stack Overflow and OpenAI Developer Forum Posts](https://arxiv.org/abs/2411.10873)
+
+- Analyzes developer challenges with LLMs. Challenges include LLM ecosystem, API usage, LLM training, dataset management, prompt engineering, and error handling. Identifies several unresolved posts, slow response times, especially with complex topics.
+
+
+---
+
+[FlexFL: Flexible and Effective Fault Localization with Open-Source Large Language Models](https://arxiv.org/abs/2411.10714)
+
+- FlexFL (Flexible and Effective Fault Localization): LLM-agents (Agent4SR and Agent4LR) based framework for code debugging / fixing with bug-related information (bug reports, test cases).
+- The framework employs a two-stage approach: space reduction (Agent4SR) to narrow search space and localization refinement (Agent4LR) to localize top k-most suspicious methods.
+
+---
+
+[IntentGPT: Few-shot Intent Discovery with Large Language Models](https://arxiv.org/abs/2411.10670)
+
+- IntentGPT: introduces a training-free method for Intent discovery using In-context Learning prompt (generated with LLM consisting of known intents/few-shot examples and user query) and LLM generating the intent.
+- Adds discovered intents back into the prompt. Includes prompts. 
+- IntentGPT outperforms previous methods with extensive domain-specific data for training/fine-tuning. Discovers intents dynamic, open-world scenarios.
+
+
+---
+
+#### 15th of November 2024
+
+[A dataset of questions on decision-theoretic reasoning in Newcomb-like problems](https://arxiv.org/abs/2411.10588)
+
+- Decision-theoretic reasoning: Introduces a dataset of natural language questions on Newcomb-like problems.
+- The dataset includes capability questions (unambiguous answers) and attitude questions (disagreements among decision theorists). It evaluates existing large language models (LLMs) and their attitudes toward evidential decision theory (EDT) and causal decision theory (CDT). 
+- Findings associate higher capability LLMs with more EDT-favorable attitudes across question types. The dataset helps to understand decision-theoretic reasoning capabilities and attitudes of LLMs in AI-AI interactions.
+
+
+---
+
 #### 12th of November 2024
 
 
