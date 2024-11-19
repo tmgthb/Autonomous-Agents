@@ -46,6 +46,16 @@ Chronological order.
 
 #### 18th of November 2024
 
+[GENERATIVE WORLD EXPLORER](https://arxiv.org/abs/2411.11844)
+
+- Generative World Explorer (Genex): Introduces and egocentric world exploration, which allows an agent to mentally explore a large-scale 3D world and acquire imagined observations to update its belief inside partially observable decision process. 
+- Generates high-quality and consistent observations in long-horizon tasks.
+- Consists of generative video model, egocentric views, belief revision, and decision-making (e.g., LLM agent). Includes multi-agent reasoning with imagination, where the framework infers perspectives of other actors in the scene.
+
+
+---
+
+
 [OASIS: Open Agents SOCIAL INTERACTION Simulations on One Million Agents](https://arxiv.org/abs/2411.11581)
 
 - OASIS (Open Agents SOCIAL INTERACTION Simulations on One Million Agents): Introduces generalizable, scalable (millions of agents) social media (twitter/reddit-like) simulator LLM-based agents  supporting dynamic social networks, diverse actions and recommendation systems. Includes registration and simulation phases.
