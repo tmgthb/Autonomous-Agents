@@ -66,6 +66,15 @@ Chronological order.
 
 ---
 
+[TrojanRobot: Backdoor Attacks Against Robotic Manipulation in the Physical World](https://arxiv.org/abs/2411.11683)
+
+
+- TrojanRobot: A backdoor attack framework, which targets robotic manipulation in the physical world by embedding a backdoor robotic system's visual perception module. 
+- Uses common objects as triggers.
+
+
+---
+
 [A Code Knowledge Graph-Enhanced System for LLM-Based Fuzz Driver Generation](https://arxiv.org/abs/2411.11532)
 
 - CodeGraphGPT: a framework that leverages a code knowledge graph and an LLM-powered intelligent agent to automate fuzz driver generation (sw testing technique by feeding unexpected random data as program inputs to discover bugs). 
