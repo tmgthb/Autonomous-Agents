@@ -75,6 +75,16 @@ Chronological order.
 
 ---
 
+[Moral Persuasion in Large Language Models: Evaluating Susceptibility and Ethical Alignment](https://arxiv.org/abs/2411.11731)
+
+- Reviews Persuader agents capacity to influence another LLM agent (Base agent) in morally ambiguous decision making scenarios. 
+- LLMs show greater variability between the degree it is possible to persuade them, than their capacity to persuade others.
+
+
+---
+
+
+
 #### 16th of November 2024
 
 [Developer Challenges on Large Language Models: A Study of Stack Overflow and OpenAI Developer Forum Posts](https://arxiv.org/abs/2411.10873)
