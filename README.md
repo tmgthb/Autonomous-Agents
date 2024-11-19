@@ -92,7 +92,13 @@ Chronological order.
 
 ---
 
+[LLM-IE: A Python Package for Generative Information Extraction with Large Language Models](https://arxiv.org/abs/2411.11779)
 
+- LLM-IE [LLM-based Information Extraction]: A Python package for building complete information extraction pipelines using large language models (LLMs).
+- Key features include interactive LLM agent for prompt design, support for named entity recognition, entity attribute extraction, and relation extraction tasks. Benchmarked on i2b2 datasets. Sentence-based prompting algorithm.
+
+
+---
 
 #### 16th of November 2024
 
