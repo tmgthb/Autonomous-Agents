@@ -43,6 +43,23 @@ Chronological order.
 
 </div>
 
+#### 25th of November 2024
+
+[TopV-Nav: Unlocking the Top-View Spatial Reasoning Potential of MLLM for Zero-shot Object Navigation](https://arxiv.org/abs/2411.16425)
+
+- TopV-Nav: Improves Zero-Shot Object Navigation (ZSON) in unfamiliar environments by reasoning on top-view maps ("birds eye") with MLLM's spatial reasoning capabilities. 
+- Proposes Adaptive Visual Prompt Generation (AVPG), which adaptively constructs top-view map. The framework then uses Dynamic Map Scaling (DMS), which dynamically zooms top-view map at preferred scales for local reasoning. Uses Target-Guided Navigation (TGN) to facilitate human-like exploration.
+
+
+---
+
+[A Multi-agent Framework for Materials Laws Discovery](https://arxiv.org/abs/2411.16416)
+
+- Introduces a LLM-based multi agent framework to discover materials laws in materials science, using general framework for solving symbolic regression tasks with LLMs. 
+Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemented through LLMs, to optimize formula generation. 
+
+
+---
 
 #### 18th of November 2024
 
