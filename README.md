@@ -87,6 +87,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
+#### 24th of November 2024
+
+[PIANIST: Learning Partially Observable World Models with LLMs for Multi-Agent Decision Making](https://arxiv.org/abs/2411.15998)
+
+- PIANIST (Partition function, Information set space, Action space function, N players, Information realization function, State space, and Transition reward function): A framework for decomposing a world model into seven components, enabling zero-shot LLM generation of a working world model for multi-agent decision-making tasks.
+- The framework leverages LLMs for generating forward transition functions, action functions, and information partition functions. It uses MCTS for planning in partially observable environments. The approach is evaluated on language and non-language based action-taking games, without domain-specific training data.
+- PIANIST demonstrates strong performance in multi-agent, partial information settings, showcasing the potential of LLMs for complex decision-making.
+
+
+---
+
+
 #### 21st of November 2024
 
 [Natural Language Reinforcement Learning](https://arxiv.org/abs/2411.14251)
