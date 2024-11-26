@@ -45,6 +45,15 @@ Chronological order.
 
 #### 25th of November 2024
 
+
+[Agent-Based Modelling Meets Generative AI in Social Network Simulations](https://arxiv.org/abs/2411.16031)
+
+- Generative Agent-Based Modelling (GABM): LLM-based agents, which simulate social network users with personality traits/interests and custom agent interactions. 
+- The framework consists of two phases: Characterization (Personality assignment) and Simulation (Reasoning module and Interaction module). Decisions of the agent are stored in vector db for retrieval. 
+
+---
+
+
 [TopV-Nav: Unlocking the Top-View Spatial Reasoning Potential of MLLM for Zero-shot Object Navigation](https://arxiv.org/abs/2411.16425)
 
 - TopV-Nav: Improves Zero-Shot Object Navigation (ZSON) in unfamiliar environments by reasoning on top-view maps ("birds eye") with MLLM's spatial reasoning capabilities. 
