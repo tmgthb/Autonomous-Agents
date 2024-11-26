@@ -87,6 +87,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
+#### 21st of November 2024
+
+[Natural Language Reinforcement Learning](https://arxiv.org/abs/2411.14251)
+
+- Introduces: Natural Language Reinforcement Learning (NLRL).
+- Efficiently implements RL algorithms and principles in language representation space.
+- Presents NLRL-pipeline, where LLM learns from textual environmental feedback.
+- Implements empirically in various games.
+
+
+---
+
 #### 18th of November 2024
 
 [GENERATIVE WORLD EXPLORER](https://arxiv.org/abs/2411.11844)
