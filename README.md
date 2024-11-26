@@ -61,6 +61,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
+[Enhancing Multi-Agent Consensus through Third-Party LLM Integration: Analyzing Uncertainty and Mitigating Hallucinations in Large Language Models](https://arxiv.org/abs/2411.16189)
+
+- Introduces a multi-agent consensus framework, which integrates confidence weight obtained with third-party LLM, to adjust attention weights of each agent. 
+- Each agent answers individually on the first round, agents self-adjust with feedback on second/third round with third party LLM and finally agents majority vote the final answer.
+
+
+---
+
+
 #### 18th of November 2024
 
 [GENERATIVE WORLD EXPLORER](https://arxiv.org/abs/2411.11844)
