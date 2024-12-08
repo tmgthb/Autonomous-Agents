@@ -43,6 +43,24 @@ Chronological order.
 
 </div>
 
+#### 5th of December 2024
+
+[Practical Considerations for Agentic LLM Systems](https://arxiv.org/abs/2412.04093)
+
+- Reviews LLM agent research from perspective of planning (explicit/implicit, task decomposition, plan adherence), memory (RAG, long-term memory), tools (ysage/dynamic/multiplicity) and control flow (output processing/error handling/stopping/multi-persona/context).
+- Long term memory may include reflection/consolidation/forgetting/revision and should be independent/consistent/long-term.
+
+---
+
+[Targeting the Core: A Simple and Effective Method to Attack RAG-based Agents via Direct LLM Manipulation](https://arxiv.org/abs/2412.04415)
+
+- Investigates adversial Adaptive Attack Prompt- and ArtPrompt-attack methods success rates between LLM models.
+
+
+---
+
+
+
 #### 25th of November 2024
 
 
