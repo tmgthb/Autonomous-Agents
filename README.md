@@ -56,6 +56,13 @@ Chronological order.
 
 ---
 
+[Query-Efficient Planning with Language Models](https://arxiv.org/abs/2412.06162)
+
+- Reviews efficient ways to use LLMs for planning: heuristic and LLM as generative planner.
+
+
+
+---
 
 [Simulating Human-like Daily Activities with Desire-driven Autonomy](https://arxiv.org/abs/2412.06435)
 
