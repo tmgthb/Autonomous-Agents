@@ -43,6 +43,37 @@ Chronological order.
 
 </div>
 
+
+#### 9th of December 2024
+
+
+[Simulating Human-like Daily Activities with Desire-driven Autonomy](https://arxiv.org/abs/2412.06435)
+
+- D2A-agent (Desire-driven Autonomous Agent): Introduces autonomous agent proposing and selecting autonomously fulfilling and motivating tasks (based on theory of needs: social interaction/personal fulfillment/self-care).
+- Introduces desire-based characters.
+- Includes value system (measures satisfaction per desired dimension) and Desire-driven planner (choses next action of the agent with history and value system).
+- Proposes using in the future more complex human motivation and planning mechanisms to satisfy intrinsic desires. Includes prompts.
+
+
+---
+
+[Toward LLM-Agent-Based Modeling of Transportation Systems: A Conceptual Framework](https://arxiv.org/abs/2412.06681)
+
+- Proposes transportation system modelling with LLM-based agents to replicate human decision making.
+- LLM-based agents include long-lasting core components: identity (age/income/occupation/cars owned/persona/travel related task/travel restrictions)/memory(short and long term)/LLM core(summarization/planning/nlu/workflow).
+- Includes iterative process with perception, reflection, planning, plan processing and action.
+
+
+---
+
+[AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2412.06724)
+
+- AutoDCWorkflow: uses LLM to automatically generate data-cleaning workflows (duplicates/missing values/inconsistent data format) and introduces a benchmark.
+
+
+---
+
+
 #### 5th of December 2024
 
 [Practical Considerations for Agentic LLM Systems](https://arxiv.org/abs/2412.04093)
