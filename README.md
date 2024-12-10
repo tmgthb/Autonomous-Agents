@@ -59,7 +59,7 @@ Chronological order.
 [Query-Efficient Planning with Language Models](https://arxiv.org/abs/2412.06162)
 
 - Reviews efficient ways to use LLMs for planning: heuristic and LLM as generative planner.
-
+- Introduces two new algorithms: Tree of Interaction (ToI) and Boomerang.
 
 
 ---
