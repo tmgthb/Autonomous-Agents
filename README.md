@@ -73,6 +73,12 @@ Chronological order.
 
 ---
 
+[StarWhisper Telescope: Agent-Based Observation Assistant System to Approach AI Astrophysicist](https://arxiv.org/abs/2412.06412)
+
+- SWT (StarWhisper Telescope System): proposes automation of the astronomer observation process with LLMs. Includes observation planning/control/data processing/agent suggestion. Includes customized observation lists and real time analysis.
+
+
+---
 
 #### 5th of December 2024
 
