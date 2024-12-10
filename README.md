@@ -47,6 +47,16 @@ Chronological order.
 #### 9th of December 2024
 
 
+[AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement](https://arxiv.org/abs/2412.06176)
+
+- AlphaVerus: generates formally verified code with LLMs and through self-improvement by iteratively translating programs from higher resource language.
+- Includes three phases: exploration (translates programs from source language to Verus, which is a tool to verify correctness of code written in Rust), treefinement(iteratively fixes errors with Verus-verifier feedback/tree search) and critique (validates and filters unspecified/incorrect translations).
+- Illustrates the potential of inference-time scaling in verified settings. Suggests formal verification ensures correctness and reliability of the generated code. 
+
+
+---
+
+
 [Simulating Human-like Daily Activities with Desire-driven Autonomy](https://arxiv.org/abs/2412.06435)
 
 - D2A-agent (Desire-driven Autonomous Agent): Introduces autonomous agent proposing and selecting autonomously fulfilling and motivating tasks (based on theory of needs: social interaction/personal fulfillment/self-care).
