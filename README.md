@@ -66,6 +66,14 @@ Chronological order.
 
 ---
 
+[Beyond pip install: Evaluating LLM Agents for the Automated Installation of Python Projects](https://arxiv.org/abs/2412.06294)
+
+- Installamatic: Reviews LLM-agents capability to install repository-level python packages with pip by automatically inspecting repository content and install the packages required. 
+- Installamatic-agent is capable of installing packages required in 21/40 repositories tested with 4 main challenges: Identifying install-relevant documentation/writing valid docker files/cost/oracle-problem.
+
+
+---
+
 [AutoDCWorkflow: LLM-based Data Cleaning Workflow Auto-Generation and Benchmark](https://arxiv.org/abs/2412.06724)
 
 - AutoDCWorkflow: uses LLM to automatically generate data-cleaning workflows (duplicates/missing values/inconsistent data format) and introduces a benchmark.
