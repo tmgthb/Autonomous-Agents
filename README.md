@@ -1197,6 +1197,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 24th of September 2024
 
+[Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale](https://arxiv.org/abs/2409.15637)
+
+- Synatra
+
+
+
+
 [MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents](https://arxiv.org/abs/2409.16120)
 
 - MOSS (llM-oriented Operating System Simulation): LLM-based code 
