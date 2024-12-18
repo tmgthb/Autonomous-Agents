@@ -43,6 +43,15 @@ Chronological order.
 
 </div>
 
+#### 17th of December 2024
+
+[AI PERSONA: Towards Life-long Personalization of LLMs](https://arxiv.org/abs/2412.13103)
+
+- AI Persona: proposes, that LLMs should continuously adapt to diverse set of users via personalization. 
+- Introduces a framework for life-long personalization of LLMs through learnable and dynamically updated dictionaries, which are updated based on interaction between user and the LLM.
+
+
+---
 
 #### 9th of December 2024
 
