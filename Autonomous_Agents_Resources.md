@@ -313,7 +313,7 @@ Alternative definition uses:
 
 ####  Autonomous Agent (my definition) 
 
-TAll the above definitions include gaps, which I have noted along them. 
+All the above definitions include gaps, which I have noted along them. 
 
 Therefore, I found it necessary to add my own definition, which I call simply: **Autonomous Agent" (AA):
 
@@ -334,7 +334,15 @@ Positive:
   
 Negative:
 - Do agent find useful human-like consciousness? How it would work?
+- Lacks aspect of self-constructon and self-replication.
 
+19.12.2024
+
+Based on recent thoughts, I decided to update my prior definition to address the prior gaps. 
+
+Autonomous agents (AA) is defined:
+
+**Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
 
 ---
 
