@@ -43,14 +43,30 @@ Chronological order.
 
 </div>
 
+
+
+
 #### 19th of December 2024
+
+[Disentangling Reasoning Tokens and Boilerplate Tokens For Language Model Fine-tuning](https://arxiv.org/abs/2412.14780)
+
+- Reasoning-highlighted Finetuning (RFT): Highlights reasoning tokens from boilerplate tokens (format and connecting tokens less critical for the task). Adds larger weight to reasoning tokens.
+- Introduces SHAD (Shuffle-Aware Discriminator): automatic, adaptive token discrimination. 
+
+
+---
+
+
 
 [TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks](https://arxiv.org/abs/2412.14161)
 
 - TheAgentCompany-benchmark: evaluates AI agents capacity to perform long-sequence tasks in real world-like environment as a digital worker: arranging meetings, writing code, screening resumes, communicating (simulates communication between agents), planning and administrative work. Best agent completed 24% of tasks.
 - Generates tasks in a self-contained environment with internal websites and data similar to used by SW companies.
 
+
 ---
+
+
 
 #### 18th of December 2024
 
