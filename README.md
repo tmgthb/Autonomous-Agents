@@ -60,6 +60,13 @@ Chronological order.
 
 - Claims, that LLMs can be prompted to provide caliberated confidence scores.
 
+---
+
+[Agent-SafetyBench: Evaluating the Safety of LLM Agents](https://arxiv.org/abs/2412.14470)
+
+- Agent-SafetyBench-benchmark evaluates LLM-agents safety. Agents tested achieved below 60% pass score.
+- LLM-agents lack currently robustness and risk awareness.
+
 
 ---
 
@@ -68,16 +75,6 @@ Chronological order.
 - TheAgentCompany-benchmark: evaluates AI agents capacity to perform long-sequence tasks in real world-like environment as a digital worker: arranging meetings, writing code, screening resumes, communicating (simulates communication between agents), planning and administrative work. Best agent completed 24% of tasks.
 - Generates tasks in a self-contained environment with internal websites and data similar to used by SW companies.
 
-
----
-
-
-
-#### 18th of December 2024
-
-[]()
-
--
 
 ---
 
