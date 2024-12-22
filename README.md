@@ -56,7 +56,12 @@ Chronological order.
 
 ---
 
+[On Verbalized Confidence Scores for LLMs](https://arxiv.org/abs/2412.14737)
 
+- Claims, that LLMs can be prompted to provide caliberated confidence scores.
+
+
+---
 
 [TheAgentCompany: Benchmarking LLM Agents on Consequential Real World Tasks](https://arxiv.org/abs/2412.14161)
 
