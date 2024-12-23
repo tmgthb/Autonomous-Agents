@@ -49,6 +49,9 @@ Chronological order.
 [Offline Reinforcement Learning for LLM Multi-Step Reasoning](https://arxiv.org/abs/2412.16145)
 
 - OREO (Offline REasoning Opyimization): improves multi-step reasoning with offline RL.
+- Iterative OREO improves consistently with additional training rounds.
+
+---
 
 #### 19th of December 2024
 
