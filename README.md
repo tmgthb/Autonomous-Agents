@@ -44,7 +44,11 @@ Chronological order.
 </div>
 
 
+#### 20th of December 2024
 
+[Offline Reinforcement Learning for LLM Multi-Step Reasoning](https://arxiv.org/abs/2412.16145)
+
+- OREO (Offline REasoning Opyimization): improves multi-step reasoning with offline RL.
 
 #### 19th of December 2024
 
