@@ -44,6 +44,83 @@ Chronological order.
 </div>
 
 
+#### 24th of December 2024
+
+
+[Multi-Agents Based on Large Language Models for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2412.18351)
+
+- Introduces multi-agent framework consisting of three level of agents collaborating to provide answer: junior, senior and manager. Final answer is determined through voting. Each agent uses planning and tools (knowledge base / LLM knowledge).
+
+---
+
+
+[VLABench: A Large-Scale Benchmark for Language-Conditioned Robotics Manipulation with Long-Horizon Reasoning Tasks](https://arxiv.org/abs/2412.18194)
+
+- VLABench-benchmark: Evaluates VLA models (Vision-Language Action models). Focuses on tasks requiring mesh & texture understanding, spatial understanding, semantic conversation cognition, common sense & applying real world knowledge, physical laws understanding and long horizon multi-step reasoning.
+
+
+---
+
+[INVESTORBENCH: A Benchmark for Financial Decision-Making Tasks with LLM-based Agent](https://arxiv.org/abs/2412.18174)
+
+- Investorbench-benchmark: Evaluates LLMs capability for financial decision making. 
+
+
+---
+
+[Decentralized Intelligence in GameFi: Embodied AI Agents and the Convergence of DeFi and Virtual Ecosystems](https://arxiv.org/abs/2412.18601)
+
+- Introduces decentralized GameFI-ecosystem with LLM-agents based on Ethereum-blockchain.
+
+
+---
+
+
+[Automated Code Review In Practice](https://arxiv.org/abs/2412.18531)
+
+- Reviews automated code reviews, which led to longer average pull request closer time.  
+
+
+---
+
+[Large Language Model guided Deep Reinforcement Learning for Decision Making in Autonomous Driving](https://arxiv.org/abs/2412.18511)
+
+- LGDRL (Language Guided Deep Reinforcement Learning): Introduces LLM-based autonomous driving system. 
+- DRL agent learns from LLM-based driving expert-agent (prompted with prompt generator), when the LLM-based driving expert finds necessary to intervene DRL agent actions.
+
+
+---
+
+
+[3DGraphLLM: Combining Semantic Graphs and Large Language Models for 3D Scene Understanding](https://arxiv.org/abs/2412.18450)
+
+- 3DGraphLLM: Improves LLMs understanding of 3D scenes by creating 3D scene graph representation (think graph, where arrows point, if object is right/left/front/behind) from set of point clouds (object input).
+
+---
+
+[Explainable Multi-Modal Data Exploration in Natural Language via LLM Agent](https://arxiv.org/abs/2412.18428)
+
+- XMODE: Uses LLM to decompose (converts into simpler sub-questions and translates into workflows) user queries into SQL / image analysis.
+- Includes planning & expert model allocation/execution & self-debugging/decision making/expert models & tools/data lake. 
+
+
+---
+
+[Muse: A Multimodal Conversational Recommendation Dataset with Scenario-Grounded User Profiles](https://arxiv.org/abs/2412.18416)
+
+- Introduces MUSE-dataset with conversations centered around clothing-domain by using multi-agent framework to generate real world-scenarios (scenario-grounded user profile generator/simulated conversation generator/conversation optimizer). 
+
+
+---
+
+[Defining and Detecting the Defects of the Large Language Model-based Autonomous Agents](https://arxiv.org/abs/2412.18371)
+
+- Agentable: Introduces static analysis tool to detect defects in code with LLM-based agents and Code Property Graphs (identifies specific code patterns/analyses descriptions). Includes AgentSet-dataset.
+- Includes pre-processing, defect detection (code abstraction/LLM invocation/semantic enrichment/detect oracles engineeering), and defect reporting-modules.
+
+
+---
+
 #### 20th of December 2024
 
 [Offline Reinforcement Learning for LLM Multi-Step Reasoning](https://arxiv.org/abs/2412.16145)
