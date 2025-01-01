@@ -44,6 +44,24 @@ Chronological order.
 </div>
 
 
+#### 30th of December 2024
+
+[Aviary: training language agents on challenging scientific tasks](https://arxiv.org/abs/2412.21154)
+
+- Defines Language Decision Process (LDP). LDP is framed as Partially-Observable Markov Decision Process (POMDP), where actions only consist of the ones with the external environment.
+- Introduces Language agent training framework: Aviary. Includes implementation in 3 scientific domain tasks. 
+- Builds language agents as stochastic computation graphs (SCG).
+
+---
+
+[Distributed Mixture-of-Agents for Edge Inference with Large Language Models](https://arxiv.org/abs/2412.21200)
+
+- Introduces Distributed Mixture-of-Agents, where multiple LLMs collaborate on various edge devices with decentralized gossip algorithm.
+- Does not rely in centralized server. 
+
+---
+
+
 #### 24th of December 2024
 
 
