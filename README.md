@@ -61,6 +61,14 @@ Chronological order.
 
 ---
 
+[Exploring and Controlling Diversity in LLM-Agent Conversation](https://arxiv.org/abs/2412.21102)
+
+- APP (Adaptive Prompt Pruning): Controls diversity of the LLM-agent conversation through adjusting lambda-variable. 
+- The lambbda variable adjusts diversity by increasing/decreasing details about: current dialogue/history dialogue/environment/profile/memory.
+
+
+
+---
 
 #### 24th of December 2024
 
