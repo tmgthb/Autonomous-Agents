@@ -66,6 +66,13 @@ Chronological order.
 - APP (Adaptive Prompt Pruning): Controls diversity of the LLM-agent conversation through adjusting lambda-variable. 
 - The lambbda variable adjusts diversity by increasing/decreasing details about: current dialogue/history dialogue/environment/profile/memory.
 
+---
+
+[Plancraft: an evaluation dataset for planning with LLM agents](https://arxiv.org/abs/2412.21033)
+
+- Introduces Plancraft-benchmark to evaluate VLMs and LLMs planning capabilities and ability to decide in Minecraft craftting GUI, if the model is able to identify task as unsolvable (intentionally).
+- Identifies, that success rate alone is poor metric in real world tasks.
+
 
 
 ---
