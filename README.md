@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+#### 2nd of January 2025
+
+[Harnessing Multi-Agent LLMs for Complex Engineering Problem-Solving: A Framework for Senior Design Projects](https://arxiv.org/abs/2501.01205)
+
+- Proposes multi-agent LLM framework for engineering design projects consisting of problem formulation/breadth & depth/ambiguity & uncertainty/system complexity/technical innovation & risk management/societal & ethical consideration/methodology & approach/compherensive evaluation-agents.
+- Each agent consists of description, task, objective and evaluation points.
+
+
+---
+
 
 #### 30th of December 2024
 
