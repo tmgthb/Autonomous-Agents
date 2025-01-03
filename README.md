@@ -45,6 +45,14 @@ Chronological order.
 
 #### 2nd of January 2025
 
+[A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
+
+- A3 (Android Agent Area): Introduces benchmark to evaluate mobile GUI agents, which focuses on practical tasks, larger action spaces and automated LLM-based evaluation. 
+- A3 consists of controller (gets/controls states of the device), evaluator (final rating) and translator (between device device function and the agent message).
+
+---
+
+
 [3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer](https://arxiv.org/abs/2501.01163)
 
 - 3D-LLaVa: Introduces 3D multi modal LLM with point clouds/text instruction/visual prompt as input and generates text output and 3D mask with Omni Superpoint Transformer (OST).
