@@ -85,6 +85,17 @@ Chronological order.
 
 ---
 
+#### 1st of January 2025
+
+[Large Language Model Based Multi-Agent System Augmented Complex Event Processing Pipeline for Internet of Multimedia Things](https://arxiv.org/abs/2501.00906)
+
+- Introduces multi-agent framework for complex event processing of video queries(think TikTok/Youtube as examples) with AutoGen and Kafka brokers (real time data streams).
+- Consists of conversable/assistant/user proxy/LLM backend/human backed/tool backed-agents.
+
+
+---
+
+
 #### 30th of December 2024
 
 [Aviary: training language agents on challenging scientific tasks](https://arxiv.org/abs/2412.21154)
