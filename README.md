@@ -87,6 +87,16 @@ Chronological order.
 
 #### 1st of January 2025
 
+[Agentic Systems: A Guide to Transforming Industries with Vertical AI Agents](https://arxiv.org/abs/2501.00881)
+
+- Reviews transition from SaaS to context-aware, adaptive systems handling dynamic environments through vertical agents.
+- Identifies core modules of LLM agents: memory/reasoning engine/cognitive skills/tools. 
+- Author categorises agentic systems into: task-specific, multi-agent and human augmented agent systems.
+
+
+---
+
+
 [Large Language Model Based Multi-Agent System Augmented Complex Event Processing Pipeline for Internet of Multimedia Things](https://arxiv.org/abs/2501.00906)
 
 - Introduces multi-agent framework for complex event processing of video queries(think TikTok/Youtube as examples) with AutoGen and Kafka brokers (real time data streams).
