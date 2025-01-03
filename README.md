@@ -71,6 +71,12 @@ Chronological order.
 ---
 
 
+[Embodied AI-Enhanced Vehicular Networks: An Integrated Large Language Models and Reinforcement Learning Method](https://arxiv.org/abs/2501.01141)
+
+- Incorporates embodied AI framework, which consists of semantic data processing with LLaVa-agent (extracts semantics from image data captured by the vehicle), Data transmission optimization (balances bandwidth utilization and quality of experience) and Enhanced decision making with Deep RL with GAE-PPO.
+
+---
+
 #### 30th of December 2024
 
 [Aviary: training language agents on challenging scientific tasks](https://arxiv.org/abs/2412.21154)
