@@ -45,6 +45,15 @@ Chronological order.
 
 #### 2nd of January 2025
 
+[3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer](https://arxiv.org/abs/2501.01163)
+
+- 3D-LLaVa: Introduces 3D multi modal LLM with point clouds/text instruction/visual prompt as input and generates text output and 3D mask with Omni Superpoint Transformer (OST).
+- 3D-LLaVa handles 3D vision-centric dialogue.
+- OST includes visual features selection, visual prompt encoding and 3D mask generation. 
+
+
+---
+
 [Harnessing Multi-Agent LLMs for Complex Engineering Problem-Solving: A Framework for Senior Design Projects](https://arxiv.org/abs/2501.01205)
 
 - Proposes multi-agent LLM framework for engineering design projects consisting of problem formulation/breadth & depth/ambiguity & uncertainty/system complexity/technical innovation & risk management/societal & ethical consideration/methodology & approach/compherensive evaluation-agents.
