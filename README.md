@@ -75,6 +75,14 @@ Chronological order.
 
 - Incorporates embodied AI framework, which consists of semantic data processing with LLaVa-agent (extracts semantics from image data captured by the vehicle), Data transmission optimization (balances bandwidth utilization and quality of experience) and Enhanced decision making with Deep RL with GAE-PPO.
 
+
+---
+
+[MDSF: Context-Aware Multi-Dimensional Data Storytelling Framework based on Large language Model](https://arxiv.org/abs/2501.01014)
+
+- MDSF (Multidimensional Data Storytelling Framework): Automatess data analysis and storytelling. Includes data preprocessing steps, fine tuned LLMs, LLM agents.
+
+
 ---
 
 #### 30th of December 2024
