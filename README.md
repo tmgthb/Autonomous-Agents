@@ -105,6 +105,13 @@ Chronological order.
 
 ---
 
+[Interactionalism: Re-Designing Higher Learning for the Large Language Agent Era](https://arxiv.org/abs/2501.00867)
+
+- Introduces Interactionalism-framework focuses on interactional intelligence to learn more personalized/social/non-linearly way, instead of monological way. 
+- Proposes usage of dialogue-agents in education, such as tutors, teaching assistants, evaluators, guides and mentors. 
+
+
+---
 
 #### 30th of December 2024
 
