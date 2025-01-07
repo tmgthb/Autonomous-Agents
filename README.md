@@ -43,6 +43,47 @@ Chronological order.
 
 </div>
 
+
+#### 6th of January 2025
+
+[Large language models for artificial general intelligence (AGI): A survey of foundational principles and approaches](https://arxiv.org/abs/2501.03151)
+
+- Introduces a survey about AGI concepts and achieving AGI with LLMs. Includes list of memory types used with LLMs: sensory/working/semantic/episodic/procedural. Lists aspects of embodiment as: goal-awareness/self-awareness/situatedness/deliberate action. 
+
+
+---
+
+
+[CALM: Curiosity-Driven Auditing for Large Language Models](https://arxiv.org/abs/2501.02997)
+
+- CALM (Curiosity-driven Auditing for LLMs): Introduces intrinsically motivated RL based on curiousity to finetune LLM as an auditor agent, to discover harmful/biased input/output pairs in the LLM. Includes token-level intrinsic bonus. Uses curiosity-driven exploration to navigate efficiently the prompt space, such as discover specific celebrity names.
+
+
+---
+
+#### 5th of January 2025
+
+
+[LLMs Help Alleviate the Cross-Subject Variability in Brain Signal and Language Alignment](https://arxiv.org/abs/2501.02621)
+
+- Decodes EEG scans to text with subject-independent semantic features for Brain-Computer Interfaces (BCIs).  Introduces EEG embeddings.
+- Includes cross-subject generalization (addresses the issue of variability in brain anatomy between humans/neural dynamics/signal), zero-shot and comprehensive evaluation.  
+
+
+---
+
+#### 4th of January 2025
+
+[Thinking with Many Minds: Using Large Language Models for Multi-Perspective Problem-Solving](https://arxiv.org/abs/2501.02348)
+
+- Replicates the concept of "Wisdom of the Crowd" with LLMs using synthetic deliberation. 
+- Generates multiple agents, each with dinstinct perspective to a problem. Agents simulate arguments and counter-arguments from their perspective. 
+- Agents explore in parallel the problem space using its own perspective. The integration mechanism adjusts agents positions based on proposals/evaluations of others controllable with influence parameter alpha. The iterative deliberation repeats multiple rounds until consensus is reached. 
+
+
+---
+
+
 #### 2nd of January 2025
 
 [A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
