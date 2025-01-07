@@ -84,6 +84,15 @@ Chronological order.
 ---
 
 
+[UAVs Meet LLMs: Overviews and Perspectives Toward Agentic Low-Altitude Mobility](https://arxiv.org/abs/2501.02341)
+
+- Review systematically integration of LLMs with UAVs (Unmanned aerial vehicles).
+- Proposes roadmap towards agentic UAVs. Includes github-repository with links to papers/approaches around LLM-based UAV systems.
+
+
+---
+
+
 #### 2nd of January 2025
 
 [A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
