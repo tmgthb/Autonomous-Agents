@@ -92,6 +92,15 @@ Chronological order.
 
 ---
 
+#### 3rd of January 2025
+
+
+[Multi-Agent Conversational Online Learning for Adaptive LLM Response Identification](https://arxiv.org/abs/2501.01849)
+
+- MACO (Multi-Agent Conversation Online learning for adaptive LLM response identification): Introduces near-optimal cumulative regret with multiple local agents to identify, which is the most optimal LLM response to serve for the particular user, even when new user.
+
+
+---
 
 #### 2nd of January 2025
 
