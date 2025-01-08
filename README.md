@@ -102,6 +102,13 @@ Chronological order.
 
 ---
 
+[MoColl: Agent-Based Specific and General Model Collaboration for Image Captioning](https://arxiv.org/abs/2501.01834)
+
+- MoColl: Introduces LLM-agent based framework for image captioning with specialised VQA model. Includes warm-up stage and agent-guided tuning stage.
+
+
+---
+
 #### 2nd of January 2025
 
 [A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
