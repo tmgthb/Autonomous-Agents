@@ -242,6 +242,15 @@ Chronological order.
 
 ---
 
+[VideoRefer Suite: Advancing Spatial-Temporal Object Understanding with Video LLM](https://arxiv.org/abs/2501.00599)
+
+- VideoRefer-model: Improves Video-LLMs fine-grained spatial and temporal detail understanding in videos, which facilitates more precise object descriptions, more detailed event analysis, and enhanced predictive reasoning in dynamic environments using masked object features.
+- VideoRefer-model consists of VideoLLaMA 2.1 as the foundation and a novel unified spatial-temporal object encoder that merges cross-frame token similarities.
+- Includes VideoRefer-dataset and VideoReferBench-benchmark.
+
+
+---
+
 #### 30th of December 2024
 
 [Aviary: training language agents on challenging scientific tasks](https://arxiv.org/abs/2412.21154)
