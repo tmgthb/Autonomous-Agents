@@ -242,6 +242,16 @@ Chronological order.
 - Reactive agent receives information from external environment, decomposes it into sub-tasks, then stores them in the database.
 - Reflective agent analyzes sub-task it executes, offering suggestions or critiques. This feedback loop allows the reactive agent to refine its reasoning and complete the scientific process.
 
+---
+
+[Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors Enables Dynamic Scene Understanding](https://arxiv.org/abs/2501.00358)
+ 
+- Embodied VideoAgent: Introduces VLM-based Embodied VideoAgent, which constructs scene memory from both egocentric video and embodied sensory inputs.
+- Includes persistent object memory, using VLM (depth maps / camera poses).
+- Automatically updates memory as actions / activities over objects are perceived.
+
+
+
 
 ---
 
