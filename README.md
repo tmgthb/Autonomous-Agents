@@ -233,7 +233,7 @@ Chronological order.
 
 ---
 
-#### 31st of December 2025
+#### 31st of December 2024
 
 [Enhancing LLM Reasoning with Multi-Path Collaborative Reactive and Reflection agents](https://arxiv.org/abs/2501.00430)
 
