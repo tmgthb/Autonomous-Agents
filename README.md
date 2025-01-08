@@ -235,6 +235,16 @@ Chronological order.
 
 #### 31st of December 2025
 
+[Enhancing LLM Reasoning with Multi-Path Collaborative Reactive and Reflection agents](https://arxiv.org/abs/2501.00430)
+
+- RR-MP (Reactive and Reflection agents with Multi-Path Reasoning): Improves reasoning capability of LLMs in complex scientific tasks.
+- Consists of reactive and reflection agents collaborating together to improve accuracy/avoid degeneration-of-thoughts. 
+- Reactive agent receives information from external environment, decomposes it into sub-tasks, then stores them in the database.
+- Reflective agent analyzes sub-task it executes, offering suggestions or critiques. This feedback loop allows the reactive agent to refine its reasoning and complete the scientific process.
+
+
+---
+
 [Enabling New HDLs with Agents](https://arxiv.org/abs/2501.00642)
 
 - HDLAgent: Introduces LLM-based agent to support code generation for underrepresented HDLs (Hardware Description Languages).
