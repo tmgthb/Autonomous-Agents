@@ -233,7 +233,14 @@ Chronological order.
 
 ---
 
+#### 31st of December 2025
 
+[Enabling New HDLs with Agents](https://arxiv.org/abs/2501.00642)
+
+- HDLAgent: Introduces LLM-based agent to support code generation for underrepresented HDLs (Hardware Description Languages).
+
+
+---
 
 #### 30th of December 2024
 
