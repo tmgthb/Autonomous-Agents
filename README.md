@@ -53,7 +53,6 @@ Chronological order.
 
 ---
 
-
 [CALM: Curiosity-Driven Auditing for Large Language Models](https://arxiv.org/abs/2501.02997)
 
 - CALM (Curiosity-driven Auditing for LLMs): Introduces intrinsically motivated RL based on curiousity to finetune LLM as an auditor agent, to discover harmful/biased input/output pairs in the LLM. Includes token-level intrinsic bonus. Uses curiosity-driven exploration to navigate efficiently the prompt space, such as discover specific celebrity names.
@@ -94,6 +93,20 @@ Chronological order.
 
 #### 3rd of January 2025
 
+
+[SDPO: Segment-Level Direct Preference Optimization for Social Agents](https://arxiv.org/abs/2501.01821)
+
+- Introduces SDPO (Segment-Level Direct Preference Optimization)-fine tuning, which aligns the LLM to key segments in multi-turn conversation. 
+- Addresses goal-completion in multi-turn conversation.
+
+
+---
+
+[AgentRefine: Enhancing Agent Generalization through Refinement Tuning](https://arxiv.org/abs/2501.01702)
+
+- AgentRefine: Uses a strong LLM to simulate interactive role-playing, with the model acting as both Dungeon Master and player. A verifier checks each action for errors, providing feedback that allows the model to refine its actions until it achieves the correct result. This iterative process, with its corrected action sequences, trains the system to explore viable actions and generalize to new scenarios.
+
+---
 
 [Multi-Agent Conversational Online Learning for Adaptive LLM Response Identification](https://arxiv.org/abs/2501.01849)
 
@@ -148,8 +161,32 @@ Chronological order.
 
 - MDSF (Multidimensional Data Storytelling Framework): Automatess data analysis and storytelling. Includes data preprocessing steps, fine tuned LLMs, LLM agents.
 
+---
+
+
+[Toward Inclusive Educational AI: Auditing Frontier LLMs through a Multiplexity Lens](https://arxiv.org/abs/2501.03259)
+
+- Suggests two strategies to improve LLMs multiplexity (diverse cultural viewpoints) over WEIRD (western/educated/industrialized/rich/democratic): system prompt with diverse cultural perspectives and multi-agent system with agents with different cultural views. Sentiment analysis is used to review cultural resonance. 
 
 ---
+
+[PSYCHE: A Multi-faceted Patient Simulation Framework for Evaluation of Psychiatric Assessment Conversational Agents](https://arxiv.org/abs/2501.01594)
+
+- PSYCHE: Introduces an LLM-based psychiatric evaluation framework by comparing the predicted values of psychiatric elements (Construct-PACA) against the actual values (Construct-SP). The actual values are simulated patient data generated with a multi-faceted construct (MFC). 
+- The framework guarantees clinical relevance, ethical safety, cost efficiency, and quantitative evaluation by simulating psychiatric patients with detailed profiles, histories, and behaviors.
+
+
+---
+
+
+[BoxingGym: Benchmarking Progress in Automated Experimental Design and Model Discovery](https://arxiv.org/abs/2501.01540)
+
+- Introduces BoxingGym-benchmark, reviews LLMs capabilities to design and model discovery: collect data to test scientific theory and propose/update scientific theories through 10 environments. Introduces metric called EIG.
+- Expected information gain (EIG) measures an experiment's informativeness by testing if one scientific agent's model explanation enables another to make accurate environmental predictions.
+
+
+---
+
 
 #### 1st of January 2025
 
@@ -178,6 +215,25 @@ Chronological order.
 
 
 ---
+
+
+[LLM-Powered Multi-Agent System for Automated Crypto Portfolio Management](https://arxiv.org/abs/2501.00826)
+- Introduces multi-agent framework for cryptocurrency investing with intrateam and interteam collaboration and multi modality. Consists of expert training module and multi-agent investment module. 
+- Expert training module uses data/literature-agents to feed historical data and investment literature. Explanation-agents process this information to generate high-quality prompts to fine tune investment agents. 
+- Multi-agent investment module consists of data-agent fetching real-time data to market-agents and crypto agents. Market agents includes two expert agents to analyze news/market factors to predict market trends and determining cash-crypto allocation. Crypto-agents includes two specialized agents to analyze crypto-specific factors and candlestick charts to make crypto selection decisions. Trading agents finally act with a trading API to execute the final portfolio strategy.
+ 
+
+---
+
+[Beyond Text: Implementing Multimodal Large Language Model-Powered Multi-Agent Systems Using a No-Code Platform](https://arxiv.org/abs/2501.00750)
+
+- Proposes design and implementation of multi modal and multi-agent framework with LLMs. Includes multi modal inputs (text/audio/video/image), multi-agent layer (includes supervisory-agent and RAG/image analysis/audio generation/image generation/video generation- worker agents), process layer (vector db and modality specific models) and the output layer (text/audio/video/image).
+- Supervisor agent controls sequence of tasks, distributes tasks, manages output of worker agents, tnterprets outputs and makes decisions about next steps in the sequence.
+
+
+---
+
+
 
 #### 30th of December 2024
 
@@ -211,6 +267,18 @@ Chronological order.
 
 
 ---
+
+
+#### 25th of December 2024
+
+[Probabilistic Mission Design in Neuro-Symbolic Systems](https://arxiv.org/abs/2501.01439)
+
+- ProMis (Probabilistic Mission Design): ProMis helps drones understand where they can and cannot go by combining different types of information, like maps and sensor data, with rules and regulations, such as no-fly zones. Refers with mission landscape to safest and most legal paths.
+- Combines formal reasoning with probabilistic inference. Uses LLM to convert instructions into ProMis code and ChangeFormer for perception of satellite images.
+
+
+---
+
 
 #### 24th of December 2024
 
