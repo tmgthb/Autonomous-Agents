@@ -235,6 +235,18 @@ Chronological order.
 
 #### 31st of December 2024
 
+#### 31st of December 2024
+
+[MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](https://arxiv.org/abs/2501.00332)
+
+- Main-RAG: Introduces multi-agent framework, where LLM-agents collaboratively filter and score retrieved documents.
+- Introduces adaptive filtering, which dynamically adjusts relevance filtering threshold.
+- Includes three agents: predictor (infers answers based on retrieved documents), judge (scores filtering and ordering) and final-predictor (generates final answer based on filtered and ordered documents). 
+- Includes system instruction prompts.
+
+
+---
+
 [Enhancing LLM Reasoning with Multi-Path Collaborative Reactive and Reflection agents](https://arxiv.org/abs/2501.00430)
 
 - RR-MP (Reactive and Reflection agents with Multi-Path Reasoning): Improves reasoning capability of LLMs in complex scientific tasks.
