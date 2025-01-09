@@ -62,8 +62,17 @@ Chronological order.
 - Inspired by Cognitive Science's dual-process theory, non-linear, iterative, latent process of exploration and verification, in-context search, process supervision, synthetic data generation, search algorithms, instruction tuning, reinforcement learning, scaling laws, verifier roles, novel reasoning algorithms, meta-reinforcement learning.
 - This work provides a theoretical and practical roadmap to enable Meta-CoT in LLMs, paving the way for more powerful and human-like reasoning in artificial intelligence.
 
+
 ---
 
+[URSA: Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics](https://arxiv.org/abs/2501.04686)
+
+- URSA (Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics): A framework for enhancing the mathematical reasoning capabilities of Multimodal Large Language Models (MLLMs) through a three-module synthesis strategy and a novel dual-view process supervision data synthesis method.
+- Integrates CoT distillation, trajectory-format rewriting, format unification, MMathCoT-1M dataset, DualMath-1.1M dataset, URSA-7B model, URSA-RM-7B model, test-time scaling, process annotation, out-of-distribution (OOD) verification.
+- This work significantly enhances MLLMs' potential in mathematical reasoning, achieving state-of-the-art performance on multiple multimodal mathematical benchmarks and demonstrating robust supervision abilities.
+
+
+---
 
 [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227)
 
