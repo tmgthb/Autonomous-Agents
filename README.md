@@ -115,6 +115,15 @@ Chronological order.
 
 #### 4th of January 2025
 
+[Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Diffusion Transformer Networks](https://arxiv.org/abs/2412.00733)
+
+- Hallo3: The first application of a pretrained transformer-based video generative model for highly dynamic, realistic portrait animation.
+- Identity reference network, 3D VAE, transformer layers, speech audio conditioning, motion frame mechanisms, DiT-based video generation, video extrapolation.
+- Addresses challenges of non-frontal perspectives, dynamic objects, and immersive backgrounds in portrait animation.
+
+
+---
+
 [Thinking with Many Minds: Using Large Language Models for Multi-Perspective Problem-Solving](https://arxiv.org/abs/2501.02348)
 
 - Replicates the concept of "Wisdom of the Crowd" with LLMs using synthetic deliberation. 
