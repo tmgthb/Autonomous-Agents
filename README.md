@@ -258,7 +258,16 @@ Chronological order.
 
 #### 31st of December 2024
 
-#### 31st of December 2024
+#### 31.12.2024
+
+[Enhancing LLM Reasoning with Reward-guided Tree Search](https://arxiv.org/abs/2411.11694)
+
+- STILL-1 (Slow Thinking with LLMs): A reward-guided tree search framework to enhance the reasoning capabilities of LLMs.
+- Integrates policy model, reward model, and search algorithm; policy model navigates a dynamically expanding tree; guided by a trained reward model.
+- Improves LLMs' performance on complex mathematical reasoning tasks by trading test time for improved accuracy.
+
+
+---
 
 [MAIN-RAG: Multi-Agent Filtering Retrieval-Augmented Generation](https://arxiv.org/abs/2501.00332)
 
@@ -424,6 +433,16 @@ Chronological order.
 
 - Agentable: Introduces static analysis tool to detect defects in code with LLM-based agents and Code Property Graphs (identifies specific code patterns/analyses descriptions). Includes AgentSet-dataset.
 - Includes pre-processing, defect detection (code abstraction/LLM invocation/semantic enrichment/detect oracles engineeering), and defect reporting-modules.
+
+---
+
+#### 22.12.2024
+
+[Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems](https://arxiv.org/abs/2412.09413)
+
+- STILL-2 (Slow Thinking with LLMs): A framework to train reasoning models using a three-phase approach: imitation, exploration, and self-improvement.
+- Initial fine-tuning with distilled long-form thought data, exploration of challenging problems by generating multiple rollouts, iterative refinement of the training dataset.
+- The framework demonstrates competitive performance compared to industry-level reasoning systems, highlighting the potential of slow-thinking in enhancing complex reasoning capabilities of LLMs.
 
 
 ---
