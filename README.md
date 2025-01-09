@@ -55,6 +55,16 @@ Chronological order.
 
 ---
 
+
+[Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought](https://arxiv.org/abs/2501.04682)
+
+- Meta-CoT (Meta Chain-of-Thought): A novel framework that extends traditional CoT by explicitly modeling the underlying reasoning process required to arrive at a particular CoT.
+- Inspired by Cognitive Science's dual-process theory, non-linear, iterative, latent process of exploration and verification, in-context search, process supervision, synthetic data generation, search algorithms, instruction tuning, reinforcement learning, scaling laws, verifier roles, novel reasoning algorithms, meta-reinforcement learning.
+- This work provides a theoretical and practical roadmap to enable Meta-CoT in LLMs, paving the way for more powerful and human-like reasoning in artificial intelligence.
+
+---
+
+
 [Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227)
 
 - Agent Laboratory: An autonomous research-framework with LLMs for completing the entire research process (literature review/experimentation/report writing), from literature review to experimentation (plan formulation, data preparation and running experiments) and report writing (report writing and report refinements).
