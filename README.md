@@ -43,7 +43,7 @@ Chronological order.
 
 </div>
 
-#### 08.01.2025
+#### 8th of January 2025
 
 [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
 
@@ -447,7 +447,35 @@ Chronological order.
 
 ---
 
+
+#### 21st of December 2024
+
+[OpenAI o1 System Card](https://arxiv.org/abs/2412.16720)
+
+- o1 model series: Large-scale reinforcement learning models trained to reason using chain of thought, improving safety and robustness.
+- Next model in series is OpenAI o1, faster version is OpenAI o1-mini, effective at coding, "thinks before it answers", long chain of thought before responding, refine thinking process, try different strategies, recognize mistakes.
+- Reasoning allows models to follow safety guidelines, provide helpful answers, resist attempts to bypass safety rules, avoid producing unsafe content, and reach state-of-the-art performance on certain benchmarks.
+
+
+---
+
 #### 20th of December 2024
+
+[Deliberative Alignment: Reasoning Enables Safer Language Models](https://arxiv.org/abs/2412.16339)
+
+- Deliberative Alignment: A training approach that "directly teaches" LLMs to explicitly reason through (safety) specifications before producing an answer.
+- Claims, that reasoning using explicitly specified policies in general, enable scaling alignment. Apart, imrpoves model safety, robustness to jailbreaks, out-of-distribution generalization, and reduces overrefusal rates.
+- Two core stages: supervised fine-tuning on (prompt, CoT, output) examples, reinforcement learning; uses context distillation; includes a "judge" LLM for reward signal.
+- Assigns deliberatedly a varied amount of compute to CoT, which improves performance in hard evals.
+- In first stage, the model is fine tuned with SFT to reason about the (safety) specification within its CoT using examples dataset generated with context distillation with o-type model, where the CoT references the specification.
+- Second stage trains with high-compute RL the model to think effectively by providing reward signal using a judge LLM with access to the (safety) instructions.
+
+
+
+---
+
+
+
 
 [Offline Reinforcement Learning for LLM Multi-Step Reasoning](https://arxiv.org/abs/2412.16145)
 
