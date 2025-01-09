@@ -55,6 +55,17 @@ Chronological order.
 
 ---
 
+[Agent Laboratory: Using LLM Agents as Research Assistants](https://arxiv.org/abs/2501.04227)
+
+- Agent Laboratory: An autonomous research-framework with LLMs for completing the entire research process (literature review/experimentation/report writing), from literature review to experimentation (plan formulation, data preparation and running experiments) and report writing (report writing and report refinements).
+- Human-in-the-loop, research idea as input and code repository/research report as output. Producs SOTA-level performance and reduces research expensesn.
+- The framework has the potential to accelerate scientific discovery by enabling researchers to focus on creative ideation rather than low-level coding and writing.
+- Includes postdoc/ph student/sw engineer/ml engineer/professor-agents. Includes mle-solver-tool capable of solving ML-tasks, which iteratively improves research code.
+- Automated evaluation of the framework significantly overestimated the accurate scoring. Copilot mode was found useful by the human testers. Includes prompts.
+
+
+---
+
 
 #### 6th of January 2025
 
