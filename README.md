@@ -43,6 +43,18 @@ Chronological order.
 
 </div>
 
+#### 08.01.2025
+
+[rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
+
+- rStar-Math: A framework demonstrating that small language models (SLMs) can rival or surpass the math reasoning capability of OpenAI models through deep thinking. Iteratively improves through self-evolution generating millions of new math reasoning trajectories in each round.
+- Uses Monte Carlo Tree Search (MCTS) with self-annotated Q-values. rStar-Math used 747k math word problems, took the final correct answer and then rolled out 16 MCTS-based step-by-step verified reasoning trajectories, to categorize problems by difficulty level (easy/medium/hard) based on ratio of correct solutions. Hard problems are assigned with an additional extra 16 rollouts. The policy SLM is trained using all the step-by-step trajectories with their Q-values.
+- The importance of this work lies in showing that smaller language models can achieve state-of-the-art math reasoning, rivaling larger models, through a novel self-evolutionary process.
+- Includes Code-Augmented CoT, where step-by-step reasoning trajectories generated are verified with code execution for correctness.
+
+
+---
+
 
 #### 6th of January 2025
 
