@@ -183,6 +183,18 @@ Chronological order.
 ---
 
 
+[Dynamic Scaling of Unit Tests for Code Reward Modeling](https://arxiv.org/abs/2501.01054)
+
+- CodeRM-8B: A lightweight unit test generator with dynamic scaling mechanism, which adapts number of unit tests based on problem difficulty. The unit tests are used in validating generated code by the LLM as reward signal. 
+- The framework significantly improves performance of code generation across various models and benchmarks by enhancing the quality of the reward signal.
+
+
+---
+
+
+---
+
+
 [3D-LLaVA: Towards Generalist 3D LMMs with Omni Superpoint Transformer](https://arxiv.org/abs/2501.01163)
 
 - 3D-LLaVa: Introduces 3D multi modal LLM with point clouds/text instruction/visual prompt as input and generates text output and 3D mask with Omni Superpoint Transformer (OST).
