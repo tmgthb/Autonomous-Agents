@@ -198,7 +198,7 @@ Chronological order.
 
 [ProgCo: Program Helps Self-Correction of Large Language Models](https://arxiv.org/abs/2501.01264)
 
-- ProgCo (Program-driven Self-Correction): A self-correction framework that uses self-generated and self-executed verification pseudo-programs to improve reasoning in large language models.
+- ProgCo (Program-driven Self-Correction): A self-correction framework that uses self-generated and self-executed verification pseudo-programs to improve reasoning in large language models. Incluces ProgVe (Program driven Verification) and ProgRe (Program driven Refinement).
 - This framework enhances the ability of large language models to self-correct without external feedback, particularly in complex reasoning tasks.
 
 
