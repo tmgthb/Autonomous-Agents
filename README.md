@@ -44,7 +44,7 @@ Chronological order.
 </div>
 
 
-#### 09.01.2025
+#### 9th of January 2024
 
 [OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
 
@@ -52,6 +52,16 @@ Chronological order.
 
 
 ---
+
+[Emergence of human-like polarization among large language model agents](https://arxiv.org/abs/2501.05171)
+
+- Introduces a networked system, which simulates social interactions of thousands of LLM-based agents, including capabilities of establishing social relationships, communicating, and forming opinions on political issues. LLM agents form spontaneously human-like social networks (echo chamber).
+- LLM agents exhibit human-like polarization and can be used to study interventions, offering insights into managing polarization in real-world scenarios.
+- Self-regulation helps to reduce inconsistencies in the opinions, which leads to more balanced polarization patterns. Openmindedness and diverse interaction limit polarization effect.
+
+
+---
+
 
 #### 8th of January 2025
 
