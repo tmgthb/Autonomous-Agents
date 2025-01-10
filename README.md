@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+
+#### 09.01.2025
+
+[OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
+
+- OpenOmni: Introduces three-stage training method combining speech-to-text generation/image-to-text generation/speech generation, which results SOTA-level omnimodal LLM.
+
+
+---
+
 #### 8th of January 2025
 
 [rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/abs/2501.04519)
