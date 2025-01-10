@@ -196,6 +196,15 @@ Chronological order.
 
 #### 2nd of January 2025
 
+[ProgCo: Program Helps Self-Correction of Large Language Models](https://arxiv.org/abs/2501.01264)
+
+- ProgCo (Program-driven Self-Correction): A self-correction framework that uses self-generated and self-executed verification pseudo-programs to improve reasoning in large language models.
+- This framework enhances the ability of large language models to self-correct without external feedback, particularly in complex reasoning tasks.
+
+
+---
+
+
 [A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
 
 - A3 (Android Agent Area): Introduces benchmark to evaluate mobile GUI agents, which focuses on practical tasks, larger action spaces and automated LLM-based evaluation. 
