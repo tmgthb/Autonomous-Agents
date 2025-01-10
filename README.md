@@ -95,6 +95,17 @@ Chronological order.
 
 ---
 
+#### 07.01.2025
+
+[Reasoning-Enhanced Self-Training for Long-Form Personalized Text Generation](https://arxiv.org/abs/2501.04167)
+
+- REST-PG (Reasoning-Enhanced Self-Training for Personalized Text Generation): Introduces a multi-stage framework designed to teach LLMs reasoning over personalized context through Expectation-Maximization Reinforced Self-Training.
+- Generates reasoning paths based on the user's past preferences, background knowledge, and writing style
+- The framework enhances LLMs' ability to generate personalized text, outperforming state-of-the-art baselines by 14.5% on average.
+
+
+---
+
 
 #### 6th of January 2025
 
