@@ -594,46 +594,29 @@ Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm 
 
 ### Memory & Context 
 
-- Context [refers](https://dictionary.cambridge.org/dictionary/essential-british-english/context) to all the facts/opinions/etc., which relate to a particular thing/event.
 
-- Memory [refers](https://dictionary.cambridge.org/dictionary/english/memory) to abilitty to remember according to Cambridge dictionary.
+Memory is [defined](https://dictionary.cambridge.org/dictionary/english/memory) as "the ability to remember information, experiences, and people." 
 
-[- "In-Context Learning" (ICL) in the case of LLMs](https://arxiv.org/pdf/2005.14165) was defined as the LLM learning tasks without any explicit parameter updates, relying instead on their ability to process and understand the context provided in the input. 
+Memory is vital for humans and AI in order to retrieve relevant ["context](https://dictionary.cambridge.org/dictionary/essential-british-english/context): about "...all the facts/opinions/etc., which relate to a particular thing/event." Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which aims to enhance LLM context with up-to-date/personalized/factual/domain-specific-information. Evidence exist, that LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Never models like Gemini 2.0 are surprisingly good at such calculations, which go way beyond just pattern matching of the training data. The ability of LLMs to track states is promising for reasoning-tasks. Extra-large input-context windows enable in models like Gemini, to process even large memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative [KV-caching](https://arxiv.org/abs/2403.11805) techniques improve directly the memory management of the LLMs. 
 
-Context and Memory can be seen as different sides of the same "coin". Human mind autonomously defines context for each new experience. We can quickly associate memories even decades ago or pull context from the most recent sensory data. 
+Fine tuning methods have been effectively used in improving LLM performance with extra large context windows and memorizing domain specific knowledge. 
 
-- There seems to be no time delay in retrieving this context/memory.
-- Consciously it is difficult to quantify the size of this context/memory.
+Memory<sup>[3](https://arxiv.org/abs/2407.01178)</sup>-architecture suggests infinite context is possible with human-like memory architectures, which support memory consolidation, conscious reasoning and sparse memory.
 
-Minsky (1985) [argued](http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html) that categorization is crucial for learning.  He uses holograms to illustrate this: they only match if the depicted scenes are nearly identical.  Without grouping features into recognizable objects, every experience would be unique, preventing learning. Categorization allows us to generalize and accumulate knowledge. 
+LLM-based agents apply various types of memory approaches:
 
-This is where memory comes into play. By incorporating memory, LLMs can store and retrieve past experiences, knowledge, and learned patterns.
-
-Autonomous agents require memory for multiple reasons: to retrieve information, to learn from past, tracking progress, to make decisions, to use context and to communicate.   
-
-According to (Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1], the Memory in LLM-based agents can be divided into:
-- Inside-trial information
-- Cross-trial information
-- External Knowledge.
-
-(Zhang et al. (2024))[https://arxiv.org/abs/2404.13501v1] find three types of memory operations: memory reading, memory writing and memory management. 
-
-(Li et al. (2024))[https://arxiv.org/abs/2211.05110] divide memory research into three parts:
-- World knowledge in LLMs
-- Knowledge update in LLMs
-- Contextual and Parametric knowledge
+- Long term memory<sup>[1](https://arxiv.org/abs/2410.15665v1)</sup>
+- Episodic memory<sup>[1](https://arxiv.org/abs/2403.11901),[2](https://arxiv.org/abs/2405.14992),[3](https://arxiv.org/abs/2407.04363),[4](https://arxiv.org/abs/2407.09450),[5](https://arxiv.org/abs/2408.07465), [6](https://arxiv.org/abs/2410.08133),[7](https://arxiv.org/abs/2411.06736),[8](https://arxiv.org/abs/2411.12977)</sup>
+- Semantic memory<sup>[1](https://arxiv.org/abs/2405.13009),[2](https://arxiv.org/abs/2411.04999)</sup>
+- Procedural memory<sup>[1](https://arxiv.org/abs/2409.01344)</sup>
+- Graph memory<sup>[1](https://arxiv.org/abs/2408.15903)</sup>
+- Working memory<sup>[1],(https://arxiv.org/abs/2312.17259)[2](https://arxiv.org/abs/2305.16338),[3](https://arxiv.org/abs/2306.08129),[4](https://arxiv.org/abs/2402.10548)</sup>
+- Dynamic memory<sup>[1](https://arxiv.org/abs/2312.08402)</sup>
+- Shared memory (Collective memory)<sup>[1](https://arxiv.org/abs/2404.09982)</sup>
+- Persistent Experience Memory<sup>[1](https://arxiv.org/abs/2306.07929)</sup>
+- Explicit memory<sup>[1](https://arxiv.org/abs/2407.01178)</sup>
 
 
-- Context word [derives](https://www.etymonline.com/word/context) from latin "contextus" (a joining together). To be precise, the word contextere" (to interweave): "com" (together) and "texere" (to weave).
-- The word is not sum of words "con" (with) and "text". For example, saying "another one, please" can be said without specifying explicitly in the preceding text the concept of the "another one". For example the context differs, if we are listening a song vs. in a restaurant. The context does not need to be explicitly written.
-- LLM context window size has gradually increased from the 2k context window (GPT-3), to 4k (GPT-3.5), 8k / 32k (GPT-4), 128k (GPT-4.5) for [OpenAI models](https://platform.openai.com/docs/models/), 2M (Claude 3) and 1M (Gemini Pro 1.5) with near [perfect accuracy](https://www-cdn.anthropic.com/de8ba9b01c9ab7cbabf5c33b80b7bbc618857627/Model_Card_Claude_3.pdf) and the existing empirical research has pushed the textual context window limit above 2M tokens: [LongRoPE](https://arxiv.org/abs/2402.13753) and [MemWalker-interactive agent](https://arxiv.org/abs/2310.05029).  The textual context window in LLMs is already beyond human-level capacity text. 
-- Terry Winograd wrote in 2001 a paper called  ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), where he reviews context in language, human-computer dialogue, context vs. setting and virtual and physical context. Winograd argues, that communication is based on common ground between speaker/hearer during the interpretation, which guided not only by physical environment, but as well non-physical shared context, such a common goal. As the context window in LLMs increase, the focus will inevitable turn towards managing context window perceived from other modalities such as vision, sound, robots,  etc.
-- Lenat (1998) authored ["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) offers "a must-read" analysisw on the various dimensions and aspects of the context. For exampple Lenat proposes to think context being a region in some n-dimensional space.
-- Context is a region in n-dimensional embedding space. Text is only one of the dimensions.
-
-Overall, context is n-dimensional space, including text-dimension already in LLMs above human-level, yet lacking in other dimensions at the moment, such as vision, sounds and embodiment. 
-
-Latest research suggest attention can be extended to infite context window in LLMs.
 
 
 ---
