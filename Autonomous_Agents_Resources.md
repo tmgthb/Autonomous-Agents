@@ -610,12 +610,11 @@ LLM-based agents apply various types of memory approaches:
 - Semantic memory<sup>[1](https://arxiv.org/abs/2405.13009),[2](https://arxiv.org/abs/2411.04999)</sup>
 - Procedural memory<sup>[1](https://arxiv.org/abs/2409.01344)</sup>
 - Graph memory<sup>[1](https://arxiv.org/abs/2408.15903)</sup>
-- Working memory<sup>[1],(https://arxiv.org/abs/2312.17259)[2](https://arxiv.org/abs/2305.16338),[3](https://arxiv.org/abs/2306.08129),[4](https://arxiv.org/abs/2402.10548)</sup>
+- Working memory<sup>[1](https://arxiv.org/abs/2312.17259),[2](https://arxiv.org/abs/2305.16338),[3](https://arxiv.org/abs/2306.08129),[4](https://arxiv.org/abs/2402.10548)</sup>
 - Dynamic memory<sup>[1](https://arxiv.org/abs/2312.08402)</sup>
-- Shared memory (Collective memory)<sup>[1](https://arxiv.org/abs/2404.09982)</sup>
+- Shared memory / Collective memory<sup>[1](https://arxiv.org/abs/2404.09982)</sup>
 - Persistent Experience Memory<sup>[1](https://arxiv.org/abs/2306.07929)</sup>
 - Explicit memory<sup>[1](https://arxiv.org/abs/2407.01178)</sup>
-
 
 
 
