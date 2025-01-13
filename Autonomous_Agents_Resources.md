@@ -592,9 +592,22 @@ Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm 
 
 </div>
 
-### Memory & Context window
+### Memory & Context 
 
-Memory (refers)[https://dictionary.cambridge.org/dictionary/english/memory] to abilitty to remember according to Cambridge dictionary.
+- Context (are)[https://dictionary.cambridge.org/dictionary/essential-british-english/context] all the facts/opinions/etc., which relate to a particular thing/event.
+
+- Memory (refers)[https://dictionary.cambridge.org/dictionary/english/memory] to abilitty to remember according to Cambridge dictionary.
+
+(- "In-Context Learning" (ICL) in the case of LLMs)[https://arxiv.org/pdf/2005.14165] was defined as the LLM learning tasks without any explicit parameter updates, relying instead on their ability to process and understand the context provided in the input. 
+
+Context and Memory can be seen as different sides of the same "coin". Human mind autonomously defines context for each new experience. We can quickly associate memories even decades ago or pull context from the most recent sensory data. 
+
+- There seems to be no time delay in retrieving this context/memory.
+- Consciously it is difficult to quantify the size of this context/memory.
+
+Minsky (1985) (argued)[http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html] that categorization is crucial for learning.  He uses holograms to illustrate this: they only match if the depicted scenes are nearly identical.  Without grouping features into recognizable objects, every experience would be unique, preventing learning. Categorization allows us to generalize and accumulate knowledge. 
+
+This is where memory comes into play. By incorporating memory, LLMs can store and retrieve past experiences, knowledge, and learned patterns.
 
 Autonomous agents require memory for multiple reasons: to retrieve information, to learn from past, tracking progress, to make decisions, to use context and to communicate.   
 
