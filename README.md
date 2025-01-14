@@ -82,6 +82,13 @@ Chronological order.
 
 ---
 
+[Lifelong Learning of Large Language Model based Agents: A Roadmap](https://arxiv.org/abs/2501.07278)
+
+- Introduces a s survey incorporating lifelong learning into LLM-based agents.
+- Categorizes core components into perception-, memory-, and action-modules, highlights continuous adaptation, mitigates catastrophic forgetting, and improves long-term performance.
+
+
+---
 
 #### 12th of January 2025
 
