@@ -65,6 +65,16 @@ Chronological order.
 
 ---
 
+[Understanding and Benchmarking Artificial Intelligence: OpenAI's 03 Is Not AGI](https://arxiv.org/abs/2501.07458)
+
+- Claims, that ARC-AGI (Abstraction and Reasoning Corpus) is a benchmark proposed to measure intelligence, but not suitable for measuring progress towards AGI.
+- ARC-AGI tasks represent a specific problem structure, which can be solved by massive trialling of predefined operations, and it does not require exploration, but only exploitation.
+- A new benchmark is outlined that covers a much higher diversity of unknown tasks to be solved, to enable a comprehensive assessment of intelligence and of progress towards AGI.
+
+
+---
+
+
 #### 12th of January 2025
 
 [DVM: Towards Controllable LLM Agents in Social Deduction Games](https://arxiv.org/abs/2501.06695)
