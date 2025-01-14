@@ -82,6 +82,17 @@ Chronological order.
 
 ---
 
+[PoAct: Policy and Action Dual-Control Agent for Generalized Applications](https://arxiv.org/abs/2501.07054)
+
+- PoAct (Policy and Action Dual-Control Agent): is a framework that dynamically adjusts action space and reasoning policy using a Policy Controller and Action Controller.
+- PoAct includes a Policy Controller for switching between reasoning policies, and an Action Controller with RAG Selector and Action Reviewer for managing action space and reasoning paths; it is evaluated on LegalAgentBench and AgentBench datasets.
+- PoAct achieves higher quality code actions and more accurate reasoning paths, while also reducing token consumption.
+
+
+---
+
+
+
 [Lifelong Learning of Large Language Model based Agents: A Roadmap](https://arxiv.org/abs/2501.07278)
 
 - Introduces a s survey incorporating lifelong learning into LLM-based agents.
