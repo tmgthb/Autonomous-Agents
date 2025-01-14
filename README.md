@@ -498,8 +498,6 @@ Chronological order.
 
 #### 31st of December 2024
 
-#### 31.12.2024
-
 [Enhancing LLM Reasoning with Reward-guided Tree Search](https://arxiv.org/abs/2411.11694)
 
 - STILL-1 (Slow Thinking with LLMs): A reward-guided tree search framework to enhance the reasoning capabilities of LLMs.
@@ -602,6 +600,16 @@ Chronological order.
 
 #### 24th of December 2024
 
+#### 24.12.2024
+
+[A Novel Task-Driven Method with Evolvable Interactive Agents Using Event Trees for Enhanced Emergency Decision Support](https://arxiv.org/abs/2501.06193)
+
+- EvoTaskTree: is a task-driven method with evolvable interactive agents using event trees for emergency decision support.
+- Framework integrates task executors and task validators powered by large language models (LLMs), leverages insights from event tree analysis, and includes three crucial tasks: initiating event subevent analysis, event tree header event analysis, and decision recommendations.
+- This approach enhances rapid formulation of emergency decision-making and outperforms existing approaches.
+
+
+---
 
 [Multi-Agents Based on Large Language Models for Knowledge-based Visual Question Answering](https://arxiv.org/abs/2412.18351)
 
@@ -765,6 +773,18 @@ Chronological order.
 
 
 ---
+
+#### 11th of December 2024
+
+[A Multimodal Social Agent](https://arxiv.org/abs/2501.06189)
+
+- MuSA: is a multimodal LLM-based agent designed for analyzing text-rich social content.
+- MuSA includes reason-, plan-, optimize-, criticize-, refine- and act-LLM-based units, is model-agnostic, and optimized for social content analysis tasks.
+- MuSA can automate and improve social content analysis, aiding decision-making processes across various applications.
+
+
+---
+
 
 #### 9th of December 2024
 
