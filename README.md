@@ -214,6 +214,14 @@ Chronological order.
 
 ---
 
+[NSChat: A Chatbot System To Rule Them All](https://arxiv.org/abs/2501.05541)
+
+- NSChat: introduces a web-based chatbot system designed for neuroscience research.
+- NSChat is built using React framework, it is customizable, flexible, and allows integration of various LLMs, it also includes a logging mechanism for user interactions.
+
+
+---
+
 
 #### 8th of January 2025
 
