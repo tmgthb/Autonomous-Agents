@@ -597,9 +597,28 @@ Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm 
 
 Memory is [defined](https://dictionary.cambridge.org/dictionary/english/memory) as "the ability to remember information, experiences, and people." 
 
-Memory is vital for humans and AI in order to retrieve relevant ["context](https://dictionary.cambridge.org/dictionary/essential-british-english/context): about "...all the facts/opinions/etc., which relate to a particular thing/event." Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which aims to enhance LLM context with up-to-date/personalized/factual/domain-specific-information. Evidence exist, that LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Never models like Gemini 2.0 are surprisingly good at such calculations, which go way beyond just pattern matching of the training data. The ability of LLMs to track states is promising for reasoning-tasks. Extra-large input-context windows enable in models like Gemini, to process even large memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative [KV-caching](https://arxiv.org/abs/2403.11805) techniques improve directly the memory management of the LLMs. 
+Minsky (1985) [argued](http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html) that 
+categorization of things into recognizable objects is crucial for learning. Minsky argued, that human memory would not be a hologram, but rather object-like. According to Minsky, hologram memory would be useful in learning only, if humans were able to experience exact identical match of previosly experienced scenes. Withoug grouping features into recognizable objects, every experience would be unique, preventing learning. Categorization of things into objects allows us to generalize and accumulate knowledge.
+
+Memory is vital for humans and AI in order to retrieve relevant ["context](https://dictionary.cambridge.org/dictionary/essential-british-english/context): about "...all the facts/opinions/etc., which relate to a particular thing/event."
+
+Context-term is not formed from words "con" and "text". Context [derives](https://www.etymonline.com/word/context) actually from latin word "contextus", which refers to "joining together": "com" = together and "texere" = to weave. We tend to think the text input as the LLM context. However, LLM-based agents apply context from multiple modalities and not always explicitly written / said aloud. 
+
+Terry Winograd argued in 2001 ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), that communication is based on common ground between speaker/hearer during the interpretation. This is guided not only by physical environment, but as well non-physical shared context, such a common goal.
+
+["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) by Lenat (1998)  offers "a must-read" analysis on the various dimensions and aspects of the context. According to Lenat, Context is a region in n-dimensional embedding space, where text is only one of the dimensions.
+
+LLM context input length has rapidly increased from the 2k context of GPT-3 to actual 1M token productio systems. We will likely see in near future production systems with [infinite context](https://arxiv.org/abs/2404.07143), which may additionally use [LLM fine tuning](https://arxiv.org/abs/2402.13753) or [tree-agents](https://arxiv.org/abs/2310.05029). Interestingly, LLMs are already at "Superintelligence"-level in terms of their capacity to support vastly more textual context than any human.
+
+The ability to support larger context windows is quickly making possible usage of new modalities such as vision, sound, actions, etc.
+
+Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which aims to enhance LLM context with up-to-date/personalized/factual/domain-specific-information. Evidence exist, that LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Never models like Gemini 2.0 are surprisingly good at such calculations, which go way beyond just pattern matching of the training data. The ability of LLMs to track states is promising for reasoning-tasks. Extra-large input-context windows enable in models like Gemini, to process even large memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative KV-caching<sup>[1](https://arxiv.org/abs/2403.11805),[2](https://arxiv.org/pdf/2404.13501v1)</sup>  techniques improve directly the memory management of the LLMs. 
+
+
 
 Fine tuning methods have been effectively used in improving LLM performance with extra large context windows and memorizing domain specific knowledge. 
+
+Titan-models were recently introduced as models capable to [memorize at test time](https://arxiv.org/abs/2501.00663). 
 
 Memory<sup>[3](https://arxiv.org/abs/2407.01178)</sup>-architecture suggests infinite context is possible with human-like memory architectures, which support memory consolidation, conscious reasoning and sparse memory.
 
@@ -615,6 +634,8 @@ LLM-based agents apply various types of memory approaches:
 - Shared memory / Collective memory<sup>[1](https://arxiv.org/abs/2404.09982)</sup>
 - Persistent Experience Memory<sup>[1](https://arxiv.org/abs/2306.07929)</sup>
 - Explicit memory<sup>[1](https://arxiv.org/abs/2407.01178)</sup>
+- Parametric memory<sup>[1](https://arxiv.org/pdf/2404.13501v1)</sup>
+
 
 
 
