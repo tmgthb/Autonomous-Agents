@@ -47,9 +47,10 @@ Chronological order.
 
 [A Multi-Agent Framework for Systematic Review Automation Using Large Language Models](https://arxiv.org/abs/2501.05468)
 
-- LatteReview: is a Python-based framework that leverages LLMs and multi-agent systems to automate key elements of the systematic review process.
-- Framework utilizes modular agents for title and abstract screening, relevance scoring, and structured data extraction; agents operate within orchestrated workflows, supporting sequential and parallel review rounds, dynamic decision-making, and iterative refinement; framework integrates both local models / models via API.
-- LatteReview streamlines workflows while maintaining rigor in systematic reviews.
+- LatteReview: is a Python-based framework that leverages LLMs and multi-agents to automate key elements of the systematic literature review process.
+- Consists of LLM providers (local models / LLMs via api), Reviewer agents (roles / expertise levels) and Workflows (supporting sequential and parallel review rounds, dynamic decision-making, and iterative refinement).
+- Includes BaseReviewer/ScoringReviewer/TitleAbstractReviewer/AbstractionReviewer/Custom reviewer-agents, which are used as modular agents for title and abstract screening, relevance scoring, and structured data extraction; agents operate within orchestrated workflows.
+- Workflow module includes Concept of rounds / Chaining reviews / Parallel reviews and Dynamic filter.
 
 
 ---
