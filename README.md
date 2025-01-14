@@ -79,7 +79,9 @@ Chronological order.
 
 [BioAgents: Democratizing Bioinformatics Analysis with Multi-Agent Systems](https://arxiv.org/abs/2501.06314)
 
-- BioAgents: is a multi-agent system designed to assist users in bioinformatics pipeline design, development, and troubleshooting. which includes two specialized agents and a reasoning agent. First specialized agent was fine tuned with conceptual genomics tasks and the second specialized agent uses RAG related to workflow documentation. 
+- BioAgents: is a multi-agent system designed to assist users in bioinformatics pipeline design, development, and troubleshooting. which includes two specialized agents and a reasoning agent.
+- First specialized agent was fine tuned with conceptual genomics tasks and the second specialized agent uses RAG related to workflow documentation.
+- Reasoning agent uses self-ratings / threshold.
 - Achieves performance comparable to human experts on conceptual genomics tasks. 
 
 
