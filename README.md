@@ -177,6 +177,15 @@ Chronological order.
 
 ---
 
+[OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327)
+
+- OpenFOAMGPT: LLM-based agent tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations.
+- It leverages GPT-4 and a chain-of-thought (CoT)-enabled o1 preview model, uses retrieval-augmented generation (RAG) pipeline, and includes an iterative correction loop.
+
+
+---
+
+
 
 #### 9th of January 2024
 
