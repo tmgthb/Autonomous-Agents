@@ -56,12 +56,20 @@ Chronological order.
 
 #### 13th of January 2025
 
+[WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572)
+
+- WebWalker: is a multi-agent framework that mimics human-like web navigation through an explore-critic paradigm. 
+- WebWalkerQA is a benchmark designed to assess the ability of LLMs to perform web traversal, it evaluates the capacity of LLMs to traverse a website's subpages to extract high-quality data systematically, and it focuses on text-based reasoning abilities.
+- This work highlights the importance of deep, vertical exploration in web-based tasks.
+
+
+---
+
 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542)
 
 - MVoT (Multimodal Visualization-of-Thought): is a multimodal native reasoning paradigm that generates image visualizations of reasoning traces.
 - MVoT uses token discrepancy loss to improve visual coherence and fidelity, and is validated on dynamic spatial reasoning tasks, showing competitive performance.
 - MVoT establishes new possibilities for complex reasoning tasks where visual thinking complements verbal reasoning.
-
 
 ---
 
