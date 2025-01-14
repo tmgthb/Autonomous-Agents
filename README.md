@@ -75,7 +75,17 @@ Chronological order.
 
 ---
 
-#### 10.01.2025
+[Guided Code Generation with LLMs: A Multi-Agent Framework for Complex Code Tasks](https://arxiv.org/abs/2501.06625)
+
+- Guided code generation: introduces a multi-agent framework for complex code tasks, which includes hierarchical decomposition, bottom-up code generation, and multi-agent validation.
+- Leverages LLMs as fuzzy searchers and information retrievers. Mitigates LLM weaknesses in long sequential reasoning and context understanding.
+- This framework enhances code generation capabilities and overcomes limitations of LLMs in compositional reasoning and context handling.
+
+
+---
+
+
+#### 10th of January 2025
 
 [BioAgents: Democratizing Bioinformatics Analysis with Multi-Agent Systems](https://arxiv.org/abs/2501.06314)
 
