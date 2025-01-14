@@ -43,7 +43,18 @@ Chronological order.
 
 </div>
 
-#### 13.01.2025
+#### 14th of January 2025
+
+[A Multi-Agent Framework for Systematic Review Automation Using Large Language Models](https://arxiv.org/abs/2501.05468)
+
+- LatteReview: is a Python-based framework that leverages LLMs and multi-agent systems to automate key elements of the systematic review process.
+- Framework utilizes modular agents for title and abstract screening, relevance scoring, and structured data extraction; agents operate within orchestrated workflows, supporting sequential and parallel review rounds, dynamic decision-making, and iterative refinement; framework integrates both local models / models via API.
+- LatteReview streamlines workflows while maintaining rigor in systematic reviews.
+
+
+---
+
+#### 13th of January 2025
 
 [Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542)
 
