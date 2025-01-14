@@ -42,20 +42,20 @@ Copyright (C) Teemu Maatta.
   - [Memory](#memory)
   - [Tools](#tools)
   - [Self-Recursive Learning](#selflearning)
-  - [Embodiment](#embodiment)
+  - [Embodiment & Robotics](#embodiment)
   - [Role play](#roles)
   - [Emotional Intelligence](#emotions)
+  - [Communication protocols](#protocols)
+  - [Operating Systems](#os)
+  - [Brain interface](#brain)
+  - [Consciousness](#consciousness)
 - [Why Autonomous agents work?](#why)
   - [Next sequence prediction](#nextsequenceprediction)
+  - [Scaling planning](#scaling_planning)
   - [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
   - [Free energy principle](#freeenergyprinciple)
   - [Interpretability](#interpretability)
   - [Synthetic data](#syntheticdata)
-- [Future work](#futureresearch)
-  - [Real World Environments](#realworldenvironments)
-  - [Simulation](#simulation)
-  - [Consciousness](#consciousness)
-  - [Brain research](#brainresearch)
 
 
 
@@ -71,7 +71,8 @@ Copyright (C) Teemu Maatta.
 
 ## Introduction to Autonomous Agents
 
-There exists already over +1k research arXiv-research [papers](https://arxiv.org/search/?searchtype=all&query=%22Autonomous+Agents%22&abstracts=show&size=50&order=-announced_date_first) and +700 Github [repositories](https://github.com/search?q=%22Autonomous%20Agent%22&type=repositories) with the term: "Autonomous Agent" .
++1.3k arXiv research [papers](https://arxiv.org/search/?searchtype=all&query=%22Autonomous+Agents%22&abstracts=show&size=50&order=-announced_date_first) and +1k Github [repositories](https://github.com/search?q=%22Autonomous%20Agent%22&type=repositories) exist with term "Autonomous agents".
+
 
 </div>
 
@@ -89,14 +90,37 @@ There exists already over +1k research arXiv-research [papers](https://arxiv.org
 
 ### Definitions
 
+- [Agent](#agent_definition)
 - [Autonomous Agent](#autonomousagent_definition)
-- [Artificial General Intelligence (AGi)](#agi_definition)
+- [Artificial General Intelligence (AGI)](#agi_definition)
+- [SuperIntelligence](#superintelligence_definition)
 - [Generalist Agent](#generalistagent_definition)
 - [Reinforcement Learning Agent](#rlagent_definition)
 - [LLM Agent](#llmagent_definition)
 - [Embodied Agent](#embodiedagent_definition)
 - [AI Agent](#aiagent_defintion)
+
 - [Autonomous Agent (my definition)](#aga_definition)
+
+
+---
+
+
+
+
+<div id="agent_definition">  
+</div>
+
+
+#### Agent
+
+
+The term "agent" originates from the Latin verb *agere*, meaning "to drive, lead, or do"<sup>[1](https://en.wiktionary.org/wiki/agent)</sup> . Its present participle, *agens*, provides the root for "agent," signifying "doing" or "acting" <sup>[2](https://www.dictionary.com/browse/agent)</sup>. This etymology emphasizes the capacity to effect change, underpinning the word's varied meanings <sup>[3](https://www.etymonline.com/word/agent),[4](https://www.merriam-webster.com/dictionary/agent)</sup>.
+
+The Latin root *agere* has also produced related terms like "actor." While both share a common ancestor, they have evolved distinct connotations. "Actor" is often associated with performing arts, while "agent" encompasses broader roles, including those with continuous action or agency<sup>[5](https://www.reddit.com/r/etymology/comments/2ysz48/actor_and_agent/)</sup>.
+
+This chapter will explore various agentic roles, building upon the foundational concept of agency as the capacity to act and effect change. 
+
 
 ---
 
@@ -113,15 +137,16 @@ Autonomous Agents was [defined](https://github.com/tmgthb/Autonomous-Agents#auto
 
 
 Good:
-- Technological approach agnostic.
-- Non-controversial definition: leaves aside Consiousness & definition of AGI.
+- Agnostic regards underlining tech.
+- Excludes controversial aspects: consciousness, AGI, "free will" etc. 
+
 
 
 Negative:
-- Lacks aspects about generalization: tasks/objectives/embodiments.
-- Vague about human communication and cognitition.
+- No view regards the degree of generalization / adaption / embodiment / self-construction / communication / cognition.
 
-There are alternatives for this term, such as [Mae(1993):](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf)
+
+[Mae (1993)](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf) wrote even earlier, yet less cited definition:
 
 "Autonomous Agents are systems that inhabit dynamic, unpredictable environment in which they try to satisfy a set of time-dependent goals or motivations."
 
@@ -150,10 +175,36 @@ However, the term Artificial General Intelligence (AGI) is currently known throu
 
 AGI is referred in addition with various types of definitions. Perhaps the best paper to check is by [Morris et al (2023)](https://arxiv.org/abs/2311.02462), which not only reviews the different groups (Turing test, Strong AI / AI with consciousness, analogy to human brain, human level cognitive tasks, ability to learn tasks, economically valuable work/OpenAI, flexible and general, capable to earn money and generally performing) of AGI definers, but as well operationalises these groupings into different levels of AGI and defines 6 principles for AGI.
 
+Good:
+- Categorization levels, widely used term
+
+Negative
+- Vague: lacks clarity
+- Lacks agency, self-construction, etc. 
+
+
 
 ---
 
+<div id="agi_definition">  
 
+</div>
+
+####  SuperInteligence
+
+Nick Bostrom (2014) defined  SuperIntelligence: 
+
+"An intellect that is much smarter than the best human brains in practically every field, including scientific creativity, general wisdom, and social skills."
+
+Good:
+- Categorization levels, widely used term
+
+Negative
+- Vague: lacks clarity
+- Lacks agency, self-construction, etc. 
+
+
+---
 
 <div id="generalistagent_definition">  
 
@@ -354,42 +405,6 @@ Autonomous agents (AA) is defined:
 
 ---
 
-<div align="center">  
-
-### Related work
-Includes list of literature reviews by other authors for quick reference.
-</div>
-
-
-
-- [A Survey on Large Language Model based Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#autonomousagentssurvey),
-- [LLM Powered Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#lili),
-- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://github.com/tmgthb/Autonomous-Agents#llmagentsurvey),
-- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://github.com/tmgthb/Autonomous-Agents#humancap),
-- [LLMs](https://github.com/tmgthb/Autonomous-Agents#llmsurveymikolov),
-- [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
-- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
-- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
-- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459)
-- [Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
-- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
-- [Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods](https://arxiv.org/abs/2404.00282)
-- [LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models](https://arxiv.org/abs/2404.01230)
-- [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039)
-- [Comprehensible Artificial Intelligence on Knowledge Graphs: A survey](https://arxiv.org/abs/2404.03499)
-- [Graph Reinforcement Learning for Combinatorial Optimization: A Survey and Unifying Perspective](https://arxiv.org/abs/2404.06492)
-- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
-- [Exploring Autonomous Agents through the Lens of Large Language Models: A Review](https://arxiv.org/abs/2404.04442)
-- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
-- [Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
-- [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559)
-- [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
-- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
-- [Intelligent agents: theory and practice](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)
-
----
-
-
 <div id="benchmarks">  
 
 </div>
@@ -398,56 +413,29 @@ Includes list of literature reviews by other authors for quick reference.
 <div align="center">
 
 ### Evaluation frameworks and Benchmarks
-The benchmarks section includes few well known generic evaluation frameworks around AI research on Intelligence and set of Autonomous Agent component-level benchmarks. 
+
 </div>
 
-- [Intelligent behaviour](#intelligentbehaviour)
-- [Artificial General Intelligence](#agi)
-- [Artificial Super Intelligence](#asi)
-  
+Autonomous agents operate in "Real-World Environments (RWEs)"<sup>[1](https://tmmtt.medium.com/real-world-environments-1995aa68805b),[2](https://arxiv.org/pdf/1904.12901)</sup>.
 
----
+Therefore, to benchmark Autonomous agents, we should evaluate them in RWEs. RWEs are currently hard problems for agents with unique events. Thus, AI researchers typically prefer to benchmark Autonomous agents rather with reproducible benchmarks. 
 
-<div id="intelligentbehaviour"> </div>
+For example, Anthropic's LLMs appear to be ahead of the other models in tasks like "pixel counting" and "coding". 
 
-#### Intelligent behaviour
+An average developer could spend days of development work to compare performance of different LLMs in a GUI-benchmark, which would not generalize beyond the GUIs beyond its dataset. Thus these results could become quickly invalid as the OS/website/app-design changes. 
 
+Rather, developer could just pick a random GUI, test the LLM-agent in it, and quickly iterate prompting-technique, which improves performance across various LLMs and the learning tends to be transferable towards new tasks.
 
-- Yann Lecun (2024) in Lex Fridman [podcast](https://www.youtube.com/watch?v=5t1vTLU7s40) states four characters of intelligence behaviour:
+We can alternatively review AI capabilities from high-level:
+- Levels of AGI[1](https://arxiv.org/abs/2311.02462), [2](https://arxiv.org/abs/2303.12712)
 
-  - Capacity to undertand the physical world,
-  - The ability to remember and retrieve things,
-  - Persistent memory,
-  - The ability to reason and plan.
- 
----
-
-<div id="agi"> </div>
-
-#### Artificial General Intelligence (AGI):
-
-
-- Sparks of AGI in GPT-4: [Artificial General Intelligence](https://arxiv.org/abs/2303.12712) and [Levels of AGI](https://arxiv.org/abs/2311.02462)
-- GPT-4 performs [high compared to human-level performance on multiple benchmarks despite incomplete AGI](#sparks), not only on few.
-- LLMs can overcome [incremental tasks and Discontinuous tasks](#sparks) by using memory already widely integrated by developers or by using LLM agents-methodologies.
-
-  
----
-
-<div id="asi"> </div>
-
-#### Artificial Super Intelligence (ASI):
-
-
-ASI concept seems vague, because current AI systems are not generally more capable across all tasks. 
-
-- [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf) demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm.  
-
+We must remember, that above human-level intelligence is not a theoretical concept, but current reality:
+- in game-agents like [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf), which demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm. 
 
 
 
 ---
----
+
 
 <div id="systems">  </div>
 
@@ -592,13 +580,12 @@ Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm 
 
 </div>
 
-### Memory & Context 
 
+### Memory & Context
 
 Memory is [defined](https://dictionary.cambridge.org/dictionary/english/memory) as "the ability to remember information, experiences, and people." 
 
-Minsky (1985) [argued](http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html) that 
-categorization of things into recognizable objects is crucial for learning. Minsky argued, that human memory would not be a hologram, but rather object-like. According to Minsky, hologram memory would be useful in learning only, if humans were able to experience exact identical match of previosly experienced scenes. Withoug grouping features into recognizable objects, every experience would be unique, preventing learning. Categorization of things into objects allows us to generalize and accumulate knowledge.
+"Minsky (1985) [proposed]((http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html)) that the human ability to categorize experiences into recognizable objects is fundamental to learning. He argued that human memory is organized around discrete objects rather than working like a hologram, as holographic memory would only be useful when encountering exact replicas of past experiences. This object-based categorization enables us to generalize from experiences and accumulate knowledge, even when situations vary."
 
 Memory is vital for humans and AI in order to retrieve relevant ["context](https://dictionary.cambridge.org/dictionary/essential-british-english/context): about "...all the facts/opinions/etc., which relate to a particular thing/event."
 
@@ -613,7 +600,6 @@ LLM context input length has rapidly increased from the 2k context of GPT-3 to a
 The ability to support larger context windows is quickly making possible usage of new modalities such as vision, sound, actions, etc.
 
 Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which aims to enhance LLM context with up-to-date/personalized/factual/domain-specific-information. Evidence exist, that LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Never models like Gemini 2.0 are surprisingly good at such calculations, which go way beyond just pattern matching of the training data. The ability of LLMs to track states is promising for reasoning-tasks. Extra-large input-context windows enable in models like Gemini, to process even large memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative KV-caching<sup>[1](https://arxiv.org/abs/2403.11805),[2](https://arxiv.org/pdf/2404.13501v1)</sup>  techniques improve directly the memory management of the LLMs. 
-
 
 
 Fine tuning methods have been effectively used in improving LLM performance with extra large context windows and memorizing domain specific knowledge. 
@@ -635,7 +621,6 @@ LLM-based agents apply various types of memory approaches:
 - Persistent Experience Memory<sup>[1](https://arxiv.org/abs/2306.07929)</sup>
 - Explicit memory<sup>[1](https://arxiv.org/abs/2407.01178)</sup>
 - Parametric memory<sup>[1](https://arxiv.org/pdf/2404.13501v1)</sup>
-
 
 
 
@@ -690,10 +675,56 @@ Real-world physical interaction requires Autonomous Agents capable of making eme
 - [LLM Self-Improves its LLM](https://github.com/tmgthb/Autonomous-Agents#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
 - LLM fine-tuning may be based on [Self-Play](https://github.com/tmgthb/Autonomous-Agents#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
 
+---
+<div id="brain">  
 
+</div>
+
+
+### Brain research
+
+
+[Movie reconstruction from mouse visual cortex activity](https://www.biorxiv.org/content/10.1101/2024.06.19.599691v1)
+
+- Reconstructs ground-truth video using images from mouse brain.
+
+
+[Brain representation in conscious and unconscious vision](https://www.biorxiv.org/content/10.1101/2024.05.27.596053v1)
+
+- Discovers fronto-parietal cortex is involved in representing unconscious content.
 
 
 ---
+
+<div id="consciousness"> </div>
+
+
+### Consciousness
+
+There is no single generally agreed definition of Consciousness and I will not try to define it here. 
+
+[Integrated Information Theory (IIT)](https://arxiv.org/abs/1405.7089) and its latest [version 4.0](https://arxiv.org/abs/2212.14787) are one of the key theories existing. This theory includes "Phi", which measures amount of integrated information to quantify level of consciousness of the system. The IIT includes 5 key characteristics:
+- Intrinsic
+- Composition
+- Information
+- Integration
+- Exclusion
+
+The IIT allows making predictions, which can be tested through experiments and it is not limited to human brain-like consciousness.
+
+[Ilya Sutskever defined, perhaps the first, test-scenario to test, if AI models has consciousness:](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
+
+Literature reviews on consciousness:
+- [Mathematical Approaches in the Scientific Study of Consciousness](https://jkleiner.de/uploads/preprints/Mathematical%20Approaches%20in%20the%20Scientific%20Study%20of%20Consciousness%20(Preprint,%20Johannes%20Kleiner).pdf)
+- [Survey of Consciousness Theory from Computational Perspective](https://arxiv.org/abs/2309.10063)
+- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708)
+
+
+---
+
+
+
+
 
 <div id="why">  
 
@@ -827,68 +858,36 @@ The trend of LLMs using [TinyStories](https://github.com/tmgthb/Autonomous-Agent
 ---
 
 
+<div align="center">  
 
----
-
-
-<div id="futureresearch">  </div>
-
-
-<div align="center">
-
-## Future research
-I add into this section areas for future research, which are required for Autonomous Agents mimicking human-like behaviour.
+### Related work
+Includes list of literature reviews by other authors for quick reference.
 </div>
 
-- [Consciousness](#consciousness)
-- [Real World Environments](#realworldenvironments)
-
----
-
-<div id="consciousness"> </div>
-
-### Consciousness
-
-There is no single generally agreed definition of Consciousness and I will not try to define it here. 
-
-[Integrated Information Theory (IIT)](https://arxiv.org/abs/1405.7089) and its latest [version 4.0](https://arxiv.org/abs/2212.14787) are one of the key theories existing. This theory includes "Phi", which measures amount of integrated information to quantify level of consciousness of the system. The IIT includes 5 key characteristics:
-- Intrinsic
-- Composition
-- Information
-- Integration
-- Exclusion
-
-The IIT allows making predictions, which can be tested through experiments and it is not limited to human brain-like consciousness.
-
-[Ilya Sutskever defined, perhaps the first, test-scenario to test, if AI models has consciousness:](https://github.com/tmgthb/Autonomous-Agents#consciousnesstest) for LLMs.
-
-Literature reviews on consciousness:
-- [Mathematical Approaches in the Scientific Study of Consciousness](https://jkleiner.de/uploads/preprints/Mathematical%20Approaches%20in%20the%20Scientific%20Study%20of%20Consciousness%20(Preprint,%20Johannes%20Kleiner).pdf)
-- [Survey of Consciousness Theory from Computational Perspective](https://arxiv.org/abs/2309.10063)
-- [Consciousness in Artificial Intelligence: Insights from the Science of Consciousness](https://arxiv.org/abs/2308.08708)
-
-
----
-
-
-### Brain research
-
-
-[Movie reconstruction from mouse visual cortex activity](https://www.biorxiv.org/content/10.1101/2024.06.19.599691v1)
-
-- Reconstructs ground-truth video using images from mouse brain.
-
-
----
-
-[Brain representation in conscious and unconscious vision](https://www.biorxiv.org/content/10.1101/2024.05.27.596053v1)
-
-- Discovers fronto-parietal cortex is involved in representing unconscious content.
-
-
----
-
-- [Real World Environments](#realworldenvironments)
+- [A Survey on Large Language Model based Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#autonomousagentssurvey),
+- [LLM Powered Autonomous Agents](https://github.com/tmgthb/Autonomous-Agents#lili),
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://github.com/tmgthb/Autonomous-Agents#llmagentsurvey),
+- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://github.com/tmgthb/Autonomous-Agents#humancap),
+- [LLMs](https://github.com/tmgthb/Autonomous-Agents#llmsurveymikolov),
+- [Unleashing the Power of Graph Learning through LLM-based Autonomous Agents](https://arxiv.org/abs/2309.04565)
+- [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
+- [Agent AI: Surveying the Horizons of Multimodal Interaction](https://arxiv.org/abs/2401.03568)
+- [Personal LLM Agents: Insights and Survey about the Capability, Efficiency and Security](https://arxiv.org/abs/2401.05459)
+- [Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
+- [Large Language Models: A Survey](https://arxiv.org/abs/2402.06196)
+- [Survey on Large Language Model-Enhanced Reinforcement Learning: Concept, Taxonomy, and Methods](https://arxiv.org/abs/2404.00282)
+- [LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models](https://arxiv.org/abs/2404.01230)
+- [A Survey on Large Language Model-Based Game Agents](https://arxiv.org/abs/2404.02039)
+- [Comprehensible Artificial Intelligence on Knowledge Graphs: A survey](https://arxiv.org/abs/2404.03499)
+- [Graph Reinforcement Learning for Combinatorial Optimization: A Survey and Unifying Perspective](https://arxiv.org/abs/2404.06492)
+- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
+- [Exploring Autonomous Agents through the Lens of Large Language Models: A Review](https://arxiv.org/abs/2404.04442)
+- [System for systematic literature review using multiple AI agents: Concept and an empirical evaluation](https://arxiv.org/abs/2403.08399)
+- [Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
+- [Can Large Language Model Agents Simulate Human Trust Behaviors?](https://arxiv.org/abs/2402.04559)
+- [Can Generative Agents Predict Emotion?](https://arxiv.org/abs/2402.04232)
+- [Large Multimodal Agents: A Survey](https://arxiv.org/abs/2402.15116)
+- [Intelligent agents: theory and practice](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)
 
 
 ---
@@ -914,6 +913,4 @@ How to cite my work?
 ---
 
 
-
 [Back to top](#topofthepage)
-
