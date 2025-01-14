@@ -76,6 +76,13 @@ Chronological order.
 
 ---
 
+[LLMs Model Non-WEIRD Populations: Experiments with Synthetic Cultural Agents](https://arxiv.org/abs/2501.06834)
+
+- Synthetic Cultural Agents (SCAs): uses LLMs to create synthetic agents representing non-WEIRD populations. Includes web scraping, LLMs, RAG prompting to construct cultural profiles and uses these agents to classic behavioral experiments, demonstrating cross-cultural variability.
+- Offers an effective and ethical method to pilot experiments and refine protocols for hard-to-reach populations for cross-cultural economic studies.
+
+
+---
 
 #### 11th of January 2025
 
