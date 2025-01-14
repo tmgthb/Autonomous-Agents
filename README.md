@@ -65,6 +65,18 @@ Chronological order.
 
 ---
 
+#### 12th of January 2025
+
+[DVM: Towards Controllable LLM Agents in Social Deduction Games](https://arxiv.org/abs/2501.06695)
+
+- DVM (Dynamic Victory Manager): is a framework for controllable LLM agents in social deduction games, comprising Predictor, Decider, and Discussor components.
+- It uses reinforcement learning with a win rate-constrained decision chain reward mechanism, enabling agents to dynamically adjust their gameplay proficiency, and it is evaluated in the Werewolf game.
+- DVM enables adaptive and balanced gameplay in social deduction games, opening new research avenues for controllable game agents.
+
+
+---
+
+
 #### 11th of January 2025
 
 [The Internet of Large Language Models](https://arxiv.org/abs/2501.06471)
