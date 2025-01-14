@@ -90,6 +90,13 @@ Chronological order.
 
 ---
 
+[How GPT LEARNS LAYER BY LAYER](https://arxiv.org/abs/2501.07108)
+
+- Explores how LLMs build internal world models with OthelloGPT by using Sparse AutoEncoders.
+
+---
+
+
 #### 12th of January 2025
 
 [DVM: Towards Controllable LLM Agents in Social Deduction Games](https://arxiv.org/abs/2501.06695)
