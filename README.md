@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+#### 11th of January 2025
+
+[The Internet of Large Language Models](https://arxiv.org/abs/2501.06471)
+
+- The Internet of LLM: introduces an universal environment and sharing protocol of LLM training/knowledge exchange, which consists of LLM sharing protocol/LLM Universal environment/Agent Optimal Path Module/joint mining mechanism.
+- Includes also planning-, reflection- and tool use-agents.
+
+
+---
+
 
 #### 9th of January 2024
 
