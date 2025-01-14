@@ -96,6 +96,15 @@ Chronological order.
 
 ---
 
+[SST-EM: Advanced Metrics for Evaluating Semantic, Spatial and Temporal Aspects in Video Editing](https://arxiv.org/abs/2501.07554)
+
+- SST-EM (Semantic, Spatial, and Temporal Evaluation Metric): is a benchmark for video editing that leverages VLMs, object detection, and temporal consistency checks.
+- SST-EM includes semantic extraction using VLM, primary object tracking with object detection, focused object refinement via LLM agent, and temporal consistency assessment using ViT.
+- This framework provides a comprehensive evaluation of semantic fidelity and temporal smoothness in video editing.
+
+
+---
+
 
 #### 12th of January 2025
 
@@ -147,6 +156,15 @@ Chronological order.
 
 
 --- 
+
+
+[Multi-Agent Collaboration Mechanisms: A Survey of LLMs](https://arxiv.org/abs/2501.06322)
+
+- The survey reviews Multi-Agent Systems (MASs) collaboration mechanisms based on key dimensions.
+- Framework includes actors, types, structures, strategies, and coordination protocols; reviews existing methodologies; investigates applications across diverse domains; identifies key lessons, open challenges, and potential research directions.
+
+
+---
 
 
 #### 9th of January 2024
