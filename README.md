@@ -43,6 +43,17 @@ Chronological order.
 
 </div>
 
+#### 13.01.2025
+
+[Imagine while Reasoning in Space: Multimodal Visualization-of-Thought](https://arxiv.org/abs/2501.07542)
+
+- MVoT (Multimodal Visualization-of-Thought): is a multimodal native reasoning paradigm that generates image visualizations of reasoning traces.
+- MVoT uses token discrepancy loss to improve visual coherence and fidelity, and is validated on dynamic spatial reasoning tasks, showing competitive performance.
+- MVoT establishes new possibilities for complex reasoning tasks where visual thinking complements verbal reasoning.
+
+
+---
+
 #### 11th of January 2025
 
 [The Internet of Large Language Models](https://arxiv.org/abs/2501.06471)
