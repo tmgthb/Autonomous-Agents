@@ -177,6 +177,15 @@ Chronological order.
 
 ---
 
+[How to Enable Effective Cooperation Between Humans and NLP Models: A Survey of Principles, Formalizations, and Beyond](https://arxiv.org/abs/2501.05714)
+
+- Human-Model Cooperation: is a survey of principles, formalizations, and open challenges in human-model cooperation.
+- It introduces a new taxonomy for categorizing human-model cooperation, identifies key research frontiers, and discusses associated challenges.
+
+
+---
+
+
 [OpenFOAMGPT: a RAG-Augmented LLM Agent for OpenFOAM-Based Computational Fluid Dynamics](https://arxiv.org/abs/2501.06327)
 
 - OpenFOAMGPT: LLM-based agent tailored for OpenFOAM-centric computational fluid dynamics (CFD) simulations.
