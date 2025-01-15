@@ -507,7 +507,25 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 ### Planning
 
-Planning is defined by (Cambridge)[https://dictionary.cambridge.org/dictionary/english/planning] dictionary as: "the act of deciding how to do something".
+### Planning
+
+Planning is for general public<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: "the act of deciding how to do something" and in the domain of AI: "devising a plan of action to achieve one’s goals"<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
+
+We can refer it more precisely as:
+
+**"Planning is the reasoning side of acting. It is an abstract, explicit deliberation process that chooses and organizes actions by anticipating their expected outcomes. This deliberation aims at achieving as best as possible some prestated objectives. Automated planning is an area of Artificial Intelligence (AI) that studies this
+deliberation process computationally."<sup>[1](https://api.pageplace.de/preview/DT0400.9780080490519_A25022382/preview-9780080490519_A25022382.pdf)</sup>**
+
+
+Minsky defined 1960 "Planning" as one of five "hard problems of heuristic programming", to achieve AI<sup>[1](http://web.media.mit.edu/~minsky/papers/steps.html)</sup>. STRIPS-system (1971)<sup>[1](https://apps.dtic.mil/sti/tr/pdf/ADA637291.pdf),[2](https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.pdf)</sup> is probably the earliest AI system with multiple other early AI systems with planning  developed in the 1970-1990s<sup>[1](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/833/751)</sup>.
+
+Reinforcement Learning has widely used Planning to advance SOTA-level performance: SoRB<sup>[1](https://arxiv.org/abs/1906.05253)</sup>, Plan2Explore<sup>[2](https://arxiv.org/pdf/2005.05960)</sup>, AlphaZero<sup>[3a](https://arxiv.org/pdf/2106.04615),[3b](https://arxiv.org/pdf/2308.09175)</sup>, DeepNash<sup>[4](https://arxiv.org/pdf/2206.15378)</sup>, Cicero<sup>[5a](https://noambrown.github.io/papers/22-Science-Diplomacy-TR.pdf),[5b](https://arxiv.org/pdf/2210.05492)</sup>.
+
+ChatGPT popularized the concept of RLHF<sup>[1](https://arxiv.org/abs/1706.03741), [2](https://arxiv.org/pdf/2203.02155)</sup> and various variations including RLAIF with LLMs<sup>[1](https://arxiv.org/pdf/2212.08073)</sup>, which are offline RL. Offline RL uses static data collected from previous interactions/simulations. Thus, it suffers data distribution shift during deployment.
+
+Thus, LLM-researchers have moved focused to Online RL with LLMs. Online RL adjusts its policy based on immediate feedback from the environment. For example context and user intent may change rapidly.
+
+
 
 According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
 
