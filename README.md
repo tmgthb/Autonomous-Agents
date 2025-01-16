@@ -8246,6 +8246,15 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 #### 5th of February 2024
 
+[Understanding the planning of LLM agents: A survey](https://arxiv.org/abs/2402.02716)
+
+- LLM-Agent planning: provides a systematic view of LLM-based agents planning, covering recent works aiming to improve planning ability.
+- It categorizes existing works into Task Decomposition, Plan Selection, External Module, Reflection and Memory, and provides comprehensive analysis for each direction.
+- This survey is the first work that comprehensively analyzes LLM-based agents from the planning abilities.
+
+
+---
+
 
 [Chain-of-Feedback: Mitigating the Effects of Inconsistency in Responses](https://arxiv.org/abs/2402.02648)
 
