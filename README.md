@@ -1552,6 +1552,16 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
+[Real-World Robot Applications of Foundation Models: A Review](https://arxiv.org/abs/2402.05741)
+
+- This paper provides an overview of the practical application of foundation models in real-world robotics.
+- The review emphasizes the replacement of specific components within existing robot systems, input-output relationships, perception, motion planning, and control.
+- The paper concludes with a discussion of future challenges and implications for practical robot applications.
+
+---
+
+
+
 [MiniFed : Integrating LLM-based Agentic-Workflow for Simulating FOMC Meeting](https://arxiv.org/abs/2410.18012)
 
 - MiniFed: Simulates real world Federal Reserve FOMC-meetings using LLM-agent based multi-agent framework.
@@ -9022,6 +9032,18 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+#### 19th of December 2023
+
+[Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
+
+- LLM empowered agent-based modeling and simulation framework: surveys the landscape of utilizing LLMs in agent-based modeling and simulation.
+- Framework examines challenges, future directions, motivation for applying LLMs, environment perception, human alignment, action generation, evaluation, cyber, physical, social, and hybrid domains.
+- This framework provides a comprehensive overview of recent works in this interdisciplinary field.
+
+
+---
+
+
 <div id="humancap"> </div>  
 
 [Large Language Models Empowered Agent-based Modeling and Simulation: A Survey and Perspectives](https://arxiv.org/abs/2312.11970)
@@ -10615,7 +10637,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-
 #### 20th March 2023
 
 [Reflexion: Language Agents with Verbal Reinforcement Learning](https://arxiv.org/abs/2303.11366)
@@ -10632,6 +10653,18 @@ Agent actions impact directly task plans by not requiring environment feedback t
 ---
 
 [Improving Multimodal Interactive Agents with Reinforcement Learning from Human Feedback](https://arxiv.org/abs/2211.11602)
+
+
+---
+
+
+#### 27th of February 2023
+
+[Reward Design with Language Models](https://arxiv.org/abs/2303.00001)
+
+- LLM-RL: framework uses a LLM as a proxy reward function to train reinforcement learning (RL) agents.
+- User specifies objective with natural language prompt, LLM evaluates agent's behavior, and framework is agnostic to RL algorithm.
+- This approach simplifies reward design and enables training of agents aligned with user objectives.
 
 
 ---
