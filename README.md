@@ -43,6 +43,58 @@ Chronological order.
 
 </div>
 
+#### 15th of January 2025
+
+[Leveraging Large Language Models as Knowledge-Driven Agents for Reliable Retrosynthesis Planning](http://arxiv.org/abs/2501.08897v1)
+
+- MBRPS (Multi-branched Reaction Pathway Search): is a novel algorithm that enables exploration of all pathways, with a focus on multi-branched ones.
+- Framework integrates LLMs and KGs, automates literature retrieval, reaction data extraction, database querying, and construction of retrosynthetic pathway trees, and recommends optimal routes.
+- This work represents the first attempt to develop a fully automated retrosynthesis planning agent tailored specially for macromolecules powered by LLMs.
+
+
+---
+
+[AutoRestTest: A Tool for Automated REST API Testing Using LLMs and MARL](http://arxiv.org/abs/2501.08600v1)
+
+- AutoRestTest: is a novel tool that integrates Semantic Operation Dependency Graph (SODG) with Multi-Agent Reinforcement Learning (MARL) and Large Language Models (LLMs) for effective REST API testing.
+- It uses five specialized agents for operation, parameter, value, dependency, and header identification, and employs LLMs for realistic input generation and a command-line interface for user interaction.
+- This framework provides a comprehensive solution for thorough REST API evaluation and validation.
+
+
+---
+
+
+[Leveraging LLM Agents for Translating Network Configurations](http://arxiv.org/abs/2501.08760v1)
+
+- IRAG (Intent-based Retrieval Augmented Generation): is an intent-based framework for translating network configurations using LLM agents.
+- Framework includes intent extraction, manual retrieval, incremental translation, syntax verification and semantic verification modules.
+- This framework achieves high syntax correctness and superior translation accuracy compared to state-of-the-art methods.
+
+
+---
+
+
+[DISENTANGLING EXPLORATION OF LARGE LANGUAGE MODELS BY OPTIMAL EXPLOITATION](http://arxiv.org/abs/2501.08925v1)
+
+- Optimal Exploitation framework: isolates exploration as the sole objective by tasking the agent with delivering information that enhances future returns.
+- Framework decomposes missing rewards into exploration and exploitation components, measures optimal achievable return for explored states, and provides insights into behaviors driven by agent instructions.
+
+
+
+---
+
+#### 15.01.2025
+
+[Physical AI Agents: Integrating Cognitive Intelligence with Real-World Action](http://arxiv.org/abs/2501.08944v1)
+
+- Physical AI Agents: is a framework that integrates cognitive reasoning with physical interaction for real-world tasks.
+- Framework includes modular architecture with perception, cognition, and actuation blocks, and introduces Ph-RAG (Physical Retrieval Augmented Generation) design pattern for real-time decision-making.
+
+
+---
+
+
+
 #### 14th of January 2025
 
 [Flow: A Modular Approach to Automated Agentic Workflow Generation](http://arxiv.org/abs/2501.07834v1)
