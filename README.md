@@ -45,6 +45,24 @@ Chronological order.
 
 #### 14th of January 2025
 
+[Flow: A Modular Approach to Automated Agentic Workflow Generation](http://arxiv.org/abs/2501.07834v1)
+
+- Flow: is a multi-agent framework that dynamically adjusts workflows using activity-on-vertex graphs.
+- It refines workflows based on historical performance, emphasizes modularity, and achieves concurrent sub-task execution.
+- This framework improves efficiency and adaptability in multi-agent systems through dynamic workflow updates.
+
+
+---
+
+
+[POKERBENCH: Training Large Language Models to become Professional Poker Players](https://arxiv.org/abs/2501.08328)
+
+- POKERBENCH: is a benchmark for evaluating poker-playing abilities of large language models (LLMs).
+- It includes 11,000 poker scenarios, covers pre-flop and post-flop play, and evaluates models like GPT-4, ChatGPT 3.5, Llama and Gemma series.
+- This benchmark provides a quick and reliable way to evaluate LLMs in complex game-playing scenarios.
+
+---
+
 [A Multi-Agent Framework for Systematic Review Automation Using Large Language Models](https://arxiv.org/abs/2501.05468)
 
 - LatteReview: Intrdocus LLM-based systematic literature review multi-agent framework automation, which consists of three layers: LM providers (local models / LLMs via api), Reviewer agents (with roles & expertise levels) and Workflows (support sequential, parallel review rounds, dynamic decision-making and iterative refinement).
@@ -53,6 +71,53 @@ Chronological order.
 
 
 ---
+
+[CodeCoR: An LLM-Based Self-Reflective Multi-Agent Framework for Code Generation](http://arxiv.org/abs/2501.07811v1)
+
+- CodeCoR (Code Collaboration and Repair): is a self-reflective multi-agent framework for code generation.
+- It includes prompt-, coding-, test- and repair-agents, uses pruning methods to evaluate agent effectiveness, and enhances self-reflective ability.
+- It significantly outperforms existing state-of-the-art methods in code generation.
+
+
+---
+
+
+[Engineering LLM Powered Multi-agent Framework for Autonomous CloudOps](http://arxiv.org/abs/2501.08243v1)
+
+- MOYA (Meta Orchestrator Of Your Agents): is a multi-agent framework leveraging GenAI for autonomous CloudOps, balancing automation with human control.
+- Framework integrates internal and external systems, optimizes task orchestration, security, and error mitigation using Retrieval Augmented Generation (RAG), and includes LLM-based and non-LLM-based agents.
+- The framework enhances accuracy, responsiveness, and effectiveness over non-agentic approaches across complex workflows.
+
+
+---
+
+[Agent-Centric Projection of Prompting Techniques and Implications for Synthetic Training Data for Large Language Models](http://arxiv.org/abs/2501.07815v1)
+
+- Agent-Centric Projection: introduces a framework to reveal connections between prompting strategies and multi-agent systems.
+- Framework uses linear and non-linear contexts to classify prompting techniques, and proposes three conjectures about the relationship between prompting and multi-agent systems.
+- This framework enables cross-pollination of research findings between prompting and multi-agent domains, while providing new directions for improving both the design and training of future LLM systems.
+
+
+---
+
+[Talk to Right Specialists: Routing and Planning in Multi-agent System for Question Answering](http://arxiv.org/abs/2501.07813v1)
+
+- RopMura: is a multi-agent system that incorporates a router and a planner for question answering across diverse knowledge domains.
+- RopMura includes router for selecting relevant agents, planner for decomposing complex queries, and knowledge sovereignty consideration.
+- This framework enables efficient and accurate multi-domain question-answering.
+
+
+---
+
+[Visual Language Models as Operator Agents in the Space Domain](http://arxiv.org/abs/2501.07802v1)
+
+- Explores the application of VLMs as operator agents in the space domain.
+- Framework builds on LLMs and their multimodal extensions, investigates how VLMs enhance autonomous control and decision-making in space missions, includes software and hardware operational paradigms.
+- This research demonstrates that VLMs can effectively process visual and textual data to generate contextually appropriate actions.
+
+
+---
+
 
 #### 13th of January 2025
 
