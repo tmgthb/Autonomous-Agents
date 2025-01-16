@@ -509,9 +509,11 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 
 
-Planning refers to<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: "the act of deciding how to do something". and 
+Planning refers to<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: "the act of deciding how to do something".  
 
-In the domain of AI, planning is defined: "devising a plan of action to achieve one’s goals"<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
+In the domain of AI, planning is defined: 
+
+"devising a plan of action to achieve one’s goals"<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
 
 or
 
@@ -537,7 +539,6 @@ LLM-based planning approaches include:<sup>[1](https://arxiv.org/pdf/2402.02716)
 - External planner aided (LLM + PDDL)
 - Reflection and Refinement (Reflection, Self-Refine, CRITIC)
 - Memory-aided planning (REMEMBER)
-
 
 
 ---
