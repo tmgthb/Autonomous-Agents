@@ -507,7 +507,6 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 ### Planning
 
-### Planning
 
 Planning is for general public<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: "the act of deciding how to do something" and in the domain of AI: "devising a plan of action to achieve one’s goals"<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
 
@@ -523,73 +522,18 @@ Reinforcement Learning has widely used Planning to advance SOTA-level performanc
 
 ChatGPT popularized the concept of RLHF<sup>[1](https://arxiv.org/abs/1706.03741), [2](https://arxiv.org/pdf/2203.02155)</sup> and various variations including RLAIF with LLMs<sup>[1](https://arxiv.org/pdf/2212.08073)</sup>, which are offline RL. Offline RL uses static data collected from previous interactions/simulations. Thus, it suffers data distribution shift during deployment.
 
-Thus, LLM-researchers have moved focused to Online RL with LLMs. Online RL adjusts its policy based on immediate feedback from the environment. For example context and user intent may change rapidly.
+Thus, LLM-researchers have moved focused to Online RL with LLMs. Online RL adjusts its policy based on immediate feedback from the environment. For example context and user intent may change rapidly. 
 
+Online RL are zero-shot planners<sup>[1](https://arxiv.org/pdf/2201.07207)</sup> and few-shot planners<sup>[2](https://arxiv.org/pdf/2212.04088)</sup> with ability to generate plans<sup>[3](https://arxiv.org/pdf/2209.11302)</sup>, closed-loop feedback, long-horizon plans<sup>[4](https://arxiv.org/abs/2207.05608)</sup>, value-functions<sup>[5](https://arxiv.org/pdf/2111.03189)</sup>,iterative replanning[6](https://arxiv.org/pdf/2307.06135)</sup>, interactive planning, [7](https://arxiv.org/pdf/2302.01560)</sup>, self-refine plans[8](https://arxiv.org/pdf/2305.16653)</sup>, self-verification[8](https://arxiv.org/pdf/2308.00436)</sup>. 
 
+Agents should excel in complex planning and reasoning, predicting outcomes, and executing strategies for long-term goals.<sup>[1](https://arxiv.org/pdf/2312.11970)</sup>
 
-According to (Peng et al. (2024))[https://arxiv.org/abs/2406.00936], planning enables agents to autonomously identify and execute actions towards goals.
-
-"Let's think step by step"
-- Technique better known as Chain-of-Thought (CoT).
-- 
-- Tree-structures enable searching large reasoning trees for a solution to a complex problem
-- [Tree-Of-Thought](https://github.com/tmgthb/Autonomous-Agents#tot) and (ToT or [Graph-of-Thought](https://github.com/tmgthb/Autonomous-Agents#got) are extensions of the CoT-technique with function call.
-- [ToolChain*](#toolchain) is first known an efficient tree search-based planning algorithm for LLMs. ToolChain* offers significantly lower running time compare to MCTS/ToT-DFS/ToT-BFS and significantly better success rate up to 30 steps forward. In fact, it improves significantly reasoning capabilities of LLMs, offering SOTA reasoning with GSM8K.
-- Advanced reasoning chains are often open-ended problems between question and answer, in a massive reasoning tree. The ability to search large trees effectively, makes often possible to use algorithms such as A*, MCTS etc to search this space to come up a short, smart path between the problem to solution by using advanced prompting techniques.
-
-
-Why planning works so well in so many domains?
-
-According to [Noam Brown (2024)](https://www.youtube.com/watch?v=eaAonE58sLU), scaling up "test-time compute" for search planning has been key ingredient in the past AI-breakthroughts (Chess, Go, Poker & No-Press Diplomacy). Cicero-model employed test-time compute in its planning module by predicting actions of all players/predicting what other plays would think Cicero would take/deciding output action and intent for the dialogue model to generate communication back to other players. This additional planning compute made the model especially effective in No-Press Diplomacy game. 
-
-- Considering the AI-models play these games above human-level, I see it logical to apply these methods in LLMs.
-- Brown says, that it is easier for humans to verify ("Let's verify step by step") correctness of reasoning chain in specific domains (math/programming/puzzles, while not true in image recognition/information retrieval), than generating the reasoning solution, which means LLMs are better verifiers than generators of the correct reasoning chains.
-- Brown calls this as the "Generator-Verifier-gap".
-- Brown argues, that if in a given domain, there is a generator-verifier-gap, and we have a good verifier, then it is possible to scale up compute of solution generation and then verify.
-- Brown continues, that the "Let's verify step by step"-paper introduces process reward mdel, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal.
-- Brown notes, that large companies will prefer scaling up "training/development costs", while maintaining low "inference costs".
-
-Zhang et al. (2024) show, that [GenRM-CoT](https://arxiv.org/abs/2408.15240) outperforms discriminatory verifiers, scaling in inference-time compute, model capacity and dataset size.
-
-Valmeekam et al. (2022) introduced [PlanBench](https://arxiv.org/abs/2206.10498) reviews LLMs planning capabilities using classic planning domains.
-- Gives few-shot examples for the planner to learn the planner for the given domain together with instructions about the planning environment. This forces the LLM to think through the planning examples (to evaluate actual reasoning capacity), rather than rather than capability to pattern match training data.
-- 8 challenges: basic plan, complex plan for unexpected changes etc. 
-- GPT-4 struggled with complex planning scenarios managing only 34% of planning scenarios. LLMs memorize specific words, which change leads to lack of planning capability. LLMs recognize well similar planning scenarios to understand user intent. LLMs struggle to adapt sudden changes in the dynamic environment. Research is required to improve explainability of the LLM planning.
-
-Valmeekam et al. (2023) reviewed further planning capabilities, which [critizes](https://arxiv.org/abs/2305.15771) further LLMs planning capability to:
-- model-based reasoning,
-- rules & constraints,
-- grounding to reality and
-- to get feedback.
-
-Suggests to improve planning capabilities using: neurosymbolic AI, train AI models specific for planning (reward working plans). Two groups using LLMs for planning resulted no statistically significant difference between the grou using LLM and group not using it.
-
-Potential use cases for LLMs in planning:
-- LLMs can process vast amount of information in complex problem into different planning styles.
-- Adapting with dynamic planning by adjusting quickly for example navigation route in case of an accident.
-- LLMs can sub-divide tasks into smaller pieces.
-- Personal productivity to schedule and prioritize tasks.
-
-Valmeekam et al. (2024) finds o1 is slightly better in travel planning, but difficult to plan in advance is more costly, than traditional LLMs. Suggests using LRM-Modulo approach, which uses external verifier to offer better guarantee. How to ensure control and transparency of the LM model based planning systems? 
-
-Valmeekam et al. (2024) reviewed [self-critiquing its plans](https://arxiv.org/abs/2310.08118) by testing LLM vs. LLM with verifier specifically in planning:
-- LLM with verifier was only slightly better, because the errors made by the verifier.
-- LLM had fundamental problems to evaluate the models responses.
-- One possibility is that LLMs are still poor in understanding cause-and-effect and lack of collobrative reasoning.
-
-Kunde et al. 2024 (review)[https://arxiv.org/abs/2311.00226] finds, that transformers robustly adapt to new tasks through few-shot in-context learning without explicit model optimization. 
-
-Kambhampati et al. (2024) [finds](https://arxiv.org/abs/2402.01817) only 12% of plans are operatable and struggle in self-verification.
-- Investigates classical planning problems such as travel planning tasks.
-- Suggests "LLM-Modulo"-framework: bringing team-work into LLM planning using collaborative approach with team of experts.
-- Offers large boost in LLM planning capabilities.
-- Includes problem specification, prompt generator, plan backboard, reformatter, formal critics, commonsense constraint critic, hard constraint critic and meta controller.
-
-Steechly et al. (2024) finds, that LLM is unable to learn the correct algorithm from the demonstrations rather than its ability to execute that algorithm. 
-- Suggests that few-shot examples are not guaranteed to improve the generic procedural reasoning of the LLMs in novel instances.
-- Suggests, that CoT prompts are likely to only work consistently in sufficiently narrow problem class.
-- Suggests, that more important to evaluate the chain-of-thought-process, rather than the final result.
-
+LLM-based planning approaches include:<sup>[1](https://arxiv.org/pdf/2402.02716)</sup>
+- Task decomposition (CoT, ReAct)
+- Multi-plan selection (ToT, CoT-SC)
+- External planner aided (LLM + PDDL)
+- Reflection and Refinement (Reflection, Self-Refine, CRITIC)
+- Memory-aided planning (REMEMBER)
 
 
 ---
