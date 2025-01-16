@@ -508,17 +508,18 @@ Full human-level reasoning requires more progress/better reliability/better data
 ### Planning
 
 
+Planning is:
 
-Planning refers to<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: "the act of deciding how to do something".  
+<sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: **"the act of deciding how to do something".**  
 
 In the domain of AI, planning is defined: 
 
-"devising a plan of action to achieve one’s goals"<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
+**"devising a plan of action to achieve one’s goals"**<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>.
 
 or
 
 **"Planning is the reasoning side of acting. It is an abstract, explicit deliberation process that chooses and organizes actions by anticipating their expected outcomes. This deliberation aims at achieving as best as possible some prestated objectives. Automated planning is an area of Artificial Intelligence (AI) that studies this
-deliberation process computationally."<sup>[1](https://api.pageplace.de/preview/DT0400.9780080490519_A25022382/preview-9780080490519_A25022382.pdf)</sup>**
+deliberation process computationally."**<sup>[1](https://api.pageplace.de/preview/DT0400.9780080490519_A25022382/preview-9780080490519_A25022382.pdf)</sup>
 
 
 Minsky defined 1960 "Planning" as one of five "hard problems of heuristic programming", to achieve AI<sup>[1](http://web.media.mit.edu/~minsky/papers/steps.html)</sup>. STRIPS-system (1971)<sup>[1](https://apps.dtic.mil/sti/tr/pdf/ADA637291.pdf),[2](https://ai.stanford.edu/~nilsson/OnlinePubs-Nils/PublishedPapers/strips.pdf)</sup> is probably the earliest AI system with multiple other early AI systems with planning  developed in the 1970-1990s<sup>[1](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/833/751)</sup>.
@@ -539,6 +540,7 @@ LLM-based planning approaches include:<sup>[1](https://arxiv.org/pdf/2402.02716)
 - External planner aided (LLM + PDDL)
 - Reflection and Refinement (Reflection, Self-Refine, CRITIC)
 - Memory-aided planning (REMEMBER)
+
 
 
 ---
