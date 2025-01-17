@@ -507,7 +507,6 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 ### Planning
 
-
 Planning is:
 
 <sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: **"the act of deciding how to do something".**  
@@ -528,7 +527,7 @@ Reinforcement Learning has widely used Planning to advance SOTA-level performanc
 
 ChatGPT popularized the concept of RLHF<sup>[1](https://arxiv.org/abs/1706.03741), [2](https://arxiv.org/pdf/2203.02155)</sup> and various variations including RLAIF with LLMs<sup>[1](https://arxiv.org/pdf/2212.08073)</sup>, which are offline RL. Offline RL uses static data collected from previous interactions/simulations. Thus, it suffers data distribution shift during deployment.
 
-Thus, LLM-researchers have moved focused to Online RL with LLMs. Online RL adjusts its policy based on immediate feedback from the environment. For example context and user intent may change rapidly. 
+Thus, LLM-researchers have moved focused to Online RL with LLMs. Online RL adjusts its policy based on immediate feedback from the environment. For example user intent and context may change rapidly. 
 
 Online RL are zero-shot planners<sup>[1](https://arxiv.org/pdf/2201.07207)</sup> and few-shot planners<sup>[2](https://arxiv.org/pdf/2212.04088)</sup> with ability to generate plans<sup>[3](https://arxiv.org/pdf/2209.11302)</sup>, closed-loop feedback, long-horizon plans<sup>[4](https://arxiv.org/abs/2207.05608)</sup>, value-functions<sup>[5](https://arxiv.org/pdf/2111.03189)</sup>,iterative replanning[6](https://arxiv.org/pdf/2307.06135)</sup>, interactive planning, [7](https://arxiv.org/pdf/2302.01560)</sup>, self-refine plans[8](https://arxiv.org/pdf/2305.16653)</sup>, self-verification[8](https://arxiv.org/pdf/2308.00436)</sup>. 
 
@@ -550,9 +549,6 @@ Brown claims, that it is easier for humans to verify ("Let's verify step by step
 Brown calls this as the "Generator-Verifier-gap". Brown argues, that if in a given domain, there is a generator-verifier-gap, and we have a good verifier, then it is possible to scale up compute of solution generation and then verify.
 
 Brown continues, that the "Let's verify step by step"-paper introduces process reward model, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal.
-
-Brown notes, that large companies will prefer scaling up "training/development costs", while maintaining low "inference costs".
-
 
 
 ---
