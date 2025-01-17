@@ -47,9 +47,9 @@ Chronological order.
 
 [Leveraging Large Language Models as Knowledge-Driven Agents for Reliable Retrosynthesis Planning](http://arxiv.org/abs/2501.08897v1)
 
-- MBRPS (Multi-branched Reaction Pathway Search): is a novel algorithm that enables exploration of all pathways, with a focus on multi-branched ones.
+- MBRPS (Multi-branched Reaction Pathway Search): Algorithm enabling exploration of all pathways, with a focus on multi-branched ones.
 - Framework integrates LLMs and KGs, automates literature retrieval, reaction data extraction, database querying, and construction of retrosynthetic pathway trees, and recommends optimal routes.
-- This work represents the first attempt to develop a fully automated retrosynthesis planning agent tailored specially for macromolecules powered by LLMs.
+- Attempt to develop a fully automated retrosynthesis planning agent tailored specially for macromolecules powered by LLMs.
 
 
 ---
