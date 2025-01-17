@@ -179,6 +179,9 @@ Chronological order.
 - Framework uses retrieval-augmented generation techniques, multi-agent architecture, synthesizes insights from diverse data sources, contextualizes findings using literature-driven evidence, and is tailored for binary classification tasks.
 - This framework demonstrates robustness and consistency, particularly in small laboratory datasets, and has potential for Alzheimer's research and diagnostics.
 
+
+---
+
 #### 13th of January 2025
 
 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572)
@@ -390,7 +393,7 @@ Chronological order.
 
 ---
 
-#### 07.01.2025
+#### 7th of January 2025
 
 [Reasoning-Enhanced Self-Training for Long-Form Personalized Text Generation](https://arxiv.org/abs/2501.04167)
 
@@ -429,7 +432,17 @@ Chronological order.
 
 ---
 
+
 #### 4th of January 2025
+
+[Table as Thought: Exploring Structured Thoughts in LLM Reasoning](https://arxiv.org/abs/2501.02152)
+
+- Table as Thought: organizes reasoning within a tabular schema, where rows represent sequential thought steps and columns capture critical constraints and contextual information.
+- Framework is inspired by cognitive neuroscience theories, reasoning process iteratively populates the table until self-verification ensures completeness and correctness, excels in planning tasks and mathematical reasoning.
+- This work provides a novel exploration of refining thought representation within LLMs, paving the way for advancements in reasoning and AI cognition.
+
+
+---
 
 [Hallo3: Highly Dynamic and Realistic Portrait Image Animation with Diffusion Transformer Networks](https://arxiv.org/abs/2412.00733)
 
@@ -448,7 +461,6 @@ Chronological order.
 
 
 ---
-
 
 [UAVs Meet LLMs: Overviews and Perspectives Toward Agentic Low-Altitude Mobility](https://arxiv.org/abs/2501.02341)
 
