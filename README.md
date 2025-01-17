@@ -186,6 +186,16 @@ Chronological order.
 
 ---
 
+[Infecting Generative AI With Viruses](https://arxiv.org/abs/2501.05542)
+
+- VLM/LLM (Vision-Large Language Model): framework tests security boundaries by embedding EICAR test file within JPEG images.
+- Framework includes multiple LLM platforms, such as OpenAI GPT-40, Microsoft Copilot, Google Gemini 1.5 Pro, and Anthropic Claude 3.5 Sonnet; it demonstrates masking EICAR string, extracting test file, and using obfuscation techniques.
+- This research extends penetration testing framework to evaluate cloud-based generative AI and LLM security boundaries.
+
+
+---
+
+
 [Visual Language Models as Operator Agents in the Space Domain](http://arxiv.org/abs/2501.07802v1)
 
 - Explores the application of VLMs as operator agents in the space domain.
