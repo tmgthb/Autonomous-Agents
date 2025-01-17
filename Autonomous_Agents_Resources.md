@@ -507,6 +507,7 @@ Full human-level reasoning requires more progress/better reliability/better data
 
 ### Planning
 
+
 Planning is:
 
 <sup>[1](https://dictionary.cambridge.org/dictionary/english/planning)</sup>: **"the act of deciding how to do something".**  
@@ -540,15 +541,25 @@ LLM-based planning approaches include:<sup>[1](https://arxiv.org/pdf/2402.02716)
 - Reflection and Refinement (Reflection, Self-Refine, CRITIC)
 - Memory-aided planning (REMEMBER)
 
-Why planning works so well in so many domains?
 
-[Noam Brown (2024)](https://www.youtube.com/watch?v=eaAonE58sLU) says "test-time compute" for search planning has been key ingredient in the past AI-breakthroughts (Chess, Go, Poker & No-Press Diplomacy). Cicero-model employed test-time compute in its planning module by: predicting actions of all players/predicting what other plays would think Cicero would take/deciding output action and intent for the dialogue model to generate communication back to other players. This **additional planning** compute made the model especially effective in No-Press Diplomacy game. 
+Valmeekam et al. identify gaps in LLM planning: lack of few-shot examples, dynamic environments, model-based reasoning, rules & constraints, grounding to reality and to get feedback. <sup>[1](https://arxiv.org/abs/2206.10498)</sup>
 
-Brown claims, that it is easier for humans to verify ("Let's verify step by step") correctness of reasoning chain in specific domains (math/programming/puzzles; while not true in image recognition/information retrieval), than generating the reasoning solution, which means **LLMs are better verifiers than generators** of the correct reasoning chains. 
+
+"LLM as Verifier"<sup>[1](https://arxiv.org/pdf/2305.20050), [2](https://arxiv.org/abs/2310.08118)</sup> (Self-Criticism) makes errors in Planning-domain, when the LLM-Verifier quality is poor, which may relate to its poor collaborative reasoning and lack of cause-and-effect.
+
+Kambhampati et al. (2024)<sup>[1](https://arxiv.org/abs/2402.01817)</sup> identify only 12% of plans are operatable and struggle in self-verification by investigating classical planning problems such as travel planning tasks. Proposes use of "LLM-Modulo"<sup>[2](https://arxiv.org/abs/2402.01817)</sup>  (uses external verifier) to improve LLM planning using collaboration with team of agents, which offers large boost to LLM planning capabilities. o1-model is slightly better at planning with trade-off in cost and speed.
+
+One potential approach to improve planning with LLMs is to combine neuro-symbolic AI to train a specific model for planning (reward working plans).<sup>[1](https://arxiv.org/abs/2305.15771)</sup>
+
+Brown claims<sup>[1](https://www.youtube.com/watch?v=eaAonE58sLU)</sup>, that it is easier for humans to verify correctness of reasoning chain in specific domains (math/programming/puzzles; while not true in image recognition/information retrieval), than generating the reasoning solution, which means **LLMs are better verifiers than generators** of the correct reasoning chains. 
 
 Brown calls this as the "Generator-Verifier-gap". Brown argues, that if in a given domain, there is a generator-verifier-gap, and we have a good verifier, then it is possible to scale up compute of solution generation and then verify.
 
-Brown continues, that the "Let's verify step by step"-paper introduces process reward model, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal.
+Brown continues, that the "Let's verify step by step"-paper introduces process reward model, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal, so verifies each individual step.
+
+Brown<sup>[1](https://www.youtube.com/watch?v=eaAonE58sLU)</sup> says "test-time compute" for search planning was key ingredient in the past breakthroughs (Chess, Go, Poker & No-Press Diplomacy). Cicero-model employed test-time compute in its planning module by: predicting actions of all players/predicting what other plays would think Cicero would take/deciding output action and intent for the dialogue model to generate communication back to other players. This **additional planning** compute made the model especially effective in No-Press Diplomacy game. 
+
+Zhang et al. (2024) show, that [GenRM-CoT](https://arxiv.org/abs/2408.15240) outperforms discriminatory verifiers, scaling in inference-time compute, model capacity and dataset size and does not need humans to verify.
 
 
 ---
