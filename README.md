@@ -368,6 +368,16 @@ Chronological order.
 
 #### 9th of January 2024
 
+
+[Search-01: Agentic Search-Enhanced Large Reasoning Models](https://arxiv.org/abs/2501.05366)
+
+- Search-01: is a framework that enhances Large Reasoning Models (LRMs) with an agentic retrieval-augmented generation mechanism and a Reason-in-Documents module.
+- It integrates an agentic search workflow, enables dynamic retrieval of external knowledge, and uses a separate module to analyze retrieved information.
+- This approach enhances the trustworthiness and applicability of LRMs in complex reasoning tasks.
+
+
+---
+
 [OpenOmni: Large Language Models Pivot Zero-shot Omnimodal Alignment across Language with Real-time Self-Aware Emotional Speech Synthesis](https://arxiv.org/abs/2501.04561)
 
 - OpenOmni: Introduces three-stage training method combining speech-to-text generation/image-to-text generation/speech generation, which results SOTA-level omnimodal LLM.
