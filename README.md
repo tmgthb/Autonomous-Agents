@@ -73,17 +73,13 @@ Chronological order.
 
 ---
 
-
 [DISENTANGLING EXPLORATION OF LARGE LANGUAGE MODELS BY OPTIMAL EXPLOITATION](http://arxiv.org/abs/2501.08925v1)
 
 - Optimal Exploitation framework: isolates exploration as the sole objective by tasking the agent with delivering information that enhances future returns.
 - Framework decomposes missing rewards into exploration and exploitation components, measures optimal achievable return for explored states, and provides insights into behaviors driven by agent instructions.
 
 
-
 ---
-
-#### 15.01.2025
 
 [Physical AI Agents: Integrating Cognitive Intelligence with Real-World Action](http://arxiv.org/abs/2501.08944v1)
 
@@ -93,7 +89,14 @@ Chronological order.
 
 ---
 
+[Doc-Guided Sent2Sent++: A Sent2Sent++ Agent with Doc-Guided memory for Document-level Machine Translation](http://arxiv.org/abs/2501.08523v1)
 
+- Doc-Guided Sent2Sent++: is an agent that employs an incremental sentence-level forced decoding strategy for document-level machine translation.
+- It uses Doc-Guided Memory with summary and its translation, ensures sentence completeness, enhances fluency, and improves translation quality.
+- This approach addresses the limitations of other DocMT agents by maintaining both completeness and fluency.
+
+
+---
 
 #### 14th of January 2025
 
@@ -170,6 +173,11 @@ Chronological order.
 
 ---
 
+[ADAM-1: AI and Bioinformatics for Alzheimer's Detection and Microbiome-Clinical Data Integrations](http://arxiv.org/abs/2501.08324v1)
+
+- ADAM-1 (Alzheimer's Disease Analysis Model Generation 1): is a multi-agent large language model framework designed to integrate and analyze multi-modal data.
+- Framework uses retrieval-augmented generation techniques, multi-agent architecture, synthesizes insights from diverse data sources, contextualizes findings using literature-driven evidence, and is tailored for binary classification tasks.
+- This framework demonstrates robustness and consistency, particularly in small laboratory datasets, and has potential for Alzheimer's research and diagnostics.
 
 #### 13th of January 2025
 
