@@ -43,6 +43,28 @@ Chronological order.
 
 </div>
 
+
+#### 16th of January 2025
+
+[Foundations of Large Language Models](https://arxiv.org/pdf/2501.09223)
+
+- Introduces a literature review / survey on LLMs.
+  
+
+---
+
+#### 16.01.2025
+
+[OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking](https://arxiv.org/abs/2501.09751)
+
+- OmniThink: is a machine writing framework that emulates human-like iterative expansion and reflection.
+- It uses continuous reflection and exploration, attaches knowledge to an information tree, and extracts it into a conceptual pool to deepen understanding.
+- This framework improves the knowledge density of generated articles without compromising coherence and depth.
+
+
+---
+
+
 #### 15th of January 2025
 
 [Leveraging Large Language Models as Knowledge-Driven Agents for Reliable Retrosynthesis Planning](http://arxiv.org/abs/2501.08897v1)
