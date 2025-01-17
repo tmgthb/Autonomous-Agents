@@ -63,6 +63,12 @@ Chronological order.
 
 ---
 
+[AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling]( http://arxiv.org/abs/2501.09426v1)
+- AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling. 
+- AutoCBT leverages dynamic routing and supervisory mechanisms to offer high-quality, automated CBT services, enhancing the effectiveness of single-turn consultations.
+
+---
+
 #### 16.01.2025
 
 [OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking](https://arxiv.org/abs/2501.09751)
