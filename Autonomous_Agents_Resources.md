@@ -541,6 +541,18 @@ LLM-based planning approaches include:<sup>[1](https://arxiv.org/pdf/2402.02716)
 - Reflection and Refinement (Reflection, Self-Refine, CRITIC)
 - Memory-aided planning (REMEMBER)
 
+Why planning works so well in so many domains?
+
+[Noam Brown (2024)](https://www.youtube.com/watch?v=eaAonE58sLU) says "test-time compute" for search planning has been key ingredient in the past AI-breakthroughts (Chess, Go, Poker & No-Press Diplomacy). Cicero-model employed test-time compute in its planning module by: predicting actions of all players/predicting what other plays would think Cicero would take/deciding output action and intent for the dialogue model to generate communication back to other players. This **additional planning** compute made the model especially effective in No-Press Diplomacy game. 
+
+Brown claims, that it is easier for humans to verify ("Let's verify step by step") correctness of reasoning chain in specific domains (math/programming/puzzles; while not true in image recognition/information retrieval), than generating the reasoning solution, which means **LLMs are better verifiers than generators** of the correct reasoning chains. 
+
+Brown calls this as the "Generator-Verifier-gap". Brown argues, that if in a given domain, there is a generator-verifier-gap, and we have a good verifier, then it is possible to scale up compute of solution generation and then verify.
+
+Brown continues, that the "Let's verify step by step"-paper introduces process reward model, which instead of conditioning the verifier by the final state, it conditions with every correct step in the process towards the final goal.
+
+Brown notes, that large companies will prefer scaling up "training/development costs", while maintaining low "inference costs".
+
 
 
 ---
