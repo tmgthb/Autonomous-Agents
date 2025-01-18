@@ -1130,6 +1130,17 @@ Chronological order.
 
 ---
 
+#### 13th of December 2024
+
+[Byte Latent Transformer: Patches Scale Better Than Tokens](https://arxiv.org/abs/2412.09871)
+
+- Byte Latent Transformer (BLT): is a byte-level LLM architecture that encodes bytes into dynamically sized patches to efficiently allocate compute by varying the amount of compute based on the entropy of the next byte prediction.
+- BLT segments patches based on next-byte entropy, allocates more compute where data complexity increases, and improves training and inference efficiency.
+- BLT shows better scaling than tokenization-based models by simultaneously growing both patch and model size.
+
+
+---
+
 #### 11th of December 2024
 
 [A Multimodal Social Agent](https://arxiv.org/abs/2501.06189)
@@ -1371,6 +1382,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 ---
 
 #### 15th of November 2024
+
+[Enhancing the Reasoning Ability of Multimodal Large Language Models via Mixed Preference Optimization](https://arxiv.org/abs/2411.10442)
+
+- MPO (Mixed Preference Optimization): is a method that blends supervised fine-tuning loss with preference optimization losses to enhance training effectiveness of multimodal large language models.
+- MPO uses a novel automated preference data construction pipeline to create MMPR dataset, and explores different Chain-of-Thought approaches with multimodal input to improve reasoning performance.
+- This approach demonstrates improved performance across multiple benchmarks, particularly in multimodal reasoning tasks.
+
+---
+
 
 [A dataset of questions on decision-theoretic reasoning in Newcomb-like problems](https://arxiv.org/abs/2411.10588)
 
@@ -2324,14 +2344,21 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 [Synatra: Turning Indirect Knowledge into Direct Demonstrations for Digital Agents at Scale](https://arxiv.org/abs/2409.15637)
 
-- Synatra
+- Synatra: is an approach that transforms indirect knowledge into direct supervision for digital agents at scale.
+- Synatra leverages LLMs to repurpose human-created tutorials and ungrounded observations into executable action sequences, and includes a 7B CodeLlama model.
+- This framework enables more effective and cheaper training of digital agents compared to human demonstrations.
 
 
+---
+
+[MOSS: ENABLING CODE-DRIVEN EVOLUTION AND CONTEXT MANAGEMENT FOR AI AGENTS](https://arxiv.org/abs/2409.16120)
+
+- MOSS (IIM-oriented Operating System Simulation): is a framework integrating code generation with a dynamic context management system.
+- MOSS uses Inversion of Control (IoC) container, decorators, maintains Python context, isolates local variables, preserves runtime integrity, and enables code-driven evolution.
+- This framework enhances efficiency and capabilities of AI agent development, moving towards Turing-complete agents.
 
 
-[MOSS: Enabling Code-Driven Evolution and Context Management for AI Agents](https://arxiv.org/abs/2409.16120)
-
-- MOSS (llM-oriented Operating System Simulation): LLM-based code 
+---
 
 
 ---
@@ -2347,6 +2374,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 
 ---
+
+#### 22th of September 2024
+
+[BACKTRACKING IMPROVES GENERATION SAFETY](https://arxiv.org/abs/2409.14586)
+
+- Backtracking: is a technique that allows language models to "undo" and recover from their own unsafe generation through the introduction of a special [RESET] token.
+- Backtracking can be incorporated into either SFT or DPO training, provides protection against adversarial attacks, and improves safety without regression in helpfulness.
+- This method provides a new approach to improve language model safety by allowing models to recover from unsafe generations.
+
+
+
 
 #### 20th of September 2024
 
@@ -2685,6 +2723,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 29th of August 2024
 
+[Physics of Language Models: Part 2.2, How to Learn From Mistakes on Grade-School Math Problems](https://arxiv.org/abs/2408.16293)
+
+- Learns to automatically retry after detecting error (Retry upon regret) in the LLM generation, which does not require additional self-verification prompting. 
+- The model seeks to produce correct solutions, even when up to half of the solution steps include errors and only corrects itself rare cases, when making a mistake. 
+- Indicates, that the skill of error correction is significantly different from the pure error-free reasoning, which requires weights update beyond PEFT.
+ reasoning accuracy, masking errors is unnecessary, and models still output shortest solutions.
+- Indicates, that LLMs often know at least in certain domains of having made mistakes and can be seen as simple linear classifier on top of its hidden states. 
+- This work provides insights into how to effectively train language models to correct errors during reasoning tasks.
+
+
+---
 
 [Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling](https://arxiv.org/abs/2408.16737)
 
@@ -3090,6 +3139,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 9th of August 2024
 
+[AmbigDocs: Reasoning across Documents on Different Entities under the Same Name](https://arxiv.org/abs/2404.12447)
+
+- AmbigDocs: is a new benchmark for evaluating language models' ability to distinguish between different entities with the same name across multiple documents.
+- It leverages Wikipedia's disambiguation pages, generates questions with ambiguous names, and provides corresponding sets of answers, and includes an ontology categorizing incomplete answers and automatic evaluation metrics.
+- This work lays the foundation for future research on reasoning across multiple documents with ambiguous entities.
+
+
+---
+
 [Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement](https://arxiv.org/abs/2408.05006)
 
 - MASTER (CoMunicative Agent BaSed DaTa REfinement FRamework): code repair with LLM. Consists of Code Quizzer (code debug expert creates questions of the error), Code Learner (answers the generated questions) and Code Teacher (reviews and corrects incorrect answers) agents.
@@ -3231,6 +3289,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 
 ---
+
+#### 29th of July 2024
+
+[Physics of Language Models: Part 2.1, Grade-School Math and the Hidden Reasoning Process](https://arxiv.org/abs/2407.20311)
+
+- iGSM framework: is used to generate diverse grade-school math problems for training and testing language models.
+- The framework includes a hierarchical categorization, structure graph, dependency graph, and solution construction using Chain-of-Thought (CoT) approach, and it uses GPT2-like language model with rotary embedding.
+- This framework enables a principled study of language models' mathematical reasoning skills, going beyond empirical benchmark pushing.
+
+
+---
+
 
 #### 28th of July 2024
 
@@ -3582,9 +3652,22 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Uses two step approach: Localization (files requiring sw fix) and Repair.
 - Framework begins from codebase and an issue. It then reviews repo structure and issue to localize top n-files, localizes classes/functions, localizes edit locations. In the repair-phase, the LLM generates various patches, which are filtered and ranked to submit the patch to the issue.
 
+
 ---
 
-#### 28st of June 2024
+#### 29th of June 2024
+
+[Question Translation Training for Better Multilingual Reasoning](https://arxiv.org/abs/2401.07817)
+
+- QAlign (Question Alignment): is a framework that fine-tunes LLMs to translate reasoning questions into English using X-English parallel question data.
+- It uses targeted in-domain language alignment, enables effective utilization of English instruction data, and includes response alignment with cutting-edge English instruction data.
+- This framework improves multilingual reasoning capabilities of LLMs by transferring English expertise to non-English tasks.
+
+
+---
+
+
+#### 28th of June 2024
 
 [LLM Critics Help Catch LLM Bugs](https://arxiv.org/abs/2407.00215)
 
@@ -3611,7 +3694,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
-#### 27st of June 2024
+#### 27th of June 2024
 
 [Fundamental Problems With Model Editing: How Should Rational Belief Revision Work in LLMs?](https://arxiv.org/abs/2406.19354)
 
