@@ -232,6 +232,15 @@ Chronological order.
 
 #### 13th of January 2025
 
+[GPT as a Monte Carlo Language Tree: A Probabilistic Perspective](https://arxiv.org/abs/2501.07641)
+
+- Reviews LLM as a Monte Carlo Language Tree (data tree), where each node is token, each edge is the token transition probability and each sequence has unique path.
+- Any GPT LLM can be flattened into MCLT.
+- Claims CoT attempts to find path between the input and output in the MCLT to connect them.
+
+
+---
+
 [WebWalker: Benchmarking LLMs in Web Traversal](https://arxiv.org/abs/2501.07572)
 
 - WebWalker: is a multi-agent framework that mimics human-like web navigation through an explore-critic paradigm. 
