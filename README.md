@@ -70,8 +70,6 @@ Chronological order.
 
 ---
 
-#### 16.01.2025
-
 [OmniThink: Expanding Knowledge Boundaries in Machine Writing through Thinking](https://arxiv.org/abs/2501.09751)
 
 - OmniThink: is a machine writing framework that emulates human-like iterative expansion and reflection.
@@ -90,13 +88,20 @@ Chronological order.
 
 ---
 
-#### 16.01.2025
-
 [Empowering Large Language Models in Wireless Communication: A Novel Dataset and Fine-Tuning Framework](http://arxiv.org/abs/2501.09631v1)
 
 - PVI (Pointwise V-Information) based fine-tuning method: enhances LLMs for wireless communication by quantifying information content of training data.
 - Dataset includes multi-hop questions, true/false and multiple-choice types, varying difficulty levels, rigorous data curation, advanced language models for entity extraction and question generation.
 - This work aims to improve LLM training and evaluation for wireless communication research and applications.
+
+
+---
+
+[SOP-AGENT: EMPOWER GENERAL PURPOSE AI AGENT WITH DOMAIN-SPECIFIC SOPS](http://arxiv.org/abs/2501.09316v1)
+
+- SOP-agent (Standard Operational Procedure-guided Agent): is a novel framework for constructing domain-specific agents through pseudocode-style Standard Operational Procedures (SOPs) written in natural language.
+- SOP-agent represents SOP as a decision graph, traverses it to guide the agent, conducts experiments across multiple domains, and introduces Grounded Customer Service Benchmark.
+- SOP-agent demonstrates excellent versatility, achieving performance superior to general-purpose agent frameworks and comparable to domain-specific agent systems.
 
 
 ---
@@ -153,6 +158,16 @@ Chronological order.
 - Doc-Guided Sent2Sent++: is an agent that employs an incremental sentence-level forced decoding strategy for document-level machine translation.
 - It uses Doc-Guided Memory with summary and its translation, ensures sentence completeness, enhances fluency, and improves translation quality.
 - This approach addresses the limitations of other DocMT agents by maintaining both completeness and fluency.
+
+
+---
+
+[Evaluating GenAl for Simplifying Texts for Education: Improving Accuracy and Consistency for Enhanced Readability](http://arxiv.org/abs/2501.09158v1)
+
+
+- GenAI (Generative Artificial Intelligence): framework evaluates the use of LLMs for text simplification in educational contexts.
+- Framework uses three LLMs (GPT-4 Turbo, Claude 3, and Mixtral 8x22B), four prompting techniques (zero-shot, directional stimulus, chain-of-thought, and prompt chaining), and a novel multi-agent architecture; it assesses grade level accuracy, keyword accuracy, semantic similarity, and word count change.
+- This study provides a rigorous evaluation of LLMs for automated text simplification, offering insights for educators and future research.
 
 
 ---
