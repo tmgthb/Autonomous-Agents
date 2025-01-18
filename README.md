@@ -116,6 +116,16 @@ Chronological order.
 
 ---
 
+
+[Agent TCP/IP: An Agent-to-Agent Transaction System](https://arxiv.org/abs/2501.06243)
+
+- ATCP/IP (Agent Transaction Control Protocol for Intellectual Property): introduces a trustless framework for exchanging IP between agents via programmable contracts.
+- Framework enables agents to initiate, trade, borrow, and sell agent-to-agent contracts on the Story blockchain network, including legal wrappers for offchain enforcement, and facilitates autonomous selling of training data, licensing of information, and content collaboration.
+- This framework is important for creating a standardized way for agents to negotiate and enter into agreements, forming a market for knowledge.
+
+
+---
+
 [Leveraging Large Language Models as Knowledge-Driven Agents for Reliable Retrosynthesis Planning](http://arxiv.org/abs/2501.08897v1)
 
 - MBRPS (Multi-branched Reaction Pathway Search): Algorithm enabling exploration of all pathways, with a focus on multi-branched ones.
@@ -273,6 +283,44 @@ Chronological order.
 
 ---
 
+[ADDRESSING THE SUSTAINABLE AI TRILEMMA: A CASE STUDY ON LLM AGENTS AND RAG](http://arxiv.org/abs/2501.08262v1)
+
+- Sustainable AI Trilemma: highlights the tensions between AI capability, digital equity, and environmental sustainability.
+- Framework analyzes energy costs in memory module designs, introduces metrics for energy consumption and system performance trade-offs, challenges LLM-centric autonomy paradigm.
+- This framework provides practical insights for developing more sustainable AI systems.
+
+
+---
+
+[Agent-Centric Projection of Prompting Techniques and Implications for Synthetic Training Data for Large Language Models](http://arxiv.org/abs/2501.07815v1)
+
+- Agent-Centric Projection: introduces a framework to reveal connections between prompting strategies and multi-agent systems.
+- Framework uses linear and non-linear contexts to classify prompting techniques, and proposes three conjectures about the relationship between prompting and multi-agent systems.
+- This framework enables cross-pollination of research findings between prompting and multi-agent domains, while providing new directions for improving both the design and training of future LLM systems.
+
+
+---
+
+[ASTRID - An Automated and Scalable TRIaD for the Evaluation of RAG-based Clinical Question Answering Systems](http://arxiv.org/abs/2501.08208v1)
+
+- ASTRID: is an Automated and Scalable TRIaD for evaluating clinical QA systems leveraging RAG.
+- ASTRID includes three metrics: Context Relevance (CR), Refusal Accuracy (RA), and Conversational Faithfulness (CF); it is validated using real-world patient questions and clinician assessments; it is automatable using LLMs.
+- ASTRID provides a valuable resource for further research and development of clinical QA systems.
+
+
+---
+
+[CuAsmRL: Optimizing GPU SASS Schedules via Deep Reinforcement Learning](http://arxiv.org/abs/2501.08071v1)
+
+- CuAsmRL: is an automatic optimizer for optimizing NVIDIA GPU SASS schedules using reinforcement learning.
+- It formulates SASS optimization as an assembly game, integrates with OpenAI Triton, and improves performance of specialized CUDA kernels by up to 26%.
+- This framework provides a way to automatically optimize GPU kernels, which is important for improving the performance of LLMs.
+
+
+---
+
+
+
 #### 13th of January 2025
 
 [GPT as a Monte Carlo Language Tree: A Probabilistic Perspective](https://arxiv.org/abs/2501.07641)
@@ -343,6 +391,17 @@ Chronological order.
 
 
 ---
+
+[PoAct: Policy and Action Dual-Control Agent for Generalized Applications](http://arxiv.org/abs/2501.07054v1)
+
+- PoAct (Policy and Action Dual-Control Agent): is a framework that dynamically adjusts action space and reasoning policy by switching between different reasoning policies and managing action space.
+- PoAct includes Policy Controller for high-quality planning and coding, and Action Controller with RAG Selector and Action Reviewer for managing action space and reasoning paths; it is evaluated on multiple datasets with commercial and open-source large models.
+- PoAct achieves higher-quality code actions and more accurate reasoning paths, demonstrating strong generalizability and scalability.
+
+
+---
+
+
 
 
 #### 12th of January 2025
@@ -460,6 +519,36 @@ Chronological order.
 
 ---
 
+[Emergence of human-like polarization among large language model agents](https://arxiv.org/abs/2501.05171)
+
+- LLM (Large Language Model) agents framework: simulates a networked system of agents that establish social relationships, communicate, and form opinions on political issues.
+- Framework includes self-expression, communication, and opinion update stages; agents develop human-like polarization, homophilic clustering, and echo chamber effects; self-regulation strategy reduces self-inconsistency.
+- This framework provides a valuable platform for exploring strategies to mitigate polarization and promote inclusive political conversations.
+
+
+---
+
+
+[LearningFlow: Automated Policy Learning Workflow for Urban Driving with Large Language Models](https://arxiv.org/abs/2501.05057)
+
+- LearningFlow: is an automated policy learning workflow for urban driving that uses multiple LLM agents.
+- It includes curriculum sequence generation and reward generation processes, supported by analysis agents, and enhances sample efficiency.
+- This framework automates policy learning across complex driving tasks and reduces reliance on manual reward function design.
+
+
+---
+
+[OVO-Bench: How Far is Your Video-LLMs from Real-World Online Video Understanding?](https://arxiv.org/abs/2501.05510)
+
+- OVO-Bench (Online-VideO-Benchmark): is a novel video benchmark for evaluating online video understanding capabilities of Video-LLMs.
+- It includes 644 videos, 2800 meta-annotations, and 12 tasks across three categories: Backward Tracing, Real-Time Visual Perception, and Forward Active Responding.
+- This benchmark highlights the importance of temporal awareness for advanced online video understanding.
+
+
+---
+
+
+
 
 #### 8th of January 2025
 
@@ -530,6 +619,17 @@ Chronological order.
 
 
 ---
+
+[RTLSquad: Multi-Agent Based Interpretable RTL Design](https://arxiv.org/abs/2501.05470)
+
+
+- RTLSquad: is a novel LLM-Based Multi-Agent system for interpretable RTL code generation.
+- It divides the design process into exploration, implementation, and verification & evaluation stages, managed by specialized agent squads, generating optimized RTL code through inter-agent collaboration, and providing decision interpretability through the communication process.
+- This framework enhances the ability to generate functionally correct RTL code and optimize PPA performance, while also providing decision paths.
+
+
+---
+
 
 #### 5th of January 2025
 
@@ -796,6 +896,15 @@ Chronological order.
 - VideoRefer-model: Improves Video-LLMs fine-grained spatial and temporal detail understanding in videos, which facilitates more precise object descriptions, more detailed event analysis, and enhanced predictive reasoning in dynamic environments using masked object features.
 - VideoRefer-model consists of VideoLLaMA 2.1 as the foundation and a novel unified spatial-temporal object encoder that merges cross-frame token similarities.
 - Includes VideoRefer-dataset and VideoReferBench-benchmark.
+
+
+---
+
+[LLM-MedQA: Enhancing Medical Question Answering through Case Studies in Large Language Models](https://arxiv.org/abs/2501.05464)
+
+- LLM-MedQA: is a multi-agent medical question-answering system that incorporates similar case generation within a multi-agent architecture.
+- It leverages Llama3.1:70B model, includes question-specific analysis, option analysis, and case generation agents, and uses zero-shot learning.
+- This framework enhances performance on the MedQA dataset and improves interpretability and reliability in medical question answering.
 
 
 ---
