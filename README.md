@@ -64,7 +64,8 @@ Chronological order.
 ---
 
 [AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling]( http://arxiv.org/abs/2501.09426v1)
-- AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling. 
+- AutoCBT: An Autonomous Multi-agent Framework for Cognitive Behavioral Therapy in Psychological Counseling.
+- AutoCBT incorporates a counsellor agent and multiple supervisor agents, uses short-term and long-term memory, and is evaluated on a bilingual dataset.
 - AutoCBT leverages dynamic routing and supervisory mechanisms to offer high-quality, automated CBT services, enhancing the effectiveness of single-turn consultations.
 
 ---
@@ -76,6 +77,26 @@ Chronological order.
 - OmniThink: is a machine writing framework that emulates human-like iterative expansion and reflection.
 - It uses continuous reflection and exploration, attaches knowledge to an information tree, and extracts it into a conceptual pool to deepen understanding.
 - This framework improves the knowledge density of generated articles without compromising coherence and depth.
+
+
+---
+
+[CyberMentor: AI Powered Learning Tool Platform to Address Diverse Student Needs in Cybersecurity Education](http://arxiv.org/abs/2501.09709v1)
+
+- CyberMentor: is a learning tool platform designed to address diverse needs of cybersecurity students using agentic workflow and Generative Large Language Models (LLMs).
+- It leverages Retrieval-Augmented Generation (RAG) for accurate information retrieval, includes knowledge base, skill base and LLM agent, and provides personalized learning experiences.
+- This framework aims to improve equity and sustainability in higher education by offering open-source design for adaptation across disciplines.
+
+
+---
+
+#### 16.01.2025
+
+[Empowering Large Language Models in Wireless Communication: A Novel Dataset and Fine-Tuning Framework](http://arxiv.org/abs/2501.09631v1)
+
+- PVI (Pointwise V-Information) based fine-tuning method: enhances LLMs for wireless communication by quantifying information content of training data.
+- Dataset includes multi-hop questions, true/false and multiple-choice types, varying difficulty levels, rigorous data curation, advanced language models for entity extraction and question generation.
+- This work aims to improve LLM training and evaluation for wireless communication research and applications.
 
 
 ---
