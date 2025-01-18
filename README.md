@@ -109,6 +109,13 @@ Chronological order.
 
 #### 15th of January 2025
 
+[AGENTIC RETRIEVAL-AUGMENTED GENERATION: A SURVEY ON AGENTIC RAG](http://arxiv.org/abs/2501.09136v1)
+
+- Introduces Survey on compherensive list of RAG-techniques with LLM-agents.
+
+
+---
+
 [Leveraging Large Language Models as Knowledge-Driven Agents for Reliable Retrosynthesis Planning](http://arxiv.org/abs/2501.08897v1)
 
 - MBRPS (Multi-branched Reaction Pathway Search): Algorithm enabling exploration of all pathways, with a focus on multi-branched ones.
