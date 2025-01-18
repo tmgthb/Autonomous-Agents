@@ -1776,8 +1776,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 
 ---
-[PDL: A Declarative Prompt Programming Language](https://arxiv.org/abs/2410.19135)
 
+[Skywork-Reward: Bag of Tricks for Reward Modeling in LLMs](https://arxiv.org/abs/2410.18451v1)
+
+- Skywork-Reward: introduces methods to enhance reward modeling for LLMs, focusing on data-centric techniques.
+- It proposes data selection and filtering strategies for high-quality preference datasets, resulting in Skywork-Reward data collection, and develops Skywork-Reward model series including Skywork-Reward-Gemma-27B and Skywork-Reward-Llama-3.1-8B.
+- This work enhances performance of top-ranked models on RewardBench, highlighting practical impact in preference learning applications.
+
+
+---
+
+
+[PDL: A Declarative Prompt Programming Language](https://arxiv.org/abs/2410.19135)
 
 - PDL (Prompt Declarative Language): Introduces declarative and data-oriented language based on YAML to construct LLN prompt programs. Every PDL program is a valid YAML-document with PDL-schema. 
 
@@ -1786,10 +1796,10 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 [From a Tiny Slip to a Giant Leap: An LLM-Based Simulation for Fake News Evolution](https://arxiv.org/abs/2410.19064)
 
-
 - FUSE (Fake News evlUtion Simulation framEwork): Reviews the way true news convert into fake news with LLMs. Includes LLM-based agents: spreaders/commentators/verifiers/bystanders.
 - The simulation evolves with a module called News Evolution Simulator. 
 - Includes content deviation metrics.
+
 
 ---
 
