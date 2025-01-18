@@ -1120,6 +1120,18 @@ Chronological order.
 
 ---
 
+#### 18th of December 2024
+
+[Inference Scaling Flaws: The Limits of LLM Resampling with Imperfect Verifiers](http://arxiv.org/abs/2411.17501)
+
+- LLM Resampling: explores the limits of using resampling with imperfect verifiers for improving language model accuracy.
+- The framework shows that imperfect verifiers, like unit tests, lead to false positives, limiting the effectiveness of resampling, and that weaker models generalize worse than stronger models, even with infinite compute budget.
+- This research highlights the importance of developing accurate verifiers and questions the effectiveness of inference scaling with imperfect verifiers.
+
+
+---
+
+
 #### 17th of December 2024
 
 [AI PERSONA: Towards Life-long Personalization of LLMs](https://arxiv.org/abs/2412.13103)
@@ -1230,7 +1242,24 @@ Chronological order.
 
 ---
 
+#### 2nd of December 2024
 
+[Mastering Board Games by External and Internal Planning with Language Models](https://arxiv.org/abs/2412.12119)
+
+- MAV (Multi Action-Value) model: is a transformer model pre-trained on textual game data, functioning as a world model, value function, and policy function for multiple perfect-information board games.
+- Framework includes external and internal search methods, uses MCTS controller, and distills search procedure directly into the LLM, pre-trained on relevant domain knowledge, minimizes hallucinations, and improves win-rates against state-of-the-art bots.
+- This framework demonstrates the capacity of LLMs to learn strong value functions and act as a world model across multiple perfect information games.
+
+---
+
+[Inference Scaling Flaws: The Limits of LLM Resampling with Imperfect Verifiers](http://arxiv.org/abs/2411.17501)
+
+- LLM Resampling: explores the limits of using resampling with imperfect verifiers for improving language model accuracy.
+- The framework shows that imperfect verifiers, like unit tests, lead to false positives, limiting the effectiveness of resampling, and that weaker models generalize worse than stronger models, even with infinite compute budget.
+- This research highlights the importance of developing accurate verifiers and questions the effectiveness of inference scaling with imperfect verifiers.
+
+
+---
 
 #### 25th of November 2024
 
