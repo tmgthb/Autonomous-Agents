@@ -463,9 +463,19 @@ We must remember, that above human-level intelligence is not a theoretical conce
 
 ### Perception
 
-F. Rosenblatt was an early investigator of Perception through the (Perceptron)[https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf]-paper from 1958.
+F. Rosenblatt was an early investigator of Perception through the (Perceptron)<sup>[1](https://www.ling.upenn.edu/courses/cogs501/Rosenblatt1958.pdf)</sup>-paper from 1958.
 
-Modern AI systems refer perception through VLMs.
+Perception provides agents with information about the world they inhabit by interpreting the response of the sensors.<sup>[1](https://people.engr.tamu.edu/guni/csce421/files/AI_Russell_Norvig.pdf)</sup>-paper from 1958. 
+
+Perception of LLM-agents can be divided into:
+- Text: natural language, code
+- Visual<sup>[1](https://arxiv.org/abs/2401.03568), [2](https://arxiv.org/abs/2402.15116)</sup>: Image, Video, Graphs, GUIs[1](https://arxiv.org/abs/2411.04890)</sup>
+- Audio: 
+- Physical: Sensors, Robots
+- Smell<sup>[1](https://arxiv.org/abs/2411.06950v1), [2](https://arxiv.org/abs/2412.08747)</sup>
+- Emotions<sup>[1](https://arxiv.org/abs/2402.04232)</sup>
+
+
 
 
 ---
