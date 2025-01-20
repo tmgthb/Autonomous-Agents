@@ -4665,6 +4665,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 30th of May 2024
 
+[Group Robust Preference Optimization in Reward-free RLHF](https://arxiv.org/abs/2405.20304)
+
+- GRPO (Group Robust Preference Optimization): is a method to align LLMs to individual groups' preferences robustly.
+- It seeks a robust policy, maximizes worst-case group performance, adaptively weights groups, prioritizes groups with worse cumulative loss, and is theoretically studied for log-linear policy class.
+- It significantly improves performance for worst-performing groups, reduces loss imbalances, and improves probability accuracies.
+
+
+---
+
 
 [Towards Hierarchical Multi-Agent Workflows for Zero-Shot Prompt Optimization](https://arxiv.org/abs/2405.20252)
 
