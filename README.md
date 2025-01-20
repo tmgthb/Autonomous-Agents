@@ -90,6 +90,27 @@ Chronological order.
 
 ---
 
+[Towards Preventing Overreliance on Task-Oriented Conversational AI Through Accountability Modeling](http://arxiv.org/abs/2501.10316v1)
+
+- Accountability Model: is an augmented LLM with an additional accountability head, functioning as a binary classifier to predict dialogue state slots.
+- It detects false positives and negatives, guides LLM decoder for accurate actions, enables self-correction, and introduces friction to prevent overreliance.
+- This model improves joint goal accuracy and overall performance in task-oriented dialogue systems.
+
+
+---
+
+
+[PaSa: An LLM Agent for Comprehensive Academic Paper Search](https://arxiv.org/abs/2501.10120v1)
+
+- PaSa: is an advanced paper search agent powered by large language models.
+- It autonomously makes decisions, including invoking search tools, reading papers, and selecting references; it is optimized using reinforcement learning with synthetic dataset; it outperforms existing baselines on real-world academic queries.
+- This framework significantly improves the efficiency and accuracy of academic search.
+
+
+---
+
+
+
 
 #### 16th of January 2025
 
