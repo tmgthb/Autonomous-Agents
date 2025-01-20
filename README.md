@@ -2198,6 +2198,16 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 10th of October 2024
 
+
+[Rewarding Progress: Scaling Automated Process Verifiers for LLM Reasoning](https://arxiv.org/abs/2410.08146)
+
+- PAVs (Process Advantage Verifiers): is a framework that trains verifiers to predict progress in multi-step reasoning by measuring the change in likelihood of a correct response under a prover policy.
+- PAVs improve exploration during test-time search and online RL, using complementary prover policies, and are more compute-efficient than ORMs.
+- This framework enables more efficient and accurate reasoning in large language models by providing a better way to measure progress in multi-step reasoning.
+
+
+---
+
 [Multi-Agent Collaborative Data Selection for Efficient LLM Pretraining](https://arxiv.org/abs/2410.08102)
 
 - Introduces LLM-based multi-agent system for efficient LLM pretraining data selection. LLM converges faster in the pretraining and the method improves LLM output quality.
