@@ -11144,30 +11144,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Includes text tokens, image patch tokens, agent timesteps and action tokens.
 - Argues, that "a generalist agent that can adapt to new embodiments and learn new tasks with few data."
 
-
----
-
-[Large-Scale Retrieval for Reinforcement Learning
-](https://arxiv.org/abs/2206.05314)
-
-
-[Creating Multimodal Interactive Agents with Imitation and Self-Supervised Learning](https://arxiv.org/abs/2112.03763)
-
-[Retrieval-Augmented Reinforcement Learning](https://arxiv.org/abs/2202.08417)
-
-[Evaluating Multimodal Interactive Agents](https://arxiv.org/abs/2205.13274)
-
-[Intra-agent speech permits zero-shot task acquisition](https://arxiv.org/abs/2206.03139)
-
-[How to Learn and Represent Abstractions: An Investigation using Symbolic Alchemy](https://arxiv.org/abs/2112.08360)
-
-[Rapid Task-Solving in Novel Environments](https://arxiv.org/abs/2006.03662)
-
-
-[A Unified, Scalable Framework for Neural Population Decoding](https://arxiv.org/abs/2310.16046)
-
-[Toward Next-Generation Artificial Intelligence: Catalyzing the NeuroAI Revolution](https://arxiv.org/abs/2210.08340)
-
 ---
 
 #### 19th of April 2022
