@@ -1289,6 +1289,18 @@ Chronological order.
 
 ---
 
+#### 29th of November 2024
+
+[Amplifying human performance in combinatorial competitive programming](https://arxiv.org/abs/2411.19744)
+
+- FunSearch: is a framework that evolves scoring functions for a human-designed solution backbone using a large language model.
+- Framework uses Gemini 1.5 Flash 002, improves scores on Hash Code, and uses a switching variable for multiple choice points.
+- This approach demonstrates a successful human-AI synergy in combinatorial optimization problems.
+
+
+---
+
+
 #### 25th of November 2024
 
 
