@@ -102,13 +102,59 @@ Chronological order.
 
 [PaSa: An LLM Agent for Comprehensive Academic Paper Search](https://arxiv.org/abs/2501.10120v1)
 
-- PaSa: is an advanced paper search agent powered by large language models.
+- PaSa: is an advanced paper search agent powered by large language models. Available [https://pasa-agent.ai/](https://pasa-agent.ai/)
 - It autonomously makes decisions, including invoking search tools, reading papers, and selecting references; it is optimized using reinforcement learning with synthetic dataset; it outperforms existing baselines on real-world academic queries.
 - This framework significantly improves the efficiency and accuracy of academic search.
 
 
 ---
 
+[LLM Reasoner and Automated Planner: A new NPC approach](http://arxiv.org/abs/2501.10106v1)
+
+
+
+- LLM Reasoner and Automated Planner: is a novel architecture that integrates an LLM for decision-making with a classical automated planner.
+- Framework uses LLM to decide goal, then uses automated planning to create plan, and includes modules for reasoning, planning and interface.
+- This framework aims to empower autonomous agents with flexibility to adapt to any situation while maintaining plausible and human-like behavior.
+
+
+---
+
+[A Survey on LLM Test-Time Compute via Search: Tasks, LLM Profiling, Search Algorithms, and Relevant Frameworks](http://arxiv.org/abs/2501.10069v1)
+
+- This survey provides a comprehensive technical review that unifies task definitions and provides modular definitions of LLM profiling and search procedures.
+- It enables precise comparisons of various LLM inference frameworks, highlights their departures from conventional search algorithms, and discusses applicability, performance, and efficiency.
+- This survey offers a collection of classical and reusable implementations that can serve as solid foundations for future research and development.
+
+
+---
+
+[Agent-as-Judge for Factual Summarization of Long Narratives](http://arxiv.org/abs/2501.09993v1)
+
+- NARRATIVEFACTSCORE: is a novel "Agent-as-a-Judge" framework for evaluating and refining summaries.
+- It leverages Character Knowledge Graph (CKG), assesses factual consistency, provides actionable guidance for refinement, identifies missing or erroneous facts, and uses retrieval-based verification with explicit feedback.
+- This framework improves the factual reliability of LLM-generated summaries.
+
+---
+
+[A Survey on Multi-Turn Interaction Capabilities of Large Language Models](http://arxiv.org/abs/2501.09959v1)
+
+- This survey provides a focused review of the multi-turn capabilities of LLMs.
+- The survey explores core model capabilities, evaluation methods, enhancement algorithms, and future research directions.
+- This survey is important for both academic researchers and industry practitioners.
+
+
+---
+
+
+[TOWARDS A LITMUS TEST FOR COMMON SENSE](http://arxiv.org/abs/2501.09913v1)
+
+- Axiomatic litmus test: diagnoses common sense by combining minimal prior knowledge constraints with diagonal arguments to create tasks beyond the agent's known concept set.
+- It addresses deceptive hallucinations, integrates observations regarding emergent deceptive hallucinations, and uses Abstraction and Reasoning Corpus (ARC) constraints.
+- This test provides a stepping stone toward an ethical, reliable foundation for future safe, beneficial and aligned artificial intelligence.
+
+
+---
 
 
 
