@@ -71,6 +71,25 @@ Chronological order.
 
 ---
 
+[Agent4Edu: Generating Learner Response Data by Generative Agents for Intelligent Education Systems](https://arxiv.org/abs/2501.10332v1)
+
+- Agent4Edu: is a personalized learning simulator that uses LLM-powered generative agents to simulate human learners' response data.
+- It includes learner profile, memory, and action modules; interacts with personalized learning environments; evaluates and improves intelligent tutoring algorithms.
+- This framework provides a versatile platform for comprehensive evaluations and future collection of valuable learner response data.
+
+
+---
+
+[Towards Human-Guided, Data-Centric LLM Co-Pilots](http://arxiv.org/abs/2501.10321v1)
+
+
+- CliMB-DC (Clinical predictive Model Builder with Data-Centric AI): is a human-guided, data-centric framework for LLM co-pilots.
+- It includes a multi-agent reasoning system with a strategic coordinator and a specialized worker agent, integrates state-of-the-art data-centric tools, and uses a human-in-the-loop approach.
+- This framework empowers domain experts to actively participate in driving real-world impact using ML.
+
+
+---
+
 
 #### 16th of January 2025
 
