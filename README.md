@@ -43,6 +43,34 @@ Chronological order.
 
 </div>
 
+#### 20th of January 2025
+
+[DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinformcent Learning](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)
+
+- DeepSeek-R1: Trains SOTA-level Large Reasoning Model from LLM via Reinforcement Learning, which matches performance with o1-model.
+
+---
+
+[Kimi-K1.5: Scaling Reinforcement Learning with LLMs](https://github.com/MoonshotAI/Kimi-k1.5/blob/main/Kimi_k1.5.pdf)
+
+- Kimi k1.5: is a multi-modal large language model (LLM) trained with reinforcement learning (RL) to achieve SOTA-level reasoning performance across multiple benchmarks and modalities.
+
+
+---
+
+
+#### 17th of January 2025
+
+[Evolving Deeper LLM Thinking](https://arxiv.org/abs/2501.09891)
+
+- Mind Evolution: is an evolutionary search strategy that uses a language model to generate, recombine and refine candidate responses.
+- It avoids formalizing the inference problem (so is usable in spaces like planning in natural language without explicit formalization of the problem and as well in hiding encoded message inside poems, which is non-natural language task), uses a global solution evaluator (focuses on domains, where evaluator is available), and can be easily parallelized.
+- This approach significantly outperforms other inference strategies in natural language planning tasks.
+- Introduces new StegPoet-benchmark, where the benchmark task is to encode message inside essay/story. 
+
+
+---
+
 
 #### 16th of January 2025
 
