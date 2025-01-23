@@ -53,6 +53,10 @@ Chronological order.
 
 ---
 
+[Operator System Card](https://cdn.openai.com/operator_system_card.pdf)
+
+- OA Operator-agent system card.
+
 #### 21st of January 2025
 
 [LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems](http://arxiv.org/abs/2501.11864v1)
