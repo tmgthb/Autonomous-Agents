@@ -43,6 +43,30 @@ Chronological order.
 
 </div>
 
+#### 21.01.2025
+
+[LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems](http://arxiv.org/abs/2501.11864v1)
+
+- AUTOSIMTEST: is a Large Language Model (LLM)-driven framework, where multiple LLM agents collaborate to support the sUAS simulation testing process.
+- Framework includes scenario generation-, mission-, environment- and analytics-agents; uses RAG approach; provides interactive analysis interface.
+- Framework improves efficiency and scope of sUAS testing process, allowing for more comprehensive and varied scenario evaluations while reducing manual effort.
+
+
+---
+
+[EmbodiedEval: Evaluate Multimodal LLMs as Embodied Agents](http://arxiv.org/abs/2501.11858v1)
+
+
+
+- EMBODIEDEVAL: is a comprehensive and interactive evaluation benchmark for MLLMs with embodied tasks.
+- EMBODIEDEVAL features 328 distinct tasks within 125 varied 3D scenes, covers navigation, object interaction, social interaction, attribute question answering, and spatial question answering.
+- This framework provides insights for future development of MLLMs in embodied capabilities.
+
+
+---
+
+
+
 #### 20th of January 2025
 
 [DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinformcent Learning](https://github.com/deepseek-ai/DeepSeek-R1/blob/main/DeepSeek_R1.pdf)
@@ -54,6 +78,24 @@ Chronological order.
 [Kimi-K1.5: Scaling Reinforcement Learning with LLMs](https://github.com/MoonshotAI/Kimi-k1.5/blob/main/Kimi_k1.5.pdf)
 
 - Kimi k1.5: is a multi-modal large language model (LLM) trained with reinforcement learning (RL) to achieve SOTA-level reasoning performance across multiple benchmarks and modalities.
+
+
+---
+
+[Conversation Routines: A Prompt Engineering Framework for Task-Oriented Dialog Systems](http://arxiv.org/abs/2501.11613v1)
+
+- Conversation Routines (CR): is a structured prompt engineering framework for developing task-oriented dialog systems using Large Language Models (LLMs).
+- CR enables development of Conversation Agentic Systems (CAS) through natural language specifications, embedding task-oriented logic within LLM prompts, providing systematic methodology for designing complex conversational workflows while maintaining behavioral consistency.
+- This framework enables domain experts to design conversational workflows in natural language while leveraging custom enterprise functionalities.
+
+
+---
+
+[Agent-R: Training Language Model Agents to Reflect via Iterative Self-Training](http://arxiv.org/abs/2501.11425v1)
+
+- Agent-R: is an iterative self-training framework that enables language agents to reflect on the fly.
+- It leverages Monte Carlo Tree Search (MCTS) to construct training samples, recovers correct trajectories from erroneous ones, and uses a model-guided critique construction mechanism for timely revision.
+- This framework effectively equips agents to identify and correct erroneous actions while avoiding loops, achieving superior performance.
 
 
 ---
