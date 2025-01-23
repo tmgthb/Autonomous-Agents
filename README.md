@@ -57,6 +57,8 @@ Chronological order.
 
 - OA Operator-agent system card.
 - Uses RL.
+- Additional [details](https://cdn.openai.com/cua/CUA_eval_extra_information.pdf)
+
 
 #### 21st of January 2025
 
