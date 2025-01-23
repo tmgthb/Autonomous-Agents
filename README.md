@@ -43,6 +43,16 @@ Chronological order.
 
 </div>
 
+
+#### 23rd of January 2025
+
+[THe though process behind Kimi k1.5](https://twitter.com/Kimi_Moonshot/status/1882413059513471044)
+
+- Explains the way the Kimi K-1.5 model was trained and discusses overall likely o1-model training procedure.
+
+
+---
+
 #### 21st of January 2025
 
 [LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems](http://arxiv.org/abs/2501.11864v1)
