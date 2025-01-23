@@ -120,6 +120,83 @@ Chronological order.
 
 ---
 
+[Code Readability in the Age of Large Language Models: An Industrial Case Study from Atlassian](http://arxiv.org/abs/2501.11264v1)
+
+- HULA (Human-in-the-loop software development agents framework): is a LLM-based framework for software development.
+- The framework uses GPT-4, compares LLM-generated code with human-written code, and evaluates code readability using static analysis metrics.
+- This study highlights the importance of code readability in the age of LLMs and shows that LLM-generated code can be comparable to human-written code.
+
+
+---
+
+[PlotEdit: Natural Language-Driven Accessible Chart Editing in PDFs via Multimodal LLM Agents](http://arxiv.org/abs/2501.11233v1)
+
+- PlotEdit: is a multi-agent framework for natural language-driven end-to-end chart image editing via self-reflective LLM agents.
+- Framework includes Chart2Table, Chart2Vision, Chart2Code, Instruction Decomposition and Multimodal Editing agents; uses multimodal feedback to maintain visual fidelity; outperforms existing baselines on ChartCraft dataset.
+- It enhances accessibility for visually challenged users and improves novice productivity.
+
+
+---
+
+#### 19th of January 2025
+
+[IntellAgent: A Multi-Agent Framework for Evaluating Conversational AI Systems](http://arxiv.org/abs/2501.11067v1)
+
+- IntellAgent: is a scalable, open-source multi-agent framework designed to evaluate conversational AI systems.
+- It automates synthetic benchmark creation using policy-driven graph modeling, realistic event generation, and interactive user-agent simulations, providing fine-grained diagnostics.
+- This framework enables comprehensive evaluation of conversational AI by addressing limitations of traditional methods.
+
+
+---
+
+[GREEN-CODE: Optimizing Energy Efficiency in Large Language Models for Code Generation](http://arxiv.org/abs/2501.11006v1)
+
+- GREEN-CODE: is a framework for energy-aware code generation in LLMs, performing dynamic early exit during inference.
+- It uses Reinforcement Learning agent to balance accuracy, latency, and energy consumption trade-offs, and fine-tunes models with weighted aggregated loss.
+- This framework reduces energy consumption significantly without affecting accuracy for code generation tasks.
+
+
+---
+
+[Open FinLLM Leaderboard: Towards Financial AI Readiness](http://arxiv.org/abs/2501.10963v1)
+
+- Open FinLLM Leaderboard: is an open platform for assessing and comparing Large Language Models' performance on financial tasks.
+- The framework includes a leaderboard, demos, and financial AI readiness components; it uses zero-shot evaluation, and provides side-by-side model comparisons.
+- This framework is important for encouraging innovation and improving model effectiveness in the financial sector.
+
+
+---
+
+
+[Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](http://arxiv.org/abs/2501.10893v1)
+
+- LEARN-BY-INTERACT: is a data-centric framework to adapt LLM agents to any given environments without human annotations.
+- LEARN-BY-INTERACT synthesizes agent-environment interactions based on documentations, constructs instructions by summarizing interaction histories, and uses innovative retrieval approaches optimized for agents.
+- This framework serves as a foundation for agent data synthesis as LLMs are increasingly deployed at real-world environments.
+
+
+---
+
+#### 18th of January 2025
+
+[BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft Dialogues](http://arxiv.org/abs/2501.10836v1)
+
+- BAP v2 (Builder Action Prediction v2): is an upgraded task framework for instruction following in Minecraft dialogues.
+- BAP v2 includes enhanced evaluation benchmark with cleaner test set and fairer metrics, and additional synthetic training data generated from novel Minecraft dialogue and target structure simulators.
+- BAP v2 enables more efficient and meaningful progress on the task of instruction following in Minecraft dialogues.
+
+
+---
+
+[ML-SceGen: A Multi-level Scenario Generation Framework](http://arxiv.org/abs/2501.10782v1)
+
+- ML-SceGen: is a three-stage framework for generating comprehensive and critical scenarios in autonomous driving.
+- It uses LLM agents for parsing, Answer Set Programming (ASP) solver for logical traffic generation, and LLM for parameter updates to increase criticality.
+- This framework enhances controllability, scalability, and realism in scenario generation for autonomous driving systems.
+
+
+---
+
 #### 17th of January 2025
 
 [Evolving Deeper LLM Thinking](https://arxiv.org/abs/2501.09891)
