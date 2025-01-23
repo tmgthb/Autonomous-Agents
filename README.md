@@ -43,7 +43,7 @@ Chronological order.
 
 </div>
 
-#### 21.01.2025
+#### 21st of January 2025
 
 [LLM-Agents Driven Automated Simulation Testing and Analysis of small Uncrewed Aerial Systems](http://arxiv.org/abs/2501.11864v1)
 
@@ -100,6 +100,25 @@ Chronological order.
 
 ---
 
+[Towards Advancing Code Generation with Large Language Models: A Research Roadmap](http://arxiv.org/abs/2501.11354v1)
+
+
+
+- Six-layer vision framework: categorizes code generation process into Input, Orchestration, Development, and Validation phases.
+- Framework includes analysis of existing studies, outlines vision workflow, and systematically analyses challenges faced by LLMs.
+- This work provides guidelines for improving reliability, robustness and usability of LLM-based code generation systems.
+
+
+---
+
+[Large Language Model Agents for Radio Map Generation and Wireless Network Planning](http://arxiv.org/abs/2501.11283v1)
+
+- LLM agent framework: automates radio map generation and wireless network planning tasks.
+- Framework includes tools-, models- and profiles-modules; it uses short-term and long-term memory; it performs task planning.
+- The framework reduces manual operations and enhances network coverage and signal-to-interference-noise ratio.
+
+
+---
 
 #### 17th of January 2025
 
