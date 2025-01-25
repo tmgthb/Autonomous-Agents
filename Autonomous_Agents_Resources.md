@@ -31,32 +31,42 @@ Copyright (C) Teemu Maatta.
 
 </div>
 
-- [Introduction to Autonomous Agents](#introduction)
-  - [Definitions](#definitions)
-  - [Evaluation frameworks and Benchmarks](#benchmarks)
-  - [Related work](#relatedwork)
-- [Autonomous Agent Systems](#systems)
-  - [Perception](#perception)
-  - [Reasoning](#reasoning)
-  - [Planning](#planning)
-  - [Memory](#memory)
-  - [Tools](#tools)
-  - [Self-Recursive Learning](#selflearning)
-  - [Embodiment & Robotics](#embodiment)
-  - [Role play](#roles)
-  - [Emotional Intelligence](#emotions)
-  - [Communication protocols](#protocols)
-  - [Operating Systems](#os)
-  - [Brain interface](#brain)
-  - [Consciousness](#consciousness)
-- [Why Autonomous agents work?](#why)
-  - [Next sequence prediction](#nextsequenceprediction)
-  - [Scaling planning](#scaling_planning)
-  - [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
-  - [Free energy principle](#freeenergyprinciple)
-  - [Interpretability](#interpretability)
-  - [Synthetic data](#syntheticdata)
 
+- [Definitions of Agents](#definitions)
+  - [Agent](#agent_definition)
+  - [Autonomous agent](#autonomousagent_definition)
+  - [Artificial General Intelligence (AGI)](#agi_definition)
+  - [Superintelligence](#superintelligence_definition)
+  - [Generalist agent](#generalistagent_definition)
+  - [Reinforcement Learning agent](#rlagent_definition)
+  - [LLM agent](#llmagent_definition)
+  - [Embodied agent](#embodiedagent_definition)
+  - [AI agent](#aiagent_defintion)
+  - [Autonomous agent (my definition)](#aga_definition)
+- [Memory](#memory)
+- [Perception](#perception)
+- [Reasoning](#reasoning)
+- [Planning](#planning)
+- [Character](#character)
+    - [Role play](#roles)
+    - [Emotions](#emotions)
+    - [Consciousness](#consciousness)
+-[Operating](#operator)
+    - [GUIs](#gui)
+    - [Navigation](#navigation)
+    - [Tools](#tools)
+    - [OS](#os)
+    - [Embodiment](#embodiment)
+    - [Brain Compute Interfaces](#brain)
+    - [Communication protocols](#protocols)
+    - [Self-Construction](#selfconstruction)
+- [Why Autonomous agents work?](#why)
+    - [Next sequence prediction](#nextsequenceprediction)
+    - [Scaling planning](#scaling_planning)
+    - [Demystifying "Emerging abilities"](#demystifyingemergingabilities)
+    - [Free energy principle](#freeenergyprinciple)
+    - [Interpretability](#interpretability)
+    - [Synthetic data](#syntheticdata)
 
 
 
@@ -65,30 +75,20 @@ Copyright (C) Teemu Maatta.
 </div>
 
 
----
 
-<div align="center">
-
-## Introduction to Autonomous Agents
-
-+1.3k arXiv research [papers](https://arxiv.org/search/?searchtype=all&query=%22Autonomous+Agents%22&abstracts=show&size=50&order=-announced_date_first) and +1k Github [repositories](https://github.com/search?q=%22Autonomous%20Agent%22&type=repositories) exist with term "Autonomous agents".
-
-
-</div>
-
-- [Definitions](#definitions)
-- [Related work](#relatedwork)
-- [Benchmarks](#benchmarks)
-
----
 
 <div id="definitions">  
 
 </div>
+---
 
+<div align="center">
 
+## Definitions of Agents
 
-### Definitions
++1.3k arXiv research [papers](https://arxiv.org/search/?searchtype=all&query=%22Autonomous+Agents%22&abstracts=show&size=50&order=-announced_date_first) and +1k Github [repositories](https://github.com/search?q=%22Autonomous%20Agent%22&type=repositories) exist with term "Autonomous agents".
+
+</div>
 
 - [Agent](#agent_definition)
 - [Autonomous Agent](#autonomousagent_definition)
@@ -99,7 +99,6 @@ Copyright (C) Teemu Maatta.
 - [LLM Agent](#llmagent_definition)
 - [Embodied Agent](#embodiedagent_definition)
 - [AI Agent](#aiagent_defintion)
-
 - [Autonomous Agent (my definition)](#aga_definition)
 
 
@@ -119,6 +118,8 @@ The term "agent" originates from the Latin verb *agere*, meaning "to drive, lead
 
 The Latin root *agere* has also produced related terms like "actor." While both share a common ancestor, they have evolved distinct connotations. "Actor" is often associated with performing arts, while "agent" encompasses broader roles, including those with continuous action or agency<sup>[5](https://www.reddit.com/r/etymology/comments/2ysz48/actor_and_agent/)</sup>.
 
+
+
 This chapter will explore various agentic roles, building upon the foundational concept of agency as the capacity to act and effect change. 
 
 
@@ -131,7 +132,6 @@ This chapter will explore various agentic roles, building upon the foundational 
 
 
 #### Autonomous Agent
-
 
 Autonomous Agents was [defined](https://github.com/tmgthb/Autonomous-Agents#autonomousagentdefinition)  by Franklin & Graesser in 1996 as: "a system situated within and **a part of an environment** that **senses** that environment and **acts** on it, over **time**, in pursuit of its own **agenda** and so as to effect what it senses in the future." 
 
@@ -146,9 +146,12 @@ Negative:
 - No view regards the degree of generalization / adaption / embodiment / self-construction / communication / cognition.
 
 
-[Mae (1993)](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf) wrote even earlier, yet less cited definition:
+**Who actually coined the term "Autonomous agent"?**
 
-"Autonomous Agents are systems that inhabit dynamic, unpredictable environment in which they try to satisfy a set of time-dependent goals or motivations."
+> Franklin & Graesser did not actually define the term:  
+> 
+>[Mae](https://www.cs.uml.edu/~holly/91.549/readings/maes94modeling.pdf) defined in 1993 "Autonomous agent": "Autonomous Agents are systems that inhabit dynamic, unpredictable environment in which they try to satisfy a set of time-dependent goals or motivations."  
+ 
 
 
 ---
@@ -159,9 +162,10 @@ Negative:
 
 ####  Artificial General Intelligence (AGI)
 
-Artificial General Intelligence (AGI) was used first time by Avrum [Gubrud in 1997](https://web.archive.org/web/20180126125209/https://foresight.org/Conferences/MNT05/Papers/Gubrud/index.html) and defined "By advanced artificial general intelligence, I mean AI systems that rival or surpass the human brain in complexity and speed, that can acquire, manipulate and reason with general knowledge, and that are usable in essentially any phase of industrial or military operations where a human intelligence would otherwise be needed. Such systems may be modeled on the human brain, but they do not necessarily have to be, and they do not have to be "conscious" or possess any other competence that is not strictly relevant to their application. What matters is that such systems can be used to replace human brains in tasks ranging from organizing and running a mine or a factory to piloting an airplane, analyzing intelligence data or planning a battle."
+Artificial General Intelligence (AGI) was used first time by Avrum [Gubrud in 1997](https://web.archive.org/web/20180126125209/https://foresight.org/Conferences/MNT05/Papers/Gubrud/index.html) and defined as: "By advanced artificial general intelligence, I mean AI systems that rival or surpass the human brain in complexity and speed, that can acquire, manipulate and reason with general knowledge, and that are usable in essentially any phase of industrial or military operations where a human intelligence would otherwise be needed. Such systems may be modeled on the human brain, but they do not necessarily have to be, and they do not have to be "conscious" or possess any other competence that is not strictly relevant to their application. What matters is that such systems can be used to replace human brains in tasks ranging from organizing and running a mine or a factory to piloting an airplane, analyzing intelligence data or planning a battle."
 
-However, the term Artificial General Intelligence (AGI) is currently known throught the terminology defined by Shane [Shane Legg at 2001](https://www.ted.com/talks/shane_legg_and_chris_anderson_the_transformative_potential_of_agi_and_when_it_might_arrive?subtitle=en&geo=es) to Goertzel, who later we went to publish a collection of articules called "Artificial General Intelligence - [Goertzel & Pennachin (2007)](http://repo.darmajaya.ac.id/5336/2/Springer%20-%20Artificial%20General%20Intelligence%20%28%20PDFDrive%20%29.pdf). This original definition refers:
+However, the term Artificial General Intelligence (AGI) is currently known throught the terminology defined by Shane [Shane Legg at 2001](https://www.ted.com/talks/shane_legg_and_chris_anderson_the_transformative_potential_of_agi_and_when_it_might_arrive?subtitle=en&geo=es) to Goertzel, who later published a collection of articules called "Artificial General Intelligence - [Goertzel & Pennachin (2007)](http://repo.darmajaya.ac.id/5336/2/Springer%20-%20Artificial%20General%20Intelligence%20%28%20PDFDrive%20%29.pdf), where the definition of AGI states:
+
 
 "Applying these ideas to AI, we come to the conclusion that, to roughly emulate the nature of human general intelligence, an artificial general intelligence system should have:
  - the ability to solve general problems in a non-domain-restricted way, in the same sense that a human can;
@@ -176,21 +180,22 @@ However, the term Artificial General Intelligence (AGI) is currently known throu
 AGI is referred in addition with various types of definitions. Perhaps the best paper to check is by [Morris et al (2023)](https://arxiv.org/abs/2311.02462), which not only reviews the different groups (Turing test, Strong AI / AI with consciousness, analogy to human brain, human level cognitive tasks, ability to learn tasks, economically valuable work/OpenAI, flexible and general, capable to earn money and generally performing) of AGI definers, but as well operationalises these groupings into different levels of AGI and defines 6 principles for AGI.
 
 Good:
-- Categorization levels, widely used term
+- Categorization levels of AGI:[1](https://arxiv.org/abs/2311.02462), [2](https://arxiv.org/abs/2303.12712), widely used
 
 Negative
-- Vague: lacks clarity
-- Lacks agency, self-construction, etc. 
+- Spontaneously used to refer to "narrow", "close-to-human level" performance of systems, which lack [robust generalization](https://www.youtube.com/watch?v=yr0GiSgUvPU): widely applicable generalization at its core. 
 
 
 
----
-
-<div id="agi_definition">  
+<div id="superintelligence_definition">  
 
 </div>
 
-####  SuperInteligence
+---
+
+
+
+####  Superinteligence
 
 Nick Bostrom (2014) defined  SuperIntelligence: 
 
@@ -204,14 +209,15 @@ Negative
 - Lacks agency, self-construction, etc. 
 
 
----
 
 <div id="generalistagent_definition">  
 
 </div>
 
+---
 
-####  Generalist Agent 
+
+####  Generalist agent 
 
 
 [Generalist Agent was defined by Reed et al. in 2022](https://github.com/tmgthb/Autonomous-Agents#generalistagent): "**Generalist Agents**, that can adapt to new embodiments and **learn new tasks with few data**." through "...**a multi-modal, multi-task, multi-embodiment** generalist policy."
@@ -228,14 +234,10 @@ Negative aspects:
 - Vague about cognitive skills: reasoning and planning.
 
 
-
----
-
 <div id="rlagent_definition">  
-
 </div>
 
-
+---
 
 
 #### Reinforcement Learning Agents
@@ -247,13 +249,8 @@ Negative aspects:
 
 
 <p align="center">
-
-  
   <img width="335" alt="image" src="https://github.com/tmgthb/Autonomous-Agents/assets/46755670/6711e82c-c8ea-4be4-8701-1014e0389f00">
-
-  
 </p>
-
 
 
 
@@ -268,24 +265,18 @@ Negative:
 - RL approaches around language/communication require still more investigation.
 
 
----
-
-
-
 <div id="llmagent_definition">  
-
 </div>
 
+---
 
-
-
-#### LLM Agents / Language Agents
+#### LLM agents / Language agents
 
 
 [Kenton et al. (2021)](#languageagentdefinition) define the concept of Language Agent: " machine learning systems whose actions are restricted to give natural language text-output only, rather than controlling physical actuators which directly influence the world." 
 
 Positive:
-- First paper definining LLM-based Agents
+- First paper definining LLM-based agents
 - Language-based agents are exceptionally good way of controlling agents towards human perception, plans and objectives.
 
 Negative:
@@ -294,16 +285,12 @@ Negative:
 - LLM-agent poor describes the currently wide variety of components: memory/VLM/reasoning-modules etc. 
 
 
----
-
-
 <div id="embodiedagent_definition">  
-
 </div>
 
+---
 
-
-#### Embodied Agents
+#### Embodied agents
 
 
 Embodied agent-term was used by Brook (1991) in the ["The Role of Learning in Autonomous Robots"(1991)](https://people.csail.mit.edu/brooks/papers/colt.pdf) and Brooks (1991) defined Embodiment in the AI within the  ["Intelligence without reason"](https://people.csail.mit.edu/brooks/papers/AIM-1293.pdf) and in the book: ["New approaches to Intelligence"](https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=9e1ef9e0a9de1d1c5e36d1a4c735da2fa313c563):
@@ -322,15 +309,13 @@ Negative:
 - The definition does not consider Cognition/Language aspects.
 
 
+<div id="aiagent_defintion">  
+</div>
+
 ---
 
 
-<div id="aiagent_defintion">  
-
-</div>
-
-
-#### AI-Agents (Agentic AI)
+#### AI-agents (Agentic AI)
 
 
 [Shavit et al. (2023)](https://github.com/tmgthb/Autonomous-Agents#agentaidefinition) define AI Agent: "we will generally conceptualize **agentic AI systems** as operating in **pursuit of goals defined by humans** and in **environments determined by humans** (and often in **cooperation with human** “teammates”), rather than fully-autonomous systems that set their own goals."
@@ -351,18 +336,14 @@ Alternative definition uses:
 - [Agent AI](https://github.com/tmgthb/Autonomous-Agents#agentbasedai) term is defined: "...as a class of interactive systems that can perceive visual stimuli, language inputs, and other environmentally grounded data, and can produce meaningful embodied actions."
 
 
+
+<div id="aga_definition">  
+</div>
+
 ---
 
 
-
-<div id="aga_definition">  
-
-</div>
-
-
-
-
-####  Autonomous Agent (my definition) 
+####  Autonomous agent (my definition) 
 
 All the above definitions include gaps, which I have noted along them. 
 
@@ -394,66 +375,6 @@ Based on recent thoughts, I decided to update my prior definition to address the
 Autonomous agents (AA) is defined:
 
 **Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
-
----
-
-
-<div id="relatedwork">  
-
-</div>
-
-
----
-
-<div id="benchmarks">  
-
-</div>
-
-
-<div align="center">
-
-### Evaluation frameworks and Benchmarks
-
-</div>
-
-Autonomous agents operate in "Real-World Environments (RWEs)"<sup>[1](https://tmmtt.medium.com/real-world-environments-1995aa68805b),[2](https://arxiv.org/pdf/1904.12901)</sup>.
-
-Therefore, to benchmark Autonomous agents, we should evaluate them in RWEs. RWEs are currently hard problems for agents with unique events. Thus, AI researchers typically prefer to benchmark Autonomous agents rather with reproducible benchmarks. 
-
-For example, Anthropic's LLMs appear to be ahead of the other models in tasks like "pixel counting" and "coding". 
-
-An average developer could spend days of development work to compare performance of different LLMs in a GUI-benchmark, which would not generalize beyond the GUIs beyond its dataset. Thus these results could become quickly invalid as the OS/website/app-design changes. 
-
-Rather, developer could just pick a random GUI, test the LLM-agent in it, and quickly iterate prompting-technique, which improves performance across various LLMs and the learning tends to be transferable towards new tasks.
-
-We can alternatively review AI capabilities from high-level:
-- Levels of AGI[1](https://arxiv.org/abs/2311.02462), [2](https://arxiv.org/abs/2303.12712)
-
-We must remember, that above human-level intelligence is not a theoretical concept, but current reality:
-- in game-agents like [AlphaZero](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphazero-shedding-new-light-on-chess-shogi-and-go/alphazero_preprint.pdf), which demonstrated superhuman performance in multiple game domains by self-play without domain related human-assistance by using MCTS search algorithm. 
-
-
-
----
-
-
-<div id="systems">  </div>
-
-
-<div align="center">
-
-## Autonomous Agent Systems
-</div>
-
-- [Perception](#perception)
-- [Reasoning](#reasoning)
-- [Planning](#planning)
-- [Memory & Context window](#memory)
-- [Tools](#tools)
-- [Self-Recursive Learning](#selflearning)
-- [Embodiment](#embodiment)
-- [Role play](#roles)
-- [Emotional Intelligence](#emotions)
 
  
 
