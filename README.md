@@ -43,6 +43,15 @@ Chronological order.
 
 </div>
 
+#### 26th of January 2025
+
+[Qwen2.5-1M Technical Report](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5-1M/Qwen2_5_1M_Technical_Report.pdf)
+
+- Introduces  Qwen2.5-1M, which extends open source support for 1M token context length.
+- Includes infererence framework, which speeds up 1M context inference by 3.2x to 6.7x.
+
+
+---
 
 #### 23rd of January 2025
 
