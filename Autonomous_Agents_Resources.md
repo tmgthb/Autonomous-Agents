@@ -376,6 +376,76 @@ Autonomous agents (AA) is defined:
 
 **Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
 
+
+
+---
+
+
+### Memory
+
+Memory is "[the ability to remember information, experiences, and people.](https://dictionary.cambridge.org/dictionary/english/memory)" 
+
+Humans retrieve relevant context from the memory for perceiving, reasoning and planning.
+
+The ability to [categorize experiences into recognizable objects](http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html) is fundamental to learning. Minksy (1985) argued  that human memory is organized around **discrete objects not holograms**: Holographic memory would be useful only when encountering exact replicas of past experiences. In comparison to holograms, object-based categorization allows humans to generalize from experiences and accumulate knowledge into diverse situations. 
+
+[Context](https://dictionary.cambridge.org/dictionary/essential-british-english/context) refers to "...all the **facts/opinions**/etc., which **relate to a particular thing/event**."
+
+AI researchers use often "Context"-term, by thinking it as combination of words "con" and "text", as if context was only textual or transcribed from audio into text. However, "context"-term [originates](https://www.etymonline.com/word/context) from latin word "contextus", which refers to "joining together": "com" = together and "texere" = to weave. So, better way to think of context-term is as multi modal and not always explicitly written / said aloud. 
+
+Terry Winograd argued in 2001 ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), that **communication is based on common ground between speaker/hearer** during the interpretation. This is guided **not only by physical environment**, but as well non-physical shared context, such a common goal.
+
+["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) by Lenat (1998)  offers "a must-read" analysis on the broad dimensions and aspects of the context. According to Lenat, **Context is a region in n-dimensional embedding space**, where text is only one of the dimensions. 
+
+Increasing capacity of the context length, enables not only [infinite context](https://arxiv.org/abs/2404.07143), or [tree-agents](https://arxiv.org/abs/2310.05029), but facilitates more human like context by allowing more multi-dimensional context. 
+
+**
+Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which enhances LLM context with up-to-date/personalized/factual/domain-specific-information. LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Models like Gemini 2.0 are surprisingly good at such calculations, which go beyond pattern matching of the training data. **The ability of LLMs to track states is promising for reasoning-tasks**. Extra-large input-context windows enable in models like Gemini, to process even larger memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative KV-caching<sup>[1](https://arxiv.org/abs/2403.11805),[2](https://arxiv.org/pdf/2404.13501v1)</sup>  techniques improve directly the memory management of the LLMs. 
+
+
+Fine tuning methods have been effectively used in improving LLM performance with extra large context windows and memorizing domain specific knowledge. 
+
+Titan-models were recently introduced as models capable to [memorize at test time](https://arxiv.org/abs/2501.00663). 
+
+Memory<sup>[3](https://arxiv.org/abs/2407.01178)</sup>-architecture suggests infinite context is possible with human-like memory architectures, which support memory consolidation, conscious reasoning and sparse memory.
+
+LLM-based agents apply various types of memory approaches:
+
+- [Long term ](https://arxiv.org/abs/2410.15665v1)memory
+- Episodic memory: [1](https://arxiv.org/abs/2403.11901),[2](https://arxiv.org/abs/2405.14992),[3](https://arxiv.org/abs/2407.04363),[4](https://arxiv.org/abs/2407.09450),[5](https://arxiv.org/abs/2408.07465), [6](https://arxiv.org/abs/2410.08133),[7](https://arxiv.org/abs/2411.06736),[8](https://arxiv.org/abs/2411.12977)
+- Semantic memory:  [1](https://arxiv.org/abs/2405.13009),[2](https://arxiv.org/abs/2411.04999)
+- [Procedural ](https://arxiv.org/abs/2409.01344)memory
+- [Graph](https://arxiv.org/abs/2408.15903) memory
+- Working memory: [1](https://arxiv.org/abs/2312.17259),[2](https://arxiv.org/abs/2305.16338),[3](https://arxiv.org/abs/2306.08129),[4](https://arxiv.org/abs/2402.10548)
+- [Dynamic](https://arxiv.org/abs/2312.08402) memory
+- [Shared memory / Collective ](https://arxiv.org/abs/2404.09982) memory
+- [Persistent Experience ](https://arxiv.org/abs/2306.07929)  memory
+- [Explicit](https://arxiv.org/abs/2407.01178) memory
+- [Parametric](https://arxiv.org/pdf/2404.13501v1) memory
+- [Hierarchical](https://www.arxiv.org/abs/2408.09559v1) memory
+
+
+Zhang et al. provide a comprehensive survey on memory mechanisms for LLM-based agents, discussing the "what" and "why" of memory in these agents, and systematically reviewing design and evaluation methods [Zhang et al., 2024](https://www.arxiv.org/abs/2404.13501).  One prominent direction is the exploration of different memory types and structures. Hu et al. introduce HiAgent, a hierarchical working memory management framework that utilizes subgoals as memory chunks to improve performance in long-horizon tasks [Hu et al., 2024](https://www.arxiv.org/abs/2408.09559v1).  Similarly, Zeng et al. investigate the impact of various memory structures, such as chunks, knowledge triples, atomic facts, and summaries, on the performance of LLM agents across different tasks [Zeng et al., 2024](https://www.arxiv.org/abs/2412.15266v1).  Guo et al. draw inspiration from cognitive psychology and propose a working memory hub and episodic buffer architecture to enhance memory retention across dialog episodes, aiming for more nuanced contextual reasoning [Guo et al., 2023](https://www.arxiv.org/abs/2312.17259v2).
+**
+To address the challenge of long-term memory, several approaches have been proposed. Liu et al. introduce Think-in-Memory (TiM), a mechanism that allows LLMs to maintain an evolved memory by storing historical thoughts and employing operations like insert, forget, and merge for dynamic memory updates [Liu et al., 2023](https://www.arxiv.org/abs/2311.08719).  MemoryBank, proposed by Zhong et al., incorporates a memory updating mechanism inspired by the Ebbinghaus Forgetting Curve, enabling LLMs to **selectively retain and reinforce memories based on time and significance** [Zhong et al., 2023](https://www.arxiv.org/abs/2305.10250).  MemGPT, presented by Packer et al., draws inspiration from operating systems and utilizes virtual context management to handle context beyond the LLM's limited window, allowing for analysis of large documents and long conversations [Packer et al., 2023](https://www.arxiv.org/abs/2310.08560). Maharana et al. also evaluate very long-term conversational memory, highlighting the challenges LLMs face in understanding and maintaining coherence in extended dialogues [Maharana et al., 2024](https://www.arxiv.org/abs/2402.17753).
+
+Memory retrieval and recall mechanisms are also crucial. Hou et al. propose a human-like memory architecture that uses **memory cues to trigger recall**, dynamically quantifying memory consolidation based on context, time, and frequency of recall [Hou et al., 2024](https://www.arxiv.org/abs/2404.00573). Lee et al. introduce ReadAgent, inspired by human reading strategies, which compresses memory episodes into **gist memories** and retrieves relevant passages from original texts to extend the effective context length [Lee et al., 2024](https://www.arxiv.org/abs/2402.09727v3).  AriGraph, developed by Anokhin et al., utilizes a **knowledge graph world model with episodic memory**, demonstrating improved performance in complex interactive text game environments [Anokhin et al., 2024](https://www.arxiv.org/abs/2407.04363v2).
+
+Furthermore, researchers are exploring methods to enhance memory through external knowledge and collaboration. Gao et al. introduce **Memory Sharing**, a framework enabling memory exchange among multiple agents to enhance in-context learning and improve response quality, especially for open-ended questions [Gao et al., 2024](https://www.arxiv.org/abs/2404.09982). Hu et al. present ChatDB, augmenting LLMs with **symbolic memory in the form of SQL databases to support complex multi-hop reasoning [Hu et al., 2023](https://www.arxiv.org/abs/2306.03901).
+
+Several studies focus on specific applications and agent architectures.  Yu et al. developed FinMem, a layered memory framework tailored for financial decision-making agents, aligning with human trader cognitive structures and enhancing trading performance [Yu et al., 2023](https://www.arxiv.org/abs/2311.13743).  RAISE, by Liu et al., enhances the ReAct framework with a dual-component memory system for conversational agents, improving context-awareness and versatility in multi-turn dialogues [Liu et al., 2024](https://www.arxiv.org/abs/2401.02777).  Agent-Driver, proposed by Mao et al., leverages LLMs as cognitive agents for autonomous driving, incorporating memory for common sense and experiential knowledge [Mao et al., 2023](https://www.arxiv.org/abs/2311.10813).  EHRAgent, presented by Shi et al., empowers LLMs with code interfaces and long-term memory for complex tabular reasoning in electronic health records [Shi et al., 2024](https://www.arxiv.org/abs/2401.07128).
+
+Usability and interpretability of memory systems are also considered. Huang et al. introduce Memory Sandbox, an interactive system allowing users to manage and visualize the conversational memory of LLM agents, improving user understanding and control [Huang et al., 2023](https://www.arxiv.org/abs/2308.01542).
+
+Approaches to learning and adaptation with memory are explored in several works. CLIN, by Majumder et al., presents a continually learning language agent that uses a dynamic textual memory of causal abstractions to improve over multiple trials without parameter updates [Majumder et al., 2023](https://www.arxiv.org/abs/2310.10134). ExpeL, by Zhao et al., introduces an experiential learning agent that gathers experiences and extracts knowledge in natural language, recalling past insights to make informed decisions without fine-tuning [Zhao et al., 2023](https://www.arxiv.org/abs/2308.10144). Matrix, by Liu et al., proposes memory-augmented agent training through reasoning and iterative exploration for business document understanding, enabling LLMs to build **domain expertise through experience-driven memory refinement** [Liu et al., 2024](https://www.arxiv.org/abs/2412.15274v1).
+
+Furthermore, some works consider the safety and ethical aspects of memory in LLM agents. Chen et al. introduce AgentPoison, a red-teaming approach that targets LLM agents by **poisoning their memory** or knowledge bases, highlighting vulnerabilities related to unverified knowledge sources [Chen et al., 2024](https://www.arxiv.org/abs/2407.12784).
+
+
+
+---
+
+
  
 
 ---
@@ -485,57 +555,6 @@ LLM-based planning [approaches](https://arxiv.org/pdf/2402.02716) include:
 These diverse approaches highlight the rapid progress in leveraging LLMs for planning, ranging from enhancing their inherent reasoning abilities to integrating them with external tools and algorithms for more robust and effective decision-making in complex environments.
 
 ---
-
-<div id="memory">  
-
-</div>
-
-
-### Memory & Context
-
-Memory is [defined](https://dictionary.cambridge.org/dictionary/english/memory) as "the ability to remember information, experiences, and people." 
-
-"Minsky (1985) [proposed]((http://web.media.mit.edu/~minsky/papers/AlienIntelligence.html)) that the human ability to categorize experiences into recognizable objects is fundamental to learning. He argued that human memory is organized around discrete objects rather than working like a hologram, as holographic memory would only be useful when encountering exact replicas of past experiences. This object-based categorization enables us to generalize from experiences and accumulate knowledge, even when situations vary."
-
-Memory is vital for humans and AI in order to retrieve relevant ["context](https://dictionary.cambridge.org/dictionary/essential-british-english/context): about "...all the facts/opinions/etc., which relate to a particular thing/event."
-
-Context-term is not formed from words "con" and "text". Context [derives](https://www.etymonline.com/word/context) actually from latin word "contextus", which refers to "joining together": "com" = together and "texere" = to weave. We tend to think the text input as the LLM context. However, LLM-based agents apply context from multiple modalities and not always explicitly written / said aloud. 
-
-Terry Winograd argued in 2001 ["Architectures for Contex"](https://hci.stanford.edu/winograd/papers/context/context.pdf), that communication is based on common ground between speaker/hearer during the interpretation. This is guided not only by physical environment, but as well non-physical shared context, such a common goal.
-
-["The Dimensions of Context Space"](https://web.media.mit.edu/~lieber/Teaching/Common-Sense-Course/Dimensions-Context-Space.pdf) by Lenat (1998)  offers "a must-read" analysis on the various dimensions and aspects of the context. According to Lenat, Context is a region in n-dimensional embedding space, where text is only one of the dimensions.
-
-LLM context input length has rapidly increased from the 2k context of GPT-3 to actual 1M token productio systems. We will likely see in near future production systems with [infinite context](https://arxiv.org/abs/2404.07143), which may additionally use [LLM fine tuning](https://arxiv.org/abs/2402.13753) or [tree-agents](https://arxiv.org/abs/2310.05029). Interestingly, LLMs are already at "Superintelligence"-level in terms of their capacity to support vastly more textual context than any human.
-
-The ability to support larger context windows is quickly making possible usage of new modalities such as vision, sound, actions, etc.
-
-Traditionally, LLMs are considered "stateless", without retention of the context used in the previous request. ["In-Context Learning" (ICL)](https://arxiv.org/abs/2005.14165) LLMs ability "learn" to process and understand the context provided in the input without explicit parameter updates. Agentic systems today use ICL together with external memory such as vector/graph/sql-databases or simply as text/json/xml-files. We often refer these techniques as Retrieval-Augmented-Generation (RAG), which aims to enhance LLM context with up-to-date/personalized/factual/domain-specific-information. Evidence exist, that LLM are able to [track its own internal state-changes.](https://arxiv.org/abs/2407.11421) Never models like Gemini 2.0 are surprisingly good at such calculations, which go way beyond just pattern matching of the training data. The ability of LLMs to track states is promising for reasoning-tasks. Extra-large input-context windows enable in models like Gemini, to process even large memory structures. KV-caching reuses LLM prompts/tokens/internal states to [significantly reduce latency.](https://arxiv.org/abs/2312.05516) However, alternative KV-caching<sup>[1](https://arxiv.org/abs/2403.11805),[2](https://arxiv.org/pdf/2404.13501v1)</sup>  techniques improve directly the memory management of the LLMs. 
-
-
-Fine tuning methods have been effectively used in improving LLM performance with extra large context windows and memorizing domain specific knowledge. 
-
-Titan-models were recently introduced as models capable to [memorize at test time](https://arxiv.org/abs/2501.00663). 
-
-Memory<sup>[3](https://arxiv.org/abs/2407.01178)</sup>-architecture suggests infinite context is possible with human-like memory architectures, which support memory consolidation, conscious reasoning and sparse memory.
-
-LLM-based agents apply various types of memory approaches:
-
-- Long term memory<sup>[1](https://arxiv.org/abs/2410.15665v1)</sup>
-- Episodic memory<sup>[1](https://arxiv.org/abs/2403.11901),[2](https://arxiv.org/abs/2405.14992),[3](https://arxiv.org/abs/2407.04363),[4](https://arxiv.org/abs/2407.09450),[5](https://arxiv.org/abs/2408.07465), [6](https://arxiv.org/abs/2410.08133),[7](https://arxiv.org/abs/2411.06736),[8](https://arxiv.org/abs/2411.12977)</sup>
-- Semantic memory<sup>[1](https://arxiv.org/abs/2405.13009),[2](https://arxiv.org/abs/2411.04999)</sup>
-- Procedural memory<sup>[1](https://arxiv.org/abs/2409.01344)</sup>
-- Graph memory<sup>[1](https://arxiv.org/abs/2408.15903)</sup>
-- Working memory<sup>[1](https://arxiv.org/abs/2312.17259),[2](https://arxiv.org/abs/2305.16338),[3](https://arxiv.org/abs/2306.08129),[4](https://arxiv.org/abs/2402.10548)</sup>
-- Dynamic memory<sup>[1](https://arxiv.org/abs/2312.08402)</sup>
-- Shared memory / Collective memory<sup>[1](https://arxiv.org/abs/2404.09982)</sup>
-- Persistent Experience Memory<sup>[1](https://arxiv.org/abs/2306.07929)</sup>
-- Explicit memory<sup>[1](https://arxiv.org/abs/2407.01178)</sup>
-- Parametric memory<sup>[1](https://arxiv.org/pdf/2404.13501v1)</sup>
-
-
-
----
-
 
 <div id="embodiment">  
 
