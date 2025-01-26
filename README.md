@@ -46,7 +46,16 @@ Chronological order.
 
 #### 23rd of January 2025
 
-[THe though process behind Kimi k1.5](https://twitter.com/Kimi_Moonshot/status/1882413059513471044)
+[ElCopilot: Search and Explore Enterprise Information over Large-scale Knowledge Graphs with LLM-driven Agents](http://arxiv.org/abs/2501.13746v1)
+
+- EICopilot: is a novel agent-based solution enhancing search and exploration of enterprise registration data within extensive online knowledge graphs.
+- EICopilot includes data pre-processing pipeline, comprehensive reasoning pipeline with Chain-of-Thought and In-context learning, and novel query masking strategy.
+- EICopilot is a groundbreaking tool for exploration and exploitation of large-scale knowledge graphs for enterprise information search.
+
+
+---
+
+[The though process behind Kimi k1.5](https://twitter.com/Kimi_Moonshot/status/1882413059513471044)
 
 - Explains the way the Kimi K-1.5 model was trained and discusses overall likely o1-model training procedure.
 
