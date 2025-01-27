@@ -43,12 +43,126 @@ Chronological order.
 
 </div>
 
+#### 27th of January 2025
+
+[Janus-Pro: Unified Multimodal Understanding and
+Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf)
+
+- Janus-Pro: Advances multimodal models via optimized training, expanded data, and model scaling. Janus-Pro achieves SOTA-level performance in both multimodal understanding and text-to-image generation benchmarks.
+- Enhanced training strategy includes "Longer Training in Stage I" and "Focused Training in Stage II" for better efficiency and performance. This refines the original 3-stage training process of Janus.
+- Text-to-image generation stability and aesthetic quality are significantly enhanced through synthetic data and improved training.
+- Decoupled visual encoding remains a core and effective architectural design for unified multimodal tasks.
+- 7B model demonstrates strong scalability of the decoupled visual encoding approach.
+
+
+---
+
 #### 26th of January 2025
 
 [Qwen2.5-1M Technical Report](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5-1M/Qwen2_5_1M_Technical_Report.pdf)
 
 - Introduces  Qwen2.5-1M, which extends open source support for 1M token context length.
 - Includes infererence framework, which speeds up 1M context inference by 3.2x to 6.7x.
+
+
+---
+
+#### 24th of January 2025
+
+[MedAgentBench: Dataset for Benchmarking LLMs as Agents in Medical Applications](http://arxiv.org/abs/2501.14654v1)
+
+- MedAgentBench: is a broad evaluation suite designed to assess the agent capabilities of large language models within medical records contexts.
+- It encompasses 100 patient-specific clinically-derived tasks, realistic profiles of 100 patients with over 700,000 data elements, a FHIR-compliant interactive environment, and an accompanying codebase.
+- This framework establishes a valuable benchmark for model developers to track progress and drive continuous improvements in the agent capabilities of large language models within the medical domain.
+
+---
+
+[DEEPFLOW: Serverless Large Language Model Serving at Scale](http://arxiv.org/abs/2501.14417v1)
+
+- DEEPFLOW: is a serverless AI platform designed for efficient large language model serving at scale.
+- It uses request-job-task model, FLOWSERVE serving engine, NPU-centric execution, SPMD-based parallelism, and novel scheduling policies.
+- This framework addresses resource allocation, serving efficiency, and cold start latencies.
+
+---
+
+[DRESSING UP LLM: EFFICIENT STYLIZED QUESTION-ANSWERING VIA STYLE SUBSPACE EDITING](http://arxiv.org/abs/2501.14371v1)
+
+- DRESS (Disentangling Representation Editing in Style Subspace): is a novel approach for generating stylized large language model (LLM) responses through representation editing.
+- It leverages over-parameterized nature of LLMs, disentangles style-relevant subspace, applies adaptive editing strengths, and maintains stylistic fidelity and semantic integrity.
+- DRESS is a lightweight, train-free solution for enhancing LLMs with flexible and effective style control, making it useful for developing stylized conversational agents.
+
+
+---
+
+
+[Exploring the sustainable scaling of Al dilemma: A projective study of corporations' Al environmental impacts](http://arxiv.org/abs/2501.14334v1)
+
+- The proposed methodology: estimates the environmental impact of a company's AI portfolio, providing actionable insights without extensive AI and Life-Cycle Assessment (LCA) expertise.
+- The framework includes four interconnected models: life cycle impacts of primary components, life cycle impacts of AI use cases, AI company portfolio model, and 2030 AI landscape projections.
+- This framework empowers organizations to understand and project their AI impacts and align their initiatives with global sustainability goals.
+
+
+---
+
+[MASTER: A Multi-Agent System with LLM Specialized MCTS](http://arxiv.org/abs/2501.14304v1)
+
+- MASTER (Multi-Agent System with Tactical Execution and Reasoning using LLM Specialized MCTS): is a novel multi-agent framework that employs a new agent recruitment process and communication protocol based on the MCTS algorithm.
+- It autonomously adjusts the number of agents based on task complexity, mitigates distractions and token window shortage, and includes a modified MCTS tailored to LLM scenarios.
+- This framework achieves state-of-the-art performance on HotpotQA and WebShop datasets.
+
+
+---
+
+[Top Ten Challenges Towards Agentic Neural Graph Databases](http://arxiv.org/abs/2501.14224v1)
+
+- Agentic NGDB (Agentic Neural Graph Databases): extends NGDBs with autonomous query construction, neural query execution, and continuous learning.
+- It identifies ten key challenges, including semantic unit representation, abductive reasoning, scalable query execution, and integration with foundation models like LLMs.
+- This framework enables intelligent, self-improving systems for modern data-driven applications.
+
+
+---
+
+[Serving Long-Context LLMs at the Mobile Edge: Test-Time Reinforcement Learning-based Model Caching and Inference Offloading](http://arxiv.org/abs/2501.14205v1)
+
+- T2DRL (Test-Time Deep Reinforcement Learning): is a joint model caching and inference offloading framework that optimizes deployment and execution strategies for long-context LLM serving.
+- Framework analyzes performance convergence, designs optimization problem considering context windows, manages cached models and service requests, adapts to context changes, and uses double Dutch auction mechanism for resource allocation.
+- The framework reduces system costs while guaranteeing the performance of LLM agents in real-world perception and reasoning tasks.
+
+
+---
+
+[Distributed Multi-Agent Coordination Using Multi-Modal Foundation Models](http://arxiv.org/abs/2501.14189v1)
+
+- VL-DCOPs (visual-linguistic instruction-based DCOPs): is a framework that uses large multimodal foundation models to generate constraints from visual and linguistic instructions.
+- Framework includes spectrum of agent archetypes, from neuro-symbolic to fully neural agents, and evaluates them using LLMs and VLMs on novel VL-DCOP tasks.
+- This work extends the DCOP literature by addressing the challenge of manual problem construction and opens new research directions.
+
+
+---
+
+[AI Chatbots as Professional Service Agents: Developing a Professional Identity](http://arxiv.org/abs/2501.14179v1)
+
+- LAPI (LLM-based Agent with a Professional Identity): is a novel framework for designing professional service agents tailored for medical question-and-answer services.
+- LAPI includes theory-guided task planning process, pragmatic entropy method, and iterative updating of responses.
+- This framework improves response quality, providing more accurate, empathetic, and professional answers compared to baseline approaches.
+
+
+---
+
+[ARGOS: Agentic Time-Series Anomaly Detection with Autonomous Rule Generation via Large Language Models](http://arxiv.org/abs/2501.14170v1)
+
+- ARGOS: is an agentic system for detecting time-series anomalies in cloud infrastructure by leveraging large language models (LLMs).
+- It uses explainable anomaly rules as intermediate representation, employs LLMs to autonomously generate rules, and includes detection-, repair- and review-agents.
+- This framework improves anomaly detection accuracy and efficiency compared to state-of-the-art methods.
+
+
+---
+
+[Top Ten Challenges Towards Agentic Neural Graph Databases](https://arxiv.org/abs/2501.14224)
+
+- Agentic NGDB (Agentic Neural Graph Databases): extends NGDBs with autonomous query construction, neural query execution, and continuous learning.
+- It identifies ten key challenges, including semantic unit representation, abductive reasoning, scalable query execution, and integration with foundation models like LLMs.
+- This framework enables intelligent, self-improving systems for modern data-driven applications.
 
 
 ---
