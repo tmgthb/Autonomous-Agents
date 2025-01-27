@@ -2254,6 +2254,14 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 23rd of October 2024
 
+[ASYNCHRONOUS RLHF: FASTER AND MORE EFFICIENT OFF-POLICY RL FOR LANGUAGE MODELS](https://arxiv.org/abs/2410.18252)
+
+- Asynchronous RLHF (Reinforcement Learning from Human Feedback): A framework that separates generation and learning in RLHF, enabling asynchronous generation of new samples while simultaneously training on old samples.
+- Online but off-policy, faster training, more compute-optimal scaling, training LLAMA 3.1 8B on instruction-following task 40% faster while matching final performance.
+- This framework addresses the computational inefficiency of the dominant paradigm for RL finetuning of LLMs by separating generation and learning, leading to faster training and more efficient use of resources.
+
+
+
 [GraphTeam: Facilitating Large Language Model-based Graph Analysis via Multi-Agent Collaboration](https://arxiv.org/abs/2410.18032)
 
 - GraphTeam: LLM-based collaborative multi agent and graph-based system using three modules: input-output normalization/external knowledge retrieval/problem solving.
@@ -10470,17 +10478,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 #### 23th of October 2023
-
-#### 23.10.2024
-
-
-
-[ASYNCHRONOUS RLHF: FASTER AND MORE EFFICIENT OFF-POLICY RL FOR LANGUAGE MODELS](https://arxiv.org/abs/2410.18252)
-
-- Asynchronous RLHF (Reinforcement Learning from Human Feedback): A framework that separates generation and learning in RLHF, enabling asynchronous generation of new samples while simultaneously training on old samples.
-- Online but off-policy, faster training, more compute-optimal scaling, training LLAMA 3.1 8B on instruction-following task 40% faster while matching final performance.
-- This framework addresses the computational inefficiency of the dominant paradigm for RL finetuning of LLMs by separating generation and learning, leading to faster training and more efficient use of resources.
-
 
 ---
 
