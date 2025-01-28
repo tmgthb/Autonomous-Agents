@@ -141,6 +141,25 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[OpenCharacter: Training Customizable Role-Playing LLMs with Large-Scale Synthetic Personas](http://arxiv.org/abs/2501.15427v1)
+
+- OpenCharacter: framework trains customizable role-playing LLMs with large-scale synthetic personas.
+- Explores large-scale data synthesis approach, uses response rewriting and generation strategies, achieves performance comparable to GPT-40 models.
+- This work is important for advancing research in customizable role-playing dialogue systems.
+
+
+---
+
+[ToM-agent: Large Language Models as Theory of Mind Aware Generative Agents with Counterfactual Reflection](http://arxiv.org/abs/2501.15355v1)
+
+- ToM-agent is a novel paradigm designed to empower LLM-based generative agents to simulate Theory of Mind in open-domain conversational interactions.
+- Disentangles confidence from mental states; emulates agent's perception of counterpart's mental states (beliefs, desires, intentions - BDIs); dynamically adjusts inferred BDIs; counterfactual intervention method; enhances reflection efficiency.
+- ToM-agent provides new insights for studying large-scale LLMs-based simulation of human social behaviors.
+
+
+---
+
+
 #### 24th of January 2025
 
 [MedAgentBench: Dataset for Benchmarking LLMs as Agents in Medical Applications](http://arxiv.org/abs/2501.14654v1)
