@@ -57,6 +57,80 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[MULTI-AGENT GEOSPATIAL COPILOTS FOR REMOTE SENSING WORKFLOWS](http://arxiv.org/abs/2501.16254v1)
+
+- GeoLLM-Squad: geospatial Copilot introduces multi-agent paradigm to remote sensing workflows by separating agentic orchestration from geospatial task-solving.
+- Multi-agent system; agentic orchestration; geospatial task-solving; specialized sub-agents; open-source AutoGen and GeoLLM-Engine; diverse applications; robust performance; improved agentic correctness.
+- GeoLLM-Squad highlights the potential of multi-agent AI in advancing remote sensing workflows.
+
+
+---
+
+
+[Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma](https://arxiv.org/abs/2501.16173)
+
+- LLM Agent System: Framework investigates cooperative tendencies of Large Language Model (LLM) agents in social dilemma by prompting LLMs to generate strategies for iterated Prisoner's Dilemma.
+- Defines three classes of agents (attitudes): agressive, cooperative and neutral.
+- evolutionary game theory; strategic dispositions; aggressive, cooperative, neutral; distinct biases; long-term behaviour; strategic environments.
+- This research highlights importance of considering strategic environments for deployed LLM-based autonomous agents and their potential long-term behaviour.
+
+
+---
+
+[AI Agents for Computer Use: A Review of Instruction-based Computer Control, GUI Automation, and Operator Assistants](http://arxiv.org/abs/2501.16150v1)
+
+- AI Agents for Computer Use: A Review offers a comprehensive overview of instruction-based computer control agents, GUI automation, and operator assistants.
+- It examines agents taxonomy, development, resources, shift to foundation models, datasets, evaluation methods, and deployment challenges.
+- This review provides a comprehensive foundation to understand and push the future development of AI agents for computer use.
+
+
+---
+
+[LLM-attacker: Enhancing Closed-loop Adversarial Scenario Generation for Autonomous Driving with Large Language Models](http://arxiv.org/abs/2501.15850v1)
+
+- LLM-attacker: closed-loop adversarial scenario generation framework leveraging large language models.
+- multiple LLM agents; identify optimal attackers; optimize attacker trajectories; iterative refinement based on ADS performance; feedback loop.
+- Framework is important to test and enhance the safety and robustness of ADS.
+
+
+---
+
+[MADP: Multi-Agent Deductive Planning for Enhanced Cognitive-Behavioral Mental Health Question Answer](http://arxiv.org/abs/2501.15826v1)
+
+- MADP (Multi-Agent Deductive Planning): is a CBT-based multi-agent reasoning strategy that analyzes interactions among multiple CBT elements for mental health support.
+- Deeper understanding of help-seeker context; personalized assistance; fine-tuned LLM (MADP-LLM); enhanced emotional reasoning; reduced deployment costs.
+- MADP framework effectively provides personalized, empathetic, and targeted mental health support.
+
+
+---
+
+[Harnessing Diverse Perspectives: A Multi-Agent Framework for Enhanced Error Detection in Knowledge Graphs](http://arxiv.org/abs/2501.15791v1)
+
+- MAKGED (Multi-Agent framework for Knowledge Graph Error Detection): is a novel framework utilizing multiple large language models in a collaborative setting for enhanced knowledge graph error detection.
+- multi-agent framework; multiple LLMs; collaborative setting; subgraph embeddings; query embeddings; transparent decision-making; multi-round discussions.
+- MAKGED enhances the reliability of downstream applications by improving the accuracy and robustness of knowledge graph error detection.
+
+
+---
+
+[LLM-powered Multi-agent Framework for Goal-oriented Learning in Intelligent Tutoring System](http://arxiv.org/abs/2501.15749v1)
+
+- GenMentor: LLM-powered multi-agent framework is designed for goal-oriented and personalized learning within Intelligent Tutoring System.
+- multi-agent system; goal-oriented learning; personalized learning; skill gap identification; adaptive learner modeling; personalized resource delivery.
+- GenMentor effectively enhances learning guidance, content quality, goal alignment and resource targeting for enhanced personalization.
+
+
+---
+
+[Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning](https://arxiv.org/abs/2501.15727)
+
+- Gensors is a system designed to empower users to create personalized visual sensors by leveraging multimodal foundation models and reasoning.
+- It uses two-stage pipeline with Gemini 1.5 Flash and Pro, supports user-configurable logic and examples, and facilitates criteria refinement and debugging.
+- Gensors is important as it makes intelligent sensing technologies more accessible and customizable for end-users.
+
+
+
+
 #### 26th of January 2025
 
 [Qwen2.5-1M Technical Report](https://qianwen-res.oss-cn-beijing.aliyuncs.com/Qwen2.5-1M/Qwen2_5_1M_Technical_Report.pdf)
