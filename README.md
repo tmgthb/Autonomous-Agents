@@ -622,6 +622,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 15th of January 2025
 
+[Between Puppet and Actor: Reframing Authorship in this Age of AI Agents](http://arxiv.org/abs/2501.15346v1)
+
+- Puppet and Actor framework: This framework reframes authorship in the age of AI agents by positioning AI agency between puppet and actor.
+- Conceptual tensions in AI agent roles; creative processes; Large Language Models (LLMs); Schmidt's categorization; classical authorship; puppet-actor spectrum; creative autonomy; dynamic state; evolving authorship.
+- Understanding AI agency as puppet-actor spectrum is important for adapting authorship concepts in the age of AI.
+
+
+---
+
 [AGENTIC RETRIEVAL-AUGMENTED GENERATION: A SURVEY ON AGENTIC RAG](http://arxiv.org/abs/2501.09136v1)
 
 - Introduces Survey on compherensive list of RAG-techniques with LLM-agents.
@@ -10120,6 +10129,17 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Learning Coalition Structures with Games](https://arxiv.org/abs/2312.09058)
 
 - Coalition Structure Learning (CSL): Learns coalitions of agents via set of games.
+
+
+---
+
+#### 13rd of December 2025
+
+[KVDirect: Distributed Disaggregated LLM Inference](https://arxiv.org/abs/2501.14743)
+
+- KVDirect: Framework optimizes KV cache transfer to enable distributed disaggregated LLM inference.
+- Tensor-centric communication mechanism, custom communication library, dynamic GPU resource scheduling, pull-based KV cache transfer strategy, reduces synchronization overhead.
+- KVDirect reduces per-request latency and improves resource utilization in disaggregated LLM inference.
 
 
 ---
