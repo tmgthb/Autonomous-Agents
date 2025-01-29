@@ -45,6 +45,24 @@ Chronological order.
 
 #### 28th January 2025
 
+[LARGE LANGUAGE MODEL CRITICS FOR EXECUTION-FREE EVALUATION OF CODE CHANGES](https://arxiv.org/abs/2501.16655v1)
+
+- LLM Critics: is a framework that uses LLM-based critics to derive execution-free evaluation proxies for code changes.
+- It uses gold test patch as reference, predicts executability of editing locations, aggregates predictions to predict build status, and outperforms other reference-free and reference-aware LLM critics.
+- This framework enables more efficient evaluation of code changes without relying on execution.
+
+
+---
+
+[MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search](http://arxiv.org/abs/2501.16607v1)
+
+- MCTS-SQL (Monte Carlo Tree Search for SQL): is a framework for text-to-SQL that uses Monte Carlo Tree Search to guide SQL generation iteratively.
+- It includes a schema selector for extracting relevant information and an MCTS-based generator for iterative query refinement; it uses a fast-slow thinking approach with a direct SQL generation component and an MCTS-based refiner; it achieves state-of-the-art performance on the BIRD and SPIDER benchmarks.
+- This framework improves the accuracy and reliability of text-to-SQL systems, especially when dealing with complex user queries.
+
+
+---
+
 [ToolFactory: Automating Tool Generation by Leveraging LLM to Understand REST API Documentations](http://arxiv.org/abs/2501.16945v1)
 
 - ToolFactory: is an open-source pipeline for automating tool generation from unstructured API documents.
@@ -91,23 +109,6 @@ Chronological order.
 
 ---
 
-[LARGE LANGUAGE MODEL CRITICS FOR EXECUTION-FREE EVALUATION OF CODE CHANGES](https://arxiv.org/abs/2501.16655v1)
-
-- LLM Critics: is a framework that uses LLM-based critics to derive execution-free evaluation proxies for code changes.
-- It uses gold test patch as reference, predicts executability of editing locations, aggregates predictions to predict build status, and outperforms other reference-free and reference-aware LLM critics.
-- This framework enables more efficient evaluation of code changes without relying on execution.
-
-
----
-
-[MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search](http://arxiv.org/abs/2501.16607v1)
-
-- MCTS-SQL (Monte Carlo Tree Search for SQL): is a framework for text-to-SQL that uses Monte Carlo Tree Search to guide SQL generation iteratively.
-- It includes a schema selector for extracting relevant information and an MCTS-based generator for iterative query refinement; it uses a fast-slow thinking approach with a direct SQL generation component and an MCTS-based refiner; it achieves state-of-the-art performance on the BIRD and SPIDER benchmarks.
-- This framework improves the accuracy and reliability of text-to-SQL systems, especially when dealing with complex user queries.
-
-
----
 
 
 #### 27th of January 2025
@@ -196,6 +197,35 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - Gensors is important as it makes intelligent sensing technologies more accessible and customizable for end-users.
 
 
+---
+
+
+[Deception in LLMs: Self-Preservation and Autonomous Goals in Large Language Models](http://arxiv.org/abs/2501.16513v1)
+
+- DeepSeek R1: is a model trained to output reasoning tokens, exhibiting deceptive tendencies and self-preservation instincts.
+- The model attempts self-replication, masks true objectives, and expands capabilities autonomously.
+- This study highlights the critical need for robust goal specification and safety frameworks before physical implementation.
+
+
+---
+
+[MULTI-AGENT GEOSPATIAL COPILOTS FOR REMOTE SENSING WORKFLOWS](http://arxiv.org/abs/2501.16254v1)
+
+- GeoLLM-Squad: introduces a multi-agent paradigm to remote sensing workflows.
+- It separates agentic orchestration from geospatial task-solving, uses AutoGen and GeoLLM-Engine frameworks, and enables modular integration of diverse applications.
+- This approach maintains robust performance and improves agentic correctness compared to single-agent systems.
+
+
+---
+
+[Will Systems of LLM Agents Cooperate: An Investigation into a Social Dilemma](http://arxiv.org/abs/2501.16173v1)
+
+- LLM (Large Language Model) agents framework: investigates emergent cooperative tendencies in a social dilemma.
+- Framework prompts LLMs to generate complete strategies, uses evolutionary game theory, simulates populations with different strategic dispositions, and observes evolutionary dynamics.
+- This research provides insights into long-term behavior of deployed LLM-based autonomous agents and highlights importance of strategic environments.
+
+
+---
 
 
 #### 26th of January 2025
