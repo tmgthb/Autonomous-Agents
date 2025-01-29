@@ -43,6 +43,73 @@ Chronological order.
 
 </div>
 
+#### 28th January 2025
+
+[ToolFactory: Automating Tool Generation by Leveraging LLM to Understand REST API Documentations](http://arxiv.org/abs/2501.16945v1)
+
+- ToolFactory: is an open-source pipeline for automating tool generation from unstructured API documents.
+- It includes API Extraction Benchmark, APILlama model fine-tuned with prompt tuning, and tool validation pipeline.
+- This framework facilitates the seamless integration of scientific REST APIs into AI workflows.
+
+
+---
+
+[A Stochastic Dynamical Theory of LLM Self-Adversariality: Modeling Severity Drift as a Critical Process](http://arxiv.org/abs/2501.16783v1)
+
+- Stochastic dynamical framework: models how LLMs may self-amplify biases through chain-of-thought reasoning.
+- It uses a continuous-time stochastic differential equation (SDE) approach, analyzes phase transitions, derives stationary distributions, and investigates scaling laws.
+- This framework provides a basis for formal verification of model stability and bias propagation.
+
+
+---
+
+[MACI: Multi-Agent Collaborative Intelligence for Robust Reasoning and Temporal Planning](http://arxiv.org/abs/2501.16689v1)
+
+- MACI (Multi-Agent Collaborative Intelligence): is a framework centered on a meta-planner that orchestrates multiple agents to generate planner templates.
+- It includes a three-tier architecture with meta-planning, common and specialized agents; enables advanced temporal reasoning and adaptability; decouples planning from validation.
+- This framework provides a robust solution for complex reasoning and planning tasks.
+
+
+---
+
+[Auto-Differentiating Any LLM Workflow: A Farewell to Manual Prompting](http://arxiv.org/abs/2501.16673v1)
+
+- LLM-AutoDiff: is a framework for Automatic Prompt Engineering (APE) that extends textual gradient-based methods to multi-component, potentially cyclic LLM architectures.
+- It treats each textual input as a trainable parameter, uses a frozen "backward engine" LLM to generate feedback, accommodates functional nodes, preserves time-sequential behavior, and combats the "lost-in-the-middle" problem.
+- This framework offers a new paradigm for scaling and automating LLM workflows.
+
+
+---
+
+
+[JUPYBARA: Operationalizing a Design Space for Actionable Data Analysis and Storytelling with LLMs](http://arxiv.org/abs/2501.16661v1)
+
+- JUPYBARA: is an AI-enabled assistant for actionable EDA and storytelling implemented as a Jupyter Notebook extension.
+- It employs design-space-aware prompting and multi-agent architectures, including semantic, rhetorical, and pragmatic dimensions, to operationalize the design space.
+- This framework enhances usability, steerability, explainability, and reparability in actionable data analysis and storytelling.
+
+
+---
+
+[LARGE LANGUAGE MODEL CRITICS FOR EXECUTION-FREE EVALUATION OF CODE CHANGES](https://arxiv.org/abs/2501.16655v1)
+
+- LLM Critics: is a framework that uses LLM-based critics to derive execution-free evaluation proxies for code changes.
+- It uses gold test patch as reference, predicts executability of editing locations, aggregates predictions to predict build status, and outperforms other reference-free and reference-aware LLM critics.
+- This framework enables more efficient evaluation of code changes without relying on execution.
+
+
+---
+
+[MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search](http://arxiv.org/abs/2501.16607v1)
+
+- MCTS-SQL (Monte Carlo Tree Search for SQL): is a framework for text-to-SQL that uses Monte Carlo Tree Search to guide SQL generation iteratively.
+- It includes a schema selector for extracting relevant information and an MCTS-based generator for iterative query refinement; it uses a fast-slow thinking approach with a direct SQL generation component and an MCTS-based refiner; it achieves state-of-the-art performance on the BIRD and SPIDER benchmarks.
+- This framework improves the accuracy and reliability of text-to-SQL systems, especially when dealing with complex user queries.
+
+
+---
+
+
 #### 27th of January 2025
 
 [Janus-Pro: Unified Multimodal Understanding and
