@@ -3285,6 +3285,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
+
+[An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Acceleration for VLLM Inference](https://arxiv.org/abs/2403.06764)
+
+- FastV: versatile plug-and-play method designed to optimize computational efficiency by learning adaptive attention patterns and pruning visual tokens.
+- Inefficient attention in LVLMs, visual tokens inefficiency in deep layers, adaptive attention, visual token pruning, computational cost reduction, performance maintained, customizable, Pareto-efficient.
+- FastV has practical value for LVLM deployment in edge devices and commercial models.
+
+
+---
+
+
+
 #### 1st of September 2024
 
 [Self-evolving Agents with reflective and memory-augmented abilities](https://arxiv.org/abs/2409.00872)
