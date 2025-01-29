@@ -384,6 +384,11 @@ Autonomous agents (AA) is defined:
 
 ### Memory
 
+</div>
+
+
+---
+
 Memory is "[the ability to remember information, experiences, and people.](https://dictionary.cambridge.org/dictionary/english/memory)" 
 
 Humans retrieve relevant context from the memory for perceiving, reasoning and planning.
@@ -446,10 +451,8 @@ Furthermore, some works consider the safety and ethical aspects of memory in LLM
 
 ---
 
-
  
 
----
 
 <div id="perception"></div>
 
