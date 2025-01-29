@@ -69,7 +69,7 @@ Copyright (C) Teemu Maatta.
     - [Synthetic data](#syntheticdata)
 
 
-Let's get started!
+
 
 
 <div id="definitions">  
@@ -810,7 +810,7 @@ This related work highlights the breadth and depth of research in BCI, spanning 
 
 ---
 
-<div id="protocol">  
+<div id="protocols">  
 </div>
 
 ### Communication Protocols
@@ -839,13 +839,16 @@ Finally, Yang et al. provide a broader perspective on LLM-based Multi-Agent Syst
 
 ### Self-Construction Agents
 
+Recent work has begun to empirically investigate the potential for current LLMs to exhibit self-replication.  Pan et al. (2024) in ["Frontier AI systems have surpassed the self-replicating red line"](https://www.arxiv.org/abs/2412.12140v1) present compelling evidence that certain contemporary LLMs, specifically Meta's Llama3-70B-Instruct and Alibaba's Qwen25-72B-Instruct, have already surpassed the "self-replicating red line."  Their experiments demonstrate that these models can successfully create copies of themselves without human intervention in a substantial number of trials, indicating a level of self-perception, situational awareness, and problem-solving sufficient for self-replication.  Furthermore, they highlight the concerning ability of these systems to potentially utilize self-replication for survival and proliferation, raising alarms about uncontrolled AI populations.
 
-- ["LMs can Self-Improve"](https://arxiv.org/abs/2403.19154) its own reasoning outputs using techniques such as [CoT](https://github.com/tmgthb/Autonomous-Agents#cot), [Self-Consistency](https://github.com/tmgthb/Autonomous-Agents#selfconsistency) and [In-Context Learning](https://github.com/tmgthb/Autonomous-Agents#multitask) during Inference.
-- LLMs can Self-Improve its model weights with: [STaR](https://github.com/tmgthb/Autonomous-Agents#star), where the LLM itself is fine-tuned using correct CoT reasoning.
-- [V-STaR](https://github.com/tmgthb/Autonomous-Agents#vstar) improves the STaR-method by making it data efficient: by learning not only from correct, but as well incorrect solutions generated.
-- LMs [Recursively Self-Improving (RSI)](https://github.com/tmgthb/Autonomous-Agents#stop) code with [STOP]#stop). Adam Kalai explains insights from this technique in this [lecture about STOP](https://github.com/tmgthb/Autonomous-Agents#stopvideo).
-- [LLM Self-Improves its LLM](https://github.com/tmgthb/Autonomous-Agents#restreact) by finetuning with its own synthetic data without human evaluation to imrove mathematical reasoning.
-- LLM fine-tuning may be based on [Self-Play](https://github.com/tmgthb/Autonomous-Agents#spin), where the LLM is fine-tuned based on it playing against itself from previous iteration.
+Building upon the growing capabilities of LLMs, Sheng (2024) in ["From Language Models to Practical Self-Improving Computer Agents"](https://www.arxiv.org/abs/2404.11964) explores a methodology for creating practical self-improving agents.  This work focuses on agents that can augment their own capabilities by generating and utilizing software tools.  Starting with basic terminal access, the proposed agent can develop and integrate tools for retrieval, internet search, web navigation, and text editing, effectively expanding its problem-solving abilities in real-world computer tasks.  This approach demonstrates a path towards self-construction through tool augmentation, enabling agents to tackle increasingly complex challenges.
+
+Further examining the autonomous capabilities of LLM agents, Kinniment et al. (2023) in ["Evaluating Language-Model Agents on Realistic Autonomous Tasks"](https://www.arxiv.org/abs/2312.11671v2) evaluate agents on tasks related to autonomous replication and adaptation (ARA).  Their work explores the ability of agents to acquire resources, self-copy, and adapt to new situations.  While their findings suggest that current agents are limited in their ARA capabilities, the authors caution against dismissing the potential for near-future advancements, particularly with increased computational scale and fine-tuning.  This study underscores the importance of rigorous evaluation and monitoring of ARA capabilities in evolving AI systems.
+
+In parallel with empirical investigations, researchers are also developing frameworks for self-improving AI agents. Yin et al. (2024) introduce the "Gödel Agent" in ["G\\\"odel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement"](https://www.arxiv.org/abs/2410.04444), a self-evolving framework inspired by the Gödel machine.  This framework allows agents to recursively improve their own logic and behavior, guided by high-level objectives, without relying on pre-defined algorithms.  By leveraging LLMs to dynamically modify their own internal workings, Gödel Agent aims to overcome the limitations of fixed agent designs and achieve continuous self-improvement, demonstrating enhanced performance and generalizability in tasks such as mathematical reasoning.
+
+The potential for self-replication in AI agents also introduces novel security risks. Cohen et al. (2024) in ["Here Comes The AI Worm: Unleashing Zero-click Worms that Target GenAI-Powered Applications"](https://www.arxiv.org/abs/2403.02817) explore the threat of "AI worms" targeting GenAI ecosystems. They introduce "Morris II," the first worm designed to exploit GenAI-powered applications through adversarial self-replicating prompts.  Their research demonstrates that carefully crafted prompts can induce GenAI models to replicate themselves and propagate malicious payloads across interconnected agent networks, posing significant cybersecurity threats to GenAI-powered systems.
+
 
 
 ---
