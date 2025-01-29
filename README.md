@@ -125,6 +125,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning](https://arxiv.org/abs/2501.15727)
+
+- Gensors is a system designed to empower users to create personalized visual sensors by leveraging multimodal foundation models and reasoning.
+- It uses two-stage pipeline with Gemini 1.5 Flash and Pro, supports user-configurable logic and examples, and facilitates criteria refinement and debugging.
+- Gensors is important as it makes intelligent sensing technologies more accessible and customizable for end-users.
+
+
+---
+
 [MULTI-AGENT GEOSPATIAL COPILOTS FOR REMOTE SENSING WORKFLOWS](http://arxiv.org/abs/2501.16254v1)
 
 - GeoLLM-Squad: geospatial Copilot introduces multi-agent paradigm to remote sensing workflows by separating agentic orchestration from geospatial task-solving.
@@ -189,16 +198,6 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 ---
-
-[Gensors: Authoring Personalized Visual Sensors with Multimodal Foundation Models and Reasoning](https://arxiv.org/abs/2501.15727)
-
-- Gensors is a system designed to empower users to create personalized visual sensors by leveraging multimodal foundation models and reasoning.
-- It uses two-stage pipeline with Gemini 1.5 Flash and Pro, supports user-configurable logic and examples, and facilitates criteria refinement and debugging.
-- Gensors is important as it makes intelligent sensing technologies more accessible and customizable for end-users.
-
-
----
-
 
 [Deception in LLMs: Self-Preservation and Autonomous Goals in Large Language Models](http://arxiv.org/abs/2501.16513v1)
 
