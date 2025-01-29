@@ -159,8 +159,28 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+#### 25th January 2025
+
+[OptiSeq: Optimizing Example Ordering for In-Context Learning](http://arxiv.org/abs/2501.15030v1)
+
+- OptiSeq: introduces a score based on log probabilities of LLM outputs to prune example orderings in few-shot ICL.
+- optimizing example ordering; in-context learning; LLM outputs; prune orderings; best order; correct/incorrect outputs; empirical evaluation; accuracy improvement.
+- OptiSeq improves accuracy significantly across multiple tasks.
+
+
+---
+
 
 #### 24th of January 2025
+
+[Self-reflecting Large Language Models: A Hegelian Dialectical Approach](http://arxiv.org/abs/2501.14917v1)
+
+- Hegelian Dialectical Approach: Framework introduces philosophical approach inspired by the Hegelian Dialectic for LLMs' self-reflection.
+- It uses self-dialectical approach to emulate internal critiques, synthesize new ideas by resolving contradictions, dynamic annealing approach for temperature generation, Multi Agent Majority Voting (MAMV) strategy to assess validity and novelty.
+- Framework is examined to determine ability to generate novel ideas and provide stepping stone for future research.
+
+
+---
 
 [MedAgentBench: Dataset for Benchmarking LLMs as Agents in Medical Applications](http://arxiv.org/abs/2501.14654v1)
 
@@ -186,7 +206,6 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 ---
-
 
 [Exploring the sustainable scaling of Al dilemma: A projective study of corporations' Al environmental impacts](http://arxiv.org/abs/2501.14334v1)
 
