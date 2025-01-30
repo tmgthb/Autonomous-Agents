@@ -43,6 +43,53 @@ Chronological order.
 
 </div>
 
+
+#### 29th January 2025
+
+[Critique Fine-Tuning: Learning to Critique is More Effective than Learning to Imitate](https://arxiv.org/abs/2501.17703)
+
+- Critique Fine-Tuning (CFT): is a framework where models learn to critique noisy responses rather than imitating correct ones.
+- CFT encourages deeper analysis and nuanced understanding, uses GPT-40 to generate critiques, and shows consistent improvement over SFT on math benchmarks.
+- This approach offers a more effective alternative to advance the reasoning of language models.
+
+---
+
+
+[RICOTA: Red-teaming of In-the-wild Conversation with Test Attempts](http://arxiv.org/abs/2501.17715v1)
+
+- RICOTA: is a Korean red teaming dataset of in-the-wild user interactions.
+- It uses user-chatbot conversations from a Korean Reddit-like community, focuses on jailbreak attempts, and provides a novel evaluation approach.
+- This dataset is important for evaluating LLMs' ability to identify conversation types and user testing purposes.
+
+
+---
+
+[Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant](http://arxiv.org/abs/2501.17546v1)
+
+- Conversational XAI: augments existing XAI methods with conversational user interfaces to increase user engagement and understanding of AI systems.
+- Framework explores impact on user understanding, trust, and reliance; compares XAI dashboard and conversational interfaces; uses LLM agents to power enhanced conversations; reveals over-reliance on AI systems.
+- This framework provides important implications for designing effective conversational XAI interfaces to facilitate appropriate reliance and improve human-AI collaboration.
+
+
+---
+
+[ACTIONS SPEAK LOUDER THAN WORDS: AGENT DECISIONS REVEAL IMPLICIT BIASES IN LANGUAGE MODELS](http://arxiv.org/abs/2501.17420v1)
+
+- Language-agent simulation technique: systematically investigates implicit biases in LLMs across diverse sociodemographic groups and decision-making scenarios.
+- It uses persona generation and action generation steps, reveals that state-of-the-art LLMs exhibit significant sociodemographic disparities, and shows that implicit biases are amplified compared to explicit biases.
+- This framework provides a way to identify biases in LLM-powered applications, ensuring they are aligned with ethical principles and societal norms.
+
+
+---
+
+
+[GENERAL SCENE ADAPTATION FOR VISION-AND-LANGUAGE NAVIGATION](http://arxiv.org/abs/2501.17403v1)
+
+- GSA-VLN (General Scene Adaptation for VLN): is a novel task requiring agents to execute navigation instructions within a specific scene and simultaneously adapt to it for improved performance over time.
+- GSA-VLN introduces environment-specific memory bank, uses three-stage instruction orchestration pipeline with LLMs, and proposes Graph-Retained DUET (GR-DUET) method.
+- This framework addresses the challenge of single-scene adaptation, enabling agents to continuously improve as they execute instructions in previously unseen environments.
+
+
 #### 28th January 2025
 
 [LARGE LANGUAGE MODEL CRITICS FOR EXECUTION-FREE EVALUATION OF CODE CHANGES](https://arxiv.org/abs/2501.16655v1)
@@ -109,7 +156,14 @@ Chronological order.
 
 ---
 
+[A sketch of an AI control safety case](http://arxiv.org/abs/2501.17315v1)
 
+- AI control: framework argues that models are safe because of measures such as monitoring and human auditing.
+- Framework uses control evaluation with red and blue teams, includes untrusted and trusted monitors, and uses a safety layer to prevent data exfiltration.
+- This framework provides a step toward more concrete arguments that can be used to show that a dangerously capable LLM agent is safe to deploy.
+
+
+---
 
 #### 27th of January 2025
 
