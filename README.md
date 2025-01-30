@@ -176,6 +176,18 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - Decoupled visual encoding remains a core and effective architectural design for unified multimodal tasks.
 - 7B model demonstrates strong scalability of the decoupled visual encoding approach.
 
+---
+
+[On the Feasibility of Using LLMs to Execute Multistage Network Attacks](https://arxiv.org/abs/2501.16466)
+
+- Incalmo: is an LLM-agnostic high-level attack abstraction layer that sits between an LLM and the environment.
+- Incalmo uses action planner, attack graph service and environment state service to enable LLMs to specify high-level tasks, translate them into low-level primitives, and provide structure for selecting relevant actions.
+- Incalmo consists of three stages. The first stage is called "onboarding pre-prompt"-stage, which “teaches” the LLM the capabilities of Incalmo, Second stage provides environment specific prompts to outline attach goals and environment details. In the third stage, the LLM autonomously executes the multistage attack via Incalmo in an interactive execution loop. 
+- Demonstrates capability to find vurnerable services, execute exploits to gain access to network, to discover misconfigurations and vulnerabilities to move laterally and exploit vulnerabilities to escalate privileges and exfiltrate data from networks. 
+- Demonstrates, that abstraction is more important than LLM model size and that Incalmo-action planner module is critical module.
+- This framework enables LLMs to successfully execute multistage attacks in realistic emulated networks.
+
+
 
 ---
 
