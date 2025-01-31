@@ -44,6 +44,36 @@ Chronological order.
 </div>
 
 
+
+#### 30th January 2025
+
+[Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method](http://arxiv.org/abs/2501.18539v1)
+
+- ARM (Alignment-Oriented LLM-based Retrieval Method): is an LLM-based retrieval method that aligns questions with data organization by exploring relationships among data objects.
+- ARM uses constrained decoding with N-grams, a reasoning solver for structure alignment, and self-verification for object selection, and it is evaluated on Bird and OTT-QA datasets.
+- This method achieves better retrieval performance and efficiency compared to standard and agentic RAG approaches.
+
+
+---
+
+[Leveraging LLM Agents for Automated Optimization Modeling for SASP Problems: A Graph-RAG based Approach](http://arxiv.org/abs/2501.18320v1)
+
+- MAG-RAG is automated modeling approach based on retrieval-augmented generation technique for SASP problems.
+- It uses multi-agent structure for AOM architecture, graph-based RAG for domain knowledge integration, human expert modeling principles and precise knowledge retrieval using graph structure.
+- MAG-RAG approach realizes the potential of LLM-assisted AOM for solving SASP problems.
+
+
+---
+
+[REPOAUDIT: An Autonomous LLM-Agent for Repository-Level Code Auditing](http://arxiv.org/abs/2501.18160v1)
+
+- REPOAUDIT: autonomous LLM-agent designed for precise and efficient repository-level code auditing.
+- Equipped with agent memory, REPOAUDIT explores code repository on demand, analyzes data-flow facts along feasible program paths, and introduces validator for hallucination mitigation.
+- REPOAUDIT demonstrates substantial potential for flexible and configurable code security analysis.
+
+
+---
+
 #### 29th January 2025
 
 [Critique Fine-Tuning: Learning to Critique is More Effective than Learning to Imitate](https://arxiv.org/abs/2501.17703)
@@ -54,21 +84,30 @@ Chronological order.
 
 ---
 
+[LARGE LANGUAGE MODELS THINK TOO FAST TO EXPLORE EFFECTIVELY](http://arxiv.org/abs/2501.18009v1)
+
+- Large Language Models (LLMs): Study investigates exploration capabilities of LLMs in open-ended tasks using Little Alchemy 2.
+- LLMs underperform humans in exploration; uncertainty-driven strategies dominant; empowerment underutilized; premature decisions due to fast processing.
+- Findings are crucial for enhancing LLM adaptability and exploration effectiveness.
+
+
+---
+
+
+[Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant](http://arxiv.org/abs/2501.17546v1)
+
+- Conversational XAI assistant: Conversational XAI interface is proposed to augment existing XAI methods to increase user engagement and boost user understanding of AI system.
+- Exploration of conversational XAI interface impact on user understanding, trust and reliance; comparison with XAI dashboard; over-reliance on AI system observed; enhanced conversations amplified over-reliance; illusion of explanatory depth.
+- Findings have important implications for designing effective conversational XAI interfaces to facilitate appropriate reliance and improve human-AI collaboration.
+
+
+---
 
 [RICOTA: Red-teaming of In-the-wild Conversation with Test Attempts](http://arxiv.org/abs/2501.17715v1)
 
 - RICOTA: is a Korean red teaming dataset of in-the-wild user interactions.
 - It uses user-chatbot conversations from a Korean Reddit-like community, focuses on jailbreak attempts, and provides a novel evaluation approach.
 - This dataset is important for evaluating LLMs' ability to identify conversation types and user testing purposes.
-
-
----
-
-[Is Conversational XAI All You Need? Human-AI Decision Making With a Conversational XAI Assistant](http://arxiv.org/abs/2501.17546v1)
-
-- Conversational XAI: augments existing XAI methods with conversational user interfaces to increase user engagement and understanding of AI systems.
-- Framework explores impact on user understanding, trust, and reliance; compares XAI dashboard and conversational interfaces; uses LLM agents to power enhanced conversations; reveals over-reliance on AI systems.
-- This framework provides important implications for designing effective conversational XAI interfaces to facilitate appropriate reliance and improve human-AI collaboration.
 
 
 ---
