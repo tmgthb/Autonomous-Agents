@@ -56,6 +56,16 @@ Chronological order.
 
 ---
 
+[Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs](https://arxiv.org/abs/2501.18585)
+
+- TIP (thought switching penalty): is a decoding strategy that discourages premature transitions between thoughts, encouraging deeper exploration of each reasoning path.
+- It introduces a novel metric to quantify underthinking by measuring token efficiency in incorrect answers, and it improves accuracy across challenging datasets without requiring model fine-tuning.
+- This framework contributes to understanding reasoning inefficiencies in o1-like LLMs and offers a practical solution to enhance their problem-solving capabilities.
+
+
+---
+
+
 [Leveraging LLM Agents for Automated Optimization Modeling for SASP Problems: A Graph-RAG based Approach](http://arxiv.org/abs/2501.18320v1)
 
 - MAG-RAG is automated modeling approach based on retrieval-augmented generation technique for SASP problems.
@@ -139,6 +149,17 @@ Chronological order.
 
 
 ---
+
+[SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training](https://arxiv.org/abs/2501.17161)
+
+- SFT (Supervised fine-tuning) and RL (reinforcement learning): are compared on generalization and memorization in text and visual environments.
+- RL generalizes better than SFT, especially with outcome-based reward; SFT memorizes training data; RL improves visual recognition; SFT stabilizes output format for RL.
+- RL is advantageous for acquiring generalizable knowledge in complex, multimodal tasks.
+
+
+---
+
+
 
 [MCTS-SQL: An Effective Framework for Text-to-SQL with Monte Carlo Tree Search](http://arxiv.org/abs/2501.16607v1)
 
@@ -1886,6 +1907,18 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 ---
+
+
+#### 10th of December 2024
+
+[CePO: Empowering Llama with Reasoning using Test-Time Compute](https://cerebras.ai/blog/cepo)
+- CePO (Cerebras Planning and Optimization): Adds sophisticated reasoning capabilities to the Llama family of models using test-time computation techniques.
+- CePO enables Llama-3.3 70B to surpass Llama-3.1 405B in accuracy across coding, math, and reasoning tasks.
+- CePO's step-by-step reasoning, comparison instead of verification, and intuitive output format improve Llama's performance.
+- CePO achieves interactive performance of approximately 100 tokens/second on Cerebras hardware, comparable to leading models like GPT-4 Turbo and Claude 3.5 Sonnet.
+
+---
+
 
 
 #### 9th of December 2024
@@ -4053,7 +4086,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 --- 
 
-#### 2nd of July 2024
+#### 2nd of August 2024
 
 [Coalitions of Large Language Models Increase the Robustness of AI Agents](https://arxiv.org/abs/2408.01380)
 
@@ -4127,6 +4160,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 #### 25th of July 2024
+
+[The Platonic Representation Hypothesis](https://www.arxiv.org/abs/2405.07987)
+
+- The Platonic Representation Hypothesis: Neural networks are converging to a shared statistical model of reality in their representation spaces.
+- Convergence across data modalities; representation alignment over time; driven by data and task diversity; scaling model size.
+- Understanding convergence is crucial for future AI development and capabilities.
+
+
+---
 
 [PersonaGym: Evaluating Persona Agents and LLMs](https://arxiv.org/abs/2407.18416)
 
