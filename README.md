@@ -1060,10 +1060,7 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - It formulates SASS optimization as an assembly game, integrates with OpenAI Triton, and improves performance of specialized CUDA kernels by up to 26%.
 - This framework provides a way to automatically optimize GPU kernels, which is important for improving the performance of LLMs.
 
-
 ---
-
-
 
 #### 13th of January 2025
 
@@ -1145,7 +1142,14 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[Critical Tokens Matter: Token-Level Contrastive Estimation Enhances LLM's Reasoning Capability](https://arxiv.org/abs/2411.19943)
 
+- cDPO (critical Direct Preference Optimization): is a novel framework for identifying and penalizing critical tokens in mathematical reasoning tasks.
+- It uses rollout sampling to identify critical tokens, contrastive estimation to pinpoint them efficiently, and token-level rewards for preference optimization.
+- This framework significantly improves model accuracy in mathematical reasoning tasks by reducing errors.
+
+
+---
 
 
 #### 12th of January 2025
@@ -1177,6 +1181,8 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+---
+
 [Guided Code Generation with LLMs: A Multi-Agent Framework for Complex Code Tasks](https://arxiv.org/abs/2501.06625)
 
 - Guided code generation: introduces a multi-agent framework for complex code tasks, which includes hierarchical decomposition, bottom-up code generation, and multi-agent validation.
@@ -1185,7 +1191,6 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 ---
-
 
 #### 10th of January 2025
 
@@ -1291,7 +1296,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+#### 9th of January 2025
 
+[On Corrigibility and Alignment in Multi Agent Games](https://arxiv.org/abs/2501.05360)
+
+- Multi Agent Corrigibility Games: introduces a framework for studying corrigibility in systems comprised of multiple autonomous agents.
+- Framework models a 2-player game with human supervision, uses Bayesian games to introduce uncertainty over human beliefs, and analyzes specific cases like two-player corrigibility and adversary settings.
+- This framework provides insights into designing corrigible multi-agent systems, even in the face of human irrationality.
+
+
+---
 
 
 #### 8th of January 2025
@@ -1321,6 +1335,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - URSA (Understanding and Verifying Chain-of-thought Reasoning in Multimodal Mathematics): A framework for enhancing the mathematical reasoning capabilities of Multimodal Large Language Models (MLLMs) through a three-module synthesis strategy and a novel dual-view process supervision data synthesis method.
 - Integrates CoT distillation, trajectory-format rewriting, format unification, MMathCoT-1M dataset, DualMath-1.1M dataset, URSA-7B model, URSA-RM-7B model, test-time scaling, process annotation, out-of-distribution (OOD) verification.
 - This work significantly enhances MLLMs' potential in mathematical reasoning, achieving state-of-the-art performance on multiple multimodal mathematical benchmarks and demonstrating robust supervision abilities.
+
+
+---
+
+[Retrieval-Augmented Generation with Graphs (GraphRAG)](https://arxiv.org/abs/2501.00309)
+
+- GraphRAG: is a framework for retrieval-augmented generation using graph-structured data.
+- It defines key components like query processor, retriever, organizer, generator, and data source; reviews techniques tailored to different domains; discusses research challenges and future directions.
+- This framework provides a comprehensive overview of GraphRAG for information retrieval, data mining, and machine learning communities.
 
 
 ---
@@ -1382,6 +1405,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 - Decodes EEG scans to text with subject-independent semantic features for Brain-Computer Interfaces (BCIs).  Introduces EEG embeddings.
 - Includes cross-subject generalization (addresses the issue of variability in brain anatomy between humans/neural dynamics/signal), zero-shot and comprehensive evaluation.  
+
+
+---
+
+[DeepSeek LLM: Scaling Open-Source Language Models with Longtermism](https://arxiv.org/abs/2401.02954)
+
+- DeepSeek LLM: is an open-source large language model framework with 7B and 67B configurations.
+- It uses a 2 trillion token dataset, multi-step learning rate scheduler, and includes SFT and DPO stages.
+- This framework achieves superior performance compared to LLaMA-2 and GPT-3.5 in various benchmarks.
 
 
 ---
