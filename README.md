@@ -1064,6 +1064,25 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 13th of January 2025
 
+[The Lessons of Developing Process Reward Models in Mathematical Reasoning](https://arxiv.org/abs/2501.07301)
+
+
+- PRM (Process Reward Model): A model for process supervision in mathematical reasoning of LLMs, which aims to identify and mitigate intermediate errors in the reasoning processes.
+- Monte Carlo (MC) estimation, Best-of-N (BoN) evaluation, consensus filtering mechanism, response-level and step-level metrics, data efficiency, error identification.
+- The paper addresses challenges in developing effective PRMs, offering solutions for data annotation, evaluation methodologies, and proposing a consensus filtering mechanism to enhance model performance and data efficiency.
+
+
+---
+
+[Evaluating Agent-based Program Repair at Google](https://arxiv.org/abs/2501.07531)
+
+- Passerine: An agent-based program repair system designed to operate within Google's development environment.
+- Inspired by SWE-Agent, utilizes ReAct-style loop, limited command set, Gemini 1.5 Pro, 20 trajectory samples, evaluates on GITS-Eval (178 bugs from Google's internal issue tracking system).
+- Establishes a baseline for agent-based automated program repair performance on an industrially relevant benchmark, highlighting challenges and opportunities in an enterprise context.
+
+
+---
+
 [GPT as a Monte Carlo Language Tree: A Probabilistic Perspective](https://arxiv.org/abs/2501.07641)
 
 - Reviews LLM as a Monte Carlo Language Tree (data tree), where each node is token, each edge is the token transition probability and each sequence has unique path.
@@ -1108,8 +1127,6 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
-
-
 [Lifelong Learning of Large Language Model based Agents: A Roadmap](https://arxiv.org/abs/2501.07278)
 
 - Introduces a s survey incorporating lifelong learning into LLM-based agents.
@@ -1121,6 +1138,7 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 [How GPT LEARNS LAYER BY LAYER](https://arxiv.org/abs/2501.07108)
 
 - Explores how LLMs build internal world models with OthelloGPT by using Sparse AutoEncoders.
+
 
 ---
 
@@ -1154,6 +1172,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 12th of January 2025
 
+[Eliza: A Web3 friendly AI Agent Operating System](https://arxiv.org/abs/2501.06781)
+
+- Eliza: The first open-source, web3-friendly, agentic framework that makes the deployment of web3 applications effortless.
+- Typescript program, seamless web3 integration, stable performance, key runtime components, community-driven, modular design, multi-agent simulation.
+- Eliza bridges the gap between AI and web3, offering a platform for decentralized AI applications.
+
+
+---
+
 [DVM: Towards Controllable LLM Agents in Social Deduction Games](https://arxiv.org/abs/2501.06695)
 
 - DVM (Dynamic Victory Manager): is a framework for controllable LLM agents in social deduction games, comprising Predictor, Decider, and Discussor components.
@@ -1171,6 +1198,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[AIOPSLAB: A HOLISTIC FRAMEWORK TO EVALUATE AI AGENTS FOR ENABLING AUTONOMOUS CLOUDS](https://arxiv.org/abs/2501.06706)
+
+- AIOPSLAB: is a framework that deploys microservice cloud environments, injects faults, generates workloads, exports telemetry data, orchestrates components, and provides interfaces for interacting with and evaluating agents.
+- AIOPSLAB includes Agent-Cloud Interface (ACI), a unified interface for agent-cloud interaction, and supports evaluation of LLM-based agents with a benchmark suite of 48 problems across different AIOps tasks.
+- AIOPSLAB provides a holistic approach to evaluate AIOps agents in complex cloud environments, addressing the limitations of existing benchmarks.
+
+
+---
+
+
 #### 11th of January 2025
 
 [The Internet of Large Language Models](https://arxiv.org/abs/2501.06471)
@@ -1178,8 +1215,6 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - The Internet of LLM: introduces an universal environment and sharing protocol of LLM training/knowledge exchange, which consists of LLM sharing protocol/LLM Universal environment/Agent Optimal Path Module/joint mining mechanism.
 - Includes also planning-, reflection- and tool use-agents.
 
-
----
 
 ---
 
@@ -1298,6 +1333,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 9th of January 2025
 
+[Transformer-Squared: Self-adaptive LLMs](https://arxiv.org/abs/2501.06252)
+
+- Transformer<sup>2</sup>: A self-adaptation framework that adapts LLMs (Large Language Models) for unseen tasks in real-time by selectively adjusting the singular components of their weight matrices.
+- Two-pass mechanism, task-specific expert vectors, reinforcement learning, dynamic mixing, targeted behavior, outperforming LoRA, fewer parameters, greater efficiency, versatility across different LLM architectures and modalities.
+- Represents a significant leap forward, offering a scalable, efficient solution for enhancing the adaptability and task-specific performance of LLMs, paving the way for truly dynamic, self-organizing AI systems.
+
+
+---
+
 [On Corrigibility and Alignment in Multi Agent Games](https://arxiv.org/abs/2501.05360)
 
 - Multi Agent Corrigibility Games: introduces a framework for studying corrigibility in systems comprised of multiple autonomous agents.
@@ -1355,6 +1399,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - The framework has the potential to accelerate scientific discovery by enabling researchers to focus on creative ideation rather than low-level coding and writing.
 - Includes postdoc/ph student/sw engineer/ml engineer/professor-agents. Includes mle-solver-tool capable of solving ML-tasks, which iteratively improves research code.
 - Automated evaluation of the framework significantly overestimated the accurate scoring. Copilot mode was found useful by the human testers. Includes prompts.
+
+
+---
+
+[Supervision-free Vision-Language Alignment](https://arxiv.org/abs/2501.04568)
+
+- SVP (Supervision-free Visual Projection): A novel framework that enhances vision-language alignment in VLMs without relying on curated data or preference annotation.
+- Leverages self-captioning, pre-trained grounding model, feedback mechanism, elicits latent information, improves vision-language alignment.
+- The framework significantly improves performance across various tasks, including captioning, referring, visual question answering, multitasking, hallucination control, and object recall, highlighting its potential to advance multimodal AI systems.
 
 
 ---
@@ -1497,6 +1550,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[PREDICTING THE PERFORMANCE OF BLACK-BOX LLMS THROUGH SELF-QUERIES](https://arxiv.org/abs/2501.01558)
+
+- QueRE (Question Representation Elicitation): A framework to extract features of LLMs (Large Language Models) in a black-box manner by using follow-up prompts and taking the probabilities of different responses as representations to train reliable predictors of model behavior.
+- Low-dimensional representations, linear model, instance level, model performance, hidden state, question-answering, adversarial system prompt, model architectures, model sizes.
+- The framework can be used to predict model performance, detect models influenced by adversarial system prompts and distinguish between different model architectures and sizes.
+
+
+---
+
 
 [A3: Android Agent Arena for Mobile GUI Agents](https://arxiv.org/abs/2501.01149)
 
@@ -1569,6 +1631,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 - Introduces BoxingGym-benchmark, reviews LLMs capabilities to design and model discovery: collect data to test scientific theory and propose/update scientific theories through 10 environments. Introduces metric called EIG.
 - Expected information gain (EIG) measures an experiment's informativeness by testing if one scientific agent's model explanation enables another to make accurate environmental predictions.
+
+
+---
+
+
+[General Information Metrics for Improving AI Model Training Efficiency](https://arxiv.org/abs/2501.02004)
+
+- GIME (General Information Metrics Evaluation): A novel framework for optimizing AI model training by evaluating datasets using 11 general information metrics before training begins.
+- Objective Information Theory (OIT), pre-training assessment, data selection, training efficiency, reduced costs, model-agnostic, domain-independent.
+- This framework improves AI model training efficiency and reduces resource consumption while preserving model performance across various domains.
 
 
 ---
