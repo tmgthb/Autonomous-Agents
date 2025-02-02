@@ -139,7 +139,15 @@ Chronological order.
 - This framework addresses the challenge of single-scene adaptation, enabling agents to continuously improve as they execute instructions in previously unseen environments.
 
 
+---
+
 #### 28th January 2025
+
+[Thalamic oscillations distinguish natural states of consciousness in humans](https://www.biorxiv.org/content/10.1101/2025.01.28.635248v1.full)
+- A novel fast thalamic oscillation (20-45 Hz) is identified in humans, which specifically occurs during wakefulness and REM sleep, and is absent during NREM sleep.
+- The oscillation is localized to the central thalamus and is temporally coupled with eye movements during REM sleep.
+
+---
 
 [LARGE LANGUAGE MODEL CRITICS FOR EXECUTION-FREE EVALUATION OF CODE CHANGES](https://arxiv.org/abs/2501.16655v1)
 
