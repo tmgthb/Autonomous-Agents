@@ -43,7 +43,113 @@ Chronological order.
 
 </div>
 
+#### 31st January 2025
 
+
+[MINDSTORES: Memory-Informed Neural Decision Synthesis for Task-Oriented Reinforcement in Embodied Systems](http://arxiv.org/abs/2501.19318v1)
+
+- MINDSTORES: experience-augmented planning framework enables embodied agents to build and leverage mental models through natural interaction with their environment.
+- Framework uses database of past experiences; represents experiences as natural language embeddings; allows efficient retrieval and reasoning by LLM planner; generates insights and guides plan refinement.
+- MINDSTORES represents an important step toward more capable embodied AI systems that can learn continuously through natural experience.
+
+
+---
+
+[Language Games as the Pathway to Artificial Superhuman Intelligence](http://arxiv.org/abs/2501.18924v1)
+
+- Language games: framework for expanded data reproduction to overcome data reproduction trap in LLMs.
+- Includes role fluidity, reward variety, and rule plasticity for open-ended exploration and human-AI co-evolution towards superhuman intelligence through dynamic linguistic interaction.
+- This framework is important as it redefines data reproduction as an engine for superhuman intelligence.
+
+
+---
+
+[Enabling Autonomic Microservice Management through Self-Learning Agents](http://arxiv.org/abs/2501.19056v1)
+
+- SERVICEODYSSEY: self-learning agent system autonomously manages microservices without prior knowledge of service-specific configurations.
+- Leverages curriculum learning principles and iterative exploration; develops deep understanding of operational environments; reduces dependence on human input; includes Curriculum Builder, Execution Planner, and Knowledge Curator modules.
+- This approach has potential for autonomic microservice management as demonstrated by prototype.
+
+
+---
+
+[Think Smarter not Harder: Adaptive Reasoning with Inference Aware Optimization](https://arxiv.org/abs/2501.17974)
+
+- Inference Budget-Constrained Policy Optimization (IBPO) is an algorithm designed to enable models to understand query difficulty and allocate inference budgets accordingly.
+- It uses utility maximization with inference budget constraint, addresses single-modal behavior in long reasoning models, and improves token efficiency.
+- This method is important as it significantly enhances reasoning efficiency and shows potential for broader applications beyond mathematical problem-solving.
+
+
+---
+
+
+[s1: Simple test-time scaling](https://arxiv.org/abs/2501.19393)
+
+- s1 is a simple test-time scaling approach to improve language model reasoning performance by using budget forcing and small dataset.
+- s1 uses budget forcing to control test-time compute, curated small dataset s1K with 1,000 high-quality questions, and supervised finetuning on Qwen2.5-32B-Instruct.
+- s1 demonstrates that simple test-time scaling can achieve strong reasoning performance and sample efficiency.
+
+
+---
+
+[Do LLMs Strategically Reveal, Conceal, and Infer Information? A Theoretical and Empirical Analysis in The Chameleon Game](http://arxiv.org/abs/2501.19398v1)
+
+- The Chameleon Game: is a language-based hidden-identity game to investigate information control and decision-making capabilities of LLMs.
+- Framework analyzes strategic interactions, information control, and decision-making capabilities using theoretical and empirical analysis with contemporary LLMs such as GPT-4, GPT-4o, Gemini 1.5, and Claude 3.5 Sonnet.
+- This framework is important as it points to a weakness of contemporary LLMs in strategic interactions.
+
+
+---
+
+
+[TV-Dialogue: Crafting Theme-Aware Video Dialogues with Immersive Interaction](http://arxiv.org/abs/2501.18940v1)
+
+- TV-Dialogue: novel multi-modal agent framework ensures theme alignment and visual consistency through real-time immersive interactions among video characters.
+- Introduces Theme-aware Video Dialogue Crafting (TVDC) task, generates dialogues aligned with video content and user-specified themes, includes multi-granularity evaluation benchmark for assessment, enables zero-shot generation for any length and theme, applicable for video re-creation and film dubbing.
+- TV-Dialogue framework underscores potential for video re-creation, film dubbing, and downstream multimodal tasks.
+
+
+---
+
+
+[KBQA-01: Agentic Knowledge Base Question Answering with Monte Carlo Tree Search](http://arxiv.org/abs/2501.18922v1)
+
+- KBQA-01: is a novel agentic Knowledge Base Question Answering (KBQA) method with Monte Carlo Tree Search (MCTS).
+- ReAct-based agent process; stepwise logical form generation; KB environment exploration; MCTS for heuristic search; balances exploration and search space; generates high-quality annotations; incremental fine-tuning; outperforms low-resource KBQA methods.
+- KBQA-01 improves performance in low-resource KBQA and provides publicly available code for further research.
+
+
+---
+
+
+[Survey and Improvement Strategies for Gene Prioritization with Large Language Models](http://arxiv.org/abs/2501.18794v1)
+
+- Gene Prioritization Framework benchmarks and improves large language models for gene prioritization using multi-agent and HPO classification approaches combined with a divide-and-conquer strategy.
+- Framework benchmarks various LLMs including GPT-4 and Mixtral, uses multi-agent and HPO classification for case solvability, and employs divide-and-conquer strategy to enhance accuracy and overcome biases.
+- This framework significantly optimizes disease-causal gene identification and streamlines rare genetic disorder diagnosis.
+
+
+---
+
+
+
+[Free Agent in Agent-Based Mixture-of-Experts Generative AI Framework](https://arxiv.org/abs/2501.17903)
+
+- RLFA (Reinforcement Learning Free Agent) algorithm: introduces sports-inspired mechanism for replacing underperforming agents in multi-agent GenAI systems.
+- Draws inspiration from Major League Baseball free agency, uses mixture-of-experts approach, and improves performance and adaptability in multi-agent systems.
+- RLFA provides a straightforward route for continuous upgrades and maintains performance in critical tasks.
+
+
+---
+
+[Autonomous Legacy Web Application Upgrades Using a Multi-Agent System](http://arxiv.org/abs/2501.19204v1)
+
+- Multi-agent pipeline: LLM based multi-agent system autonomously upgrades legacy web applications to the latest version.
+- System distributes tasks across multiple phases; updates files to latest version; uses Zero-Shot and One-Shot Learning prompts; keeps context across tasks and agents.
+- Proposed system contributes as working foundation for future model implementations with existing code.
+
+
+---
 
 #### 30th January 2025
 
@@ -83,6 +189,31 @@ Chronological order.
 
 
 ---
+
+
+[Design and Validation of Learning Aware HMI For Learning-Enabled Increasingly Autonomous Systems](https://arxiv.org/abs/2501.18506)
+
+- LEIAS (Learning-Enabled Increasingly Autonomous Systems): is an architecture designed to enhance operational safety by emphasizing communication representation and pilot preference learning in autonomous systems.
+- - incorporates human-machine collaboration
+- uses Soar cognitive architecture with reinforcement learning
+- provides transparent multi-sensor data assessment (GPS, IMU, LIDAR)
+- adapts to pilot preferences
+- validated in XPlane simulation for sensor anomaly management
+- This framework is important for advancing the safety and reliability of learning-enabled autonomous systems in complex operational environments.
+
+
+---
+
+
+[Integrating LMM Planners and 3D Skill Policies for Generalizable Manipulation](http://arxiv.org/abs/2501.18733v1)
+
+- LMM-3DP: LMM-3DP is a framework integrating LMM planners and 3D skill policies for generalizable robotic manipulation.
+- Integrates LMM planners and 3D skill policies, uses high-level planning with visual feedback, includes critic agent for self-improvement, enables lifelong learning with skill library, utilizes semantic 3D feature field for low-level control.
+- LMM-3DP significantly enhances robot manipulation by improving success rate and planning accuracy in complex tasks.
+
+
+---
+
 
 #### 29th January 2025
 
