@@ -171,11 +171,14 @@ Chronological order.
 
 ---
 
-[REPOAUDIT: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160v1)
+[REPOAUDIT: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160)
 
-- REPOAUDIT: autonomous LLM (Large Language Model)-agent, facilitates precise and efficient repository-level code auditing via agent memory for on-demand repository exploration and data-flow analysis along feasible program paths within individual functions.
-- REPOAUDIT incorporates validator module to mitigate LLM hallucinations and false positives through verifying data-flow facts and examining satisfiability of path conditions of potential bugs.
-- Empirical evaluation on 15 real-world software systems demonstrates REPOAUDIT powered by Claude 3.5 Sonnet achieves high precision in identifying 38 true bugs, while maintaining average 0.44 hours and $2.54 financial cost per project.
+- REPOAUDIT: introduces autonomous LLM-agent, with initiator, explorer, validator, memory, for precise, efficient repository-level code auditing by demand-driven exploration.
+- It employs agent memory for on-demand repository exploration and validator for hallucination mitigation.
+- Validation design improves precision by checking data-flow facts and path condition satisfiability, discarding false positives.
+
+
+---
 
 
 
