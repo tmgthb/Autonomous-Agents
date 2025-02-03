@@ -215,6 +215,43 @@ Chronological order.
 ---
 
 
+[Invisible Traces: Using Hybrid Fingerprinting to identify underlying LLMs in GenAI Apps](http://arxiv.org/abs/2501.18712v1)
+
+- Hybrid Fingerprinting framework: Novel fingerprinting framework integrates static and dynamic techniques to identify underlying LLMs in GenAI Apps.
+- Addresses real-world challenges; Combines static and dynamic fingerprinting; Identifies architectural features and behavioral traits; Demonstrates semantic distinction in LLM outputs; Robust and accurate in complex environments.
+- Framework is important for ensuring security and transparency in AI applications by reliably identifying underlying LLMs.
+
+
+---
+
+[Can we Retrieve Everything All at Once? ARM: An Alignment-Oriented LLM-based Retrieval Method](http://arxiv.org/abs/2501.18539v1)
+
+- ARM (Alignment-Oriented LLM-based Retrieval Method) is a retrieval method that aligns question with data collection organization by exploring relationships among data objects.
+- It is retrieve-all-at-once solution for complex queries by better aligning question with data organization and exploring relationships among data objects beyond utterance matching for efficient and comprehensive retrieval.
+- The proposed method is important as it improves retrieval performance for complex questions by addressing limitations of existing RAG approaches.
+
+
+---
+
+[Leveraging LLM Agents for Automated Optimization Modeling for SASP Problems: A Graph-RAG based Approach](http://arxiv.org/abs/2501.18320v1)
+
+- MAG-RAG is automated modeling approach based on retrieval-augmented generation technique for SASP problems.
+- It uses multi-agent structure for AOM architecture, graph-based RAG for domain knowledge integration, human expert modeling principles and precise knowledge retrieval using graph structure.
+- MAG-RAG approach realizes the potential of LLM-assisted AOM for solving SASP problems.
+
+
+---
+
+[LLM-AutoDiff: Auto-Differentiate Any LLM Workflow](https://arxiv.org/abs/2501.16673)
+
+- LLM-AutoDiff is a novel framework for Automatic Prompt Engineering (APE) that extends textual gradient-based methods to multi-component, potentially cyclic LLM architectures.
+- Framework accommodates functional nodes, preserves time-sequential behavior, combats "lost-in-the-middle" problem, boosts training efficiency, and uses graph-centric lens.
+- LLM-AutoDiff offers a powerful new paradigm for scaling and automating LLM workflows.
+
+
+---
+
+
 #### 29th January 2025
 
 [Critique Fine-Tuning: Learning to Critique is More Effective than Learning to Imitate](https://arxiv.org/abs/2501.17703)
@@ -222,6 +259,15 @@ Chronological order.
 - Critique Fine-Tuning (CFT): is a framework where models learn to critique noisy responses rather than imitating correct ones.
 - CFT encourages deeper analysis and nuanced understanding, uses GPT-40 to generate critiques, and shows consistent improvement over SFT on math benchmarks.
 - This approach offers a more effective alternative to advance the reasoning of language models.
+
+---
+
+[Human-Aligned Skill Discovery: Balancing Behaviour Exploration and Alignment](https://arxiv.org/abs/2501.17431)
+
+- HaSD (Human-aligned Skill Discovery): is a framework designed to incorporate human feedback into unsupervised skill discovery to find safer and more aligned skills.
+- Addresses unconstrained skill discovery, finds useful skills in complex environments, optimizes skill diversity and human alignment, maintains alignment throughout discovery, and allows configurable skills with diversity-alignment trade-offs.
+- This framework is important as it enables the discovery of diverse, safe, and human-aligned skills for practical applications.
+
 
 ---
 
@@ -365,6 +411,16 @@ Chronological order.
 ---
 
 #### 27th of January 2025
+
+[GUI-Bee : Align GUI Action Grounding to Novel Environments via Autonomous Exploration](https://arxiv.org/abs/2501.13896)
+
+- GUI-Bee is MLLM-based autonomous agent to collect environment-specific data through exploration and fine-tune GUI grounding models for novel environments.
+- novel environments; autonomous exploration; Q-ICRL method; exploration efficiency; data quality; NovelScreenSpot benchmark; align GUI action grounding models.
+- Aligning GUI action grounding models to novel environments significantly enhances performance.
+
+
+---
+
 
 [Janus-Pro: Unified Multimodal Understanding and
 Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf)
