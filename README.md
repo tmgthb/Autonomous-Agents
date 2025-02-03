@@ -171,6 +171,13 @@ Chronological order.
 
 ---
 
+[REPOAUDIT: An Autonomous LLM-Agent for Repository-Level Code Auditing](https://arxiv.org/abs/2501.18160v1)
+
+- REPOAUDIT: autonomous LLM (Large Language Model)-agent, facilitates precise and efficient repository-level code auditing via agent memory for on-demand repository exploration and data-flow analysis along feasible program paths within individual functions.
+- REPOAUDIT incorporates validator module to mitigate LLM hallucinations and false positives through verifying data-flow facts and examining satisfiability of path conditions of potential bugs.
+- Empirical evaluation on 15 real-world software systems demonstrates REPOAUDIT powered by Claude 3.5 Sonnet achieves high precision in identifying 38 true bugs, while maintaining average 0.44 hours and $2.54 financial cost per project.
+
+
 
 [Leveraging LLM Agents for Automated Optimization Modeling for SASP Problems: A Graph-RAG based Approach](http://arxiv.org/abs/2501.18320v1)
 
@@ -698,6 +705,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 23rd of January 2025
 
+
+[BEYOND THE SUM: UNLOCKING AI AGENTS POTENTIAL THROUGH MARKET FORCES](https://arxiv.org/abs/2501.10388)
+
+- AI Agent Market Infrastructure Framework presents systematic analysis of infrastructure requirements for AI agents to function as autonomous participants in digital markets.
+- Framework identifies key areas like identity, service discovery, interfaces and payment systems and highlights existing infrastructure challenges impeding agent participation, suggesting new economic organization forms.
+- This framework is important as it addresses infrastructure challenges as fundamental step toward enabling new forms of economic organization.
+
+
+---
+
 [ElCopilot: Search and Explore Enterprise Information over Large-scale Knowledge Graphs with LLM-driven Agents](http://arxiv.org/abs/2501.13746v1)
 
 - EICopilot: is a novel agent-based solution enhancing search and exploration of enterprise registration data within extensive online knowledge graphs.
@@ -857,6 +874,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 18th of January 2025
 
+[Learn-by-interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](https://arxiv.org/abs/2501.10893)
+
+- LEARN-BY-INTERACT: is a data-centric framework to adapt LLM agents to any given environments without human annotations.
+- Framework synthesizes agent-environment interaction trajectories, uses backward construction for instructions, and leverages synthetic data for training and in-context learning with optimized retrieval.
+- Framework serves as a foundation for agent data synthesis for LLMs in real-world environments.
+
+
+--
+
 [BAP v2: An Enhanced Task Framework for Instruction Following in Minecraft Dialogues](http://arxiv.org/abs/2501.10836v1)
 
 - BAP v2 (Builder Action Prediction v2): is an upgraded task framework for instruction following in Minecraft dialogues.
@@ -976,6 +1002,15 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 16th of January 2025
 
+[Authenticated Delegation and Authorized AI Agents](https://arxiv.org/abs/2501.09674)
+
+- Authenticated Delegation Framework: novel framework enables authenticated, authorized, and auditable delegation of authority to AI agents.
+- Secure delegation; restrict permissions and scope; accountability; extends OAuth 2.0 and OpenID Connect; natural language to auditable access control.
+- Framework facilitates immediate AI agent deployment while ensuring security and accountability.
+
+
+---
+
 [Inference-Time Scaling for Diffusion Models beyond Scaling Denoising Steps](https://arxiv.org/abs/2501.09732)
 
 - Inference-time scaling framework: explores the inference-time scaling behavior of diffusion models beyond increasing denoising steps.
@@ -1038,6 +1073,25 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 #### 15th of January 2025
+
+
+[The geometry of moral decision making](https://arxiv.org/abs/2501.08865)
+
+- Geometry of Moral Decision Making Framework: Understands bounded rationality as interplay of deontology and utilitarianism.
+- Deontology as regularisation function in optimal control; Inverse temperature shields from expected utility; Information geometry of bounded rationality and rate distortion theory; Markov kernels and regular conditional probability; Gradient equation determines utility expansion path.
+- Framework is relevant to theory of autonomous agents and analysis of legal doctrine.
+
+
+---
+
+[Networked Agents in the Dark: Team Value Learning under Partial Observability](https://arxiv.org/abs/2501.08778)
+
+- DNA-MARL (Double Networked Averaging MARL) is distributed method for networked agents that introduces consensus mechanism for local communication and gradient descent for local computation in partially observable Markov games.
+- Framework addresses cooperative multi-agent reinforcement learning in networked dynamic partially observable Markov game (ND-POMG) using decentralized training and decentralized execution (DTDE), and achieves team value function learning under partial observability via consensus mechanism for cooperative value function learning with actor-critic algorithm.
+- DNA-MARL enhances the potential of networked agents for real-world applications requiring privacy and robustness to message loss.
+
+
+---
 
 [Between Puppet and Actor: Reframing Authorship in this Age of AI Agents](http://arxiv.org/abs/2501.15346v1)
 
