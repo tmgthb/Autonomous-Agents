@@ -1130,6 +1130,17 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 #### 14th of January 2025
 
+#### 14th January 2025
+
+[Governing AI Agents](https://arxiv.org/abs/2501.07913)
+
+- Governance strategy: Governance strategy centered around inclusivity, visibility, and liability is proposed for designing and regulating AI agents.
+- agency law and theory; principal-agent problems; information asymmetry, authority, loyalty, delegation; limitations of conventional solutions; new technical and legal infrastructure; governance principles.
+- New technical and legal infrastructure is needed to support governance principles for reliable, safe, and ethical AI agents.
+
+
+---
+
 [Flow: A Modular Approach to Automated Agentic Workflow Generation](http://arxiv.org/abs/2501.07834v1)
 
 - Flow: is a multi-agent framework that dynamically adjusts workflows using activity-on-vertex graphs.
