@@ -263,6 +263,25 @@ Chronological order.
 
 #### 31st January 2025
 
+[LLM-based Affective Text Generation Quality Based on Different Quantization Values](http://arxiv.org/abs/2501.19317v1)
+
+- LLM (Large Language Model): introduces quantization, LLMs, emotion classifier, seed prompts, emotion-prompt, text generation module, GPU RAM, inference time, and memory to investigate the trade-off between quantization values and affective text generation quality.
+- This paper evaluates the impact of different quantization levels (8, 16, 32 bits) on the performance of various LLMs (Llama-2, Mistral, Mixtral) in generating affective text, considering GPU RAM usage and inference time.
+- The research highlights that while quantization reduces memory consumption, it can affect text quality and inference time, revealing a trade-off between efficiency and efficacy in LLM-based affective text generation.
+
+
+---
+
+
+[Beyond checkmate: exploring the creative chokepoints in AI text](http://arxiv.org/abs/2501.19301v1)
+
+- Chess-Text Analogy Framework: introduces a method to explore human and AI text differences by analogy to chess game segments (opening, mid game, end game) and text segments (introduction, body, conclusion), utilizing source and segment comparisons, statistical tests, feature extraction, and various datasets and LLMs.
+- This framework examines creative limitations in AI text generation by analyzing stylometric and psycholinguistic features across text segments, finding body segment crucial for AI detection and greater human cross-segment variation.
+- Research emphasizes text segments in AI detection, suggesting body segment focus and cross-segment feature variations improve detection and provide insights into LLMs' creative abilities.
+
+
+---
+
 
 [PixelWorld: Towards Perceiving Everything as Pixels](http://arxiv.org/abs/2501.19339v1)
 
