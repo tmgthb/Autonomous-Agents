@@ -312,6 +312,14 @@ Chronological order.
 
 ---
 
+[True Online TD-Replan(\xce\xbb) Achieving Planning through Replaying](http://arxiv.org/abs/2501.19027v1)
+
+- TD-Replan(\xce\xbb) (True Online TD-Replan(\xce\xbb)): introduces a novel reinforcement learning method extending True Online TD by incorporating experience replay and a parameter to control replay density and target depth.
+- TD-Replan(\xce\xbb) utilizes interim \xce\xbb-return targets and online updates for efficient learning, demonstrating improved performance in tasks benefiting from experience replay.
+- The method achieves balance between planning and acting by replaying past experiences and adjusting replay density, making it suitable for complex environments and deep learning integration.
+
+
+---
 [Swarm-Gen: Fast Generation of Diverse Feasible Swarm Behaviors](http://arxiv.org/abs/2501.19042v1)
 
 - Swarm-Gen: introduces a framework with Generative Model (CVAE/VQ-VAE), Safety-Filter (SF), and Initialization Network, with Encoder, Decoder, QP Block, PixelCNN, MLP, and Fixed-Point Solver components, for fast generation of diverse feasible swarm behaviors.
