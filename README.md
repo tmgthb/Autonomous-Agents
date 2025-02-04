@@ -274,6 +274,25 @@ Chronological order.
 #### 31st January 2025
 
 
+[A parallelizable variant of HCA*](http://arxiv.org/abs/2501.19218v1)
+
+- HCA* (Hierarchical Cooperative A* algorithm): introduces parallelizable variant for multi-agent path finding, with Agent (computes paths and intersections), Central Server (manages coordination and conflict resolution), Reservation Table (stores fixed agent paths), Intersection Graph (represents path collisions), and Map Partition (divides map for parallel processing).
+- This variant parallelizes path finding and intersection graph construction to reduce computation time.
+- Parallelism is achieved by map partitioning and independent agent path calculations, improving performance over standard HCA*.
+
+
+---
+
+[Multi-agent Multi-armed Bandit with Fully Heavy-tailed Dynamics](http://arxiv.org/abs/2501.19239v1)
+
+- HT-HMUCB (Heavy-Tailed HoMogeneous Upper Confidence Bounds): introduces decentralized multi-agent multi-armed bandit framework with hub identification, arm selection using UCB, transmission, information update, local and global estimation components for homogeneous rewards in heavy-tailed dynamic environments.
+- HT-HMUCB framework addresses sparse random graphs and heavy-tailed rewards by exploiting hub structures for variance reduction and robust estimation using median-of-means estimator.
+- The framework achieves improved regret bounds compared to existing methods by enabling efficient communication and information aggregation in challenging heavy-tailed scenarios.
+
+
+---
+
+
 [Neuro-LIFT: A Neuromorphic, LLM-based Interactive Framework for Autonomous Drone Flight at the Edge](http://arxiv.org/abs/2501.19259v1)
 
 - Neuro-LIFT (Neuromorphic, LLM-based Interactive Framework for Autonomous Drone Flight at the Edge): introduces modular framework integrating Human Interaction Module, Neuromorphic Sensing Module, LLM, and Planning and Control Module for autonomous drone navigation based on human commands.
@@ -291,6 +310,13 @@ Chronological order.
 
 
 ---
+
+[An Empirical Game-Theoretic Analysis of Autonomous Cyber-Defence Agents](http://arxiv.org/abs/2501.19206v1)
+
+- MRO (Multiple Response Oracles): introduces a framework for holistic evaluation of ACD approaches, with INITIALPOLICIES(), Set initial mixtures, RBlue, RRed, GBlue, GRed, AUGMENTGAME, and SOLVEGAME components.
+- MRO framework extends the Double Oracle algorithm by incorporating multiple response oracles to enhance the assessment of Autonomous Cyber-Defence approaches.
+- MRO algorithm utilizes response functions and game-theoretic analysis to iteratively refine and evaluate policies for cyber-defence and cyber-attack agents.
+
 
 
 [Beyond checkmate: exploring the creative chokepoints in AI text](http://arxiv.org/abs/2501.19301v1)
