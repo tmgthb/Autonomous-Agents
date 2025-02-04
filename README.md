@@ -45,6 +45,15 @@ Chronological order.
 
 #### 3rd February 2025
 
+[Improving Transformer World Models for Data-Efficient RL](https://arxiv.org/abs/2502.01591)
+
+- Improved TWM for Data-Efficient RL: introduces MBRL framework with MFRL Baseline, MBRL Baseline, Dyna with Warmup, Nearest Neighbor Tokenizer, and Block Teacher Forcing for enhanced data efficiency in reinforcement learning.
+- The framework combines model-free and model-based RL with novel tokenization and training techniques to achieve state-of-the-art performance in the Craftax-classic environment.
+- Key improvements include Dyna with Warmup for hybrid real-imaginary training, Nearest Neighbor Tokenizer for efficient image encoding, and Block Teacher Forcing for improved TWM training and rollout accuracy.
+
+
+---
+
 [TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues](https://arxiv.org/abs/2502.01630)
 
 - TReMu (Temporal Reasoning for LLM-Agents in Multi-Session Dialogues): introduces a framework with Time-aware Memorization Model (summarizes dialogue sessions with dates), Memory Retrieval Model (retrieves relevant memory for question), Neuro-symbolic Reasoning Model (generates Python code for reasoning), and Python Executor (executes generated Python code) to enhance temporal reasoning in multi-session dialogues.
@@ -807,8 +816,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+#### 24th January 2025
 
-#### 24th of January 2025
+[RL + Transformer = A General-Purpose Problem Solver](https://arxiv.org/abs/2501.14176)
+
+- ICRL (In-Context Reinforcement Learning): introduces LLaMA 3.1 8B Instruct (Pre-trained Transformer), IA3 Adapter (Efficient Fine-tuning), DQN (RL Algorithm), Input Sequence (History of Interactions), and Output Q-value (Action-value Function) to demonstrate a meta-learning approach for solving unseen problems through reinforcement learning.
+- ICRL leverages a pre-trained transformer fine-tuned with reinforcement learning to achieve in-context learning, enabling generalization to new environments and tasks without additional training.
+- The framework exhibits robustness to low-quality training data and adaptability to non-stationary environments, highlighting its potential as a general-purpose problem solver.
+
+
+---
 
 [Self-reflecting Large Language Models: A Hegelian Dialectical Approach](http://arxiv.org/abs/2501.14917v1)
 
