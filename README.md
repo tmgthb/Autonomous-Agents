@@ -312,6 +312,15 @@ Chronological order.
 
 ---
 
+[Swarm-Gen: Fast Generation of Diverse Feasible Swarm Behaviors](http://arxiv.org/abs/2501.19042v1)
+
+- Swarm-Gen: introduces a framework with Generative Model (CVAE/VQ-VAE), Safety-Filter (SF), and Initialization Network, with Encoder, Decoder, QP Block, PixelCNN, MLP, and Fixed-Point Solver components, for fast generation of diverse feasible swarm behaviors.
+- This framework uses generative models to sample diverse trajectories, projects them onto a feasible set using a safety filter, and accelerates the safety filter convergence with a learned initialization network.
+- The approach demonstrates real-time generation of multi-modal swarm trajectories on commodity GPUs, offering a balance between trajectory diversity and computational efficiency using CVAE and VQ-VAE generative models.
+
+
+---
+
 [LLM-based Affective Text Generation Quality Based on Different Quantization Values](http://arxiv.org/abs/2501.19317v1)
 
 - LLM (Large Language Model): introduces quantization, LLMs, emotion classifier, seed prompts, emotion-prompt, text generation module, GPU RAM, inference time, and memory to investigate the trade-off between quantization values and affective text generation quality.
