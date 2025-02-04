@@ -263,6 +263,15 @@ Chronological order.
 
 #### 31st January 2025
 
+[Vintix: Action Model via In-Context Reinforcement Learning](http://arxiv.org/abs/2501.19400v1)
+
+- Vintix: introduces a fixed cross-domain model for in-context reinforcement learning using Noise Distillation, Cross-Domain Dataset, Causal Transformer, and Algorithm Distillation components.
+- Vintix framework employs Algorithm Distillation to construct versatile action models by learning behaviors through in-context reinforcement learning.
+- The framework demonstrates self-correction capabilities and scaling potential of In-Context Reinforcement Learning for generalist decision-making systems across multiple domains.
+
+
+---
+
 
 [MINDSTORES: Memory-Informed Neural Decision Synthesis for Task-Oriented Reinforcement in Embodied Systems](http://arxiv.org/abs/2501.19318v1)
 
