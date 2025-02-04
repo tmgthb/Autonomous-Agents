@@ -90,6 +90,16 @@ Chronological order.
 
 ---
 
+
+[THE IN-CONTEXT INDUCTIVE BIASES OF VISION-LANGUAGE MODELS DIFFER ACROSS MODALITIES](https://arxiv.org/abs/2502.01530)
+
+- Framework name here: introduces vision-language models, with vision input (processing visual information) and text input (processing textual information), to study generalization process (inferring category from examples) across modalities.
+- It highlights that inductive biases in vision-language models differ significantly based on whether input is visual or textual, affecting generalization.
+- Furthermore, the study reveals that in textual input, the order of feature descriptors influences the model's generalization, indicating sensitivity to linguistic structure.
+
+
+---
+
 [SHARPIE: A Modular Framework for Reinforcement Learning and Human-AI Interaction Experiments](http://arxiv.org/abs/2501.19245v2)
 
 - SHARPIE (Shared Human-AI Reinforcement Learning Platform for Interactive Experiments): introduces a modular framework for human-AI interaction experiments, featuring versatile wrapper for RL components, participant web interface, experiment configuration, logging, deployment utilities, and multi-modal communication channels.
