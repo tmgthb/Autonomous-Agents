@@ -43,6 +43,206 @@ Chronological order.
 
 </div>
 
+#### 3rd February 2025
+
+[TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues](https://arxiv.org/abs/2502.01630)
+
+- TReMu (Temporal Reasoning for LLM-Agents in Multi-Session Dialogues): introduces a framework with Time-aware Memorization Model (summarizes dialogue sessions with dates), Memory Retrieval Model (retrieves relevant memory for question), Neuro-symbolic Reasoning Model (generates Python code for reasoning), and Python Executor (executes generated Python code) to enhance temporal reasoning in multi-session dialogues.
+- It employs timeline summarization for memory and neuro-symbolic reasoning using LLMs to generate and execute Python code for temporal calculations.
+- This approach improves temporal reasoning performance by leveraging Python's libraries for temporal calculations and step-by-step code execution.
+
+
+---
+
+[Reinforcement Learning for Long-Horizon Interactive LLM Agents](https://arxiv.org/abs/2502.01600)
+
+- LOOP: introduces reinforcement learning framework for training interactive digital agents, utilizing hidden state, task context, agent output, and environment output for long-horizon tasks.
+- This framework uses partially observable Markov decision process to formalize agent-environment interactions via read-eval-print loop.
+- LOOP framework enhances sample efficiency and memory efficiency by reusing off-policy samples and maintaining single LLM copy.
+
+
+---
+
+[Memento No More: Coaching AI Agents to Master Multiple Tasks via Hints Internalization](https://arxiv.org/abs/2502.01562)
+
+- MNM (Memento No More): introduces an iterative coaching process with Initial Agent, Human Analyst, Hints, Teacher Agent, Training Data, Student Agent, and Task Trajectories, where human feedback guides an AI agent to master multiple tasks.
+- The framework refines agent behavior through iterative rounds of mistake analysis and hint internalization, improving task execution without extensive prompts.
+- MNM leverages context distillation to transfer hint knowledge into agent weights, enhancing generalization and reducing reliance on prompt-based guidance.
+
+
+---
+
+[TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets](https://github.com/TobyYang7/TwinMarket)
+
+- TwinMarket: introduces a multi-agent framework designed for simulating socio-economic systems, incorporating User Profile, Belief, Desire, Intention, World Knowledge, Action Space, Market Environment, Social Environment, Order-Driven Trading System, Matching Engine, Data Sources, and Validation Metrics components.
+- TwinMarket framework simulates investor behavior within a stock market environment by utilizing Belief-Desire-Intention framework integrated with a simulated social media platform and real-world market data.
+- TwinMarket framework facilitates the investigation of emergent market phenomena, such as financial bubbles and volatility clustering, through scalable simulations of individual decision-making and social interactions.
+
+
+---
+
+[Simulating Rumor Spreading in Social Networks using LLM Agents](https://arxiv.org/abs/2502.01450)
+
+- LLM-based multi-agent network framework: introduces a simulation framework with LLM-based Agent, Post History, Rumor Belief, and Social Network to examine rumor propagation dynamics.
+- The framework employs LLM-based Agent to simulate user behavior, utilizing Post History for context and Rumor Belief for opinion tracking within a Social Network.
+- This framework assesses how different Social Network structures and agent behaviors impact Rumor Belief and overall rumor dissemination.
+
+
+---
+
+[Evolving Symbolic 3D Visual Grounder with Weakly Supervised Reflection](https://arxiv.org/abs/2502.01401)
+
+- EASE (Evolvable Symbolic Visual Grounder): introduces a training-free symbolic framework for 3D visual grounding, integrating Agents, executor, Visprog., Ours, test suite, relation encoder, object locations, scene scans, relation functions, and feedback components.
+- EASE framework employs offline LLM generation and optimization within its Ours and test suite components to enhance relation encoders, contrasting with online Agents and visual programming Visprog. methods.
+- The framework leverages relation encoders and feedback mechanisms to achieve a balance between grounding accuracy and inference efficiency, differing from Agents' online processing and Visprog.'s reliance on annotated relation functions.
+
+
+---
+
+[Plan-Then-Execute: An Empirical Study of User Trust and Team Performance When Using LLM Agents As A Daily Assistant](https://arxiv.org/abs/2502.01390)
+
+- Plan-then-execute LLM Agents: introduces a framework with LLM Planning, Plan Edit, Planning Outcome, Action Prediction, Action Execution, User-Involved Execution, Manual Specify Action or Feedback, Involve vs Approve, Approve, Involve, Execution Outcome, Successful Login, and Successful Transaction to study user trust and team performance in human-AI collaboration.
+- This framework uses plan-then-execute workflow where LLM agents first generate a plan, then users can edit it, and finally the agent executes the plan step-by-step with potential user involvement at each action.
+- The architecture allows for empirical investigation of how different levels of user involvement during planning and execution affect user trust and task outcomes when using LLM agents as daily assistants.
+
+
+---
+
+[TeLL-Drive: Enhancing Autonomous Driving with Teacher LLM-Guided Deep Reinforcement Learning](https://arxiv.org/abs/2502.01387)
+
+- TeLL-Drive (Teacher LLM-Guided Deep Reinforcement Learning): introduces a framework integrating LLM-Teacher with Decision Engine, Memory Repository, and Reflective Evaluator, and RL-Student with Actor, Critic, Add & Norm Attention, Multi-Head Attention, Data Distillation, and Mixed Policy for enhanced autonomous driving decision-making.
+- TeLL-Drive leverages LLM-Teacher's guidance through Decision Engine, Memory Repository, and Reflective Evaluator to improve RL-Student's Actor-Critic learning and policy via attention mechanisms and data distillation for efficient and robust autonomous driving.
+- The framework's architecture with LLM-Teacher and RL-Student components facilitates knowledge transfer and policy refinement, leading to improved adaptability and safety in autonomous driving across diverse scenarios.
+
+
+---
+
+[PSSD: Making Large Language Models Self-denial via Human Psyche Structure](https://arxiv.org/abs/2502.01344)
+
+- PSSD (Psyche Structure for Self-Denial): introduces a novel paradigm for Large Language Models self-denial, comprising Intuition-based Id Role, Rule-driven Superego Role, and Script-centric Ego Role, to enhance reasoning accuracy.
+- PSSD framework leverages multi-agent approach inspired by human psyche structure, utilizing three distinct roles for initial attempts, rule-based guidance, and procedural execution.
+- PSSD aims to address limitations of current mistake correction methods by facilitating agents' self-denial within LLMs, leading to improved reasoning and resource efficiency.
+
+
+---
+
+[Human-Agent Interaction in Synthetic Social Networks: A Framework for Studying Online Polarization](https://arxiv.org/abs/2502.01340)
+
+- Introduces agent-based architecture (individuals with attributes and interactions), LLM infrastructure (enables content generation and analysis), social network structure (governs information dissemination dynamically), agent model (represents individual user with attributes), opinion value (numerical stance on topic), personality description (agent's character traits), short biography (agent's background information), unique username (agent's identifier), interaction history (agent's past engagements), message generation (agent's content creation process), interaction mechanisms (agent's reaction to messages), opinion-based interaction function (evaluates opinion alignment), opinion strength factor (reflects opinion intensity), opinion assessment function (interprets message opinion), opinion update process (agent's opinion change mechanism), social network model (directed graph of agent connections), network structure (set of agents and follow relationships), connection dynamics (network evolution over time), information propagation (message visibility and exposure), recommendation system (determines message presentation), and influence-based scoring system (evaluates message author influence) for studying online polarization in synthetic social networks.
+- Framework combines mathematical opinion dynamics with large language models to simulate human-agent interaction in synthetic social networks for controlled experimentation of online polarization.
+- Framework enables investigation of polarization mechanisms, bridging gap between theoretical models and empirical observations, offering opportunities to study causal mechanisms underlying online opinion dynamics.
+
+
+---
+
+[ChartCitor: Answer Citations for ChartQA via Multi-Agent LLM Retrieval](https://arxiv.org/abs/2502.00989)
+
+- ChartCitor: introduces multi-agent framework with Table Extraction Agent, Answer Reformulation Agent, Entity Captioning Agent, LLM Prefiltering Agent, LLM Re-ranking Agent, and Cell Localization Agent for fine-grained chart answer citations.
+- ChartCitor framework orchestrates specialized LLM agents to extract tables, reformulate answers, generate captions, retrieve evidence, and localize cited cells in chart images.
+- This system enhances explainability and user trust in LLM-assisted chart question answering by providing reliable and logically-explained citations sourced from charts.
+
+
+---
+
+[PlotGen: Multi-Agent LLM-based Scientific Data Visualization via Multimodal Feedback](https://arxiv.org/abs/2502.00988)
+
+- PlotGen: introduces a multi-agent framework for scientific data visualization, with Query Planning Agent, Code Generation Agent, Numeric Feedback Agent, Lexical Feedback Agent, Visual Feedback Agent, and Self-Reflection, that leverages multimodal LLMs to iteratively refine visualizations based on user specifications.
+- PlotGen framework orchestrates agents for query decomposition, code generation, and multimodal feedback to ensure data accuracy, textual correctness, and visual alignment in generated plots.
+- The framework utilizes self-reflection within code generation and feedback agents to iteratively improve plot quality and address errors, enhancing user trust and productivity in data visualization tasks.
+
+
+---
+
+
+
+#### 2nd February 2025
+
+[Efficient Multi-Agent System Training with Data Influence-Oriented Tree Search](https://arxiv.org/abs/2502.00955)
+
+- DITS (Data Influence-oriented Tree Search): introduces a novel framework for efficient multi-agent system training with data influence-oriented tree search, incorporating Multi Agent Network, MCTS Data Synthesis, Influence Score Estimation, Data Selection, and Iterative Data Synthesis.
+- DITS leverages influence scores to guide tree search and data selection, effectively identifying impactful data for system improvement and enhancing model performance.
+- DITS derives influence score estimation methods for non-differentiable metrics, reducing computational overhead and enabling efficient synthesis time scaling.
+
+
+
+---
+
+[RTBAgent: A LLM-based Agent System for Real-Time Bidding](https://arxiv.org/abs/2502.00792)
+
+- RTBAgent (LLM-based Agent System for Real-Time Bidding): introduces an agent framework for real-time bidding, utilizing Tools (CTR prediction and bidding strategies), Summarized Memory (aggregated information for decision), Reflection Memory (self-assessment of past decisions), Bidding Memory (record of bidding history), Environment Memory (historical market conditions), Two-Step Decision-Making (sequential decision process), Insight Reasoning (analyze decision ranges and risks), Action Making (determine bidding action and reason), and Action Space (range of possible bidding adjustments).
+- RTBAgent employs a two-step decision-making process with Insight Reasoning (analyze decision ranges and risks) and Action Making (determine bidding action and reason) to determine optimal bidding prices, leveraging multi-memory retrieval and expert knowledge.
+- The framework's multi-memory system, including Reflection Memory (self-assessment of past decisions), Bidding Memory (record of bidding history), and Environment Memory (historical market conditions), enables adaptive bidding strategies by reviewing historical data and market changes.
+
+
+---
+
+[AgentBreeder: Mitigating the AI Safety Impact of Multi-Agent Scaffolds](https://arxiv.org/abs/2502.00757)
+
+- AGENTBREEDER: introduces evolutionary framework, with Seed Scaffolds, Population, Capability benchmark, Safety benchmark, Embedding function, Clustering function, Pareto Fronts, Elites, Meta Agent, Crossover, Mutation, and New Scaffolds, for multi-objective search over multi-agent system scaffolds.
+- AGENTBREEDER framework evaluates scaffolds using capability and safety benchmarks, clusters architectures, identifies Pareto optimal elites, and evolves new generations via meta-agent-driven crossover and mutation.
+- AGENTBREEDER framework facilitates exploration of diverse multi-agent scaffolds, balancing capability and safety objectives through evolutionary optimization and quality-diversity search algorithm.
+
+
+---
+
+[Meta-Prompt Optimization for LLM-Based Sequential Decision Making](https://arxiv.org/abs/2502.00728)
+
+- EXPO (EXPonential-weight algorithm for prompt Optimization): introduces an automated meta-prompt optimization framework for LLM-based agents, with components including LLM Agent (selects action based prompt), Evaluator (measures action performance), Embedding Model (converts text to numbers), Score Estimation NN (predicts meta-prompt scores), Randomized Meta-Prompt Selection (chooses meta-prompt based scores), and Exemplar Set (history of input-score pairs).
+- EXPO framework uses adversarial bandit algorithm principles to address non-stationarity in reward observations during sequential decision-making for optimizing task description and meta-instruction within the meta-prompt.
+- The framework leverages a neural network for score estimation and exponential-weight mechanism for meta-prompt selection, achieving a balance between exploitation and exploration in meta-prompt optimization.
+
+
+---
+
+[PhiP-G: Physics-Guided Text-to-3D Compositional Scene Generation](https://arxiv.org/abs/2502.00708)
+
+- PhiP-G (Physics-Guided Text-to-3D Compositional Scene Generation): introduces a framework for compositional scene generation, with AG-extractor (scene graph extraction from text), Scene graph (structured scene representation), AG-generater (2D image generation agent), 3D Gaussian model (3D asset generation model), Asset retrieval (2D asset library access), 2D asset retrieval library (storage for 2D assets), AG-supervisor (visual layout supervision agent), Physical pool (physics-based initial layout), Blender (3D scene environment), and World model (layout prediction and planning).
+- PhiP-G integrates LLM-based agents and world model for layout guidance with 3D Gaussian Splatting for efficient and physically consistent 3D scene generation.
+- The framework leverages a physical pool and visual supervision for iterative layout refinement, achieving state-of-the-art performance and improved efficiency.
+
+
+---
+
+[Leveraging LLMs for Dynamic IoT Systems Generation through Mixed-Initiative Interaction](https://arxiv.org/abs/2502.00689)
+
+- IoT-Together (Mixed-Initiative Interaction Paradigm): introduces a system architecture with User Interface (interaction medium), Goal Management (goal identification), Knowledge Management (data repository), Context Management (service hosting), Backend Generation (service generation), Intelligent User Interface Generation (application building), Interoperability platform (data pipeline), IOT DEVICES (sensor network), and Services (concrete functionalities) to enable dynamic IoT system generation through mixed-initiative interaction.
+- IoT-Together paradigm facilitates user-system collaboration by leveraging LLMs within Goal Management and Backend Generation for interpreting user queries and generating runtime services based on available IoT data and service definitions.
+- The architecture supports dynamic evolvability by generating and integrating new services at runtime, enhancing system adaptability and real-world usability in dynamic IoT environments like smart cities.
+
+
+---
+
+[Rethinking Mixture-of-Agents: Is Mixing Different Large Language Models Beneficial?](https://arxiv.org/abs/2502.00674)
+
+- Self-MoA (Self-Mixture-of-Agents): introduces Self-MoA, an ensemble method, with Proposer (Generates multiple responses) and Aggregator (Synthesizes responses into output), that aggregates outputs from a single top-performing Large Language Model.
+- Self-MoA leverages in-model diversity by repeatedly sampling from the same model, achieving superior performance compared to Mixed-MoA in various benchmarks.
+- Self-MoA-Seq, a sequential version, addresses context length limitations by using a sliding window for aggregation, maintaining effectiveness while enabling scalability.
+
+
+---
+
+#### 1st February 2025
+
+[WHO'S THE MVP? A GAME-THEORETIC EVALUATION BENCHMARK FOR MODULAR ATTRIBUTION IN LLM AGENTS](https://arxiv.org/abs/2502.00510)
+
+- CapaBench (Capability-level Assessment Benchmark): introduces evaluation framework for modular LLM agents with Planning Module (decomposes instructions), Reasoning Module (performs logical inference), Action Module (translates to operations), and Reflection Module (systematic performance analysis).
+- CapaBench systematically quantifies module contributions using Shapley Value from game theory for performance attribution.
+- Framework facilitates component-level evaluation and holistic system assessment for optimizing modular LLM agents.
+
+
+---
+
+[MarketSenseAI 2.0: Enhancing Stock Analysis through LLM Agents](https://arxiv.org/abs/2502.00415)
+
+- MarketSenseAI: introduces a framework leveraging LLM agents including News, Fundamentals, Dynamics, Macroeconomic, and Signal Agents for holistic stock analysis.
+- MarketSenseAI framework processes diverse financial data like news, prices, fundamentals, and macroeconomics to support stock analysis and selection decisions.
+- The framework utilizes Retrieval-Augmented Generation and Chain-of-Agents architecture to enhance fundamental and macroeconomic analysis accuracy.
+
+
+---
+
+
+
 #### 31st January 2025
 
 
