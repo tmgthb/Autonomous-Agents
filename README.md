@@ -54,6 +54,15 @@ Chronological order.
 
 ---
 
+[PROCESS REINFORCEMENT THROUGH IMPLICIT REWARDS](https://arxiv.org/abs/2502.01456)
+
+- PRIME (Process Reinforcement through IMplicit rEwards): introduces scalable online reinforcement learning framework with dense token-level rewards with Policy Model, Implicit PRM, SFT Model, Outcome Verifier, and Reference Model.
+- PRIME framework updates Implicit PRM online using policy rollouts and outcome labels, removing dedicated reward model training phase.
+- PRIME utilizes Implicit PRM for token-level rewards generation, mitigating reward hacking and enhancing sample efficiency in reinforcement learning for LLMs.
+
+
+---
+
 [TReMu: Towards Neuro-Symbolic Temporal Reasoning for LLM-Agents with Memory in Multi-Session Dialogues](https://arxiv.org/abs/2502.01630)
 
 - TReMu (Temporal Reasoning for LLM-Agents in Multi-Session Dialogues): introduces a framework with Time-aware Memorization Model (summarizes dialogue sessions with dates), Memory Retrieval Model (retrieves relevant memory for question), Neuro-symbolic Reasoning Model (generates Python code for reasoning), and Python Executor (executes generated Python code) to enhance temporal reasoning in multi-session dialogues.
