@@ -338,6 +338,23 @@ Chronological order.
 
 ---
 
+
+[Enabling Autonomic Microservice Management through Self-Learning Agents](http://arxiv.org/abs/2501.19056v1)
+
+- SERVICEODYSSEY: introduces a self-learning agent system for autonomic microservice management, leveraging Curriculum Builder for task generation, Execution Planner for plan creation, Knowledge Curator for skill consolidation, Data Layer for data storage, and Management Layer for module orchestration within the Operational Environment.
+- SERVICEODYSSEY framework incorporates High-level Manager to decompose tasks and coordinate Low-level Agents, utilizing Running State and Interaction History for context, Task Queue and Execution Queue for task management, and Feedback and Skill Library for learning and improvement.
+- The system refines solutions through Environment Feedback, Peer Feedback, and Hierarchical Feedback, demonstrating its effectiveness in the Sock Shop Microservice environment for autonomic management of microservices.
+
+
+
+[Secured Communication Schemes for UAVs in 5G: CRYSTALS-Kyber and IDS](http://arxiv.org/abs/2501.19191v1)
+
+- CRYSTALS-Kyber and IDS Framework: introduces secure UAV communication architecture, integrating UAV Layer, Raspberry Pi, AES Encryption-Decryption, KEM, ECC, CRYSTALS-Kyber, Communication Layer, Ground Station Layer, Server, File Storage, IDS Dataset, KEM Dataset, AI Techniques, and IDS Module.
+- This architecture employs hybrid cryptography using AES with ECC and CRYSTALS-Kyber for quantum resistance, alongside AI-driven IDS for intrusion detection in 5G UAV networks.
+- Evaluated in VPN and 5G, the framework demonstrates effective security and performance balance, suitable for resource-limited UAVs facing quantum threats.
+
+
+---
 [Vintix: Action Model via In-Context Reinforcement Learning](http://arxiv.org/abs/2501.19400v1)
 
 - Vintix: introduces a fixed cross-domain model for in-context reinforcement learning using Noise Distillation, Cross-Domain Dataset, Causal Transformer, and Algorithm Distillation components.
