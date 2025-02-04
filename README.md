@@ -263,6 +263,16 @@ Chronological order.
 
 #### 31st January 2025
 
+
+[PixelWorld: Towards Perceiving Everything as Pixels](http://arxiv.org/abs/2501.19339v1)
+
+- PEAP (Perceive Everything as Pixels): introduces Language Model, ViT, and Text Instruction components for unified multimodal input processing.
+- PEAP framework processes all modalities as pixels, contrasting with token-based methods and enhancing multimodal task performance.
+- The framework evaluation suite, PIXELWORLD, demonstrates PEAP's effectiveness and identifies areas for improvement in complex reasoning tasks.
+
+
+---
+
 [Vintix: Action Model via In-Context Reinforcement Learning](http://arxiv.org/abs/2501.19400v1)
 
 - Vintix: introduces a fixed cross-domain model for in-context reinforcement learning using Noise Distillation, Cross-Domain Dataset, Causal Transformer, and Algorithm Distillation components.
