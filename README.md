@@ -90,6 +90,16 @@ Chronological order.
 
 ---
 
+[SHARPIE: A Modular Framework for Reinforcement Learning and Human-AI Interaction Experiments](http://arxiv.org/abs/2501.19245v2)
+
+- SHARPIE (Shared Human-AI Reinforcement Learning Platform for Interactive Experiments): introduces a modular framework for human-AI interaction experiments, featuring versatile wrapper for RL components, participant web interface, experiment configuration, logging, deployment utilities, and multi-modal communication channels.
+- The framework standardizes human-RL interaction research by offering a generic interface and tools for studying diverse interaction aspects and facilitating experiment design and execution.
+- SHARPIE supports diverse human-RL interaction use cases including reward annotation, teaching, action delegation, task specification, and human-AI teaming, facilitating research in cognitive science and RL.
+
+
+---
+
+
 [TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets](https://github.com/TobyYang7/TwinMarket)
 
 - TwinMarket: introduces a multi-agent framework designed for simulating socio-economic systems, incorporating User Profile, Belief, Desire, Intention, World Knowledge, Action Space, Market Environment, Social Environment, Order-Driven Trading System, Matching Engine, Data Sources, and Validation Metrics components.
@@ -262,6 +272,16 @@ Chronological order.
 
 
 #### 31st January 2025
+
+
+[Neuro-LIFT: A Neuromorphic, LLM-based Interactive Framework for Autonomous Drone Flight at the Edge](http://arxiv.org/abs/2501.19259v1)
+
+- Neuro-LIFT (Neuromorphic, LLM-based Interactive Framework for Autonomous Drone Flight at the Edge): introduces modular framework integrating Human Interaction Module, Neuromorphic Sensing Module, LLM, and Planning and Control Module for autonomous drone navigation based on human commands.
+- Neuro-LIFT framework utilizes Human Interaction Module for user commands, Neuromorphic Sensing Module for environment perception, LLM for command interpretation, and Planning and Control Module for drone maneuver execution.
+- Neuro-LIFT framework achieves real-time interactive autonomous drone flight by combining LLM-based natural language understanding with low-latency, energy-efficient neuromorphic vision for enhanced responsiveness and adaptability.
+
+
+---
 
 [LLM-based Affective Text Generation Quality Based on Different Quantization Values](http://arxiv.org/abs/2501.19317v1)
 
