@@ -42,6 +42,43 @@ Copyright (C) Teemu Maatta.
 Chronological order.
 
 </div>
+#### 4th February 2025
+
+[Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
+
+- Adaptive self-improvement LLM agentic system: introduces agentic system organization with parallel sampling to enhance LLM Agents via select multi-level experiences, stratify them by difficulty, filter high-quality answers, and use demonstrations for ML library development Task, verified by Verifier to produce Answer.
+- This system employs adaptive self-improvement learning algorithm that filters quality answers, stratifies experiences by difficulty, and selects demonstrations to improve LLM agents' performance in generating architecture-specific programming language code.
+- The framework addresses challenges in ML library development by enabling complex reasoning with limited data through a self-improvement cycle where LLM agents evolve via earned experiences and generate high-quality ML operators.
+
+
+---
+
+[AdaptBot: Combining LLM with Knowledge Graphs and Human Input for Generic-to-Specific Task Decomposition and Knowledge Refinement](http://arxiv.org/abs/2502.02067v1)
+
+- AdaptBot: introduces framework integrating LLM, Knowledge Graph, Human Input, Execution, and Decision Module, for task decomposition and knowledge refinement.
+- AdaptBot utilizes LLM for generating initial abstract action plans, Knowledge Graph for domain-aware refinement, and human input for error correction and knowledge expansion.
+- AdaptBot framework facilitates adaptation to new tasks through incremental knowledge refinement via human feedback and Knowledge Graph-guided error resolution.
+
+
+---
+
+[Anticipate & Act : Integrating LLMs and Classical Planning for Efficient Task Execution in Household Environments](http://arxiv.org/abs/2502.02066v1)
+
+- Anticipate & Act: introduces a framework for efficient task execution, integrating User, LLM Prompting, LLM, Mapping, Planning, FASTDOWNWARD PLANNER, GENERATED PLAN, and SIMULATION components.
+- Anticipate & Act: leverages LLM to predict high-level tasks from User prompts and uses FASTDOWNWARD PLANNER to generate fine-grained action sequences via Planning and Mapping components.
+- Anticipate & Act: demonstrates efficiency in household tasks by anticipating future tasks and planning actions jointly within SIMULATION environment, reducing execution time and plan length.
+
+
+---
+
+[CoAT: Chain-of-Associated-Thoughts Framework for Enhancing Large Language Models Reasoning](https://arxiv.org/abs/2502.02390)
+
+- CoAT (Chain-of-Associated-Thoughts): introduces a reasoning framework for large language models that combines an optimized Monte Carlo Tree Search (MCTS) with a dynamic associative memory mechanism, integrating Target LLM, Associative Memories, Nodes, optional External Brain, Knowledge Graph, Vector Database, LLM agents, Internet Access, and Evaluator.
+- The framework expands the reasoning search space and adaptively incorporates new information, mimicking human-like associative thinking during inference.
+- Optimized MCTS algorithm systematically integrates associative content and generated content through tree node search, and flexible mechanism sources associative content by self-association or external knowledge retrieval.
+
+
+---
 
 #### 3rd February 2025
 
@@ -192,6 +229,54 @@ Chronological order.
 ---
 
 
+[Firewalls to Secure Dynamic LLM Agentic Networks](https://github.com/microsoft/Firewalled-Agentic-Networks)
+
+- Firewalled Agentic Networks (FAN): introduces input firewall, data firewall, and trajectory firewall, where FAN automatically constructs task-specific rules from prior simulations to build firewalls for constrained LLM agentic networks.
+- FAN offers layers of defense by converting free-form input to protocol, abstracting user data, and self-correcting agent trajectory.
+- Data and trajectory firewalls are built from prior simulations to balance adaptability, security, and privacy in LLM agentic networks.
+
+
+---
+
+[SelfCheckAgent: Zero-Resource Hallucination Detection in Generative Large Language Models](http://arxiv.org/abs/2502.01812v1)
+
+- SelfCheckAgent: introduces a framework for hallucination detection, with Symbolic Agent (semantic representation), Specialized Detection Agent (domain-aware detection) and Contextual Consistency Agent (context-aware verification), providing a multi-dimensional approach.
+- SelfCheckAgent framework integrates three distinct agents, utilizing diverse techniques like semantic similarity, fine-tuned NLI models, and contextual consistency checks to evaluate LLM response factuality.
+- SelfCheckAgent framework leverages triangulation strategy across agents, enhancing hallucination detection robustness and applicability in complex mathematical and general domains, improving trustworthiness of LLMs.
+
+
+---
+
+
+[Agentic Bug Reproduction for Effective Automated Program Repair at Google](http://arxiv.org/abs/2502.01821v1)
+
+- LIBRO: introduces automated BRT generation, with GITS issue, buggy file(s), test file, edit LLM, and candidate BRT, where LIBRO adapts LLM for bug reproduction test generation.
+- LIBRO: utilizes code-editing LLM to generate candidate BRT by prompting with bug report, buggy files, and test file.
+- LIBRO: aims to generate BRTs by leveraging LLM's understanding of bug descriptions and code context.
+
+
+---
+
+
+[Position: Towards a Responsible LLM-empowered Multi-Agent Systems](http://arxiv.org/abs/2502.01714v1)
+
+- RLHF (Reinforcement Learning from Human Feedback): presents a two-step approach involving reward model training from human feedback and language model fine-tuning through reinforcement learning to achieve human value alignment.
+- RLHF framework utilizes preference data and techniques like Proximal Policy Optimisation (PPO) or Direct Preference Optimization (DPO) for policy updates, enhancing model agreement with human preferences.
+- This method aims to create helpful and harmless AI assistants by incorporating human feedback into the learning process, improving model behaviour and safety.
+
+
+---
+
+[Al-Khwarizmi: Discovering Physical Laws with Foundation Models](http://arxiv.org/abs/2502.01702v1)
+
+- Al-Khwarizmi: introduces agentic framework for physical law discovery from data, integrating system observation, RAG, prompt, LLM, optimization, score model, test data, and human feedback components.
+- Framework leverages foundation models and SINDy method to automate physical law discovery by incorporating prior knowledge and iterative refinement.
+- Al-Khwarizmi framework achieves state-of-the-art performance in physical law discovery by utilizing multiple data modalities and automated choices of algorithms.
+
+
+---
+
+
 
 #### 2nd February 2025
 
@@ -200,7 +285,6 @@ Chronological order.
 - DITS (Data Influence-oriented Tree Search): introduces a novel framework for efficient multi-agent system training with data influence-oriented tree search, incorporating Multi Agent Network, MCTS Data Synthesis, Influence Score Estimation, Data Selection, and Iterative Data Synthesis.
 - DITS leverages influence scores to guide tree search and data selection, effectively identifying impactful data for system improvement and enhancing model performance.
 - DITS derives influence score estimation methods for non-differentiable metrics, reducing computational overhead and enabling efficient synthesis time scaling.
-
 
 
 ---
@@ -258,6 +342,17 @@ Chronological order.
 
 
 ---
+
+[Agent-Based Uncertainty Awareness Improves Automated Radiology Report Labeling with an Open-Source Large Language Model](http://arxiv.org/abs/2502.01691v1)
+
+- Bayesian Prompt Ensemble pipeline: introduces uncertainty-aware predictions for radiology reports using semantically equivalent prompts, LLM, predictions, aggregation function, LLM Agent, entropy-based methods, uniform weights, linear weights, MLP, decision, and uncertainty.
+- Bayesian Prompt Ensemble pipeline aggregates multiple LLM prompt outputs via agent-based or entropy-based methods to improve structured data extraction from radiology reports.
+- Agent Decision Model within Bayesian Prompt Ensemble pipeline synthesizes prompt responses and explanations to categorize decisions into confidence levels for calibrated uncertainty.
+
+
+---
+
+
 
 #### 1st February 2025
 
