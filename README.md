@@ -12798,6 +12798,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - CoT can be seen as Self-Recursive Learning, where the LLM improves its own output by having LLM use intermediate steps to solve complex task.
 - The approach effectively demonstrates the LLMs capability to perform Self-Recursive Learning, altough its not integrated back as training data of the model.
 
+---
+
+#### 12th April 2021
+
+[Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks](https://arxiv.org/abs/2005.11401)
+
+- RAG (Retrieval-Augmented Generation): introduces retrieval-augmented generation models, with Query Encoder, Retriever, Document Index, and Generator, for knowledge-intensive NLP tasks.
+- RAG framework combines parametric memory (pre-trained seq2seq model) and non-parametric memory (Wikipedia index) to improve generation quality.
+- RAG models achieve state-of-the-art results on open domain question answering tasks, outperforming parametric and task-specific architectures.
+
 
 ---
 
