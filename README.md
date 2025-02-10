@@ -93,6 +93,24 @@ Chronological order.
 
 ---
 
+
+[Agentic Reasoning: Reasoning LLMs with Tools for the Deep Research](http://arxiv.org/abs/2502.04644v1)
+
+- Agentic Reasoning: introduces a framework enhancing large language model reasoning by integrating Web-Search Agent, Coding Agent, and Mind Map Agent, to solve complex problems requiring research and logical deduction.
+- Agentic Reasoning framework utilizes Mind Map Agent for structured knowledge graph construction, Web-Search Agent for real-time information retrieval, and Coding Agent for computational analysis, improving reasoning and decision-making.
+- Agentic Reasoning enables language models to perform multi-step strategies and tackle complex problems by dynamically adapting to information and performing quantitative analyses using external agents and structured memory.
+
+
+---
+
+[Self-Regulation and Requesting Interventions](http://arxiv.org/abs/2502.04576v1)
+
+- Offline PRM-Tabular RL Framework: introduces an offline approach for training intervention-requesting agents, with State Dynamics, PRM, Tabular RL, Usage computation, Policy computation, Reward Search, and SFT Helper components.
+- Offline PRM-Tabular RL Framework combines LLM-based Process Reward Models with tabular reinforcement learning to efficiently determine optimal intervention timing under budget constraints.
+- This framework reduces costly intervention calls during training by leveraging offline data and enhancing robustness through PRMs and tabular RL, avoiding deep RL inefficiencies.
+
+
+---
 [Every Software as an Agent: Blueprint and Case Study](http://arxiv.org/abs/2502.04747v1)
 
 - JiT-Codegen: introduces software agent framework for in-software execution using LLM-powered Agent, JiT Code Agent, Software Runtime, and Exec. Sandbox.
