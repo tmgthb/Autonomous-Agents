@@ -93,6 +93,23 @@ Chronological order.
 
 ---
 
+[Every Software as an Agent: Blueprint and Case Study](http://arxiv.org/abs/2502.04747v1)
+
+- JiT-Codegen: introduces software agent framework for in-software execution using LLM-powered Agent, JiT Code Agent, Software Runtime, and Exec. Sandbox.
+- JiT-Codegen framework enables LLMs access to software internals and inject code for execution within a secure Exec. Sandbox.
+- This approach aims to overcome limitations of API-based and GUI-based agents by enabling more direct and efficient software interaction.
+
+
+---
+
+[STRIDE: Automating Reward Design, Deep Reinforcement Learning Training and Feedback Optimization in Humanoid Robotics Locomotion](http://arxiv.org/abs/2502.04692v1)
+
+- STRIDE (Automating Reward Design, Deep Reinforcement Learning Training and Feedback Optimization in Humanoid Robotics Locomotion): introduces framework integrating Humanoid Robotics Environment, Motion Task Description, LLMs, Reward Function Sampling, Reward Functions, Reward Reflection, DRL Training, and Feedback Result for automated reward design.
+- STRIDE leverages LLMs for zero-shot reward function generation and iterative refinement through feedback from DRL training outcomes.
+- STRIDE automates reward engineering for humanoid robot locomotion, overcoming limitations of manual reward design and improving task performance.
+
+
+---
 
 
 #### 4th February 2025
