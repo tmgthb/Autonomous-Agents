@@ -45,6 +45,17 @@ Chronological order.
 
 #### 7th February 2025
 
+
+[Sirius: Self-improving Multi-agent Systems via Bootstrapped Reasoning](http://arxiv.org/abs/2502.04780v1)
+
+- SIRIUS: introduces a self-improving multi-agent system framework, utilizing Physicist, Mathematician, Summarizer agents, Experience Library, Experience Augmentation, and Fine-tuning for optimizing multi-agent systems.
+- SIRIUS constructs an experience library by retaining successful reasoning trajectories to provide training data for agent policy fine-tuning.
+- SIRIUS further enriches the library by augmenting unsuccessful trajectories, enhancing data diversity and improving system performance.
+
+
+---
+
+
 [MELON: Indirect Prompt Injection Defense via Masked Re-execution and Tool Comparison](http://arxiv.org/abs/2502.05174v1)
 
 - MELON (Masked re-Execution and TooL comparisON) introduces an indirect prompt injection defense framework, with Agent System, Tool Execution, Tool Call Cache, Compare Tool Calls, and Masking Function, that detects attacks by comparing tool calls between original and masked executions.
