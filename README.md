@@ -139,6 +139,48 @@ Chronological order.
 
 ---
 
+
+#### 6th February 2025
+
+[Multi-Agent Reinforcement Learning with Focal Diversity Optimization](http://arxiv.org/abs/2502.04492v1)
+
+- MARL-Focal (Multi-Agent Reinforcement Learning with Focal Diversity Optimization): introduces a two-stage framework with Decider Agent (selects optimal LLM subset) and Aggregator Agent (synthesizes final output) to improve LLM performance by leveraging a Pool of LLMs in Cloud (collection of available models) and diversity metrics.
+- MARL-Focal framework utilizes Decider Agent (selects optimal LLM subset) within Multi Agent Environment (manages agent interactions) to choose Chosen LLMs (selected ensemble subset) based on Perf. Metrics (diversity-based selection metrics) from Incoming Online Queries (user input queries) and generate Model Outputs (LLM generated responses) for final aggregation.
+- The framework's architecture allows for adaptive ensemble creation by dynamically selecting and combining diverse LLMs, aiming to enhance output quality and robustness while maintaining cost-efficiency in multi-agent learning scenarios.
+
+
+---
+
+[ACTIVE TASK DISAMBIGUATION WITH LLMS](http://arxiv.org/abs/2502.04485v1)
+
+- Active Task Disambiguation: introduces method for LLM agents to actively clarify ambiguous tasks by iteratively asking questions, using solution generator, question generator, and question evaluator to refine problem statement and solution space.
+- It leverages Bayesian Experimental Design principles to select questions maximizing information gain, shifting reasoning from implicit to explicit solution space exploration.
+- This approach improves task disambiguation compared to methods relying solely on implicit reasoning within the question space, enhancing LLM agents' ability to address underspecified problems.
+
+
+---
+
+[ScoreFlow: Mastering LLM Agent Workflows via Score-based Preference Optimization](http://arxiv.org/abs/2502.04306v1)
+
+- ScoreFlow: introduces automated workflow generation framework, with LLM Generator (workflow code generator), Executor (workflow performance evaluator), Collect data (score gathering component), Scores (workflow performance metrics), Preference workflow pairs (score-based workflow rankings), Iterative Score-DPO (score-aware optimization algorithm), Operators (reusable agent node combinations), Workflows (code for agent interactions), Problem dataset (input task collection).
+- ScoreFlow framework utilizes Score-DPO optimization, incorporating quantitative evaluation feedback for workflow generation.
+- ScoreFlow enhances scalability and performance through gradient-based optimization and code-based workflow representation.
+
+
+---
+
+
+[Multi-agent Architecture Search via Agentic Supernet](http://arxiv.org/abs/2502.04180v1)
+
+- MaAS (Multi-agent Architecture Search): introduces agentic supernet, probabilistic architecture distribution, with controller, agentic operators, environment, and feedback, where MaAS optimizes distribution of agentic architectures for query-dependent multi-agent systems.
+- MaAS framework leverages controller network to sample task-specific multi-agent systems from agentic supernet, adapting architecture based on environmental feedback and agentic operators.
+- Agentic supernet in MaAS enables efficient resource allocation by dynamically adjusting multi-agent system complexity based on query difficulty and domain, utilizing feedback for continuous improvement.
+
+
+---
+
+
+
 #### 4th February 2025
 
 [Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
