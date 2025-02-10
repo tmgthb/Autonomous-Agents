@@ -112,6 +112,15 @@ Chronological order.
 ---
 
 
+[Learning Strategic Language Agents in the Werewolf Game with Iterative Latent Space Policy Optimization](http://arxiv.org/abs/2502.04686v1)
+
+- LSPO (Latent Space Policy Optimization): introduces iterative framework with Latent Space Construction (create discrete strategy space), Policy Optimization in Latent Space (optimize strategy in latent space), and Latent Space Expansion (expand strategy space coverage) for strategic language agents.
+- LSPO framework addresses challenges in free-form language games by mapping text to latent space, optimizing policy with game-theoretic methods, and expanding space via LLM fine-tuning.
+- Iterative process of LSPO enhances strategic reasoning and language communication, improving agent performance in complex games like Werewolf.
+
+
+---
+
 #### 4th February 2025
 
 [Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
