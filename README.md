@@ -43,7 +43,26 @@ Chronological order.
 
 </div>
 
+#### 7th February 2025
 
+[MELON: Indirect Prompt Injection Defense via Masked Re-execution and Tool Comparison](http://arxiv.org/abs/2502.05174v1)
+
+- MELON (Masked re-Execution and TooL comparisON) introduces an indirect prompt injection defense framework, with Agent System, Tool Execution, Tool Call Cache, Compare Tool Calls, and Masking Function, that detects attacks by comparing tool calls between original and masked executions.
+- MELON framework leverages Masking Function to generate task-neutral prompts for masked re-execution, utilizing Tool Call Cache to store masked run tool calls and Compare Tool Calls to identify deviations indicating potential attacks.
+- MELON framework enhances security and utility balance by focusing on tool call comparison and incorporating designs like customized masking, tool call caching, and focused comparison to reduce false positives and negatives in indirect prompt injection detection.
+
+
+---
+
+
+[NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow](http://arxiv.org/abs/2502.05036v1)
+
+- NVAGENT: introduces collaborative agent workflow for NL2VIS, with processor (database processing and context filtering), composer (planning visualization generation), and validator (code translation and output verification).
+- NVAGENT decomposes visualization generation into manageable subtasks using processor for data preparation, composer for VQL generation, and validator for ensuring correctness.
+- NVAGENT leverages divide-and-conquer strategy with specialized agents to effectively handle complex NL2VIS tasks, improving visualization accuracy and quality.
+
+
+---
 #### 4th February 2025
 
 [Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
