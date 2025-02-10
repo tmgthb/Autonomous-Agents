@@ -63,6 +63,27 @@ Chronological order.
 
 
 ---
+
+[The Rising Threat to Emerging AI-Powered Search Engines](http://arxiv.org/abs/2502.04951v1)
+
+- Agent-based Defense: introduces agent-based defense with Observation, Thought, Action, Tools, and Agent-based Defense components, where agent-based defense mitigates risks in AIPSE outputs.
+- Agent-based defense framework uses Observation to gather AIPSE output, Thought for reasoning, Action to use Tools like Content Refinement and URL Detector.
+- Agent-based defense aims to filter and mark potential risks in AIPSE output while preserving response similarity.
+
+
+---
+
+[S<sup>2</sup>.-MAD: Breaking the Token Barrier to Enhance Multi-Agent Debate Efficiency](http://arxiv.org/abs/2502.04790v1)
+
+- S2-MAD (Selective Sparse Multi-Agent Debate): introduces Initial Response Generation, Grouping Discussion with Decision-Making Mechanism, and Reaching Consensus, with Agents organized in Groups, to enhance multi-agent debate efficiency.
+- S2-MAD framework employs Decision-Making Mechanism comprising Similarity Calculation, Redundant Information Filtering, and Conditional Participation modules to manage agent engagement.
+- S2-MAD framework aims to reduce token costs in multi-agent debate by selectively incorporating non-redundant viewpoints and optimizing information exchange among agents.
+
+
+---
+
+
+
 #### 4th February 2025
 
 [Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
