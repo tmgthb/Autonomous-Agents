@@ -142,6 +142,45 @@ Chronological order.
 
 #### 6th February 2025
 
+
+[VTutor: An Open-Source SDK for Generative AI-Powered Animated Pedagogical Agents with Multi-Media Output](http://arxiv.org/abs/2502.04103v1)
+
+- VTutor (Software Development Kit): introduces an open-source framework for creating animated pedagogical agents, integrating Generative AI (LLMs), Text-to-Speech (TTS), Lip Synchronization (LipSync), Character Model, WebGL Rendering, Web Interface, API Communication, SDK, Iframe Integration, and React SDK.
+- VTutor combines generative AI with animation technologies to enable personalized learning experiences through adaptable, realistic animated pedagogical agents with multi-media output in web environments.
+- The framework leverages LLMs for context-aware feedback, uLipSync for accurate lip movements, and WebGL for seamless web integration, offering tools for developers to create engaging educational agents.
+
+
+---
+
+
+[PsyPlay: Personality-Infused Role-Playing Conversational Agents](http://arxiv.org/abs/2502.03821v1)
+
+- PsyPlay: introduces dialogue generation framework with Role Card Creation (generates agent roles), Topic Extraction (extracts dialogue topics), and Dialogue Generation (creates personality-infused dialogues) for personality-infused role-playing.
+- PsyPlay framework facilitates expression of rich personalities among multiple LLM agents assuming distinct roles and engaging in discussions.
+- PsyPlay validation demonstrates accurate portrayal of intended personality traits with high success rate on generated dialogue data.
+
+
+---
+
+
+[Large Language Models for Multi-Robot Systems: A Survey](http://arxiv.org/abs/2502.03814v1)
+
+- BOLAA (Benchmarking and Orchestrating LLM-augmented Autonomous Agents) architecture orchestrates multiple LAAs using Agents Message Controller, which manages communication between Environment, Labor Agents Pool consisting of multiple agents LAA 1, LAA 2, LAA m, each having LLM and Agent Prompt, Action Parser, Memory and Agents Selection.
+- BOLAA architecture employs central controller for message distribution to individual agents with own LLMs, processing distributed messages to generate actions, improving consistency and reliability in collaborative systems.
+- BOLAA architecture serves as comparative framework for LLM-augmented agents, offering insights into LLM integration and agent orchestration for multi-robot applications, despite focus on multi-agent systems rather than exclusively MRS.
+
+
+---
+
+[Division-of-Thoughts: Harnessing Hybrid Language Model Synergy for Efficient On-Device Agents](http://arxiv.org/abs/2502.04392v1)
+
+- DoT (Division-of-Thoughts): introduces collaborative reasoning framework, with Task Decomposer, Task Scheduler, Task Allocation, Plug-and-Play Adapter, SLM, LLM, and Self-Reinforced Tree Search, for efficient on-device agents using hybrid language model synergy.
+- DoT framework employs Task Decomposer for breaking down queries, Task Scheduler for dependency analysis between sub-tasks, and Plug-and-Play Adapter for dynamic allocation of sub-tasks between SLM and LLM.
+- Self-Reinforced Tree Search method trains Plug-and-Play Adapter using task execution feedback to optimize sub-task allocation strategy for enhanced efficiency and maintained accuracy.
+
+
+--
+
 [Multi-Agent Reinforcement Learning with Focal Diversity Optimization](http://arxiv.org/abs/2502.04492v1)
 
 - MARL-Focal (Multi-Agent Reinforcement Learning with Focal Diversity Optimization): introduces a two-stage framework with Decider Agent (selects optimal LLM subset) and Aggregator Agent (synthesizes final output) to improve LLM performance by leveraging a Pool of LLMs in Cloud (collection of available models) and diversity metrics.
