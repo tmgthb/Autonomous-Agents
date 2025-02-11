@@ -219,6 +219,45 @@ Chronological order.
 ---
 
 
+[Speaking the Language of Teamwork: LLM-Guided Credit Assignment in Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2502.03723v1)
+
+- LCA (LLM-guided Credit Assignment): introduces a novel framework for multi-agent reinforcement learning that uses LLM State Ranking (LLM prompts for pairwise state ranking) to generate agent-specific rewards.
+- LCA framework leverages Ego Agent (agent perspective encoding) and Scoring Model Training Dataset (ranking data for training) to train a scoring model, facilitating credit assignment in sparse reward MARL environments.
+- By utilizing Temporal Difference (RL update mechanism) and LLM (large language model), LCA achieves faster convergence and higher returns compared to baselines by addressing credit assignment and reward sparsity.
+
+
+---
+
+[MultiQ&A: An Analysis in Measuring Robustness via Automated Crowdsourcing of Question Perturbations and Answers](http://arxiv.org/abs/2502.03711v1)
+
+- MultiQ&A: introduces a multi-step pipeline for question answering robustness evaluation, with Query Rewrite, Generator, and Aggregator components.
+- MultiQ&A framework utilizes Query Rewrite to create diverse question variations, Generator to independently answer them, and Aggregator to evaluate answer robustness and consistency.
+- This approach enables automated crowdsourcing and robust question answering evaluation mimicking real-world scenarios for assessing Large Language Model performance under question perturbations.
+
+
+---
+
+
+#### 5th February 2025
+
+[A Schema-Guided Reason-while-Retrieve framework for Reasoning on Scene Graphs with Large-Language-Models (LLMs)](http://arxiv.org/abs/2502.03450v1)
+
+- SG-RwR (Schema-Guided Reason-while-Retrieve) introduces a two-agent framework with Reasoner (task planning and query generation) and Retriever (graph information extraction) for scene graph reasoning.
+- SG-RwR framework utilizes Scene Graph Schema (textual graph description) to guide both Reasoner and Retriever agents in code-writing for information retrieval and reasoning.
+- The framework components Reasoner Query (query for graph information), Retrieve Code (code for information retrieval), Retrieved Information (extracted graph data) and Reason Code (code for reasoning and tools) enable iterative and adaptive graph processing to generate Answer (final task solution).
+
+
+---
+
+[PalimpChat: Declarative and Interactive AI analytics](http://arxiv.org/abs/2502.03368v1)
+
+- PALIMPCHAT: introduces chat interface, user, pipeline design, program optimization, plan execution, programming framework, cost estimation, plan execution and unstructured data for AI analytics.
+- PALIMPCHAT integrates ARCHYTAS reasoning agent and PALIMPZEST declarative framework to enable natural language interaction for AI pipeline creation and execution.
+- PALIMPCHAT simplifies complex AI workflows by providing accessible chat-based interface for both expert and non-expert users to design and run data processing pipelines.
+
+
+---
+
 
 #### 4th February 2025
 
