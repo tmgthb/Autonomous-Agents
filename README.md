@@ -259,6 +259,36 @@ Chronological order.
 ---
 
 
+[SymAgent: A Neural-Symbolic Self-Learning Agent Framework for Complex Reasoning over Knowledge Graphs](http://arxiv.org/abs/2502.03283v1)
+
+- SymAgent (A Neural-Symbolic Self-Learning Agent Framework) introduces an agent framework with Agent-Planner, Agent-Executor, KG Environment, Action Tool Set, and Self-learning Framework for complex reasoning over knowledge graphs.
+- SymAgent framework utilizes Agent-Planner to derive symbolic rules from knowledge graphs and Agent-Executor to apply action tools for information integration from knowledge graphs and external sources.
+- Self-learning Framework in SymAgent enables iterative online exploration and offline policy updating, facilitating autonomous synthesis of reasoning trajectories and performance improvement.
+
+
+---
+
+[Strategizing with AI: Insights from a Beauty Contest Experiment](http://arxiv.org/abs/2502.03158v1)
+
+- Framework name here: introduces LLMs, Game Scenarios, Prompts, and Performance Analysis to investigate strategic behavior of AI agents in game theory experiments.
+- This framework evaluates LLMs' decision-making by comparing their game strategies against human players and theoretical predictions across varied game scenarios.
+- The framework aims to understand LLMs' strategic reasoning, adaptability, and limitations in emulating human-like behavior within economic game contexts.
+
+
+---
+
+
+[COSMosFL: Ensemble of Small Language Models for Fault Localisation](http://arxiv.org/abs/2502.02908v1)
+
+- COSMosFL (COllection of Small Language Models for Fault Localisation): introduces a task-level LLM ensemble technique using voting mechanism with M models, SLMs, Query Root Cause, Bug Information, Query Fault Location, Available Tools, Voting-based Ensemble, and Confidence Score for fault localization.
+- COSMosFL aggregates answers from multiple SLMs instead of repeated sampling from a single LLM to improve fault localization accuracy and cost-benefit trade-off.
+- COSMosFL leverages voting-based ensemble and differential evolution for weight optimization to achieve Pareto-optimality in fault localization accuracy and inference cost.
+
+
+---
+
+
+
 #### 4th February 2025
 
 [Adaptive Self-improvement LLM Agentic System for ML Library Development](http://arxiv.org/abs/2502.02534v1)
