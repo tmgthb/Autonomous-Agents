@@ -43,6 +43,18 @@ Chronological order.
 
 </div>
 
+
+#### 10th February 2025
+
+[Visual Agentic AI for Spatial Reasoning with a Dynamic API](https://arxiv.org/abs/2502.06787)
+
+- VADAR (Visual, Agentic, Dynamic AI for Reasoning): introduces a training-free agentic approach for 3D understanding, which dynamically generates new skills in Python, using Signature Agent, Implementation Agent, Test Agent, Program Agent, Execution Agent, Vision Specialists, and API, and is evaluated on CLEVR and OMNI3D-BENCH.
+- VADAR leverages LLM agents to define and expand a domain-specific language, generating new functions and skills in two phases: API Generation and Program Synthesis.
+- The framework addresses limitations of prior approaches that rely on a static, human-defined API, allowing it to handle a wider range of queries.
+
+
+---
+
 #### 7th February 2025
 
 
