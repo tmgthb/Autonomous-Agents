@@ -45,6 +45,18 @@ Chronological order.
 
 #### 14th February 2025
 
+
+
+[Diverse Inference and Verification for Advanced Reasoning](http://arxiv.org/abs/2502.09955v1)
+
+- Diverse Inference: introduces a diverse inference framework that combines multiple models and methods, including Human (User input), LLM (Reasoning engine), Agent (Process orchestrator), Game Environment (Problem representation), Verifier (Solution checker), and specific methods like LEAP (Task-specific learning), Z3 (Theorem prover), RTO (Round trip optimization), BoN (Best-of-N sampling), SC (Self-consistency), MoA (Mixture of agents), MCTS (Monte Carlo search), PV (Prover-verifier game), Unit Tests (Code execution verification), and Best-of-N (Sampling based verification), to enhance reasoning and verification for advanced tasks.
+- Leverages perfect verifiers like Lean Verifier (Formal proof checker) for IMO and ARC problems and imperfect verifiers like Best-of-N (Sampling based verification) for HLE questions, achieving higher accuracy on challenging benchmarks.
+- Utilizes test-time simulations, reinforcement learning, and meta-learning to adapt agent graph representations and improve generalization across diverse problem types.
+
+
+---
+
+
 [Agentic Verification for Ambiguous Query Disambiguation](http://arxiv.org/abs/2502.10352v1)
 
 - VERDICT (Verified-Diversification with Consolidation): unifies diversification with verification by incorporating feedback from retriever and generator early on, improving efficiency and robustness by reducing reliance on multiple retrieval and inference steps.
@@ -53,7 +65,6 @@ Chronological order.
 
 
 ---
-
 
 [Process Reward Models for LLM Agents: Practical Framework and Directions](https://arxiv.org/abs/2502.10325v1)
 
@@ -83,8 +94,6 @@ Chronological order.
 
 ---
 
-#### 14th February 2025
-
 [Cooperative Multi-Agent Planning with Adaptive Skill Synthesis](http://arxiv.org/abs/2502.10148v1)
 
 - COMPASS (Cooperative Multi-Agent Planning with Adaptive Skill Synthesis): introduces a decentralized closed-loop framework for cooperative multi-agent systems, with Perception (multi-modal input processing), Task Reasoning (objective decomposition), Self-Reflection (execution quality evaluation), Actor (skill selection and execution), Skill Synthesis (executable code generation), Local Memory (agent's individual memory), Global Memory (shared memory), and Skill Library (executable skill collection).
@@ -102,6 +111,34 @@ Chronological order.
 
 
 ---
+
+[A Survey on LLM-powered Agents for Recommender Systems](http://arxiv.org/abs/2502.10050v1)
+
+- Unified Agent Architecture: introduces unified agent architecture consisting of Profile, Memory, Planning and Action modules for LLM-powered agent recommender systems.
+- Unified Agent Architecture: decomposes agent recommender into profile construction, memory management, strategic planning, and action execution modules.
+- Unified Agent Architecture: facilitates analysis of existing LLM-powered agent methods by providing structured framework of core components and their functions.
+
+
+---
+
+[VIRAC: A VISION-REASONING AGENT HEAD MOVEMENT CONTROL FRAMEWORK IN ARBITRARY VIRTUAL ENVIRONMENTS](http://arxiv.org/abs/2502.10046v1)
+
+- VIRAC (Vision-Reasoning Agent Head Movement Control framework): introduces vision-reasoning framework for realistic agent head rotations utilizing Perception Module with VLM and FMM, Decision-making Module with AHM and LLM, and iterative loop with perception, reasoning, action selection, environment update and history update components.
+- VIRAC framework leverages large-scale models for common-sense knowledge and reasoning capabilities, emulating human-like perception and decision-making processes for context-aware head rotations.
+- VIRAC framework operates through iterative cycle of perception, reasoning, action selection, and environment/history updates to produce dynamic and context-sensitive head rotations in virtual environments.
+
+
+---
+
+[Automated Hypothesis Validation with Agentic Sequential Falsifications](http://arxiv.org/abs/2502.09858v1)
+
+- POPPER: introduces an agentic framework for automated hypothesis validation, with Experiment Design Agent, Experiment Execution Agent, Sequential Error Control, Relevance Checker, Self-Refine, and Memory components.
+- POPPER framework rigorously validates free-form hypotheses by sequentially testing measurable implications through experiments and controlling Type-I error.
+- POPPER leverages LLM agents to automate experiment design and execution, providing a scalable and efficient solution for hypothesis validation across diverse domains.
+
+
+---
+
 
 #### 10th February 2025
 
