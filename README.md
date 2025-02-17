@@ -43,6 +43,65 @@ Chronological order.
 
 </div>
 
+#### 14th February 2025
+
+[Agentic Verification for Ambiguous Query Disambiguation](http://arxiv.org/abs/2502.10352v1)
+
+- VERDICT (Verified-Diversification with Consolidation): unifies diversification with verification by incorporating feedback from retriever and generator early on, improving efficiency and robustness by reducing reliance on multiple retrieval and inference steps.
+- VERDICT framework integrates Rewrite-component for query relaxation, Retrieve-component for relevant passages, Execution-component for interpretation extraction, Embed-component for latent space projection, and Clustering-component for feedback consolidation.
+- The framework leverages LLM Calls and Retriever Calls to enhance the grounding and accuracy of ambiguous query disambiguation in retrieval-augmented generation.
+
+
+---
+
+
+[Process Reward Models for LLM Agents: Practical Framework and Directions](https://arxiv.org/abs/2502.10325v1)
+
+- AgentPRM (Agent Process Reward Models): introduces a framework for training LLM agents, with Agent Policy, Environment, Rollout, Target Dataset, Target Computation, PRM Dataset, Process Reward Model, PRM Training, Prompts, Policy Update, and Updated Policy, where framework trains agents through interaction.
+- AgentPRM framework uses actor-critic paradigm and Monte Carlo rollouts for reward target computation, enabling iterative policy refinement.
+- AgentPRM framework integrates into RLHF pipelines with minimal modifications, facilitating scalable agent training and deployment.
+
+
+---
+
+
+[LARGE LANGUAGE MODELS AND SYNTHETIC DATA FOR MONITORING DATASET MENTIONS IN RESEARCH PAPERS](http://arxiv.org/abs/2502.10263v1)
+
+- Data Use Extraction and Classification Framework: introduces a machine learning pipeline with zero-shot extraction and classification, LLM-as-a-Judge, reasoning agent, synthetic pre-fine-tuning data, fine-tuned LLM, BERT-based classifier, and curated data to automate dataset mention detection.
+- This framework employs synthetic data generation and two-stage fine-tuning to address data scarcity and improve model generalization for scalable dataset monitoring in research papers.
+- The approach utilizes LLMs for extraction and refinement, and a BERT-based classifier for efficient filtering, achieving state-of-the-art performance in dataset extraction accuracy.
+
+
+---
+
+[Do Large Language Models Reason Causally Like Us? Even Better?](http://arxiv.org/abs/2502.10215v1)
+
+- LLM (Large Language Model): introduces comparative study evaluating LLMs' causal reasoning against human reasoning using collider graph inference tasks and normative/psychological models.
+- Study assesses GPT-40, Claude, Gemini-Pro, GPT-3.5 on predictive, independence, diagnostic inferences, comparing to human data and Causal Bayes Nets, Mutation Sampler models.
+- Findings emphasize importance of understanding AI biases in causal reasoning for reliable AI systems, revealing LLMs' varying normative alignment and domain knowledge influence.
+
+
+---
+
+#### 14th February 2025
+
+[Cooperative Multi-Agent Planning with Adaptive Skill Synthesis](http://arxiv.org/abs/2502.10148v1)
+
+- COMPASS (Cooperative Multi-Agent Planning with Adaptive Skill Synthesis): introduces a decentralized closed-loop framework for cooperative multi-agent systems, with Perception (multi-modal input processing), Task Reasoning (objective decomposition), Self-Reflection (execution quality evaluation), Actor (skill selection and execution), Skill Synthesis (executable code generation), Local Memory (agent's individual memory), Global Memory (shared memory), and Skill Library (executable skill collection).
+- COMPASS integrates VLMs with a dynamic skill library and structured communication for decentralized decision-making under partial observability.
+- The framework enables agents to adapt strategies through iterative planning, skill synthesis, and information sharing, improving performance in cooperative tasks.
+
+
+---
+
+[ScamFerret: Detecting Scam Websites Autonomously with Large Language Models](http://arxiv.org/abs/2502.10110v1)
+
+- ScamFerret: presents an agent system for autonomous scam website detection, integrating Scam Website Analysis, External Information Collection, and Analysis Results Output components.
+- ScamFerret utilizes LLM's pre-existing knowledge and tool-based information retrieval to classify scam websites without scam-specific fine-tuning.
+- ScamFerret iteratively refines website analysis by collecting external information when initial URL data is insufficient, enhancing detection accuracy and explainability.
+
+
+---
 
 #### 10th February 2025
 
