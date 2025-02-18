@@ -54,11 +54,77 @@ Chronological order.
 
 ---
 
+
 [ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING](http://arxiv.org/abs/2502.12130v1)
 
 - ARMAP (autonomous Agents from automatic Reward Modeling And Planning): introduces a framework that enhances LLM agents' decision-making by using Automatic Reward Model (evaluates trajectory quality) to guide Default Policy Model (generates initial action plans) in Tree Planning (search algorithm for actions) using Trajectories (sequences of agent actions) and Reward (score for trajectory success).
 - Leverages Automatically Generated Dataset (training data for reward model) from Sampled Trajectories (trajectories from environment), Refine Task Instructions (improved task goals), and Sample Negative Trajectories (unsuccessful action paths) to train Reward Model (evaluates trajectory success) without human annotations.
 - Improves agent performance across tasks by integrating learned Reward Model (evaluates trajectory success) with various planning algorithms, addressing limitations of data scarcity and API accessibility for complex interactive environments.
+
+
+---
+
+[HARBOR: Exploring Persona Dynamics in Multi-Agent Competition](http://arxiv.org/abs/2502.12149v1)
+
+- HARBOR (Housing Auction for Reasoning, Bidding, and Opponent Recognition): introduces a testbed to study persona dynamics in multi-agent auctions, incorporating Persona, Bidding Domain Knowledge, Auction History Memory, Priority Planning, Profiling Competitors, and Theory of Mind Strategy.
+- HARBOR simulates realistic house bidding scenarios to analyze how personas influence agent behavior, competitor profiling, and strategic decision-making in competitive environments.
+- This framework enables the evaluation of LLM agents' profitability, competitive standing, and persona-driven objective achievement in multi-agent competitive settings.
+
+
+---
+
+[SWE-Lancer: Can Frontier LLMs Earn $1 Million from Real-World Freelance Software Engineering?](https://arxiv.org/abs/2502.12115)
+
+- SWE-Lancer: introduces benchmark evaluating language models on real-world software engineering tasks using Original Issue, Codebase, Large Language Model, Generated PR, Human End-to-End Tests, Grader, and Scoring for individual contributions and Original Issue, Proposals, Large Language Model, Rejected Proposals, Chosen Proposal, Comparison, and Scoring for management decisions.
+- SWE-Lancer benchmark assesses model's ability to solve freelance software engineering tasks by generating code patches or selecting optimal proposals, evaluated through end-to-end tests and comparison with human decisions.
+- SWE-Lancer framework provides realistic software engineering evaluation by utilizing real-world tasks, payouts, and full-stack complexities, moving beyond isolated unit tests to comprehensive end-to-end assessments.
+
+
+---
+
+
+[Learning Getting-Up Policies for Real-World Humanoid Robots](https://arxiv.org/abs/2502.12152)
+
+- HUMANUP: introduces a two-stage RL framework with Discovery Policy (Stage I motion exploration) and Deployable Policy (Stage II robust motion tracking) for humanoid robots getting-up.
+- HUMANUP employs a Curriculum (Progressive training strategy) including Collision Mesh Curriculum (Mesh complexity progression), Posture Randomization Curriculum (Initial pose variation), and Control Regularization Curriculum (Regularization strength progression) to enhance learning.
+- Stage II Deployable Policy utilizes Tracking Rewards (Stage II imitation reward) to refine discovered motions for real-world deployment.
+
+
+---
+
+[Can LLMs Simulate Social Media Engagement? A Study on Action-Guided Response Generation](http://arxiv.org/abs/2502.12073v1)
+
+- Action-Guided Response Generation Framework: introduces a method to simulate social media engagement using Trending Post, User Information Historical Records, Action, and Generated Response components.
+- Action-Guided Response Generation Framework predicts user engagement Action (retweet, quote, rewrite) towards Trending Post, then generates Generated Response based on predicted Action and User Information Historical Records.
+- Action-Guided Response Generation Framework aims to capture user engagement dynamics for informed response generation in social media simulations.
+
+
+---
+
+
+[CAMEL: Continuous Action Masking Enabled by Large Language Models for Reinforcement Learning](http://arxiv.org/abs/2502.11896v1)
+
+- CAMEL (Continuous Action Masking Enabled by Large Language Models): introduces reinforcement learning framework integrating LLM Policy Generator, Action Masking, Actor, Critic, Replay Buffer and Epsilon Masking to enhance exploration and convergence by using LLM-generated policies and dynamic action constraints.
+- CAMEL leverages Action Masking to dynamically constrain action space based on LLM outputs and Epsilon Masking to reduce reliance on LLM guidance over time, enabling autonomous policy refinement.
+- The framework demonstrates improved sample efficiency and performance in MuJoCo environments by effectively utilizing LLM-generated priors for initial policy guidance and exploration.
+
+
+---
+
+[Leveraging Dual Process Theory in Language Agent Framework for Real-time Simultaneous Human-AI Collaboration](http://arxiv.org/abs/2502.11882v1)
+
+- DPT-Agent (Dual Process Theory Agent): introduces a language agent framework integrating System 1 with Finite-State Machine, Code as Policy, Action Executor and System 2 with Theory of Mind, Asynchronous Reflection, Belief, Guide, alongside General Introduction and Information History Buffer for real-time human-AI collaboration.
+- DPT-Agent leverages Dual Process Theory, employing System 1 for rapid responses and System 2 for deliberate reasoning, to achieve autonomous and simultaneous human-AI collaboration.
+- The framework utilizes Finite-State Machine and code-as-policy in System 1 for fast decision-making, and Theory of Mind with asynchronous reflection in System 2 to infer human intentions and improve autonomous decisions.
+
+
+---
+
+[Hypothesis-Driven Theory-of-Mind Reasoning for Large Language Models](http://arxiv.org/abs/2502.11881v1)
+
+- Thought-tracing: introduces inference-time reasoning algorithm, with Parse Trajectory, Perception Inference, Hypothesis Inference, Initialize Hypotheses, Update Weights, Resample Hypotheses, Rejuvenate Hypotheses, Propagate Hypotheses, designed to trace agent mental states.
+- Thought-tracing algorithm, inspired by Bayesian theory-of-mind and sequential Monte Carlo, uses LLMs to generate and weight natural language hypotheses about agent beliefs based on perceptions and actions.
+- Thought-tracing improves performance on theory-of-mind benchmarks by providing intermediate reasoning steps, contrasting with math/coding focused reasoning models.
 
 
 ---
