@@ -43,6 +43,26 @@ Chronological order.
 
 </div>
 
+#### 17th February 2025
+
+[A-MEM: Agentic Memory for LLM Agents](http://arxiv.org/abs/2502.12110v1)
+
+- A-MEM (Agentic Memory) introduces agentic memory system for LLM agents with Note Construction, Link Generation, Memory Evolution, Memory Retrieval, and Memory components.
+- A-MEM enables dynamic memory structuring and autonomous memory management inspired by Zettelkasten method for long-term agent interactions.
+- A-MEM facilitates creation of interconnected knowledge networks and evolution of memories, enhancing LLM agents' long-term interaction capabilities.
+
+
+---
+
+[ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING](http://arxiv.org/abs/2502.12130v1)
+
+- ARMAP (autonomous Agents from automatic Reward Modeling And Planning): introduces a framework that enhances LLM agents' decision-making by using Automatic Reward Model (evaluates trajectory quality) to guide Default Policy Model (generates initial action plans) in Tree Planning (search algorithm for actions) using Trajectories (sequences of agent actions) and Reward (score for trajectory success).
+- Leverages Automatically Generated Dataset (training data for reward model) from Sampled Trajectories (trajectories from environment), Refine Task Instructions (improved task goals), and Sample Negative Trajectories (unsuccessful action paths) to train Reward Model (evaluates trajectory success) without human annotations.
+- Improves agent performance across tasks by integrating learned Reward Model (evaluates trajectory success) with various planning algorithms, addressing limitations of data scarcity and API accessibility for complex interactive environments.
+
+
+---
+
 #### 14th February 2025
 
 
