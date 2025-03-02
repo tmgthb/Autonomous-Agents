@@ -498,6 +498,116 @@ Chronological order.
 
 ---
 
+[ARACNE: An LLM-Based Autonomous Shell Pentesting Agent](http://arxiv.org/abs/2502.18528v1)
+
+- ARACNE (Autonomous LLM-based Shell Pentesting Agent): introduces a novel multi-LLM architecture for autonomous shell pentesting, comprising user, core agent, planner, interpreter, summarizer, SSH server and context components.
+- ARACNE separates planning and command execution using distinct LLMs, enhancing flexibility and effectiveness in cybersecurity tasks.
+- The framework utilizes an optional summarizer to manage context window size, offering a trade-off between accuracy and attack duration.
+
+
+---
+
+[IGDA: Interactive Graph Discovery Agent](http://arxiv.org/abs/2502.17189v1)
+
+- IGDA (Interactive Graph Discovery Agent): introduces a LLM-based pipeline for interactive graph discovery, with Edge Confidence Estimation, Edge Experiment Selection, and Local Edge Updates components.
+- IGDA leverages LLMs for uncertainty-driven edge selection and local graph updates based on binary feedback from experiments.
+- IGDA iteratively refines graph predictions by selecting uncertain edges for experiments and updating related edges based on experimental outcomes.
+
+
+---
+
+[A Multi-LLM-Agent-Based Framework for Economic and Public Policy Analysis](http://arxiv.org/abs/2502.16879v1)
+
+- MLAB (Multi-LLM-Agent-Based Framework): introduces a novel approach for economic analysis by employing multiple LLMs as heterogeneous agents representing different socio-economic groups.
+- MLAB framework simulates policy impacts by mapping LLMs to educational and income brackets, utilizing calibrated economic parameters for each agent group.
+- This framework leverages LLMs' diverse reasoning capabilities to model population heterogeneity and analyze policy responses in economic scenarios.
+
+
+---
+
+[Graphy'our Data: Towards End-to-End Modeling, Exploring and Generating Report from Raw Data](http://arxiv.org/abs/2502.16868v1)
+
+- Graphy: introduces an end-to-end platform, with Offline Scrapper, Inspection, Define Workflow, File Extractor, LLM or Rule Extractor, Fact Node, Dimension Node, Navigation, Online Surveyor, Exploration, Search, StatRefiner, GraphView, NeighborQuery, Generation, DataInfer, Mindmap Generator, Confirmed, Report Writer, and Graph Store, that automates data modeling, exploration, and report generation from raw data.
+- Graphy platform comprises an offline Scrapper for transforming unstructured documents into structured graphs and an online Surveyor for iterative exploration and LLM-driven report creation.
+- Graphy facilitates progressive document investigation by enabling users to iteratively explore, analyze, and synthesize information from large unstructured datasets to generate high-quality reports.
+
+
+---
+
+[Leveraging Large Language Models for Effective and Explainable Multi-Agent Credit Assignment](http://arxiv.org/abs/2502.16863v1)
+
+- LLM-MCA (Large Language Model Multi-agent Credit Assignment): introduces centralized LLM Critic (LLM for credit assignment), Base Prompt (LLM initial instructions), LLM Parser (extracts feedback from LLM), Individualized Feedback (per-agent reward signals), Centralized Policy Training (learns decentralized policies), Demultiplexer (splits input data for critic), Multiplexer (aggregates agent feedback), Agent Policies (decentralized agent controllers), Environment (multi-agent simulation scenario), Observations and Global Reward (environment state input), and Joint Action (agent actions output).
+- LLM-MCA employs centralized LLM critic with base prompt to generate individualized feedback, guiding decentralized agent policy training for effective credit assignment.
+- By reformulating credit assignment as pattern recognition, LLM-MCA leverages LLMs to achieve human-level credit evaluation and enhance multi-agent cooperative learning.
+
+
+---
+
+[Grounded Persuasive Language Generation for Automated Marketing](http://arxiv.org/abs/2502.16810v1)
+
+- AI Realtor: introduces agentic framework, with Grounding Module, Personalization Module, Marketing Module, ChatGPT, to automate persuasive marketing content generation.
+- It uses LLMs to align content with user preferences and highlight factual attributes, demonstrated in real estate marketing.
+- The framework achieves superhuman persuasion in experiments, outperforming human experts in real estate marketing description generation.
+
+
+---
+
+[Multi-Agent Autonomous Driving Systems with Large Language Models: A Survey of Recent Advances](http://arxiv.org/abs/2502.16804v1)
+
+- LLM-based Multi-Agent ADS Framework: introduces multi-agent system for autonomous driving, with Environment (driving context), Information (perceived data), Action (driving commands), Profile (role definition), Agent (autonomous entity), Driver Agent (vehicle control), Infrastructure Agent (external infrastructure), Shared Message Pool (communication medium), and Memory (experience storage).
+- This framework employs profiles to define agent functionalities, facilitating collaborative decision-making through shared message pool and memory for experience retention.
+- The architecture improves driving safety and efficiency in intricate scenarios by integrating separate agents for vehicle and infrastructure interaction, supported by LLM-based reasoning capabilities.
+
+
+---
+
+[AlphaAgent: LLM-Driven Alpha Mining with Regularized Exploration to Counteract Alpha Decay](http://arxiv.org/abs/2502.16789v1)
+
+- AlphaAgent (LLM-Driven Alpha Mining with Regularized Exploration to Counteract Alpha Decay): introduces autonomous framework integrating Idea Agent, Factor Agent, and Eval Agent with regularization mechanisms for decay-resistant alpha factor mining.
+- AlphaAgent framework employs Human Knowledge, Research Report, Market Insight, Performance Metrics, Backtest, Self-reflection, Analysis Feedback, Factor Zoo, Regularization Mechanisms, Operator Library, and Abstract Syntax Trees within closed-loop iterative refinement process.
+- AlphaAgent utilizes originality enforcement, hypothesis-factor alignment, and complexity control to guide alpha generation, balancing financial rationale and market adaptability for effective alpha mining.
+
+
+---
+
+#### 23rd February 2025
+
+[GUARDIANS OF THE AGENTIC SYSTEM: PREVENTING MANY SHOTS JAILBREAK WITH AGENTIC SYSTEM](http://arxiv.org/abs/2502.16750v1)
+
+- Evaluating Agentic Systems: introduces methodology to evaluate agentic system security, with Reverse Turing Test, Aligning Multi-Agent Systems, and Prevention of Multi-Shot Jailbreaks.
+- The framework employs GamoraAI, RocketAI, Star-LordAI, GrootAI, ObserverAI agents for assessing security vulnerabilities, deceptive alignment, and jailbreak defense.
+- This comprehensive approach aims to enhance LLM-based agentic system robustness against adversarial threats through dynamic, tool-mediated security evaluations.
+
+
+---
+
+[RapidPen: Fully Automated IP-to-Shell Penetration Testing with LLM-based Agents](http://arxiv.org/abs/2502.16730v1)
+
+- RapidPen (RapidPenetration): introduces a fully automated penetration testing framework, integrating Re Module (task planning module), Act Module (command execution module), and RapidPen-vis (visualization and reporting tool), utilizing PTT (pentesting process data model) for IP-to-Shell achievement.
+- RapidPen framework incorporates ReAct paradigm with specialized RAG (Retrieval-Augmented Generation) repositories, featuring Re (L1) PTT Planner (PTT expansion and maintenance), Re (L1) PTT Prioritizer (task prioritization), Re (L2) New Tasks (Success Cases) (success case based task generation), Act (L1) Command Generation (command generation using RAG), Act (L1) Command Execution (executes commands), and Act (L1) Log Analysis (analyzes command logs) modules.
+- The framework leverages Command Generation RAG (RAG for command generation) and Success Cases RAG (RAG for success cases) to enhance offensive security, enabling autonomous vulnerability discovery and exploitation through iterative command refinement and success case reuse.
+
+
+---
+
+[From Text to Space: Mapping Abstract Spatial Models in LLMs during a Grid-World Navigation Task](https://arxiv.org/abs/2502.16690v1)
+
+- GWSOT (Grid-World Spatial Orientation Task): introduces agent, goal, grid, spatial information representations, LLM, activations, policy maps, and performance metrics to investigate spatial understanding of language models in grid navigation.
+- GWSOT evaluates how different spatial information representations like cartesian, topographic, and textual formats impact LLM navigation performance and internal spatial encoding.
+- The framework uses performance metrics and policy maps to analyze LLM success rate, path efficiency, and spatial decision-making within the grid-world environment.
+
+
+---
+
+
+[BIOMAZE: BENCHMARKING AND ENHANCING LARGE LANGUAGE MODELS FOR BIOLOGICAL PATHWAY REASONING](http://arxiv.org/abs/2502.16660v2)
+
+- PATHSEEKER: introduces LLM agent for biological pathway reasoning via interactive subgraph navigation.
+- PATHSEEKER enhances reasoning using global subgraph search, local subgraph search, graph encoding and final reasoning on pathway database.
+- This method provides robust, scientifically grounded approach for complex pathway reasoning challenges.
+
+
+
 
 #### 18th February 2025
 
