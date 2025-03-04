@@ -55,6 +55,60 @@ Chronological order.
 
 ---
 
+[The amplifier effect of artificial agents in social contagion](http://arxiv.org/abs/2502.21037v1)
+
+- Artificial Agent Social Contagion Framework: introduces agent types, experiments, attributes, threshold, adoption rate, seeding strategy, network, and proportion of artificial agents, to describe the impact of artificial agents on social contagion processes.
+- This framework investigates how artificial agents, compared to humans, exhibit lower adoption thresholds and amplify social contagion in networks.
+- The findings highlight the potential for artificial agents to accelerate behavioral shifts and raise questions about managing their influence in social systems.
+
+
+---
+
+[Retrieval Augmented Generation for Topic Modeling in Organizational Research: An Introduction with Empirical Demonstration](http://arxiv.org/abs/2502.20963v1)
+
+- Agentic RAG (Agentic Retrieval-Augmented Generation): introduces topic modeling method integrating retrieval, generation, and agent-driven learning for improved qualitative analysis.
+- Agentic RAG extends RAG with ReAct agent for iterative query reformulation and output evaluation, enhancing transparency and reliability.
+- Agentic RAG streamlines topic modeling by using embeddings, reducing preprocessing and improving efficiency over traditional methods.
+
+
+---
+
+[The Power of Personality: A Human Simulation Perspective to Investigate Large Language Model Agents](http://arxiv.org/abs/2502.20859v1)
+
+- Human Simulation Perspective: introduces framework with prompt-based personality shaping, single and multi-agent task testing and evaluation, group collaboration, team formation, and performance analysis to investigate personality traits influence on large language model agents in closed and open tasks.
+- This framework systematically explores how personality traits impact reasoning, creativity, and collaboration of LLM agents by assigning Big Five traits and evaluating performance in single-agent and multi-agent settings.
+- The study reveals that specific personality traits significantly affect agent performance and multi-agent systems exhibit collective intelligence driven by personality combinations, demonstrating LLMs' inherent human behavior simulation capabilities.
+
+
+---
+
+
+[Digital Player: Evaluating Large Language Models based Human-like Agent in Games](http://arxiv.org/abs/2502.20807v1)
+
+- CivAgent: introduces a Large Language Model-based agent for strategy games, integrating perception, memory, reasoning & planning, skills, tools, and game components for human-like gameplay.
+- CivAgent utilizes game observations and stored interaction data within its memory to inform reasoning and planning for executing in-game skills and leveraging external tools.
+- The framework incorporates a simulator within its tools component to enhance numerical reasoning and decision-making processes in the complex game environment.
+
+
+---
+
+[Cyber Defense Reinvented: Large Language Models as Threat Intelligence Copilots](http://arxiv.org/abs/2502.20791v1)
+
+- CYLENS (Cyber Defense Reinvented: Large Language Models as Threat Intelligence Copilots): introduces a cyber threat intelligence copilot system, integrating Base LLMs, Large-scale Knowledge, Task-Oriented Dataset, Curriculum Pre-training, Cascading Reasoning, and Specialized NLP Modules.
+- CYLENS enhances cyber threat analysis through cascading reasoning and specialized NLP modules for tasks like attribution, contextualization, detection, correlation, prioritization, and remediation.
+- The framework utilizes curriculum pre-training and fine-tuning methodologies to embed extensive CTI knowledge and adapt to diverse organizational needs in cybersecurity.
+
+
+---
+
+[The Rise of Darkness: Safety-Utility Trade-Offs in Role-Playing Dialogue Agents](http://arxiv.org/abs/2502.20757v1)
+
+- ADMP (Adaptive Dynamic Multi-Preference) introduces a method that dynamically adjusts safety-utility preferences, incorporating train dataset, ADMP, sample dataset, CMS, character settings, GPT-4, safety reward model, utility reward model and typical interaction library.
+- ADMP framework utilizes Coupling Margin Sampling (CMS) to enhance safety in high-risk scenarios through character-query risk coupling measurement within typical interaction library and preference weight sampling and mapping.
+- The framework aims to balance safety and utility in role-playing dialogue agents, addressing risk coupling between user queries and character settings to mitigate unsafe content generation.
+
+
+---
 
 
 #### 27th February 2025
