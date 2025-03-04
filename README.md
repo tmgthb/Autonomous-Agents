@@ -44,6 +44,19 @@ Chronological order.
 </div>
 
 
+#### 28th February 2025
+
+[ARIES: AUTONOMOUS REASONING WITH LLMS ON INTERACTIVE THOUGHT GRAPH ENVIRONMENTS](http://arxiv.org/abs/2502.21208v1)
+
+- ARIES (AUTONOMOUS REASONING WITH LLMS ON INTERACTIVE THOUGHT GRAPH ENVIRONMENTS) introduces a multi-agent framework with Policy Agent, Reasoning Agent, and Thought Graph to enhance reasoning in LLMs.
+- ARIES framework utilizes Policy Agent to select Actions that Reasoning Agent executes on Thought Graph, dynamically adapting problem-solving strategy.
+- The framework aims to improve reasoning accuracy and efficiency by using LLMs as policy agents to guide exploration within a structured thought graph environment.
+
+
+---
+
+
+
 #### 27th February 2025
 
 [WHY ARE WEB AI AGENTS MORE VULNERABLE THAN STANDALONE LLMS? A SECURITY ANALYSIS](http://arxiv.org/abs/2502.20383v1)
