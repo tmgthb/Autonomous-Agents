@@ -45,6 +45,17 @@ Chronological order.
 
 #### 11th March 2025
 
+
+[ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews](http://arxiv.org/abs/2503.08506v1)
+
+- ReviewAgents: introduces multi-agent framework with Reviewer- and Area Chair-Agents, utilizing Papers as input and producing Meta Review as output for emulating human peer review process.
+- Reviewer Agent generates structured review comments, while Area Chair Agent synthesizes meta-review from multiple reviewer comments, aiming to align with human review behavior.
+- Framework employs relevant-paper-aware training and structured reasoning (Summarization, Analysis, Conclusion) to enhance review comment generation and reduce biases inherent in single LLM reviews.
+
+
+---
+
+
 [CoLMDriver: LLM-based Negotiation Benefits Cooperative Autonomous Driving](http://arxiv.org/abs/2503.08683v1)
 
 - CoLMDriver (Cooperative Language-Model-based Driver): introduces a full pipeline system for cooperative autonomous driving, incorporating VLM-based Intention Planner for high-level goals, Dynamic Graph Grouping for agent selection, and LLM-based Negotiator with Actor/Critic for language-based consensus.
@@ -72,14 +83,6 @@ Chronological order.
 
 ---
 
-[ReviewAgents: Bridging the Gap Between Human and AI-Generated Paper Reviews](http://arxiv.org/abs/2503.08506v1)
-
-- ReviewAgents: introduces multi-agent framework with Reviewer- and Area Chair-Agents, utilizing Papers as input and producing Meta Review as output for emulating human peer review process.
-- Reviewer Agent generates structured review comments, while Area Chair Agent synthesizes meta-review from multiple reviewer comments, aiming to align with human review behavior.
-- Framework employs relevant-paper-aware training and structured reasoning (Summarization, Analysis, Conclusion) to enhance review comment generation and reduce biases inherent in single LLM reviews.
-
-
----
 
 [Seeing and Reasoning with Confidence: Supercharging Multimodal LLMs with an Uncertainty-Aware Agentic Framework](http://arxiv.org/abs/2503.08308v1)
 
