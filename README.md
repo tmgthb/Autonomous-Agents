@@ -43,6 +43,85 @@ Chronological order.
 
 </div>
 
+
+#### 12th March 2025
+
+[PLAN-AND-ACT: Improving Planning of Agents for Long-Horizon Tasks](http://arxiv.org/abs/2503.09572v1)
+
+- PLAN-AND-ACT: introduces PLANNER, EXECUTOR and Dynamic Replanning to improve agent planning for long-horizon tasks.
+- PLANNER decomposes user queries into high-level plans, while EXECUTOR translates plans into environment actions, and Dynamic Replanning updates plans based on environment changes.
+- PLAN-AND-ACT framework separates planning and execution responsibilities to enhance performance in complex, long-horizon tasks within dynamic environments.
+
+
+---
+
+
+[Large Language Models for Multi-Facility Location Mechanism Design](http://arxiv.org/abs/2503.09533v1)
+
+- LLMMech (Large Language Models for Mechanism Design): introduces an evolutionary framework integrating LLMs to automate the design of strategyproof mechanisms using InitializationPrompt, Select, VariationPrompt, PopulationManager and PromptEvolution components.
+- LLMMech framework leverages LLMs for generating interpretable, hyperparameter-free, and empirically strategyproof mechanisms for multi-facility location problems.
+- The framework incorporates PromptEvolution to automatically refine prompts, enhancing the diversity of generated mechanisms and improving search for optimal solutions.
+
+
+---
+
+[REMA: LEARNING TO META-THINK FOR LLMS WITH MULTI-AGENT REINFORCEMENT LEARNING](http://arxiv.org/abs/2503.09501v1)
+
+- ReMA (Reinforced Meta-thinking Agents): introduces multi-agent reinforcement learning framework with high-level meta-thinking agent, low-level reasoning agent, meta-thinking, reasoning, MARL, feedback, and solution.
+- ReMA framework decouples reasoning into hierarchical agents: meta-thinking agent for strategic planning and reasoning agent for detailed execution, enabling collaborative learning.
+- Iterative reinforcement learning with aligned objectives in ReMA facilitates agent collaboration, improving generalization and robustness in complex reasoning tasks.
+
+
+---
+
+[COLA: A SCALABLE MULTI-AGENT FRAMEWORK FOR WINDOWS UI TASK AUTOMATION](http://arxiv.org/abs/2503.09263v1)
+
+- COLA (Collaborative Multi-Agent framework for automating Windows UI operations) introduces a multi-agent framework with Planner, Task Scheduler, Decision Agent Pool, Executor, and Reviewer, enhanced by Short-Term and Long-Term Memory units for Windows UI task automation.
+- COLA framework utilizes a Task Scheduler to dynamically assign coarse-grained subtasks from Planner to specialized agents within Decision Agent Pool, enabling flexible and scalable task execution.
+- The framework incorporates memory units for agent self-evolution and an interactive backtracking mechanism for non-destructive error recovery, improving robustness and performance in UI automation tasks.
+
+
+---
+
+[AdaptAI: A Personalized Solution to Sense Your Stress, Fix Your Mess, and Boost Productivity](https://doi.org/10.1145/3706599.3720284)
+
+- AdaptAI (AdaptAI: A Personalized Solution to Sense Your Stress, Fix Your Mess, and Boost Productivity): introduces a multimodal AI system, with Processing Module (integrates multimodal real-time streams), External Task Agents (automates simple extra tasks), Personalized Well-being Intervention Pipeline (delivers personalized interventions), and Tone-adaptive Conversational Agent TCA (adjusts tone based on heart activity), to provide personalized productivity and well-being support.
+- AdaptAI leverages egocentric vision, audio, heart rate, and motion data, processed by Speech-to-Text (audio to text conversion), EGOCENTRIC CAPTION LLM (processes egocentric vision captions), VLM (vision language model), SCREEN CAPTION LLM (processes screen captions), Stress Estimation (assesses user stress levels), and Movement Estimation (assesses user movement) within the Processing Module, alongside Live Routine Mapping (maps user's daily activities) and Memory (temporary data storage) for context-aware interventions.
+- The framework employs External Task Agents (automates simple extra tasks) like Email Agent (manages email tasks) and Meeting Agent (manages meeting tasks) to streamline workflows, while Personalized Intervention (provides personalized well-being support) and TCA (adjusts tone based on heart activity) enhance user experience by addressing physical and psychological states dynamically.
+
+
+---
+
+LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/2503.09089v1)
+
+- LOCAGENT (LOCAGENT): introduces graph-oriented LLM-agent framework, with Codebase, Code Graph Indexing, Entity Indexing, Agent Runtime, Tools, LLM Agent, Observation, Event Log, Action, Localized Code Sections, Result, Entity ID Index, Entity Name Index, BM25 Index on Entity IDs, BM25 Index on Entity Contents, contain, import, invoke, and inherit, for code localization using graph-based representation and agent-guided search.
+- LOCAGENT framework utilizes Code Graph Indexing and Entity Indexing to create efficient codebase representations, enabling LLM Agent within Agent Runtime to use Tools for navigating and searching code, ultimately providing Localized Code Sections as Result.
+- LOCAGENT's architecture emphasizes structured code exploration through graph-based indexing and specialized tools, facilitating accurate and cost-effective code localization by leveraging LLM Agent's reasoning within Agent Runtime environment.
+
+
+---
+
+[Agentic Control for Safe Autonomous Stunt Maneuvers](http://arxiv.org/abs/2503.09035v1)
+
+- ManeuverGPT: introduces agentic framework with Query Enricher Agent, Driver Agent, Parameter Validator Agent and Orchestrator for generating stunt maneuvers.
+- It iteratively refines control parameters using feedback and validation for safe execution.
+- The framework combines LLM-based reasoning with algorithmic validation for flexible high-dynamic maneuvers.
+
+
+---
+
+[ARCHED: A Human-Centered Framework for Transparent, Responsible, and Collaborative AI-Assisted Instructional Design](http://arxiv.org/abs/2503.08931v1)
+
+- ARCHED (AI for Responsible, Collaborative, Human-centered Education Instructional Design) introduces a three-phase framework for AI-assisted instructional design, incorporating Web Interface (LOGS), Educational Parameters Specification, LOGS, OAE Analysis, Temporary Repository for Refinement, Cognitive Demand Analysis, and Innovative Assessment Strategies to enhance human-AI collaboration.
+- ARCHED framework utilizes LOGS for initial learning objective generation based on educator-specified parameters and OAE Analysis for evaluating objectives against pedagogical criteria, ensuring iterative refinement and alignment.
+- The framework aims to maintain human agency and pedagogical rigor in AI-assisted instructional design by providing transparent AI reasoning and promoting diverse assessment strategies through specialized components.
+
+
+---
+
+
+
+
 #### 11th March 2025
 
 
