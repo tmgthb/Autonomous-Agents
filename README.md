@@ -44,6 +44,135 @@ Chronological order.
 </div>
 
 
+#### 13th March 2025
+
+[UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](http://arxiv.org/abs/2503.10630v1)
+
+- UniGoal: introduces a universal zero-shot goal-oriented navigation framework utilizing Observation RGB-D as input and Agent Pose to construct Scene Graph and Goal Graph, employing Graph Matching and Blacklist within a Global Policy across Stage 1: Zero Matching, Stage 2: Partial Matching, and Stage 3: Perfect Matching to output Action based on Deterministic Local Policy and Occupancy Map, further incorporating Graph Correction and Goal Verification.
+- This framework uniformly represents diverse goals as graphs and performs graph matching between Scene Graph and Goal Graph to guide a multi-stage exploration policy, enabling zero-shot navigation across object category, instance image, and text description goals.
+- The multi-stage policy progresses from initial exploration in Stage 1: Zero Matching to coordinate projection in Stage 2: Partial Matching and finally to verification in Stage 3: Perfect Matching, ensuring robust navigation through graph-based reasoning and a blacklist mechanism for avoiding repeated failures.
+
+
+---
+
+[COSTA*: Cost-Sensitive Toolpath Agent for Multi-turn Image Editing](http://arxiv.org/abs/2503.10613v1)
+
+- COSTA* (Cost-Sensitive Toolpath Agent): introduces a three-stage framework with LLM for subtask tree generation, Tool Dependency Graph and Model Description Table for tool organization, A* Search for optimal pathfinding, Quality Check by VLM for output evaluation, utilizing Tools and Benchmark Table for informed decisions in multi-turn image editing.
+- COSTA* leverages LLM for high-level planning and A* search for detailed toolpath optimization, incorporating Tool Dependency Graph and Model Description Table to manage tool dependencies and capabilities, while Benchmark Table and Quality Check by VLM ensure cost-effective and high-quality image editing.
+- The framework balances computational cost and output quality through a cost-sensitive A* search guided by a Benchmark Table and real-time feedback from Quality Check by VLM, enabling efficient exploration of toolpaths within the Tool Dependency Graph and Subtask Tree for complex image editing tasks.
+
+
+---
+
+[SySLLM: Generating Synthesized Policy Summaries for Reinforcement Learning Agents Using Large Language Models](http://arxiv.org/abs/2503.10509v1)
+
+- SySLLM (Synthesized Summary using LLMs) introduces Env, Observation Captioner, Agent, Action Captioner, Experience Dataset, Prompt, Formatted Dataset, LLM, and Summary to generate policy summaries by converting agent experiences into natural language and utilizing LLMs for synthesis.
+- SySLLM leverages captioners to translate environment observations and agent actions into textual descriptions, which are then formatted with a prompt and fed into an LLM to produce a comprehensive policy summary.
+- The framework facilitates understanding of complex RL policies by synthesizing concise, coherent, and human-readable summaries from agent-environment interactions, enhancing interpretability and trust in RL agents.
+
+
+---
+
+[New Trends for Modern Machine Translation with Large Reasoning Models](https://arxiv.org/abs/2503.10351v1)
+
+- LRM-based MT (Large Reasoning Model based Machine Translation): introduces framework with Machine Translation and Large Reasoning Model, addressing Foundational Challenges like Stylized-, Document-, Multimodal Translation, exploring New Opportunities such as Self-Reflection, Auto-Pivoting, and venturing Beyond Translation into Deciphering Encoded Text.
+- This framework leverages Large Reasoning Models to enhance Machine Translation by tackling complex scenarios and introducing novel capabilities beyond traditional text-to-text mapping.
+- The approach aims to redefine translation as dynamic reasoning task, moving beyond mere text conversion towards multilingual cognitive agent functionality.
+
+
+---
+
+[Capturing Semantic Flow of ML-based Systems](http://arxiv.org/abs/2503.10310v1)
+
+- Semantic Flow: introduces semantic flow graphs for capturing ML-system executions through latent space progression, using Conv2d, MaxPool2d, Linear, ReLU, Flatten, AutoFL, LLM, Latent Space, Semantic State, Semantic Cluster, LLM Inference Graph, and Function Call Nodes components.
+- Semantic flow graphs represent semantic states as clusters in latent spaces and transitions between these clusters, enabling analysis of ML-system behaviour beyond traditional control flow.
+- This approach facilitates understanding, debugging, and improving ML-based systems by visualizing and quantifying their internal decision-making processes and execution diversity.
+
+
+---
+
+[LLM Agents Display Human Biases but Exhibit Distinct Learning Patterns](http://arxiv.org/abs/2503.10248v1)
+
+- DFE Framework (Decisions From Experience Framework): introduces LLM Agents (language model decision-makers) within DFE Tasks (repeated choice scenarios) to evaluate behavioral patterns through Feedback (outcome information) and Choice History (past interaction record).
+- This framework investigates how LLMs, provided with Feedback and Choice History in DFE Tasks, exhibit human-like biases such as underweighting rare events and correlation effects.
+- The DFE Framework highlights differences in learning patterns between LLMs and humans, revealing LLMs' strong recency bias and absence of "surprise triggers change" and "wavy recency effect" phenomena observed in human behavior.
+
+
+---
+
+[SCOOP: A Framework for Proactive Collaboration and Social Continual Learning through Natural Language Interaction and Causal Reasoning](http://arxiv.org/abs/2503.10241v1)
+
+- SCOOP (Social Continual Object-Oriented POMDP): introduces a base Oracle-Aided ReAct architecture that extends ReAct framework with actions to query state, user preferences, and environment mechanics.
+- SCOOP framework also proposes an advanced ReAct architecture incorporating CausalRefinementAndAction, LLM, external oracle, causal inference libraries, causal knowledge graph, and planning routines for enhanced reasoning.
+- SCOOP framework facilitates agents learning through dialogue, questions, and interaction in open environments, refining causal understanding while balancing exploration and exploitation.
+
+
+---
+
+[Hybrid Agents for Image Restoration](http://arxiv.org/abs/2503.10120v1)
+
+- HybridAgent: introduces interactive image restoration paradigm with user inputs, fast-agent, slow-agent, feedback-agent, restoration tools and memory.
+- HybridAgent: employs fast-agent for direct prompts, slow-agent for vague prompts, feedback-agent for quality assessment, and restoration tools for image enhancement, utilizing memory to track restoration history.
+- HybridAgent: leverages instruction-tuning dataset to optimize agents and restoration tools, achieving efficient and effective image restoration through collaborative agent interaction.
+
+
+---
+
+[StepMathAgent: A Step-Wise Agent for Evaluating Mathematical Processes through Tree-of-Error](http://arxiv.org/abs/2503.10105v1)
+
+- StepMathAgent: introduces a mathematical process evaluation agent based on Tree-of-Error, incorporating logical step segmentation, step scoring, score aggregation, error tree generation, difficulty calibration, simplicity evaluation, completeness validation, and format assessment.
+- StepMathAgent evaluates mathematical problem-solving processes by segmenting solutions into steps, scoring each step, aggregating scores, and generating error trees for interpretability and feedback.
+- StepMathAgent addresses limitations of answer-based evaluations by providing fine-grained assessments, interpretability through error trees, and adaptability to diverse evaluation scenarios.
+
+
+---
+
+[Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM](http://arxiv.org/abs/2503.10071v1)
+
+- ATLASS (Advanced Tool Learning and Selection System): introduces a closed-loop framework employing Task Analyzer for decomposition, Tool Master for tool necessity assessment, Tool Selector for tool selection, Tool Generator for tool creation, Tool Dataset for storage, and Task Solver for execution, alongside Code Writer, Code Executor, Documentation Context, Web Automation Bot, and API Key for tool generation and usage.
+- This framework facilitates dynamic tool generation and selection by LLMs, enabling adaptive problem-solving through iterative refinement and reuse of tools stored in the Tool Dataset.
+- ATLASS enhances LLM agents' capabilities to address complex tasks by automating tool creation and integration, overcoming limitations of predefined toolsets and improving adaptability in diverse scenarios.
+
+
+---
+
+[Enhancing Multi-Agent Systems via Reinforcement Learning with LLM-based Planner and Graph-based Policy](http://arxiv.org/abs/2503.10049v1)
+
+- LGC-MARL (LLM-based Graph Collaboration MARL): introduces framework integrating LLM Planner and Graph-based policy to enhance multi-agent reinforcement learning in complex tasks.
+- LGC-MARL framework: decomposes tasks into executable subtasks using LLM Planner, and coordinates agents via Graph-based policy guided by action dependency graph.
+- LGC-MARL framework: employs Critic LLM for plan refinement and LLM-based reward function generator, improving collaboration and learning efficiency in multi-agent systems.
+
+
+---
+
+[OR-LLM-Agent: Automating Modeling and Solving of Operations Research Optimization Problem with Reasoning Large Language Model](https://github.com/bwz96sco/or_llm_agent)
+
+- OR-LLM-Agent (Operations Research - Large Language Model - Agent): introduces an AI framework that automates operations research problem-solving by using LLM mathematical modeling, LLM code generation and OR-CodeAgent for code execution and repair, replacing traditional expert and programmer roles.
+- OR-LLM-Agent framework leverages reasoning LLMs to translate natural language problem descriptions into mathematical models, subsequently generating executable solver code and managing automated code execution within a sandbox environment.
+- The framework's OR-CodeAgent component enhances robustness through self-repair and self-verification mechanisms, iteratively refining code and mathematical models to achieve feasible and accurate solutions for real-world operations research problems.
+
+
+---
+
+[AgentDAM: Privacy Leakage Evaluation for Autonomous Web Agents](http://arxiv.org/abs/2503.09780v1)
+
+- AgentDAM (Agent Data Minimization): introduces benchmark for evaluating privacy leakage in web agents, processing user instruction and data within web environment using LLM backbone, generating actions judged by privacy evaluator.
+- AgentDAM benchmark assesses agent's ability to minimize private data processing during web navigation tasks, measuring both task performance and privacy leakage.
+- AgentDAM provides a framework to analyze and mitigate privacy risks associated with autonomous AI web agents accessing sensitive user information.
+
+
+---
+
+[Multi-Agent LLM Actor-Critic Framework for Social Robot Navigation](http://arxiv.org/abs/2503.09758v1)
+
+- SAMALM (Socially-Aware Multi-Agent actor-critic LLM framework): introduces decentralized multi-agent system for social robot navigation, employing Local Observation, Multi-Robot LLM-Actors, Action List, Multi-Robot LLM-Critics, Output Execution, Re-Query with (Critic Feedback), Evaluation Threshold, Entropy Fusion Mechanism, Global LLM Critic, Local LLM Critic, LLM Actor, and Robot World Model components.
+- SAMALM framework utilizes parallel LLM actors for generating robot-specific control signals, which are evaluated by global and local LLM critics, and refined through an entropy-based fusion and re-query mechanism to ensure socially compliant navigation.
+- The architecture of SAMALM facilitates self-verification and iterative refinement of robot actions, balancing individual robot autonomy with global team coordination in complex social environments through multi-agent LLM actor-critic approach.
+
+
+---
+
+
 #### 12th March 2025
 
 [PLAN-AND-ACT: Improving Planning of Agents for Long-Horizon Tasks](http://arxiv.org/abs/2503.09572v1)
