@@ -43,8 +43,103 @@ Chronological order.
 
 </div>
 
+#### 14th March 2025
+
+[Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery](http://arxiv.org/abs/2503.11444v1)
+
+- Cerebrum (AIOS SDK): introduces a modular four-layer architecture comprising LLM Layer, Memory Layer, Storage Layer, and Tool Layer, alongside Overrides Layer, Agent Hub, Agent Chat, Context Manager, Scheduler, LLM Core(s), Tool Manager, Memory Manager, Storage Manager, Agent Manager, Planning Module, Action Module, Memory Module, Storage Module, AIOS Kernel, User Device, Exposed Ports, LLM Queue, Memory Queue, Tool Queue, Storage Queue, Agent Applications, AIOS System Call, and Thread Binding for agent development, deployment, distribution, and discovery.
+- Cerebrum framework provides a comprehensive SDK with a community-driven Agent Hub for sharing agents and an interactive web interface Agent Chat for agent testing and evaluation, aiming to standardize agent development and promote collaboration.
+- The platform's architecture facilitates both fine-grained control over agent behavior and rapid development through high-level abstractions, supporting diverse agent methodologies and user-created agent distribution within a centralized hub.
+
+
+---
+
+[Alstorian lets AI be a historian: A KG-powered multi-agent system for accurate biography generation](http://arxiv.org/abs/2503.11346v1)
+
+- Alstorian: introduces a knowledge graph powered retrieval-augmented generation system for biography creation, integrating KG-based index, two-step training, prompt, retrieval, aligned model, biography, verifier, error-aware generation, and error-aware solvers components.
+- Alstorian employs KG-based index for structured knowledge retrieval and two-step training to enhance stylistic consistency of generated biographies, alongside multi-agent system for real-time error detection and correction.
+- The framework achieves improved factual accuracy and reduced hallucination in biography generation through error-aware mechanisms and knowledge graph integration, demonstrating advancements over existing methods.
+
+
+---
+
+[GNNs as Predictors of Agentic Workflow Performances](http://arxiv.org/abs/2503.11301v1)
+
+- FLOW-GNN (workflow graph neural network): introduces a framework for predicting agentic workflow performance using Agentic workflow, Task instruction, Sentence transformer, Graph & node features, GNN encoder, Projector, Task embedding, Concatenation, MLP, and Predicted performance.
+- This framework leverages GNNs to efficiently predict agentic workflow performance by encoding workflow structure and task instructions into embeddings and using MLP for prediction, avoiding costly LLM invocations.
+- FLOW-GNN framework aims to automate agentic workflow optimization by providing a fast and accurate performance predictor, enabling efficient exploration of workflow designs.
+
+
+---
+
+
+[COLLABORATION IS ALL YOU NEED: LLM ASSISTED SAFE CODE TRANSLATION](http://arxiv.org/abs/2503.11237v1)
+
+- UniTranslator: introduces a multi-agent framework for code translation with Input Code processed by DirectorLLM, leveraging Agent Garden, LLM Quorum, and Compiler Garden within a Decision Loop using Feedback to produce Translated Code.
+- UniTranslator framework utilizes DirectorLLM to orchestrate specialized agents in Agent Garden and select appropriate LLMs from LLM Quorum, employing Compiler Garden for validation and Feedback for iterative refinement within Decision Loop.
+- This architecture aims to enhance code translation accuracy and efficiency by using collaborative compact LLMs and knowledge grounding, overcoming limitations of monolithic models and enabling deployment on common hardware.
+
+
+---
+
+[Prompt Alchemy: Automatic Prompt Refinement for Enhancing Code Generation](http://arxiv.org/abs/2503.11085v1)
+
+- Prochemy (Prompt Alchemy): introduces automated prompt refinement framework, with Training Set Generation, Optimization, Mutation, Evaluation, Selection, LLM, Existing Data, Mutated Data, Training Set, Initial Prompt, Selected Prompt and Final Prompt, to enhance code generation by iteratively refining prompts based on model performance.
+- Prochemy leverages a training set composed of existing and mutated data to evaluate and select optimal prompts through mutation, evaluation, and selection steps, ensuring consistency and reliability.
+- The framework is designed as plug-and-play, compatible with existing prompt engineering methodologies, and validated across diverse datasets and language models for code generation and translation tasks.
+
+
+---
+
+[Large Reasoning Models in Agent Scenarios: Exploring the Necessity of Reasoning Capabilities](http://arxiv.org/abs/2503.11074v1)
+
+- LaRMA Framework (Large Reasoning Models in Agent Scenarios framework): introduces Task Segmentation (categorizes agent tasks), Agent Paradigm (selects reasoning paradigms), Model Evaluation (evaluates LLMs and LRMs), Performance Evaluation (measures task success), and Reasoning Evaluation (assesses reasoning quality).
+- LaRMA framework systematically investigates reasoning in agents by dissecting tasks, selecting paradigms like ReAct and Reflexion, and evaluating performance and reasoning metrics.
+- This framework facilitates understanding of reasoning capabilities in LLMs and LRMs across diverse tasks and paradigms, contributing to agent design advancements.
+
+
+---
+
+[API Agents vs. GUI Agents: Divergence and Convergence](http://arxiv.org/abs/2503.11069v1)
+
+- This paper introduces API Agent, GUI Agent and Hybrid Agent frameworks, which includes User (initiates task), API Agent (uses APIs), GUI Agent (uses GUI), API Information (API descriptions), Action (API) (executes API call), GUI Observation (GUI perception), Action (GUI) (interacts with GUI), API Wrapper (wraps GUI with API), Action Orchestrator (manages actions), Hybrid Agent (uses both APIs and GUI), GUI Workflow (GUI action sequence), Payment Gateway (handles payments), Shipping Service (manages shipping), and GUI Verification (verifies GUI).
+- API Agent framework utilizes structured API calls for efficient and reliable automation, while GUI Agent framework interacts with applications through visual interfaces for broader applicability.
+- Hybrid Agent framework combines API and GUI approaches to leverage their respective strengths, aiming for versatile and adaptable automation solutions.
+
+
+---
+
+
+[Banner Agency: Advertising Banner Design with Multimodal LLM Agents](http://arxiv.org/abs/2503.11060v1)
+
+- BannerAgency: introduces a training-free framework for automated banner ad design, incorporating Strategist, Background Designer, Foreground Designer, Developer, Memory, and External Knowledge & Tools components.
+- BannerAgency leverages multimodal LLMs as agents to simulate a human design team workflow, from strategy to implementation, for generating editable banner designs.
+- The framework utilizes memory and external knowledge to enable context-aware decisions and supports multiple banner sizes through component-based approach.
+
+
+---
+
+[TxAgent: An AI Agent for Therapeutic Reasoning Across a Universe of Tools](http://arxiv.org/abs/2503.10970v1)
+
+- TXAGENT (TXAGENT): introduces an AI agent for therapeutic reasoning, integrating TOOLUNIVERSE, Specialized LLM, and TOOLRAG model.
+- TXAGENT leverages multi-step reasoning and real-time biomedical knowledge retrieval across a toolbox of 211 tools for analyzing drug-related tasks.
+- TXAGENT ensures treatment recommendations align with clinical guidelines and real-world evidence, reducing adverse events and improving decision-making.
+
+
+---
+
 
 #### 13th March 2025
+
+
+[Teamwork makes the dream work: LLMs-Based Agents for GitHub README.MD Summarization](http://arxiv.org/abs/2503.10876v1)
+
+- Metagente: introduces a multi-agent framework composed of Extractor Agent, Summarizer Agent, Teacher Agent, and Prompt Creator Agent, utilizing LangChain for communication and ROUGE-L for evaluation within a Fine Tuning process to generate Generated About from README.MD.
+- Metagente employs Extractor Agent to filter README.MD content, Summarizer Agent to create summaries, Teacher Agent to refine prompts, and Prompt Creator Agent to finalize prompts, iteratively improving summary quality.
+- The framework leverages a teacher-student architecture for prompt optimization, enhancing the synergy of LLM agents to achieve improved summarization performance for GitHub README.MD files.
+
+
+---
 
 [UniGoal: Towards Universal Zero-shot Goal-oriented Navigation](http://arxiv.org/abs/2503.10630v1)
 
