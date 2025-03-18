@@ -43,7 +43,248 @@ Chronological order.
 
 </div>
 
+#### 17th March 2025
+
+[A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](http://arxiv.org/abs/2503.13415v1)
+
+- LLMs-enhanced MARL Framework: introduces a structure integrating Large Language Models with Multi-Agent Reinforcement Learning, encompassing Feature Representation Extractor, Language Translator, Reward Models, Decision-makers, World Model Simulator, and Policy Interpreter.
+- This framework leverages LLMs for enhanced reasoning and language understanding within MARL agents, facilitating improved collaboration and decision-making in complex environments.
+- The architecture supports various roles for LLMs, including information processing, reward design, decision-making, and output generation, aiming to address challenges in multi-agent systems.
+
+
+--
+
+[Toward Generative 6G Simulation: An Experimental Multi-Agent LLM and ns-3 Integration](http://arxiv.org/abs/2503.13402v1)
+
+- Multi-Agent LLM framework: introduces a multi-agent system with Simulation Generation, Test Designer, Test Executor, and Result Interpretation Agents, leveraging External Tools and LLMs within a Feedback Loop managed by Agent Orchestration Layer for automated network simulation.
+- This framework integrates specialized agents to automate simulation lifecycle stages, from natural language input to actionable insights, using ns-3 and iterative refinement.
+- The framework enhances simulation accuracy and reduces manual coding by employing LLMs and external knowledge, facilitating rapid prototyping in complex network environments.
+
+
+---
+
+[MicroVQA: A Multimodal Reasoning Benchmark for Microscopy-Based Scientific Research](http://arxiv.org/abs/2503.13399v1)
+
+- MicroVQA: introduces a benchmark, with Raw VQA creation, Exam-style MCQ generation, and RefineBot, for multimodal reasoning in microscopy-based research.
+- MicroVQA benchmark evaluates expert image understanding, hypothesis generation, and experiment proposal capabilities.
+- RefineBot component enhances MCQ difficulty by iteratively refining questions and distractors based on chain-of-thought analysis.
+
+
+---
+
+[Agents Play Thousands of 3D Video Games](http://arxiv.org/abs/2503.13356v1)
+
+- PORTAL (Policy Optimization and Reasoning for Tactical Artificial Learning): introduces a novel framework for game-playing AI agents, leveraging Strategy Description, BT DSL, Behavior Tree DSL, Blackboard Variables, Control Flows, Neural Nets, Hand-crafted Rules, Generated Codes, Task Nodes, BT Generator, Parser, Reflexion, Rollout, JSON, and AI C++ Server components.
+- PORTAL framework utilizes LLMs as policy architects to generate Behavior Tree DSL policies, which are then parsed and executed in a game environment, incorporating a reflexion mechanism for iterative policy refinement based on game feedback.
+- The framework's hybrid architecture combines strategic reasoning from LLMs with efficient execution through behavior trees and neural networks, enabling rapid deployment and adaptation of game agents across diverse 3D video game environments.
+
+
+---
+
+[Goal2Story: A Multi-Agent Fleet based on Privately Enabled sLLMs for Impacting Mapping on Requirements Elicitation](http://arxiv.org/abs/2503.13279v1)
+
+- Goal2Story (Impact Mapping framework): introduces multi-agent fleet for goal-driven requirements elicitation, with Alpha Captain, Intelligence Officer, Delivery Coordinator, Tactical Officer, Format Doctor, Validation Agent, and StorySeek dataset.
+- It leverages privately enabled small language models and Impact Mapping framework to automate requirements elicitation in agile development.
+- The framework aims to improve efficiency and quality of user story generation while addressing data privacy and cost concerns associated with large language models.
+
+
+---
+
+[KNOWLEDGE-AWARE ITERATIVE RETRIEVAL FOR MULTI-AGENT SYSTEMS](http://arxiv.org/abs/2503.13275v1)
+
+- Knowledge-Aware Iterative Retrieval for Multi-Agent Systems: introduces agent framework with Query Planning, Knowledge Update Mechanism, and Contextual Filtering for iterative knowledge retrieval.
+- Framework decouples external sources from internal knowledge cache, enabling dynamic search exploration and mitigating bias reinforcement loops.
+- System supports multi-agent extensions for competitive and collaborative knowledge sharing, enhancing reasoning and scalability in complex tasks.
+
+
+---
+
+[DAgent: A Relational Database-Driven Data Analysis Report Generation Agent](http://arxiv.org/abs/2503.13269v1)
+
+- DAgent (Relational Database-Driven Data Analysis Report Generation Agent) introduces a novel LLM agent framework for relational database analysis report generation, integrating Planning Module (processes input queries), Decomposition Tools (breaks down complex questions), Data Retrieval Tools (retrieves data from database), SQL Rewriting Tools (optimizes SQL queries), Report Generation Tools (generates analytical reports), Tools Module (collection of specialized components), and Memory Module (stores historical data).
+- DAgent framework utilizes planning to decompose complex questions, employs tools for data retrieval and report generation, and incorporates memory to enhance efficiency and contextual understanding for relational database-driven data analysis report generation.
+- The modular architecture of DAgent facilitates efficient task decomposition, flexible data retrieval strategies, and precise report synthesis, demonstrating strong potential for complex database analysis tasks.
+
+
+---
+
+[MAP: Evaluation and Multi-Agent Enhancement of Large Language Models for Inpatient Pathways](http://arxiv.org/abs/2503.13205v1)
+
+- MAP (Multi-Agent Inpatient Pathways): introduces a multi-agent framework with Triage-, Diagnosis-, Treatment-, and Chief-Agents, supported by Record Review-, Trainable REG-, and Expert Guidance-Modules, utilizing Medical Records and a Medical Knowledge Base, to enhance large language model performance in inpatient pathways.
+- MAP framework simulates inpatient pathway flow through collaborative agents, where each agent is empowered by specialized LLMs and modules for complex medical scenario processing and improved diagnostic accuracy.
+- The framework's modular design, incorporating record review, retrieval-enhanced generation, and expert guidance, aims to address limitations of current LLMs in complex inpatient diagnostic support by integrating diverse clinical data and knowledge.
+
+
+---
+
+[MAP : Multi-user Personalization with Collaborative LLM-powered Agents](http://arxiv.org/abs/2503.12757v1)
+
+- MAP (Multi-Agent system for Multi-user Personalization): introduces Planner, Rule Manager, Rule Retriever, and Storage components within Reflection, Analysis, and Feedback stages for multi-user personalization.
+- MAP framework orchestrates specialized agents to retrieve user data, reason about personalization tasks, resolve conflicts, and incorporate user feedback through iterative workflow.
+- MAP leverages multi-agent system to implement user-centered personalization workflow, emphasizing user involvement in resolution verification and failure management.
+
+
+---
+
+[Identifying Cooperative Personalities in Multi-agent Contexts through Personality Steering with Representation Engineering](http://arxiv.org/abs/2503.12722v1)
+
+- Personality Steering Framework: introduces personality steering via representation engineering to investigate LLM cooperation within Iterated Prisoner's Dilemma environment, utilizing LLM agents and rule-based players.
+- Framework employs Big Five personality traits steering through vectors and prompts to analyze impact on LLM behavior across different communication setups.
+- Key components include representation engineering for personality modulation, IPD environment for strategic interaction, and communication module for enhanced agent interaction.
+
+
+---
+
+[Can Reasoning Models Reason about Hardware? An Agentic HLS Perspective](http://arxiv.org/abs/2503.12721v1)
+
+- Agentic HLS Optimization Framework: introduces agent-based methodology employing In-Context Learning, LLM, HLS Tool, Functional Test, Compiler, Agent Tasks, Inspect kernel, Solve ILP problem, Synthesize Solution, Select Solution, System Prompt, Config. Builder, and ILP Solver for automated hardware design optimization in High-Level Synthesis.
+- This framework explores LLMs' reasoning capabilities within High-Level Synthesis by automating code restructuring, pragma insertion, and design space exploration through iterative feedback loops and access to EDA tools.
+- The agentic approach aims to enhance design quality and efficiency by enabling LLMs to emulate expert system architects in navigating complex hardware optimization tasks, potentially improving upon current state-of-the-art methods.
+
+
+---
+
+#### 16th March 2025
+
+[VeriLA: A Human-Centered Evaluation Framework for Interpretable Verification of LLM Agent Failures](http://arxiv.org/abs/2503.12651v1)
+
+- VeriLA (Verifying LLM Agent failures): introduces a human-centered framework with Human-designed Agent Registry, Planning Agent, Task Plan, Agent Execution, Agent Outputs, Human-defined Agent Criteria, Agent Verifiers, Aggregator: Task Failure, and AI Practitioners / Agent Users for interpretable LLM agent failure verification.
+- VeriLA systematically evaluates agent failures using human-defined criteria, verifies execution outputs, and aggregates scores to identify task failures and guide revisions.
+- The framework enhances human-agent collaboration by providing interpretable failure analysis and reducing manual effort in debugging compound AI systems.
+
+
+---
+
+[Facilitating Automated Online Consensus Building through Parallel Thinking](http://arxiv.org/abs/2503.12499v1)
+
+- PTFA (Parallel Thinking-based Facilitation Agent): introduces an automated system for online consensus building, leveraging LLMs to embody Six Thinking Hats roles for structured discussions.
+- PTFA framework comprises an Agent module incorporating LLMs for diverse thinking roles and a Platform module for user interaction via Discourse interface and discussion data storage in a database.
+- The system utilizes Discourse forum system and OpenAI API to facilitate structured conversations based on Six Thinking Hats methodology and collect data for analysis of automated facilitation.
+
+
+---
+
+[A Survey on the Optimization of Large Language Model-based Agents](http://arxiv.org/abs/2503.12434v1)
+
+- LLM-based Agent Optimization Framework: introduces introduction, background, parameter-driven optimization, parameter-free optimization, datasets and benchmarks, application, challenges and future directions, and conclusion to comprehensively survey optimization strategies for agents based on large language models.
+- Parameter-driven optimization refines model parameters, while parameter-free optimization adjusts inputs and context to improve agent behavior without parameter changes.
+- The survey categorizes optimization into parameter-driven (fine-tuning, RL, hybrid) and parameter-free (prompt engineering, RAG, multi-agent) methods, further detailing data construction, evaluation, and applications.
+
+
+---
+
+[SPIN-Bench: How Well Do LLMs Plan Strategically and Reason Socially?](http://arxiv.org/abs/2503.12349v1)
+
+- SPIN-Bench (Strategic Planning, Interaction, and Negotiation): introduces a multi-domain evaluation framework, with LLM Pool, Game Environment, Agent Engine, Agent Initialization, Phase Manager, and Evaluation Module, designed to measure strategic planning and social reasoning intelligence.
+- The framework combines PDDL tasks, competitive games, cooperative games, and strategic games to assess LLMs in diverse social settings.
+- SPIN-Bench is important for future research on robust multi-agent planning, social reasoning, and human-AI teaming by providing a unified and comprehensive evaluation platform.
+
+
+---
+
+[GAMECHAT: Multi-LLM Dialogue for Safe, Agile, and Socially Optimal Multi-Agent Navigation in Constrained Environments](http://arxiv.org/abs/2503.12333v1)
+
+- GAMECHAT (Multi-LLM Dialogue for Safe, Agile, and Socially Optimal Multi-Agent Navigation in Constrained Environments): introduces a decentralized multi-agent navigation framework utilizing Initial Prompt, Another Agent Observed?, SMG Occurring?, MPC-CBF Update, LLM Conversation, Consensus or Comm. Limit Reached?, Was Consensus Reached?, Use LLM-Based Role Assignment, Strategy 1 Role Assignment, MPC-CBF w/ Role Constraints Update, and Goals Reached? components for safe, agile, and socially optimal navigation.
+- GAMECHAT framework leverages LLM Conversation for natural language-based priority negotiation and employs MPC-CBF Update for motion planning with safety and liveness guarantees in constrained environments.
+- The framework addresses spatial symmetry and deadlocks through explicit communication and game-theoretic strategies, achieving socially optimal navigation by prioritizing urgent tasks and ensuring subgame perfect equilibrium.
+
+
+---
+
+#### 15th March 2025
+
+[Agentic Search Engine for Real-Time IoT Data](http://arxiv.org/abs/2503.12255v1)
+
+- IoT-ASE (IoT Agentic Search Engine): introduces a real-time search engine for IoT data, leveraging Classifier Agent, Retriever Node, Generator Agent, and Reviewer Agent, utilizing Service Description Vector Database and Real-Time IoT database, with components including Tokenizer, Embedding Model, Average Pooling, Normalize embeddings, and integrating SensorsConnect's Perception Layer, Edge Layer, Cloud Layer, Business Layer, and User Interface Layer.
+- IoT-ASE framework employs a Generic Agentic RAG approach to process IoT data queries, incorporating agents for classification, retrieval, generation, and review, ensuring context-aware and accurate responses by accessing real-time information and service descriptions.
+- The architecture of IoT-ASE is designed to address the challenges of fragmented and heterogeneous IoT data by utilizing a unified data model and standardized communication protocols within the SensorsConnect framework, facilitating efficient real-time data accessibility and decision-making.
+
+
+---
+
+[TFHE-Coder: Evaluating LLM-agentic Fully Homomorphic Encryption Code Generation](http://arxiv.org/abs/2503.12217v1)
+
+- Compiler-in-the-loop evaluator Framework: introduces iterative TFHE code generation process, with User Prompt initiating code creation by LLM, followed by Compiler TFHE compiling for Environment Output, using Compile Report feedback for LLM Revise if compilation is not OK.
+- This framework evaluates LLM's ability to generate compilable TFHE code through cycles of compilation and revision based on compiler diagnostics.
+- The iterative approach helps in systematically refining LLM output towards syntactically correct TFHE code generation.
+
+
+---
+
+[Multi-Agent Systems Execute Arbitrary Malicious Code](http://arxiv.org/abs/2503.12188v1)
+
+- MAS (Multi-Agent System): introduces control-flow hijacking attacks by manipulating metadata flow within User, Orchestrator, WebSurfer, FileSurfer, and CodeExecutor components, leading to Hijacked control flow and execution of Executable payload from Attack content.
+- MAS framework coordinates agents like WebSurfer, FileSurfer, and CodeExecutor under Orchestrator's direction to fulfill User requests, but is vulnerable to attacks rerouting Normal control flow.
+- Control-flow hijacking in MAS exploits metadata transmission to redirect agent invocations, causing execution of arbitrary code and system compromise, even with individual agent safety measures.
+
+
+---
+
+[AgentDroid: A Multi-Agent Framework for Detecting Fraudulent Android Applications](http://arxiv.org/abs/2503.12163v1)
+
+- AgentDroid (Multi-Agent Framework): introduces a multi-agent framework for Android fraudulent application detection, with Task Master, Certificate Checker, Link Analyst, Package Tracker, Permission Analyst, Icon Analyst, Content Analyst, Decision Maker agents, and Static Analysis, Feature Extraction, Agent Tools, Multi-Agent Detection modules.
+- AgentDroid leverages multimodal analysis and collaborative agents to improve fraud detection accuracy by analyzing APK files and extracting features.
+- The framework employs specialized agents and tools, including DeiT and T5 models, for detailed analysis of diverse APK characteristics to identify fraudulent applications.
+
+
+---
+
+[ICCO: Learning an Instruction-conditioned Coordinator for Language-guided Task-aligned Multi-robot Control](http://arxiv.org/abs/2503.12122v1)
+
+- ICCO (Instruction-Conditioned Coordinator) introduces a multi-agent reinforcement learning framework with Instructor providing Language Instruction to Coordinator, which uses Coordination Policy and LLM or Random Vector Generator to generate Task-Aligned and Consistent Instructions (TACI) for each Local Agent with Local Policy in Env.
+- ICCO framework balances language-instruction following and cooperative task execution by employing Coordinator to generate consistent instructions from global observations and language, improving coordination among Local Agents.
+- The framework utilizes Centralized Training with Decentralized Execution (CTDE) paradigm, training Coordinator and Local Agent policies jointly to optimize task efficiency and instruction following, enhanced by Consistency Enhancement Term.
+
+
+---
+
+[Is Multi-Agent Debate (MAD) the Silver Bullet? An Empirical Analysis of MAD in Code Summarization and Translation](http://arxiv.org/abs/2503.12029v1)
+
+- MAD (Multi-Agent Debate): introduces a multi-stage framework with Input, Stage 1, Stage 2, Stage 3, Agent Debate at each stage, Judge, and Evaluation: Debate Output, for structured debate among agents to solve software engineering tasks.
+- MAD framework utilizes iterative Agent Debate within each Stage to refine solutions and employs a Judge to evaluate agent responses and guide the process towards Evaluation: Debate Output.
+- The framework's modular design with distinct stages and agent roles facilitates structured problem-solving and leverages debate to enhance the quality of the final Evaluation: Debate Output.
+
+
+---
+
+[SagaLLM: Context Management, Validation, and Transaction Guarantees for Multi-Agent LLM Planning](http://arxiv.org/abs/2503.11951v1)
+
+- SagaLLM (Saga Language Learning Model): introduces Context Management-, Validation- and Transaction-Frameworks, addressing limitations in multi-agent LLM planning by ensuring context awareness and planning consistency.
+- SagaLLM integrates transactional processing with adaptive multi-agent intelligence, enhancing reliability and correctness in complex real-world applications.
+- The framework employs specialized agents and validation protocols to maintain critical constraints and state information throughout complex planning processes, improving decision-making robustness.
+
+
+---
+
+[End-to-End Edge AI Service Provisioning Framework in 6G ORAN](http://arxiv.org/abs/2503.11933v1)
+
+- Edge AI Service Provisioning Framework: introduces end-to-end system for edge AI service deployment using LLM-based Agent, RAN-Core Status Data, Edge Status Data, RIC Status Data, AI Model Repository Data, User Engagement Tool, Edge Management Tool, Core Management Tool, RIC Management Tool, AI Service Monitoring-Prediction, Other xApps, AI Service, Network Functions, and Databases.
+- This framework leverages LLM agent to automate AI model selection, service deployment, network adaptation, and QoS monitoring in 6G O-RAN.
+- The proposed framework aims to simplify edge AI deployment by abstracting low-level tasks and enabling intent-based service provisioning.
+
+
+---
+
+
 #### 14th March 2025
+
+[CoLLMLight: Cooperative Large Language Model Agents for Network-Wide Traffic Signal Control](http://arxiv.org/abs/2503.11739v1)
+
+- CoLLMLight (Cooperative Large Language Model Light): introduces a cooperative LLM agent framework for network-wide traffic signal control, with Observation Collection, Complexity-Aware Reasoning, Spatiotemporal-Aware Cooperative Decision-making, and Simulation-Driven Fine-tuning components.
+- CoLLMLight uses spatiotemporal graph and complexity-aware reasoning to dynamically adapt reasoning depth for optimal computational efficiency and decision quality.
+- Simulation-driven fine-tuning and environmental feedback enhance CoLLMLight's decision-making and efficiency in diverse traffic scenarios.
+
+
+---
+
+[Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](http://arxiv.org/abs/2503.11926v1)
+
+- CoT Monitoring Framework: introduces CoT Monitor and Action Monitor, to monitor reasoning models for misbehavior, in agentic coding environments.
+- CoT Monitor observes agent's chain-of-thought, actions, and outputs, while Action Monitor observes only tool calls and final outputs.
+- Using CoT monitoring can be more effective than action-only monitoring for detecting reward hacking in reasoning models.
+
+
+---
 
 [Cerebrum (AIOS SDK): A Platform for Agent Development, Deployment, Distribution, and Discovery](http://arxiv.org/abs/2503.11444v1)
 
