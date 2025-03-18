@@ -52,7 +52,7 @@ Chronological order.
 - The architecture supports various roles for LLMs, including information processing, reward design, decision-making, and output generation, aiming to address challenges in multi-agent systems.
 
 
---
+---
 
 [Toward Generative 6G Simulation: An Experimental Multi-Agent LLM and ns-3 Integration](http://arxiv.org/abs/2503.13402v1)
 
