@@ -43,7 +43,122 @@ Chronological order.
 
 </div>
 
+#### 18th March 2025
+
+[MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation](http://arxiv.org/abs/2503.13856v1)
+
+- MDTeamGPT (Multi-Disciplinary Team Generative Pre-trained Transformer): introduces a multi-agent framework for medical consultation, incorporating Primary Care Doctor, Specialist Doctor Agents, Lead Physician, Chain-of-Thought Reviewer, Safety and Ethics Reviewer, Correct Answer Knowledge Base, Chain-of-Thought Knowledge Base, Historical Shared Pool, Shared Vector Database, and Patient.
+- This framework utilizes consensus aggregation and residual discussion structure to enhance diagnostic accuracy and reduce cognitive burden in multi-round, multi-agent medical consultations.
+- MDTeamGPT employs knowledge bases to accumulate consultation experience, enabling self-evolution and improved generalization in medical diagnosis tasks.
+
+
+---
+
+
+[MoK-RAG: Mixture of Knowledge Paths Enhanced Retrieval-Augmented Generation for Embodied AI Environments](http://arxiv.org/abs/2503.13882v1)
+
+- MoK-RAG (Mixture of Knowledge Paths Enhanced Retrieval-Augmented Generation): introduces multi-source retrieval framework with Splitting-, Constraint- and Generation-Modules to address cognitive-algorithmic discrepancy of single-source knowledge retrieval in current Retrieval-Augmented Generation systems.
+- MoK-RAG framework partitions knowledge base into multiple specialized paths via Splitting Module, organizes retrieved knowledge using Constraint Module, and generates response through Generation Module, enhancing contextual relevance and adaptability.
+- MoK-RAG framework mitigates "Reply Missing" problem, which refers to incomplete or lacking key details in generated responses due to single-source knowledge retrieval, by enabling simultaneous retrieval from multiple knowledge paths.
+
+
+---
+
+
+[Gricean Norms as a Basis for Effective Collaboration](http://arxiv.org/abs/2503.14484v1)
+
+- Normative Framework: introduces Lamoids, GPT-4-powered agents, integrating Gricean Norms, Inference Norm, Cognitive Frameworks, and Fs-CoT Prompting for effective human-AI collaboration through Response Generation.
+- Normative Framework enhances agent's pragmatic reasoning by incorporating Gricean maxims and cognitive theories into Fs-CoT prompting to interpret unclear instructions and generate context-aware responses.
+- By adhering to Gricean and Inference norms within the framework, Lamoids achieve improved task accuracy and clearer communication in collaborative grid world environment.
+
+
+---
+
+[ENVBENCH: A BENCHMARK FOR AUTOMATED ENVIRONMENT SETUP](http://arxiv.org/abs/2503.14443v1)
+
+- ENVBENCH: introduces a benchmark for automated environment setup, encompassing Repository, Environment Setup, Language Model, AI Agent, Generated Script, Evaluation Results, Evaluation Suite, and Metrics components.
+- ENVBENCH evaluates environment setup approaches by generating shell scripts and verifying environment configuration through static analysis and compilation checks.
+- This benchmark facilitates systematic assessment of environment setup strategies, addressing limitations of existing datasets and evaluation methods in the software engineering domain.
+
+
+---
+
+[PLAY2PROMPT: Zero-shot Tool Instruction Optimization for LLM Agents via Tool Play](http://arxiv.org/abs/2503.14432v1)
+
+- PLAY2PROMPT (Zero-shot Tool Instruction Optimization for LLM Agents via Tool Play): introduces automated framework for zero-shot tool learning, with tool-use example generation, tool documentation optimization, and task LLM components.
+- PLAY2PROMPT employs iterative beam search with sample proposal, sample evaluation, and down-sampling to refine documentation and generate examples through tool play.
+- This approach enhances LLM tool utilization by creating high-quality documentation and demonstrations without labeled data or manual effort.
+
+
+---
+
+[DARS: Dynamic Action Re-Sampling to Enhance Coding Agent Performance by Adaptive Tree Traversal](http://arxiv.org/abs/2503.14269v1)
+
+- DARS (Dynamic Action Re-Sampling): introduces an inference-time compute scaling method for coding agents, incorporating Generate, Reproduction, Localization, Bug Fixing, Evaluation, and Expansion components with Generator LLM, Reviewer LLM, and Selector LLM, to enhance performance by dynamically re-sampling actions.
+- DARS framework utilizes Expansion mechanism with Generator LLM for action candidates, Reviewer LLM for patch scoring based on Score Rubrics, and Selector LLM for best patch selection, processing Input and Feedback to improve coding agent's decision-making.
+- This approach aims to address limitations of sequential, multi-solution, and tree search methods by selectively branching at key decision points and employing depth-first strategy, achieving state-of-the-art performance on SWE-Bench Lite benchmark.
+
+
+---
+
+[Conversational Agents as Catalysts for Critical Thinking: Challenging Social Influence in Group Decision-making](https://doi.org/10.1145/3706599.3719792)
+
+- System Overview: introduces chat interface, server, and database components, with Summary Agent, Database, AI-message History, Conversation Agent, AI Duplicate Checker, and Cosine-similarity, where system processes direct and public chat messages through agents.
+- System architecture includes Summary Agent for public opinion analysis, Conversation Agent for generating contextual counterarguments, and AI Duplicate Checker for message novelty.
+- AI Duplicate Checker uses cosine-similarity to ensure novelty of generated messages compared to AI-message History stored in Database.
+
+
+---
+
+[Empowering LLMs in Decision Games Through Algorithmic Data Synthesis](http://arxiv.org/abs/2503.13980v1)
+
+- Mastermind-Dou Framework: introduces a three-stage reasoning process with Training Dataset, Opponent, Step-by-step Output, Possible Action Prediction, Opponent Strategy Prediction, and Final Action Selection to enable LLMs to play Doudizhu game.
+- Mastermind-Dou framework uses Possible Action Prediction to predict likely moves, Opponent Strategy Prediction to anticipate adversary actions, and Final Action Selection to choose the optimal game action.
+- The framework enhances LLMs' decision-making in imperfect information games by decomposing the reasoning into sequential prediction and selection stages.
+
+
+---
+
+[FlexVLN: Flexible Adaptation for Diverse Vision-and-Language Navigation Tasks](http://arxiv.org/abs/2503.13966v1)
+
+- FlexVLN (Flexible Vision-and-Language Navigation): introduces a hierarchical approach for vision-language navigation, integrating Environmental Perception, LLM Planner, MLLM Verification, Instruction Follower, and Object Localization components.
+- FlexVLN employs LLM Planner for high-level planning and guidance generation, Instruction Follower for low-level execution, and MLLM Verification to ensure guidance feasibility, enhancing generalization across diverse VLN tasks.
+- The framework utilizes Environmental Perception to understand surroundings and Object Localization to identify the target, achieving effective navigation through a combination of LLM planning and supervised learning execution.
+
+
+---
+
+[MDocAgent: A Multi-Modal Multi-Agent Framework for Document Understanding](http://arxiv.org/abs/2503.13964v1)
+
+- MDocAgent (Multi-Modal Multi-Agent Framework for Document Understanding): introduces a novel RAG and multi-agent framework with text-based RAG, image-based RAG, general agent, critical agent, text agent, image agent, and summarizing agent.
+- MDocAgent framework addresses DocQA challenges by combining text and image RAG with specialized agents for refined processing and critical information extraction.
+- This approach enables improved DocQA performance through collaborative multi-agent architecture and cross-modal understanding of long documents.
+
+
+---
+
+
+
 #### 17th March 2025
+
+[Why Do Multi-Agent LLM Systems Fail?](http://arxiv.org/abs/2503.13657v1)
+
+- MASFT (Multi-Agent System Failure Taxonomy): introduces taxonomy of failure modes in multi-agent systems, categorizing them into Pre Execution Failure Modes, Execution Failure Modes, Post Execution Failure Modes, and further groups into Failure Categories including Task Verification, Inter-Agent Misalignment, and Poor Specification.
+- MASFT framework organizes failure modes based on inter-agent conversation stages, spanning from pre-execution to post-execution phases, and classifies them into three main categories reflecting system design, agent coordination, and quality control issues.
+- MASFT taxonomy provides structured framework for understanding and mitigating failure modes in multi-agent LLM systems, serving as a foundation for future research towards building robust and reliable multi-agent systems.
+
+
+---
+
+
+[Do Large Language Models Understand Performance Optimization?](http://arxiv.org/abs/2503.13772v1)
+
+- Performance Optimization Agent: introduces a system integrating LLMs with profiling feedback for HPC code optimization, with Input Prompt, Evaluator, Codee, LLMs, Compilers, Results, HPC Commonsense, Code Correctness, Performance Benchmarking, Metrics, Memory, Profiling Tools, Profiling Plan, Metrics Annotation, System Prompt, Code Generation, Code Replacement, and Output Inspection components.
+- Performance Optimization Agent leverages profiling tools and LLMs iteratively to optimize HPC code by replacing hotspot functions and recompiling, while evaluating performance metrics and ensuring code correctness.
+- The agent aims to bridge the gap between traditional HPC optimization and AI-driven code assistants by incorporating human-like iterative refinement and memory of prior optimization attempts for enhanced performance gains.
+
+
+---
 
 [A Comprehensive Survey on Multi-Agent Cooperative Decision-Making: Scenarios, Approaches, Challenges and Perspectives](http://arxiv.org/abs/2503.13415v1)
 
