@@ -1,6 +1,6 @@
 title: Autonomous Agents
 description: Research papers on Autonomous Agents, updated daily.
-theme: jekyll-theme-hacker
+theme: jekyll-theme-minima
 github:
   is_project_page: true
   repository_url: https://github.com/tmgthb/Autonomous-Agents
