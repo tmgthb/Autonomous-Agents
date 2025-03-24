@@ -1,3 +1,9 @@
+<head>
+  <link rel="stylesheet" href="/assets/css/custom.css">
+</head>
+
+
+
 <!--Autonomous Agents -->
 <!--
 Copyright (C) Teemu Maatta. 
