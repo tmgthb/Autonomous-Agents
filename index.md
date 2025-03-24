@@ -1,12 +1,3 @@
----
-layout: default
-title: Autonomous Agents
----
-
-
-
-
-
 <!--Autonomous Agents -->
 <!--
 Copyright (C) Teemu Maatta. 
