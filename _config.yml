@@ -1,6 +1,9 @@
 title: Autonomous Agents
 description: Research papers on Autonomous Agents, updated daily.
 theme: minima
+minima:
+  custom_styles:
+    - /assets/css/custom.css
 github:
   is_project_page: true
   repository_url: https://github.com/tmgthb/Autonomous-Agents
