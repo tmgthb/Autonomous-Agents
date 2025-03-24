@@ -14,7 +14,7 @@ Copyright (C) Teemu Maatta.
 
 <div align="center">
 
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftmgthb%2FAutonomous-Agents&count_bg=%23F2C027&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](https://github.com/tmgthb/Autonomous-Agents)
+
 [![X](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers)
 
@@ -42,6 +42,105 @@ Copyright (C) Teemu Maatta.
 Chronological order.
 
 </div>
+
+
+#### 21st March 2025
+
+[CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](http://arxiv.org/abs/2503.17332v1)
+
+- CVE-Bench: introduces CVE-Bench with LLM Agents, Target Containers, Evaluation, and Results, which is a cybersecurity benchmark for evaluating AI agents exploiting web vulnerabilities.
+- CVE-Bench: framework offers a sandbox environment featuring isolated containers hosting web applications and an automated evaluation system to assess attack success.
+- CVE-Bench: benchmark addresses limitations of existing cybersecurity benchmarks by providing comprehensive real-world vulnerability coverage and diverse attack types.
+
+
+---
+
+[LLM+MAP: Bimanual Robot Task Planning using Large Language Models and Planning Domain Definition Language](http://arxiv.org/abs/2503.17309v1)
+
+- LLM+MAP (LLM + Multi-Agent Planning with PDDL): introduces a bimanual robot task planning framework with Visual Detection, Scene Spatial Description, Bimanual Domain Knowledge, LLM, PDDL Problem + Domain, Symbolic Planning, Partial-order Plan, Action Parser and Execution.
+- LLM+MAP framework utilizes LLM to convert natural language task descriptions and scene information into PDDL, enabling symbolic planners to generate partial-order plans for efficient bimanual robot control.
+- The framework integrates LLM reasoning with multi-agent planning for effective spatial and temporal coordination in complex, long-horizon bimanual manipulation tasks, achieving logical correctness and higher efficiency.
+
+
+---
+
+[When Words Outperform Vision: VLMs Can Self-Improve Via Text-Only Training For Human-Centered Decision Making](http://arxiv.org/abs/2503.16965v1)
+
+- Text-Only Training for VLM Enhancement: introduces text-only training approach, with Situation, Question, Answer, Text-Only Input, Multimodal Input, VLM, Answer Prediction, Text-Only Training for VLM Enhancement, and Transfer to Multimodal Inference components, where text-only training enhances visual language model decision-making for human-centered tasks.
+- This framework improves visual language models by text-only training using synthesized textual data, enabling enhanced multimodal inference capabilities without relying on image-text paired data.
+- Text-only training provides efficient and scalable method to enhance visual language models' reasoning and decision-making for complex human-centered scenarios.
+
+
+---
+
+[ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://eftv-eval.github.io/etva-eval)
+
+- ETVA (Evaluation of Text-to-Video Alignment): introduces a framework with Element Extractor, Graph Builder, Graph Traverser, Question Generation, Knowledge Augmentation, Multi-Stage Reasoning, Question Answering, External Knowledge, Multimodal CoT, Video Reflection, General Reflection, Conclusion Stage, ETVA Score, Generated Video, Generated Questions, Scene Graph, and Core Elements for evaluating text-to-video alignment through fine-grained question generation and answering.
+- ETVA framework employs a multi-agent system for atomic question generation from text prompts and a knowledge-augmented multi-stage reasoning process for question answering using video LLMs.
+- ETVA demonstrates improved correlation with human judgment compared to existing metrics by systematically evaluating video-text relationships through structured question generation and knowledge integration.
+
+
+---
+
+[WHEN DEBATE FAILS: BIAS REINFORCEMENT IN LARGE LANGUAGE MODELS](http://arxiv.org/abs/2503.16814v1)
+
+- DReaMAD (Diverse Reasoning via Multi-Agent Debate with Refined Prompt): introduces Strategic Prior Knowledge Elicitation, Perspective Diversification, and Multi-Agent Debate to improve LLM reasoning.
+- DReaMAD refines prior knowledge and ensures diverse perspectives by using Game Situation Reinterpretation, General Strategy Formulation, and structured debate.
+- DReaMAD enhances LLMs' strategic reasoning by structuring knowledge retrieval and diversifying input perspectives to mitigate bias and improve decision-making.
+
+
+---
+
+[A-IDE : AGENT-INTEGRATED DENOISING EXPERTS](http://arxiv.org/abs/2503.16780v1)
+
+- A-IDE (Agent-Integrated Denoising Experts): introduces a denoising framework integrating BiomedCLIP for semantic analysis, semantic similarities for probability distribution, an LLM Agent for decision-making, specialized RED-CNN models (Model 0, Model 1, Model 2) for denoising, and RMSE, PSNR, SSIM for evaluation.
+- A-IDE framework utilizes BiomedCLIP to analyze CT images and employs an LLM agent to dynamically select among specialized RED-CNN models based on anatomical context for improved denoising performance.
+- The agent-driven approach of A-IDE eliminates manual intervention and enhances denoising performance across diverse anatomical regions by leveraging specialized models.
+
+
+---
+
+#### 20th March 2025
+
+[Towards Agentic Recommender Systems in the Era of Multimodal Large Language Models](http://arxiv.org/abs/2503.16734v1)
+
+- LLM-ARS (LLM-based Agentic RS): introduces a framework with LLM-Agent, Initialization, Planning, Execution, Reflection, Query, Ranker, Tool Using, and Memory Module components for agentic recommendation systems.
+- This framework utilizes an LLM-Agent as the central decision-making unit, incorporating modules for planning, execution, reflection, and memory to enhance recommendation adaptability and personalization.
+- The architecture emphasizes autonomous decision-making and continuous self-evolution by integrating external tools and reflecting on past interactions to optimize future recommendations.
+
+
+---
+
+[Survey on Evaluation of LLM-based Agents](http://arxiv.org/abs/2503.16416v1)
+
+- Agent Evaluation: introduces a survey framework for evaluating LLM-based agents, with Agent Capabilities Evaluation-component, Planning and Multi-Step Reasoning-component, Function Calling & Tool Use-component, Self-Reflection-component, Memory-component, Application-Specific Agent Evaluation-component, Web Agents-component, Software Engineering Agents-component, Scientific Agents-component, Conversational Agents-component, Generalist Agents Evaluation-component, Frameworks for Agent Evaluation-component, Development Frameworks-component, Gym-like Environments-component, Discussion-component, Current Trends-component, and Emergent Directions-component.
+- Agent Evaluation framework categorizes evaluation methodologies based on agent capabilities, application domains, general skills, and development frameworks, providing a structured overview of the field.
+- The framework highlights the shift towards realistic evaluations, identifies gaps in current methods like cost-efficiency and safety, and proposes future directions for agent evaluation research.
+
+
+---
+
+
+[Issue2Test: Generating Reproducing Test Cases from Issue Reports](http://arxiv.org/abs/2503.16320v1)
+
+- ISSUE2TEST (Issue Reproducing Test): introduces automated technique for generating issue-reproducing test cases utilizing root cause analysis, meta prompting, related files search, test generator, linter, test refiner - error fixing, run tests, error categorization, assertion match, and rank components.
+- ISSUE2TEST iteratively refines test cases through runtime feedback and error categorization to ensure generated tests accurately capture and reproduce the reported issue.
+- This approach enhances automated debugging and program repair workflows by providing executable test cases directly derived from issue descriptions, improving software reliability.
+
+
+---
+
+[GREENIQ: A DEEP SEARCH PLATFORM FOR COMPREHENSIVE CARBON MARKET ANALYSIS AND AUTOMATED REPORT GENERATION](http://arxiv.org/abs/2503.16041v2)
+
+- GreenIQ: introduces deep search platform with Main Researcher, Report Writing, Final Reviewer, Data Visualization, and Translator Agents for carbon market analysis and automated report generation.
+- GreenIQ leverages multi-agent architecture powered by Large Language Models to automate end-to-end workflow from data collection to multilingual reporting for carbon market intelligence.
+- GreenIQ enhances efficiency, accuracy, and scalability in carbon market research by integrating specialized agents for comprehensive analysis and validated reporting.
+
+
+---
+
+
+
 
 #### 18th March 2025
 
@@ -17632,3 +17731,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Ftmgthb%2FAutonomous-Agents&count_bg=%23F2C027&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=Views&edge_flat=true)](https://github.com/tmgthb/Autonomous-Agents)
