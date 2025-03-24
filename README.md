@@ -14,7 +14,7 @@ Copyright (C) Teemu Maatta.
 
 <div align="center">
 
-
+![Visitor Count](badge.md)
 [![X](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers)
 
