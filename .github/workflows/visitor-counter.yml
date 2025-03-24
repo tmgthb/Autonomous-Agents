@@ -1,0 +1,26 @@
+name: Visitor Counter
+on:
+  page_build:
+  schedule:
+    - cron: '0 * * * *' # Runs hourly
+jobs:
+  update-visitors:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Update Visitor Count
+        run: |
+          if [ -f visitors.txt ]; then
+            count=$(cat visitors.txt)
+          else
+            count=0
+          fi
+          echo $((count + 1)) > visitors.txt
+          echo "![Visitor Count](https://img.shields.io/badge/Visitors-$((count + 1))-brightgreen)" > badge.md
+      - name: Commit Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add visitors.txt badge.md
+          git commit -m "Update visitor count" || echo "No changes to commit"
+          git push
