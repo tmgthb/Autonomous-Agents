@@ -1,6 +1,7 @@
-<head>
-  <link rel="stylesheet" href="/assets/css/custom.css">
-</head>
+layout: default
+title: Autonomous Agents
+
+
 
 
 
