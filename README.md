@@ -144,12 +144,87 @@ Chronological order.
 
 ---
 
+[Unseen from Seen: Rewriting Observation-Instruction Using Foundation Models for Augmenting Vision-Language Navigation](http://arxiv.org/abs/2503.18065v1)
+
+- RAM (Rewriting-driven AugMentation): introduces a VLN data augmentation paradigm using Object-Enriched Observation Rewriting (generates diverse observations) involving a VLM (extracts scene descriptions), LLM (rewrites scene descriptions), T2IM (synthesizes panoramic observations), and Panorama-to-View (discretizes panoramas), plus Observation-Contrast Instruction Rewriting (creates aligned instructions) involving a VLM (extracts landmarks/descriptions) and LLM (rewrites instructions via contrast), trained with a Mixing-then-Focusing Training Mechanism (optimizes learning) including a Random Observation Cropping Scheme (augments data), where foundation models rewrite annotated data into unseen observation-instruction pairs without simulators or web-scraping.
+- The framework first performs Object-Enriched Observation Rewriting by using a VLM to get scene descriptions, an LLM to enrich these descriptions with new objects, a T2IM to generate corresponding panoramas, and a Panorama-to-View algorithm for single views.
+- Subsequently, Observation-Contrast Instruction Rewriting employs an LLM to generate new instructions by contrasting original landmarks/observations (via VLM) with rewritten observation descriptions (via VLM), enhancing data diversity for training the Embodied Agent using a two-stage strategy.
+
+
+---
+
+[Metaphor-based Jailbreaking Attacks on Text-to-Image Models](http://arxiv.org/abs/2503.17987v1)
+
+- MJA (Metaphor-based Jailbreaking Attack): introduces a framework with Metaphor Agent, Context Agent, Prompt Agent, Example Retrieval Tool, Shared Memory, Observed Set, Candidate Set, Surrogate Model, Text Encoder, PCA, Gaussian Process Regression, Acquisition Strategy, and Query T2I model, where MJA aims to jailbreak text-to-image models using metaphor-based prompts.
+- MJA framework employs multi-agent generation module to create diverse prompts and optimization module to efficiently select effective adversarial prompts.
+- The framework balances attack effectiveness and query efficiency by leveraging metaphor and context in prompt generation and surrogate model-based optimization.
+
+
+---
+
+[WON: Establishing Best Practices for Korean Financial NLP](http://arxiv.org/abs/2503.17963v1)
+
+- WON: introduces WON (Korean financial LLM), a transparent language model, evaluated using Benchmark (evaluation dataset) on Leaderboard (evaluation platform), utilizing Instruction Dataset (refined training data) derived from competition submissions.
+- WON framework employs SFT (supervised fine-tuning) and DPO (direct preference optimization) training methods, with LLM-as-a-Judge (evaluation using LLM) for assessment and Deepseek-R1 (response generation model) for data processing.
+- The framework aims to establish best practices for Korean financial NLP by releasing resources and insights gained from a large-scale evaluation and model development process.
+
+
+---
+
+[An Empirical Study of the Role of Incompleteness and Ambiguity in Interactions with Large Language Models](http://arxiv.org/abs/2503.17936v1)
+
+- Framework name here: introduces a neural symbolic framework to model human and LLM agent interactions, focusing on Message-String, Turn, and Interaction, to define Incomplete Question and Ambiguous Question based on Oracle Agent responses within a Context of prior messages.
+- This framework analyzes question-answer sequences to empirically study the role of question Incomplete Question and Ambiguous Question properties in multi-turn interactions using Human Agent and LLM Agent.
+- The framework utilizes the Oracle Agent as a ground truth to categorize questions and assess the impact of Context on resolving Incomplete Question and Ambiguous Question during interactions.
+
+
+---
+
 
 [GeoBenchX: Benchmarking LLMs for Multistep Geospatial Tasks](http://arxiv.org/abs/2503.18129v1)
 
 - GeoBenchX Framework: introduces benchmark for evaluating LLMs on geospatial tasks, with Task-solving agent, LLMs, Tools, Datasets, LLM-as-Judge evaluator agent, Reference solutions, and Benchmark set.
 - GeoBenchX uses Task-solving agent equipped with Geospatial functions and commercial LLMs to solve Benchmark set of multi-step geospatial tasks using provided Datasets.
 - LLM-as-Judge evaluator agent assesses Task-solving agent's performance by comparing generated solutions against Reference solutions within the GeoBenchX framework.
+
+
+---
+
+#### 22nd March 2025
+
+[Metacognition in Content-Centric Computational Cognitive C4 Modeling](http://arxiv.org/abs/2503.17822v1)
+
+- C4 Modeling (Content-Centric Computational Cognitive Modeling): introduces a framework for building metacognitive AI agents, with Knowledge Resources, Perception, Reasoning, Action, Explanation Module, Lifelong Learning, and LLM components for Language Generation and Learning Enhancement.
+- C4 modeling emphasizes content-centric approach using semantically interpretable knowledge to enable agents with transparency, adaptability, reasoning, perception and action capabilities for human-AI teams.
+- The framework integrates LLMs to improve language generation and learning efficiency, while maintaining focus on knowledge-based reasoning for trustworthy and explainable AI agents.
+
+
+---
+
+[Building Resource-Constrained Language Agents: A Korean Case Study on Chemical Toxicity Information](http://arxiv.org/abs/2503.17753v1)
+
+- Tox-chat: introduces a Korean chemical toxicity information agent, utilizing LLM / SLM Agent, BM25 Search, Summary LLM, Keyword Search, Read General, QA Specific, QA LLM, Carcinogen Database, Toxic Dose Database, and Toxic Info Database for resource-constrained environments.
+- Tox-chat employs hierarchical section search and scenario-based dialogue generation to reduce token consumption and distill tool-using capabilities from larger models.
+- The framework demonstrates effective performance with a fine-tuned 8B parameter model, outperforming untuned models and baselines in database faithfulness and preference.
+
+
+---
+
+[A Survey on Mathematical Reasoning and Optimization with Large Language Models](http://arxiv.org/abs/2503.17726v1)
+
+- Framework name here: introduces Instruction Learning, Tool-based Methods, Chain-of-Thought (CoT) Methods, and Advanced Chain-of-Thought (CoT) Methods for mathematical reasoning with Large Language Models.
+- Instruction Learning refines models through structured tasks, while Tool-based Methods integrate external solvers, and Chain-of-Thought (CoT) and Advanced CoT Methods enhance reasoning via step-by-step logic and self-verification.
+- These methods collectively aim to improve mathematical problem-solving capabilities of Large Language Models, addressing challenges in arithmetic, theorem proving and optimization tasks.
+
+
+---
+
+
+[CP-AgentNet: Autonomous and Explainable Communication Protocol Design Using Generative Agents](http://arxiv.org/abs/2503.17850v1)
+
+- CP-AgentNet (Communication Protocol Agent Network): introduces a framework employing offline- and online-modules with strategy-, observer-, node- and programming-agents, LLM ranker, strategy-, episodic- and trajectory-memory, self-reflection and evaluation for autonomous communication protocol design.
+- CP-AgentNet framework facilitates explainable protocol design by leveraging multi-agent role-play and progressive strategy augmentation to address limitations of deep reinforcement learning and handcrafted protocols.
+- CP-AgentNet utilizes self-reflection and LLM ranker to enhance strategy refinement and decision consistency, enabling efficient adaptation to dynamic network environments without extensive online learning.
 
 
 ---
