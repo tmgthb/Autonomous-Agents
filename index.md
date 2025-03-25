@@ -29,7 +29,7 @@ Copyright (C) Teemu Maatta.
 </div>
 
 <p align="center">
-  <img height="100" src="https://raw.githubusercontent.com/tmgthb/Autonomous-Agents/refs/heads/main/Autonomous_agent_logo.png" alt="Autonomous Agents">
+  <img height="100" src="/Autonomous_agent_logo.png" alt="Autonomous Agents">
 </p>
 
 <div align="center">
