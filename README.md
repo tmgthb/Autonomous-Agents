@@ -44,6 +44,46 @@ Chronological order.
 </div>
 
 
+
+#### 24th March 2025
+
+[AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration](http://arxiv.org/abs/2503.18891v1)
+
+- AgentDropout: introduces dynamic agent elimination, optimizing communication by removing redundant agents and links in multi-agent systems using Node Dropout, Edge Dropout, Communication Graph, Adjacency Matrix, Intra-Round Communication, Inter-Round Communication, and DAGSample.
+- AgentDropout employs Node Dropout to remove less contributing agents and Edge Dropout to prune redundant communication edges within Communication Graph represented by Adjacency Matrix.
+- The framework enhances token efficiency and task performance by dynamically adjusting communication topology through Intra-Round and Inter-Round Communication, finalized by DAGSample for acyclic graph generation.
+
+
+---
+
+[EconEvals: Benchmarks and Litmus Tests for LLM Agents in Unknown Environments](http://arxiv.org/abs/2503.18825v1)
+
+- EconEvals: introduces benchmarks and litmus tests for evaluating LLM agents in unknown economic environments, featuring an LLM Agent (Core decision-maker using LLM) that interacts via Tool Use (Interaction via API calls) and a Notes Module (Persistent text memory) within various Economic Environments (Simulated scenarios with unknowns) to perform Benchmark Tasks (Capability measurement tasks) or Litmus Tests (Tendency measurement tasks), assessed by a Benchmark Score (Capability metric) or Litmus Score (Tendency metric).
+- The framework assesses LLM agents on economic decision-making (procurement, scheduling, pricing) through multi-turn interactions where agents must learn environment specifications via exploration using tools; benchmarks measure capability, while litmus tests quantify behavioral tendencies in tradeoffs like efficiency vs. equality.
+- Agents operate over multiple periods within stationary or non-stationary environments, using tools to gather information (e.g., __CODE_BLOCK_0__, __CODE_BLOCK_1__), manage memory (__CODE_BLOCK_2__, __CODE_BLOCK_3__), and submit actions (__CODE_BLOCK_4__, __CODE_BLOCK_5__, __CODE_BLOCK_6__), receiving feedback to inform future decisions.
+
+
+---
+
+[Defeating Prompt Injections by Design](http://arxiv.org/abs/2503.18813v1)
+
+- CaMeL (CApabilities for MachinE Learning): introduces a defense against prompt injection by separating control and data flow using a Privileged LLM (Generates code from user query), a Quarantined LLM (Parses untrusted data), a CaMeL Interpreter (Executes code, enforces policies), Tools (External functions/APIs), Security Policies (Define allowed tool operations), Capabilities (Data provenance/permission tags), and a Data Flow Graph (Tracks value dependencies).
+- The Privileged LLM generates Python code representing the user's intent from trusted queries, while the separate Quarantined LLM processes potentially untrusted data under the interpreter's strict control, preventing direct influence on tool execution flow.
+- The CaMeL interpreter executes the generated code, maintains a data flow graph with capabilities tracking data provenance and permissions, and enforces security policies before tool execution to prevent data exfiltration or unauthorized actions.
+
+
+---
+
+[AgentSpec: Customizable Runtime Enforcement for Safe and Reliable LLM Agents](http://arxiv.org/abs/2503.18666v1)
+
+- AGENTSPEC: introduces a domain-specific language and runtime framework for enforcing customizable safety constraints on LLM Agents (LLM planner/executor), intercepting planned actions based on Rules (constraint definitions) activated by a Trigger (rule activation event) corresponding to a monitored Event (monitored agent/env change), evaluating conditions via Check (condition evaluation) using Predicates (boolean condition function), and applying Enforce (intervention mechanism) actions like user_inspection (request user confirmation), llm_self_examine (trigger agent self-reflection), invoke_action (execute predefined action), or stop (terminate agent action) before interaction with Tools (external functions) or receiving Observation (feedback from environment/tools), ensuring alignment with safety policies defined by the User (initiates interaction) and recorded in the Trajectory (record of agent states/actions).
+- The framework integrates with agent execution loops by hooking into decision points, monitoring Events such as state changes, specific actions (e.g., 'Transfer', 'PythonREPL', 'pour'), or task completion to apply user-defined Rules at runtime.
+- This approach provides a modular and interpretable method for runtime safety enforcement in LLM agents operating across domains including code execution, embodied interaction, and autonomous driving, with demonstrated low overhead.
+
+
+---
+
+
 #### 21st March 2025
 
 [CVE-Bench: A Benchmark for AI Agents' Ability to Exploit Real-World Web Application Vulnerabilities](http://arxiv.org/abs/2503.17332v1)
