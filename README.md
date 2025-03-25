@@ -229,6 +229,53 @@ Chronological order.
 
 ---
 
+[RAIDER: Tool-Equipped Large Language Model Agent for Robotic Action Issue Detection, Explanation and Recovery](http://arxiv.org/abs/2503.17703v1)
+
+- RAIDER (Tool-Equipped Large Language Model Agent for Robotic Action Issue Detection, Explanation and Recovery): introduces a novel agent architecture integrating System Prompt, LLM, Program Flow Manager, Tools, and Recovery for robotic action issue detection, explanation, and recovery.
+- RAIDER framework utilizes "Ground, Ask&Answer, Issue" procedure, incorporating Ground, Ask, Answer, and Issue components within Program Flow Manager to dynamically generate and resolve context-aware precondition questions using Tool calls and Tool responses/warnings.
+- This architecture achieves adaptable and efficient issue detection by leveraging LLM's reasoning with grounded Tools, enabling targeted information gathering and surpassing limitations of predefined models or full scene descriptions.
+
+
+---
+
+[Can LLMs Automate Fact-Checking Article Writing?](http://arxiv.org/abs/2503.17684v1)
+
+- QRAFT (QRAFT): introduces a multi-agent framework for automatic fact-checking article generation, incorporating Planner (outline planning assistant), Writer (draft article composer), and Editor (draft review and refine) agents.
+- QRAFT framework processes Evidence Set (input evidence documents) to generate Evidence Nuggets Set (extracted evidence points), utilizes Preferences (article structure guidelines) for Draft Outline (planned article structure), producing First Draft (initial article draft) and Improved Draft (refined article draft) through Question-Answering Interactions (conversational refinement process).
+- QRAFT framework aims to mimic human fact-checkers' writing workflow, addressing the gap in existing automatic fact-checking pipelines by generating full fact-checking articles suitable for public dissemination.
+
+
+---
+
+[ComfyGPT: A Self-Optimizing Multi-Agent System for Comprehensive ComfyUI Workflow Generation](http://arxiv.org/abs/2503.17671v1)
+
+- ComfyGPT (Comprehensive ComfyUI Workflow Generation with Generative Pre-trained Transformer): introduces a self-optimizing multi-agent system for ComfyUI workflow generation, comprising ReformatAgent, FlowAgent, RefineAgent, and ExecuteAgent.
+- ComfyGPT leverages FlowDataset for training and FlowBench for evaluation, utilizing GRPO optimization and RAG to enhance workflow generation and refinement.
+- ComfyGPT focuses on individual node links for improved precision and introduces FlowBench as a comprehensive benchmark for workflow generation assessment.
+
+
+---
+
+[OmniScience: A Domain-Specialized LLM for Scientific Reasoning and Discovery](http://arxiv.org/abs/2503.17604v1)
+
+- OmniScience Framework: introduces a domain-specialized LLM for scientific reasoning, utilizing science literature corpus for domain adaptive pretraining, task and chat instructions for model alignment, and s1K reasoning dataset for reasoning distillation to create OmniScience Reasoning model from Foundation Model via OmniScience Base and OmniScience Chat.
+- The framework employs a three-stage training pipeline: domain adaptive pretraining to instill scientific knowledge, supervised fine-tuning for instruction following, and reasoning-based knowledge distillation to enhance inferential capabilities.
+- OmniScience Framework demonstrates a compute-efficient strategy for developing high-performing domain-specific models by combining pretraining, alignment and distillation techniques, achieving state-of-the-art results in scientific reasoning tasks.
+
+
+---
+
+[Autonomous Radiotherapy Treatment Planning Using DOLA: A Privacy-Preserving, LLM-Based Optimization Agent](http://arxiv.org/abs/2503.17553v1)
+
+- DOLA (Dose Optimization Language Agent): introduces privacy-preserving LLM agent for autonomous radiotherapy planning, comprising Model Service, Optimization Agent, Working Memory, TPS Interface, and LLaMa3.1 LLM.
+- DOLA framework integrates RAG and RL with chain-of-thought prompting within local infrastructure to optimize radiotherapy plans while maintaining patient privacy.
+- The system architecture enables iterative dose optimization using LLM for decision-making and reasoning within a secure, locally hosted environment, enhancing plan quality and efficiency.
+
+
+---
+
+
+
 
 
 #### 21st March 2025
@@ -286,6 +333,16 @@ Chronological order.
 
 
 ---
+
+[Bayesian Teaching Enables Probabilistic Reasoning in Large Language Models](http://arxiv.org/abs/2503.17523v1)
+
+- Bayesian Teaching: introduces User, LLM (Large Language Model), Bayesian Assistant, Supervised Fine-tuning, Flight Recommendation, Hotel Recommendation, Web Shopping, User Preferences, and Beliefs to teach LLMs probabilistic reasoning for user interaction tasks.
+- Bayesian Teaching framework employs Supervised Fine-tuning to train LLMs by mimicking Bayesian Assistant for inferring User Preferences and updating Beliefs in Flight Recommendation and generalizing to Hotel Recommendation and Web Shopping.
+- The framework enhances LLMs' probabilistic reasoning in interactive settings, enabling generalization to novel tasks beyond the training domain.
+
+
+---
+
 
 #### 20th March 2025
 
