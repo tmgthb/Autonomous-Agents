@@ -17735,5 +17735,20 @@ How to cite my work?
 
 ![Visitor Count](badge.md)
 
-<img src="https://api.countapi.xyz/hit/tmgthb/Autonomous-Agents?title=Autonomous-Agents">
+## Page Views
+
+This page has been viewed: <span id="page-views">...loading...</span> times.
+
+```html
+<script>
+fetch('[https://api.countapi.xyz/hit/tmgthb/Autonomous-Agents](https://api.countapi.xyz/hit/tmgthb/Autonomous-Agents)')
+  .then(response => response.json())
+  .then(data => {
+    document.getElementById('page-views').textContent = data.value;
+  })
+  .catch(error => {
+    console.error('Error fetching view count:', error);
+    document.getElementById('page-views').textContent = 'Count unavailable';
+  });
+</script>
 
