@@ -17737,5 +17737,5 @@ How to cite my work?
 
 ## Page Views
 
-[![Views](https://img.shields.io/endpoint?url=https://api.countapi.xyz/hit/tmgthb/Autonomous-Agents&label=Views&style=flat-square)](https://github.com/tmgthb/Autonomous-Agents)
+[![Views](https://img.shields.io/endpoint?url=https://api.countapi.xyz/hit/tmgthb/Autonomous-Agents&label=Views&style=flat-square&logo=eye)](https://github.com/tmgthb/Autonomous-Agents)
 
