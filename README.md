@@ -47,6 +47,56 @@ Chronological order.
 
 #### 24th March 2025
 
+[Verbal Process Supervision Elicits Better Coding Agents](http://arxiv.org/abs/2503.18494v1)
+
+- CURA (Code Understanding and Reasoning Agent): introduces process-supervised reasoning framework for code generation with code understanding, test case generation, solution reasoning, code testing sandbox, and process reward models.
+- CURA utilizes verbal process supervision to iteratively guide reasoning steps and refine model behavior through reward signals at each stage.
+- The framework enhances code generation performance by integrating iterative feedback and verbal process supervision throughout the reasoning pipeline.
+
+
+---
+
+
+[Safeguarding Mobile GUI Agent via Logic-based Action Verification](http://arxiv.org/abs/2503.18492v1)
+
+- VSA (VeriSafe Agent): introduces a verification framework for Mobile GUI Agents, incorporating Intent Encoder, Logical Formula, Intent Verifier, Feedback Generator, and VSA Library, designed to ensure agent actions are consistent with user instructions.
+- VeriSafe Agent framework utilizes autoformalization to convert natural language instructions into a domain-specific language, enabling rule-based runtime verification of mobile agent actions.
+- VSA framework aims to bridge probabilistic LFM-driven automation with deterministic formal verification by providing pre-action verification and structured feedback to guide GUI agents towards correct task completion.
+
+
+---
+
+[DeepFund: Will LLM be Professional at Fund Investment? A Live Arena Perspective](http://arxiv.org/abs/2503.18313v1)
+
+- DeepFund: introduces a comprehensive arena platform, with Stock Pool, Web API, Trading Memory, Current Position, Agent Planner, Technical Analysts, Fundamental Analysts, Insider Analysts, Media Analysts, Agent Manager, Decision, Decision Log, Trading Simulation Environment, Model Integration Interface and Performance Monitoring, for evaluating LLM-based trading strategies in simulated live environment.
+- DeepFund platform employs multi-agent framework where Agent Planner orchestrates analysis from specialized Technical, Fundamental, Insider, and Media Analysts, and Agent Manager synthesizes insights for final investment Decision.
+- Trading Simulation Environment in DeepFund mitigates data leakage by providing real-time market data through Web API and evaluating models on data post-training cutoff, while Performance Monitoring visualizes model performance.
+
+
+---
+
+[How to Capture and Study Conversations Between Research Participants and ChatGPT: GPT for Researchers (g4r.org)](http://arxiv.org/abs/2503.18303v1)
+
+- G4R (GPT for Researchers): introduces a website platform with researcher interface, GPT interface creation, GPT interface customization, GPT interaction, data capture, data download, and data merging for studying participant-GPT conversations.
+- G4R enables researchers to create customizable GPT interfaces, integrate them into studies like Qualtrics surveys, capture conversation data, and download/merge data for analysis.
+- This tool addresses the lack of standardized methods for human-AI interaction research by providing an accessible platform to facilitate and analyze participant conversations with GPT models.
+
+
+---
+
+
+[P3Nav: A Unified Framework for Embodied Navigation Integrating Perception, Planning, and Prediction](http://arxiv.org/abs/2503.18525v1)
+
+- P3Nav (A Unified Framework for Embodied Navigation Integrating Perception, Planning, and Prediction): introduces a unified framework for embodied navigation integrating perception, planning, and prediction with Visual Encoder, Adaptive 3D-aware History Sampling, Large Language Model, Action Head, Answer Head, Tokenizer, and Multitask Collaboration strategy.
+- P3Nav framework employs Multitask Collaboration strategy for joint training on navigation and embodied question answering tasks, enhancing navigation performance by leveraging perceptual and planning skills.
+- Adaptive 3D-aware History Sampling strategy in P3Nav effectively utilizes historical observations by selecting non-overlapping RGB frames and position-enhanced features to reduce redundancy and improve efficiency.
+
+
+---
+
+
+
+
 [AgentDropout: Dynamic Agent Elimination for Token-Efficient and High-Performance LLM-Based Multi-Agent Collaboration](http://arxiv.org/abs/2503.18891v1)
 
 - AgentDropout: introduces dynamic agent elimination, optimizing communication by removing redundant agents and links in multi-agent systems using Node Dropout, Edge Dropout, Communication Graph, Adjacency Matrix, Intra-Round Communication, Inter-Round Communication, and DAGSample.
@@ -82,6 +132,28 @@ Chronological order.
 
 
 ---
+
+#### 23rd March 2025
+
+[AgentRxiv: Towards Collaborative Autonomous Research](http://arxiv.org/abs/2503.18102v1)
+
+- AgentRxiv: introduces a framework for collaborative autonomous research using LLM agents, comprising an AgentRxiv Server (Centralized preprint server for agent research) enabling multiple Agent Laboratory (Autonomous multi-agent research system) instances to share findings, guided by a Human Researcher (Provides initial guidance), where each lab performs Literature Review Phase (Retrieves and summarizes prior work), Experimentation Phase (Plans and executes experiments) with mle-solver (Module for ML code generation and repair), and Report Writing Phase (Synthesizes findings into reports) via paper-solver (Module for LaTeX report generation), coordinated by agents like PhD Student Agent (Agent role in multiple phases) and ML Engineer Agent (Agent role in data preparation code).
+- The framework facilitates iterative improvement by allowing agent laboratories to upload reports to the AgentRxiv Server and retrieve prior work from peers, enabling cumulative knowledge building across independent agent systems.
+- Each Agent Laboratory automates research stages using specialized agents (e.g., Postdoc, Professor) and tools (mle-solver, paper-solver), supporting both fully autonomous operation and a co-pilot mode with human checkpoints.
+
+
+---
+
+
+[GeoBenchX: Benchmarking LLMs for Multistep Geospatial Tasks](http://arxiv.org/abs/2503.18129v1)
+
+- GeoBenchX Framework: introduces benchmark for evaluating LLMs on geospatial tasks, with Task-solving agent, LLMs, Tools, Datasets, LLM-as-Judge evaluator agent, Reference solutions, and Benchmark set.
+- GeoBenchX uses Task-solving agent equipped with Geospatial functions and commercial LLMs to solve Benchmark set of multi-step geospatial tasks using provided Datasets.
+- LLM-as-Judge evaluator agent assesses Task-solving agent's performance by comparing generated solutions against Reference solutions within the GeoBenchX framework.
+
+
+---
+
 
 
 #### 21st March 2025
