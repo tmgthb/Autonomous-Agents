@@ -37,6 +37,8 @@ p, li {
 
 /* Optional: Adjust wrapper for better scrolling */
 .wrapper {
+  background-color: black !important;
+  color: white !important;
   max-width: 800px; /* Keeps content readable, not too wide */
   margin: 0 auto; /* Centers it */
   padding: 20px; /* Adds some breathing room */
