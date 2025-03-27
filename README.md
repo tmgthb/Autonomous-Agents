@@ -583,6 +583,24 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 ---
 
 
+[Advancing Mobile GUI Agents: A Verifier-Driven Approach to Practical Deployment](http://arxiv.org/abs/2503.15937v2)
+
+- V-DROID (Verifier-Driven Robot for Interface Operations on Devices): introduces a verifier-driven mobile agent framework with Action Extractor, Verification Prompts, Verifier, Action Completion, and Working Memory components.
+- V-DROID decouples action decision-making into action extraction and verification, utilizing Discretized Action Space Construction and Prefilling-only Workflow for efficiency.
+- Pair-wise Progress Preference Training enhances Verifier's decision-making, and Scalable Human-Agent Joint Annotation Scheme facilitates data collection for V-DROID.
+
+
+---
+
+[The Lighthouse of Language: Enhancing LLM Agents via Critique-Guided Improvement](http://arxiv.org/abs/2503.16024v1)
+
+- CGI (Critique-Guided Improvement): introduces a two-player framework enhancing LLM agents, featuring an Actor Model(Generates actions, refines based on critique), a Critic Model(Generates structured critiques), an Action Buffer(Stores candidate actions), Critique(Structured feedback with assessment, revision), and a Refined Action(Final action post-critique), operating within an Environment(Interactive task setting) informed by History(Past interactions sequence) and refined using Training Data(Datasets for model fine-tuning), where the critic provides detailed natural language feedback to guide the actor's iterative improvement.
+- The framework comprises two stages: Critique Generation, where the Critic Model is trained to produce structured assessments and revisions based on expert examples, and Action Refinement, where the Actor Model is iteratively fine-tuned to utilize these critiques effectively alongside successful trajectory data.
+- This approach uses a dedicated critic for explicit, structured verbal feedback (assessing contribution, feasibility, efficiency, and suggesting revisions) and trains the actor to integrate this guidance, enhancing decision-making and exploration compared to methods relying solely on numerical rewards or self-correction.
+
+
+---
+
 
 
 
