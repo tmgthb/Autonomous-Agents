@@ -601,7 +601,14 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 
 ---
 
+[Depth Matters: Multimodal RGB-D Perception for Robust Autonomous Agents](https://arxiv.org/abs/2503.16711)
 
+- RGB-D Fusion Architectures: introduces model architectures for autonomous driving, integrating RGB and depth data through Feature Extractor, Model Architecture, RNN Options and Offset Calculation Options components.
+- RGB-D Fusion Architectures: systematically compares early and late fusion strategies alongside depth-aware deformable convolution and geometric offset computation within Model Architecture for enhanced feature extraction.
+- RGB-D Fusion Architectures: evaluates recurrent neural networks like LSTM, LTC, CfC, and LRC within RNN Options to benchmark lightweight controllers for real-time, robust autonomous agent steering command prediction.
+
+
+---
 
 
 #### 19th March 2025
@@ -712,7 +719,7 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 ---
 
 
-#### 18th March 2025
+#### 18th of March 2025
 
 
 [MANTRA: Enhancing Automated Method-Level Refactoring with Contextual RAG and Multi-Agent LLM Collaboration](http://arxiv.org/abs/2503.14340v1)
@@ -857,6 +864,16 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 
 
 #### 17th March 2025
+
+[When Should We Orchestrate Multiple Agents?](https://arxiv.org/abs/2503.13577)
+
+- Orchestration Framework: introduces a method to dynamically select the optimal agent from a set of Agents (Perform tasks, human/AI/hybrid) for tasks arriving via an Input Data Stream (Sequential task inputs), considering performance across different Regions (Data distribution partitions), costs via a Cost Estimator (Estimates agent cost per region), and feasibility via Constraints (Agent feasibility rules), using a Correctness Estimator (Estimates agent accuracy per region), Region Probability Estimator (Estimates region likelihood), and Total Empirical Utility (Cost-adjusted performance metric) for selection by the Orchestrator (Selects agent based on utility).
+- The framework utilizes online probabilistic inference to update agent correctness and region probabilities, calculates an Appropriateness Metric (Measures orchestration value) to determine when orchestration is beneficial, and is applied to simulations including resolving Rogers' Paradox by selecting Learning Strategies (Choices in Rogers' Paradox simulation).
+- A user study involving a User (Human decision-maker in study) choosing between task completion, outsourcing to an AI Agent (LLM agent in study) or a Human Agent (Agent representing human performance) demonstrates improved performance with constrained orchestration compared to baseline scenarios where users act as poor orchestrators.
+
+
+---
+
 
 [Why Do Multi-Agent LLM Systems Fail?](http://arxiv.org/abs/2503.13657v1)
 
@@ -1465,7 +1482,14 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+[Distributionally Robust Multi-Agent Reinforcement Learning for Dynamic Chute Mapping](https://arxiv.org/abs/2503.09755)
 
+- DRMARL (Distributionally Robust Multi-Agent Reinforcement Learning): introduces a framework for dynamic chute mapping robust to induction rate variations, utilizing Agents(Control chute allocation per destination), a Shared Local Q-Network(Estimates action value per agent), Target Network(Stabilizes Q-learning), Experience Replay Buffer(Stores transitions for training), Value Decomposition Network(Aggregates local Q-values), Integer Program Solver(Selects joint actions under budget), Induction Distribution Groups(Represent historical patterns), Ambiguity Set(Defines uncertainty over groups), Distributionally Robust Bellman Operator(Optimizes for worst-case reward), Contextual Bandit Predictor(Predicts worst-case group efficiently), and CB Replay Buffer(Stores CB transitions), where agents learn chute allocation policies resilient to adversarial induction rate shifts by optimizing for worst-case performance across distribution groups.
+- The framework integrates group Distributionally Robust Optimization (DRO) into Multi-Agent Reinforcement Learning (MARL) to handle uncertainty in package induction patterns derived from historical data groups.
+- A Contextual Bandit (CB)-based predictor efficiently identifies the worst-case induction distribution group for each state-action pair, reducing the computational complexity of training compared to exhaustive search methods.
+
+
+---
 
 
 #### 11th March 2025
