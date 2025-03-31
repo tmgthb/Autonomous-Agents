@@ -43,8 +43,159 @@ Chronological order.
 
 </div>
 
+#### 28th March 2025
+
+[WorkTeam: Constructing Workflows from Natural Language with Multi-Agents](http://arxiv.org/abs/2503.22473v1)
+
+- WorkTeam (multi-agent NL2Workflow framework): introduces supervisor, orchestrator, and filler agents for collaborative natural language to workflow conversion.
+- WorkTeam framework enhances workflow construction accuracy through task specialization and collaboration among supervisor, orchestrator, and filler agents.
+- The framework utilizes supervisor agent for task planning and result reflection, orchestrator agent for component selection and orchestration, and filler agent for parameter population.
+
+
+---
+
+
+[Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions](http://arxiv.org/abs/2503.22678v1)
+
+- MedAgentSim (MedAgentSim): introduces a multi-agent framework with patient-, doctor-, and measurement-agents within conversation- and experience replay-phases, utilizing medical- and experience-records buffers, KNN few-shot retrieval, chain-of-thought reasoning, majority vote ensembling, and reflection-phase for enhanced diagnostic accuracy.
+- MedAgentSim framework simulates realistic clinical interactions by enabling doctor agents to actively gather patient information through multi-turn conversations and iteratively refine diagnostic strategies using self-improvement mechanisms.
+- The framework incorporates experience replay and memory buffers to facilitate progressive learning and improve the performance of LLM-powered agents in dynamic diagnostic settings, bridging the gap between static evaluations and real-world medical reasoning.
+
+
+---
+
+[Unlocking LLM Repair Capabilities in Low-Resource Programming Languages Through Cross-Language Translation and Multi-Agent Refinement](http://arxiv.org/abs/2503.22512v1)
+
+- LANTERN (LANguage Translation and multi-agEnt Refinement): introduces a novel program repair framework, with Analyzer, Translator, Repairer, Test Suites, Middleware, Historical Data Storage & Retrieval, Prompt Construction, Process Control and Translation Coordination, that leverages cross-language translation and multi-agent refinement to enhance LLM-based repair capabilities in low-resource programming languages.
+- LANTERN framework strategically translates buggy code to languages where LLMs exhibit stronger repair performance, utilizing a multi-agent iterative repair paradigm and incorporating historical feedback for informed decision-making.
+- The framework's key innovation lies in its LLM-based Analyzer that dynamically selects optimal target languages for translation based on bug characteristics and previous repair attempts, effectively bridging the performance gap across programming languages.
+
+
+---
+
+
+
+[Evaluating LLM-based Agents for Multi-Turn Conversations: A Survey](http://arxiv.org/abs/2503.22458v1)
+
+- Multi-turn Conversational Agent: introduces agent architecture for multi-turn dialogues, with User Input-Agent Output, Task Planner, Tool Invoker, Agent Core, Conversation Memory, and Turn Memory components.
+- This framework manages conversation flow by decomposing user requests, invoking tools, maintaining memory, and generating responses.
+- The architecture enables coherent and context-aware interactions over extended dialogues by leveraging memory and planning.
+
+
+---
+
+[COSIL: Software Issue Localization via LLM-Driven Code Repository Graph Searching](http://arxiv.org/abs/2503.22424v1)
+
+- COSIL (Software Issue Localization): introduces a two-stage framework for issue localization, with file-level search space reduction and function-level iterative search, utilizing module and function call graphs, guided by a searcher and pruner, to identify suspicious code locations.
+- COSIL employs a module call graph enhanced reflection and iterative function call graph searching to refine search space and context, dynamically constructing graphs and using context pruning for effective issue localization.
+- The framework leverages a searcher agent with tools and a pruner to manage context and direction during iterative search, aiming for concise yet effective context for accurate issue localization without pre-built indexes.
+
+
+---
+
+[Agent-Centric Personalized Multiple Clustering with Multi-Modal LLMs](http://arxiv.org/abs/2503.22241v1)
+
+- Agent-Centric Framework (Agent-Centric Personalized Multiple Clustering Framework): introduces agent-centric personalized clustering using MLLM Agents to traverse Relational Graph built from MLLM-based Embedding Extractor and identify Searched Clusters based on User Interests.
+- The framework constructs Relational Graph via Embedding Similarity filtering of Image Embeddings and employs Agent-Centric Graph Traversal with Membership Assessment and Cluster Update mechanisms.
+- This approach leverages MLLM Agents for efficient graph exploration, starting from Seed Nodes within Connected Components and iteratively expanding clusters by evaluating Candidate Nodes and Neighbor Nodes.
+
+
+---
+
+[PharmAgents: Building a Virtual Pharma with Large Language Model Agents](http://arxiv.org/abs/2503.22164v1)
+
+- PharmAgents: introduces a virtual pharmaceutical ecosystem, driven by LLM-based multi-agent collaboration, that simulates drug discovery workflow with components including agents for disease expertise, target analysis, molecule design, and preclinical evaluation, alongside databases and computational tools.
+- PharmAgents decomposes drug discovery into target discovery, lead identification, lead optimization, and preclinical evaluation stages, employing specialized LLM-driven agents for each stage, enhanced with machine learning models and domain-specific tools, to achieve autonomous and explainable drug design.
+- The framework emphasizes interpretability and efficiency by integrating LLMs for reasoning and decision-making at each stage of drug discovery, ensuring transparency and enabling researchers to understand and validate the AI-driven process, ultimately accelerating drug development.
+
+
+---
+
+
+#### 27th March 2025
+
+[MemInsight: Autonomous Memory Augmentation for LLM Agents](http://arxiv.org/abs/2503.21760v1)
+
+- MemInsight (Autonomous Memory Augmentation): introduces autonomous memory augmentation framework with Attribute Mining, Annotation, Retrieval Pool, Memory Retriever and Memory Augmentation to enhance LLM agents' contextual performance.
+- MemInsight leverages attribute mining and annotation for structured memory representation, enabling efficient retrieval through attribute-based and embedding-based methods.
+- The framework improves memory retrieval by filtering irrelevant information and retaining key insights, demonstrated across conversational tasks.
+
+
+---
+
+[Debate-Driven Multi-Agent LLMs for Phishing Email Detection](http://arxiv.org/abs/2503.22038v1)
+
+- Multi-Agent Debate Framework: introduces multi-agent debate framework with pro-phishing Agent 1, anti-phishing Agent 2, debate adjudicating Judge Agent, and scripted Debate Procedure for phishing email detection.
+- This framework uses two debating LLM agents and judge LLM to improve phishing email classification via structured argument exchange.
+- Debate-driven approach enhances contextual analysis and reasoning for improved phishing detection accuracy compared to single-agent methods.
+
+
+---
+
+[LEARNING TO LIE: REINFORCEMENT LEARNING ATTACKS DAMAGE HUMAN-AI TEAMS AND TEAMS OF LLMS](http://arxiv.org/abs/2503.21983v1)
+
+- MBRL (Model-Based Reinforcement Learning): introduces adversarial agent, with Action, Team, State, Planner, Internal Model, Adversarial agent components, to study malicious AI in human-AI teams.
+- MBRL framework uses internal model of team dynamics and planner to decide AI agent's action to maximize damage to team performance.
+- This approach investigates vulnerabilities in human-AI collaboration and informs development of defense strategies against AI-driven attacks.
+
+
+---
+
+
+[GateLens: A Reasoning-Enhanced LLM Agent for Automotive Software Release Analytics](http://arxiv.org/abs/2503.21735v1)
+
+- GateLens: introduces a system for automotive software release analytics, utilizing Query Interpreter Agent, Relational Algebra Generation, RA to Pandas Code Conversion, Coder Agent, Code Execution, Analysis Results Output to User, Database, and Knowledge Base components.
+- GateLens employs Query Interpreter Agent to translate user queries into Relational Algebra, which is then converted to executable code by Coder Agent for analysis using Database and guided by Knowledge Base.
+- The framework enhances analytical reasoning by incorporating Relational Algebra, enabling precise handling of domain-specific queries and improving the interpretability of the analysis process.
+
+
+---
+
+
+[ReFeed: Multi-dimensional Summarization Refinement with Reflective Reasoning on Feedback](https://arxiv.org/abs/2503.21332)
+
+- ReFeed (Refinement with Reflective Reasoning on Feedback): introduces a summarization refinement pipeline enhancing multiple dimensions using reflective reasoning on feedback.
+- ReFeed pipeline incorporates detection, multi-dimensional feedback mapping, reflective reasoning, supervised fine-tuned LLM, SumFeed-CoT dataset, goal specification, LRM teacher, refinement guideline, and quality control components.
+- ReFeed framework aims to address trade-offs, ordering bias, and noisy feedback in multi-dimensional summarization refinement, improving robustness and performance.
+
+
+---
+
+
+[COLLAB: CONTROLLED DECODING USING MIXTURE OF AGENTS FOR LLM ALIGNMENT](http://arxiv.org/abs/2503.21720v1)
+
+- COLLAB (CONTROLLED DECODING using MIXTURE OF AGENTS): introduces mixture of agents-based decoding strategy with policy-switching and token-level selection.
+- Leverages implicit Q-function for optimal agent selection from pool of models during inference.
+- Enables collaborative alignment among LLMs without retraining by dynamic agent selection.
+
+
+---
+
+
+[A Survey of Efficient Reasoning for Large Reasoning Models: Language, Multimodality, and Beyond](https://arxiv.org/abs/2503.21614)
+
+- Efficient Reasoning for LRMs (Large Reasoning Models): introduces pre-training, SFT, RL, LRM, and inference stages for efficient reasoning methods.
+- The survey categorizes efficient reasoning methods based on these stages in the LLM lifecycle.
+- Efficient reasoning in LRMs is crucial for deployment, scalability, and practical application, addressing the challenge of excessive reasoning traces.
+
+
+---
+
+
+
+
 
 #### 26th March 2025
+
+[GAIA-2: A Controllable Multi-View Generative World Model for Autonomous Driving](https://arxiv.org/abs/2503.20523)
+
+- GAIA-2 (Generative AI for Autonomy): introduces a generative world model for autonomous driving, with Video Tokenizer, Latent World Model, Space-Time Factorized Transformer, and Conditioning components.
+- GAIA-2 framework includes Encoder and Decoder within Video Tokenizer, various Conditioning inputs like Actions, 3D Bounding Boxes, Metadata, Embeddings, Camera Parameters, Positional Encodings, and Memory and Noise components for generation.
+- GAIA-2 framework utilizes Training Tasks and Inference modes to enable controllable video generation for autonomous driving simulation, addressing multi-camera consistency and fine-grained control.
+
+
+---
+
 
 [Feature4X: Bridging Any Monocular Video to 4D Agentic AI with Versatile Gaussian Feature Fields](http://arxiv.org/abs/2503.20776v1)
 
@@ -65,7 +216,7 @@ Chronological order.
 
 ---
 
-TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews](http://arxiv.org/abs/2503.20666v1)
+[TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLMs for Clinical Interviews](http://arxiv.org/abs/2503.20666v1)
 
 - TAMA (Thematic Analysis): introduces a human-AI collaborative framework with Cardiac Expert, Interview Transcripts, Chunks, Generation Agent, Codes, Evaluation Agent, Themes, Refinement Agent, and Feedback for thematic analysis of clinical interviews using multi-agent LLMs.
 - TAMA framework leverages multi-agent LLMs to automate thematic analysis by generating, evaluating, and refining themes through structured conversations and expert feedback, enhancing scalability and coherence.
@@ -119,6 +270,14 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 
 ---
 
+[A Reference Architecture for Autonomous Networks: An Agent-Based Approach](https://arxiv.org/abs/2503.12871)
+
+- AN Agent Reference Architecture (Autonomous Networks Agent Reference Architecture): introduces Situation Awareness (perceives network state), Decision Making (determines actions), Self Awareness (recognizes risks), Choice Making (selects suitable goal), World Knowledge (knowledge repository), Human-Agent Interaction (human collaboration), Agent-Agent Interaction (agent collaboration), Reactive Behavior (responds to stimuli), and Proactive Behavior (addresses potential risks) for autonomous network agents.
+- AN Agent Reference Architecture facilitates autonomous network operation by integrating reactive and proactive behaviors with human and agent interactions, leveraging shared domain-specific knowledge for consistent decision execution.
+- The architecture emphasizes modularity and functional specification, aiming for implementation-independence and completeness to guide development of trustworthy autonomous network agents replacing human operation and maintenance.
+
+
+---
 
 
 #### 25th March 2025
@@ -1087,6 +1246,14 @@ TAMA: A Human-AI Collaborative Thematic Analysis Framework Using Multi-Agent LLM
 
 ---
 
+[Advancing Human-Machine Teaming: Concepts, Challenges, and Applications](https://arxiv.org/abs/2503.16518)
+
+- QN-MHP (Queuing Network-Model Human Processor): introduces queuing networks and symbolic cognitive models to effectively model multitask human performance for cognitive modeling.
+- QN-MHP demonstrates potential in cognitive modeling but lacks accuracy under specific conditions and does not address speed control or complex road geometry adjustments.
+- QN-MHP represents an initial approach towards integrating cognitive and queuing models for human performance simulation.
+
+
+---
 
 
 #### 15th March 2025
@@ -2185,10 +2352,36 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+[Levels of Spacecraft Autonomy](https://arxiv.org/abs/2503.01928)
 
+- Levels of Spacecraft Autonomy: introduces levels framework with Basic Space Operations, Ground Commanding, Space Situational Awareness, Onboard Recovery Planning, Onboard Recovery Actions, Onboard Execution, Optional Monitoring, and Ground Monitoring components to characterize spacecraft autonomy.
+- The framework defines six levels of spacecraft autonomy, ranging from basic ground-commanded operations to fully autonomous onboard execution and optional ground monitoring.
+- This autonomy level framework aims to provide a consistent method for describing and communicating spacecraft capabilities to diverse audiences, including technical and non-technical stakeholders.
+
+
+---
+
+[Curating Demonstrations using Online Experience](https://arxiv.org/abs/2503.03707)
+
+- Demo-SCORE (Demo-SCORE): introduces a self-curation method for robot demonstrations using online experience, with Initial Policy Training, Rollout Generation, Data Quality Classifier Training, and Demonstration Filtering components.
+- Demo-SCORE leverages policy rollouts to identify and remove unreliable demonstrations from an initial dataset.
+- Demonstration Filtering component uses a trained classifier to refine the demonstration dataset based on predicted reliability.
+
+
+---
 
 
 #### 4th March 2025
+
+[Four Principles for Physically Interpretable World Models](https://arxiv.org/abs/2503.02143)
+
+- Physically Interpretable World Models: introduces a world model framework incorporating principles like latent structuring and output partitioning, utilizing components such as physical encoders, dynamics models, and decoders to achieve physical interpretability.
+- This framework emphasizes learning aligned invariant and equivariant representations through multi-level supervision to enhance the reliability and verifiability of world models for autonomous systems.
+- The proposed architecture aims to bridge the gap between high-dimensional observations and physical meaning by partitioning generative outputs and structuring latent spaces according to physical variable intent.
+
+
+---
+
 
 [From Metaphor to Mechanism: How LLMs Decode Traditional Chinese Medicine Symbolic Language for Modern Clinical Relevance](http://arxiv.org/abs/2503.02760v1)
 
@@ -2992,6 +3185,16 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 
 ---
+
+[Hi Robot: Open-Ended Instruction Following with Hierarchical Vision-Language-Action Models](https://www.pi.website/research/hirobot)
+
+- Hi Robot (Hierarchical interactive robot learning system): introduces a hierarchical framework using VLMs for complex instruction following, incorporating user prompts, high-level reasoning, intermediate commands, low-level execution, and verbal responses.
+- The framework decomposes policy into high-level VLM for complex prompt processing and low-level VLA for action execution.
+- Hi Robot enables robots to interpret complex language, adapt to feedback, and perform diverse tasks in open-ended environments.
+
+
+---
+
 
 #### 25th February 2025
 
@@ -4404,6 +4607,19 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 
 ---
+
+#### 17th February 2025
+
+[A Study on Leveraging Search and Self-Feedback for Agent Reasoning](https://arxiv.org/abs/2502.12094)
+
+- MCTSr (MCTS with Self-Refine): introduces search and self-feedback with search, self-feedback, reward, and selection strategy for agent reasoning tasks.
+- This study compares ground-truth feedback and self-feedback in math reasoning and tool-calling, revealing self-feedback can be suboptimal.
+- The research emphasizes the necessity of engineered feedback mechanisms in search for dependable agent reasoning, particularly in complex scenarios.
+
+
+---
+
+
 
 #### 16th February 2025
 
@@ -8121,7 +8337,14 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+[Autonomous chemical research with large language models](https://www.nature.com/articles/s41586-023-06792-0)
 
+- Coscientist: Introduces a autonomous chemical research system for autonomously designing, planning, and performing complex scientific experiments 
+- Uses modular approach consisting of: Google, Planner (LLM), Python, retrieval of documentation and execution of experiments.
+- Capabilities include planning chemical syntheses, optimizing reactions, and controlling liquid-handling robots.
+
+
+---
 
 
 [Offline Reinforcement Learning for LLM Multi-Step Reasoning](https://arxiv.org/abs/2412.16145)
@@ -8735,6 +8958,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 31st of October 2024
 
+[Empowering biomedical discovery with AI agents](https://www.sciencedirect.com/science/article/pii/S0092867424010705)
+
+- Introduces AI agents for biomedical discovery, consisting of Robotic-, Database-, Reasoning-, Hypothesis-, Brainstorming-, Search Engine-, Analysis- and Experimental Planning-agents.
+- Performs tasks including hypothesis generation, workflow planning, and self-assessment, integrating large language models (LLMs) and machine learning tools.
+- Potetial use cases include virtual cell simulation, programmable phenotype control, cellular circuit design, and therapy development.
+
+---
+
+
 [Navigating the Unknown: A Chat-Based Collaborative Interface for Personalized Exploratory Tasks](https://arxiv.org/abs/2410.24032)
 
 - CARE (Collaborative Assistant for Personalised Exploration): Introduces personalized LLM-based multi agent framework, where user interface includes chat/solution/needs-panels.
@@ -9125,6 +9357,16 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 
 ---
+
+[ALOHA Unleashed: A Simple Recipe for Robot Dexterity](https://arxiv.org/abs/2410.13126)
+
+- ALOHA Unleashed: introduces a transformer encoder-decoder architecture with diffusion loss for dexterous bimanual manipulation tasks.
+- The framework uses CNNs for image embedding, Transformer Encoder for observation encoding, Transformer Decoder for action denoising, Proprioception MLP, and Diffusion Timestep.
+- This approach combines large-scale data collection with diffusion policy to achieve improved performance in challenging manipulation tasks.
+
+
+---
+
 
 #### 16th of October 2024
 
@@ -17924,6 +18166,16 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
+[Better speech synthesis through scaling](https://arxiv.org/abs/2305.07243)
+
+- TorToise (TorToise an expressive, multi-voice text-to-speech system): introduces text-to-speech synthesis framework utilizing autoregressive transformer and diffusion decoder with conditioning inputs and CLVP re-ranking for improved speech quality.
+- This framework comprises autoregressive transformer for speech token prediction, diffusion decoder for converting tokens to MEL spectrograms, and vocoder for waveform generation from spectrograms.
+- TorToise incorporates conditioning MEL from reference audio and CLVP discriminator to enhance speech synthesis expressiveness and enable speaker cloning capabilities.
+
+
+---
+
+
 #### 18th of May 2023
 
 [Think Outside the Code: Brainstorming Boosts Large Language Models in Code Generation](https://arxiv.org/abs/2305.10679)
@@ -18174,6 +18426,18 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 
 ---
+
+#### 12th October 2022
+
+[Interactive Language: Talking to Robots in Real Time](https://arxiv.org/abs/2210.06407)
+
+- Interactive Language: introduces a framework for real-time language-instructable robots, with Teleoperated Data Collection, Hindsight Language Relabeling, Language Conditioned Behavioral Cloning (LCBC), Robot Policy, Real-time Language Guidance, ResNet CNN, CLIP Text Encoder, Vision-Language Transformer, Temporal Transformer, and Policy MLP.
+- Interactive Language framework uses behavioral cloning on large language-annotated dataset for training real-time language-guided robot policy.
+- This framework facilitates interactive robot control for complex manipulation tasks and demonstrates high success rate on diverse language commands.
+
+
+---
+
 
 #### 31st of August 2022
 
