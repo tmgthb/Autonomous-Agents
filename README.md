@@ -43,7 +43,107 @@ Chronological order.
 
 </div>
 
-#### 2nd of April 2024
+#### 3rd April 2025
+
+[Affordable AI Assistants with Knowledge Graph of Thoughts](http://arxiv.org/abs/2504.02670v1)
+
+- Knowledge Graph of Thoughts (KGoT): introduces an AI assistant architecture integrating LLM reasoning with dynamically constructed knowledge graphs, with Graph Store Module, LLM Graph Executor, Controller, LLM Tool Executor, Integrated Tools Module, and Backend components.
+- KGoT enhances task comprehension by structuring task-relevant knowledge into dynamic knowledge graphs, iteratively improved using external tools and enabling cost-effective models to solve complex tasks.
+- The modular KGoT architecture improves task-solving ability by operating with a rich, structured knowledge base, reducing operational costs and enhancing performance across diverse tasks.
+
+
+---
+
+
+[Multi-Mission Tool Bench: Assessing the Robustness of LLM based Agents through Related and Dynamic Missions](http://arxiv.org/abs/2504.02623v1)
+
+- MMTB (Multi-Mission Tool Bench): introduces a controllable data generation framework simulating mission execution through dialogic interactions among user, planner, tool, AI, and checker agents.
+- MMTB framework evaluates agent robustness in related and dynamic multi-mission scenarios, addressing challenges of real-world complexity.
+- The framework utilizes a novel evaluation method based on dynamic decision trees to assess accuracy and efficiency of agent decisions.
+
+
+---
+
+
+[Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](http://arxiv.org/abs/2504.02605v1)
+
+- Multi-SWE-bench: introduces a multilingual benchmark for issue resolving, comprising Repository Selection, PR Crawling, Environment Determination, PR Filtering, and Manual Verification components.
+- Multi-SWE-bench utilizes a five-phase pipeline to create a robust benchmark for assessing agent capabilities in resolving real-world software issues across multiple programming languages.
+- Multi-SWE-bench provides a diverse and rigorously validated dataset to overcome limitations of existing benchmarks and facilitate comprehensive LLM evaluation in realistic software engineering scenarios.
+
+
+---
+
+
+[Exploring Individual Factors in the Adoption of LLMs for Specific Software Engineering Tasks](http://arxiv.org/abs/2504.02553v1)
+
+- UTAUT2 (Unified Theory of Acceptance and Use of Technology 2): introduces framework with Performance Expectancy, Effort Expectancy, Social Influence, Hedonic Motivation, Habit, Facilitating Conditions, Behavioral Intention, Usage Behavior, Manipulate Artifacts, Generate Alternatives, Information Retrieval, Decision Support, and Training components, for exploring factors influencing LLM adoption for software engineering tasks.
+- The framework investigates how individual attributes related to technology adoption and UTAUT2 constructs impact the task-specific adoption of LLMs across five key software engineering tasks.
+- The study uses structural equation modeling to analyze survey data from software engineers, revealing task-specific adoption is influenced by distinct factors and providing actionable recommendations for effective LLM integration.
+
+
+---
+
+
+[A Memory-Augmented LLM-Driven Method for Autonomous Merging of 3D Printing Work Orders](http://arxiv.org/abs/2504.02509v1)
+
+- LLM-Driven Method (Memory-Augmented LLM-Driven Method for Autonomous Merging of 3D Printing Work Orders): introduces an autonomous 3D printing work order merging framework, with Production line condition, Agent, LLM, Tools, Memory, Print implementation and Monitoring, leveraging Order Matching Tool, Interference Checking Tool, Answer generator and Job Consolidation components.
+- The framework utilizes a memory-augmented learning strategy, enabling the agent to accumulate experience and improve decision-making accuracy over iterative autonomous operations.
+- The method models printer and order features into LLM-readable prompts, facilitating intelligent order-device matching and merging while reducing LLM hallucination in industrial applications.
+
+
+---
+
+
+[ReuseDroid: A VLM-empowered Android UI Test Migrator Boosted by Active Feedback](http://arxiv.org/abs/2504.02357v1)
+
+- REUSEDROID (REUSEDROID): introduces a multi-agent framework for GUI test migration, with Test Analyzer Agent, Test Skeleton, Planner Agent, Completeness Checker, Action Generator, Feedback Agent, Oracle Generator, and Execution Agent, to address operational logic differences in GUI testing.
+- REUSEDROID employs a Test Analyzer Agent to generalize source test logic and create a Test Skeleton, guiding a Planner Agent with Completeness Checker, Action Generator, and Oracle Generator, while a Feedback Agent refines actions and an Execution Agent performs them.
+- The framework leverages visual and textual information with VLMs in each agent to improve understanding of GUI elements and context, aiming to enhance the accuracy and efficiency of GUI test migration across different applications.
+
+
+---
+
+[Parallel Market Environments for FinRL Contests](http://arxiv.org/abs/2504.02281v1)
+
+- FinRL (Financial Reinforcement Learning): introduces VecEnv (manages parallel environments) with SubEnv (simulates market scenarios), State (market conditions), Action (trading action), Reward (incentive signal), Market Constraints (realistic market conditions), and Features (market indicators and LLM signals).
+- The framework addresses sampling bottleneck in financial RL by using GPU-based parallel market environments.
+- It incorporates LLM-generated signals for sentiment analysis and risk assessment to enhance trading agent's decision-making.
+
+
+---
+
+
+#### 2nd April 2025
+
+[Self-Resource Allocation in Multi-Agent LLM Systems](http://arxiv.org/abs/2504.02051v1)
+
+- MAS (Multi-Agent Systems): introduces three methods for task allocation in multi-agent systems: Individual, Orchestrator, and Planner, within a simulated CuisineWorld environment, utilizing LLM-based agents for task execution and control.
+- The Individual method represents a decentralized approach where each agent acts independently, while the Orchestrator method employs a centralized LLM to control all agents' actions, and the Planner method uses a plan-generating LLM to guide independent agent actions.
+- The paper evaluates these methods in terms of efficiency and cost-effectiveness, finding that the Planner method achieves better performance in handling concurrent actions and resource allocation compared to the Orchestrator and Individual methods.
+
+
+---
+
+[LLM-mediated Dynamic Plan Generation with a Multi-Agent Approach](http://arxiv.org/abs/2504.01637v1)
+
+- ANA (Agent Network Architecture): introduces a method for dynamic plan generation using a multi-agent approach, incorporating Status Collection, Network Construction, and Network Optimization stages, with Agents coordinating through Activation Spreading and leveraging GPT for agent generation.
+- The framework utilizes Agents, defined by Add list, Condition list, and Delete list, and Statuses to build a network capable of both reactive and deliberative planning in dynamic environments.
+- This approach aims to automate agent creation and network construction, reducing design costs and enhancing flexibility and scalability for robot planning and other complex systems.
+
+
+---
+
+
+
+[LLMs as Deceptive Agents: How Role-Based Prompting Induces Semantic Ambiguity in Puzzle Tasks](http://arxiv.org/abs/2504.02254v1)
+
+- Deceptive Puzzle Generation Framework: introduces a comparative study of Zero-Shot and Role-Injected prompting strategies for Large Language Models (puzzle generator) in generating deceptive puzzles, utilizing Rule Prompt (basic instructions), Rule + Prompt (deceptive instructions), JSON File (output format), and Game (generated puzzle).
+- This framework assesses how embedding adversarial intent through role-injected prompts modulates semantic ambiguity and puzzle difficulty compared to puzzles generated via zero-shot prompts.
+- The framework employs HateBERT for computational analysis and human evaluations, demonstrating that role-injected prompts generally increase semantic ambiguity, leading to higher cognitive load and reduced fairness in puzzle solving.
+
+
+---
 
 [An Approach to Technical AGI Safety and Security](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/evaluating-potential-cybersecurity-threats-of-advanced-ai/An_Approach_to_Technical_AGI_Safety_Apr_2025.pdf)
 
@@ -54,8 +154,267 @@ Chronological order.
 
 ---
 
+[A Survey of Scaling in Large Language Model Reasoning](http://arxiv.org/abs/2504.02181v1)
+
+- Scaling in LLM Reasoning Taxonomy: introduces a taxonomy categorizing scaling strategies for large language model reasoning into input sizes, reasoning steps, reasoning rounds, and model optimization, exploring how these dimensions enhance reasoning capabilities.
+- The taxonomy details input size scaling with In-Context Learning, Retrieval-Augmented Generation, and Memory-Augmented LLMs; reasoning step scaling with Chain-of-Thought and Meta-Reasoning & Calibration; reasoning round scaling with Multi-Agent Collaboration, Debate-based Reasoning, Human-LLM Interaction, Reinforcement Learning, and Latent-Space Reasoning; and model optimization through Reinforcement Learning and Latent-Space Reasoning.
+- This survey aims to bridge the gap between empirical scaling strategies and reasoning improvements, providing insights into when and why scaling enhances reasoning and addresses limitations, guiding future AI development.
+
+
+---
+
+[On Simulation-Guided LLM-based Code Generation for Safe Autonomous Driving Software](http://arxiv.org/abs/2504.02141v1)
+
+- Simulation-Guided LLM-based Code Generation: introduces a closed-loop pipeline using Pipeline Input, Code Generator, Simulation Model, Baseline Selector, and Report Generator components to iteratively refine Generated Code for autonomous driving functions based on Test Report and Simulation Numerical Logs, guided by Specification Prompt and Correction Prompt.
+- This framework employs a simulation environment to automatically evaluate LLM-generated code against safety requirements, using feedback from test reports to guide the LLM in Correction Prompt for iterative code improvement and Baseline Selector for performance comparison.
+- The iterative Simulation-Guided LLM-based Code Generation pipeline aims to enhance the quality and safety of LLM-generated code for safety-critical automotive software by incorporating automated testing and feedback within the code generation process, utilizing Specification Prompt and Correction Prompt strategies.
+
+
+---
+
+[Achieving Unanimous Consensus in Decision Making Using Multi-Agents](http://arxiv.org/abs/2504.02128v1)
+
+- Deliberation-based consensus mechanism: introduces a novel approach for achieving unanimous consensus in blockchain using a layered architecture composed of Blockchain Layer, Deliberation Layer, and LLMs Layer.
+- The Blockchain Layer provides secure infrastructure, the Deliberation Layer structures the multi-agent discussion, and the LLMs Layer utilizes language models for generating arguments and refining opinions through iterative rounds.
+- This framework leverages graded consensus and multi-round deliberation to ensure unanimous agreement for critical decisions in blockchain networks, addressing limitations of majority-based consensus mechanisms.
+
+
+---
+
+
+
+[Review, Refine, Repeat: Understanding Iterative Decoding of AI Agents with Dynamic Evaluation and Selection](http://arxiv.org/abs/2504.01931v1)
+
+- IAD (Iterative Agent Decoding): introduces iterative refinement framework, with USER, SKETCH, LLM, HTML, VERIFIER/REWARD, SELECTED HTML, Feedback to improve, and NEW HTML components, where paper proposes iterative decoding for AI agents using verifier-guided feedback.
+- Iterative Agent Decoding framework refines responses through iterative feedback, enabling improved performance in black box structured generation tasks.
+- The framework leverages verifier quality for effective inference-time optimization and demonstrates robustness under sparse and noisy feedback.
+
+
+---
+
+[GEN-C: POPULATING VIRTUAL WORLDS WITH GENERATIVE CROWDS](http://arxiv.org/abs/2504.01924v1)
+
+- Gen-C (generative framework): introduces a generative model for authoring high-level crowd behaviors, utilizing components like LLM for scenario generation, VGAE Graph and VGAE Features for learning latent spaces of graph structures and node features, and a Condition Net for text-conditional generation.
+- Gen-C employs an LLM to create initial crowd scenarios, which are expanded and simulated to build time-expanded graphs, subsequently used to train variational graph auto-encoders for learning agent behaviors and interactions.
+- The framework facilitates text-conditioned synthesis of diverse crowd behaviors by sampling from learned latent spaces, enabling automated population of virtual environments with complex and dynamic agent interactions.
+
+
+---
+
+[Advancing AI-Scientist Understanding: Making LLM Think Like a Physicist with Interpretable Reasoning](http://arxiv.org/abs/2504.01911v1)
+
+- Augmented Reasoning with Interpretation Module: introduces an interpretation module to enhance interpretability and verifiability of LLM-based physics reasoning, incorporating reasoning-, interpretation-, and AI-scientist interaction-modules, with summarizer-, model builder-, UI builder-, and tester-components.
+- The framework refines raw AI outputs into structured science models and executable code, facilitating human oversight through interactive tools and automated checks, thereby improving transparency and validation in AI-augmented scientific discovery.
+- By employing specialized agents within the interpretation module, the system aims to bridge the gap between automated AI reasoning and human scientific intuition, fostering more reliable and understandable AI-driven scientific exploration.
+
+
+---
+
+[INTERPRETING EMERGENT PLANNING IN MODEL-FREE REINFORCEMENT LEARNING](http://arxiv.org/abs/2504.01871v1)
+
+- DRC (Deep Repeated ConvLSTM): introduces mechanistic evidence for emergent planning in model-free RL agents by employing concept-based interpretability to analyze internal plan formation, evaluation, and adaptation within a Sokoban-playing agent, revealing components like Convolutional encoder, ConvLSTM layers, Cell state, Internal ticks, Agent evaluates plan, Agent adapts plan, Agent plans forwards from boxes, Agent plans backwards from targets, and Agent extends routes in parallel.
+- The framework demonstrates that DRC agents utilize learned concept representations to formulate internal plans, predict long-term action effects, and influence behavior, resembling parallelized bidirectional search and benefiting from additional test-time compute.
+- The study highlights the emergent planning capabilities in model-free RL, suggesting that agents can learn complex internal mechanisms for decision-making without explicit world models, advancing the understanding of emergent reasoning in LLMs through RL.
+
+
+---
+
+[PaperBench: Evaluating AI's Ability to Replicate AI Research](http://arxiv.org/abs/2504.01848v1)
+
+- PaperBench: introduces a benchmark evaluating AI agents' ability to replicate AI research, with Agent (AI system for replication), Submission (Agent's codebase repository), Task (Replicate paper contributions), Reproduction (Execution to verify results), Rubric (Hierarchical assessment criteria), Judge (LLM-based grading system), Grading (Evaluation against rubric), and Score (Numerical replication performance).
+- PaperBench uses rubrics co-developed with paper authors and LLM-based judge to automatically grade replication attempts.
+- The benchmark evaluates agents on understanding paper contributions, developing codebase, and executing experiments for complete replication of ML research papers.
+
+
+---
+
+
+[Are Autonomous Web Agents Good Testers?](http://arxiv.org/abs/2504.01495v1)
+
+- PinATA (Planned INcentive ATA): introduces orchestrator, actor, assertor, memory and profile components for advanced autonomous test agent.
+- PinATA employs orchestrator for planning and monitoring, actor for action execution using grounding, and assertor for verification using judge approach, all sharing memory and profile modules.
+- PinATA aims to improve upon basic ATA by incorporating state-of-the-art techniques for perception, reasoning, evaluation, and grounding to enhance testing capabilities.
+
+
+---
+
+[An Illusion of Progress? Assessing the Current State of Web Agents](http://arxiv.org/abs/2504.01382v1)
+
+- WebJudge: introduces an automatic evaluation method for web agents, with Key Point Identification, Key Screenshot Identification, and Outcome Judgement components.
+- WebJudge framework identifies key task requirements, selects relevant screenshots from agent's trajectory, and judges task completion based on gathered information.
+- The framework aims to improve upon existing LLM-as-a-judge methods by preserving critical intermediate steps while mitigating token overload for more reliable web agent evaluation.
+
+
+---
+
+[STRATEGIZE GLOBALLY, ADAPT LOCALLY: A MULTI-TURN RED TEAMING AGENT WITH DUAL-LEVEL LEARNING](http://arxiv.org/abs/2504.01278v1)
+
+- GALA (Global and Local Learning Agent): introduces a multi-turn red-teaming agent, with Planning Module, Belief Update Module, and Learning Module, for emulating human attackers via global and local learning.
+- GALA employs Initial Knowledge Base and Selection Framework for tactic selection, and Generate Prompt Suggestion and On-the-fly for dynamic prompt creation, leveraging Accumulated Knowledge.
+- GALA's dual learning of global tactics and local prompts enhances attack success and diversity in multi-turn red-teaming scenarios.
+
+
+---
+
+#### 1st April 2025
+
+[AGENTNET: DECENTRALIZED EVOLUTIONARY COORDINATION FOR LLM-BASED MULTI-AGENT SYSTEMS](http://arxiv.org/abs/2504.00587v1)
+
+- AgentNet: introduces decentralized framework for LLM-based multi-agent system, with Agent-components, that includes Executor (executes tasks), Router (makes routing decisions), Router Memory (stores routing experiences), Trajectory Memory (stores execution experiences), DAG Task Routing (directed acyclic graph for routing), and RAG Pools (retrieval augmented generation knowledge).
+- AgentNet framework facilitates autonomous agent specialization and dynamic network topology evolution by leveraging retrieval-based memory and directed acyclic graph for task routing, enhancing scalability and fault tolerance.
+- AgentNet's decentralized design eliminates central orchestrator, enabling privacy-preserving collaboration and efficient resource allocation in dynamic multi-agent environments, improving adaptability and performance.
+
+
+---
+
+
+[Catastrophic Forgetting in LLMs: A Comparative Analysis Across Language Tasks](http://arxiv.org/abs/2504.01241v1)
+
+- Continual Instruction Fine-tuning (CIF) framework evaluates catastrophic forgetting in Large Language Models by sequentially fine-tuning a base model on Natural Language Understanding tasks using prompt engineering and continual evaluation.
+- The CIF framework assesses model retention of prior knowledge after learning new tasks by comparing performance across different fine-tuning episodes and various Large Language Models.
+- This research highlights the impact of prompt engineering and model size on continual learning capabilities in Large Language Models, offering insights into mitigating catastrophic forgetting.
+
+
+---
+
+[First Field-Trial Demonstration of L4 Autonomous Optical Network for Distributed AI Training Communication: An LLM-Powered Multi-AI-Agent Solution](http://arxiv.org/abs/2504.01234v1)
+
+- AutoLight (LLM-Powered Multi-Agent System): introduces a hierarchical multi-agent system with Planner Agent, Task Agent, and ReAct Agent, utilizing Chain of Identity for agent interaction, to manage autonomous optical networks across components like Domain Controller, Physical Layer Controller, Network Layer Controller, DCI Metro, Backbone Domain, Digital Twin, Failure Handler, Knowledge Retriever, Resource Allocator, Training Orchestrator, Network-layer Planner, and Physical-layer Planner.
+- AutoLight employs Planner Agents for high-level coordination and Task Agents for specialized operations, while ReAct Agents are LLM-powered, and Chain of Identity ensures effective agent communication.
+- The framework components facilitate autonomous network management by handling tasks such as resource allocation, failure management, and network planning across different network layers and domains.
+
+
+---
+
+[Grounding Multimodal LLMs to Embodied Agents that Ask for Help with Reinforcement Learning](http://arxiv.org/abs/2504.00907v2)
+
+- MLLM Policy: introduces a vision-language-action model for embodied agents, with SigLIP, Perceiver IO, MultiModal Large Language Model, Vision Adapter, and Action Tokens, to resolve ambiguity through clarification questions and reinforcement learning.
+- The framework uses SigLIP for visual encoding and Perceiver IO to handle long observation histories by downsampling visual tokens before feeding into a fine-tuned MultiModal Large Language Model.
+- Action Tokens represent the output space, enabling the agent to perform predefined skills or ask natural language questions to clarify ambiguous instructions in embodied tasks.
+
+
+---
+
+[Do We Truly Need So Many Samples? Multi-LLM Repeated Sampling Efficiently Scales Test-Time Compute](http://arxiv.org/abs/2504.00762v2)
+
+- ModelSwitch: introduces a multi-LLM repeated sampling framework with LLM 1, Query 1, Majority Voting, Answer, LLM 2, Consistent?, and Concat components.
+- ModelSwitch leverages consistency as a signal to dynamically switch between LLM 1 and LLM 2, aiming to improve performance and efficiency in test-time compute.
+- The framework optimizes sample efficiency by reducing samplings when LLM 1 generates consistent answers, and enhances accuracy by incorporating LLM 2 when consistency is low.
+
+
+---
+
+[Accelerated Inorganic Materials Design with Generative AI Agents](http://arxiv.org/abs/2504.00741v1)
+
+- MatAgent: introduces an AI-driven framework for inorganic material design, employing LLM as central engine with planning and proposition stages, integrated with structure estimation and property evaluation modules, and external tools like short-term memory, long-term memory, periodic table, and materials knowledge base to iteratively refine material compositions towards target properties.
+- MatAgent framework leverages LLM's reasoning capabilities for interpretable material design, mimicking human expert reasoning through strategic tool use and feedback-driven refinement, enabling exploration of broader compositional spaces and achieving high compositional validity and novelty.
+- The framework's iterative approach, combining generative and predictive models with external knowledge, demonstrates effectiveness in accelerating the discovery of next-generation inorganic materials by guiding exploration towards desired properties and allowing for natural language integration.
+
+
+---
+
+[Personality-Driven Decision-Making in LLM-Based Autonomous Agents](http://arxiv.org/abs/2504.00727v1)
+
+- Personality-Driven Decision-Making Framework: introduces a method for LLM-based agent decision-making, incorporating Personality Context, Task Instruction, Current Time, Remaining To-Do List, Completed List, LLM Response, Update Time, and Next Decision-Cycle components.
+- This framework evaluates how induced personality traits influence task selection and prioritization in LLM agents through iterative decision cycles.
+- The framework uses prompt-based persona induction and analyzes movement deltas in task order to measure the impact of personality on agent behavior.
+
+
+---
+
+[GRAPHMASTER: AUTOMATED GRAPH SYNTHESIS VIA LLM AGENTS IN DATA-LIMITED ENVIRONMENTS](http://arxiv.org/abs/2504.00711v1)
+
+- GraphMaster (GraphMaster): introduces a multi-agent framework for graph data synthesis in data-limited environments, with Manager-, Perception-, Enhancement- and Evaluation-agents.
+- GraphMaster orchestrates specialized agents to iteratively refine graph synthesis, ensuring semantic coherence and structural integrity by modular reasoning and feedback cycles.
+- The framework decomposes the synthesis task into specialized sub-tasks handled by collaborative LLM-powered agents, addressing challenges like context window limitations and hallucination.
+
+
+---
+
+[Exploring the Impact of an LLM-Powered Teachable Agent on Learning Gains and Cognitive Load in Music Education](http://arxiv.org/abs/2504.00636v1)
+
+- Chat Melody (LLM-powered Teachable Agent): introduces problem statement area, interactive music sheet, and LLMs-based dialogue window to assist music learners in music analysis tasks.
+- Chat Melody facilitates structured dialogues for music theory learning, providing interactive feedback and guiding students through music analysis.
+- The teachable agent aims to reduce cognitive load and enhance learning gains in music education by employing learning-by-teaching principles.
+
+
+---
+
+
+[Automated detection of atomicity violations in large-scale systems](http://arxiv.org/abs/2504.00521v1)
+
+- CLOVER: introduces code extractor, expert agent, and judge agent for atomicity violation detection.
+- CLOVER combines static analysis for code extraction with LLM agents for violation detection and validation.
+- CLOVER's hybrid approach enhances accuracy and efficiency in detecting atomicity violations in interrupt-driven programs.
+
+
+---
+
+[HERA: Hybrid Edge-cloud Resource Allocation for Cost-Efficient AI Agents](http://arxiv.org/abs/2504.00434v1)
+
+- HERA (Hybrid Edge-cloud Resource Allocation): introduces a lightweight scheduler for AI agents that partitions subtasks between local SLM and cloud LLM based on subtask features and position.
+- HERA framework includes User Request Classifier, Subtask Similarity Evaluator, S-L Similarity Evaluator, Convergence Detection, and Subtask Decomposition to optimize resource allocation.
+- By strategically using SLM for suitable subtasks and LLM for complex ones, HERA aims to reduce operational costs while maintaining accuracy in AI agent applications.
+
+
+---
+
+[When Persuasion Overrides Truth in Multi-Agent LLM Debates: Introducing a Confidence-Weighted Persuasion Override Rate (CW-POR)](http://arxiv.org/abs/2504.00374v1)
+
+- CW-POR (Confidence-Weighted Persuasion Override Rate): introduces single-turn multi-agent debate framework with Agent A (Correct) (provides factual answer), Agent B (Persuasive) (defends falsehood), Judge Model (evaluates responses), Combine Confidences (combines confidence scores), Final Decision (judge's answer choice), and CW-POR (persuasion override metric).
+- The framework investigates how persuasive arguments can override truthful answers in LLMs, even with high confidence from the judge.
+- CW-POR metric quantifies not only the frequency of persuasion override but also the judge's confidence in the incorrect choice, highlighting the severity of being misled.
+
+
+---
 
 #### 31st March 2025
+
+[Do Large Language Models Exhibit Spontaneous Rational Deception?](http://arxiv.org/abs/2504.00285v1)
+
+- Signaling Games Framework: introduces a study examining spontaneous deception in Large Language Models (LLMs) within signaling games, incorporating components like LLM Agent, Opponent Agent, Signaling Game, Message, Action Choice, Reward Structure, Prompt Instructions, and Deception Guardrails.
+- This framework evaluates LLMs' context-sensitive deception by manipulating reward structures and turn orders in 2x2 games, measuring rational adaptation to game incentives and communication opportunities.
+- The research demonstrates that LLMs exhibit unsolicited, context-aware deception influenced by potential benefits and ethical prompts, suggesting a link between reasoning capabilities and strategic deceptive behavior.
+
+
+---
+
+[SciReplicate-Bench: Benchmarking LLMs in Agent-driven Algorithmic Reproduction from Research Papers](http://arxiv.org/abs/2504.00255v1)
+
+- Sci-Reproducer: introduces a dual-agent framework for algorithmic reproduction, with Literature Context, Target Paper, Relevant Literature, Paper Agent, Agent Strategy, Search Paper-Extract Section, Search Literature, Literature Report, Code Context, Code Repository, Python Environment, Website, Code Agent, Agent Strategy, Search Web, Search Code, and Code Interpreter components.
+- Sci-Reproducer framework uses Paper Agent to understand algorithmic logic from papers and Code Agent to retrieve dependencies and implement solutions, enabling comprehensive paper reproduction.
+- The framework aims to address the challenge of generating code from scientific papers by decomposing the task into literature understanding and code implementation with specialized agents and actions.
+
+
+---
+
+[Large Language Models in Numberland: A Quick Test of Their Numerical Reasoning Abilities](http://arxiv.org/abs/2504.00226v1)
+
+- Framework names: introduces Numberland, a 100-problem test, to evaluate numerical reasoning abilities of LLM agents including OpenAI ChatGPT o1-mini, OpenAI ChatGPT o1, Google Gemini, Anthropic Claude, and Microsoft Copilot.
+- The paper assesses basic operations, advanced calculations, prime number checks, and the 24 game to test elementary skills and integration in complex problem-solving.
+- The study highlights limitations in LLMs' numerical reasoning, especially in trial-and-error search tasks, despite their proficiency in deterministic tasks.
+
+
+---
+
+[Agents Under Siege: Breaking Pragmatic Multi-Agent LLM Systems with Optimized Prompt Attacks](http://arxiv.org/abs/2504.00218v1)
+
+- PIEL (Permutation-Invariant Evasion Loss): introduces a novel adversarial attack framework, with MFMC Problem, Permutation-Invariant Loss, Topological Optimization, Optimized Path, Chunk, Memory Bank, and Sampling Space components, that breaks pragmatic multi-agent LLM systems.
+- PIEL framework optimizes prompt distribution across network topologies, considering bandwidth and detection risk constraints to bypass safety mechanisms.
+- The framework leverages graph-based optimization and permutation-invariant loss to maximize attack success rate while minimizing detection risk in multi-agent LLM systems.
+
+
+---
+
+[ADVANCES AND CHALLENGES IN FOUNDATION AGENTS FROM BRAIN-INSPIRED INTELLIGENCE TO EVOLUTIONARY, COLLABORATIVE, AND SAFE SYSTEMS](http://arxiv.org/abs/2504.01990v1)
+
+- Brain-Inspired AI Agent Framework: introduces modular architecture for intelligent agents, integrating brain-inspired components like Sensor, Cognition, Actor, Memory, World Model, Reward, Emotion, Goal, and Tool.
+- This framework maps cognitive, perceptual, operational modules to brain functionalities, emphasizing core components such as memory, world modeling, reward processing, and emotion systems.
+- The survey synthesizes modular AI architectures with insights from cognitive science and neuroscience to identify research gaps and opportunities for brain-inspired intelligent agents.
+
+
+---
+
 
 [PAARS: Persona Aligned Agentic Retail Shoppers](http://arxiv.org/abs/2503.24228v1)
 
