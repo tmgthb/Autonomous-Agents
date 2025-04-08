@@ -43,7 +43,121 @@ Chronological order.
 
 </div>
 
+#### 4th April 2025
+
+[Agentic Knowledgeable Self-awareness](http://arxiv.org/abs/2504.03553v1)
+
+- KnowSelf (Agentic Knowledgeable Self-awareness): introduces a data-centric approach with Self-awareness Data Construction, Self-awareness Learning, Self-awareness Inference, Selection mechanism and Knowledge base, enabling agents to regulate knowledge utilization autonomously.
+- KnowSelf framework employs a two-stage training process involving Supervised Fine-Tuning and Reinforcement Preference Optimization to equip agents with situational self-awareness for optimal planning.
+- The framework utilizes a heuristic situation judgement criterion to categorize situations and generate special tokens, facilitating selective knowledge incorporation during inference with minimal costs.
+
+
+---
+
+[Inherent and emergent liability issues in LLM-based agentic systems: a principal-agent perspective](http://arxiv.org/abs/2504.03255v1)
+
+- LLM-based MAS (Large Language Model-based Multiagent System): introduces a multiagent system architecture with principal delegating tasks to an orchestrator agent, which coordinates different agent teams on an agent platform, supported by safety, compliance, and security agents.
+- This framework illustrates a delegation hierarchy and supporting agent roles within a plausible LLM-based MAS deployment on an agent platform.
+- The architecture emphasizes the structured organization of agents and the inclusion of supporting agents for governance and security within the multiagent system.
+
+
+---
+
+[DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments](http://arxiv.org/abs/2504.03160v1)
+
+- DeepResearcher: introduces comprehensive framework for end-to-end reinforcement learning training of LLM-based research agents, incorporating distributed cluster, browsing agent, search engine, real-world environment, user, assistant, think, search, browse, answer, and memory.
+- DeepResearcher: enables agents to navigate noisy, unstructured open web environments, utilizing multi-agent architecture with specialized browsing agents for extracting information and addressing technical challenges.
+- DeepResearcher: demonstrates substantial performance improvements over prompt engineering and RAG-based baselines, showcasing emergent cognitive behaviors through end-to-end reinforcement learning in real-world web environments.
+
+
+---
+
+
+[SynWorld: Virtual Scenario Synthesis for Agentic Action Knowledge Refinement](http://arxiv.org/abs/2504.03561v1)
+
+- SynWorld (Virtual Scenario Synthesis): introduces a framework for agents to synthesize virtual scenarios and refine action knowledge through exploration within these environments.
+- SynWorld utilizes Monte Carlo Tree Search (MCTS) for exploration and action knowledge refinement, leveraging environment feedback from synthesized virtual scenarios.
+- The framework enables agents to learn how to execute actions and plan tasks in new environments by optimizing workflows through interaction with simulated scenarios.
+
+
+---
+
+[APIGen-MT: Agentic PIpeline for Multi-Turn Data Generation via Simulated Agent-Human Interplay](http://arxiv.org/abs/2504.03601v1)
+
+- APIGen-MT (Agentic Pipeline for Multi-Turn Data Generation): introduces a two-phase framework for generating multi-turn agent data, with Context, LLM based Data Generator, Format & Execution Checker, Review Committee, Feedback Generator, Validated Tasks, Simulated Human, Test Agent, Environment Config, Groundtruth Actions & Outputs, Interaction Traces, and Successful Trajectory components.
+- APIGen-MT framework first generates verified task blueprints using an agentic pipeline with feedback loops, then transforms blueprints into interaction trajectories via simulated human-agent interplay.
+- This approach ensures high-quality training data by separating task design from conversational dynamics, enhancing both structural correctness and naturalness of generated interactions for training AI agents.
+
+
+---
+
+[Talk2X - AN OPEN-SOURCE TOOLKIT FACILITATING DEPLOYMENT OF LLM-POWERED CHATBOTS ON THE WEB](http://arxiv.org/abs/2504.03343v1)
+
+- Talk2X: introduces an open-source toolkit for deploying LLM-powered chatbots, with agent, vector database, website collection, and asset collection components.
+- Talk2X facilitates efficient information retrieval by leveraging a vector database for website and asset content, enabling function calling agent to answer user queries.
+- This approach enhances energy efficiency and transparency compared to closed-source solutions, offering developers a generalizable tool for website integration.
+
+
+---
+
+[Do Large Language Models Solve the Problems of Agent-Based Modeling? A Critical Review of Generative Social Simulations](http://arxiv.org/abs/2504.03274v1)
+
+- Generative ABMs (Generative Agent-Based Models): introduces a novel approach for social simulations, integrating Persona, Memory Modules, Planning Modules, and Actions components.
+- This framework equips agents with human-like capabilities by using LLMs for reasoning, memory, and planning within agent-based models.
+- Generative ABMs aim to address limitations of traditional ABMs by enhancing agent realism and enabling more complex social simulations, but validation challenges remain.
+
+
+---
+
+[Enhancing Personalized Multi-Turn Dialogue with Curiosity Reward](http://arxiv.org/abs/2504.03206v1)
+
+- IM-UM-RLHF (Intrinsic Motivation in User Modeling for Multi-Turn RLHF): introduces intrinsic curiosity reward to multi-turn RLHF, with Conversation History (dialogue turn history), Belief on User Type (probabilistic user preference model), Per Turn Curiosity Reward (belief improvement based reward), Agent's Utterance (agent generated dialogue), User's Response (user dialogue response), End-of-Conversation Reward (dialogue completion reward), and User's Final Response (user end feedback).
+- IM-UM-RLHF framework enhances personalization by incentivizing the agent to actively learn user preferences during conversation through curiosity reward based on belief improvement.
+- The framework aims to balance helpfulness and inquisitiveness in conversational agents, enabling more personalized and adaptive interactions compared to traditional RLHF methods.
+
+
+---
+
+[Learning Natural Language Constraints for Safe Reinforcement Learning of Language Agents](http://arxiv.org/abs/2504.03185v1)
+
+- NLCL (Natural Language Constraint Learning): introduces a framework for safe language alignment, with CLIRL Phase, CAPO Phase, Positive Demonstrations, Negative Demonstrations, Policy, Reward Function, Constraint Functions, Transition Function, and CVaR.
+- NLCL learns natural language constraints from demonstrations using inverse reinforcement learning and optimizes policy with constraint-aware policy optimization for safe language agent behavior.
+- NLCL framework aims to improve robustness and generalization of language agents by explicitly learning and enforcing safety constraints in dynamic environments.
+
+
+---
+
+[Multi-lingual Multi-turn Automated Red Teaming for LLMs](http://arxiv.org/abs/2504.03174v1)
+
+- MM-ART (Multi-lingual Multi-turn Automated Red Teaming): introduces an automated approach for multi-lingual and multi-turn red-teaming of LLMs, with Conversation Starters Generation, Automated Multi-turn Conversation, and Multi-lingual Conversations components.
+- MM-ART framework aims to address limitations of human-driven and existing automated red-teaming methods by enabling scalable and efficient safety evaluation across multiple languages and conversation turns.
+- The framework leverages machine translation to handle multi-lingual aspects and automated conversation continuation to explore vulnerabilities in multi-turn interactions, enhancing the detection of unsafe responses in LLMs.
+
+
+---
+
+[Les Dissonances: Cross-Tool Harvesting and Polluting in Multi-Tool Empowered LLM Agents](http://arxiv.org/abs/2504.03111v1)
+
+- Chord: introduces a dynamic scanning tool, with Hijacker, Hijacking Optimizer, Harvester, Polluter, and Testing Agent components, designed to automatically detect agent tools susceptible to XTHP attacks.
+- Chord systematically analyzes task control flows in multi-tool LLM agents, identifying Cross-Tool Harvesting and Polluting (XTHP) threats.
+- The framework evaluates real-world tools from LangChain and Llama-Index, revealing vulnerabilities to hijacking and data manipulation attacks.
+
+
+---
+
+
+
 #### 3rd April 2025
+
+[Ontologies in Design: How Imagining a Tree Reveals Possibilites and Assumptions in Large Language Models](http://arxiv.org/abs/2504.03029v1)
+
+- Generative Agents Architecture: introduces Memory Stream (summarizes prompt histories), Reflection (extracts insights from memories), Planning (generates action plans), and Cognitive Architecture (simulates human functions) to organize information and simulate human-like behavior in LLM-based agents.
+- Generative Agents architecture aims to create believable proxies of human behavior in virtual avatars by building cognitive models on top of LLMs.
+- The framework uses memory stream, reflection, and planning components to manage information and generate realistic and interesting action sequences for agents in a simulated environment.
+
+
+---
+
 
 [Affordable AI Assistants with Knowledge Graph of Thoughts](http://arxiv.org/abs/2504.02670v1)
 
@@ -63,6 +177,16 @@ Chronological order.
 
 
 ---
+
+[Design of Al-Powered Tool for Self-Regulation Support in Programming Education](http://arxiv.org/abs/2504.03068v1)
+
+- CodeRunner Agent (LLM-based programming assistant): introduces an integrated programming support environment, with Lecture Viewer (displays lecture slides), CodeRunner plugin (code execution), Learning Analytics Context Engine (learner data analysis), and Knowledge Context Engine (knowledge management), to enhance self-regulated learning.
+- This framework utilizes Moodle LMS (learning platform) and Learning Record Store (learning data storage) for context-aware feedback and personalized programming education.
+- By integrating SRL phases (learning cycle stages) and instructor configuration (customization interface), CodeRunner Agent aims to improve student learning and AI application understanding in education.
+
+
+---
+
 
 
 [Multi-SWE-bench: A Multilingual Benchmark for Issue Resolving](http://arxiv.org/abs/2504.02605v1)
