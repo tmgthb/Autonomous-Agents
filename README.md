@@ -43,7 +43,123 @@ Chronological order.
 
 </div>
 
+#### 9th April 2025
+
+[REVIEW OF CASE-BASED REASONING FOR LLM AGENTS: THEORETICAL FOUNDATIONS, ARCHITECTURAL COMPONENTS, AND COGNITIVE INTEGRATION](http://arxiv.org/abs/2504.06943v1)
+
+- CBR-GDA Framework: introduces architecture for CBR-enhanced LLM agents, with Case Representation and Indexing, Hybrid Retrieval Mechanisms, Adaptation Mechanisms, LLM Reasoning Processes Integration, Cognitive Dimensions, Goal-Driven Autonomy, Planning Case Base, and Mismatch-Goal Case Base.
+- This framework integrates Case-Based Reasoning and Goal-Driven Autonomy to enhance LLM agents' reasoning, adaptability, and transparency by leveraging past experiences and dynamic goal adjustment.
+- The architecture utilizes two case bases, Planning Case Base and Mismatch-Goal Case Base, to manage planning and goal reformulation based on discrepancies between expected and actual outcomes.
+
+
+---
+
+[FamilyTool: A Multi-hop Personalized Tool Use Benchmark](http://arxiv.org/abs/2504.06766v1)
+
+- KGETool: introduces KG-augmented LLM tool use pipeline, with Query, Full KG, Tools, LLM for KG, KG Extraction, Relation Path, Path Extraction, Sub KG, LLM for Tool Use and Tool Call, to evaluate LLMs in personalized multi-hop tool use scenarios.
+- KGETool framework extracts sub-KG from Full KG using KG Extraction module composed of Relation Path and Path Extraction, then utilizes Sub KG and Tools with LLM for Tool Use to generate Tool Call based on user Query.
+- The pipeline emphasizes generalization in inductive KG settings, where KGETool leverages LLMs' ability to handle evolving knowledge graphs without retraining by dynamically adapting to unseen user preferences and relationships.
+
+
+---
+
+[AgentFM: Role-Aware Failure Management for Distributed Databases with LLM-Driven Multi-Agents](http://arxiv.org/abs/2504.06614v1)
+
+- AgentFM (Role-Aware Failure Management Framework): introduces a role-aware failure management framework for distributed databases, with Meta-Agent (Orchestrates agents), Task Agents (Manage failure tasks), Data Agents (Handle data sources), System Agents (Represent node roles), and Standalone Agents (Agents on each node) components.
+- AgentFM leverages LLM-driven multi-agents to address failure management by considering system roles, data roles, and task roles, using a Meta-Agent (Orchestrates agents) for orchestration and specialized Task Agents (Manage failure tasks) like Detection Agent (Identifies anomalies), Diagnosis Agent (Classifies issues), and Mitigation Agent (Proposes solutions).
+- AgentFM integrates multimodal data sources through Data Agents (Handle data sources) such as Metric Agent (Metrics data extraction) and Log Agent (Logs data extraction), employing specialized System Agents (Represent node roles) like Config Agent (Configuration management), Coordinator Agent (Coordination management), and Storage Agent (Storage management) to enhance failure management in distributed databases.
+
+
+---
+
+[Right Prediction, Wrong Reasoning: Uncovering LLM Misalignment in RA Disease Diagnosis](http://arxiv.org/abs/2504.06581v1)
+
+- Framework for RA patients diagnosis: introduces a system employing PreRAID dataset, Texts, Embeddings, Vector DB, Knowledge Base, Medical Expert Guided Prompt, LLM, RAG, Prompt, Output, Prediction, and Reasoning to investigate LLM's diagnostic capabilities and reasoning for Rheumatoid Arthritis.
+- This framework utilizes patient symptom Texts converted to Embeddings and stored in Vector DB, leveraging Knowledge Base and Medical Expert Guided Prompt for LLM with RAG to generate Output, Prediction of RA, and Reasoning.
+- The framework explores different architectures with varying numbers of LLM agents and knowledge base integration to assess diagnostic accuracy and reasoning quality in RA disease prediction.
+
+
+---
+
+[NEEDLEINATABLE: Exploring Long-Context Capability of Large Language Models towards Long-Structured Tables](http://arxiv.org/abs/2504.06560v1)
+
+- NEEDLEINATABLE (NIAT): introduces NIAT benchmark and data synthesis method to evaluate and improve large language models on long-structured tables.
+- NIAT benchmark assesses large language models' ability to extract specific cells from long tables using location-based and question-based queries.
+- Data synthesis method uses chain-of-thought reasoning to generate training data for enhancing large language models' long-table comprehension.
+
+
+---
+
+#### 8th April 2025
+
+[FEABench: Evaluating Language Models on Multiphysics Reasoning Ability](http://arxiv.org/abs/2504.06260v1)
+
+- FEABench: introduces benchmark for evaluating LLMs and LLM agents in multiphysics reasoning, using ControllerAgent, Evaluator, CorrectorSubAgent, and ToolLookupAgent components to solve engineering problems with FEA software.
+- FEABench framework employs multi-agent system with specialized tools and feedback mechanisms to enhance LLMs' ability to generate executable code for COMSOL Multiphysics API.
+- FEABench benchmark and agentic framework aim to advance automation in engineering by augmenting LLMs with numerical solvers and physics reasoning capabilities.
+
+
+---
+
+[CAI: An Open, Bug Bounty-Ready Cybersecurity AI](http://arxiv.org/abs/2504.06017v2)
+
+- CAI (Cybersecurity AI): introduces an open-source framework for democratizing security testing, with HITL, Turns, Patterns, Handoffs, Agents, Tools, Extensions, and Tracing components.
+- CAI framework combines modular agent design, seamless tool integration, and human oversight for AI-powered bug bounty testing.
+- CAI aims to dismantle the lock-in of dominant platforms, offering a democratized alternative for vulnerability discovery.
+
+
+---
+
+[AGENT GUIDE: A SIMPLE AGENT BEHAVIORAL WATERMARKING FRAMEWORK](http://arxiv.org/abs/2504.05871v1)
+
+- Agent Guide: introduces a behavioral watermarking framework for intelligent agents, with Memory Module, Event Generation Module, Behavior Probability Generation Module, Agent Guide Module, and Action Execution Module.
+- Agent Guide embeds watermarks by biasing agent's high-level behavior decisions while preserving the naturalness of specific action executions.
+- The framework operates in rounds, simulating agent interactions and uses statistical analysis for watermark extraction, ensuring reliable detection.
+
+
+---
+
+[Are Generative AI Agents Effective Personalized Financial Advisors?](http://arxiv.org/abs/2504.05862v1)
+
+- LLM-advisor: introduces User, Advisor, Preference Elicitation Stage, and Advisory Discussion Stage to provide personalized financial advice.
+- The framework uses Preference Elicitation Stage to understand user needs before offering asset guidance in Advisory Discussion Stage.
+- This approach aims to evaluate the effectiveness of LLM-based agents in complex financial advisory tasks.
+
+
+---
+
+[Single-Agent vs. Multi-Agent LLM Strategies for Automated Student Reflection Assessment](http://arxiv.org/abs/2504.05716v1)
+
+- Single-Agent Assessment: introduces single LLM evaluator, Scoring Criteria, and LLM, where single LLM evaluates student reflection using score level descriptions.
+- Single-Agent Assessment employs zero-shot and few-shot prompting to guide LLM's evaluation process based on scoring criteria for reflection assessment.
+- This approach automates student reflection assessment by transforming qualitative responses into quantitative scores using a single LLM evaluator.
+
+
+---
+
+[Automated Archival Descriptions with Federated Intelligence of LLMs](http://arxiv.org/abs/2504.05711v1)
+
+- Agentic AI-driven system: introduces an agentic AI-based metadata generation system, with User Input and Document (Provides archival material), Context Agent (Retrieves context information), LLM Instructor (Constructs instructions for LLMs), LLM Ensemble (Generates metadata descriptions), Validator Agent (Checks metadata descriptions), and LLM Federator (Synthesizes optimal metadata) to produce Metadata (Final metadata output) for archival descriptions.
+- The system employs federated intelligence of multiple LLMs to automatically create complete and precise metadata descriptions, leveraging context and validation agents for consistency and quality.
+- The federated optimization approach synthesizes metadata from an ensemble of LLMs, demonstrating superior performance compared to single-model solutions in metadata quality and reliability for archival materials.
+
+
+---
+
+
+[FactGuard: Leveraging Multi-Agent Systems to Generate Answerable and Unanswerable Questions for Enhanced Long-Context LLM Extraction](http://arxiv.org/abs/2504.05607v1)
+
+- FactGuard (Leveraging Multi-Agent Systems to Generate Answerable and Unanswerable Questions for Enhanced Long-Context LLM Extraction): introduces a multi-agent framework for automated data augmentation, with Preparation-, QA Generation-, and Negative Example Generation-Stages, to create answerable and unanswerable question-answer pairs.
+- FactGuard (Leveraging Multi-Agent Systems to Generate Answerable and Unanswerable Questions for Enhanced Long-Context LLM Extraction): employs agents like Quality-, Topic-, QA-, MRC-, and Rewrite-Agents, managed by Agent Console, to synthesize datasets for evaluating LLMs in long-context question answering.
+- FactGuard (Leveraging Multi-Agent Systems to Generate Answerable and Unanswerable Questions for Enhanced Long-Context LLM Extraction): aims to address limitations of current LLMs in handling unanswerable questions within extended contexts by developing the FactGuard-Bench benchmark dataset.
+
+
+---
+
+
+
 #### 7th April 2025
+
 
 [Mixture-of-Personas Language Models for Population Simulation](http://arxiv.org/abs/2504.05019v1)
 
