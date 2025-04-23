@@ -43,7 +43,143 @@ Chronological order.
 
 </div>
 
+#### 22nd April 2025
+
+[A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](http://arxiv.org/abs/2504.15585v1)
+
+- Full Stack LLM (Agent) Safety: introduces a comprehensive survey on LLM and LLM-agent safety across their lifecycle, including Data (Data collection, synthesis), Pre-training (Data cleaning, enhancement), Post-training (Model adaptation, safety correction), Editing & Unlearning (Knowledge update, removal), LLM (Large Language Model backbone), Agent Modules (Agent capabilities, interaction), Environment (Agent operating context), Multi-agent Systems (Interacting agent entities), Evaluation (Safety, utility assessment), Attacks (Adversarial threats), and Defenses (Mitigation strategies).
+- The survey systematically examines safety issues from data preparation through deployment, covering attacks, defenses, and evaluation methods at each stage.
+- It highlights the unique challenges and research directions for LLM-based agents, emphasizing the security of external modules like tools and memory.
+
+
+---
+
+
+[MR. Video: “MapReduce” is the Principle for Long Video Understanding](http://arxiv.org/abs/2504.16082v1)
+
+- MR. Video: introduces a MapReduce principle for long video understanding, employing Captioning, Intention Analysis, and Goal-Aware Analysis stages, each with Map and Reduce steps, utilizing VLM (video perception model) and LLM (language reasoning model).
+- The framework performs sequence-parallel perception of short video segments in the Map steps and aggregates information for global comprehension in the Reduce steps.
+- This approach demonstrates significant accuracy improvement on challenging long video benchmarks compared to existing methods.
+
+
+---
+
+[LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities](http://arxiv.org/abs/2504.16078v1)
+
+- RLFT (Reinforcement Learning Fine Tuning): fine-tunes a Pre-trained LLM (generates output tokens) using Reward (feedback from environment/shaping) from the Environment (provides states/rewards), storing data in a Buffer (stores interaction data), processing Input Template (structures input context) to produce Output (generated tokens (CoT + action)), and applying Update (policy optimization step).
+- The approach leverages self-generated Chain-of-Thought rationales to iteratively refine the LLM's reasoning process towards higher rewards in decision-making scenarios.
+- Experiments demonstrate that RLFT mitigates prevalent LLM failure modes like greediness and frequency bias, improving exploration and reducing the knowing-doing gap.
+
+
+---
+
+[Towards Test Generation from Task Description for Mobile Testing with Multi-modal Reasoning](http://arxiv.org/abs/2504.15917v1)
+
+- VISIDROID: introduces a multi-modal framework for mobile test generation, with Task Goal (Natural language task description), LLM Action Selector (Decides next action), Executor (Executes action on app), Screenshot (Captures GUI image), LMM Verifier (Checks task completion), Sequence of Actions (Generated action steps), Sequence Ranking (Ranks action sequences), Test Script Generator (Creates test script), Observer (Detects UI changes), UI Changes (Changes in GUI), Task Memory (Short-term context), Persistent Memory (Long-term experience), and LLM Reflector (Generates rules/steps).
+- The framework iteratively determines the next action using LLMs and leverages visual images of screens via a multi-modal verifier to detect task completeness.
+- It combines short-term task memory and long-term persistent memory to enhance decision-making and learn from past interactions.
+
+
+---
+
+[A closer look at how large language models “trust” humans: patterns and biases](http://arxiv.org/abs/2504.15801v1)
+
+- Experimental Framework: introduces, "a study on LLM implicit trust in humans", with LLMs (Agents studied), Simulated Scenarios (Contexts for trust), Prompting Procedure (Elicits LLM responses), Trustee Attributes (Manipulated input variables), Trust Measurement (Quantifies LLM trust), Analysis (Statistical evaluation), Simulation Environment (Experiment execution), and Data Storage (Results and code), where "the framework investigates how LLMs' trust in humans is influenced by perceived trustworthiness and demographic factors across various scenarios."
+- The study demonstrates that LLMs exhibit implicit trust behaviors sensitive to trustworthiness and demographics, showing both human-like patterns and model-specific variations and biases.
+- Understanding these LLM trust dynamics is crucial for integrating AI agents into sensitive decision-making processes and mitigating potential biases.
+
+
+---
+
+[WALL-E 2.0: World Alignment by NeuroSymbolic Learning improves World Model-based LLM Agents](http://arxiv.org/abs/2504.15785v1)
+
+- WALL-E 2.0 (World Alignment by NeuroSymbolic Learning): introduces a training-free approach to align LLMs with environment dynamics, including Model-Predictive Control (Controls agent decisions), Agent Model (LLM) (Plans agent actions), World Model (LLM) (Predicts environment outcomes), World Model (Code Rules) (Verifies LLM predictions), NeuroSymbolic Learning (Learns symbolic knowledge), Symbolic Knowledge (Action Rules) (Captures action constraints), Symbolic Knowledge (Knowledge Graph) (Represents feasibility constraints), Symbolic Knowledge (Scene Graph) (Provides global scene info), Code Rules (Executable symbolic knowledge), Pruning (Selects impactful code rules), and Environment (Agent interaction space).
+- The framework iteratively learns symbolic knowledge from trajectories, translates it into executable code rules, and uses these rules to align the LLM world model's predictions with the environment.
+- This neurosymbolic world model enables the LLM agent to perform efficient and reliable planning through a model-predictive control loop, significantly improving performance in open-world environments.
+
+
+---
+
+[IMPLEMENTING RATIONAL CHOICE FUNCTIONS WITH LLMS AND MEASURING THEIR ALIGNMENT WITH USER PREFERENCES](http://arxiv.org/abs/2504.15719v1)
+
+- Proposed Methods: introduces design principles for implementing rational choice functions using LLMs, including Pairwise-Score (Scores alternatives from pairwise LLM comparisons) and Pairwise-SCC (Uses SCCs from pairwise LLM comparisons), and provides metrics Strict Preference Overlap (SPO) (Measures partial alignment) and Kendall distance with penalty (K(p)) (Measures full alignment) to measure alignment with user preferences, encompassing strict preferences and indifference.
+- The framework addresses the challenge of aligning LLM-based decision-making in intelligent user interfaces with user preferences, which is crucial for reliability and trustworthiness.
+- Empirical validation in an automotive domain use case demonstrates the applicability of the proposed principles and metrics, highlighting their distinct strengths for achieving partial or full alignment.
+
+
+---
+
+
+[DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models](http://arxiv.org/abs/2504.15716v1)
+
+- DianJin-R1: introduces a reasoning-augmented framework for financial reasoning, utilizing a Base Language Model, Supervised Fine-Tuning Module, and Reinforcement Learning Module.
+- The framework enhances reasoning by training on specialized data and refining performance with a Reward Module during reinforcement learning.
+- The resulting DianJin-R1 Model demonstrates improved performance on complex financial reasoning tasks.
+
+
+---
+
+[A Multi-Agent Framework for Automated Qinqiang Opera Script Generation Using Large Language Models](http://arxiv.org/abs/2504.15552v1)
+
+- Multi-Agent Framework: introduces a novel framework for automated Qinqiang opera script and performance generation, including Agent1 (Script Generation), Agent2 (Visual Content Generation), and Agent3 (Speech Synthesis).
+- The framework integrates LLMs for scriptwriting, visual generation models for scene creation, and TTS synthesis for vocal performance.
+- This multi-agent approach streamlines the production pipeline, achieving high expert ratings for script fidelity, visual coherence, and speech accuracy.
+
+
+---
+
+[A Framework for Testing and Adapting REST APIs as LLM Tools](http://arxiv.org/abs/2504.15546v1)
+
+- Framework for Tool Testing in Agentic Flows: introduces a novel framework for evaluating and enhancing the readiness of REST APIs to function as tools for LLM-based agents, utilizing Tool Builder, API to Tool Conversion, Tools Catalog, API test case generation, LLM based NL test case generation, NL test cases execution, API test cases execution, Agentic Framework Setup, Agentic Framework, Tool Evaluation and Error Analysis, NL Test cases execution report, and API Test Cases execution report components.
+- The framework transforms APIs into tools, generates comprehensive test cases, translates them into natural language instructions for agents, enriches tool definitions, and evaluates the agent's ability to correctly invoke APIs and process responses.
+- The work analyzes test case outcomes and presents an error taxonomy to provide actionable insights for improving tool definitions and integrations for agent-based applications.
+
+
+
+---
+
+
+
 #### 21st April 2025
+
+
+[A SELF-IMPROVING CODING AGENT](http://arxiv.org/abs/2504.15228v1)
+
+- SICA (Self-Improving Coding Agent): introduces, "a self-improving coding agent capable of editing its own codebase", with Agent (LLM wrapper taking actions), Base Agent (initial self-improvement agent), Meta-Agent (agent performing improvement), Archive (stores past agents/results), Evaluation Benchmarks (tasks measure performance), Utility Function (selects best agent), Tools (basic agent actions), Sub-Agents (specialized task handlers), Asynchronous Overseer (monitors agent behavior), LLM Context Window (LLM input structure), LLM Context Window System Prompt (agent setup instructions), LLM Context Window Core Prompt (problem and file context), LLM Context Window Assistant Messages (agent interaction history), Callgraph (agent execution tree), and Event Stream (detailed interaction log), where "SICA is designed to autonomously improve performance on coding tasks by modifying its own code".
+- The system operates via a meta-agent loop, where the best performing agent from an archive is selected to improve the current agent based on benchmark results.
+- Key components include a structured LLM context window, various tools for file manipulation and execution, specialized sub-agents for task decomposition, and an asynchronous overseer for monitoring and intervention.
+
+
+
+---
+
+[In-context Ranking Preference Optimization](http://arxiv.org/abs/2504.15477v1)
+
+- IRPO (In-context Ranking Preference Optimization): introduces a novel framework that directly optimizes LLMs based on ranking lists constructed during inference, incorporating graded relevance and positional importance within a differentiable objective.
+- The framework extends Direct Preference Optimization (DPO) to handle sparse, in-context ranking feedback by modeling positional preferences and aggregating them into a list preference model.
+- IRPO's optimization is linked to importance sampling gradient estimation, providing theoretical insights into its adaptive prioritization mechanism and efficiency.
+
+
+---
+
+[Agent for User: Testing Multi-User Interactive Features in TikTok](http://arxiv.org/abs/2504.15474v1)
+
+- Multi-agent LLMs framework: introduces an automated approach for testing multi-user interactive features in apps like TikTok, utilizing a Virtual Device Farm for device allocation and LLM-driven User Agents for task automation based on Task Description, Action Space, and GUI Screen Representation, executing actions via ADB.
+- The framework breaks down multi-user tasks into subtasks via Task Assignment, enabling collaborative simulation by multiple User Agents on allocated virtual devices.
+- This approach aims to overcome challenges in testing multi-user features by mimicking human-like interaction and coordination across multiple devices.
+
+
+---
+
+[LLM-Assisted Translation of Legacy FORTRAN Codes to C++: A Cross-Platform Study](http://arxiv.org/abs/2504.15424v1)
+
+- LLM-Assisted Translation Evaluation Workflow: introduces a process for evaluating LLM-based Fortran to C++ code translation, including Fortran Code (Input code), Prompt (Translation instructions), Prompt Builder (Combines code and prompt), LLM (Translates code), Translated C++ Code (LLM output), Ground Truth C++ (Human reference), CodeBLEU Computation (Code similarity metric), C++ Compilation (Checks for errors), C++ Execution (Runs compiled code), Output Comparison (Compares program outputs), and Evaluation Recording (Stores results).
+- The workflow evaluates translation quality by comparing LLM output to human ground truth, checking compilation success, and comparing the output of compiled translated code to the original Fortran code's output.
+- This platform-independent workflow aims to provide standardized evaluation measures for machine-generated code translation across different LLMs and computational platforms.
+
+
+---
+
 
 [Interpretable Locomotion Prediction in Construction Using a Memory-Driven LLM Agent With Chain-of-Thought Reasoning](http://arxiv.org/abs/2504.15263v1)
 
@@ -54,14 +190,6 @@ Chronological order.
 
 ---
 
-[A SELF-IMPROVING CODING AGENT](http://arxiv.org/abs/2504.15228v1)
-
-- SICA (Self-Improving Coding Agent): introduces, "a self-improving coding agent capable of editing its own codebase", with Agent (LLM wrapper taking actions), Base Agent (initial self-improvement agent), Meta-Agent (agent performing improvement), Archive (stores past agents/results), Evaluation Benchmarks (tasks measure performance), Utility Function (selects best agent), Tools (basic agent actions), Sub-Agents (specialized task handlers), Asynchronous Overseer (monitors agent behavior), LLM Context Window (LLM input structure), LLM Context Window System Prompt (agent setup instructions), LLM Context Window Core Prompt (problem and file context), LLM Context Window Assistant Messages (agent interaction history), Callgraph (agent execution tree), and Event Stream (detailed interaction log), where "SICA is designed to autonomously improve performance on coding tasks by modifying its own code".
-- The system operates via a meta-agent loop, where the best performing agent from an archive is selected to improve the current agent based on benchmark results.
-- Key components include a structured LLM context window, various tools for file manipulation and execution, specialized sub-agents for task decomposition, and an asynchronous overseer for monitoring and intervention.
-
-
----
 
 [DistilQwen2.5: Industrial Practices of Training Distilled Open Lightweight Language Models](http://arxiv.org/abs/2504.15027v1)
 
