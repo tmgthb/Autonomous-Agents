@@ -43,6 +43,142 @@ Chronological order.
 
 </div>
 
+### 24th April 2025
+
+[Towards a HIPAA Compliant Agentic AI System in Healthcare](http://arxiv.org/abs/2504.17669v1)
+
+- HIPAA Compliant Agentic AI Framework: introduces a system for securing autonomous workflows in healthcare, integrating dynamic Attribute-Based Access Control, hybrid PHI sanitization, and immutable audit trails via Client, EHR, Policy Enforcement Agent, Sanitization Agent, LLM API or On-Premise Model, Policy Decision Agent, Middleware Agent, Post-Inference Redaction Agent, Audit Agent, and Downstream Task components.
+- The framework enforces regulatory compliance through context-aware policy enforcement, pre- and post-inference PHI sanitization, and cryptographic audit trails.
+- This architecture aims to enable the responsible deployment of agentic AI systems in clinical settings by ensuring HIPAA compliance throughout data interactions.
+
+
+---
+
+
+[Comprehend, Divide, and Conquer: Feature Subspace Exploration via Multi-Agent Hierarchical Reinforcement Learning](http://arxiv.org/abs/2504.17356v1)
+
+- HRLFS (Hierarchical Reinforcement Learning for Feature Selection): introduces a feature selection framework based on a comprehend-divide-and-conquer paradigm, utilizing Hybrid Feature State Extraction, Clustering, Agent Hierarchy Construction, Hierarchical Agents, Feature Subspace Exploration via an RL Loop with State, Action, Reward Estimation, Policy Network, Memory, Optimization Phase, and Actor-Critic.
+- The framework employs LLMs and GMM for comprehensive feature understanding, H-clustering for dividing features into groups, and a hierarchical multi-agent RL architecture for efficient subspace exploration.
+- HRLFS demonstrates improved performance and computational efficiency compared to single-agent and one-agent-per-feature RL methods by strategically managing feature selection through a hierarchical structure.
+
+
+---
+
+[A RAG-BASED MULTI-AGENT LLM SYSTEM FOR NATURAL HAZARD RESILIENCE AND ADAPTATION](http://arxiv.org/abs/2504.17200v1)
+
+- WildfireGPT (A RAG-Based Multi-Agent LLM System): introduces a retrieval-augmented generation (RAG)-based multi-agent LLM system to support natural hazard decision-making, including Task Orchestrator Agent, User Profile Agent, Planning Agent, Analyst Agent, LLM Agent, Evaluation Agent, Data Sources, Literature Search Dataset, Embedding Model, Vector Store, OpenAI Assistant API, Streamlit-based web app, Conversation History, Retrieved Context, and Prompt Augmentation components.
+- The system employs a user-centered, multi-agent design to deliver tailored risk insights by integrating diverse data and scientific literature through an RAG framework.
+- Evaluation across expert-led case studies demonstrates the system's effectiveness in providing accurate and contextually relevant information for decision support.
+
+
+---
+
+[Paper2Code: Automating Code Generation from Scientific Papers in Machine Learning](http://arxiv.org/abs/2504.17192v1)
+
+- PaperCoder: introduces, with Planning (construct roadmap), Analyzing (interpret details), Coding (generate code), and Task-specialized LLM agents (instantiate phases), a multi-agent LLM framework transforming machine learning papers into functional code repositories.
+- The framework operates in three sequential stages: planning, analysis, and code generation, emulating a human software development workflow.
+- Task-specialized LLM agents instantiate each phase, collaborating effectively across the pipeline to produce modular, dependency-aware code.
+
+
+---
+
+
+#### 23rd April 2025
+
+
+[A Survey of AI Agent Protocols](http://arxiv.org/abs/2504.16736v1)
+
+- AI Agent Protocols: introduces a systematic classification and analysis of existing communication protocols for LLM agents, detailing their core architecture including Foundation Model, Memory Systems, Planning, Tool-Using, and Action Execution components.
+- The survey categorizes protocols into context-oriented (e.g., MCP with Host/Client/Server/Resource) and inter-agent (e.g., A2A with Agent Card/Task, ANP with Identity Layer/Meta-Protocol Layer/Application Protocol Layer, Agora with Protocol Documents, Agent Protocol with Runs/Threads/Store).
+- It evaluates protocols based on dimensions like efficiency, scalability, security, reliability, extensibility, operability, and interoperability, providing insights for designing robust communication infrastructures for intelligent agents.
+
+
+---
+
+[Leveraging LLMs as Meta-Judges: A Multi-Agent Framework for Evaluating LLM Judgments](http://arxiv.org/abs/2504.17087v1)
+
+- Meta-Judge Selection Framework: introduces a three-stage pipeline including prompt design, meta-judge score calculation with a multi-agent module, and score-based selection.
+- The framework utilizes a refined rubric and multiple LLM agents to evaluate raw LLM judgments, aggregating scores through methods like majority voting or weighted averaging.
+- A threshold is applied to the final meta-judge score to select trustworthy judgments, aiming to improve precision compared to single-agent or raw judgments.
+
+
+---
+
+
+[OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents](http://arxiv.org/abs/2504.16918v1)
+
+- OptimAI: introduces a framework for solving optimization problems from natural language, with Formulator (Translates natural language), Planner (Proposes solution strategies), Coder (Generates solver code), and Code Critic (Performs reflective debugging) components.
+- The framework translates natural language into mathematical formulations, plans solution strategies, generates executable code, and refines code through debugging.
+- OptimAI employs a multi-agent architecture and uses UCB-based debug scheduling to dynamically switch between alternative plans during debugging.
+
+
+---
+
+[Do Large Language Models know who did what to whom?](http://arxiv.org/abs/2504.16884v1)
+
+- Large Language Models (LLMs): investigates whether pre-trained LLMs, including BERT, GPT2-Small, Llama 2, and Persimmon, capture thematic roles by analyzing their Hidden Units and Attention Heads.
+- The study uses representational similarity analysis and SVM classification on internal representations to assess thematic role encoding.
+- Findings indicate thematic role information is weakly represented in hidden units but reliably available in attention heads, differing from human judgments.
+
+
+---
+
+[MONTE CARLO PLANNING WITH LARGE LANGUAGE MODEL FOR TEXT-BASED GAME AGENTS](http://arxiv.org/abs/2504.16855v1)
+
+- MC-DML (Monte Carlo planning with Dynamic Memory-guided Large language model): introduces a text-based game agent that combines MCTS (Monte Carlo Tree Search) with an LLM (Large Language Model) guided by a Dynamic Memory Mechanism (integrates past experiences) using In-Trial Memory (current trajectory history) and Cross-Trial Memory (reflections from failures) for action selection via PUCT (action selection formula).
+- The LLM serves as the initial policy and dynamically adjusts action evaluations during planning based on the integrated memory mechanisms.
+- This approach enhances action exploration and performance in complex text-based games by enabling the agent to learn from past experiences.
+
+
+---
+
+
+[IRIS: Interactive Research Ideation System for Accelerating Scientific Discovery](http://arxiv.org/abs/2504.16728v1)
+
+- IRIS (Interactive Research Ideation System): introduces a human-in-the-loop platform for scientific ideation, featuring an Ideation Agent, Review Agent, and Retrieval Agent, guided by Monte Carlo Tree Search for iterative idea exploration.
+- The system allows researchers to refine research briefs through fine-grained feedback and targeted literature retrieval, balancing human control with automation.
+- MCTS enables systematic exploration of the idea space, while the Review Agent provides feedback based on a hierarchical taxonomy to mitigate issues like "reward hacking".
+
+
+---
+
+[Enhancing LLM-Based Agents via Global Planning and Hierarchical Execution](http://arxiv.org/abs/2504.16563v1)
+
+- GoalAct: introduces a novel agent framework with Global Planning (Continuously updated task plan) and Hierarchical Execution (Decomposes task into skills), interacting with User Query (Initial task input), Historical Record (Past steps actions observations), and Environment (External interaction space).
+- The framework uses continuously updated global planning to maintain long-term goals and ensure plan feasibility based on real-time feedback.
+- Hierarchical execution decomposes tasks into high-level skills like searching, coding, and writing, enhancing adaptability and reducing planning complexity.
+
+
+---
+
+[Amplified Vulnerabilities: Structured Jailbreak Attacks on LLM-based Multi-Agent Debate](http://arxiv.org/abs/2504.16489v1)
+
+- Structured Prompt Rewriting Framework: introduces a method to amplify jailbreak attacks on Multi-Agent Debate systems, with Narrative Encapsulation, Role-Driven Escalation, Iterative Refinement, and Rhetorical Obfuscation components.
+- This framework embeds malicious queries in scenarios, exploits agent roles, refines content iteratively, and uses obfuscating language to bypass safety filters.
+- The method significantly increases harmfulness and attack success rates against various MAD frameworks and underlying LLMs.
+
+
+---
+
+[Less is More: Enhancing Structured Multi-Agent Reasoning via Quality-Guided Distillation](http://arxiv.org/abs/2504.16408v1)
+
+- Less is More: introduces a structured multi-agent reasoning framework, with Prompt Induction (Derives task prompts), Retrieval-Augmented In-Context Learning (Retrieves context examples), Reasoning Synthesis (Generates structured data), Dual-Stage Filtering (Filters synthesized data), Reward Model (Scores data quality), Distilled Datasets (Filtered training data), Supervised Fine-Tuning (Trains task models), Meta-Llama-3-8B-Instruct (Base language model), and Inference Agents (Task-specific fine-tuned models), designed to enhance structured multi-agent reasoning under low-resource conditions via quality-guided distillation.
+- The framework generates high-quality training data from minimal labeled examples using prompt induction, retrieval-augmented synthesis, and dual-stage filtering based on structural validity and reward scores.
+- Task-specific agents for question parsing, CoT parsing, and verification are fine-tuned on the distilled data, enabling modular and interpretable reasoning.
+
+
+---
+
+ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving](http://arxiv.org/abs/2504.16331v1)
+
+- ClarifyCoder: introduces a novel framework for enhancing code LLMs, utilizing a Data Synthesis Technique (Generates ambiguous problems/questions) to create Clarify-Aware Synthetic Data (Dataset for clarification training) for Targeted Instruction Tuning (Fine-tunes LLM for clarification) of a Pre-trained LLM (Base language model) to produce a ClarifyCoder Model (Fine-tuned clarification-aware LLM).
+- The Data Synthesis Technique automatically generates ambiguous problem descriptions and corresponding clarifying questions to train models to recognize and query uncertainties.
+- Targeted Instruction Tuning combines synthetic data with standard data to enable the ClarifyCoder Model to prioritize clarification over immediate code generation when faced with ambiguity.
+
+
+---
+
+
 #### 22nd April 2025
 
 [A Comprehensive Survey in LLM(-Agent) Full Stack Safety: Data, Training and Deployment](http://arxiv.org/abs/2504.15585v1)
