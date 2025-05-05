@@ -43,7 +43,7 @@ Chronological order.
 
 </div>
 
-#### 2nd May 2025
+#### 2nd of May 2025
 
 [WirelessAgent: Large Language Model Agents for Intelligent Wireless Networks](http://arxiv.org/abs/2505.01074v1)
 
