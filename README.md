@@ -43,7 +43,142 @@ Chronological order.
 
 </div>
 
+#### 7th May 2025
+
+[Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335)
+
+- Absolute Zero Reasoner (AZR): introduces a system where a single Language Model (acts as proposer and solver) learns to propose tasks (Proposer) and solve them (Solver) through self-play, utilizing a Code Executor (validates tasks, verifies answers) as the Environment (provides feedback) and guided by a Reward Function (guides learning) and RL Algorithm (updates model).
+- The system operates under the Absolute Zero paradigm, learning entirely from self-generated tasks and environmental feedback without relying on external human-curated data.
+- AZR leverages three distinct task types (deduction, abduction, induction) and a task-relative reinforcement learning approach (TRR++) to achieve strong reasoning capabilities across coding and mathematical domains.
+
+
+---
+
+
+#### 6th May 2025
+
+[WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch](http://arxiv.org/abs/2505.03733v1)
+
+- WebGen-Bench (Evaluation Pipeline): introduces a benchmark and pipeline to evaluate LLM-based agents on generating websites from scratch, including Data Curation, Website Generation, Test Case Construction, UI Agent, UI Agent Engine, Appearance Grading, and Manual Validation components.
+- The pipeline uses LLMs and human annotators for data creation, LLM-based agents for website generation, and a UI agent powered by an LLM for automated functional testing.
+- Website appearance is graded by a separate LLM, and human testers perform manual validation of test cases.
+
+
+---
+
+[LlamaFirewall: An open source guardrail system for building secure AI agents](http://arxiv.org/abs/2505.03574v1)
+
+- LlamaFirewall: introduces an open-source, system-level security framework for LLM-powered applications, including a Unified Policy Engine (Orchestration), PromptGuard 2 (Jailbreak detection), AlignmentCheck (Agent alignment), and CodeShield (Code analysis).
+- The framework provides layered defense against prompt injection, agent misalignment, and insecure code generation risks.
+- LlamaFirewall offers a modular design supporting custom pipelines, conditional remediation strategies, and pluggable detectors for real-time security monitoring.
+
+
+---
+
+[A Comprehensive Survey of Large AI Models for Future Communications: Foundations, Applications and Challenges](http://arxiv.org/abs/2505.03556v1)
+
+- LAMs (Large AI Models): introduces a comprehensive survey of Large AI Models for future communications, covering their foundations including Transformer, Diffusion, and Mamba architectures, classification into LLM, LVM, LMM, and World models, training methods like Pre-training, Fine-tuning, and Alignment, and optimization techniques such as CoT, RAG, and Agentic systems.
+- The paper details the application of LAMs across various communication scenarios, including physical layer design, resource allocation, network management, edge intelligence, semantic communication, agentic systems, and emerging applications.
+- It analyzes the research challenges faced by LAMs in communication, such as data quality, structured knowledge integration, generative hallucination, reasoning limitations, explainability, adaptability, task diversity, resource constraints, inference latency, and security/privacy.
+
+
+---
+
+[A HASHGRAPH-INSPIRED CONSENSUS MECHANISM FOR RELIABLE MULTI-MODEL REASONING](http://arxiv.org/abs/2505.03553v1)
+
+- Hashgraph-inspired Consensus Mechanism: introduces a system for reliable multi-model reasoning using a Query Handler (accepts user request), Model Interface Layer (manages model connections), Consensus Controller (implements gossip and checks convergence), Prompt Generator (formulates model prompts), Comparer/Evaluator (compares model outputs), Result Aggregator (formats final output), and a Reasoning Model Pool (set of black-box models).
+- The system treats each reasoning model as a node in a distributed network, using gossip-about-gossip and virtual voting principles to achieve consensus on a final answer.
+- This iterative process allows models to exchange and refine answers, aiming to reduce hallucinations and improve accuracy by leveraging collective intelligence.
+
+
+---
+
+[LogisticsVLN: Vision-Language Navigation For Low-Altitude Terminal Delivery Based on Agentic UAVs](http://arxiv.org/abs/2505.03460v1)
+
+- LogisticsVLN: introduces a UAV-based vision-language navigation system for terminal delivery, integrating an LLM (interprets request, extracts attributes), Floor Count VLM (estimates floors, guides vertical movement), Object Recognition VLM (identifies target window/object), Choice VLM (determines next action), Depth Assistant (ensures safety, calculates distances), and RGB-Depth Observation (input data).
+- The system processes user requests and environmental observations to guide a drone to a specific window for package delivery.
+- It operates without prior maps or fine-tuning, relying on foundation models for perception, understanding, and decision-making in unseen residential environments.
+
+
+---
+
+[Procedural Memory Is Not All You Need: Bridging Cognitive Gaps in LLM-Based Agents](http://arxiv.org/abs/2505.03434v1)
+
+- Modular Semantic-Associative System: introduces a modular architecture augmenting LLMs with semantic and associative memory components to bridge cognitive gaps.
+- This system decouples procedural execution (LLM actor) from adaptive reasoning (semantic/associative modules) for robust decision-making.
+- The architecture is designed for agents operating in complex, unpredictable "wicked" environments by specializing cognitive functions.
+
+
+---
+
+[DYSTIL: Dynamic Strategy Induction with Large Language Models for Reinforcement Learning](http://arxiv.org/abs/2505.03209v1)
+
+- DYSTIL: introduces a strategy-based reinforcement learning framework with DYSTIL RL Agent L, Memory Mc, Input Constructor, Core Reasoning LLM, Actor Module, Critic Module, Strategy-Generating LLM Q, Observation-to-Text Converter Co→t, Experience Buffer B, and PPO Parameter Optimization, which dynamically induces textual strategies using large language models to improve reinforcement learning from expert demonstrations.
+- The framework integrates a strategy-generating LLM for strategy induction with a lightweight core reasoning LLM for policy optimization.
+- DYSTIL iteratively updates strategies based on experience and advantage estimations, enhancing sample efficiency and model interpretability.
+
+
+---
+
+[VLM Q-LEARNING: ALIGNING VISION-LANGUAGE MODELS FOR INTERACTIVE DECISION-MAKING](http://arxiv.org/abs/2505.03181v1)
+
+- LVLMQ (VLM Q-Learning): introduces, "aligning vision-language models for interactive decision-making", with VLM (core RL policy), Image Encoder (processes image input), Text Encoder (processes text input), LoRA Transformer (adapted VLM body), Language Head (Actor) (predicts output tokens), Critic Head (estimates action values), Environment (interactive system), Observation Prompt (formats VLM input), parseagent (parses VLM response), and parseenv (interprets action for environment), where the method applies off-policy reinforcement learning to fine-tune VLMs for agent tasks by adding a critic head and using an advantage-filtered supervised fine-tuning loss.
+- The approach converts turn-based agent interactions into token-based RL transitions, allowing the VLM's language head to act as the policy and the critic head to filter suboptimal actions based on learned value estimates.
+- This technique enables VLMs to self-improve and learn from low-quality datasets, effectively replacing standard supervised fine-tuning for VLM agent training while handling action syntax challenges.
+
+
+---
+
+[An LLM-based Self-Evolving Security Framework for 6G Space-Air-Ground Integrated Networks](http://arxiv.org/abs/2505.03161v1)
+
+- LLM-based Self-Evolving Security Framework: introduces a security framework for 6G SAGINs with LLM-6GNG (Processes threat data, generates strategies), 6G-INST (Enables framework self-evolution), and 6G Simulator (Simulates 6G SAGINs environment).
+- The LLM-6GNG component processes threat information and generates security strategies using multi-agent LLMs and chain-of-thought reasoning.
+- The 6G-INST component enables the framework to self-evolve by automatically updating the LLM-6GNG with new training data generated from encountered threats.
+
+
+---
+
+[Assessing and Enhancing the Robustness of LLM-based Multi-Agent Systems Through Chaos Engineering](http://arxiv.org/abs/2505.03096v1)
+
+- Chaos Engineering Framework: introduces a framework for assessing and enhancing the robustness of LLM-based Multi-Agent Systems (LLM-MAS) by systematically applying chaos engineering principles.
+- The framework includes components like a Chaos Module for fault injection and Monitoring Components/Modules for data collection and analysis.
+- The research proposes validating the framework through controlled experiments simulating various failure scenarios in LLM-MAS deployments.
+
+
+---
+
+
+
 #### 5th May 2025
+
+
+[Improving Model Alignment Through Collective Intelligence of Open-Source LLMS](http://arxiv.org/abs/2505.03059v1)
+
+- MoAA: introduces a two-stage alignment recipe leveraging the collective intelligence of multiple open-source LLMs, including Mixture of Agents (MoA), Proposers, Aggregators, Synthetic Data Generator, Reward Model, Criteria Filtering, Target Model, SFT Model, and DPO Model, to generate high-quality synthetic data for supervised fine-tuning and preference optimization.
+- The approach utilizes MoA as a synthetic data generator in the first stage (MoAA-SFT) to fine-tune a target model and as a reward model in the second stage (MoAA-DPO) to annotate preference data for direct preference optimization.
+- MoAA demonstrates significant improvements in model performance on alignment benchmarks by effectively integrating the strengths and diversity of open-source LLMs without relying on stronger external supervision.
+
+
+---
+
+[34 Examples of LLM Applications in Materials Science and Chemistry: Towards Automation, Assistants, Agents, and Accelerated Scientific Discovery](http://arxiv.org/abs/2505.03049v1)
+
+- The LLM-Powered Research Constellation: introduces 34 LLM applications across materials science and chemistry, categorized into Property Prediction (Forecasting properties), Molecular & Material Design (Generating novel molecules/materials), Automation & Novel Interfaces (Developing interfaces/automations), Scientific Communication and Education (Enhancing communication/education), Research Data Management and Automation (Streamlining data handling/processing), Hypothesis Generation & Evaluation (Generating/evaluating hypotheses), and Knowledge Extraction & Reasoning (Extracting knowledge/reasoning).
+- These applications, developed during a hackathon, demonstrate LLMs' versatility as predictive models and platforms for rapid prototyping of domain-specific tools.
+- The work highlights how integrating LLMs into scientific workflows can accelerate discovery and improve researcher efficiency across the entire research lifecycle.
+
+
+---
+
+[The Art of Repair: Optimizing Iterative Program Repair with Instruction-Tuned Models](http://arxiv.org/abs/2505.02931v1)
+
+- Iterative Program Repair Pipeline: introduces an approach for automatic program repair using instruction-tuned large language models, balancing multi-output generation and iterative refinement within a limited patch budget, incorporating Input, LLM, Prompt, Output, Parsing, Validation, Execution, Feedback, and Iterative Process components.
+- The pipeline processes buggy code input, uses an LLM guided by a prompt to generate output patches, which are then parsed and subjected to validation via execution with tests.
+- Feedback from validation drives the iterative process to refine patches, aiming to maximize repair success while limiting the total number of generated patches.
+
+
+---
+
 
 [Scenethesis: A Language and Vision Agentic Framework for 3D Scene Generation](http://arxiv.org/abs/2505.02836v1)
 
