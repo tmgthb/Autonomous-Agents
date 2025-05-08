@@ -45,6 +45,36 @@ Chronological order.
 
 #### 7th May 2025
 
+[CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System](http://arxiv.org/abs/2505.04254v1)
+
+- CompileAgent: introduces an LLM-based agent framework for automated repo-level compilation, integrating a MasterAgent, Flow-based Agent Strategy, Shell Tool, File Navigator Tool, Instruction Extractor Tool, Website Search Tool, and Multi-Agent Discussion Tool to handle instruction search and error resolution.
+- The framework leverages five specialized tools and a flow-based strategy orchestrated by a MasterAgent to interact with software artifacts and the interactive environment.
+- CompileAgent significantly improves compilation success rates and reduces time/cost compared to baselines on a new benchmark, demonstrating the potential of agent-based approaches for complex software engineering tasks.
+
+
+---
+
+
+[AutoPatch: Multi-Agent Framework for Patching Real-World CVE Vulnerabilities](http://arxiv.org/abs/2505.04195v1)
+
+- AutoPatch: introduces a multi-agent framework with a security plugin, similarity analyzer, taint analysis, semantic analysis, unified similarity model, RAG database, vulnerability verifier, code patcher, and LLM-based code generation model, designed to patch vulnerable LLM-generated code by identifying and fixing real-world CVEs.
+- The framework leverages retrieval-augmented generation and specialized LLM agents to analyze code, find similar vulnerabilities in a database, verify their presence, and generate secure patches.
+- This approach aims to overcome the knowledge cutoff limitation of LLMs and provide a cost-efficient alternative to frequent fine-tuning for handling newly disclosed vulnerabilities.
+
+
+---
+
+
+[Benchmarking LLMs' Swarm intelligence](http://arxiv.org/abs/2505.04364v1)
+
+- SwarmBench: introduces a novel benchmark for evaluating LLM swarm intelligence, featuring a launcher (Launches benchmark), a framework orchestrator (Orchestrates interactions), a simulation environment (Simulation environment), task definitions (Defines coordination tasks), a physics engine (Manages environment physics), LLM-powered agents (LLM-powered agents logic), and a data logger (Captures simulation data).
+- The benchmark assesses emergent decentralized coordination in LLM swarms under strict perception and communication constraints within a configurable 2D grid world.
+- SwarmBench includes five core multi-agent coordination tasks: Pursuit, Synchronization, Foraging, Flocking, and Transport, evaluated using a zero-shot protocol.
+
+
+---
+
+
 [Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/abs/2505.03335)
 
 - Absolute Zero Reasoner (AZR): introduces a system where a single Language Model (acts as proposer and solver) learns to propose tasks (Proposer) and solve them (Solver) through self-play, utilizing a Code Executor (validates tasks, verifies answers) as the Environment (provides feedback) and guided by a Reward Function (guides learning) and RL Algorithm (updates model).
@@ -55,7 +85,83 @@ Chronological order.
 ---
 
 
+
+[Facilitating Trustworthy Human-Agent Collaboration in LLM-based Multi-Agent System oriented Software Engineering](http://arxiv.org/abs/2505.04251v1)
+
+- RACI-based framework: introduces a method for assigning responsibilities between Human Actors and LLM-based Agents using RACI roles to facilitate trustworthy human-agent collaboration in LLM-based multi-agent systems for software engineering.
+- The framework aims to enhance collaboration, ensure accountability, and mitigate risks associated with LLM-driven automation by systematically distributing decision-making authority and oversight.
+- The approach defines specific roles (Responsible, Accountable, Consulted, Informed) for humans and agents across tasks within the software development lifecycle.
+
+
+---
+
+[Identification and Optimization of Redundant Code Using Large Language Models](http://arxiv.org/abs/2505.04040v1)
+
+- LLM-agent: introduces a framework leveraging Large Language Models (Core engine) to analyze and optimize a Codebase (Input code), verified by Test Cases (Verification).
+- The framework incorporates Static Analysis Tools (Evaluation) for metric evaluation and Developer Feedback (Validation/Insights) for understanding redundancy causes.
+- The LLM Agent (Orchestrator) manages the process, aiming to build a Catalog (Knowledge base) of redundant code patterns and reasons.
+
+
+---
+
+
+
 #### 6th May 2025
+
+[The Power of Stories: Narrative Priming Shapes How LLM Agents Collaborate and Compete](http://arxiv.org/abs/2505.03961v1)
+
+- Narrative Primed LLM Agents: introduces a system where LLM agents play a public goods game, influenced by narrative priming from a story pool.
+- The study investigates how shared versus different narratives affect agent collaboration and competition outcomes in the game.
+- Experiments explore the influence of narrative type, group size, and the presence of selfish agents on collaboration scores and payoffs.
+
+
+---
+
+[Frog Soup: Zero-Shot, In-Context, and Sample-Efficient Frogger Agents](http://arxiv.org/abs/2505.03947v1)
+
+- LLM Demonstrations Guided DQN: introduces enhancing a traditional DQN agent with LLM-generated gameplay demonstrations, utilizing Objects Coordinates Extraction, LLM Agents, LLM Demo, and LLM Loop to collect expert trajectories, which are then integrated into the DQN Components including Self-Play Experience, Evaluation NNet, Target NNet, Priority Experience Replay, Priority Sampling, DQN loss calculation, and DQN Loop interacting with the Atari-Frogger Env.
+- The approach leverages Prioritized Experience Replay to prioritize sampling of the LLM-generated expert demonstrations, aiming to improve the sample efficiency and initial performance of the DQN agent on the challenging Frogger game.
+- Experiments show that incorporating LLM demonstrations leads to significantly higher episodic rewards and faster convergence compared to a standard DQN baseline within a limited training budget.
+
+
+---
+
+[Performance Evaluation of Large Language Models for High-Performance Code Generation: A Multi-Agent Approach (MARCO)](http://arxiv.org/abs/2505.03906v1)
+
+- MARCO (Multi-Agent Reactive Code Optimizer): introduces a multi-agent system with Code Optimizer Agent, Web-Search Engine, Performance Evaluator Agent, and Adaptive Feedback Loop for optimizing high-performance computing code.
+- The Code Optimizer Agent generates and refines code using strategies informed by the Web-Search Engine and feedback from the Performance Evaluator Agent.
+- The Adaptive Feedback Loop iteratively improves code quality by feeding performance metrics from the evaluator back to the optimizer.
+
+
+---
+
+
+[Divide, Optimize, Merge: Fine-Grained LLM Agent Optimization at Scale](http://arxiv.org/abs/2505.03973v1)
+
+- FGO (Fine-Grained Optimization): introduces, "Divide (Splits dataset) / Optimize (Optimizes subsets) / LLM Optimizer (Updates modules) / Agent (Executes tasks) / Module (Part optimized) / Evaluate (Assesses performance) / Merge (Combines modules) / Recursive Clustering (Groups modules) / Direct Merge (Combines groups) / Optimal Agent System (Final agent)", a scalable framework for LLM agent optimization.
+- FGO divides large optimization tasks into manageable subsets, performs fine-grained optimization on each subset, and progressively merges the optimized components.
+- The framework demonstrates improved performance and efficiency for LLM-based agent optimization on large datasets compared to traditional methods.
+
+
+---
+
+[SLOT: Structuring the Output of Large Language Models](http://arxiv.org/abs/2505.04016v1)
+
+- SLOT (Structured LLM Output Transformer): introduces a model-agnostic post-processing approach using a fine-tuned lightweight language model to transform unstructured LLM output into structured formats, incorporating a Data Synthesizer LLM and Validation for data creation, and utilizing Loss Calculation and Weight Update for training.
+- The framework takes unstructured text from an upstream LLM and a JSON Schema as input to the SLOT model, producing structured output, and is evaluated using metrics like Schema Accuracy and Content Similarity.
+- SLOT can be combined with Constrained Decoding methods to further enhance structural validity and performance, demonstrating that targeted training can enable smaller models to achieve high-quality structured generation.
+
+
+---
+
+[Divide, Optimize, Merge: Fine-Grained LLM Agent Optimization at Scale](http://arxiv.org/abs/2505.03973v1)
+
+- FGO (Fine-Grained Optimization): introduces, "Divide (Splits dataset) / Optimize (Optimizes subsets) / LLM Optimizer (Updates modules) / Agent (Executes tasks) / Module (Part optimized) / Evaluate (Assesses performance) / Merge (Combines modules) / Recursive Clustering (Groups modules) / Direct Merge (Combines groups) / Optimal Agent System (Final agent)", a scalable framework for LLM agent optimization.
+- FGO divides large optimization tasks into manageable subsets, performs fine-grained optimization on each subset, and progressively merges the optimized components.
+- The framework demonstrates improved performance and efficiency for LLM-based agent optimization on large datasets compared to traditional methods.
+
+
+---
 
 [WebGen-Bench: Evaluating LLMs on Generating Interactive and Functional Websites from Scratch](http://arxiv.org/abs/2505.03733v1)
 
