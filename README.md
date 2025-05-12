@@ -43,13 +43,202 @@ Chronological order.
 
 </div>
 
+#### 9th May 2025
+
+[Multi-Agent Systems for Robotic Autonomy with LLMS](http://arxiv.org/abs/2505.05762v1)
+
+- Multi-Agent System: introduces a framework for robotic autonomy, with Task Analyst (analyzes task input), Robot Designer (designs robot configuration), RL Designer (generates RL components), Code & Report Extractor (extracts code/reports), RL Execution (runs RL training/evaluation), Figures (visualizes results), and Report (summarizes analysis/results).
+- The system takes task scenario descriptions as input and outputs multimodal results including code files, technical reports, and visualizations.
+- This framework enables autonomous robotic task analysis, mechanical design, and path generation using LLMs and reinforcement learning.
+
+
+---
+
+
+[APOLLO: Automated LLM and Lean Collaboration for Advanced Formal Reasoning](http://arxiv.org/abs/2505.05758v1)
+
+- APOLLO: introduces a modular pipeline combining LLM, Lean Server, Syntax Refiner, Sorrifier, Auto Solver, Subproof Extractor, and Proof Assembler.
+- The pipeline directs LLM proof generation, analyzes and fixes errors using Lean feedback, isolates failing sub-lemmas, and applies automated solvers.
+- This iterative process repairs and recombines sub-proofs, improving proof generation efficiency and correctness with lower sampling budgets.
+
+
+---
+
+
+
+[EVOLUTIONARY ECOLOGY OF WORDS](http://arxiv.org/abs/2505.05863v1)
+
+- Word Evolutionary Ecology Model: introduces a model utilizing a Large Language Model for word creation, interaction judgment, and mutation within a spatial agent-based simulation, where individuals possessing words compete and evolve.
+- The model simulates the evolutionary ecology of words by having agents with words move in a grid, compete based on LLM-determined outcomes, and mutate their words using the LLM.
+- Competition outcomes between words are stored in a dictionary to improve computational efficiency for repeated interactions.
+
+
+---
+
+[ELA-ZSON: Efficient Layout-Aware Zero-Shot Object Navigation Agent with Hierarchical Planning](http://arxiv.org/abs/2505.06131v1)
+
+- ELA-ZSON (Efficient Layout-Aware Zero-Shot Object Navigation): introduces an efficient zero-shot object navigation approach with an LLM Agent (manages process) that leverages a hierarchical Scene Representation (hierarchical environment map) for Hierarchical Planning (two-level path generation) and Robotic Navigation (executes planned path).
+- The Scene Representation includes a global Topometric Map (global topological graph) and a local Learned Scene Representation (local dense memory), supporting both Global Topology Plan (coarse route planning) and Local Ego-centric Plan (dense waypoint generation).
+- The LLM Agent manages the overall workflow, integrating Perception (RGB-D input, pose) and Control Flow (manages actions, status, errors) for autonomous navigation in complex indoor environments without costly training.
+
+
+---
+
+[AGENTXPLOIT: End-to-End Redteaming of Black-Box AI Agents](http://arxiv.org/abs/2505.05849v1)
+
+- AGENTXPLOIT: introduces a generic black-box fuzzing framework for indirect prompt injection attacks, utilizing an Initial Corpus (High-quality templates), Seed Storage (Pool of seeds), Seed Selector (MCTS-based algorithm), a Mutator (Generates new variants), and a Scorer (Evaluates seeds) to iteratively refine adversarial prompts.
+- The framework systematically explores adversarial prompts by selecting promising seeds, mutating them, and scoring their effectiveness based on attack success rate and task coverage.
+- This adaptive and iterative process enables the framework to effectively discover and exploit indirect prompt injection vulnerabilities in black-box LLM agents across diverse architectures and tasks.
+
+
+---
+
+
+
+#### 8th May 2025
+
+
+[MULTI-AGENT EMBODIED AI: ADVANCES AND FUTURE DIRECTIONS](http://arxiv.org/abs/2505.05108v1)
+
+- Multi-Agent Embodied AI Survey: introduces a comprehensive review of recent advances and future directions in embodied AI systems with multiple agents, covering control, learning, and generative model-based methods.
+- The survey analyzes key contributions and identifies challenges in multi-agent embodied AI, including asynchronous decision-making, agent heterogeneity, and open environments.
+- It reviews benchmarks and discusses future research directions to guide innovation in this rapidly evolving field.
+
+
+---
+
+[Perception, Reason, Think, and Plan: A Survey on Large Multimodal Reasoning Models](http://arxiv.org/abs/2505.04921v1)
+
+- LMRM (Large Multimodal Reasoning Model): introduces a structured roadmap for multimodal reasoning research, encompassing four stages: Stage 1 Perception-Driven Modular Reasoning, Stage 2 Language-Centric Short Reasoning, Stage 3 Language-Centric Long Reasoning, and Stage 4 Native LMRMs.
+- The survey analyzes the progression from early modular, perception-driven systems to unified, language-centric frameworks and projects towards native models with omnimodal perception and agentic behavior.
+- It provides a comprehensive review of over 540 publications, categorizes models and benchmarks, and discusses challenges and future prospects for next-generation multimodal reasoning systems.
+
+
+---
+
+
+
+[Not Like Us, Hunty: Measuring Perceptions and Behavioral Effects of Minoritized Anthropomorphic Cues in LLMs](http://arxiv.org/abs/2505.05660v1)
+
+- Simulated LLM Agents: introduces a study evaluating user reliance and perception of LLM agents using minoritized sociolects (AAE, Queer slang) compared to Standard American English, utilizing templated suggestions constructed with warmth phrases and confidence expressions, generated via in-context learning and persona-based prompting with GPT-4.
+- The study found that AAE speakers preferred and relied more on the SAE agent, while Queer slang speakers showed no significant preference but felt greater social presence with the Queer slang agent.
+- Findings highlight the nuanced dynamics of sociolect use in machine interactions, emphasizing the need for careful design to respect cultural boundaries and avoid appropriation.
+
+
+---
+
+[CityNavAgent: Aerial Vision-and-Language Navigation with Hierarchical Semantic Planning and Global Memory](http://arxiv.org/abs/2505.05622v1)
+
+- CityNavAgent: introduces a large language model-empowered agent for aerial vision-and-language navigation, featuring an open-vocabulary perception module, a hierarchical semantic planning module, and a global memory module.
+- The agent extracts urban scene semantics, decomposes long-horizon tasks into hierarchical sub-goals, and stores historical trajectories in a topological graph to reduce navigation complexity.
+- This approach enables zero-shot navigation in continuous urban environments, addressing challenges of complex scene understanding and exponential planning complexity.
+
+
+---
+
+[HiBayES: A Hierarchical Bayesian Modeling Framework For AI Evaluation Statistics](http://arxiv.org/abs/2505.05602v1)
+
+- HiBayES (A Hierarchical Bayesian Modeling Framework for AI Evaluation Statistics): introduces a generalizable framework with Hierarchical Bayesian GLMs, Bayesian Data Analysis, MCMC Sampling, Uncertainty Quantification, Formal Model Comparison, and Quality Control components, designed for principled uncertainty quantification and robust parameter estimation in AI evaluations.
+- The framework addresses challenges in AI evaluation statistics, including stochastic outputs, complex hierarchical data structures, and high testing costs, particularly in low-data scenarios.
+- HiBayES enables robust inferences, explicit modeling of hierarchical data, and formal model comparison, offering advantages over conventional statistical methods like t-tests and flat models.
+
+
+---
+
+[clem: todd: A Framework for the Systematic Benchmarking of LLM-Based Task-Oriented Dialogue System Realisations](http://arxiv.org/abs/2505.05445v1)
+
+- clem: todd (chat-optimized LLMs for task-oriented dialogue systems development): introduces a framework for systematically evaluating LLM-based task-oriented dialogue systems, featuring a Game Master (coordinates interaction), User Simulator (simulates user), and Dialogue System (acts as agent), which can be implemented as Monolithic Dialogue System (single LLM agent), Modular-Prog Dialogue System (programmed flow agent), or Modular-LLM Dialogue System (LLM-controlled agent), utilizing components such as Dialogue Manager (manages dialogue flow), Intent Detection (identifies user intent), Slot Extraction (extracts entities), Response Generation (generates response), Database Retriever (queries database), and Booking Confirmer (confirms bookings).
+- The framework facilitates turn-based interactions between the user simulator and dialogue system, coordinated by the game master, and supports plug-and-play integration of different models and architectures.
+- Evaluation within the framework involves consistent datasets, metrics, and computational constraints, enabling detailed benchmarking and analysis of performance and efficiency trade-offs.
+
+
+---
+
+[EcoAgent: An Efficient Edge-Cloud Collaborative Multi-Agent Framework for Mobile Automation](http://arxiv.org/abs/2505.05440v2)
+
+- EcoAgent: introduces an edge-cloud collaborative multi-agent framework for mobile automation, featuring a Cloud-Based Planning Agent (Task decomposition, planning), Edge-Based Execution Agent (Action execution), Edge-Based Observation Agent (Monitor screen, verify outcomes), Memory Module (Stores screen history), Reflection Module (Supports replanning), and Pre-Understanding Module (Compresses screen images).
+- The framework coordinates cloud and edge agents in a closed loop, leveraging cloud-based MLLMs for planning and edge-based MSLMs for execution and observation.
+- The Pre-Understanding Module reduces communication overhead by compressing screen images, while Memory and Reflection modules enable replanning upon execution failure.
+
+
+---
+
+[HEXGEN-TEXT2SQL: Optimizing LLM Inference Request Scheduling for Agentic Text-to-SQL Workflows](http://arxiv.org/abs/2505.05286v1)
+
+- HEXGEN-TEXT2SQL: introduces a novel framework for scheduling agentic Text-to-SQL workflows on heterogeneous GPU clusters, featuring a Global Coordinator (Dispatcher) that assigns requests, LLM Model Instances (with Local Priority Queue) that process and prioritize tasks, and a Simulator (Alpha-Tuning) that tunes the dispatcher parameter.
+- The framework employs a two-level hierarchical scheduling approach combining global workload-balanced dispatching and local adaptive urgency-guided prioritization to manage multi-stage dependencies and resource heterogeneity.
+- This design significantly improves SLO attainment and system throughput for LLM-based Text-to-SQL serving compared to baseline methods.
+
+
+---
+
+[MARK: Memory Augmented Refinement of Knowledge](http://arxiv.org/abs/2505.05177v1)
+
+- MARK (Memory-Augmented Refinement of Knowledge): introduces a scalable agentic memory design framework, with Conversational LLM Agent, LLM, System Prompt, Domain Knowledge Source, Chat History, Memory Builder Service (MBS), Memory Search Service (MSS), Memory Store, Residual Refined Memory Agent, User Question Refined Memory Agent, LLM Response Refined Memory Agent, Memory Relevance Scoring (MRS), and Memory, enabling LLMs to continuously learn and refine domain knowledge.
+- The framework utilizes specialized memory agents (Residual, User Question, LLM Response) to extract refined memories from conversations, stored in a Memory Store.
+- Memory Search Service retrieves and ranks relevant memories using Memory Relevance Scoring for injection into the LLM context, improving accuracy and adaptability.
+
+
+---
+
+[From First Draft to Final Insight: A Multi-Agent Approach for Feedback Generation](http://arxiv.org/abs/2505.04869v1)
+
+- G-E-RG (Generation, Evaluation, and Regeneration): introduces a multi-agent framework for feedback generation, including External Database (slides), Question, Student response, Agent 1 (Generation), Feedback in the first round, Agent 2 (Evaluation), Evaluation results, Agent 3 (Re-Generation), and Feedback in the second round, which generates initial feedback, evaluates it, and then regenerates improved feedback.
+- The framework utilizes three distinct GPT-4o agents for the sequential tasks of initial generation, evaluation based on a rubric, and final regeneration informed by evaluation results.
+- The iterative G-E-RG process significantly improves feedback quality across multiple dimensions compared to single-round generation methods.
+
+
+---
+
+
 #### 7th May 2025
+
+
+[Large Language Models are Autonomous Cyber Defenders](http://arxiv.org/abs/2505.04843v1)
+
+- LLM Adapter Framework: introduces a system to integrate LLMs into the CybORG CAGE 4 environment, including an LLM Adapter, Formatter, Backend, LLM Models, Custom Policies, Communication Protocol, Blue Agent (LLM), Blue Agent (RL), Red Agent, and Green Agent.
+- The framework enables LLM-driven agents to act as autonomous cyber defenders in a multi-agent simulation alongside RL and finite-state agents.
+- A novel communication protocol allows diverse blue agents to share threat information and coordinate defensive actions within the simulated network.
+
+
+---
+
+[Safeguard-by-Development: A Privacy-Enhanced Development Paradigm for Multi-Agent Collaboration Systems](http://arxiv.org/abs/2505.04799v1)
+
+- Maris: introduces a privacy-enhanced development paradigm for multi-agent collaboration systems, with MACS Data Protection Manifest (Specifies data protection policy), Data Safeguard Engine (Integrates policy into workflows), Conversation Handler (Hooks into message flows), Manifest Enforcer (Validates messages, applies actions), AutoGen (Multi-agent development framework), ConversableAgent (Generic agent class), GroupChatManager (Group conversation manager), Agents (Autonomous actors), LLMs (Large Language Models), Tools (External services/functions), and Users (Human participants), designed to address data leakage threats by enforcing rigorous message flow control.
+- The system embeds reference monitors into key conversation components to validate message flows against user-defined policies at runtime.
+- Evaluation across healthcare, supply chain, and recommendation use cases demonstrates satisfactory effectiveness and low performance overhead.
+
+
+---
+
+
+
+[Benchmarking LLMs' Swarm intelligence](http://arxiv.org/abs/2505.04364v1)
+
+- SwarmBench: introduces a novel benchmark for evaluating LLM swarm intelligence, featuring a launcher (Launches benchmark), a framework orchestrator (Orchestrates interactions), a simulation environment (Simulation environment), task definitions (Defines coordination tasks), a physics engine (Manages environment physics), LLM-powered agents (LLM-powered agents logic), and a data logger (Captures simulation data).
+- The benchmark assesses emergent decentralized coordination in LLM swarms under strict perception and communication constraints within a configurable 2D grid world.
+- SwarmBench includes five core multi-agent coordination tasks: Pursuit, Synchronization, Foraging, Flocking, and Transport, evaluated using a zero-shot protocol.
+
+
+---
+
 
 [CompileAgent: Automated Real-World Repo-Level Compilation with Tool-Integrated LLM-based Agent System](http://arxiv.org/abs/2505.04254v1)
 
 - CompileAgent: introduces an LLM-based agent framework for automated repo-level compilation, integrating a MasterAgent, Flow-based Agent Strategy, Shell Tool, File Navigator Tool, Instruction Extractor Tool, Website Search Tool, and Multi-Agent Discussion Tool to handle instruction search and error resolution.
 - The framework leverages five specialized tools and a flow-based strategy orchestrated by a MasterAgent to interact with software artifacts and the interactive environment.
 - CompileAgent significantly improves compilation success rates and reduces time/cost compared to baselines on a new benchmark, demonstrating the potential of agent-based approaches for complex software engineering tasks.
+
+
+---
+
+
+[A Proposal for Evaluating the Operational Risk for ChatBots based on Large Language Models](http://arxiv.org/abs/2505.04784v1)
+
+- LLM Risk Evaluation Framework: introduces a novel metric and framework for evaluating the operational risk of LLM-based chatbots, integrating an Improved Probes Set, Garak scanner, the Prospected Chatbot System, a Metric Calculator, Industry Factor, Age Profile of Users, Technical Complexity, and Hits to assess risks to the system, users, and third parties.
+- The framework leverages the open-source GARAK tool, enhancing its probes and incorporating contextual factors like industry and user demographics into the risk calculation.
+- Evaluation results using the framework demonstrate varying risk levels across different LLM models and the impact of prompt protection and contextual multipliers on risk assessment.
 
 
 ---
