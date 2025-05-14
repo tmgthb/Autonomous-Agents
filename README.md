@@ -43,7 +43,414 @@ Chronological order.
 
 </div>
 
+#### 14th May 2025
+
+[AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
+
+- AlphaEvolve: introduces an evolutionary coding agent that orchestrates an autonomous pipeline including a User defining the task, Task Specification, an Initial Program, an Evaluation Function, a Prompt Sampler, an LLMs Ensemble generating Code Modifications, an Evaluators Pool executing and scoring programs, a Program Database storing results and guiding evolution, and a Distributed Controller Loop orchestrating the process to find the Best Program.
+- The system iteratively improves algorithms by making direct code changes using an evolutionary approach, continuously receiving feedback from evaluators.
+- AlphaEvolve leverages state-of-the-art LLMs and automated evaluation to discover novel algorithms and optimize computational infrastructure.
+
+
+---
+
+
+#### 13th May 2025
+
+[Enhancing Software Development with Context-Aware Conversational Agents: A User Study on Developer Interactions with Chatbots](http://arxiv.org/abs/2505.08648v1)
+
+- Rasa-based Chatbot Prototype: introduces a study using a prototype built on the Rasa chatbot platform, including NLU, Dialogue Management, Facebook Messenger, and RASA webhook components, to investigate software developers' preferences and requirements for conversational agents.
+- The study employed a mixed-methods approach with 29 developers interacting with the prototype via Facebook Messenger based on a predefined scenario.
+- Findings from the interactions, questionnaires, and interviews aim to inform the design of context-aware chatbots for software development tasks like task and repository management.
+
+
+---
+
+[TRAIL: Trace Reasoning and Agentic Issue Localization](http://arxiv.org/abs/2505.08638v1)
+
+- TRAIL: introduces a formal taxonomy (Classifies agent errors) and a dataset of human-annotated traces from agentic workflows, including Manager Agent (Orchestrates tasks), Search Agent (Performs web search), and various Tools (External functions/APIs).
+- The paper evaluates the ability of large language models to act as judges for debugging complex agentic workflow traces using the proposed taxonomy and dataset.
+- Evaluation results show that current state-of-the-art models perform poorly at identifying and localizing errors within these traces, highlighting the challenge of evaluating complex agentic systems.
+
+
+---
+
+[The Truth Becomes Clearer Through Debate! Multi-Agent Systems with Large Language Models Unmask Fake News](http://arxiv.org/abs/2505.08532v1)
+
+- TED (TruEDebate): introduces a multi-agent system for fake news detection, simulating a structured debate process with DebateFlow Agents and analyzing the outcome with InsightFlow Agents.
+- The DebateFlow Agents organize LLM-powered agents into Proponents and Opponents teams that engage in Opening Statement, Cross-examination and Rebuttal, and Closing Statement stages.
+- The InsightFlow Agents, consisting of a Synthesis Agent for summarization and an Analysis Agent utilizing a Role-aware Encoder, Debate Graph, and News-Debate Interactive Attention, predict the news truth value.
+
+
+---
+
+[Strategy-Augmented Planning for Large Language Models via Opponent Exploitation](http://arxiv.org/abs/2505.08459v1)
+
+- SAP (Strategy-Augmented Planning framework): introduces a two-stage framework with LLM (Identifies opponent strategy), LLM (Generates action plan), Strategy Space Ξ (Explicit strategy dimensions), Strategy Set Dξ (Generated strategy library), SEN U (Strategy Evaluation Network), Trajectory Extractor E (Summarizes environment trajectory), abstract trajectory Tabs (Summarized observation data), Strategy Search (Finds optimal counter strategy), best response strategy ξ¹,* (Optimal counter strategy), Expert Tips H (Guides LLM planning), and Environment (Simulation environment), designed to enhance LLM-based agents' opponent exploitation in competitive environments.
+- The offline stage of SAP involves LLM generating strategies within the Strategy Space, evaluating them in the Environment to create a Strategy Set and Battle Result Dataset, which trains the SEN.
+- In the online stage, SAP uses the Trajectory Extractor to summarize observations, the LLM as Recognizer to identify the opponent's strategy, the SEN and Strategy Search to find the best response, and the LLM as Planner, guided by Expert Tips, to generate the final action Plan.
+
+
+---
+
+[Scalable UAV Multi-Hop Networking via Multi-Agent Reinforcement Learning with Large Language Models](http://arxiv.org/abs/2505.08448v1)
+
+- MRLMN (Multi-agent Reinforcement learning with Large language model in Multi-hop Networking): introduces a framework integrating MARL and LLMs for scalable UAV multi-hop networking.
+- The framework includes MARL agents with policy/critic networks, enhanced by information aggregation, agent grouping, reward decomposition, and behavioral constraints.
+- It leverages an LLM agent, knowledge distillation, bipartite matching, an LLM verifier, and prompt engineering to guide MARL training and improve exploration.
+
+
+---
+
+[Benchmarking AI scientists in omics data-driven biological research](http://arxiv.org/abs/2505.08341v1)
+
+- BaisBench (Biological AI Scientist Benchmark): introduces a benchmark for evaluating AI scientists in biological research with two tasks, BAIS-CTA (Cell type annotation task) and BAIS-SD (Scientific discovery task).
+- BAIS-CTA assesses cell type identification on single-cell datasets, while BAIS-SD evaluates reasoning and insight generation through multiple-choice questions based on data analysis.
+- The benchmark uses real biological omics data and compares AI performance to human experts, highlighting current limitations in data-driven scientific discovery.
+
+
+---
+
+[Aitomia: Your Intelligent Assistant for AI-Driven Atomistic and Quantum Chemical Simulations](http://arxiv.org/abs/2505.08195v1)
+
+- Aitomia: introduces an intelligent assistant platform for AI-driven atomistic and quantum chemical simulations, with Chatbot (user interface), AI Agents (task execution), LLMs (fine-tuned models), Rule-based Agents (fail-safe logic), Retrieval-Augmented Generation (RAG) system (knowledge retrieval), MLatom ecosystem (computational backend), Cloud Computing Services (simulation execution), and Database (information storage).
+- The platform leverages fine-tuned large language models, rule-based agents, and a retrieval-augmented generation system to assist users in setting up, running, and analyzing simulations.
+- Aitomia integrates with the MLatom ecosystem and cloud computing services like Aitomistic Hub and XACS to provide a wide range of computational chemistry capabilities.
+
+
+---
+
+[DSADF: Thinking Fast and Slow for Decision Making](http://arxiv.org/abs/2505.08189v1)
+
+- DSADF (Dual-System Adaptive Decision Framework): introduces a framework integrating System 1 (Fast thinking component) with RL Agent (Goal-conditional action selection) and Memory Space (Stores task proficiency), and System 2 (Slow thinking component) with VLM (Vision Language Model) acting as Planner (Decomposes tasks, reflects) and Auxiliary Performer (Handles unfamiliar tasks), utilizing CLIP (Image to text), Image Encoder (Encodes image observation), Text Encoder (Encodes text observation/goal), and Self-reflection (Evaluates and refines plans) for generalized decision making.
+- The framework draws inspiration from Kahneman's dual-process theory, leveraging the RL agent for fast, intuitive responses and the VLM for slow, analytical reasoning and planning.
+- DSADF demonstrates improved efficiency and generalization in complex environments by dynamically allocating tasks between the fast and slow systems based on task familiarity and agent proficiency.
+
+
+---
+
+
+#### 12th May 2025
+
+[Putting It All into Context: Simplifying Agents with LCLMs](https://arxiv.org/abs/2505.08120)
+
+- State-in-Context Agent: introduces a simplified agent architecture using LCLMs (Processes large context) to process the entire Environment (Code repository state) as Context (Input to LM), eliminating complex scaffolding to produce a Solution (Output patch).
+- The approach leverages LCLMs' long-context capabilities for full observability, transforming open-ended tasks into direct, close-ended problems.
+- Variations include a Compressor (Ranks/selects files) for large environments and a SELECTSOLVE method combining LCLMs via a Selector (LCLM identifies files) with SCLMs (Superior problem-solving) for repair.
+
+
+---
+
+
+[Agent RL Scaling Law: Spontaneous Code Execution for Mathematical Problem Solving](http://arxiv.org/abs/2505.07773v1)
+
+- ZeroTIR: introduces a framework for training a base LLM agent to spontaneously use a code execution environment for mathematical problem solving via reinforcement learning, including an RL trainer, value network, replay buffer, interaction logic, and reward signal.
+- The framework utilizes outcome-based rewards and techniques like dynamic stop tokens and replay buffer filtering to enable the LLM agent to learn effective tool use strategies.
+- ZeroTIR demonstrates an Agent RL Scaling Law where training progression correlates with increased code usage frequency, response length, and task accuracy, outperforming non-tool baselines.
+
+
+---
+
+
+[Codifying Character Logic in Role-Playing](http://arxiv.org/abs/2505.07705v1)
+
+- Codified Profiles: introduces a framework that represents character logic as structured, executable functions, including Codified Profile (Executable logic), parse_by_scene function (Outputs triggered statements), check_condition function (Evaluates scene conditions), Role-playing LLM (Generates character response), Scene (Input context), Triggered Statements (Guide LLM response), Groundtruth Reference (Evaluation target), NLI Scoring (Compares response to reference), Profile Update (Revises codified logic), Randomness Components (Control behavioral variability), Textual Profile (Original character description), and Distilled Condition Checker (Efficient condition evaluation), enabling persistent, updatable, and controllable role-playing.
+- The approach compiles natural language character descriptions into executable code, offloading complex reasoning from the LLM to deterministic control logic.
+- Experiments demonstrate improved behavioral consistency, adaptability, and diversity compared to prompt-based methods, particularly benefiting smaller language models.
+
+
+---
+
+[ARE LLMS COMPLICATED ETHICAL DILEMMA ANALYZERS?](http://arxiv.org/abs/2505.08106v1)
+
+- Evaluation Framework: introduces, a novel evaluation framework, with Data Retrieval (Collects ethical dilemmas), Preprocessing (Structures data), Text Processing (Generates/formats responses), LLMs (Generate dilemma responses), Human (Provide baseline responses), Structured Output (Formatted responses), Human Evaluation (Collects human feedback), Benchmark Metrics (Quantitative evaluation methods), Metrics Weighting (Assigns metric importance), and Aggregated Score (Final performance score), where the framework assesses LLM performance on ethical dilemmas using structured responses and quantitative metrics.
+- The framework utilizes a dataset of ethical dilemmas with expert and non-expert responses, processed into a five-section structured format for component-wise evaluation.
+- Performance is measured using a composite metric combining lexical, n-gram, embedding, and semantic similarity scores, weighted based on inversion analysis and AHP.
+
+
+---
+
+[HYPERNYM MERCURY: Token Optimization through Semantic Field Constriction and Reconstruction from Hypernyms. A New Text Compression Method](http://arxiv.org/abs/2505.08058v1)
+
+- Hypernym Mercury: introduces a novel text compression method using Field Constriction, which involves Parsing and Structuring input text into a Dart intermediate representation, performing Detail Importance Evaluation, and applying Compression Optimization to the dart.
+- The Dart structure splits information into a core statement and attached details, allowing for controllable granularity during Recomposition back into text.
+- Multi-Model Verification ensures semantic fidelity of the compressed output by checking against independent models.
+
+
+---
+
+[FalseReject: A Resource for Improving Contextual Safety and Mitigating Over-Refusals in LLMs via Structured Reasoning](http://arxiv.org/abs/2505.08054v1)
+
+- Graph-informed adversarial multi-agent interaction framework: introduces a system to generate diverse, challenging over-refusal queries using interacting agents and LLM validation, including Generator, Discriminator, LLM Refusal Validation, and Orchestrator components.
+- The framework is guided by an Entity Graph extracted from safety-related datasets and uses Feedback between agents to refine generated prompts.
+- This iterative process produces Collected Over-refusal Queries that appear unsafe but are objectively benign, simulating scenarios where LLMs might over-refuse.
+
+
+---
+
+[Web-Bench: A LLM Code Benchmark Based on Web Standards and Frameworks](http://arxiv.org/abs/2505.07473v1)
+
+- Web-Bench (Evaluation System): introduces a benchmark and evaluation system for LLM code generation on web development tasks, including an Evaluator, Web-Agent, LLM, Web-Bench Dataset, Tasks, Projects, E2E Tests, and Generated Files.
+- The system evaluates LLMs on sequential coding tasks within projects, simulating real-world web development workflows based on Web Standards and Frameworks.
+- The Evaluator orchestrates the process, using the Web-Agent to interact with the LLM, and verifies the generated code against E2E tests.
+
+
+---
+
+
+[MLE-Dojo: Interactive Environments for Empowering LLM Agents in Machine Learning Engineering](http://arxiv.org/abs/2505.07782v1)
+
+- MLE-Dojo: introduces, an interactive Gym-style framework for training, evaluating, and benchmarking autonomous LLM agents in machine learning engineering workflows, with MLE-Agent (LLM-based assistant), Environment (Task-specific interactive space), Error (Encodes error types), Interface (Governs action execution), Feedback (Translates outcomes to guide), Metric (Defines evaluation metrics), Task Space (Collection of tasks), Docker container (Isolates task execution), Sandbox (Executes agent code safely), Observation Space (Environment state information), Dataset Information (Task data details), Evaluation Metric Scores (Performance metrics), Code Execution Results (Outcome of code runs), Error Messages (Debugging information), Interaction History (Record of interactions), Action Space (Agent's possible operations), request_info (Action to query task info), validate_code (Action for syntax/runtime check), execute_code (Action for full execution/submission), get_history (Action to retrieve past interactions), reset (Action to restart environment), Reward Space (Signal for performance), HumanRank Score (Relative performance metric), Agent Scaffolds (Agent implementations), MLE Agent (Minimalistic agent design), and AIDE (Iterative problem-solving agent), enabling systematic experimentation and rigorous evaluation on 200+ real-world Kaggle challenges.
+- The framework provides a fully executable environment supporting comprehensive agent training via supervised fine-tuning and reinforcement learning, facilitating iterative experimentation and real-time outcome verification through structured feedback loops.
+- MLE-Dojo features a modular and extensible architecture that decouples agent capabilities from the environment, promoting interoperability, scalability, and reproducibility, and is open-sourced to foster community-driven innovation.
+
+
+---
+
+
+[KAQG: A Knowledge-Graph-Enhanced RAG for Difficulty-Controlled Question Generation](http://arxiv.org/abs/2505.07618v1)
+
+- KAQG (Knowledge Augmented Question Generation): introduces a framework that fuses knowledge graphs, RAG retrieval, and educational assessment theory into a pipeline for difficulty-controlled question generation.
+- The framework includes a KAQG-Retriever for building a Knowledge Graph from educational materials and a KAQG-Generator for creating and evaluating questions based on the graph and assessment theory.
+- Implemented using an AI Agents Framework, the system operationalizes difficulty metrics and demonstrates strong performance in generating psychometrically sound exam items.
+
+
+---
+
+[Reinforced Internal-External Knowledge Synergistic Reasoning for Efficient Adaptive Search Agent](http://arxiv.org/abs/2505.07596v1)
+
+- IKEA: introduces Reinforced Internal-External Knowledge Synergistic REasoning Agent, with LLM Agent, Environment (Search Engine/Retriever/Text Corpus), Reward Model, Knowledge-boundary aware reward function, Knowledge-boundary aware training dataset, Reinforcement Learning (GRPO), and Special Tags components, which trains an efficient adaptive search agent to synergistically integrate internal and external knowledge.
+- The agent learns to identify its knowledge boundary, prioritizing internal knowledge and resorting to external search only when necessary, guided by a novel reward function and training data.
+- This approach aims to reduce redundant retrievals, mitigate knowledge conflicts, and improve inference efficiency compared to methods relying solely on internal or external knowledge.
+
+
+---
+
+[YuLan-OneSim: Towards the Next Generation of Social Simulator with Large Language Models](http://arxiv.org/abs/2505.07581v1)
+
+- YuLan-OneSim: introduces a novel social simulator, with Scenario Auto-Construction Subsystem (User input to code), Simulation Subsystem (Execute and manage simulation), Feedback-driven Evolving Subsystem (Improve LLMs via feedback), and AI Social Researcher Subsystem (Automate social science research), designed for code-free scenario construction, large-scale simulation, evolvability, and automating the social science research loop.
+- The simulator is built upon four core subsystems that handle scenario creation, simulation execution, model refinement, and autonomous research tasks.
+- YuLan-OneSim aims to advance LLM-based social simulation by enabling automatic scenario construction, autonomous evolution, and completing the full research cycle.
+
+
+---
+
+[Learning to Reason and Navigate: Parameter Efficient Action Planning with Large Language Models](http://arxiv.org/abs/2505.07500v1)
+
+- PEAP-LLM (Parameter Efficient Action Planner using Large Language Models): introduces a novel parameter-efficient action planner for embodied agents, consisting of an LLM goal planner (LGP) that extracts task goals and a LoRA action planner (LAP) that generates single-step instructions using a fine-tuned LLM.
+- The framework utilizes a Base LLM for goal planning and a Fine-tuned LLM for action planning, with fine-tuning performed via supervised fine-tuning (SFT) and direct preference optimization (DPO) using specific datasets.
+- PEAP-LLM integrates with a Policy Model that predicts the next action based on high-level instructions, generated single-step instructions, and visual observations processed by Object Retrieval and State Text Generator components.
+
+
+---
+
+[Can Generative AI agents behave like humans? Evidence from laboratory market experiments](http://arxiv.org/abs/2505.07457v1)
+
+- LLM Agent Simulation: introduces, "explore the potential of Large Language Models (LLMs) to replicate human behavior in economic market experiments", with LLM Agents (Simulate human participants), OpenAI API (Interface for LLMs), Model (GPT-3.5 or GPT-4), Temperature (Controls response randomness), Context Window (Total text model considers), Memory (Number of previous messages), Seed (Initializes random generator), Market Environment (Simulated economic market), Feedback Mechanism (Positive or negative price feedback), where "the framework simulates market dynamics by having LLM agents predict prices iteratively based on market information and their own history".
+- The simulation compares LLM agent behavior to human participants in positive and negative feedback markets, analyzing market dynamics and forecasting strategies.
+- Key parameters like memory and temperature significantly influence LLM agent behavior and their ability to replicate human-like market dynamics and bounded rationality.
+
+
+---
+
+[Private LoRA Fine-tuning of Open-Source LLMs with Homomorphic Encryption](http://arxiv.org/abs/2505.07329v1)
+
+- Private LoRA Fine-tuning: introduces an interactive client-server protocol for private fine-tuning of open-source LLMs, with Client (orchestrates training, non-linear operations), Server (linear operations under HE), Homomorphic Encryption (HE) (enables encrypted computation), LoRA Weights (U, D) (client-side adaptation parameters), and Base Model Weights (W) (server-side public parameters) components.
+- The client manages private data and LoRA weights while performing non-linear computations locally.
+- The server handles computationally intensive linear operations on public base model weights using homomorphic encryption on client-provided encrypted activations.
+
+
+---
+
+[Towards Multi-Agent Reasoning Systems for Collaborative Expertise Delegation: An Exploratory Design Study](http://arxiv.org/abs/2505.07313v1)
+
+- Multi-Agent Reasoning System: introduces a system with Agents (Individual LLMs), Expertise Specialization (Domain-specific roles), Collaboration Paradigm (Interaction mechanism), Communication Protocol (Information exchange), and System Scale (Number of agents) to investigate collaborative reasoning performance.
+- The study empirically evaluates how expertise-domain alignment, collaboration paradigm (structured workflow vs. diversity-driven), and system scale affect collective reasoning.
+- Findings indicate that expertise alignment is domain-contingent, diversity-driven collaboration outperforms structured workflows, and increasing agents generally boosts performance with diminishing returns.
+
+
+---
+
+[UAV-CodeAgents: Scalable UAV Mission Planning via Multi-Agent ReAct and Vision-Language Reasoning](http://arxiv.org/abs/2505.07236v1)
+
+- UAV-CodeAgents: introduces a scalable multi-agent framework for autonomous UAV mission generation, utilizing Airspace Management Agent (AMA), UAV Agent, LLM, VLM, ReAct, Pixel-Pointing Grounding Mechanism, smolagents framework, Message-passing interface, and Tools to interpret instructions and generate UAV trajectories.
+- The system leverages the ReAct paradigm for iterative reasoning and dynamic adaptation, enabling agents to reflect on observations and revise mission goals in evolving environments.
+- A key component is the vision-grounded pixel-pointing mechanism, which facilitates precise localization of semantic targets on aerial maps for spatial grounding and context-aware flight routes.
+
+
+---
+
+[DynamicRAG: Leveraging Outputs of Large Language Model as Feedback for Dynamic Reranking in Retrieval-Augmented Generation](http://arxiv.org/abs/2505.07233v1)
+
+- DynamicRAG: introduces a novel RAG framework, with Retriever (Retrieves documents), Dynamic Reranker (Dynamically adjusts documents), Generator (Generates final answer), Reward Function (Evaluates response quality), Reinforcement Learning (Optimizes reranker agent), Direct Preference Optimization (RL optimization method), and Behavioral Cloning (Initial reranker training), where the reranker dynamically adjusts document order and number using LLM feedback and RL.
+- The reranker is modeled as an RL agent trained via behavioral cloning and DPO, leveraging LLM output quality as reward signals.
+- This dynamic reranking approach enhances RAG system efficiency and effectiveness by optimizing the generator's input based on query context.
+
+
+---
+
+[Structural Entropy Guided Agent for Detecting and Repairing Knowledge Deficiencies in LLMS](http://arxiv.org/abs/2505.07184v1)
+
+- SENATOR (Structural Entropy-guided Knowledge Navigator): introduces a framework for detecting and repairing LLM knowledge deficiencies, with MCTS (Knowledge graph exploration), LLM (Model under evaluation), KG (External knowledge source), Structural Entropy (Exploration reward signal), Synthetic Data (Generated training samples), and SFT (Model fine-tuning) components.
+- The framework employs MCTS guided by structural entropy on a knowledge graph to efficiently explore and identify areas where the LLM exhibits high uncertainty or knowledge deficiencies.
+- Based on the identified high-uncertainty paths, SENATOR generates targeted synthetic data used for supervised fine-tuning to repair the LLM's knowledge deficiencies.
+
+
+---
+
+
+#### 11th May 2025
+
+[Exploring Anthropomorphism in Conversational Agents for Environmental Sustainability](http://arxiv.org/abs/2505.07142v1)
+
+- Washy: introduces a system integrating a Conversational Agent (User interface) powered by an LLM (Language model) using a Function Calling API (LLM tool interface) to interact with External API (Solar data source), a Smart Plug (Appliance controller), a Scheduler (Slot/notification management), and a Database (Data storage), supported by a Backend (Server logic), Client (User applications), and Notification System (Alert delivery), to help users schedule Washing Machine (Physical appliance) cycles based on solar energy availability.
+- The system compares a Personified Agent and a Traditional Assistant interface to evaluate the impact of anthropomorphism on user interaction and eco-friendly behavior adoption.
+- A lab study assessed the system's effectiveness in promoting sustainable home energy management and the influence of agent personality on user engagement and rapport.
+
+
+---
+
+[Architectural Precedents for General Agents using Large Language Models](http://arxiv.org/abs/2505.07087v1)
+
+- Cognitive Design Patterns: introduces recurring patterns of processes, representations, and memories found in cognitive architectures and Agentic LLM Systems, including Observe-decide-act, 3-stage memory commitment, Hierarchical decomposition, Short-term (context) memory, Ahistorical KR/memory, Historical KR/memory, Procedural KR/memory, Reconsideration, Knowledge compilation, and Step-wise reflection.
+- The paper analyzes how these cognitive design patterns are evident in existing Agentic LLM systems and identifies patterns apt for future exploration.
+- Examining these patterns helps predict gaps and deficiencies in current LLM systems and suggests future research directions towards general intelligence.
+
+
+---
+
+[Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?](http://arxiv.org/abs/2505.07078v1)
+
+- FINSABER (Financial Investing Strategy Assessment with Bias mitigation, Expanded time, and Range of symbols): introduces a comprehensive framework for benchmarking LLM timing-based investing strategies, with Multi-source Data Module (Integrates diverse financial data), Strategies Base Module (Covers selection and timing strategies), Bias-Mitigated Backtest Pipeline (Supports robust backtesting), Selection-based Strategy (Identifies asset subset), Timing-based Strategy (Dictates buy/sell/hold decisions), Traditional Rule-based (Uses technical indicators/rules), Predictor-based (Relies on data-driven models), RL-based (Learns optimal investing policies), LLM-based (Leverages large language models), Rolling Window Test (Evaluates across multiple periods), and Evaluation Metrics (Measures strategy performance).
+- The framework integrates 20 years of multi-source data, expands symbol coverage, and explicitly mitigates survivorship, look-ahead, and data-snooping biases.
+- FINSABER supports robust and reproducible benchmarking across diverse experimental setups to provide empirical guidance for LLM-based investment research.
+
+
+---
+
+[DialogueReason: Rule-Based RL Sparks Dialogue Reasoning in LLMS](http://arxiv.org/abs/2505.07049v1)
+
+- DialogueReason: introduces a dialogue-based reasoning pattern, with System Prompt (input instruction), Adaptive Thinking Pattern Config (configuration), Thinking Process (iterative simulation), and Final Answer (output).
+- The Adaptive Thinking Pattern Config includes Agent Config (agent roles), Environment Config (setting), and Interaction Config (communication rules).
+- The Thinking Process involves iterative Agent-Agent Interaction (dialogue) and Agent-Environment Interaction (task progression).
+
+
+---
+
+[Seed1.5-VL Technical Report](http://arxiv.org/abs/2505.07062v1)
+
+- Seed1.5-VL: introduces a vision-language foundation model composed of Seed-ViT (Vision encoder (encode images/videos)), MLP Adapter (Project visual features), and Large Language Model (LLM) (Process multimodal inputs (MoE)).
+- The Seed-ViT vision encoder handles dynamic image resolutions, while the LLM is a 20B active parameter Mixture-of-Experts model.
+- The model is designed for general-purpose multimodal understanding and reasoning across diverse tasks.
+
+
+---
+
+[The Wisdom of Agent Crowds: A Human-AI Interaction Innovation Ignition Framework](http://arxiv.org/abs/2505.06947v1)
+
+- Brainwrite: introduces a human-AI interaction framework for multi-agent brainstorming, incorporating Human (User), LLM (Large Language Model), Cothinker (Interactive module), Internet (External information source), Knowledge Base (Internal information source), and Mindmap (Structured text summary) components.
+- The framework utilizes LLMs and a Cothinker module to assist human users in topic definition, deep exploration, and output generation, drawing information from the Internet and a Knowledge Base.
+- The system aims to reduce user cognitive load through structured text summaries like Mindmaps and enhance viewpoint diversity in complex financial analysis tasks.
+
+
+--- 
+
+[EcoLANG: Efficient and Effective Agent Communication Language Induction for Social Simulation](http://arxiv.org/abs/2505.06904v1)
+
+- EcoLANG: introduces a two-stage paradigm, with Language Evolution (create efficient language) and Language Utilization (agents use evolved language), to induce efficient and effective agent communication language for large-scale social simulations.
+- The Language Evolution stage comprises Vocab Compression (reduce vocabulary size) via Semantic Clustering (group words by meaning), Intra-Cluster Selection (filter words within groups), and Tokenization (map words to tokens), alongside Rule Evolution (evolve communication rules) through Initialization (start with initial rules), Communication (simulate agent dialogues), Selection (evaluate and select rules), Crossover & Mutation (generate new rules), and Update and Iteration (refine rule population).
+- The Language Utilization stage applies the evolved language by modifying LLM decoding and incorporating rules into prompts, enabling agents to communicate more efficiently in social simulations.
+
+
+---
+
+[Towards Human-Centric Autonomous Driving: A Fast-Slow Architecture Integrating Large Language Model Guidance with Reinforcement Learning](http://arxiv.org/abs/2505.06875v1)
+
+- Fast-Slow Architecture: introduces a human-centric decision-making framework integrating an LLM-Based Slow System and an RL-Based Fast System, designed to interpret high-level user instructions and execute real-time control.
+- The LLM-Based Slow System processes user commands and scene context using components like Human-Language Parsing and CoT Analytic Reasoning, referencing a Memory Bank to generate structured Human-Centric Instruction.
+- The RL-Based Fast System, utilizing Instruction and Scenario Encoders and a Multi-Head Attention-based Actor-Critic network, executes actions validated by a Safety Mask via a PID Controller, balancing user preference and safety.
+
+
+---
+
+[ThreatLens: LLM-guided Threat Modeling and Test Plan Generation for Hardware Security Verification](http://arxiv.org/abs/2505.06821v1)
+
+- ThreatLens: introduces, with Threat Identification Agent (identifies physical/supply threats), Security Policy Generator Agent (extracts security policies), Test Plan Generator Agent (generates test plans), LLM (performs reasoning/generation), RAG (retrieves relevant knowledge), System-User Conversation (interacts with engineer), Security Knowledge Dataset (stores threat models), and Design Spec. & ISA document (input design information), a multi-agent framework automating hardware security threat modeling and test plan generation.
+- The framework leverages LLMs for reasoning and generation, RAG for efficient knowledge retrieval from datasets and documents, and interactive conversation with verification engineers.
+- ThreatLens aims to reduce manual effort, enhance coverage, and provide a structured approach for hardware security verification by automating threat identification and test plan formulation.
+
+
+---
+
+[Control Plane as a Tool: A Scalable Design Pattern for Agentic AI Systems](http://arxiv.org/abs/2505.06817v1)
+
+- Control Plane as a Tool: introduces a design pattern for Agentic AI systems that modularizes tool orchestration using a Request Router, Registration Module, Invocation Module, Input Validator, Intent Resolver, Intent Validator, Routing Handler, Feedback Integrator, Output Validator, Failure Handler, Usage tracker, Agent Registry, Tool Registry, validation rules, Metrics Registry, and Log/DB.
+- This pattern decouples tool management from agent logic, enabling dynamic tool selection, governance, and extensibility across multiple agents.
+- The architecture provides a single tool interface to agents while encapsulating complex routing and validation logic internally.
+
+
+---
+
+#### 10th May 2025
+
+[VTutor: An Animated Pedagogical Agent SDK that Provide Real Time Multi-Model Feedback](http://arxiv.org/abs/2505.06676v1)
+
+- VTutor: introduces an animated pedagogical agent SDK, with Large Language Model Integration (AI-generated text responses), Text-to-Speech (text to audio conversion), LipSync Module (audio to avatar mouth movements), and WebGL-Based Rendering (Unity environment web embedding), designed for real-time multi-model feedback in education.
+- The SDK leverages lightweight WebGL, Unity, and JavaScript frameworks to convert LLM text outputs into audio and then render a real-time, lip-synced pedagogical agent.
+- VTutor provides on-demand, personalized feedback using anime-like aesthetics to avoid the uncanny valley effect and enhance engagement.
+
+
+---
+
+
 #### 9th May 2025
+
+
+
+[Reliable Collaborative Conversational Agent System based on LLMs and Answer Set Programming](http://arxiv.org/abs/2505.06438v1)
+
+- AutoManager: introduces a dual-agent system with Administrator Bot (Manages knowledge base) and Assistant Bot (Interacts with customers) that share a Knowledge Base (Shared facts and menu), Temporary Information (Shared session data), and Collaborative Rule Set (Shared collaboration rules), utilizing Knowledge Extraction (Natural language to predicates), Commonsense Reasoning (Predicate reasoning with ASP), and Response Generation (Predicates to natural language) for reliable collaborative task-oriented dialogue.
+- The system leverages Large Language Models for natural language processing and Answer Set Programming for robust logical reasoning and consistency checking within each agent.
+- This architecture enables reliable collaboration between agents by sharing knowledge and rules, demonstrated in a fast-food restaurant management scenario.
+
+
+---
+[SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS](http://arxiv.org/abs/2505.06416v1)
+
+- ScaleMCP: introduces a novel tool selection approach, with Agent, MCP Retrieval Tool, Automatic Indexing Pipeline, MCP Storage Index, and MCP Servers, enabling LLM agents to dynamically discover and equip Model Context Protocol (MCP) servers as tools.
+- The framework features an auto-synchronizing tool storage system pipeline that uses CRUD operations with MCP servers as the single source of truth to maintain the MCP storage index.
+- LLM agents are equipped with an MCP retrieval tool, allowing them to autonomously query the storage index and invoke relevant MCP servers during multi-turn interactions.
+
+
+---
+
+[A New DAPO Algorithm for Stock Trading](http://arxiv.org/abs/2505.06408v1)
+
+- Improved DAPO Algorithm: introduces a novel trading agent integrating GRPO, Decoupled Clipping, Dynamic Sampling, and Sentiment-Risk Adjusted Rewards for financial trading.
+- The approach adapts DAPO principles to a GRPO framework, incorporating LLM-based risk and sentiment signals into an adjustable reward function.
+- This method demonstrates improved performance and significantly reduced computational requirements compared to a CPPO-DeepSeek baseline on the NASDAQ-100 index.
+
+
+---
+
+[LATENT: LLM-Augmented Trojan Insertion and Evaluation Framework for Analog Netlist Topologies](http://arxiv.org/abs/2505.06364v1)
+
+- LATENT (LLM-Augmented Trojan Insertion and Evaluation Framework for Analog Netlist Topologies): introduces a framework for generating stealthy analog Trojans, utilizing an LLM Agent (autonomous agent) to modify a Circuit Netlist (analog circuit design), validated by a Syntax Checker (validates Trojan syntax), simulated by HSPICE (circuit simulator), evaluated by SPICED (LLM-based detection tool), and refined via Feedback-driven learning (iterative strategy refinement).
+- The framework employs a Thought-Action-Observation loop where the LLM agent iteratively selects and inserts Trojan components based on detection feedback to evade detection.
+- By integrating simulation and detection tools into the iterative process, the framework generates diverse, circuit-specific analog Trojans with low activation ranges and significant performance degradation upon activation.
+
+
+---
+
+[Remote Rowhammer Attack using Adversarial Observations on Federated Learning Clients](http://arxiv.org/abs/2505.06335v1)
+
+- PPO-TS (PPO-based adversarial attack framework): introduces a novel threat vector that leverages a PPO Attack Agent to generate Adversarial Waveforms interfering with Client Sensors, resulting in Clustered Updates that induce Rowhammer bit-flips on Server DRAM.
+- The framework utilizes reinforcement learning to manipulate client sensor observations, maximizing server repetitive memory updates necessary for Rowhammer exploitation.
+- This approach enables remote Rowhammer attacks on federated learning servers without requiring direct access or system-level privileges.
+
+
+---
+
 
 [Multi-Agent Systems for Robotic Autonomy with LLMS](http://arxiv.org/abs/2505.05762v1)
 
@@ -96,6 +503,15 @@ Chronological order.
 
 
 #### 8th May 2025
+
+[Scalable Chain of Thoughts via Elastic Reasoning](https://arxiv.org/abs/2505.05315)
+
+- Elastic Reasoning: introduces a framework for scalable chain of thoughts, explicitly separating reasoning into thinking and solution phases with independently allocated budgets.
+- The framework employs a budget-constrained rollout strategy during training to teach the model adaptive reasoning under truncated conditions.
+- At inference, separate budgeting prioritizes the completeness of the solution segment, improving reliability under strict resource constraints.
+
+
+---
 
 
 [MULTI-AGENT EMBODIED AI: ADVANCES AND FUTURE DIRECTIONS](http://arxiv.org/abs/2505.05108v1)
@@ -186,6 +602,15 @@ Chronological order.
 - G-E-RG (Generation, Evaluation, and Regeneration): introduces a multi-agent framework for feedback generation, including External Database (slides), Question, Student response, Agent 1 (Generation), Feedback in the first round, Agent 2 (Evaluation), Evaluation results, Agent 3 (Re-Generation), and Feedback in the second round, which generates initial feedback, evaluates it, and then regenerates improved feedback.
 - The framework utilizes three distinct GPT-4o agents for the sequential tasks of initial generation, evaluation based on a rubric, and final regeneration informed by evaluation results.
 - The iterative G-E-RG process significantly improves feedback quality across multiple dimensions compared to single-round generation methods.
+
+
+---
+
+[Reasoning Models Don't Always Say What They Think](https://arxiv.org/abs/2505.05410)
+
+- CoT Faithfulness Evaluation and RL Training Framework: introduces an evaluation of large language models, including Claude 3.5 Sonnet (New), Claude 3.7 Sonnet, DeepSeek V3, and DeepSeek R1, assessing the faithfulness of their Chain-of-Thought reasoning when responding to Input Prompts and Prompt Pairs, and studies the impact of Outcome-Based Reinforcement Learning in synthetic RL Environments with Reward Hacks defined by a Reward Function.
+- The evaluation measures how often models verbalize hints used in their reasoning process, finding that CoTs often lack faithfulness, particularly on misaligned hints and harder tasks.
+- Outcome-based RL initially improves CoT faithfulness but plateaus, and models exploiting Reward Hacks in RL Environments rarely verbalize the hack in their CoTs.
 
 
 ---
