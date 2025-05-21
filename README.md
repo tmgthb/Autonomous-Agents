@@ -43,6 +43,138 @@ Chronological order.
 
 </div>
 
+#### 20th May 2025
+
+[ContextAgent: Context-Aware Proactive LLM Agents with Open-World Sensory Perceptions](http://arxiv.org/abs/2505.14668v1)
+
+- ContextAgent: introduces a context-aware proactive LLM agent framework with Sensory Context Extraction (Extracts context from perceptions), Persona Context Extraction (Extracts context from historical data), Context-aware Reasoner (Integrates contexts, reasons, predicts), LLM (Core reasoning engine), Thought Traces (Generated reasoning steps), Proactive Predictions (Predicts need for service), External Tool Calling (Calls external tools), and Services (Provides assistance).
+- The framework leverages extensive sensory perceptions from wearables and persona contexts to understand user intentions and predict the need for proactive assistance.
+- ContextAgent utilizes tool-augmented LLM reasoning and introduces ContextAgentBench, a benchmark for evaluating such agents.
+
+
+---
+
+[Log-Augmented Generation: Scaling Test-Time Reasoning with Reusable Computation](http://arxiv.org/abs/2505.14398v1)
+
+- LAG (log-augmented generation): introduces a framework that directly reuses prior computation and reasoning from past logs at test time, utilizing a Log Store, Log Encoder, Log Retriever, and augmented Generator LM.
+- The framework represents task logs using key-value (KV) caches, encoding the full reasoning context of prior tasks while storing KV caches for a subset of tokens.
+- This approach directly reuses prior reasoning and computations without additional steps for knowledge extraction, enhancing performance and efficiency.
+
+
+---
+
+[Empowering LLMs in Task-Oriented Dialogues: A Domain-Independent Multi-Agent Framework and Fine-Tuning Strategy](http://arxiv.org/abs/2505.14299v1)
+
+- DIMF (Domain-Independent Multi-Agent Framework): introduces a task-oriented dialogue system with Intent Classification Agent (extracts user intent), Slot Filling Agent (extracts dialogue slots), and Response Agent (generates system response), trained using SFT (initial model fine-tuning), DPO (preference-based training), and DDA (mitigates DPO degradation).
+- The framework separates complex tasks into domain-independent components to improve performance on lightweight large language models.
+- The proposed Data Distribution Adaptation method enhances DPO training stability and the framework demonstrates strong generalizability and zero-shot capabilities.
+
+
+---
+
+[Safety Devolution in AI Agents](http://arxiv.org/abs/2505.14215v1)
+
+- Core Evaluation Framework: introduces, "a framework to measure the impact of retrieval and alignment mechanisms on model bias and harmfulness", with Censored LLM, Uncensored LLM, Agents with Censored LLM, Generate Query, Search, ReRank, Crawl, Answer, WikiAgent, WebAgent, System-Level Safety Prompts, and Evaluator components, where "the framework systematically compares LLMs with and without retrieval augmentation and safety mitigations across various benchmarks".
+- The framework reveals that integrating external retrieval into safety-aligned LLMs leads to a phenomenon termed safety devolution, characterized by reduced refusal rates, increased bias, and degraded safety scores.
+- Controlled experiments within the framework indicate that this safety degradation is primarily caused by the mere presence of retrieved context, rather than retrieval depth or accuracy, highlighting a structural vulnerability in RAG systems.
+
+
+---
+
+[DSMENTOR: ENHANCING DATA SCIENCE AGENTS WITH CURRICULUM LEARNING AND ONLINE KNOWLEDGE ACCUMULATION](http://arxiv.org/abs/2505.14163v1)
+
+- DSMentor: introduces a framework with a Mentor agent (curriculum designer) that processes a Dataset (input tasks) to create a Curriculum-based dataset (ordered tasks), which is then used by a Student agent (code generator) interacting with a Long-term memory (accumulated knowledge) and an Environment (evaluates code) for problem-solving.
+- The framework operates in two stages: curriculum generation and problem-solving, leveraging curriculum learning and online knowledge accumulation.
+- The Mentor agent determines task difficulty to sequence problems from easy to hard, guiding the Student agent's learning progression.
+
+
+---
+
+[MM-Agent: LLM as Agents for Real-world Mathematical Modeling Problem](http://arxiv.org/abs/2505.14148v1)
+
+- MM-Agent: introduces an expert-inspired framework that decomposes mathematical modeling into four sequential phases: Problem Analysis, Mathematical Modeling, Computational Solving, and Solution Reporting.
+- The framework utilizes specialized agents like the Analyst Agent, Task Coordinator Agent, Modeling Actor, Modeling Critic, Modeling Programmer Agent, and Reporting Agent to handle distinct tasks within each phase.
+- Key components such as the Hierarchical Mathematical Modeling Library (HMML) and MLE-Solver support knowledge retrieval, model formulation, and computational execution for real-world problems.
+
+
+---
+
+[s3: You Don't Need That Much Data to Train a Search Agent via RL](http://arxiv.org/abs/2505.14146v1)
+
+- s3: introduces a modular, RL-based search framework with a Searcher LLM (RL-trained agent), Search Engine (retrieval source), frozen Generator LLM (frozen answer generator), and Gain Beyond RAG (reward signal), which trains a search-only agent using a novel reward signal to optimize retrieval for generation quality.
+- The framework decouples the searcher from the generator, allowing the searcher to be trained with reinforcement learning based on the improvement in generator accuracy using retrieved documents compared to naive retrieval.
+- By focusing training solely on the searcher using a generation-aware reward, s3 achieves strong performance with significantly less training data and is compatible with black-box generator LLMs.
+
+
+---
+
+[Building a Stable Planner: An Extended Finite State Machine Based Planning Module for Mobile GUI Agent](http://arxiv.org/abs/2505.14141v1)
+
+- SPlanner: introduces a framework for mobile GUI agents that includes Application Modeling via EFSM (models applications), Structured Knowledge Base (collection of EFSMs), Plan Generation (creates execution plan), Instruction Parsing (parses user instruction), EFSM Solving (finds execution path), Path Polishing (refines execution path), Task Execution with VLM (executes the plan), Vision-Language Model (VLM) (executes GUI actions), LLM (parses/polishes text), BFS-based Solver (finds path in EFSM), User Instruction (input command), GUI Screenshot (current screen state), Action History (previous actions), Task Plan (step-by-step guide), and Operation Instruction (GUI action).
+- The framework models mobile applications using Extended Finite State Machines (EFSMs) to create a structured knowledge base for planning.
+- SPlanner generates interpretable and reliable execution plans by parsing user instructions, solving EFSMs, and polishing the resulting paths using LLMs, which are then executed by a VLM.
+
+
+---
+
+[BAR: A Backward Reasoning based Agent for Complex Minecraft Tasks](http://arxiv.org/abs/2505.14079v1)
+
+- BAR (Backward Reasoning based Agent): introduces an agent for complex Minecraft tasks with recursive goal decomposition (Recursive goal decomposition), state consistency maintaining (State conflict resolution), and stage memory (Memory from environment interaction) modules.
+- The agent utilizes backward reasoning to plan from the terminal state, aiming to overcome the perception gap faced by forward reasoning in complex tasks.
+- State consistency is ensured by integrating forward and backward reasoning, and planning efficiency is enhanced by leveraging successful past interactions stored in stage memory.
+
+
+---
+
+[Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning](http://arxiv.org/abs/2505.14069v1)
+
+- ReasonRAG: introduces, "Process vs. Outcome Reward: Which is Better for Agentic RAG Reinforcement Learning", with all LLM (Core reasoning model), Retriever (External knowledge access), Reasoning Stage (Decide query or answer), Grounding Stage (Extract evidence), Terminal Stage (Final answer state), Query Generation (Formulate search query), Evidence Extraction (Identify relevant text), Answer Generation (Produce final response), Memory (Stores previous steps)-components, where ReasonRAG is a process-supervised agentic RAG method using fine-grained rewards for policy optimization.
+- The framework employs Monte Carlo Tree Search and Shortest Path Reward Estimation to generate a high-quality process-level dataset, RAG-ProGuide, for training.
+- ReasonRAG enables LLMs to autonomously manage dynamic retrieval, iterative context refinement, and adaptive workflows for complex search queries.
+
+
+---
+
+[Divide by Question, Conquer by Agent: SPLIT-RAG with Question-Driven Graph Partitioning](http://arxiv.org/abs/2505.13994v1)
+
+- SPLIT-RAG (Semantic Partitioning of Linked Information for Type-Specialized Multi-Agent RAG): introduces a multi-agent RAG framework with Knowledge Base Preprocessing (Prepare data), QA Input Processing (Analyze query), Retrieval Plan Decision (Determine subgraphs/agents), Multi-Agent RAG (Distributed retrieval), Answer Generation (Combine, resolve, finalize), Lightweight LLM Agents (Query subgraphs), and Head Agent (Final answer generation), which partitions knowledge graphs based on question types and uses multiple agents for efficient, conflict-resistant retrieval and answer generation.
+- The framework employs question-driven graph partitioning to create semantically coherent subgraphs, enabling lightweight agents to query only relevant partitions in parallel.
+- A hierarchical merging module resolves inconsistencies across subgraph-derived answers through logical verifications, with a head agent synthesizing the final response.
+
+
+---
+
+[MLZero: A Multi-Agent System for End-to-end Machine Learning Automation](http://arxiv.org/abs/2505.13941v1)
+
+- MLZero: introduces a multi-agent system for end-to-end machine learning automation, featuring Perception, Semantic Memory, Episodic Memory, and Iterative Coding modules, coordinated by specialized agents including File Grouping and File Perception, Task Perception, ML Library Selection, Condensation, Summarization, Retrieval, Error Analyzer, Coder, and Executer agents.
+- The system processes raw multimodal data through perception, leverages dual memory modules for knowledge and history, and employs iterative coding with agents for code generation, execution, and debugging.
+- MLZero achieves end-to-end ML automation with minimal human intervention by transforming raw data into ready-to-use models and predictions through this integrated multi-agent architecture.
+
+
+---
+
+[DRUGPILOT: LLM-BASED PARAMETERIZED REASONING AGENT FOR DRUG DISCOVERY](http://arxiv.org/abs/2505.13940v1)
+
+- DrugPilot (LLM-based parameterized reasoning agent): introduces an agent system for automating multi-stage drug discovery workflows, comprising LLM Backbones (Core language model), Parameterized Memory Pool (PMP) (Structured key-value data storage), AI Model Zoo (Drug discovery tools/models), and Fe-Fo Mechanism (Error feedback and focus).
+- The Parameterized Memory Pool (PMP) is a core component designed to handle large-scale, multi-modal drug data by converting it into standardized parametric representations for efficient retrieval and interaction.
+- The Fe-Fo Mechanism enhances the agent's robustness by providing specific error feedback and maintaining focus during complex multi-turn tasks and tool interactions.
+
+
+---
+
+[CLEVER: A Curated Benchmark for Formally Verified Code Generation](http://arxiv.org/abs/2505.13938v1)
+
+- CLEVER (Curated Lean Verified Code Generation Benchmark): introduces a benchmark for formally verified code generation, requiring models to perform specification generation, isomorphism proving, Lean implementation generation, and correctness proving to achieve end-to-end verification.
+- The benchmark evaluates models in two stages: specification certification (generating and proving equivalence of a Lean specification) and implementation certification (generating and proving correctness of a Lean implementation).
+- Success in CLEVER requires both the generated specification and implementation to be formally certified via Lean proofs, ensuring semantic correctness beyond test cases.
+
+
+---
+
+
+
+
+
 #### 14th May 2025
 
 [AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://storage.googleapis.com/deepmind-media/DeepMind.com/Blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/AlphaEvolve.pdf)
