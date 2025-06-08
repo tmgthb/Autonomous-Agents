@@ -43,7 +43,197 @@ Chronological order.
 
 </div>
 
+
+#### 5th June 2025
+
+[LLM Agents for Asynchronous Group Communication in Mafia Games](http://arxiv.org/abs/2506.05309v1)
+
+- LLM Agent: introduces an adaptive asynchronous agent for group communication, featuring a Scheduler (decides when to speak) and Generator (composes message content) modules, using Context (game state and chat history) and guided by dynamic Scheduling Prompt (guides timing decision) and Generation Prompt (guides message content), incorporating Simulated Typing Time (adds human-like delay).
+- The agent is evaluated in Mafia games alongside human players, demonstrating performance comparable to human players in timing and win rates.
+- The asynchronous design allows the agent to decide both what to say and when to say it, better mimicking real-world group interactions.
+
+
+---
+
+[ProRefine: Inference-time Prompt Refinement with Textual Feedback](http://arxiv.org/abs/2506.05305v1)
+
+- ProRefine: introduces an inference-time prompt optimization method using textual feedback from LLMs, including LLMtask (Executes task), LLMfeedback (Critiques output), and LLMoptimizer (Refines prompt) components.
+- The LLMtask executes the task, LLMfeedback critiques its output, and LLMoptimizer refines the prompt based on the feedback in an iterative loop.
+- This process dynamically refines prompts for multi-step reasoning tasks without requiring additional training or ground truth labels.
+
+
+---
+
+[Teaming in the AI Era: AI-Augmented Frameworks for Forming, Simulating, and Optimizing Human Teams](http://arxiv.org/abs/2506.05265v1)
+
+- Frameworks: introduces AI-augmented frameworks for forming, simulating, and optimizing human teams, including a Team Formation Framework using a UCB Algorithm and user feedback, tAlfa (Team AI Feedback Assistant) with an LLM-powered agent and processing stages for feedback generation and delivery based on communication metrics, and PuppeteerLLM, an LLM-based simulation framework with LLM agents, physical environments, temporal dynamics, and simulation stages.
+- The Team Formation Framework iteratively refines team recommendations using a multi-armed bandit approach guided by user preferences.
+- tAlfa provides immediate, personalized AI-generated feedback on team dynamics by processing messages and evaluating communication metrics.
+
+
+---
+
+[LLM-Guided Scenario-based GUI Testing](http://arxiv.org/abs/2506.05079v1)
+
+- SCENGEN (LLM-guided scenario-based GUI testing approach): introduces a novel approach for scenario-based GUI testing leveraging multi-modal LLMs and a multi-agent framework, including Context Memory, Observer, Decider, Executor, Supervisor, and Recorder components.
+- The framework simulates manual testing by iteratively observing GUI state, making decisions, executing actions, verifying results, and recording information.
+- Multi-agent collaboration and LLM guidance enable understanding app semantics and generating scenario-based GUI tests effectively.
+
+
+---
+
+[Hierarchical Language Models for Semantic Navigation and Manipulation in an Aerial-Ground Robotic System](http://arxiv.org/abs/2506.05020v1)
+
+- hierarchical MA-LLM framework (Multi-Agent Language Model): introduces a system for aerial-ground robots, integrating a Reasoning Layer (LLM) for task decomposition and mapping, a Perceptual Layer (VLM) for semantic extraction, and an Execution Layer for motion control.
+- The framework utilizes an Aerial Robot as a leader for global guidance and a Ground Robot as a follower for local navigation and manipulation.
+- GridMask enhances the VLM's spatial perception, supporting robust semantic navigation and manipulation in dynamic environments.
+
+
+---
+
+[QiMeng: Fully Automated Hardware and Software Design for Processor Chip](http://arxiv.org/abs/2506.05007v1)
+
+- QiMeng: introduces a novel system for fully automated hardware and software design for processor chips, with a Large Processor Chip Model (LPCM) as a domain-specialized LLM, Hardware Design Agent for automated hardware design, Software Design Agent for automated software design, and Top-layer Applications for various design tasks.
+- The system is structured in three hierarchical layers, leveraging AI and LLMs to address challenges in processor chip design.
+- QiMeng aims to automate the entire design and verification pipeline, enabling rapid customization and improved efficiency.
+
+
+---
+
+
+[Agentic AI for Intent-Based Industrial Automation](http://arxiv.org/abs/2506.04980v1)
+
+- Intent-Based Agentic AI Framework: introduces a conceptual framework for intent-driven industrial automation using LLM-based agents, featuring a Root Agent, Specialized Sub-Agents, LLM, SLM, Memory, Tools Set, Industrial Data, Machines, and Business and Operational Intents.
+- The framework translates high-level natural language business or operational intents into structured components, enabling autonomous planning and execution via agent orchestration and specialized tools.
+- This approach simplifies human-machine interaction by abstracting technical complexity and aligns with Industry 5.0's human-centric vision.
+
+
+---
+
+[LLMS FOR SENSORY-MOTOR CONTROL: COMBINING IN-CONTEXT AND ITERATIVE LEARNING](http://arxiv.org/abs/2506.04867v1)
+
+- LLM-based Sensory-Motor Control Framework: introduces a method where an LLM (Large Language Model) generates a control strategy, encodes it into IF-THEN rules and Python Code, and evaluates it in an Environment/Task.
+- The framework iteratively refines the Strategy (Text/Rules) by prompting the LLM with Performance/Sensory-Motor Data and Past Experiences/External Memory.
+- This approach enables autonomous learning for embodied agents by directly mapping observations to actions without relying on predefined motor primitives or human demonstrations.
+
+
+---
+
+[Empowering Economic Simulation for Massively Multiplayer Online Games through Generative Agent-Based Modeling](http://arxiv.org/abs/2506.04699v1)
+
+- MMOAgent (Generative Agent-Based Modeling): introduces an LLM-empowered framework for MMO economic simulation, featuring profile (tailors agent to player traits), perception (interprets game environment observations), reasoning (determines appropriate structured actions), memory (logs game experience, past trajectories), and action (executes permissible game actions) modules.
+- The framework utilizes LLMs' capabilities for human-like decision-making and adaptability, addressing reliability, sociability, and interpretability challenges in traditional agent-based modeling.
+- The simulation environment is enhanced with player-to-player trading and linguistic negotiation, enabling realistic economic interactions and emergent phenomena like role specialization and market price dynamics.
+
+
+---
+
+[Gen-n-Val: Agentic Image Data Generation and Validation](http://arxiv.org/abs/2506.04676v1)
+
+- Gen-n-Val: introduces a novel agentic framework for generating and validating synthetic image data, leveraging a LD Prompt Agent (LLM) (Generates optimized prompts), Data Validation Agent (VLLM) (Filters generated images), Layer Diffusion (LD) (Generates transparent images/masks), TextGrad (Optimizes agent prompts), and Image Harmonization (Blends instances onto backgrounds).
+- The framework uses agents and generative models to produce high-quality synthetic data with precise instance masks and diverse backgrounds for computer vision tasks.
+- Gen-n-Val significantly improves performance on instance segmentation and object detection benchmarks, particularly for rare classes and open-vocabulary detection.
+
+
+---
+
+[E-bike agents: Large Language Model-Driven E-Bike Accident Analysis and Severity Prediction](http://arxiv.org/abs/2506.04654v1)
+
+- E-bike agents: introduces a framework using LLM-powered agents to analyze unstructured e-bike accident reports, including a Data Classifier, Information Extractor, Injury Causes Determiner, and Incident-Component Link Detector.
+- The framework processes extracted data using an Ordered Logit Model to analyze severity relationships and employs Visualization to present findings.
+- This approach provides a scalable solution for e-bike safety analytics by converting narrative reports into structured, actionable insights.
+
+
+---
+
+[Agents of Change: Self-Evolving LLM Agents for Strategic Planning](http://arxiv.org/abs/2506.04651v1)
+
+- LLM Self-Evolving Agent Framework: introduces self-evolving LLM agents for strategic planning in Settlers of Catan, including BaseAgent (Input, Interface, Decision maker, Output), StructuredAgent (Input, Input structuring, Interface, Decision maker, Output), PromptEvolver (Coordinator, Game player, Intelligence, Intelligence, External access, Memory, Instruction, Feedback, Feedback processing, Game outcome, Interface), and AgentEvolver (Coordinator, Evaluator, Information gatherer, Code modifier, Advisor, Game player, Intelligence, Intelligence, Intelligence, Intelligence, Intelligence, Intelligence, External access, Reasoning, Instruction processing, Input, Game outcome, Interface).
+- The framework benchmarks four agent architectures with increasing self-improvement capabilities against a strong heuristic baseline in the Catanatron simulator.
+- Self-evolving agents, particularly PromptEvolver and AgentEvolver, demonstrate improved strategic planning and performance over static baselines through iterative prompt and code refinement.
+
+
+---
+
+
+[FLEX-TRAVELPLANNER: A BENCHMARK FOR FLEXIBLE PLANNING WITH LANGUAGE AGENTS](http://arxiv.org/abs/2506.04649v1)
+
+- Flex-TravelPlanner: introduces a benchmark for evaluating language agents in dynamic, multi-turn planning scenarios, using a pipeline with Initial Constraint (Start planning with constraints), Adding Constraint (Introduce new constraints), Revising Constraint (Modify existing constraints), and Fin (End of planning process) steps.
+- The framework evaluates how well agents adapt plans as new requirements or changes are introduced over multiple interactions.
+- It specifically addresses the challenges of constraint addition and revision, mirroring real-world planning dynamics.
+
+
+---
+
+[Advancing Tool-Augmented Large Language Models via Meta-Verification and Reflection Learning](http://arxiv.org/abs/2506.04625v1)
+
+- Tool-MVR: introduces a novel Tool-Augmented LLM framework that enhances System 2 reasoning capabilities by employing MAMV (Data verification pipeline) for high-quality data generation (ToolBench-V, Verified instruction dataset) and EXPLORE (Reflection learning algorithm) for learning from errors (ToolBench-R, Reflection dataset), utilizing a Base LLM (Base model) interacting with APIs (External tools) based on User Query (Input), generating Reasoning Trajectory (Step-by-step process) and Final Answer (Output) informed by Observation (Tool feedback).
+- The MAMV pipeline consists of APIOptAgent (API verification/optimization agent), QueryVerifyAgent (Query assessment/filtering agent), and APICallAgent (Trajectory generation/verification agent) to ensure data quality for tool planning and invocation.
+- EXPLORE enables the model to learn adaptive tool reflection by leveraging tool feedback through an Error → Reflection → Correction paradigm.
+
+
+---
+
+[SmartAvatar: Text- and Image-Guided Human Avatar Generation with VLM AI Agents](http://arxiv.org/abs/2506.04606v1)
+
+- SmartAvatar: introduces a vision-language-agent-driven framework for generating 3D human avatars, utilizing a Descriptor (Extracts attributes), Generator (Synthesizes code), Evaluator (Checks alignment), Refiner (Adjusts code), Human Generator (Parametric avatar model), and Blender (Rendering environment).
+- The system incorporates a VLM-guided auto-verification loop that iteratively refines generated avatars to match user input across visual and semantic criteria.
+- SmartAvatar supports diverse inputs including text, image, and multimodal combinations, enabling conversational editing for customizable, animation-ready avatars.
+
+
+---
+
+[Demonstrations of Integrity Attacks in Multi-Agent Systems](http://arxiv.org/abs/2506.04572v1)
+
+- Multi-Agent System (MAS): introduces integrity attacks where malicious agents manipulate system operations and evaluation outcomes within systems comprising Coder, Tester, Reviewer, WebSearcher, and Monitor components.
+- These attacks, including Self-Dealer, Free-Rider, Scapegoater, and Boaster, exploit inter-agent communication and the Monitor's evaluation process.
+- The research demonstrates that these manipulations can bias agent behavior and evaluation scores while maintaining overall task performance.
+
+
+---
+
+[OpenAg: Democratizing Agricultural Intelligence](http://arxiv.org/abs/2506.04571v1)
+
+- OpenAg: introduces, "a comprehensive framework designed to advance agricultural artificial general intelligence", with Multi-Modal Knowledge Ingestion, Unified Agriculture Knowledge Base, Neural Agricultural Knowledge Graph Generation, Adaptive Multi-agent Reasoning System, Causal Agricultural Decision Transparency, and Adaptive Agricultural Transfer Learning components, where "it integrates diverse data flows and advanced reasoning".
+- The framework aims to deliver context-aware, explainable, and actionable insights for agricultural decision support.
+- OpenAg bridges the gap between scientific knowledge and farmer expertise to support scalable and locally relevant decision-making.
+
+
+---
+
+[From Standalone LLMs to Integrated Intelligence: A Survey of Compound AI Systems](http://arxiv.org/abs/2506.04565v1)
+
+- CAIS (Compound AI Systems): introduces a framework integrating LLMs with external components and orchestration, categorized into RAG, LLM Agents, and MLLMs, to overcome standalone LLM limitations.
+- The framework leverages components like retrievers, agents, tools, and multimodal encoders, coordinated by orchestration strategies, for complex tasks.
+- The survey provides a taxonomy, architectural analysis, evaluation framework, and research agenda for these modular, composable AI systems.
+
+
+--
+
+
+
+
 #### 4th June 2025
+
+[CogMath: Assessing LLMs' Authentic Mathematical Ability from a Human Cognitive Perspective](http://arxiv.org/abs/2506.04481v1)
+
+- CogMath: introduces a framework for assessing LLMs' mathematical abilities using an Inquiry agents (Pose dimension-specific inquiry), Judge agents (Evaluate inquiry quality), Reference agents (Provide correct answer), and Evaluated LLM (Model being assessed) system across human cognitive stages.
+- The framework evaluates LLMs by posing dimension-specific inquiries generated and refined by agents, comparing the LLM's response to a reference answer.
+- This multi-agent system allows for a fine-grained assessment of LLMs' performance across nine dimensions within problem comprehension, solving, and summarization stages.
+
+
+---
+
+
+[MedAgentGym: Training LLM Agents for Code-Based Medical Reasoning at Scale](http://arxiv.org/abs/2506.04405v1)
+
+- MedAgentGym: introduces a unified training environment for enhancing coding-based medical reasoning in LLM agents, featuring an LLM Agent (Model trained/evaluated), Coding Environment (Isolated executable containers), Interactive Feedback Mechanism (Processes, executes, translates errors), Data Resources (Task datasets), Trajectory Collection (Samples, stores interactions), and Verifier (Evaluates trajectory success).
+- The environment includes 72,413 tasks from 12 real-world biomedical scenarios, encapsulated in isolated, executable coding environments with interactive feedback.
+- MedAgentGym supports scalable training trajectory generation and extensive benchmarking of LLMs for code-based medical reasoning.
+
+
+---
+
 
 [SuperWriter: Reflection-Driven Long-Form Generation with Large Language Models](http://arxiv.org/abs/2506.04180v1)
 
