@@ -44,7 +44,166 @@ Chronological order.
 </div>
 
 
+#### 6th June 2025
+
+[On-board Mission Replanning for Adaptive Cooperative Multi-Robot Systems](https://arxiv.org/abs/2506.06094)
+
+- GATR (Graph Attention Replanner): introduces a lightweight mission replanner using a GAT Encoder (Transforms graph data) and Attention Model Decoder (Generates mission plan) to solve the Cooperative Mission Replanning Problem.
+- The framework employs an RL Agent (Learns planning policy) interacting with an RL Environment (Simulates mission dynamics), processing an Input Graph (Represents tasks agents) along with the Environment State (Summarizes mission progress) and Availability Mask (Filters invalid actions).
+- This approach enables fast and efficient on-board replanning for multi-robot systems by transforming input data into latent representations and sequentially generating mission plans.
+
+
+---
+
+
+[PersonaAgent: When Large Language Model Agents Meet Personalization at Test Time](http://arxiv.org/abs/2506.06254v1)
+
+- PersonaAgent: introduces a personalized LLM agent framework with a persona (user-specific system prompt), personalized memory (stores user data), personalized action (selects tailored actions/tools), test-time user preference alignment (optimizes persona prompt), and tools (external functions).
+- The personalized memory module integrates episodic memory (records interactions) and semantic memory (summarizes user traits).
+- The persona serves as an intermediary, using memory insights to guide actions and being refined by action outcomes and test-time alignment.
+
+
+---
+
+[Can Theoretical Physics Research Benefit from Language Agents?](http://arxiv.org/abs/2506.06214v1)
+
+- LLM agents: introduces the potential for LLM agents, with Domain Knowledge, External Tools, Multimodal Processing, Reasoning Capabilities, Information Retrieval, Human Interface, and Experimental Interaction components, to accelerate theoretical physics research by assisting across the typical workflow stages.
+- The paper analyzes current LLM capabilities and limitations in physics reasoning, highlighting the need for improvements in physical intuition, constraint satisfaction, and reliability.
+- Realizing this potential requires addressing fundamental challenges like ensuring physical consistency and developing robust verification methods through interdisciplinary collaboration.
+
+
+---
+
+[Does It Run and Is That Enough? Revisiting Text-to-Chart Generation with a Multi-Agent Approach](http://arxiv.org/abs/2506.06175v1)
+
+- Multi-Agent Pipeline: introduces a lightweight multi-agent framework for text-to-chart generation, including a Drafting Agent (generates initial code), a Python Interpreter (executes code), a Re-writer Agent (debugs code), and an Execution and Repair Loop (iteratively fixes errors).
+- This pipeline separates the tasks of code generation, execution, repair, and judgment to improve reliability.
+- The agentic approach significantly reduces execution errors compared to single-prompt methods, highlighting the value of iterative self-correction.
+
+
+---
+
+[The Lock-in Hypothesis: Stagnation by Algorithm](http://arxiv.org/abs/2506.06166v1)
+
+- Human-LLM Feedback Loop: introduces the lock-in hypothesis, proposing that the dynamic interaction between human users and large language models, involving Human Agents (users), LLM Authority (AI system), Beliefs (ideas, values, opinions), Trust (mutual influence weight), and a Diversity Metric (conceptual variety measure), can lead to a loss of diversity and convergence on false beliefs.
+- The paper formalizes this hypothesis using a Bayesian model and tests it empirically with agent-based LLM simulations and real-world GPT usage data.
+- Analysis reveals sudden drops in diversity after new GPT versions are released, supporting the hypothesized feedback loop's role in reinforcing existing beliefs.
+
+
+---
+
+[Personalized Large Language Models Can Increase the Belief Accuracy of Social Networks](http://arxiv.org/abs/2506.06153v1)
+
+- Personalized LLM Bot: introduces a system, with Traditional ML Model (Predicts user preferences), External Database (Stores news articles), RAG Model (Retrieves relevant articles), Summarization Component (Summarizes retrieved articles), and Styling LLM (Rephrases for rhetorical style), designed to provide personalized, factually accurate responses within a social network simulation.
+- The bot's responses are tailored to individual user preferences regarding news sources and rhetorical style, based on predictions from a machine learning model and information retrieved from an external database.
+- The study demonstrates that the presence of this personalized LLM bot in a social network leads individuals to update their beliefs towards factual accuracy and influences their subsequent network connections.
+
+
+---
+
+[Conversational Interfaces for Parametric Conceptual Architectural Design: Integrating Mixed Reality with LLM-driven Interaction](http://arxiv.org/abs/2506.06066v1)
+
+- The system: introduces a framework for parametric architectural design using a Reasoning-Code Generation-Execution cycle, integrating a multi-agent LLM system (Reasoning Agent, Coding Agent, Optimization Agent) with a Mixed Reality environment.
+- The system leverages an Interface Manager and ShapeFramework for user interaction and visualization within MR, while an LLM Session Manager orchestrates the agents and a Compiler Client handles code execution.
+- This approach aims to lower barriers to parametric modeling by enabling natural language and gesture interaction, dynamic parameter management, and iterative design exploration in an immersive environment.
+
+
+---
+
+[AgentSwift: Efficient LLM Agent Design via Value-guided Hierarchical Search](http://arxiv.org/abs/2506.06017v1)
+
+- AgentSwift: introduces a framework combining selection (selects agent), hierarchical expansion (expands selected agent), value model (predicts performance), and performance uncertainty (guides exploration) for efficient LLM agent design.
+- Hierarchical expansion includes recombination (replaces components/workflow), mutation (generates new implementations), and refinement (adjusts based on feedback).
+- The framework leverages a hierarchical search space (models agent design) including agentic workflow (defines execution steps/flow) and functional components (includes memory, tool, planning).
+
+
+---
+
+[CrimeMind: Simulating Urban Crime with Multi-Modal LLM Agents](http://arxiv.org/abs/2506.05981v1)
+
+- CrimeMind: introduces CrimeMind (LLM-driven ABM framework), with LLM Agents (Powered by large language models), Routine Activity Theory (Guides agent crime decisions), Urban Environment (Grid-based spatial simulation), Structured Data (Demographic, socioeconomic features), Street View Imagery (Visual urban scene input), Vision-Language Model (Processes visual urban cues), Human Annotation (Dataset for perception alignment), Self-Evolution Alignment (Calibrates VLM to human judgment), Agent Mobility (Simulates agent movement), and Crime Heatmap (Aggregated crime event visualization), which simulates urban crime using theory-grounded LLM agents in a multimodal urban context.
+- The framework integrates Routine Activity Theory into agent decision-making and uses a self-evolution alignment process to calibrate visual perception with human judgment.
+- CrimeMind enables counterfactual simulations and policy evaluation by allowing agents to dynamically adapt behavior based on changing conditions.
+
+
+---
+
+CodeContests+: High-Quality Test Case Generation for Competitive Programming](http://arxiv.org/abs/2506.05817v1)
+
+- G-V (Generator-Validator) agent system: introduces an LLM-based agent system for high-quality test case generation, including Generator Agent, Validator Agent, Generator Program, and Validator Program.
+- The Generator Agent writes programs to create diverse test inputs, while the Validator Agent writes programs to verify these inputs against problem constraints.
+- Test cases failing validation provide feedback to the Generator Agent for revision, improving correctness and coverage.
+
+
+---
+
+[MAPLE: Multi-Agent Adaptive Planning with Long-Term Memory for Table Reasoning](http://arxiv.org/abs/2506.05813v1)
+
+- MAPLE (Multi-agent Adaptive Planning with Long-term mEmory): introduces a novel framework for table reasoning with Solver (Iterative reasoning), Checker (Answer verification), Reflector (Error diagnosis), Archiver (Memory management), Working Memory (Current task state), and Long-term Memory (Accumulated knowledge) agents in a feedback loop.
+- The framework mimics human problem-solving by enabling dynamic adaptation within and across tasks through iterative refinement and experiential learning.
+- Specialized agents collaborate in a feedback-driven cycle, leveraging dual memory systems for robust and accurate table reasoning.
+
+
+---
+
+[To Protect the LLM Agent Against the Prompt Injection Attack with Polymorphic Prompt](http://arxiv.org/abs/2506.05739v1)
+
+- Polymorphic Prompt Assembling (PPA): introduces a defense against prompt injection by dynamically varying prompt structure using User Input, Instruction Prompt, Separator Set, System Prompt Set, Random Selector, Format Constraints, and Polymorphic Prompt Assemble process.
+- The approach randomizes the combination of user input and system prompts using selected separators and templates to disrupt attacker predictability.
+- This method enhances LLM agent security against adaptive attacks with near-zero runtime overhead.
+
+
+---
+
+[Toward Greater Autonomy in Materials Discovery Agents: Unifying Planning, Physics, and Scientists](http://arxiv.org/abs/2506.05616v1)
+
+- MAPPS (Materials Agent unifying Planning, Physics, and Scientists): introduces a multi-agent framework for autonomous materials discovery, including a Workflow Planner (Generates multi-step workflows), a Tool Code Generator (Synthesizes executable code), and a Scientific Mediator (Coordinates agents and human).
+- The framework enables Level 2 autonomy by allowing agents to plan workflows guided by human input, rather than executing fixed, predefined steps.
+- MAPPS integrates physics-based tools and human feedback to ensure scientific validity and improve performance in crystal structure generation and prediction tasks.
+
+
+---
+
+
 #### 5th June 2025
+
+[Energentic Intelligence: From Self-Sustaining Systems to Enduring Artificial Life](https://arxiv.org/abs/2506.04916)
+
+- Energentic Intelligence: introduces a class of autonomous systems driven by persistence, with Energy Generation Core (Converts ambient energy), Energo-Cognitive Cortex (Performs perception/decision-making), Thermal Regulation Unit (Manages internal temperature), and Survival Manager (Estimates survival, issues commands) components.
+- This framework operationalizes autonomy through energetic persistence, integrating energy harvesting, adaptive computation, and thermoregulation into a cohesive, internally regulated feedback loop.
+- The system aims to sustain its existence by continuously adapting behavior based on internal energy and thermal conditions, rather than optimizing external task performance.
+
+
+---
+
+
+[OPERA: A Dataset of Observation, Persona, Rationale, and Action for Evaluating LLMs on Human Online Shopping Behavior Simulation](http://arxiv.org/abs/2506.05606v1)
+
+- OPERA-based User Behavior Simulation: introduces OPERA Dataset (Dataset), User Persona (User profiles), Action Traces (User interactions), Web Observations (Web context), Rationales (Action explanations), ShoppingFlow Plugin (Data collection plugin), Content Script (Logs user interactions), Background Script (Tracks page events), Rationale Pop-up (Collects rationales), and LLM (Simulation model), which provides a dataset and benchmark for evaluating LLMs on simulating human online shopping behavior.
+- The framework utilizes the ShoppingFlow plugin to collect detailed user data, including actions, web context, rationales, and persona information.
+- This data is then used to benchmark LLMs on predicting user actions and rationales in online shopping scenarios.
+
+
+---
+
+[IMPROVING LLMS WITH A KNOWLEDGE FROM DATABASES](http://arxiv.org/abs/2506.05560v1)
+
+- Enhanced Association Rule RAG: introduces a method to improve LLM answers by augmenting them with knowledge discovered from databases using enhanced association rules, including Dataset, Rule Mining Pattern Definition, Rule Mining Task Definition, Rule Mining Execution, Rule List, Rule-To-Text Module, Text Document, RAG Augmentation, and LLM components.
+- The approach extracts knowledge from a dataset via rule mining, converts the resulting rules into a text document, and embeds this document into the LLM's context using Retrieval-Augmented Generation.
+- This method provides interpretable knowledge to the LLM, enabling improved data-based question answering without requiring the LLM to directly execute analytical code or interpret complex rule formats.
+
+
+---
+
+[SocialDF: Benchmark Dataset and Detection Model for Mitigating Harmful Deepfake Content on Social Media Platforms](http://arxiv.org/abs/2506.05538v1)
+
+- Fact Checking Framework: introduces a two-stage pipeline for deepfake detection using YOLO (Face Detection), FaceNet (Feature Extraction), Influential People database (Identity Comparison), Whisper (Speech Transcription), LLM AGENT-1 (Plausibility Analysis), LLM AGENT-2 (Factual/Ethical Check), WEB SEARCH (External Information), and LLM (Final Decision) to analyze audio-visual content.
+- The framework identifies individuals and transcribes speech in the first stage, then uses a multi-agent LLM pipeline to verify authenticity based on plausibility, factual correctness, and ethical implications.
+- This multimodal approach integrates visual recognition, speech transcription, and language-based reasoning to enhance robustness against sophisticated deepfakes.
+
+
+---
+
 
 [LLM Agents for Asynchronous Group Communication in Mafia Games](http://arxiv.org/abs/2506.05309v1)
 
@@ -649,6 +808,16 @@ Chronological order.
 
 
 #### 2nd June 2025
+
+[Biomni: A General-Purpose Biomedical AI Agent](https://www.biorxiv.org/content/10.1101/2025.05.30.656746v1.full.pdf)
+
+- Biomni: introduces a general-purpose biomedical AI agent with Biomni-E1 (Environment) and Biomni-A1 (Agent), designed to autonomously execute diverse biomedical research tasks.
+- Biomni-E1 provides a unified action space comprising specialized tools, software packages, and databases, curated via an Action Discovery Agent and Expert Curation.
+- Biomni-A1 leverages LLM-based reasoning, a retrieval system, adaptive planning, and code execution within an interactive coding environment to dynamically compose and carry out complex biomedical workflows.
+
+
+---
+
 
 [CONFETTI: Conversational Function-Calling Evaluation Through Turn-Level Interactions](https://arxiv.org/abs/2506.01859)
 
@@ -7128,6 +7297,15 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 
 #### 7th April 2025
 
+[Fleming: An AI Agent for Antibiotic Discovery in Mycobacterium tuberculosis](https://www.biorxiv.org/content/10.1101/2025.04.01.646719v1.full.pdf)
+
+- Fleming: introduces Fleming, an AI agent that orchestrates specialized agents, including Inhibition Agent (Predicts MTB inhibition), ADMET Agent (Predicts ADMET properties), Molecule Generation Agent (Generates novel molecules), and Molecular Optimization Agent (Optimizes ADMET properties), to perform tasks in TB antibiotic discovery.
+- The Inhibition Agent uses an Inhibition prediction model (Predicts molecule inhibition) and Rationale extraction module (Identifies inhibitory substructures), while the ADMET Agent integrates ADMET models (Predicts ADMET properties), PaperQA2 (Analyzes literature), and a Molecular Describer (Describes molecule substructures).
+- The Molecule Generation Agent employs a Conditional diffusion model (Generates novel molecules) and Synthemol (Generates synthesizable molecules), and the Molecular Optimization Agent uses a Manager agent (Coordinates optimization process) and Optimization agent (Performs optimization iteration) with SynSpace (Generates molecular neighbors) to improve ADMET properties.
+
+
+---
+
 
 [Mixture-of-Personas Language Models for Population Simulation](http://arxiv.org/abs/2504.05019v1)
 
@@ -7307,6 +7485,15 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 ---
 
 #### 6th April 2025
+
+[SpatialAgent: An autonomous AI agent for spatial biology](https://www.biorxiv.org/content/10.1101/2025.04.03.646459v1.full.pdf)
+
+- SpatialAgent: introduces a fully autonomous AI agent for spatial biology research, with Memory (semantic, episodic information), Planning (task decomposition, reasoning), Action (tool execution, data processing), LLMs (underlying reasoning engine), and External Tools/Databases (data, analysis resources), designed to span the entire research pipeline.
+- The agent operates through a self-governing loop integrating LLMs with dynamic tool execution and adaptive reasoning for multimodal data analysis and hypothesis generation.
+- Its modular design supports human-in-the-loop interaction and extensibility with new tools and templates, enabling autonomous and collaborative discovery.
+
+
+---
 
 [Building LLM Agents by Incorporating Insights from Computer Systems](http://arxiv.org/abs/2504.04485v1)
 
@@ -13615,6 +13802,17 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+#### 12th February 2025
+
+[Spike sorting AI agent](https://www.biorxiv.org/content/10.1101/2025.02.11.637754v1.full.pdf)
+
+- SpikeAgent: introduces a multimodal large language model (LLM)-based AI agent with a Backend (core processing unit) and Frontend User Interface (chat-based interaction), integrating Multimodal LLM Backends (reasoning, planning), Multimodal Context Memory (retains information), Code Execution Module (executes code), Specialized Tools and Modules (perform tasks), Vision-Language Model Module (interprets visual data), Task Planning and Orchestration (breaks down tasks), and Context-aware Code Generation (generates code) to automate spike sorting.
+- The system integrates multiple LLM backends, coding functions, and established algorithms, autonomously performing spike sorting with reasoning-based decision-making and real-time interaction.
+- SpikeAgent generates interpretable reports with transparent justifications for sorting decisions, enhancing transparency and reliability compared to manual curation.
+
+
+---
+
 
 #### 11th February 2025
 
@@ -15998,6 +16196,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 
 #### 6th of January 2025
+
+[Structured dynamics in the algorithmic agent](https://www.biorxiv.org/content/10.1101/2023.12.12.571311v3.full.pdf)
+
+- KT's algorithmic agent: introduces an information processing system that interacts with the World, including a Modeling Engine (runs model, predicts), Comparator (evaluates prediction error), Updater (improves model), Objective Function (guides actions), and Planning Engine (simulates, selects plans).
+- The agent utilizes compressive world models to track structured data from the environment, aiming to maximize its objective function.
+- World tracking constraints, monitored by the Comparator, drive the agent's internal dynamics to mirror the symmetries present in the world data, leading to reduced manifold structures.
+
+
+---
+
 
 [Large language models for artificial general intelligence (AGI): A survey of foundational principles and approaches](https://arxiv.org/abs/2501.03151)
 
@@ -20246,6 +20454,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 ---
 
 #### 27th of May 2024
+
+#### 27th May 2024
+
+[BIOLOGICAL NEURONS COMPETE WITH DEEP REINFORCEMENT LEARNING IN SAMPLE EFFICIENCY IN A SIMULATED GAMEWORLD](https://arxiv.org/abs/2405.16946)
+
+- DishBrain / Deep Reinforcement Learning (DQN, A2C, PPO) / Active Inference Agent: introduces a comparison of learning efficiency between in vitro biological neural networks using the DishBrain system and state-of-the-art deep reinforcement learning algorithms (DQN, A2C, PPO) and an Active Inference agent in a simulated Pong game, utilizing components like Cultured Biological Neurons, HD-MEA, various input designs, Neural Networks, and a POMDP-based Generative Model.
+- The DishBrain system integrates biological neural networks with in silico computation via a high-density multi-electrode array in a real-time closed-loop feedback system.
+- Deep RL algorithms (DQN, A2C, PPO) were tested with different input information densities (Image, Paddle+Ball Position, Ball Position), while the Active Inference agent explored the impact of memory horizons on sample efficiency.
+
+
+---
+
 
 [An Introduction to Vision-Language Modeling](https://arxiv.org/abs/2405.17247)
 
