@@ -204,6 +204,52 @@ Chronological order.
 
 ---
 
+[From Passive to Active Reasoning: Can Large Language Models Ask the Right Questions under Incomplete Information?](http://arxiv.org/abs/2506.08295v1)
+
+- AR-Bench (Active Reasoning Benchmark): introduces, "a novel benchmark designed explicitly to evaluate an LLM's active reasoning skills", with Player (LLM under evaluation), Judge (Provides answers/feedback), Problem (Initial incomplete information), Interaction Rounds (Multi-turn Q&A), Solution (Final derived answer), where "AR-Bench evaluates LLMs on tasks requiring iterative questioning and information gathering under incomplete information."
+- The benchmark simulates multi-round conversations between the LLM player and NPC judges providing answers or feedback based on the puzzle's underlying truth.
+- AR-Bench highlights LLMs' difficulties in active reasoning, particularly in generating high-quality questions and effectively leveraging acquired information to solve problems.
+
+
+---
+
+[From Debate to Equilibrium: Belief-Driven Multi-Agent LLM Reasoning via Bayesian Nash Equilibrium](http://arxiv.org/abs/2506.08292v1)
+
+- ECON (Efficient Coordination via Nash Equilibrium): introduces a hierarchical reinforcement-learning paradigm with Coordinator LLM (Generates strategy, aggregates answers), Execution LLM (Produces answers based on strategy/belief), Individual Belief Network (Maps history/observation to belief/action), Belief Encoder (Aggregates belief states), Centralized Mixing Network (Coordinates beliefs, computes global Q), and Reward Design (Provides optimization feedback), recasting multi-LLM coordination as an incomplete-information game.
+- The framework replaces explicit inter-agent communication with belief-based coordination, where Execution LLMs optimize responses based on beliefs about co-agents to achieve a Bayesian Nash Equilibrium.
+- ECON demonstrates improved performance and scalability compared to existing multi-agent debate methods by reducing communication overhead and ensuring convergence.
+
+
+---
+
+[EconWebArena: Benchmarking Autonomous Agents on Economic Tasks in Realistic Web Environments](http://arxiv.org/abs/2506.08136v1)
+
+- EconWebArena: introduces a benchmark for evaluating autonomous agents on economic tasks, featuring an AI Agent interacting with a Real-World Web Environment via Observation and Action to answer a Question and provide an Answer.
+- The benchmark comprises 360 tasks on 82 authoritative websites, requiring agents to navigate, interpret content, interact with interfaces, and extract precise data.
+- The framework utilizes structured observations like AXTree and screenshots, and supports fine-grained browser control actions for realistic web interaction.
+
+
+---
+
+[SOP-Bench: Complex Industrial SOPs for Evaluating LLM Agents](http://arxiv.org/abs/2506.08119v1)
+
+- SOP-Bench: introduces a benchmark generation workflow with User Inputs, LLM, Human Review and Correction, Data Schema Generation, SOP Document Generation, Dataset Generation, API & Tool Specification Generation, and Tools Code Generation, designed to evaluate LLM agents on complex industrial SOPs using SOP, Task, ToolSpecs, Mock APIs, and Dataset.
+- The benchmark generation workflow creates realistic SOPs, associated data, and tools, incorporating complexity, ambiguity, and interdependencies.
+- The benchmark evaluates agent architectures like FC Agent and ReAct Agent on their ability to execute multi-step, context-dependent procedures requiring tool use and error handling.
+
+
+---
+
+
+[Cognitive Weave: Synthesizing Abstracted Knowledge with a Spatio-Temporal Resonance Graph](http://arxiv.org/abs/2506.08098v1)
+
+- Cognitive Weave: introduces a novel memory framework for AI agents centered around a Spatio-Temporal Resonance Graph (STRG), orchestrated by the Nexus Weaver (NW), which processes information via the Semantic Oracle Interface (SOI) and Vectorial Resonator (VR).
+- The STRG is a multi-layered hybrid structure comprising a Core Particle Store for persistent storage of Insight Particles (IPs) and Insight Aggregates (IAs), a Vectorial Subsystem for embeddings, a Temporal Index for time-based queries, and a Relational Graph for modeling relationships.
+- The system features a dynamic Cognitive Refinement process, managed by the NW and leveraging the SOI, to autonomously synthesize IAs, manage relational structures, and recalibrate importance, enabling continuous learning and memory evolution.
+
+
+---
+
 [Supporting Construction Worker Well-Being with a Multi-Agent Conversational AI System](http://arxiv.org/abs/2506.07997v1)
 
 - Multi-Agent Conversational AI System: introduces a conversational multi-agent AI system for construction worker well-being, with User Interface, User, User Message, Multi-Agent Orchestration, Agents, Agent Configuration, Large Language Model (LLM), Retrieval-Augmented Generation (RAG), Vector Database, External Knowledge, Chunking, Vectorization, Prompt Engineering/Automation, and Personas components.
