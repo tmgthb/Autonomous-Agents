@@ -44,7 +44,165 @@ Chronological order.
 </div>
 
 
+#### 10th June 2025
+
+
+[Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](http://arxiv.org/abs/2506.09046v1)
+
+- ANN (Agentic Neural Network): introduces a framework conceptualizing multi-agent collaboration as a layered neural network architecture, including Agent (Node), Layer (Agent Team), Agent Pipeline, Dynamic Routing/Team Selection, Aggregation Function, Forward Pass, Backward Pass/Optimization, Textual Gradient, Global Optimization, Local/Layerwise Optimization, Momentum, Validation, Memory/Trajectory, LLM Backbone, Prompt, and Tool components.
+- The framework employs a two-phase optimization strategy: a forward pass for dynamic team selection and a backward pass for iterative refinement using textual gradients.
+- This approach enables agents to self-evolve their roles, prompts, and coordination, dynamically reconfiguring teams and strategies based on performance feedback.
+
+
+---
+
+[ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering](http://arxiv.org/abs/2506.09050)
+
+- ALE-Bench: introduces a benchmark for long-horizon objective-driven algorithm engineering, featuring Problem (Provides statement/metadata), Scorer (Evaluates solution code), Visualizer (Displays execution results), Test Run (Executes code in sandbox), Code Sandbox (Replicates execution environment), Leaderboard (Ranks submissions/calculates metrics), and Session (Orchestrates AI interaction/evaluation).
+- The benchmark provides a software framework simulating competitive programming contests, allowing AI systems to iteratively refine solutions using test-run feedback and visualizations.
+- ALE-Bench quantifies AI performance on computationally hard optimization problems from AtCoder Heuristic Contests, enabling comparison against human experts and fostering long-horizon problem-solving research.
+
+
+---
+
+[VIKI-R: Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning](http://arxiv.org/abs/2506.09049v1)
+
+- VIKI-R (Coordinating Embodied Multi-Agent Cooperation via Reinforcement Learning): introduces a two-stage framework that fine-tunes a pretrained vision-language model using Chain-of-Thought demonstrations and reinforcement learning, evaluated on the VIKI-Bench benchmark.
+- The framework addresses embodied multi-agent cooperation across three hierarchical levels: agent activation, task planning, and trajectory perception, utilizing diverse robot embodiments and multi-view visual observations.
+- The approach significantly outperforms baselines, demonstrating enhanced visual reasoning and compositional cooperation patterns among heterogeneous agents in complex environments.
+
+
+---
+
+[Design Patterns for Securing LLM Agents against Prompt Injections](http://arxiv.org/abs/2506.08837v1)
+
+- Design Patterns: introduces, with Action-Selector Pattern (Selects predefined actions), Plan-Then-Execute Pattern (Defines plan, executes actions), LLM Map-Reduce Pattern (Dispatches isolated sub-agents), Dual LLM Pattern (Privileged/quarantined LLMs), Code-Then-Execute Pattern (Writes formal program), and Context-Minimization pattern (Removes prompt from context), a set of principled design patterns for building AI agents resistant to prompt injection attacks.
+- These patterns impose intentional constraints on LLM agents, limiting their ability to perform arbitrary tasks and preventing untrusted input from triggering consequential actions.
+- The paper analyzes the trade-offs of these patterns in terms of utility and security and illustrates their application through case studies of LLM agent applications.
+
+
+---
+
+[Measuring Data Science Automation: A Survey of Evaluation Tools for AI Assistants and Agents](http://arxiv.org/abs/2506.08800v1)
+
+- Evaluation Frameworks for LLM-based Data Science AI Systems: includes LLM/Agent (AI system being evaluated), Environment (Where agent operates), Tools (Capabilities like code execution), Evaluation System (Measures performance), Data (Input for tasks), Task Description (Instructions for agent), and User (Interacts with agent).
+- These frameworks assess AI systems, ranging from assistants to autonomous agents, on various data science activities using diverse metrics and setups.
+- Evaluation often involves the agent interacting with data and tools within an environment, with performance judged by an automated or human-assisted evaluation system against task descriptions and data.
+
+
+---
+
+[Improved LLM Agents for Financial Document Question Answering](http://arxiv.org/abs/2506.08726v1)
+
+- Multi-Agent Framework: introduces a system for financial document question answering with Analyst, Critic, Improved Critic, and Calculator agents.
+- This framework utilizes multiple LLM-based agents to improve numerical reasoning on tabular and textual financial data.
+- The proposed calculator agent demonstrates improved performance and safety compared to the previous state-of-the-art approach for this task.
+
+
+---
+
+[Approaching Dialogue State Tracking via Aligning Speech Encoders and LLMS](http://arxiv.org/abs/2506.08633v1)
+
+- End-to-End DST Model: introduces an end-to-end dialogue state tracking system using a pretrained speech encoder, a small connector module, a pretrained LLM, and dialogue history.
+- The system processes speech input and dialogue history to directly output a JSON string representing the dialogue state.
+- The approach bridges speech and language model representation spaces through a two-stage training scheme for ASR pre-training and joint ASR-DST finetuning.
+
+
+---
+
+[MasHost Builds It All: Autonomous Multi-Agent System Directed by Reinforcement Learning](http://arxiv.org/abs/2506.08507v1)
+
+- MasHost: introduces a reinforcement learning-based framework for autonomous multi-agent system construction, with Multi-agent System (Mas), LLM Agent, Role Pool, Interaction Pathway, Markov Decision Process (MDP), State, Action Space, Node-level Actions, Edge-level Actions, Policy Function, Node-level Policy (πθ), Edge-level Policy (πφ), Reward Function, Joint Probabilistic Space Sampling (JPSS), Hierarchical Relative Policy Optimization (HRPO), Group-relative Advantage, Action-wise Absolute Reward, Triple Objective, Query, State List, Selected Agents, Global Messages, Summarizer Agent, and EXIT Node components.
+- The framework models Mas construction as an MDP, employing JPSS for joint node and edge sampling and HRPO for multi-objective optimization towards performance, efficiency, and rationality.
+- MasHost enables autonomous Mas graph construction and role selection from a full-scale space, guided by a hierarchical reward structure combining group-relative and action-wise rewards.
+
+
+---
+
+[CAF-I: A Collaborative Multi-Agent Framework for Enhanced Irony Detection with Large Language Models](http://arxiv.org/abs/2506.08430v1)
+
+- CAF-I (Collaborative Agent Framework for Irony): introduces a multi-agent framework for irony detection with Context, Semantic, Rhetoric, Decision, and Refinement Evaluator Agents.
+- CAF-I performs multi-perspective analysis and interactive collaborative optimization to improve detection accuracy and interpretability.
+- The framework achieves state-of-the-art zero-shot performance by simulating human-like multi-perspective analysis.
+
+
+---
+
+[TACTIC: Translation Agents with Cognitive-Theoretic Interactive Collaboration](http://arxiv.org/abs/2506.08403v1)
+
+- TACTIC (Translation Agents with Cognitive-Theoretic Interactive Collaboration): introduces a multi-agent translation framework inspired by cognitive translation studies, including DraftAgent (Generates multiple drafts), RefinementAgent (Synthesizes drafts), EvaluationAgent (Evaluates translation quality), ScoreAgent (Scores translation quality), ContextAgent (Provides contextual information), and ResearchAgent (Gathers external knowledge).
+- The framework comprises six distinct agents mirroring human translation processes, operating in base and complex workflows for iterative refinement.
+- TACTIC leverages LLMs to simulate cognitive functions like strategic variation, processing, and contextual cognition for high-quality translation.
+
+
+---
+
+[Reinforce LLM Reasoning through Multi-Agent Reflection](http://arxiv.org/abs/2506.08379v1)
+
+- DPSDP (Direct Policy Search by Dynamic Programming): introduces a reinforcement learning algorithm to train an actor-critic LLM system for multi-turn reasoning refinement using direct preference learning on self-generated data, incorporating Actor, Critic, and DPO.
+- The approach models the multi-turn refinement process as a Markov Decision Process, where the Actor generates responses and the Critic provides feedback, iteratively improving answers.
+- DPSDP leverages DPO for training the agents, demonstrating improved performance on reasoning benchmarks through collaborative refinement.
+
+
+---
+
+[Your Agent Can Defend Itself against Backdoor Attacks](http://arxiv.org/abs/2506.08336v1)
+
+- ReAgent (Reverse and Reflective Agent): introduces a novel defense against backdoor attacks on LLM-based agents, utilizing Execution-Level Detection, Planning-Level Detection, Agent's Thoughts, Agent's Actions, Agent's Thought Trajectory, User's Instruction, and Reconstructed Instruction components to detect inconsistencies.
+- The defense employs a two-level approach, verifying consistency between agent thoughts and actions at the execution level and between the user instruction and reconstructed instruction from the thought trajectory at the planning level.
+- ReAgent leverages the compromised agent's own capabilities for self-defense and provides chain-of-thought explanations for transparency.
+
+
+---
+
+[Reinforcement Fine-Tuning for Reasoning towards Multi-Step Multi-Source Search in Large Language Models](http://arxiv.org/abs/2506.08352)
+
+- R-Search: introduces a single-LLM framework that unifies multi-step planning, multi-source search execution, and answer synthesis within one coherent inference process, utilizing Policy LLM, <think>, <search>, <result>, <answer>, NL-DAG Parser, DAG Validator, Topological Sort, Search Execution, Search Tools, ReFT, GRPO Optimizer, Reward Function, and Reference LLM.
+- The framework structures output into four components: reasoning traces, NL-DAG search plans, retrieved results, and synthesized answers, enabling integrated reasoning and multi-source search execution.
+- A specialized Reinforcement Fine-Tuning method based on GRPO is used with a multi-component reward function to optimize answer correctness, structural validity, and format adherence.
+
+
+---
+
+[TrajFlow: Multi-modal Motion Prediction via Flow Matching](https://arxiv.org/abs/2506.08541)
+
+- TrajFlow: introduces a flow matching-based framework for multi-modal motion prediction, utilizing a Context Encoder (encodes scene context), Flow Matching Decoder (decodes noisy trajectory to predicted trajectories and scores), Prediction Heads (predicts trajectory, classification, and ranking scores), ODE Solver (solves ODEs for inference), NMS (filters predicted trajectories), Loss Functions (optimizes model parameters), and Self-Conditioning (mitigates overfitting during training).
+- The framework predicts multiple plausible future trajectories in a single pass by learning to map noise vectors to data distributions via ordinary differential equations.
+- A Plackett-Luce distribution-based ranking loss and a self-conditioning training strategy are employed to improve uncertainty estimation and generalization.
+
+
+---
+
+[ORFS-agent: Tool-Using Agents for Chip Design Optimization](http://arxiv.org/abs/2506.08332v1)
+
+- ORFS-agent: introduces an LLM-based iterative optimization agent for chip design parameter tuning, integrating an LLM, ORFS flow, METRICS2.1 metrics, GLOBALCONTEXT state, Toolbox external tools (INSPECT, OPTIMIZE, AGGLOM), Inputs, Outputs, and an Iteration Loop.
+- The agent executes the ORFS flow in parallel runs, gathers METRICS2.1 data, analyzes and proposes parameters using the Toolbox, and updates design files iteratively.
+- Guided by user Inputs (PDK, Verilog, Prompts), the agent maintains state in GLOBALCONTEXT to optimize design metrics and constraints, producing optimized Outputs (Config, SDC files).
+
+
+---
+
+[Understanding Software Engineering Agents Through the Lens of Traceability: An Empirical Study](http://arxiv.org/abs/2506.08311v1)
+
+- Software Engineering Agents (SWE agents): introduces a systematic study of SWE agent behavior using execution traces, focusing on bug localization, patch generation, and reproduction test generation components.
+- The study analyzes agent effectiveness in fixing issues, generating tests, and comparing agent-generated patches to human-written ones.
+- Findings reveal agents struggle with complex issues, benefit from bug localization for test generation, and often produce localized edits compared to human refactorings.
+
+
+---
+
+
 #### 9th June 2025
+
+
+[Scaling Laws of Motion Forecasting and Planning A Technical Report](https://arxiv.org/abs/2506.08228)
+
+- MotionLM: introduces an encoder-decoder autoregressive transformer model with Scene Encoder (Processes scene data) and Motion Decoder (Generates motion tokens) components for joint motion forecasting and planning.
+- The Scene Encoder uses an Early fusion network (Scene encoder backbone) to process multimodal inputs, while the Motion Decoder employs Cross-attention (Decoder attends encoder) and Flattened agent-time self-attention (Single pass attention) to generate Discrete motion tokens (Represent trajectories).
+- This architecture enables studying scaling laws for performance improvements with increased compute, data, and model size in autonomous driving tasks.
+
+
+---
 
 [Supporting Construction Worker Well-Being with a Multi-Agent Conversational AI System](http://arxiv.org/abs/2506.07997v1)
 
@@ -846,6 +1004,15 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 
 #### 3rd June 2025
+
+[S4-Driver: Scalable Self-Supervised Driving Multimodal Large Language Model with Spatio-Temporal Visual Representation](https://arxiv.org/abs/2505.24139)
+
+- S4-Driver: introduces a scalable self-supervised motion planning method, with Camera Images, Image Encoder, Image features, Sparse Volume Representation, Historical ego-states, High-level behavior, Text prompt, Tokenize, Multimodal Encoder, Multimodal Decoder, Hierarchical Planning, Meta-decision, Multi-decoding, Nucleus sampling, Multi-output aggregation, where S4-Driver predicts ego-vehicle waypoints from camera images and text prompts using a multimodal large language model enhanced with spatio-temporal visual representation and hierarchical planning.
+- The framework employs a novel sparse volume representation to aggregate multi-view and multi-frame visual information, enhancing 3D reasoning for motion planning.
+- Self-supervised training with ego-vehicle trajectory supervision and multi-decoding aggregation improves performance and scalability without requiring human annotations for intermediate tasks.
+
+
+---
 
 [Why do AI agents communicate in human language?](https://arxiv.org/abs/2506.02739)
 
@@ -17636,6 +17803,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LLM agents often wait unnecessarily each step to complete, before proceeding, even when it is a false dependency.
 - LLM agents can be: blocked (another blocks proceeding), coupled (proceed together), clustered (group needs to synchronize), worker (independent process handling cluster) or controller (main process communicating with workers).
 - The related work-section offers comphrensive view on the different scheduling approaches to with agentic AI.
+
+
+---
+
+#### 4th November 2024
+
+[EMMA: End-to-End Multimodal Model for Autonomous Driving](https://arxiv.org/abs/2410.23262)
+
+- EMMA (End-to-End Multimodal Model for Autonomous Driving): introduces EMMA, built on Gemini, which maps raw camera data and text inputs to driving outputs including planning trajectories, perception objects, and road graph elements, leveraging Chain-of-Thought Reasoning and Generalist Capability.
+- The framework recasts autonomous driving tasks as visual question answering problems, processing inputs and generating outputs in a unified language space using task-specific prompts.
+- EMMA demonstrates strong performance across motion planning, 3D object detection, and road graph estimation, functioning as a generalist model capable of jointly handling multiple driving tasks.
 
 
 ---
