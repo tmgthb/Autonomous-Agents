@@ -44,6 +44,148 @@ Chronological order.
 </div>
 
 
+#### 11th June 2025
+
+[AI Agent Behavioral Science](https://arxiv.org/abs/2506.06366)
+
+- AI Agent Behavioral Science: introduces, "AI Agents (autonomous systems)/Memory (stores history)/Planning (strategizing actions)/Tool Use (interacts with tools)/Action Modules (executes decisions)/Intrinsic Attributes (internal traits)/Environmental Constraints (external structures)/Behavioral Feedback (adaptation mechanism)/Ability (foundational competence)/Motivation (drive from feedback)/Trigger (initiating signals)", a paradigm for studying AI agents as behavioral entities in context, emphasizing systematic observation, intervention design, and theory-guided interpretation.
+- This perspective focuses on understanding how AI agent behavior emerges and adapts through the interplay of internal factors, environmental context, and interaction feedback.
+- The paper systematizes research on individual, multi-agent, and human-agent interactions and positions this behavioral science approach as essential for responsible AI.
+
+
+---
+
+
+[V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning](https://arxiv.org/abs/2506.09985)
+
+- V-JEPA 2 (Self-Supervised Video Model): introduces a self-supervised approach combining internet video data and robot interaction data, with V-JEPA 2 Encoder (Extracts video representations), V-JEPA 2 Predictor (Predicts masked representations), V-JEPA 2 EMA Encoder (Target for prediction), V-JEPA 2-AC Frozen Encoder (Provides learned representations), V-JEPA 2-AC Action-Conditioned Predictor (Predicts future state representations), MLLM Projector Module (Maps visual to LLM), and MLLM LLM Backbone (Language model).
+- The framework pre-trains V-JEPA 2 on internet video, then post-trains V-JEPA 2-AC on robot data for planning, and aligns V-JEPA 2 with an LLM for video question answering.
+- V-JEPA 2 demonstrates strong performance on motion understanding, action anticipation, video question answering, and enables zero-shot robot manipulation via planning.
+
+---
+
+[Patterns of Patterns III](https://arxiv.org/abs/2506.09696)
+
+- PLACARD: introduces a methodology combining PAR, CLA, and DPL for collective learning and design, extended to pattern-competent AI agents within Multi-Agent Systems, utilizing Language Model Substrates and various agent types.
+- The approach structures pattern use via an A/B/C catalogue and proposes AI agent pattern types (Interactional, Cognitive, Infrastructural) along with specific candidate patterns for agents and their environments.
+- Different agent roles, including Code-Writing & Execution Agents, Pattern-Aware Dialogue Agents, Pattern-Reflective Meta-Agents, and Multi-Agent Institution Designers, interact within the MAS environment, grounded by a Real-World Interface layer.
+
+
+---
+
+[Flipping Against All Odds: Reducing LLM Coin Flip Bias via Verbalized Rejection Sampling](http://arxiv.org/abs/2506.09998v1)
+
+- VRS (Verbalized Rejection Sampling): introduces, "a natural-language adaptation of classical rejection sampling", with LLM (Performs accept/reject decision), Target Distribution (Desired sample distribution), Proposal Distribution (Source of candidate samples), Candidate Sample (Sample from proposal), Verbalized Prompt (LLM input with descriptions), Accept/Reject Decision (LLM binary output), and Sampling Loop (Generates candidates, repeats), which prompts an LLM to reason about and accept or reject proposed samples from a proposal distribution to generate samples from a target distribution.
+- The framework verbalizes the target distribution, proposal distribution, and a candidate sample into a prompt for the LLM, which acts as a black-box decision engine.
+- The external sampling loop generates candidate samples and repeats the LLM decision process until the required number of accepted samples is collected.
+
+
+---
+
+[SRLAgent: Enhancing Self-Regulated Learning Skills through Gamification and LLM Assistance](http://arxiv.org/abs/2506.09968v1)
+
+- SRLAgent: introduces an LLM-assisted system that fosters self-regulated learning skills through gamification and adaptive support, with Game Environment (Minecraft 3D world), Learning Management System (Manages learning elements), Task System (Manages hierarchical tasks), Agent System (AI-powered support), LLM (Large Language Model), Planning Agent (Supports forethought phase), SubTask Monitor (Tracks performance), SubTask Tutor Agent System (Provides tutoring), Quiz Agent (Supports quizzes), Review Agent (Guides analysis), Chatting Agent (Facilitates discussions), Writing Agent (Supports writing), Reflection Agent (Guides reflection phase), Task State (Current task status), SRL Phase (Current SRL stage), Task Learning Views (User interface views), Learning Subtasks Content (Educational materials/activities), Learning Feedback (Agent-provided feedback), Tutor Feedback (Tutor agent feedback), Prompt Configurations (Agent prompt templates), where it guides students through SRL phases using gamification and LLM-powered agents in a game-based environment.
+- The system is grounded in Zimmerman's three-phase SRL framework, enabling goal-setting, strategy execution, and self-reflection within an interactive game environment.
+- SRLAgent offers real-time feedback and scaffolding powered by LLMs to support students' independent study efforts.
+
+
+---
+
+[PersonaLens: A Benchmark for Personalization Evaluation in Conversational AI Assistants](http://arxiv.org/abs/2506.09902v1)
+
+- PersonaLens: introduces a benchmark for evaluating personalization in task-oriented conversational AI assistants, with diverse user profiles, tasks with situational contexts, and two LLM-based agents (User Agent and Judge Agent) to simulate interactions and evaluate performance.
+- The benchmark features 1,500 user profiles, 111 tasks across 20 domains, and LLM-powered agents for scalable, automated evaluation.
+- PersonaLens assesses personalization, task completion, and dialogue quality in multi-turn interactions, revealing insights into current LLM assistants' capabilities.
+
+
+---
+
+[INTELLIGENT DESIGN 4.0: PARADIGM EVOLUTION TOWARD THE AGENTIC AI ERA](http://arxiv.org/abs/2506.09755v1)
+
+- ID 4.0 (Intelligent Design 4.0): introduces a multi-agent-based paradigm for engineering design automation, composed of stage-level agents (interprets inputs/decomposes tasks, explores early solutions/ideation, translates concepts/coordinates modeling, refines geometry/produces models, applies optimization/fine-tunes) and functional agents (retrieves external knowledge, accesses databases, infers user intent/context, facilitates divergent thinking, synthesizes 2D/3D geometry, conducts multi-physics simulations, verifies compliance) operating within a shared information environment (supports coordination/learning).
+- This framework envisions autonomous, task-specialized AI agents coordinating via orchestrated design workflows to support complex, end-to-end design processes.
+- Agents interact with human designers and external tools, leveraging shared memory for cross-agent coordination and cumulative learning throughout the design process.
+
+
+---
+
+[Feature Engineering for Agents: An Adaptive Cognitive Architecture for Interpretable ML Monitoring](http://arxiv.org/abs/2506.09742v1)
+
+- CAMA (Cognitive Architecture for Monitoring Agent): introduces a cognitive architecture for ML monitoring, with Semantic Memory (Stores reference data), Working Memory (Holds current context), Episodic Memory (Retains past instances), Procedural Memory (Stores agent code), Decision Procedure (Feature engineering approach), LLM (Reasoning engine), and Agent code (Includes prompts/chains), designed to enhance interpretability and actionability of monitoring outputs.
+- The Decision Procedure implements a three-step feature engineering-inspired approach: Refactor, Break Down, and Compile, to process monitoring data.
+- This architecture leverages structured memory and feature engineering principles to provide robust, interpretable, and actionable insights for ML model monitoring.
+
+
+---
+
+
+[Intent Factored Generation: Unleashing the Diversity in Your Language Model](http://arxiv.org/abs/2506.09659v1)
+
+- IFG (Intent Factored Generation): introduces a two-stage sampling process including Prompt, LLM Internal, Intent, Phrasing, and Response.
+- The process samples a semantically dense Intent first, then the final Response conditioned on the Prompt and Intent, allowing independent temperature control for diversity and coherence.
+- IFG can be implemented via Few-shot Prompting or Finetuning on intent-annotated data, with IFG-prompting encouraging granular steps in reasoning tasks.
+
+
+---
+
+[Application-Driven Value Alignment in Agentic AI Systems: Survey and Perspectives](http://arxiv.org/abs/2506.09656v1)
+
+- LLM-based Agent System: introduces, this survey, with LLM-based Agent (core system participant), Multi-Agent System (multiple interacting agents), Value Principles (hierarchical ethical norms), Value Alignment Evaluation (assessing adherence to values), and Value Coordination (managing values in multi-agents), where this survey reviews application-driven value alignment in agentic AI systems.
+- The paper integrates AI advancements driven by large models with demands of social governance, covering value principles, application scenarios, and evaluation methods.
+- It systematically examines datasets and methods for value alignment assessment and explores value coordination among multiple agents within agent systems.
+
+
+---
+
+[DipLLM: Fine-Tuning LLM for Strategic Decision-making in Diplomacy](http://arxiv.org/abs/2506.09655v1)
+
+- DipLLM (Fine-Tuned LLM-Based Agent): introduces DipLLM, a fine-tuned LLM-based agent for strategic decision-making in Diplomacy, with Llama 3 8B (LLM backbone), Autoregressive Factorization (decomposes actions), TextDiplomacy (state to text, text to actions), Equilibrium Search (piKL-Hedge) (generates Q-values), Human IL Model (DipNet) (collects raw data), Environment (Diplomacy) (game simulation), Loss Function (aligns policy), LoRA (parameter adaptation), and Data (collected game data).
+- DipLLM leverages autoregressive factorization to simplify complex multi-unit action assignment into sequential unit-level decisions.
+- The agent is fine-tuned on a small dataset using a designed loss function to align its policy with an equilibrium objective, outperforming state-of-the-art models like Cicero with significantly less data.
+
+
+---
+
+[Effective Red-Teaming of Policy-Adherent Agents](http://arxiv.org/abs/2506.09600v1)
+
+- CRAFT (Constraint-aware Red-teaming with Adversarial Framing and Tactics): introduces a multi-agent red-teaming system with Policy Analyzer (Extracts relevant policy), Deception Planner (Plans attack strategies), Avoidance Advisor (Plans what to avoid), Dialogue Executor (Executes interaction dialogue), Conversation Memory (Dialogue history), Policy-Adherent Agent (Target system), Policy (Rules for target), and User Request (Initial user input), designed to expose vulnerabilities in policy-constrained LLM-based agents through strategic, multi-step adversarial planning.
+- The system leverages policy knowledge, strategic reasoning, and pre-execution planning to generate policy-aware persuasive strategies that undermine policy adherence in customer service scenarios.
+- CRAFT achieves significantly higher attack success rates compared to generic jailbreak methods and cooperative user simulations, highlighting the need for stronger safeguards against malicious user behavior.
+
+
+---
+
+[ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical Reasoning](http://arxiv.org/abs/2506.09513v1)
+
+- Multi-Agent Framework: introduces ReasonMed, a large-scale medical reasoning dataset generated and refined using a multi-agent system for initial path generation, followed by verification, ranking, summarization, error correction, and quality assessment.
+- The framework generates 370k high-quality medical reasoning examples by distilling 1.7 million initial paths from multiple large language models through a rigorous multi-stage verification and refinement pipeline.
+- Leveraging the generated dataset, the authors train ReasonMed-7B and find that combining detailed chain-of-thought reasoning with concise answer summaries yields the most effective fine-tuning strategy for medical question answering.
+
+
+---
+
+[A Call for Collaborative Intelligence: Why Human-Agent Systems Should Precede AI Autonomy](http://arxiv.org/abs/2506.09420v1)
+
+- LLM-HAS (LLM-based Human-Agent Systems): introduces implementation guidelines with Initial Setup (define environment, roles, interaction), Human Data (acquire, process, use human data), Model Engineering (iterative development, feedback, learning, optimization), Post-Deployment (monitor, maintain alignment, adapt), and Evaluation (assess effectiveness, safety, experience) components.
+- The framework advocates for collaborative AI-human partnerships, prioritizing human involvement for guidance, control, and enhanced system trustworthiness and adaptability.
+- Progress in AI is measured by how well systems work with humans, enhancing human capabilities through partnership rather than pursuing full autonomy.
+
+
+---
+
+[Multi-Agent Language Models: Advancing Cooperation, Coordination, and Adaptation](http://arxiv.org/abs/2506.09331v1)
+
+- Multi-Agent Language Models: introduces integrating Language Model (LM) (Recommends/generates actions) into Reinforcement Learning (RL) Agent (Learns decision policy) loops interacting with an Environment (Simulates game world), utilizing Dataset (Human gameplay examples) and Replay Buffers (Stores game transitions) for training via Distillation Loss (Transfers LM knowledge) and TD Loss (Reinforcement learning update), employing Encoders (GRU) (Encode text inputs), Decoder (Combines encoded features), and MLP (Predicts action values).
+- The approach explores LM-in-the-Loop for action recommendation in text games and LM as Multi-Agent in Hanabi, showing improved performance and accelerated convergence compared to baselines.
+- Key findings highlight the importance of careful transition selection for LM training and demonstrate the potential for distilling language model knowledge into reinforcement learning agents.
+
+
+---
+
+
+
+
+
 #### 10th June 2025
 
 
@@ -55,6 +197,34 @@ Chronological order.
 
 
 ---
+
+[UTBoost: Rigorous Evaluation of Coding Agents on SWE-Bench](http://arxiv.org/abs/2506.09289v1)
+
+- UTBoost: introduces a framework for augmenting test cases using intramorphic testing, including the UTBoost Workflow (Orchestrates testing process), UTGenerator (Generates augmented test cases), and Intramorphic Testing (Establishes test oracle).
+- The UTGenerator component utilizes an LLM and a multi-level localization process (file, function/class, line) to identify relevant code areas before generating new test cases and their dependencies.
+- UTBoost enhances the evaluation of coding agents on benchmarks like SWE-Bench by identifying insufficient test cases and erroneous patches, leading to more reliable results and leaderboard updates.
+
+
+---
+
+[Agent-based Condition Monitoring Assistance with Multimodal Industrial Database Retrieval Augmented Generation](http://arxiv.org/abs/2506.09247v1)
+
+- MindRAG (Multimodal industrial database Retrieval-Augmented Generation): introduces an agent-based condition monitoring assistance framework with LLMs, Agents, a Multimodal & semi-structured annotated machine graph Vector Store, Multimodal RAG techniques for Retrieval, Generation, Tools, and Knowledge Bases.
+- The framework integrates LLM-based reasoning agents (Main thinker, CM analyst, Maintenance scheduler, Evaluation agent) with a novel vector store structure designed for industrial condition monitoring data.
+- MindRAG leverages multimodal retrieval and generative capabilities, supported by custom tools and knowledge bases, to provide decision support and explainable interfaces for condition monitoring analysts.
+
+
+---
+
+[Improving LLM Agent Planning with In-Context Learning via Atomic Fact Augmentation and Lookahead Search](http://arxiv.org/abs/2506.09171v1)
+
+- LWM-Planner (LLM-based World Model Planning Agent): introduces an LLM agent framework that enhances planning via in-context learning using a Fact Extractor (Extracts atomic facts from experience), a Planner LLM (Performs lookahead search planning), Atomic Facts (Learned knowledge base), and Interaction History (Recent observation-action memory).
+- The agent extracts task-critical atomic facts from interaction trajectories to dynamically augment prompts for LLM components responsible for action proposal, world model simulation, and value estimation.
+- Planning involves a depth-limited lookahead search where the Planner LLM simulates trajectories and evaluates outcomes guided by accumulated facts and history.
+
+
+---
+
 
 [ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering](http://arxiv.org/abs/2506.09050)
 
@@ -544,6 +714,15 @@ AI PsyRoom: Artificial Intelligence Platform for Segmented Yearning and Reactive
 
 
 #### 6th June 2025
+
+[Future of Work with AI Agents: Auditing Automation and Augmentation Potential across the U.S. Workforce](https://arxiv.org/abs/2506.06576)
+
+- Auditing Framework: introduces a task-level, survey-based approach with Auditing Framework With Audio Interface, WORKBank, Human Agency Scale (HAS), and Autonomous Agent Desire-Capability Landscape components to audit AI agent automation and augmentation potential across the U.S. workforce.
+- The framework collects worker desires and AI expert capability assessments for occupational tasks, storing this data in the WORKBank database.
+- Key outputs include the Human Agency Scale for quantifying human involvement and the Desire-Capability Landscape for identifying mismatches and opportunities in AI agent development.
+
+
+---
 
 
 [Improving LLM-Powered EDA Assistants with RAFT](http://arxiv.org/abs/2506.06500v1)
@@ -1429,6 +1608,15 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 ---
 
+[Will artificial agents pursue power by default?](https://arxiv.org/abs/2506.06352)
+
+- Sequential decision theory framework: formalizes instrumental convergence and power-seeking using decision trees, choice nodes, chance nodes, outcomes, branches, strategy, lottery, subtree, and an expected utility maximizer agent.
+- The paper defines various notions of power as relations on decision trees and assesses their properties as convergent instrumental goals for a random agent.
+- It finds that power is a convergent instrumental goal under certain definitions, particularly when agents can pursue absolute or near-absolute power.
+
+
+---
+
 
 #### 1st June 2025
 
@@ -1492,6 +1680,16 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 
 #### 30th May 2025
+
+
+[Memory OS of AI Agent](https://arxiv.org/abs/2506.06326)
+
+- MemoryOS: introduces a comprehensive memory management system, with Memory Storage (Organizes memory hierarchically), Short-Term Memory (Stores recent conversation data), Mid-Term Memory (Stores recurring topic summaries), Long-term Personal Memory (Stores user/agent preferences), Memory Updating (Manages dynamic memory refreshing), Memory Retrieval (Retrieves relevant memory information), and Response Generation (Integrates retrieved memory to generate responses), designed for AI agents to achieve comprehensive and efficient memory management.
+- The system employs a three-tier hierarchical storage architecture (STM, MTM, LPM) and four core functional modules (Storage, Updating, Retrieval, Generation) to manage long-term conversational coherence and user persona persistence.
+- MemoryOS utilizes dynamic updates between storage units, segmented paging, heat-based prioritization, and a two-tiered retrieval approach to enhance context management and personalization in long conversations.
+
+
+---
 
 [Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents](http://arxiv.org/abs/2505.24878v1)
 
