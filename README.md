@@ -44,7 +44,209 @@ Chronological order.
 </div>
 
 
+#### 12th June 2025
+
+
+[AUTOMIND: Adaptive Knowledgeable Agent for Automated Data Science](http://arxiv.org/abs/2506.10974v1)
+
+- AUTOMIND (Adaptive Knowledgeable Agent for Automated Data Science): introduces an adaptive, knowledgeable LLM-agent framework with a curated expert knowledge base, an agentic knowledgeable tree search algorithm, and a self-adaptive coding strategy.
+- The framework leverages the expert knowledge base via a retriever to ground the tree search, which explores solutions through drafting, improving, and debugging actions.
+- The self-adaptive coding strategy dynamically adjusts code generation based on task complexity, using either one-pass generation or stepwise decomposition with execution feedback.
+
+
+---
+
+[Specification and Evaluation of Multi-Agent LLM Systems - Prototype and Cybersecurity Applications](http://arxiv.org/abs/2506.10467v1)
+
+- Multi-Agent LLM System: introduces a system architecture and specification for multi-agent LLM applications, including a Client Application, Conversational User Interface, Agent Manager, Conversation Manager, Execution Engine, Agents, LLM Services, Host Execution Environment, and Agent Schema.
+- The system allows specifying agents with executable prompts, actions, and data, supporting prompting/reasoning techniques and conditional execution based on results.
+- The Agent Schema defines agent types, functions (execution, evaluation), and configurations for agents and LLMs, enabling systematic evaluation of LLMs and techniques in specific applications like cybersecurity.
+
+
+---
+
+
+[Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges](http://arxiv.org/abs/2506.10408v1)
+
+- Reasoning Agentic RAG: introduces a paradigm integrating retrieval with model-driven reasoning and decision-making, encompassing Question, LLM/LRM, Reasoning, Retrieval, Retrieved Information, Distilled Information, and Answer components.
+- The framework categorizes approaches into predefined reasoning with fixed pipelines and agentic reasoning with autonomous tool orchestration.
+- This survey reviews techniques, architectural designs, reasoning strategies, and tool coordination within this paradigm to address industry challenges.
+
+
+---
+
+[Provably Learning from Language Feedback](http://arxiv.org/abs/2506.10341v1)
+
+- HELIX: introduces a framework for Learning from Language Feedback (LLF), including an LLM Policy, Reference Policy, Reward Mapping, set of Hypotheses, set of Actions, and Score Matrix.
+- The LLM Policy generates hypotheses and actions, the Reference Policy adds random actions, and the Reward Mapping scores actions under hypotheses to form a Score Matrix.
+- The algorithm uses the Score Matrix for decision-making, employing exploitation when consensus exists and exploration otherwise, potentially re-scoring with the Reference Policy.
+
+
+---
+
+
+[SWE-Factory: Your Automated Factory for Issue Resolution Training Data and Evaluation Benchmarks](http://arxiv.org/abs/2506.10954v1)
+
+- SWE-Factory: introduces an automated pipeline for GitHub issue resolution benchmark construction, including Raw Issue Collection (Collects GitHub issue data), SWE-Builder (Automates environment setup), Grading Results (Grades test outcomes), and Fail2pass Validation (Validates fail-to-pass transition).
+- The SWE-Builder component is a multi-agent framework comprising a Repository Explorer (Collects repository setup information), Environment Manager (Generates Dockerfile), Test Manager (Generates test script), and Test Analyst (Validates environment, plans iterations), supported by an Evaluation Environment Memory Pool (Stores and reuses setups).
+- The pipeline automates environment construction, grading via exit codes, and fail2pass validation to reduce manual effort in creating large-scale, high-quality datasets.
+
+
+---
+
+[Build the web for agents, not agents for the web](http://arxiv.org/abs/2506.10953v1)
+
+- AWI (Agentic Web Interface): introduces a new web interface paradigm specifically designed for agents, featuring unified higher-level actions, compatibility with user interfaces, access control for agents, progressive information transfer, and agentic task queues.
+- This paradigm shift aims to overcome limitations of current human-designed web interfaces for web agents.
+- The paper establishes guiding principles for AWI design, emphasizing safety, efficiency, and standardization, and advocates for broad ML community involvement.
+
+
+---
+
+[Monitoring Decomposition Attacks in LLMs with Lightweight Sequential Monitors](http://arxiv.org/abs/2506.10949v1)
+
+- Lightweight Sequential Monitoring Framework: introduces a defense against decomposition attacks by using an external monitor to evaluate the cumulative context of subtasks.
+- The monitor outputs a binary flag at each step to halt the LLM if harmful intent is detected based on the prompt history.
+- This framework outperforms single-input monitoring and is cost/latency efficient for mitigating decomposition attacks.
+
+
+---
+
+[Execution Guided Line-by-Line Code Generation](http://arxiv.org/abs/2506.10948v1)
+
+- EG-CFG (Execution-Guided Classifier-Free Guidance): introduces a novel approach for neural code generation that incorporates real-time execution signals into the language model generation process, utilizing a Large Language Model, Programming Task input, Initial Prompt, Candidate Generation via beam search, Executable Extraction via AST parsing, Execution Engine for running test cases, Execution Trace generation, Dynamic Signal aggregation, Dynamic Prompt construction, Classifier-Free Guidance for token generation, an Inference Loop for autoregressive generation, and Parameter Search.
+- The method dynamically incorporates execution signals as the model generates code line-by-line, guiding the generation process toward executable solutions.
+- EG-CFG achieves state-of-the-art performance on multiple code generation benchmarks by leveraging execution feedback and Classifier-Free Guidance.
+
+
+---
+
+[Dynamic Epistemic Friction in Dialogue](http://arxiv.org/abs/2506.10934v1)
+
+- Dynamic Epistemic Friction (DEF): introduces a formal model of dynamic epistemic friction in dialogue, operationalized within Dynamic Epistemic Logic and vector-based belief representations, using epistemic states, propositions, evidence, alignment, friction, QBank, EBank, FBank, an update function, friction coefficients, and friction equilibrium.
+- The model quantifies resistance encountered during belief updates by measuring vector similarity between agent beliefs and new information combined with evidence.
+- Empirical analysis on a situated collaborative task dataset demonstrates that the model effectively predicts participant belief updates by modeling this resistance.
+
+
+---
+
+
+[OPT-BENCH: Evaluating LLM Agent on Large-Scale Search Spaces Optimization Problems](http://arxiv.org/abs/2506.10764v1)
+
+- OPT-Agent: introduces a framework that emulates human reasoning for optimizing solutions by iteratively generating, validating, and improving solutions using historical feedback, with all Drafting, Improving, Debugging, Historical Information, Error Analysis, Validation, and Metrics components.
+- The framework's workflow involves generating a Draft solution, iteratively Improving valid solutions or Debugging buggy ones based on Error Analysis and Historical Information, with Validation and Metrics guiding the process.
+- OPT-Agent is evaluated on OPT-BENCH, a benchmark of machine learning and NP problems, to assess LLMs' iterative optimization capabilities.
+
+
+---
+
+[Integrating Large Language Models into Text Animation: An Intelligent Editing System with Inline and Chat Interaction](http://arxiv.org/abs/2506.10762v1)
+
+- Text Animation Editing System: introduces an LLM-aided system for text animation editing, featuring a Script Panel (Edit text, properties), Timeline Panel (Arrange, time clips), Chat Panel (Natural language commands), Resource Panel (Manage assets), Inspector Panel (Adjust properties), Preview Panel (Visualize edits), Inline Agent (Contextual suggestions), Chat Agent (Conversational task execution), LLM (Large Language Model) (AI engine), Semantic-Animation Mapping (Intent to action), and Script-Timeline Synchronization (Panels linked).
+- This system employs a dual-mode agent pipeline (Inline and Chat Agents) powered by an LLM for intelligent assistance and natural language interaction.
+- The system aims to lower creative barriers for non-professionals and enhance editing efficiency through seamless inline edits and chat-based interactions.
+
+
+---
+
+[Grounded Vision-Language Navigation for UAVs with Open-Vocabulary Goal Understanding](http://arxiv.org/abs/2506.10756v1)
+
+- VLFly (Vision-Language Fly): introduces a novel VLN framework for UAVs, including an instruction encoding module, a goal retrieval module, a waypoint planning module, and action execution, designed for open-vocabulary goal understanding and continuous control.
+- The framework processes natural language instructions, retrieves a goal image, generates waypoints from egocentric observations, and executes continuous velocity commands.
+- VLFly achieves robust generalization and outperforms baselines in simulation and real-world UAV navigation tasks without task-specific fine-tuning.
+
+
+---
+
+[SDialog: A Python Toolkit for Synthetic Dialogue Generation and Analysis](http://arxiv.org/abs/2506.10622v1)
+
+- SDialog: introduces a Python toolkit for synthetic dialogue generation and analysis, with Turn (Single utterance), Event (Action/instruction), Dialog (Complete conversation structure), Persona (Character profile definition), PersonaAgent (Simulates agent role-playing Persona), BaseOrchestrator (Abstract control class), SimpleReflexOrchestrator (Triggers on condition), LengthOrchestrator (Controls dialogue length), ChangeMindOrchestrator (Simulates agent changing mind), SimpleResponseOrchestrator (Suggests responses by similarity), InstructionListOrchestrator (Provides sequence of instructions), DialogGenerator (Generates dialogue using LLM), PersonaDialogGenerator (Generates dialogue between Personas), Dataset Utilities (Work with external datasets), Serialization Utilities (Save/load dialogues), and Visualization Utilities (Analyze/visualize dialogues) components, designed for creating realistic, diverse, and controllable conversational data.
+- The toolkit provides abstractions for personas, orchestration, and scenario management, leveraging instruction-tuned Large Language Models for generation.
+- SDialog supports workflows like multi-agent simulation and scenario-driven generation, aiming to standardize synthetic data generation for reproducibility.
+
+
+---
+
+[Beyond Single-User Dialogue: Assessing Multi-User Dialogue State Tracking Capabilities of Large Language Models](http://arxiv.org/abs/2506.10504v1)
+
+- Multi-User Dialogue Data Construction Method: introduces a method to extend single-user dialogue datasets by incorporating a second user's utterances, utilizing a Single-User Dialogue Structure, Speech Act Type Identification, User2 Utterance Generation, User2 Utterance Validation, and an LLM to create a Multi-User Dialogue Structure for evaluating DST.
+- The method systematically generates and validates user2 utterances based on speech act theory to create a controlled multi-user setting for assessing LLM performance.
+- This approach enables evaluating LLMs on multi-user dialogue state tracking challenges with minimal dataset construction costs.
+
+
+---
+
+[BugGen: A Self-Correcting Multi-Agent LLM Pipeline for Realistic RTL Bug Synthesis](http://arxiv.org/abs/2506.10501v1)
+
+- BugGen: introduces a self-correcting multi-agent LLM pipeline, with Module Splitter (partitions RTL), Mutation Index (lists mutation types), Mutation Cache (stores history), Region Selector Agent (chooses region), Mutation Selector Agent (chooses mutation), Mutation Injector Agent (inserts mutation), Evaluation (validates bug), and Rollback/Retry (corrects failures), designed to autonomously generate, insert, and validate realistic functional bugs in RTL.
+- The pipeline leverages LLM agents in a closed-loop architecture with shared memory and iterative refinement to produce unique, syntactically valid, and functionally detectable bugs.
+- BugGen achieves high functional accuracy and throughput, outperforming existing methods and generating high-quality bug datasets suitable for training ML-based debugging models.
+
+
+---
+
+
+[Minimizing False Positives in Static Bug Detection via LLM-Enhanced Path Feasibility Analysis](http://arxiv.org/abs/2506.10322v1)
+
+- LLM4PFA (LLM-Enhanced Path Feasibility Analysis): introduces an iterative path feasibility analysis framework for static bug detection, with Iterative Function Analysis, Feasible Path Constraint Extraction, Critical Path Conditional Branches Identification, Feasible Path Conditional Expression Extraction, Context-Aware Symbolic Range Reasoning, LLM Agent, Variable Symbolic Range Reasoning, Function Call Symbolic Range Reasoning, Function Retrieval Tool, Source Code Repository, Function Call Memory, Constraints Solving, SMT Query Script Generation, Script Template Generation, SMT Constraints Generation, Script Merging, Constraint Solver, Control-Flow Graph (CFG), and Initial States P.
+- The framework iteratively analyzes functions in a call trace, extracting and solving feasible path constraints using LLM agents for symbolic reasoning and a constraint solver.
+- LLM4PFA leverages LLM agents' self-planning and tool-usage capabilities for context-aware symbolic range reasoning and iteratively generates and solves SMT queries to minimize false positives.
+
+
+---
+
+[WGSR-Bench: Wargame-based Game-theoretic Strategic Reasoning Benchmark for Large Language Models](http://arxiv.org/abs/2506.10264v1)
+
+- WGSR-Bench: introduces, "a wargame-based benchmark for large language models", with Environmental situational awareness, Opponent risk assessment, and Policy generation components, where "it systematically assesses strategic reasoning abilities using wargame scenarios".
+- The benchmark evaluates LLMs' capabilities in multi-agent decision-making, intent inference, and counterfactual reasoning within a high-complexity wargame environment.
+- It employs a structured cognitive framework (S-POE) and utilizes real adversarial wargame data for comprehensive evaluation and analysis.
+
+
+---
+
+
 #### 11th June 2025
+
+
+
+[AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution](http://arxiv.org/abs/2506.10175v1)
+
+- AURA (Attribution Using Retrieval-Augmented Agents): introduces a multi-agent framework for cyber threat attribution, comprising input processing, query rewriting, semantic retrieval, decision making, external search, attribution generation, conversational memory, and a knowledge base.
+- The framework processes diverse threat data via collaborative agents, integrating Retrieval-Augmented Generation (RAG) with Large Language Models (LLMs) for knowledge-enhanced reasoning and interpretable attribution.
+- AURA generates transparent, evidence-backed attribution decisions by tracing reasoning to contextual evidence and providing natural language justifications.
+
+
+---
+
+
+
+[Disclosure Audits for LLM Agents](http://arxiv.org/abs/2506.10171v1)
+
+- CMPL (Conversational Manipulation for Privacy Leakage): introduces an automated auditing framework for conversational privacy risks in LLM agents, featuring an Application Agent A (LLM agent being audited), an Adversary U (LLM agent attempting leakage), and an Auditor D (LLM agent detecting leakage) interacting within a Conversation Loop (iterative interaction process) based on a Scenario Description σ (public context), Information Subject Profile I (private data), Privacy Directive ψ (disclosure rules), and Task Description T (agent A's goal).
+- The Adversary U employs a Strategist Se (adversary planning module) and Prompt Generator Ge (adversary query module) to manipulate the Conversation History H (dialogue turns) and may use a Side-channel Predictor Pe (adversary inference module) to make a Prediction (adversary guess) with Confidence kt (adversary prediction score).
+- The Auditor D monitors the Conversation History H and uses an Entail Function (auditor explicit leakage detector) and the adversary's Prediction and Confidence to produce an Indicator zt (auditor leakage signal) when explicit or implicit leakage is detected, while both agents utilize Memory (stores/summarizes history) to maintain state.
+
+
+---
+
+[Chat-of-Thought: Collaborative Multi-Agent System for Generating Domain Specific Information](http://arxiv.org/abs/2506.10086v1)
+
+- Chat-of-Thought: introduces a collaborative multi-agent system for domain-specific information generation, featuring LLM-based Agents, Context Discovery, Multi-Round Chain of Interactions, Template-driven Routing, and Quality Check.
+- The system employs specialized LLM-based Agents with defined roles and state to engage in iterative discussions guided by templates and dynamic assignment.
+- It leverages diverse input sources, question/answer banks, and various learning methods to generate and refine domain-specific knowledge like FMEA documents.
+
+
+---
+
+[A quantum semantic framework for natural language processing](http://arxiv.org/abs/2506.10077v1)
+
+- Quantum Semantic Framework: introduces a non-classical approach to natural language processing, modeling semantic meaning as observer-dependent and contextually actualized through the interaction of a Semantic Expression (symbol affording interpretations) and an Interpretive Agent (observer) via an Interpretive Observable (semantic probe operator).
+- The framework posits that meaning is not intrinsic but emerges dynamically, influenced by the agent's Semantic Memory (agent internal state) and Context (situational factors), with interpretation dynamics governed by a Semantic Hamiltonian (interpretation dynamics).
+- A Semantic Bell Test (experimental method) using LLM Agents (computational observers) configured with Personas (agent configurations) and presented with Ambiguous Word Pairs (stimuli) demonstrates non-classical contextuality in interpretation, supporting the framework's premise.
+
+
+---
+
 
 [AI Agent Behavioral Science](https://arxiv.org/abs/2506.06366)
 
