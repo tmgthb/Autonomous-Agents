@@ -1450,7 +1450,7 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 ---
 
-[FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes](http://arxiv.org/abs/2506.03278v1)
+[FailureSensorIQ: A Multi-Choice QA Dataset for Understanding Sensor Relationships and Failure Modes](https://huggingface.co/papers/2506.03278)
 
 - FailureSensorIQ (Multi-Choice Question-Answering benchmarking system): introduces FailureSensorIQ Dataset (benchmark data), LLMs (models evaluated), Evaluation Module (measures performance), Prompting (input formatting), Perturbation Pipeline (dataset variations), ReAct Agent (LLM with tools), External Knowledge Sources (retrieval resources), where FailureSensorIQ is a benchmarking system designed to assess LLMs' reasoning on industrial domain QA using a novel dataset.
 - The system utilizes a Dataset Generation Pipeline to create the FailureSensorIQ Dataset from expert knowledge and evaluates LLMs using various Prompting strategies and an Evaluation Module, including tests with a Perturbation Pipeline and a ReAct Agent accessing External Knowledge Sources.
