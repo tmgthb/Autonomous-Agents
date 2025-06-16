@@ -43,6 +43,155 @@ Chronological order.
 
 </div>
 
+#### 13th June 2025
+
+[ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification](https://arxiv.org/abs/2506.11442)
+
+- ReVeal: introduces a multi-turn reinforcement learning framework for code agents, featuring an Iterative Generation-Verification Loop where a Policy LLM generates code and test cases, External Tools execute them, and Tool Feedback provides results, guided by Turn-Level Reward Design and Outcome Reward, trained using Turn-Aware PPO on the Dataset (TACO).
+- The framework enables LLMs to autonomously generate and verify code through iterative refinement and tool interaction, improving performance and self-verification capabilities.
+- ReVeal's approach allows for effective test-time scaling into deeper inference regimes and pushes reasoning boundaries beyond the base model.
+
+
+---
+
+
+[Robot Context Protocol (RCP): A Runtime-Agnostic Interface for Agent-Aware Robot Control](https://arxiv.org/abs/2506.11650)
+
+- RCP (Robot Context Protocol): introduces, "a lightweight, middleware-agnostic communication protocol designed to abstract robotic system complexity", with Adapter Layer (Translates client interfaces), Transport Layer (Handles communication channels), Service Layer (Defines core operations), ROS2 Interface Layer (Maps to ROS2 runtime), and Status Query (Provides health and feedback), where "RCP provides a unified and semantically meaningful interface that decouples client-facing operations from backend implementations".
+- The protocol is structured in modular layers, including the Adapter Layer for diverse clients, the Transport Layer for communication channels (HTTP, WebSocket, SSE), the Service Layer for high-level operations (read, execute, write, subscribe), and the ROS2 Interface Layer for mapping to the underlying runtime.
+- RCP includes a Status Query component for real-time protocol health and command feedback, supporting robustness and operational transparency.
+
+
+---
+
+[Your Ride, Your Rules: Psychology and Cognition Enabled Automated Driving Systems](http://arxiv.org/abs/2506.11842v1)
+
+- PACE-ADS (Psychology and Cognition Enabled Automated Driving Systems): introduces a human-centered autonomy framework with Driver Agent (Analyzes external traffic), Psychologist Agent (Interprets occupant psychological state), and Coordinator Agent (Synthesizes inputs, decides behavior) interfacing with Perception module (Provides sensor data), Route planning module (Computes global route), Motion planning module (Generates behavior, trajectory), and Control module (Executes planned trajectory) for adaptive driving.
+- The framework leverages LLM-based agents to sense, interpret, and respond to both external traffic conditions and internal occupant states.
+- Operating in a closed-loop architecture, the system dynamically adjusts driving style and supports vehicle operation recovery.
+
+
+---
+
+
+[Revealing Political Bias in LLMs through Structured Multi-Agent Debate](http://arxiv.org/abs/2506.11825v1)
+
+- Structured Multi-Agent Debate Framework: introduces a system to investigate political bias in LLMs, with LLM Agents (Simulate participants) assigned Agent Personas (Political/gender identities) debating generated Debate Scenarios (Generated topics/questions) following a specific Debate Format (Structured rounds/statements), evaluated by an LLM-as-a-Judge (Evaluates attitudes) using Attitude Scoring (Quantifies agreement/disagreement) and a defined Speaking Order (Agent turn sequence).
+- The framework systematically varies LLM models, agent gender attributes, and debate formats to examine influences on political bias and attitude shifts.
+- Experiments reveal Republican agents shift towards neutral, gender influences attitudes, and echo chambers form with attitude intensification, particularly when gender is known.
+
+
+---
+
+[SEC-bench: Automated Benchmarking of LLM Agents on Real-World Software Security Tasks](http://arxiv.org/abs/2506.11791v1)
+
+- SEC-bench: introduces an automated benchmarking framework for evaluating LLM agents on security engineering tasks, with Preprocessor (collects instances), Verifier (reproduces, verifies vulnerabilities), and Evaluator (transforms, formulates tasks) components.
+- The Verifier component employs a multi-agent scaffold including Manager, Builder, Exploiter, and Fixer agents to reproduce and validate vulnerabilities.
+- The framework automatically creates high-quality software vulnerability datasets with reproducible artifacts for evaluating LLM agent capabilities in tasks like proof-of-concept generation and vulnerability patching.
+
+
+---
+
+[AgentSense: Virtual Sensor Data Generation Using LLM Agents in Simulated Home Environments](http://arxiv.org/abs/2506.11773v1)
+
+- AgentSense: introduces a virtual data generation pipeline using LLM agents in simulated home environments to create diverse sensor data for human activity recognition.
+- The pipeline involves LLMs generating personas, routines, and actions, which are then executed in an extended VirtualHome simulator equipped with virtual ambient sensors.
+- The generated virtual sensor data is used to pretrain HAR models, demonstrating improved performance, especially in low-resource settings, compared to training solely on real data.
+
+
+---
+
+[DeepResearch Bench: A Comprehensive Benchmark for Deep Research Agents](http://arxiv.org/abs/2506.11763v1)
+
+- RACE and FACT evaluation frameworks: introduce two novel evaluation frameworks, with Judge LLM, Adaptive Criteria Generation, Reference-Based Scoring, Statement-URL Extraction, Support Judgment, Jina Reader API, and Citation Metrics Calculation components, designed to comprehensively assess Deep Research Agents.
+- RACE evaluates report generation quality using adaptive criteria and reference-based scoring, while FACT assesses information retrieval and citation trustworthiness.
+- These frameworks are part of the DeepResearch Bench, a benchmark of 100 PhD-level research tasks for evaluating LLM-based agents.
+
+
+---
+
+[A Hybrid Multi-Agent Prompting Approach for Simplifying Complex Sentences](http://arxiv.org/abs/2506.11681v1)
+
+- Hybrid Multi-Agent Prompting Approach: introduces a system using multi-agent collaboration for sentence simplification, including Agent 1 Sentence Simplifier, Agent 2 Semantic and Lexical Similarity Evaluator, Agent 3 Alternative Sentence Simplifier, and Comparator components.
+- The system processes complex sentences through a workflow where agents decompose, evaluate, and iteratively revise the output to preserve meaning while reducing complexity.
+- This multi-agent architecture demonstrates improved performance over single-agent methods for simplifying complex sentences in domains like video game design.
+
+
+---
+
+[ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification](http://arxiv.org/abs/2506.11442v1)
+
+- ReVeal: introduces a multi-turn reinforcement learning framework that enables code agents to engage in an iterative generation-verification loop using a single Policy LLM, guided by Input Prompt and Tool Feedback, structured as a Multi-turn Rollout producing an Output Rollout, optimized with Outcome Reward and Turn-Level Rewards via Turn-Aware PPO.
+- The framework alternates between Generation (producing code) and Verification (generating test cases and plans) stages, leveraging external Tools like Python Interpreters for execution.
+- This iterative process and dense reward structure allow the model to self-verify, refine outputs, and improve both generation and verification capabilities over multiple turns.
+
+
+---
+
+[Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards](http://arxiv.org/abs/2506.11425v1)
+
+- Agent-RLVR: introduces a framework for training software engineering agents using Reinforcement Learning from Verifiable Rewards (RLVR), incorporating agent guidance and environment rewards, with Policy, Environments, Trajectory, Evaluation, Environment Information, Agent Guidance, Guidance Generation, RLVR Data, Policy Update, and Instruct Tuning components.
+- The framework trains an agent Policy by having it interact with Environments, evaluating Trajectories via Evaluation, generating Environment Information from failures, and using Guidance Generation to create Agent Guidance.
+- Incorrect trajectories are reattempted with Agent Guidance, and the resulting RLVR Data is used for Policy Update via DPO and optional Instruct Tuning to improve agent performance.
+
+
+---
+
+[Large Language Model-Powered Conversational Agent Delivering Problem-Solving Therapy (PST) for Family Caregivers: Enhancing Empathy and Therapeutic Alliance Using In-Context Learning](http://arxiv.org/abs/2506.11376v1)
+
+- LLM-powered Conversational Agent Models: introduces an LLM-powered agent delivering Problem-Solving Therapy (PST) for family caregivers, integrating Motivational Interviewing (MI) and Behavioral Chain Analysis (BCA) using prompting techniques, Retrieval-Augmented Generation (RAG), and clinician-curated content.
+- The research evaluates four distinct configurations of this agent, comparing different LLMs (GPT-40, Llama 3) and combinations of in-context learning techniques (Few-shot, RAG) for their impact on perceived empathy and therapeutic alliance.
+- The models aim to provide empathetic and tailored mental health support by improving contextual understanding and generating personalized, actionable strategies for caregivers.
+
+
+---
+
+
+[Secure API-Driven Research Automation to Accelerate Scientific Discovery](https://arxiv.org/abs/2506.11950)
+
+- S3M (Secure Scientific Service Mesh): introduces, "Secure Scientific Service Mesh (Overall framework), Manages data streaming, Automates complex workflows, Manages compute jobs, Provides resource status, Retrieves environment info, Manages access tokens, Enables secure communication, Underlying service mesh platform, Python interface, Validates client interactions, Creates streaming objects, Deploys streaming clusters", a framework providing API-driven infrastructure for automated scientific discovery with integrated streaming, workflow orchestration, and fine-grained authorization.
+- The framework utilizes a service mesh architecture built on OpenShift and Istio to ensure modularity, scalability, and policy-driven security enforcement across computational services.
+- S3M offers a comprehensive set of APIs and an SDK to enable authenticated external systems and intelligent agents to securely provision resources, stream data, and trigger compute jobs dynamically.
+
+
+---
+
+[Your Ride, Your Rules: Psychology and Cognition Enabled Automated Driving Systems](https://arxiv.org/abs/2506.11842)
+
+- PACE-ADS (Psychology and Cognition Enabled Automated Driving Systems): introduces a human-centered autonomy framework with Psychologist Agent (Interprets occupant state/intent), Driver Agent (Perceives external traffic context), Coordinator Agent (Synthesizes inputs, decides behavior), Perception module (Provides sensor data), Route planning module (Plans/replans vehicle route), Motion planning module (Generates behaviors/trajectories), and Control Module (Executes low-level commands), enabling AVs to sense, interpret, and respond to external traffic and internal occupant states.
+- The framework uses three specialized foundation model agents in an agentic workflow to manage complex driving tasks and enable adaptive, interpretable, and collaborative driving.
+- PACE-ADS complements existing AV modules by operating at the high-level behavioral decision layer, personalizing riding experience, and supporting recovery from immobilization.
+
+
+---
+
+[Self-Regulating Cars: Automating Traffic Control in Free Flow Road Networks](https://arxiv.org/abs/2506.11973)
+
+- SRC (Self-Regulating Cars): introduces a physics-informed reinforcement learning protocol for automating traffic control in free-flow networks by having a central RL agent modulate vehicle speeds on super-segments based on traffic state observations, guided by a reward function.
+- The system utilizes Deep Q-Learning with a neural network to learn speed modulation policies, evaluated in a PTV Vissim simulation environment.
+- The approach aims to optimize network throughput and prevent congestion by coordinating individual self-regulating cars without requiring new physical infrastructure.
+
+
+---
+
+[PE-MA: Parameter-Efficient Co-Evolution of Multi-Agent Systems](https://arxiv.org/abs/2506.11803)
+
+- PE-MA (Parameter-Efficient Multi-Agent Co-Evolution): introduces, "a novel collaboration framework", with Frozen Backbone (Fixed feature extractor), Personalized Adapter (Adapts to local tasks/data), Shared Adapter (Shares knowledge across agents), Communication Mechanism (Exchanges and aggregates adapters), designed for efficient, scalable, and personalized co-evolution in multi-agent systems.
+- Each agent maintains a lightweight personalized adapter for agent-specific behavior and a shared adapter collaboratively optimized across neighboring agents.
+- The dual-adapter architecture balances global coordination with local adaptation, significantly reducing training and communication costs.
+
+
+---
+
+[Interaction, Process, Infrastructure: A Unified Architecture for Human-Agent Collaboration](https://arxiv.org/abs/2506.11718)
+
+- Unified Architecture for Human-Agent Collaboration: introduces a layered framework for human-agent collaboration with Interaction Layer (surface of shared understanding), Process Layer (collaborative core), and Infrastructure Layer (orchestration, execution, memory).
+- The Process Layer explicitly models goals, workflows, and progress, serving as connective tissue for human-agent alignment and coordination over time.
+- This modular architecture supports transparency, extensibility, and adaptive, goal-aligned collaboration by decoupling interaction, process logic, and computational foundation.
+
+
+---
+
 
 #### 12th June 2025
 
@@ -64,6 +213,36 @@ Chronological order.
 
 
 ---
+
+
+[From Replication to Redesign: Exploring Pairwise Comparisons for LLM-Based Peer Review](http://arxiv.org/abs/2506.11343v1)
+
+- GPT ranking system: introduces a novel peer review mechanism using LLM agents for pairwise comparisons, aggregated by the Bradley-Terry model to derive a global ranking of submissions.
+- The system contrasts pairs of manuscripts to determine relative quality, moving away from traditional independent absolute scoring.
+- Empirical experiments demonstrate the system's potential to identify high-impact papers more effectively than rating-based methods, while also revealing biases against topic novelty and institutional diversity.
+
+
+---
+
+[LLM-as-a-Judge for Reference-less Automatic Code Validation and Refinement for Natural Language to Bash in IT Automation](http://arxiv.org/abs/2506.11237v1)
+
+- Reflection Agent with Dedicated Evaluator: introduces a system for automatic code validation and refinement, including a Code Generator, Reflect module, and Evaluator using specific metrics.
+- The Evaluator utilizes Bidirectional Functionality Matching and Logic Representation metrics to assess generated Bash code quality without requiring reference code.
+- The system incorporates judgments and feedback from the evaluation metrics to refine the initial code snippet generated by the Code Generator.
+
+
+---
+
+
+[Using Invocable APIs derived from NL2SQL datasets for LLM Tool-Calling Evaluation](http://arxiv.org/abs/2506.11266v1)
+
+- LLM Tool-Calling Evaluation Framework: introduces a method to convert NL2SQL datasets into NL2API datasets for LLM tool-calling evaluation using a Data Generation Pipeline.
+- The framework includes generated API Collections (SLOT, SEL, REST) with varying characteristics, Invocable APIs for live interaction, and an Evaluation Set pairing natural language queries with ground-truth API sequences.
+- It evaluates the performance of various LLMs and ReACT Agents on these generated datasets to assess their tool-calling capabilities.
+
+
+---
+
 
 
 [Reasoning RAG via System 1 or System 2: A Survey on Reasoning Agentic Retrieval-Augmented Generation for Industry Challenges](http://arxiv.org/abs/2506.10408v1)
@@ -207,6 +386,14 @@ Chronological order.
 
 #### 11th June 2025
 
+[AUTONOMOUS COMPUTER VISION DEVELOPMENT WITH AGENTIC AI](https://arxiv.org/abs/2506.11140)
+
+- Agentic AI approach: introduces an autonomous computer vision development system, with OpenManus Agent (Orchestrates task execution), Memory (Stores runtime state/context), Planning (Decomposes tasks, selects tools), Reasoning (Analyzes inputs, makes decisions), Self-Correction/Adaptation (Handles errors, refines plans), Tools (Execute Python, browser, files, shell), SimpleMind Framework (Executes computer vision tasks), Configurable Tools (Perform image processing, neural nets), Knowledge Graph (Defines SimpleMind workflow), Blackboard (Central working memory), SM-Learn (Trains neural network weights), SM-Think (Performs inference), User Prompt (Natural language task input), System Prompt (Guides LLM planning), Verifier (Checks YAML configuration), Tool Configuration File (KG) (YAML workflow definition), Tool Execution (Runs SimpleMind modules), where the system translates natural language prompts into SimpleMind workflows for medical image analysis.
+- The OpenManus agent leverages an LLM for planning and tool use, generating a YAML Knowledge Graph that configures SimpleMind's computer vision tools.
+- SimpleMind executes the planned workflow, utilizing its Blackboard for data flow and SM-Learn/SM-Think for training and inference on medical images.
+
+
+---
 
 
 [AURA: A Multi-Agent Intelligence Framework for Knowledge-Enhanced Cyber Threat Attribution](http://arxiv.org/abs/2506.10175v1)
@@ -408,6 +595,16 @@ Chronological order.
 
 
 ---
+
+[GUIROBOTRON-SPEECH: TOWARDS AUTOMATED GUI AGENTS BASED ON SPEECH INSTRUCTIONS](https://arxiv.org/abs/2506.11127)
+
+- GUIRoboTron-Speech: introduces an end-to-end autonomous GUI agent accepting speech instructions and screenshots, with Vision Encoder (Processes GUI screenshot), Audio Encoder (Processes speech instruction), Large Language Model (Processes inputs, predicts action), Grounding Stage (Trains visual understanding), and Planning Stage (Trains reasoning and planning) components, designed to predict GUI actions from multimodal input.
+- The approach leverages a progressive training framework with grounding and planning stages to develop capabilities in understanding GUI elements and task execution.
+- Mixed-instruction training is employed during the grounding stage to mitigate modality imbalance from pre-trained foundation models.
+
+
+---
+
 
 [Agent-based Condition Monitoring Assistance with Multimodal Industrial Database Retrieval Augmented Generation](http://arxiv.org/abs/2506.09247v1)
 
@@ -3327,6 +3524,16 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 #### 25th May 2025
 
+[SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/abs/2505.20347)
+
+- SeRL (Self-play Reinforcement Learning): introduces a framework for bootstrapping LLM training with limited data, featuring Self-Instruction (Generates/filters instructions) and Self-Rewarding (Estimates rewards).
+- Self-Instruction employs an Online Instruction Filter (Ensures quality/diversity/difficulty), and Self-Rewarding uses Majority Voting (Reward estimation mechanism) for unsupervised RL Training (Performs reinforcement learning) of the LLM (Large Language Model being trained).
+- The iterative self-play process enables performance comparable to training with extensive high-quality data and verifiable rewards.
+
+
+---
+
+
 [ALRPHFS: Adversarially Learned Risk Patterns with Hierarchical Fast & Slow Reasoning for Robust Agent Defense](http://arxiv.org/abs/2505.19260v1)
 
 - ALRPHFS (Adversarially Learned Risk Patterns with Hierarchical Fast&Slow Reasoning): introduces a defense framework with an Offline Module (constructs database) for learning risk patterns and an Online Module (implements real-time defense) for hierarchical reasoning.
@@ -3584,6 +3791,16 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 ---
 
 #### 23rd May 2025
+
+[Self-Training Large Language Models with Confident Reasoning](https://arxiv.org/abs/2505.17454)
+
+- CORE-PO: introduces a self-training method for large language models, with LLM, Reference Model, Confidence Computation, Preference Annotation, and Policy Optimization components, that fine-tunes LLMs to prefer high-confidence reasoning paths.
+- The method incorporates reasoning-level confidence estimation to identify high-quality reasoning paths, addressing limitations of methods relying solely on answer-level confidence.
+- CORE-PO uses Policy Optimization (Direct Preference Optimization) to train the LLM based on preference pairs derived from reasoning-level and answer-level confidence scores.
+
+
+---
+
 
 [DanmakuTPPBench: A Multi-modal Benchmark for Temporal Point Process Modeling and Understanding](http://arxiv.org/abs/2505.18411v1)
 
@@ -4955,6 +5172,16 @@ Gaming Tool Preferences in Agentic LLMs](http://arxiv.org/abs/2505.18135v1)
 
 ---
 
+[Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization](https://arxiv.org/abs/2504.05812)
+
+- EMPO (Entropy Minimized Policy Optimization): introduces a fully unsupervised LLM reasoning incentivization framework with a Policy Model, LLM Outputs, Semantic Clusters, Rewards, Normalize, and Advantages.
+- The framework samples LLM outputs, clusters them semantically, and calculates rewards based on cluster likelihood to minimize semantic entropy.
+- EMPO leverages semantic entropy as an intrinsic reward signal and uses entropy thresholding to stabilize training without external supervision.
+
+
+---
+
+
 [ESC-Judge: A Framework for Comparing Emotional Support Conversational Agents](http://arxiv.org/abs/2505.12531v1)
 
 - ESC-Judge: introduces a framework for comparing emotional support conversational agents, with Role Construction (Synthesizes help-seeker roles), Help Seeker Agent (Simulates patient role), ES Agents (Candidate support models), Dialogue Engine (Manages conversation flow), End-of-Conversation Detector (Identifies dialogue conclusion), Judge LLM (Compares agent performance), and Evaluation Rubric (Hill's E-I-A based), which automates evaluation using a three-stage LLM-driven pipeline grounded in the E-I-A counselling model.
@@ -5000,6 +5227,15 @@ Gaming Tool Preferences in Agentic LLMs](http://arxiv.org/abs/2505.18135v1)
 - AlphaEvolve: introduces an evolutionary coding agent that orchestrates an autonomous pipeline including a User defining the task, Task Specification, an Initial Program, an Evaluation Function, a Prompt Sampler, an LLMs Ensemble generating Code Modifications, an Evaluators Pool executing and scoring programs, a Program Database storing results and guiding evolution, and a Distributed Controller Loop orchestrating the process to find the Best Program.
 - The system iteratively improves algorithms by making direct code changes using an evolutionary approach, continuously receiving feedback from evaluators.
 - AlphaEvolve leverages state-of-the-art LLMs and automated evaluation to discover novel algorithms and optimize computational infrastructure.
+
+
+---
+
+[Mind the Metrics: Patterns for Telemetry-Aware In-IDE AI Application Development using Model Context Protocol (MCP)](https://arxiv.org/abs/2506.11019)
+
+- MCP (Model Context Protocol): introduces telemetry-aware IDEs, with AI Application (streams traces), AI-Assisted IDE (contains client, LLM), MCP Client (requests metrics/traces), MCP Server (stores, queries telemetry), Metrics & Telemetry Store (backend data storage), Tool-calling LLM (refines prompts/code), Autonomous Monitoring Agents (monitor, suggest improvements), and CI Job (tests, telemetry checks), enabling iterative optimization and robust monitoring of AI applications by integrating real-time telemetry into the development loop.
+- The framework unifies prompt engineering with live metrics, traces, and evaluations via an MCP client/server architecture.
+- This approach provides a general architecture for consolidating prompt and agent telemetry to support various optimization techniques and workflows across development, CI, and production.
 
 
 ---
