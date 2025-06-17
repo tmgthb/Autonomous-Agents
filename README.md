@@ -43,6 +43,229 @@ Chronological order.
 
 </div>
 
+#### 16th June 2025
+
+[We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems](http://arxiv.org/abs/2506.13666v1)
+
+- SAFEMCP: introduces a controlled framework to examine safety issues in MCP-powered agent systems, with Agent, Backbone LLM, MCP-Servers, Attack, Defense, Passive Defense, Active Defense, Evaluation, Scenario, and Metric components.
+- The framework simulates third-party attacks on LLM agents interacting with external services via the Model Context Protocol (MCP).
+- SAFEMCP provides tools for evaluating attack effectiveness and defense strategies using various scenarios and metrics.
+
+
+---
+
+[CAMS: A CityGPT-Powered Agentic Framework for Urban Human Mobility Simulation](http://arxiv.org/abs/2506.13599v1)
+
+- CAMS: introduces a CityGPT-powered agentic framework for urban human mobility simulation, with MobExtractor (Extracts/synthesizes mobility patterns), GeoGenerator (Generates geospatial knowledge/trajectories), and TrajEnhancer (Enhances trajectories via DPO) components.
+- The framework leverages an urban foundation model (CityGPT) and agentic reasoning to generate realistic and plausible human mobility trajectories.
+- CAMS integrates urban spatial knowledge and multi-dimensional feedback for controllable and generalizable simulation without relying on external geospatial information.
+
+
+--
+
+[Language Agents for Hypothesis-driven Clinical Decision Making with Reinforcement Learning](http://arxiv.org/abs/2506.13474v1)
+
+- LA-CDM: introduces a hypothesis-driven uncertainty-aware language agent system for clinical decision making, comprising a Hypothesis Agent (forms hypothesis and confidence), a Decision Agent (decides action), Shared LLM Weights (underlying language model), and a Clinical Decision Making Environment (simulates patient interaction and provides feedback).
+- The system is trained using a hybrid paradigm combining supervised learning for hypothesis generation and reinforcement learning for uncertainty estimation and efficient action selection.
+- This approach models the iterative clinical process of forming hypotheses and requesting tests to converge towards a diagnosis, improving diagnostic performance and efficiency.
+
+
+---
+
+[Towards Pervasive Distributed Agentic Generative Al - A State of The Art](http://arxiv.org/abs/2506.13324v1)
+
+- Pervasive Distributed Agentic Generative AI: surveys the state of the art in LLM-based agents deployed in pervasive computing environments, detailing the Transformer Architecture, Short-Term Memory, Long-Term Memory, Hybrid Memory, Cloud Layer, Fog Layer, and Edge Layer components.
+- The paper examines the architecture of LLM agents, their deployment strategies across different infrastructure layers, and evaluation methods.
+- It highlights challenges in deploying these agents on resource-constrained pervasive devices and proposes the "Agent as a Tool" concept.
+
+
+---
+
+[A Game-Theoretic Negotiation Framework for Cross-Cultural Consensus in LLMS](http://arxiv.org/abs/2506.13245v1)
+
+- Game-Theoretic Negotiation Framework: introduces a systematic approach for cross-cultural consensus among LLMs, with Cultural Agents, Guideline Sets, Guideline Weights, Utility Functions, Negotiation Process (PSRO-based), Meta Strategy Solver, Best Response Oracle, Regional Cultural Agents, and Consensus Evaluation Toolkit, designed to achieve fair and robust agreement.
+- The framework models consensus as a Nash Equilibrium and employs a PSRO-based negotiation process driven by utility functions balancing consistency, acceptance, and novelty.
+- Culturally aligned Regional Cultural Agents are constructed using survey data, and consensus outcomes are evaluated using perplexity-based acceptance and value self-consistency metrics.
+
+
+---
+
+[Querying Large Automotive Software Models: Agentic vs. Direct LLM Approaches](http://arxiv.org/abs/2506.13171v1)
+
+- Direct Full-Context Prompting: introduces a baseline approach where the LLM (Processes model) receives the entire Software Model File (Complete input data) along with Instructions (Guidance for LLM) and a Question (User query) to produce an Answer (LLM response).
+- Agent with File Tools (ReAct Architecture): presents an agentic approach where the LLM (Agent's reasoning engine) interacts with Software Model Files (Data source) via a Toolkit (External tool access) containing specific Tools (File interaction functions), communicating through Messages (Communication channel) and append observation (Tool output) to answer a User (Initiates query) Question (User query) with an Answer (Agent's response).
+- The study compares these two architectures for querying large automotive software models, evaluating their accuracy and token efficiency using various LLMs and a custom question dataset.
+
+
+---
+
+[Leveraging In-Context Learning for Language Model Agents](http://arxiv.org/abs/2506.13109v1)
+
+- ICL-DS (In-Context Learning with Demonstration Selection): introduces an approach for LLM agents that leverages in-context learning with dynamically selected demonstrations, including an LLM Agent (generates thoughts and actions), a Demonstration Pool (stores annotated trajectories and snippets), an Iterative Annotation Algorithm (automatically annotates tasks for demonstrations), a Demonstration Selector (retrieves relevant demonstrations), Prompt Construction (formats input for LLM), a ReAct Solver (executes tasks iteratively with reasoning), a Plan & Execute (PnE) Solver (plans subtasks and executes them), and an Environment (provides observations and executes actions).
+- The paper proposes an iterative annotation algorithm to automatically and efficiently create a demonstration pool of solution trajectories for agentic tasks, which are then used to improve LLM agent performance, reliability, and efficiency.
+- The research demonstrates that using task-level trajectory demonstrations and smaller step-level snippet demonstrations significantly boosts performance for LLM agents, enabling them to rival costlier trained agents.
+
+
+---
+
+[MOTIVEBENCH: How Far Are We From Human-Like Motivational Reasoning in Large Language Models?](http://arxiv.org/abs/2506.13065v1)
+
+- MOTIVEBENCH: a comprehensive evaluation benchmark designed to assess the extent to which Large Language Models (LLMs) can replicate human-like motivations and behaviors, consisting of 200 rich contextual scenarios and 600 reasoning tasks covering multiple levels of motivation.
+- The benchmark addresses limitations of existing datasets by providing detailed scenarios, character profiles, and reasoning tasks that mimic real-world situations, thereby enabling a more accurate evaluation of LLMs' motivational intelligence.
+- MOTIVEBENCH aims to provide insights into LLMs' capabilities in understanding and exhibiting human-like motivational reasoning, highlighting areas where current models fall short and suggesting directions for future research in humanizing LLMs.
+
+
+---
+
+[MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer](http://arxiv.org/abs/2506.13037)
+
+- MAGIC (Multi-Agent Argumentation and Grammar Integrated Critiquer): is a framework that utilizes multiple specialized agents to evaluate distinct writing aspects, aiming to predict holistic scores and produce detailed, rubric-aligned feedback for essays.
+- The framework employs an orchestrator to consolidate the outputs from individual agents, which focus on specific components of argumentative writing such as argument structure, grammar, vocabulary, and comprehension.
+- MAGIC aims to provide greater transparency, flexibility, and extensibility compared to monolithic automated essay scoring and feedback systems.
+
+
+---
+
+[Scaling Test-time Compute for LLM Agents](http://arxiv.org/abs/2506.12928v1)
+
+- ATTS (Agentic Test-Time Scaling): explores test-time scaling strategies for language agents, including parallel sampling, sequential revision, verifiers and merging, and diversifying rollouts.
+- The research systematically analyzes the impact of different design strategies on agent performance, finding that scaling test-time compute improves agent capabilities.
+- Key findings include the importance of knowing when to reflect, the superiority of list-wise methods for verification and merging, and the positive effect of diversified rollouts on agent performance.
+
+
+---
+
+#### 15th June 2025
+
+[WEREWOLF-PLUS: AN UPDATE OF WEREWOLF GAME SETTING BASED ON DSGBENCH](http://arxiv.org/abs/2506.12841v1)
+
+- WereWolf-Plus: introduces a multi-model, multi-dimensional, and multi-method benchmarking platform with Werewolf Simulation (Rule-compliant environment), LLM Agents (Flexible model assignment), Role Configuration (Customizable roles), Reasoning Enhancement (Experience-Retrieval Augmentation), and Evaluation Framework (Metrics for agents) for evaluating multi-agent strategic reasoning in the Werewolf game.
+- The platform provides a flexible and reliable environment supporting standard and customizable game setups with various roles and flexible LLM-role assignment.
+- WereWolf-Plus incorporates retrieval-augmented memory for contextual compression and reflection, and introduces comprehensive quantitative evaluation metrics for different roles and players.
+
+
+---
+
+[Mastering Da Vinci Code: A Comparative Study of Transformer, LLM, and PPO-based Agents](http://arxiv.org/abs/2506.12801v1)
+
+- Transformer-based Baseline Model: introduces, with Transformer architecture (Predicts opponent tiles), Input Representation (Current game state string), and Prediction Task (Predict hidden tile values) components, a model designed to predict opponent tiles based on the current public game state.
+- This baseline model utilizes a Transformer architecture but is limited by its restricted access to the full game history.
+- Its reasoning is primarily based on the current state snapshot and explicit negative constraints from prior guesses.
+
+
+---
+
+[SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy Risks, and Mitigation](http://arxiv.org/abs/2506.12699v1)
+
+- Systematization of Knowledge (SoK) on LLM Privacy: introduces a comprehensive analysis of privacy challenges in LLMs, categorizing them across training data, user prompts, generated outputs, and LLM agents, with all LLM (Large Language Model), LLM System, Training Data, User Prompts, LLM Generated Output, LLM Agent System, Main LLM Agent, Secondary Agents, External Tools, Knowledge Base, Memory, User, Service Provider-components, where the paper evaluates existing mitigation techniques and identifies research gaps.
+- The paper highlights how LLMs' advanced capabilities and interactive nature introduce distinct privacy risks compared to traditional AI.
+- It discusses various mitigation strategies for each category of privacy challenge, noting their effectiveness and limitations.
+
+
+---
+
+[SCISAGE: A MULTI-AGENT FRAMEWORK FOR HIGH-QUALITY SCIENTIFIC SURVEY GENERATION](http://arxiv.org/abs/2506.12689v1)
+
+- SciSage (Scientific Sage): introduces a multi-agent framework with Interpreter (Understand/rewrite query), Organizer (Construct outline), Collector (Retrieve/rerank papers), Composer (Generate content), Refiner (Refine final document), and Reflector (Iterative hierarchical reflection) agents for high-quality scientific survey generation.
+- The framework employs a reflect-when-you-write paradigm, with the Reflector agent critically evaluating drafts at multiple levels.
+- SciSage coordinates specialized agents through query understanding, retrieval, content generation, and iterative hierarchical reflection processes.
+
+
+---
+
+#### 14th June 2025
+
+[Synthetic Socratic Debates: Examining Persona Effects on Moral Decision and Persuasion Dynamics](http://arxiv.org/abs/2506.12657v1)
+
+- Synthetic Socratic Debates: introduces a system using Agent (LLM with persona), Persona (6-dimensional identity profile), Moderator (Manages debate turns), Multi-Turn Debate Framework (Simulates agent interactions), Persona Modeling (Assigns identity attributes), Decision Measures (Quantify moral judgments), Persuasion Measures (Evaluate debate effectiveness), Rhetorical Strategy Evaluation (Assesses persuasion modes), and LLM-as-a-judge (Evaluates rhetorical strategies) to simulate moral debates between AI agents with distinct personas.
+- The system investigates how persona traits influence moral decision-making and persuasive strategies in LLMs during multi-turn debates over real-world moral dilemmas.
+- The research reveals that political ideology and personality traits significantly shape initial moral stances and debate outcomes, impacting persuasive success and rhetorical strategies.
+
+
+---
+
+[Towards Building General Purpose Embedding Models for Industry 4.0 Agents](http://arxiv.org/abs/2506.12607v1)
+
+- Recommender Agent (ReAct Agent with Multi-Task Embedder Tool): introduces a framework for industrial asset maintenance agents, combining a ReAct Agent (Plans and reasons), a Multi-Task Embedder (Retrieves relevant items) used as a tool, and LLM Augmentation (Enriches queries) for improved context.
+- The framework leverages domain-specific embeddings fine-tuned on nine industrial tasks derived from ISO documents to enhance retrieval performance for complex queries.
+- Ablation studies demonstrate the effectiveness of LLM query augmentation and the importance of balanced positive/negative samples for training the embedding model.
+
+
+---
+
+[The Rise of AI Companions: How Human-Chatbot Relationships Influence Well-Being](http://arxiv.org/abs/2506.12605v1)
+
+- Study Approach: investigates how human-chatbot relationships influence well-being by collecting Survey Data and Chat History Data, deriving Chatbot Companionship Measures, Interaction Intensity Measure, Self-Disclosure Measures, Human Social Support Measure, and Well-Being Measure, and analyzing them using LLM-based Text Analysis, Topic Modeling, Regression Analysis, and CFA.
+- The study uses a mixed-methods approach, triangulating self-report surveys, open-ended descriptions, and chat transcripts to understand chatbot companionship and its psychological associations.
+- Findings suggest that companionship-oriented chatbot use, especially with high intensity and self-disclosure, is associated with lower well-being, particularly for users with limited offline social support.
+
+
+---
+
+[AgentOrchestra: A Hierarchical Multi-Agent Framework for General-Purpose Task Solving](http://arxiv.org/abs/2506.12508v1)
+
+- AgentOrchestra: introduces a hierarchical multi-agent framework with a Planning Agent (Central orchestrator) coordinating Specialized Sub-Agents (Domain-specific processing team), utilizing various tools, memory, and models for general-purpose task solving.
+- The framework features a two-tier architecture where the planning agent decomposes tasks and delegates sub-tasks to specialized agents equipped with domain-specific tools.
+- AgentOrchestra supports flexible orchestration, inter-agent communication, and adaptive role allocation, enabling robust performance on complex, multimodal tasks.
+
+
+---
+
+[Tiered Agentic Oversight: A Hierarchical Multi-Agent System for AI Safety in Healthcare](http://arxiv.org/abs/2506.12482v1)
+
+- TAO (Tiered Agentic Oversight): introduces a hierarchical multi-agent framework for AI safety in healthcare, featuring an Agent Recruiter (Recruits expert agents), Agent Router (Routes query to tier), Tier 1 (Initial assessment/screening), Tier 2 (Specialized review/analysis), Tier 3 (Expert consultation/synthesis) of Medical Agents (Core assessment units), Case Escalation (Escalates to higher tiers), Intra-Tier Collaboration (Discussion within tier), Inter-Tier Collaboration (Dialogue between tiers), Final Decision Agent (Synthesizes final decision), and Human Oversight (Targeted human intervention).
+- The framework routes tasks based on complexity and agent roles, escalating complex or high-risk cases through tiers with automated inter- and intra-tier collaboration and role-playing.
+- TAO enhances AI safety through layered, automated supervision, demonstrating superior performance on healthcare safety benchmarks compared to single-agent and multi-agent baselines.
+
+
+---
+
+[Topology-Assisted Spatio-Temporal Pattern Disentangling for Scalable MARL in Large-scale Autonomous Traffic Control](http://arxiv.org/abs/2506.12453v1)
+
+- TGN-TMoE: introduces a novel MARL framework for large-scale traffic control, with Agent Observations (Raw graph data), MF Synchronization (Integrates mean-field information), Temporal Learning (Processes temporal features), Topological Processing (Extracts topological features), Spatial Learning (Processes spatial features), TMoE Module (Routes features to experts), Graph Pooling (Aggregates graph features), and Decision Making Module (Policy and value networks), designed to enhance environmental representation and agent coordination.
+- The framework integrates Dynamic Graph Neural Networks and Topological Data Analysis, employing a TSD-enhanced Mixture of Experts architecture for scalable multi-agent reinforcement learning.
+- TGN-TMoE leverages topological signatures to disentangle graph features for specialized processing within observation fusion and decision-making modules.
+
+
+---
+
+[Plan Your Travel and Travel with Your Plan: Wide-Horizon Planning and Evaluation via LLM](http://arxiv.org/abs/2506.12421v1)
+
+- MAoP (Multiple Aspects of Planning): introduces a travel planning framework with a Strategist Model (Decomposes, routes aspects), Planning Model (Generates plan), Preprocessing Framework (Prepares input context including eliciting preferences, selecting POIs, and spatial optimization), Reward Model (Provides training signal), and Distilled Model (One-step inference).
+- The framework leverages a strategist for pre-planning and a planning model for generating travel itineraries based on wide-horizon thinking over multiple aspects.
+- A separate agent-based simulation framework, Travel-Sim, is proposed for evaluating the feasibility and personalization of the generated travel plans.
+
+
+---
+
+[SHEETMIND: AN END-TO-END LLM-POWERED MULTI-AGENT FRAMEWORK FOR SPREADSHEET AUTOMATION](http://arxiv.org/abs/2506.12339v1)
+
+- SheetMind: introduces a modular multi-agent framework for spreadsheet automation, with Manager Agent (Decomposes user instructions), Action Agent (Generates BNF commands), Reflection Agent (Validates actions, monitors effects), Front-End (User interface, executes actions), Back-End (Houses agent pipeline), and Spreadsheet (Target environment), enabling natural language interaction.
+- The framework decomposes complex instructions into subtasks, translates them into structured commands using BNF grammar, and validates actions through a feedback loop.
+- SheetMind integrates LLM-driven planning, structured execution, and agentic feedback to bridge the gap between natural language and spreadsheet functionalities.
+
+
+---
+
+[INDOORWORLD : Integrating Physical Task Solving and Social Simulation in A Heterogeneous Multi-Agent Environment](http://arxiv.org/abs/2506.12331v1)
+
+- INDOORWORLD: introduces a heterogeneous multi-agent environment integrating physical task solving and social simulation, with Agent (Autonomous entity), Perception (Processes observations), Memory (Stores information, history), Planning (Determines objectives, tasks), Action (Selects, executes actions), Task Prioritization (Encourages task focus), Environment (Simulated indoor space), Object (Physical entity), Location (Spatial area), and World State (Joint state variables) components, designed to simulate occupant behaviors in indoor spaces.
+- The environment features heterogeneous agents with multi-level profiles (role, action space, capability, knowledge) and human needs, interacting with objects and locations to modify the world state.
+- The framework supports both collaborative task-solving and autonomous social simulation sessions, providing a testbed for LLM-based multi-agent systems and potential applications in architectural design.
+
+
+---
+
+[Cloud Infrastructure Management in the Age of AI Agents](http://arxiv.org/abs/2506.12270v1)
+
+- AI Agents: introduces an envisioned agentic system architecture for automating cloud infrastructure management using LLM-powered agents, including User-agent Interface, Agent-cloud Interface, Multi-agent Orchestration, Memory, Reasoning, Tools, Planning, Guardrails, Actions, Cloud Vendors, and Cloud Gym components.
+- The proposed architecture utilizes different cloud interaction modalities (SDK, CLI, IaC, Web) and incorporates exploration/exploitation phases and guardrails for safety and reliability.
+- A preliminary study evaluates agents across modalities on VM management tasks, highlighting trade-offs in efficiency, success rate, and error handling.
+
+
+---
+
+
 #### 13th June 2025
 
 [ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification](https://arxiv.org/abs/2506.11442)
@@ -50,6 +273,33 @@ Chronological order.
 - ReVeal: introduces a multi-turn reinforcement learning framework for code agents, featuring an Iterative Generation-Verification Loop where a Policy LLM generates code and test cases, External Tools execute them, and Tool Feedback provides results, guided by Turn-Level Reward Design and Outcome Reward, trained using Turn-Aware PPO on the Dataset (TACO).
 - The framework enables LLMs to autonomously generate and verify code through iterative refinement and tool interaction, improving performance and self-verification capabilities.
 - ReVeal's approach allows for effective test-time scaling into deeper inference regimes and pushes reasoning boundaries beyond the base model.
+
+
+---
+
+[The Behavior Gap: Evaluating Zero-shot LLM Agents in Complex Task-Oriented Dialogs](http://arxiv.org/abs/2506.12266v1)
+
+- Behavior Gap Evaluation Framework: introduces a comprehensive framework to quantify the behavior gap between LLM Agents and Human Experts in task-oriented dialogs using Behavior Gap Metrics, Task Complexity Metrics, and Performance Metrics within a Teacher-Forcing Approach on various Datasets, revealing significant discrepancies that negatively impact LLM Agent performance.
+- The study utilizes LLM-based Classifiers and an LLM-based Evaluator to analyze specific behavioral dimensions like dialog acts, Tool usage, and knowledge integration, demonstrating that the gap widens with increasing task complexity.
+- Aligning LLM agent behavior closer to human strategies through Behavior Intervention significantly improves performance, particularly in complex tasks.
+
+
+---
+
+[A Fast, Reliable, and Secure Programming Language for LLM Agents with Code Actions](http://arxiv.org/abs/2506.12202v1)
+
+- QUASAR: introduces a programming language for LLM agent code actions, with LLM Agent generating Python Subset code, Transpiler converting it to QUASAR Language, and QUASAR Interpreter executing it using Internal Rewrite Rules and External Rewrite Rule, managing External Calls tracked in the Execution Set, validated by User Approval Mechanism, and supporting Conformal Semantics with Abstract External Functions.
+- The QUASAR Language separates pure internal computation from external side effects, enabling automatic parallelization, dynamic security controls, and uncertainty quantification.
+- The approach leverages LLM proficiency in Python by transpiling a restricted subset to QUASAR for improved performance, security, and reliability compared to direct Python execution.
+
+
+---
+
+[PRO-V: An Efficient Program Generation Multi-Agent System for Automatic RTL Verification](http://arxiv.org/abs/2506.12200v1)
+
+- PRO-V: introduces an efficient program generation multi-agent system for automatic RTL verification, with Stimulus Generator (Generates input signals), Functional Model (Generates reference outputs), Self-Improvement (Selects, refines models), Validator (Verifies DUT with judge), Judge Agent (LLM for selection, validation), and Refinement Agent (LLM for refinement) components.
+- The system enhances verification accuracy and coverage through inference-time scaling via dual sampling and a self-improvement mechanism using a best-of-n selection strategy.
+- PRO-V integrates an LLM-as-a-judge into the validation process, leveraging rule-based static analysis converted to natural language for enhanced prompting and root cause analysis.
 
 
 ---
