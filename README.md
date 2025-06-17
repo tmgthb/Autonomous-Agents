@@ -45,6 +45,35 @@ Chronological order.
 
 #### 16th June 2025
 
+
+[MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer](http://arxiv.org/abs/2506.13037)
+
+- MAGIC (Multi-Agent Argumentation and Grammar Integrated Critiquer): is a framework that utilizes multiple specialized agents to evaluate distinct writing aspects, aiming to predict holistic scores and produce detailed, rubric-aligned feedback for essays.
+- The framework employs an orchestrator to consolidate the outputs from individual agents, which focus on specific components of argumentative writing such as argument structure, grammar, vocabulary, and comprehension.
+- MAGIC aims to provide greater transparency, flexibility, and extensibility compared to monolithic automated essay scoring and feedback systems.
+
+
+---
+
+[Scaling Test-time Compute for LLM Agents](http://arxiv.org/abs/2506.12928v1)
+
+- ATTS (Agentic Test-Time Scaling): explores test-time scaling strategies for language agents, including parallel sampling, sequential revision, verifiers and merging, and diversifying rollouts.
+- The research systematically analyzes the impact of different design strategies on agent performance, finding that scaling test-time compute improves agent capabilities.
+- Key findings include the importance of knowing when to reflect, the superiority of list-wise methods for verification and merging, and the positive effect of diversified rollouts on agent performance.
+
+
+---
+
+[Leveraging In-Context Learning for Language Model Agents](http://arxiv.org/abs/2506.13109v1)
+
+- ICL-DS (In-Context Learning with Demonstration Selection): introduces an approach for LLM agents that leverages in-context learning with dynamically selected demonstrations, including an LLM Agent (generates thoughts and actions), a Demonstration Pool (stores annotated trajectories and snippets), an Iterative Annotation Algorithm (automatically annotates tasks for demonstrations), a Demonstration Selector (retrieves relevant demonstrations), Prompt Construction (formats input for LLM), a ReAct Solver (executes tasks iteratively with reasoning), a Plan & Execute (PnE) Solver (plans subtasks and executes them), and an Environment (provides observations and executes actions).
+- The paper proposes an iterative annotation algorithm to automatically and efficiently create a demonstration pool of solution trajectories for agentic tasks, which are then used to improve LLM agent performance, reliability, and efficiency.
+- The research demonstrates that using task-level trajectory demonstrations and smaller step-level snippet demonstrations significantly boosts performance for LLM agents, enabling them to rival costlier trained agents.
+
+
+---
+
+
 [We Should Identify and Mitigate Third-Party Safety Risks in MCP-Powered Agent Systems](http://arxiv.org/abs/2506.13666v1)
 
 - SAFEMCP: introduces a controlled framework to examine safety issues in MCP-powered agent systems, with Agent, Backbone LLM, MCP-Servers, Attack, Defense, Passive Defense, Active Defense, Evaluation, Scenario, and Metric components.
@@ -99,14 +128,6 @@ Chronological order.
 
 ---
 
-[Leveraging In-Context Learning for Language Model Agents](http://arxiv.org/abs/2506.13109v1)
-
-- ICL-DS (In-Context Learning with Demonstration Selection): introduces an approach for LLM agents that leverages in-context learning with dynamically selected demonstrations, including an LLM Agent (generates thoughts and actions), a Demonstration Pool (stores annotated trajectories and snippets), an Iterative Annotation Algorithm (automatically annotates tasks for demonstrations), a Demonstration Selector (retrieves relevant demonstrations), Prompt Construction (formats input for LLM), a ReAct Solver (executes tasks iteratively with reasoning), a Plan & Execute (PnE) Solver (plans subtasks and executes them), and an Environment (provides observations and executes actions).
-- The paper proposes an iterative annotation algorithm to automatically and efficiently create a demonstration pool of solution trajectories for agentic tasks, which are then used to improve LLM agent performance, reliability, and efficiency.
-- The research demonstrates that using task-level trajectory demonstrations and smaller step-level snippet demonstrations significantly boosts performance for LLM agents, enabling them to rival costlier trained agents.
-
-
----
 
 [MOTIVEBENCH: How Far Are We From Human-Like Motivational Reasoning in Large Language Models?](http://arxiv.org/abs/2506.13065v1)
 
@@ -117,23 +138,6 @@ Chronological order.
 
 ---
 
-[MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer](http://arxiv.org/abs/2506.13037)
-
-- MAGIC (Multi-Agent Argumentation and Grammar Integrated Critiquer): is a framework that utilizes multiple specialized agents to evaluate distinct writing aspects, aiming to predict holistic scores and produce detailed, rubric-aligned feedback for essays.
-- The framework employs an orchestrator to consolidate the outputs from individual agents, which focus on specific components of argumentative writing such as argument structure, grammar, vocabulary, and comprehension.
-- MAGIC aims to provide greater transparency, flexibility, and extensibility compared to monolithic automated essay scoring and feedback systems.
-
-
----
-
-[Scaling Test-time Compute for LLM Agents](http://arxiv.org/abs/2506.12928v1)
-
-- ATTS (Agentic Test-Time Scaling): explores test-time scaling strategies for language agents, including parallel sampling, sequential revision, verifiers and merging, and diversifying rollouts.
-- The research systematically analyzes the impact of different design strategies on agent performance, finding that scaling test-time compute improves agent capabilities.
-- Key findings include the importance of knowing when to reflect, the superiority of list-wise methods for verification and merging, and the positive effect of diversified rollouts on agent performance.
-
-
----
 
 #### 15th June 2025
 
