@@ -43,32 +43,182 @@ Chronological order.
 
 </div>
 
+
+#### 17th June 2025
+
+[Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities.](https://storage.googleapis.com/deepmind-media/gemini/gemini_v2_5_report.pdf)
+
+- Gemini 2.X model family: introduces Gemini 2.5 Pro and Flash, built on Sparse mixture-of-experts transformers (Core Architecture) with Multimodal Support (Text, Image, Video, Audio), Long Context Processing (>1M tokens), Tool Use Support (Function calls), Thinking (Inference process), and Deep Think (Reasoning approach).
+- The models enable next-generation agentic capabilities, demonstrated by the Gemini Plays Pokémon agent harness which includes components like Persistent Memory & Context, Goals, Action History & Summaries, Game State, Periodic Processes (Memory Summarizer, Guidance Gemini), Agentic Tools (Pathfinder, Boulder Puzzle Strategist), and Game I/O.
+- Gemini 2.5 models achieve state-of-the-art performance on various benchmarks, including long-context video understanding (processing up to 3 hours of video) and coding, while also undergoing extensive safety and security evaluations.
+
+
+---
+
+
+[AGENTDISTILL: TRAINING-FREE AGENT DISTILLATION WITH GENERALIZABLE MCP BOXES](http://arxiv.org/abs/2506.14728v1)
+
+- AgentDistill: introduces a training-free agent distillation framework, with Teacher Agent (Generates MCPs), Manager Agent (Teacher) (Coordinates tasks), Basic Image Captioner (Teacher) (Captions images), MCP Creation Module (Creates task MCPs), MCP-Box Construction (Builds MCP Box), Abstraction (Parameterizes MCPs), Clustering (Groups MCPs), Consolidation (Merges MCPs), MCP Box (Reusable task modules), Student Agent (Uses MCP Box), Manager Agent (Student) (Coordinates tasks, uses MCP Box), and Basic Image Captioner (Student) (Captions images), which transfers task-solving capabilities from large teacher agents to small student agents via reusable Model-Context-Protocols (MCPs).
+- The framework involves a teacher agent generating MCPs, a construction process to build a reusable MCP-Box by abstracting, clustering, and consolidating them, and a student agent that directly integrates this MCP-Box for inference.
+- AgentDistill enables student agents to inherit sophisticated problem-solving skills and generalize across tasks by providing a structured MCP-Box without requiring additional training or trajectory replay.
+
+
+---
+
+[Unified Software Engineering agent as AI Software Engineer](http://arxiv.org/abs/2506.14683v1)
+
+- USEagent (Unified Software Engineering agent): introduces a unified agent for software engineering tasks, with Meta-Agent orchestrates actions, Actions perform SE tasks, Task State stores shared information, and Program is the target software project.
+- The Meta-Agent uses a ReAct-style loop to select actions based on the current task state and action outputs.
+- The framework utilizes a set of modular actions encapsulating units of work and a structured task state for consensus memory among actions.
+
+
+---
+
+[Doppelgänger Method : Breaking Role Consistency in LLM Agent via Prompt-based Transferable Adversarial Attack](http://arxiv.org/abs/2506.14539v1)
+
+- Doppelgänger Method: introduces a prompt-based transferable adversarial attack method to break LLM agent consistency, evaluated using the PACAT Level metric, and countered by the CAT Prompt defense.
+- The method demonstrates the risk of role hijacking and internal information exposure in LLM agents.
+- Experimental results show the attack's effectiveness and the defense prompt's ability to mitigate consistency degradation.
+
+
+---
+
+[Automated Decision-Making on Networks with LLMs through Knowledge-Guided Evolution](http://arxiv.org/abs/2506.14529v1)
+
+- LLMNet: introduces a system for automated GNN design using LLM-based agents, including Knowledge Agent (Builds, manages knowledge bases), Prior Knowledge Base (Stores task-specific knowledge), Experiment Knowledge Base (Stores experimental results), Planning Agent (Generates task plan, evaluates), Data Agent (Performs feature engineering), Configuration Agent (Configures search space), and Evaluation Agent (Fine-tunes, experiments), which leverages knowledge bases and RAG for knowledge-guided evolution.
+- The system employs a pipeline of specialized agents that interact with constructed knowledge bases to design and refine GNN model architectures step by step.
+- LLMNet demonstrates superior performance across various graph learning tasks by effectively integrating graph-related knowledge into the automated design process.
+
+
+---
+
+
+[GENERATIONPROGRAMS: Fine-grained Attribution with Executable Programs](http://arxiv.org/abs/2506.14580)
+
+- GENERATIONPROGRAMS: introduces a modular generation framework that decomposes the process into program generation by an LLM and program execution by neural modules, producing an output with sentence-level attributions from input documents.
+- The framework first generates an executable program plan composed of modular text operations tailored to the query, then executes this plan using neural modules like paraphrasing, compression, fusion, and extraction on retrieved document sentences.
+- This two-stage approach enables fine-grained attribution by tracing the program execution and linking generated content back to source sentences, enhancing interpretability and verifiability.
+
+
+---
+
+[SIRI-Bench: Challenging VLMs' Spatial Intelligence through Complex Reasoning Tasks](http://arxiv.org/abs/2506.14512v1)
+
+- SIRI-Bench (Spatial Intelligence ReasonIng Benchmark): introduces a benchmark for evaluating VLMs' spatial intelligence using video-based 3D geometry problems, generated by an Automatic Scene Creation Engine leveraging Specialized LLM Agents to transform Original Math Problems into Realistic 3D Scenes and Video inputs for VLMs, alongside textual Questions and numerical Answers.
+- The Automatic Scene Creation Engine generates the benchmark data by solving geometric conditions, generating Blender Python Scripts, and refining textual inputs and outputs.
+- SIRI-Bench challenges VLMs to extract spatial information from video and perform complex reasoning, revealing limitations in current models compared to human performance and text-based LLMs.
+
+
+---
+
+[LLM-Powered Swarms: A New Frontier or a Conceptual Stretch?](http://arxiv.org/abs/2506.14496v1)
+
+- LLM-Powered Swarms: introduces a new paradigm for swarm intelligence using Large Language Models as agents, featuring LLM Agents (Large Language Models), Multi-Agent Coordination (Interconnected agents collaborate), Client-Side Operation (Framework runs locally), LLM Access (Cloud or local models), and Prompts (Natural language instructions).
+- This approach contrasts with traditional rule-based swarms by trading execution speed for flexibility and higher-level reasoning capabilities.
+- Evaluation using Boids and ACO models highlights significant latency and resource costs compared to classical methods, suggesting potential for hybrid systems.
+
+
+---
+
+[Expectation Confirmation Preference Optimization for Multi-Turn Conversational Recommendation Agent](http://arxiv.org/abs/2506.14302v1)
+
+- ECPO (Expectation Confirmation Preference Optimization): introduces a novel multi-turn preference optimization paradigm leveraging Expectation Confirmation Theory to align LLM-based conversational recommendation agents with user expectations.
+- The framework explicitly models user satisfaction evolution across turns using Forward Expectation Confirmation and rewrites unsatisfactory responses via Backward Expectation Derivation with a Rewriter.
+- ECPO is supported by AILO, an LLM-based user simulator that provides realistic feedback and performs expectation confirmation, enabling efficient turn-level preference optimization without extensive sampling.
+
+
+---
+
+[ADRD: LLM-DRIVEN AUTONOMOUS DRIVING BASED ON RULE-BASED DECISION SYSTEMS](http://arxiv.org/abs/2506.14299v1)
+
+- ADRD (LLM-Driven Autonomous Driving Based on Rule-based Decision Systems): introduces a framework with Information Module, Agents Module (Planner, Coder, Summarizer), and Testing Module, leveraging LLMs to generate and refine rule-based decision trees for autonomous driving.
+- The Information Module gathers scenario data, the Agents Module generates and codes driving tactics, and the Testing Module provides feedback for iterative refinement.
+- ADRD demonstrates superior performance, response speed, and interpretability compared to baselines by integrating LLMs with rule-based decision systems.
+
+
+---
+
+[From What to Respond to When to Respond: Timely Response Generation for Open-domain Dialogue Agents](http://arxiv.org/abs/2506.14285v1)
+
+- TIMER: introduces timely dialogue response generation, with Time Interval Prediction (predicts delay), Time-conditioned Response Generation (generates response), and Fine-tuned Dialogue Model (base language model), addressing when and what to respond based on temporal context.
+- The model is trained using a multi-task learning objective on a large-scale synthetic dataset derived from event knowledge graphs and LLMs.
+- TIMER demonstrates improved performance over baselines in predicting appropriate response delays and generating time-specific, coherent dialogue.
+
+
+---
+
+[AgentSynth: Scalable Task Generation for Generalist Computer-Use Agents](http://arxiv.org/abs/2506.14205v1)
+
+- AgentSynth: introduces a scalable pipeline for synthesizing computer-use tasks and trajectories by iteratively chaining LLM-generated subtasks, executed by a Task Executor, verified by a Task Verifier, revised by a Task Reviser, proposed as follow-ups by a Follow-up Task Proposer, and summarized into final tasks by a Task Summarizer, operating within an Environment guided by a Persona.
+- The pipeline leverages information asymmetry, generating simple subtasks that compose into challenging long-horizon tasks, enabling controllable difficulty.
+- AgentSynth generates over 6,000 diverse and realistic tasks at a low cost, providing a benchmark that reveals performance gaps in current LLM agents on multi-step computer tasks.
+
+
+---
+
+[MAS-LitEval : Multi-Agent System for Literary Translation Quality Assessment](http://arxiv.org/abs/2506.14199v1)
+
+- MAS-LitEval: introduces a multi-agent system for literary translation quality assessment, with Terminology Consistency Agent (Ensures key term consistency), Narrative Perspective Consistency Agent (Verifies narrative voice alignment), Stylistic Consistency Agent (Evaluates tone rhythm style), and Coordinator (Combines agent scores feedback).
+- The system employs specialized LLMs within agents to evaluate distinct dimensions of literary translation quality across segmented text chunks.
+- The Coordinator integrates agent evaluations into an Overall Translation Quality Score (OTQS) and a detailed report, ensuring global consistency.
+
+
+---
+
+[FormGym: Doing Paperwork with Agents](http://arxiv.org/abs/2506.14079v1)
+
+- Agent Framework with FieldFinder: introduces a system for end-to-end form completion using agents equipped with tools, including a novel field localization tool.
+- The system evaluates Vision-Language and GUI agents on the FormGym benchmark, which includes diverse forms, user profiles, and tasks.
+- The FieldFinder tool assists agents by predicting bounding boxes for input fields, significantly improving text placement accuracy.
+
+
+---
+
+[Comprehensive Verilog Design Problems: A Next-Generation Benchmark Dataset for Evaluating Large Language Models and Agents on RTL Design and Verification](http://arxiv.org/abs/2506.14074v1)
+
+- CVDP (Comprehensive Verilog Design Problems): introduces a benchmark dataset and infrastructure, with Datapoint, Prompt, Context, Reference Solution, Test Harness, Testbench, Benchmark Runner, Agent Under Test, Model Under Test, Mini Repo, EDA Tools, Docker, LLM Judge, Map Feature, and Report & Logs components, designed to evaluate large language models and agents on hardware design and verification tasks.
+- The benchmark includes 783 human-authored problems across 13 categories covering RTL generation, verification, debugging, and comprehension, provided in both Non-Agentic (single-turn) and Agentic (multi-turn, tool-using) formats.
+- The infrastructure supports Dockerized agents and test harnesses for realistic tool interaction using EDA tools, and includes an LLM judge for quality filtering of datapoints.
+
+
+---
+
+
 #### 16th June 2025
 
+[LocationReasoner: Evaluating LLMs on Real-World Site Selection Reasoning](http://arxiv.org/abs/2506.13841v1)
 
-[MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer](http://arxiv.org/abs/2506.13037)
-
-- MAGIC (Multi-Agent Argumentation and Grammar Integrated Critiquer): is a framework that utilizes multiple specialized agents to evaluate distinct writing aspects, aiming to predict holistic scores and produce detailed, rubric-aligned feedback for essays.
-- The framework employs an orchestrator to consolidate the outputs from individual agents, which focus on specific components of argumentative writing such as argument structure, grammar, vocabulary, and comprehension.
-- MAGIC aims to provide greater transparency, flexibility, and extensibility compared to monolithic automated essay scoring and feedback systems.
-
-
----
-
-[Scaling Test-time Compute for LLM Agents](http://arxiv.org/abs/2506.12928v1)
-
-- ATTS (Agentic Test-Time Scaling): explores test-time scaling strategies for language agents, including parallel sampling, sequential revision, verifiers and merging, and diversifying rollouts.
-- The research systematically analyzes the impact of different design strategies on agent performance, finding that scaling test-time compute improves agent capabilities.
-- Key findings include the importance of knowing when to reflect, the superiority of list-wise methods for verification and merging, and the positive effect of diversified rollouts on agent performance.
+- LocationReasoner benchmark: introduces a benchmark to evaluate LLMs' real-world reasoning abilities in site selection, with Query Generation, Sandbox Environment, Datasets, In-house Tools, Execution Pathways, and Automated Verification components, evaluating Direct Code Generation, ReAct, and Reflexion approaches.
+- The benchmark uses curated datasets and in-house tools within a sandbox environment to test LLMs on constraint-based location search with automated verification.
+- Evaluation reveals current LLMs and agentic strategies struggle with complex real-world reasoning tasks, highlighting limitations in holistic and non-linear reasoning.
 
 
 ---
 
-[Leveraging In-Context Learning for Language Model Agents](http://arxiv.org/abs/2506.13109v1)
 
-- ICL-DS (In-Context Learning with Demonstration Selection): introduces an approach for LLM agents that leverages in-context learning with dynamically selected demonstrations, including an LLM Agent (generates thoughts and actions), a Demonstration Pool (stores annotated trajectories and snippets), an Iterative Annotation Algorithm (automatically annotates tasks for demonstrations), a Demonstration Selector (retrieves relevant demonstrations), Prompt Construction (formats input for LLM), a ReAct Solver (executes tasks iteratively with reasoning), a Plan & Execute (PnE) Solver (plans subtasks and executes them), and an Environment (provides observations and executes actions).
-- The paper proposes an iterative annotation algorithm to automatically and efficiently create a demonstration pool of solution trajectories for agentic tasks, which are then used to improve LLM agent performance, reliability, and efficiency.
-- The research demonstrates that using task-level trajectory demonstrations and smaller step-level snippet demonstrations significantly boosts performance for LLM agents, enabling them to rival costlier trained agents.
+[Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning](http://arxiv.org/abs/2506.14045v1)
+
+- Hierarchical Reinforcement Learning (HRL): introduces an overview of methods for discovering temporal structure, formalized using the options framework including option policy, option termination function, option initiation function, high-level policy, and option model function, and discusses agent architectures like Hierarchical Components, Goal Conditioned, Feudal Architecture, and Single Network.
+- The paper surveys methods for temporal structure discovery categorized by learning from online experience, offline datasets, and foundation models.
+- HRL aims to improve exploration, credit assignment, transfer, and interpretability by leveraging temporal structure in sequential decision-making problems.
+
+
+---
+
+[How Does LLM Reasoning Work for Code? A Survey and a Call to Action](http://arxiv.org/abs/2506.13932v1)
+
+- Code Reasoning Taxonomy: introduces a classification of techniques for LLM reasoning on code tasks, including Code CoT Reasoning, Execution-based reasoning, Inference Scaling, and Agentic approaches.
+- The taxonomy details sub-techniques such as Plan-based CoT, Self-evaluation of execution behavior, Sampling, and Agentic Workflow.
+- The survey highlights how these distinct reasoning strategies and their components are applied and perform on various code-related benchmarks.
+
+
+---
+
+[Spec2RTL-Agent: Automated Hardware Code Generation from Complex Specifications Using LLM Agent Systems](http://arxiv.org/abs/2506.13905v1)
+
+- Spec2RTL-Agent: introduces an LLM-based multi-agent system for automated RTL code generation from complex specifications, including Iterative Understanding and Reasoning Module, Progressive Coding and Prompt Optimization Module, Adaptive Reflection Module, and Code Optimization and Conversion Module.
+- The system processes unstructured specification documents, refines code generation through multiple abstraction levels, and iteratively verifies outputs.
+- Spec2RTL-Agent demonstrates effectiveness in generating accurate RTL code with reduced human intervention compared to existing methods.
 
 
 ---
@@ -128,6 +278,14 @@ Chronological order.
 
 ---
 
+[Leveraging In-Context Learning for Language Model Agents](http://arxiv.org/abs/2506.13109v1)
+
+- ICL-DS (In-Context Learning with Demonstration Selection): introduces an approach for LLM agents that leverages in-context learning with dynamically selected demonstrations, including an LLM Agent (generates thoughts and actions), a Demonstration Pool (stores annotated trajectories and snippets), an Iterative Annotation Algorithm (automatically annotates tasks for demonstrations), a Demonstration Selector (retrieves relevant demonstrations), Prompt Construction (formats input for LLM), a ReAct Solver (executes tasks iteratively with reasoning), a Plan & Execute (PnE) Solver (plans subtasks and executes them), and an Environment (provides observations and executes actions).
+- The paper proposes an iterative annotation algorithm to automatically and efficiently create a demonstration pool of solution trajectories for agentic tasks, which are then used to improve LLM agent performance, reliability, and efficiency.
+- The research demonstrates that using task-level trajectory demonstrations and smaller step-level snippet demonstrations significantly boosts performance for LLM agents, enabling them to rival costlier trained agents.
+
+
+---
 
 [MOTIVEBENCH: How Far Are We From Human-Like Motivational Reasoning in Large Language Models?](http://arxiv.org/abs/2506.13065v1)
 
@@ -138,6 +296,23 @@ Chronological order.
 
 ---
 
+[MAGIC: Multi-Agent Argumentation and Grammar Integrated Critiquer](http://arxiv.org/abs/2506.13037)
+
+- MAGIC (Multi-Agent Argumentation and Grammar Integrated Critiquer): is a framework that utilizes multiple specialized agents to evaluate distinct writing aspects, aiming to predict holistic scores and produce detailed, rubric-aligned feedback for essays.
+- The framework employs an orchestrator to consolidate the outputs from individual agents, which focus on specific components of argumentative writing such as argument structure, grammar, vocabulary, and comprehension.
+- MAGIC aims to provide greater transparency, flexibility, and extensibility compared to monolithic automated essay scoring and feedback systems.
+
+
+---
+
+[Scaling Test-time Compute for LLM Agents](http://arxiv.org/abs/2506.12928v1)
+
+- ATTS (Agentic Test-Time Scaling): explores test-time scaling strategies for language agents, including parallel sampling, sequential revision, verifiers and merging, and diversifying rollouts.
+- The research systematically analyzes the impact of different design strategies on agent performance, finding that scaling test-time compute improves agent capabilities.
+- Key findings include the importance of knowing when to reflect, the superiority of list-wise methods for verification and merging, and the positive effect of diversified rollouts on agent performance.
+
+
+---
 
 #### 15th June 2025
 
