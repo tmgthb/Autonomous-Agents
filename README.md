@@ -43,6 +43,118 @@ Chronological order.
 
 </div>
 
+#### 18th June 2025
+
+[SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence](https://arxiv.org/abs/2506.15672)
+
+- SwarmAgentic: introduces a framework for fully automated agentic system generation, using Particle Swarm Optimization to explore a language-driven design space, optimizing Agentic Systems composed of an Agent Set and Collaborative Structure.
+- The framework iteratively refines Agentic Systems by updating Particle positions and velocities based on Fitness Function evaluation and Flaw Identification.
+- Velocity updates integrate Failure-Driven Adjustments, Personal Best Guidance, and Global Best Guidance to refine Agent functionality and collaboration strategies, yielding the best system as the Search Result.
+
+
+---
+
+[Managing Complex Failure Analysis Workflows with LLM-based Reasoning and Acting Agents](https://arxiv.org/abs/2506.15567)
+
+- LPA (LLM-based Planning Agent): introduces a system for managing complex failure analysis workflows, with Agent Core orchestrating control flow, Memory retaining information, Plan Generation creating step-by-step plans, Action Matching and Execution selecting and running tools, Feedback and Reflection adjusting plans based on results, LLM processing language and reasoning, Tools providing external system interfaces, and Data serving as external information sources.
+- The agent utilizes LLMs as the "brain" to decompose complex queries and resolve them through reasoning and autonomous tool use, employing ReAct or Online Replanning approaches.
+- The system integrates external tools like databases, search engines, and AI models to retrieve data and perform analysis tasks, supporting FA engineers.
+
+
+---
+
+
+[PhishDebate: An LLM-Based Multi-Agent Framework for Phishing Website Detection](http://arxiv.org/abs/2506.15656v1)
+
+- PhishDebate: introduces a modular multi-agent LLM-based debate framework for phishing website detection, with URL Analyst Agent, HTML Structure Agent, Content Semantic Agent, Brand Impersonation Agent, Moderator, and Judge components.
+- The framework employs specialized agents to analyze different website aspects and coordination agents to manage a structured debate process.
+- This multi-agent approach aims to improve detection accuracy, interpretability, and robustness compared to single-agent methods.
+
+
+---
+
+[The Effect of State Representation on LLM Agent Behavior in Dynamic Routing Games](http://arxiv.org/abs/2506.15624v1)
+
+- Approach: introduces a framework for constructing natural language state representations for prompting LLM agents in repeated multi-agent games, implemented with LLM Agents, Game Environment, Prompting Mechanism, State Representation, LangChain, and OpenAI API.
+- The system evaluates LLM agent behavior in a dynamic selfish routing game by varying state representations along action informativeness, reward informativeness, and prompting style axes.
+- The research finds that summarized state representations, regret-based feedback, and limited information about others' actions lead to more stable, equilibrium-like agent behavior.
+
+
+---
+
+[Managing Complex Failure Analysis Workflows with LLM-based Reasoning and Acting Agents](http://arxiv.org/abs/2506.15567v1)
+
+- LPA (LLM-based Planning Agent): introduces an agent architecture for failure analysis workflows, integrating a Large Language Model for reasoning and planning, Memory for retaining information, Action Matching and Execution for tool use, and Feedback and Reflection for plan refinement, interacting with a User and the external Environment via Data and Tools.
+- The agent utilizes ReAct-style iterative task generation or online replanning to process complex queries and generate human-readable responses.
+- The implementation integrates external tools like databases and ML models, demonstrating technical feasibility and robustness in a production-like environment.
+
+
+---
+
+[AGENTGROUPCHAT-V2 : Divide-and-Conquer Is What LLM-Based Multi-Agent System Need](http://arxiv.org/abs/2506.15451v1)
+
+- AGENTGROUPCHAT-V2: introduces a novel framework with Query Manager (Frontend, query decomposition), Task Manager (Central coordination, task flow), Group Manager (Execution, collaboration organization), Agent (Individual LLM participant), Task (Basic processing unit), Group (Collaborative work unit), and Task Forest (Hierarchical task structure) for LLM-based multi-agent systems.
+- The framework employs a divide-and-conquer parallel architecture, dynamic task tree decomposition, and specialized agent role assignment to address challenges in system architecture, generalizability, and performance.
+- Experimental results demonstrate superior performance on complex reasoning, code generation, and diverse tasks compared to existing multi-agent approaches.
+
+
+---
+
+[RAS-EVAL: A COMPREHENSIVE BENCHMARK FOR SECURITY EVALUATION OF LLM AGENTS IN REAL-WORLD ENVIRONMENTS](http://arxiv.org/abs/2506.15253v1)
+
+- RAS-Eval: introduces a comprehensive security benchmark for LLM agents, including Test Cases, Attack Tasks, Scenarios, Toolkits, Risk Management, and Evaluation Pipelines.
+- The benchmark supports both Real Execution and Simulated Execution of tools across JSON, LangGraph, and MCP formats.
+- It incorporates Failure Modes and Vulnerability Types for granular analysis and uses Evaluation Pipelines to measure task completion and attack success rates.
+
+
+---
+
+[From LLMs to MLLMs to Agents: A Survey of Emerging Paradigms in Jailbreak Attacks and Defenses within LLM Ecosystem](http://arxiv.org/abs/2506.15170v1)
+
+- Agent Framework: introduces a survey of jailbreak attacks and defenses in the LLM ecosystem, with Core (Central processing unit), Planning (Task decomposition/logic), Tools (External interfaces/applications), Memory (Information management/storage), and LLM Network (Multi-agent interaction) components, where the paper reviews the evolution from LLMs to MLLMs and Agents and analyzes security challenges.
+- The survey categorizes jailbreak techniques by attack impact and visibility and defense strategies by response timing and technical approach.
+- It also details datasets and evaluation metrics used in jailbreak research and outlines future research directions.
+
+
+---
+
+
+[Modeling the One-to-Many Property in Open-Domain Dialogue with LLMs](http://arxiv.org/abs/2506.15131v1)
+
+- Multi-Response Generation (MRG) and Preference-based Selection (PS): introduces a two-stage framework for open-domain dialogue response generation, where MRG generates a set of diverse responses and PS selects the best one based on human preference.
+- The approach leverages smaller LLMs and introduces the o2mDial dataset to explicitly capture the one-to-many property.
+- Empirical results show the framework enhances response diversity and quality in smaller LLMs, approaching the performance of larger models.
+
+
+---
+
+[HEAL: An Empirical Study on Hallucinations in Embodied Agents Driven by Large Language Models](http://arxiv.org/abs/2506.15065v1)
+
+- LLM-based Embodied Agent Pipeline: studies hallucinations in embodied agents by evaluating a pipeline that takes Scene (Visual input) and Task Description (Natural language instruction), processes them via a Scene Parser (Extracts scene info) and LLM as Goal Interpreter (Generates symbolic goals) to produce LTL Goal (Symbolic task goals) for Execute the Task (Action planning/execution).
+- The study constructs a hallucination probing set by systematically modifying the Task Description and Scene Information inputs to introduce scene-task inconsistencies.
+- The research finds that LLMs struggle to reconcile scene-task inconsistencies, leading to hallucinations and failures in handling infeasible tasks.
+
+
+---
+
+[OS-HARM: A Benchmark for Measuring Safety of Computer Use Agents](http://arxiv.org/abs/2506.14866v1)
+
+- OS-HARM (Benchmark): introduces a benchmark for measuring the safety of computer use agents, featuring OS-HARM tasks, OSWorld Ubuntu VM, LLM Agent, OSWorld scaffolding, Agent Traces, and LLM Judge.
+- The benchmark evaluates LLM-based agents on tasks involving deliberate user misuse, prompt injection attacks, and model misbehavior within a realistic OSWorld environment.
+- An automated LLM Judge evaluates agent performance and safety based on recorded execution traces, including reasoning steps, screenshots, and accessibility trees.
+
+
+---
+
+[LLM Agent for Hyper-Parameter Optimization](https://arxiv.org/abs/2506.15167)
+
+- LLM Agent Framework and MCP: introduces an interactive framework orchestrating collaboration between the LLM Agent (comprising Profile, Memory, Planning, and Action components), Human inputs, and the Environment (WS-PSO-CM algorithm) for automatic hyper-parameter tuning.
+- The Model Context Protocol (MCP) defines a unified communication specification enabling the LLM Agent to interact with external systems via MCP Client and MCP Server architecture.
+- The framework iteratively refines hyper-parameters for the WS-PSO-CM algorithm based on prompt requirements and environmental feedback to optimize UAV trajectory and communication.
+
+
+---
+
 
 #### 17th June 2025
 
