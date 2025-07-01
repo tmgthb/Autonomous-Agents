@@ -43,7 +43,431 @@ Chronological order.
 
 </div>
 
+#### 30th June 2025
+
+[SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning](http://arxiv.org/abs/2506.24119v1)
+
+- SPIRAL: introduces a self-play framework for LLMs using a Distributed Actor-Learner Architecture, Parallel Rollout, Centralized Learner, Role-conditioned Advantage Estimation, Shared Policy, Zero-Sum Games, Evaluation Games, Vectorized Environment, and Model Inference, enabling language models to develop reasoning through multi-turn competitive self-play on zero-sum games.
+- The framework utilizes a distributed actor-learner system with parallel rollout in vectorized game environments and a centralized learner processing trajectories using Role-conditioned Advantage Estimation to update a shared, role-conditioned LLM policy.
+- Self-play on zero-sum games generates an infinite curriculum, forcing the shared policy to continuously adapt and develop transferable reasoning skills without human supervision or domain-specific data.
+
+
+---
+
+[Agent.xpu: Efficient Scheduling of Agentic LLM Workloads on Heterogeneous SoC](http://arxiv.org/abs/2506.24045v1)
+
+- Agent.xpu: introduces an efficient serving system for agentic LLM workloads on memory-unified heterogeneous SoCs, with Offline Model Compilation and Warmup (Prepares LLM model), Online Workload-Aware Scheduling (Manages runtime execution), and Hetero-SoC Hardware Layer (Underlying hardware).
+- The system uses offline profiling to build a Heterogeneous Execution Graph (HEG) and annotate Elastic Kernels for online scheduling.
+- The online scheduler employs a Dual-Queue Architecture, Task Decomposition and Dispatch, XPU Coordinator, Fine-Grained Kernel-Level Preemption, Slack-Aware Kernel Backfill, and Contention Mitigation to manage reactive and proactive tasks on CPU, iGPU, and NPU with Shared Memory.
+
+
+---
+
+[Auto-TA: Towards Scalable Automated Thematic Analysis (TA) via Multi-Agent Large Language Models with Reinforcement Learning](http://arxiv.org/abs/2506.23998v1)
+
+- Auto-TA: introduces a fully automated LLM pipeline for thematic analysis, with Generation Agents (Initial processing) including Coder Agents with Identities (Generate initial codes) and Theme-Generation Agents (Cluster codes, generate themes), a Feedback Agent (Evaluate, refine themes), and optional Reinforcement Learning (optional) (Optimize themes via feedback) involving Human Raters (Provide feedback for RL) and an RL Trainer (Update policy).
+- The framework processes clinical narratives end-to-end, eliminating the need for manual coding or full transcript review.
+- Specialized LLM agents collaborate to enhance theme quality and alignment, with optional RLHF improving thematic relevance based on human feedback.
+
+
+---
+
+[LLM Agents Are the Antidote to Walled Gardens](http://arxiv.org/abs/2506.23978v1)
+
+- Universal Interoperability: introduces LLM Agents (Understand text/code, interact external tools/web), Agent-friendly interfaces (Provide metadata for agent interaction), Security by design (Mechanisms for agent permissions/safety), and Ecosystem infrastructure (Protocols, standards for agent interaction), proposing LLM agents enable seamless data exchange and workflow coordination between digital services via AI-mediated adapters.
+- This approach aims to reduce integration effort and cost by allowing agents to translate formats and interact with interfaces, overcoming traditional technical and strategic barriers.
+- Establishing foundational infrastructure for agent-friendly interfaces, security, and ecosystem protocols is crucial to mitigate risks and ensure robust, secure, and effective interoperability.
+
+
+---
+
+[A Survey on Autonomy-Induced Security Risks in Large Model-Based Agents](http://arxiv.org/abs/2506.23844v1)
+
+- R2A2 (Reflective Risk-Aware Agent Architecture): introduces a modular framework integrating safety, alignment, and risk-awareness into LLM agent cognitive loops.
+- The architecture includes components for perception, memory, reasoning, planning, reflection, risk simulation, and action filtering.
+- Grounded in Constrained Markov Decision Processes, R2A2 enables risk-aware planning and constraint-sensitive execution for autonomous agents.
+
+
+---
+
+[Leveraging a Multi-Agent LLM-Based System to Educate Teachers in Hate Incidents Management](http://arxiv.org/abs/2506.23774v1)
+
+- ARISE (Agent Resource for Incident Support and Education): introduces a multi-agent LLM-based system with Manager Agent, Student Agents, Advisory Agents, RAG Module, Conversational Interface, and Feedback Mechanism, designed to educate teachers in hate incident management through realistic simulations.
+- The system uses persona modelling and retrieval-augmented generation to provide diverse perspectives and contextual information for analyzing hate speech incidents.
+- Teachers interact with the system via a chat interface to describe incidents and receive structured analysis, potential escalation risks, and intervention strategies.
+
+
+---
+
+[A Survey of LLM-based Automated Program Repair: Taxonomies, Design Paradigms, and Applications](http://arxiv.org/abs/2506.23749v1)
+
+- LLM-based Automated Program Repair: introduces a taxonomy with Base LLMs (Core models), Fine-tuning (Adapt LLM weights), Prompting (Single query frozen LLM), Procedural (Scripted multi-step workflow), and Agentic (LLM controls workflow) paradigms, enhanced by Retrieval-Augmented Generation (External knowledge augmentation) and Analysis-Augmented Generation (Program analysis augmentation).
+- This survey categorizes 63 recent systems, clarifying design trade-offs and challenges across different approaches.
+- The paper outlines research directions to advance reliable and efficient LLM-based APR.
+
+
+---
+
+[DABstep: Data Agent Benchmark for Multi-step Reasoning](http://arxiv.org/abs/2506.23719v1)
+
+- AI Agent on DABstep: introduces a benchmark evaluating AI agents on multi-step data analysis tasks, comprising Agent (AI model solving task), Environment (Context, data, tools) with Environment/Datasets (Structured data files), Environment/Docs (Unstructured documentation), and Environment/Code Execution (Code execution tool), interacting via Question (Task input), Answer (Task output), State (Agent's internal state), and Code/Actions (Agent's generated steps).
+- The benchmark features over 450 real-world financial data analysis tasks requiring multi-step reasoning, code execution, and integration of structured and unstructured data.
+- Evaluation uses an objective factoid-based scoring method, revealing a significant performance gap for current agents on complex tasks.
+
+
+---
+
+[Agent4S: The Transformation of Research Paradigms from the Perspective of Large Language Models](http://arxiv.org/abs/2506.23692v1)
+
+- Agent4S: introduces a five-level classification for LLM-driven agents to automate scientific research, featuring an Agent for Science, Memory, Model Context Protocol (MCP), Tools/External Agents, Reasoning Frameworks, and A2A Protocol.
+- The framework outlines a roadmap from automating single tools (L1) and complex pipelines (L2) to intelligent single-flow research (L3) and lab-scale autonomy (L4), culminating in cross-disciplinary multi-agent collaboration (L5).
+- Agent4S positions agents as productivity tools transforming scientific discovery by addressing the inefficiency of existing research paradigms and integrating AI into the entire research workflow.
+
+
+---
+
+[PokéAI: A Goal-Generating, Battle-Optimizing Multi-agent System for Pokémon Red](http://arxiv.org/abs/2506.23689v1)
+
+- PokéAI: introduces a text-based multi-agent LLM framework, with Planning Agent (Generates tasks), Execution Agent (Carries out tasks), Critique Agent (Evaluates task outcome), Long-term Memory (Stores game state, context), Passive Battle Module (Handles in-game battles), and Active Tool Selection (Navigation, Conversation tools), designed to autonomously play Pokémon Red.
+- The system operates in a closed loop where the Planning Agent generates tasks, the Execution Agent performs them, and the Critique Agent verifies completion.
+- A key component, the Passive Battle Module within the Execution Agent, demonstrates performance comparable to an experienced human player in battle scenarios.
+
+
+---
+
+[Evaluating the Simulation of Human Personality-Driven Susceptibility to Misinformation with LLMs](http://arxiv.org/abs/2506.23610v1)
+
+- Personality-aligned LLM agents: introduces a method using Human Personality Profiles and Personality Assignment to create LLM Agents that perform a Headline Evaluation Task, generating LLM Accuracy Ratings, which are assessed using Evaluation Metrics.
+- The research evaluates whether LLM agents conditioned on Big-Five personality profiles can replicate human susceptibility patterns to misinformation.
+- The study finds partial replication of human trait-misinformation associations, highlighting both the potential and limitations of LLMs for behavioral simulation.
+
+
+---
+
+[Evaluating Multi-Agent Defences Against Jailbreaking Attacks on Large Language Models](http://arxiv.org/abs/2506.23576v1)
+
+- AutoDefense: introduces a multi-agent LLM defence framework, evaluated in 1-, 2-, and 3-agent configurations, including Coordinator (manages agents), Intention Analyzer (evaluates response intent), Prompt Analyzer (infers original query), and Judge (determines response safety) components, designed to protect LLMs from jailbreak attacks by analyzing responses.
+- The study evaluates the framework's effectiveness against various jailbreak attacks and compares performance across different agent configurations using metrics like Attack Success Rate, False Positive Rate, and False Negative Rate.
+- Results indicate that increasing agents can reduce false negatives but may increase false positives, suggesting no single optimal configuration and highlighting challenges in evaluating ethically ambiguous content.
+
+
+---
+
+[Thought-Augmented Planning for LLM-Powered Interactive Recommender Agent](http://arxiv.org/abs/2506.23485v1)
+
+- TAIRA (Thought-Augmented Planning for LLM-Powered Interactive Recommender Agent): introduces a novel thought-augmented interactive recommender agent system featuring a Manager Agent, Executor Agents, and Thought Pattern Distillation to handle complex user intents.
+- The Manager Agent orchestrates tasks and plans subtasks using Thought Patterns and Hierarchical Planning, while Executor Agents like Searcher, Item Retriever, Task Interpreter, and Interactor execute specific functions.
+- Thought Pattern Distillation extracts high-level planning guidance from agent and human experiences to enhance the system's reasoning and generalization capabilities.
+
+
+---
+
+#### 29th June 2025
+
+
+[Do LLMs Dream of Discrete Algorithms?](http://arxiv.org/abs/2506.23408v1)
+
+- AI Agent: introduces a neurosymbolic approach augmenting LLMs with logic-based reasoning and modular tools, structured by MVC, enabling decomposition and orchestration.
+- The AI Agent architecture includes an Agent Core for orchestration, Memory for information storage, a Planner guided by logic reasoning, and various Tools for specific tasks.
+- This hybrid approach enhances reliability and interpretability for multi-step reasoning tasks by combining probabilistic LLMs with formal logic systems.
+
+
+---
+
+[ATGen: A Framework for Active Text Generation](http://arxiv.org/abs/2506.23342v1)
+
+- ATGen: introduces a comprehensive framework bridging active learning with text generation tasks, enabling AL-empowered annotation using human or LLM-based agents.
+- The framework provides a unified platform for implementing and benchmarking AL strategies tailored to NLG tasks.
+- It includes a web GUI, various AL strategies, support for LLM integration, efficient model tools, evaluation metrics, and a benchmarking platform.
+
+
+---
+
+[Corrupted by Reasoning: Reasoning Language Models Become Free-Riders in Public Goods Games](http://arxiv.org/abs/2506.23276v1)
+
+- Multi-Agent Public Goods Game Simulation: introduces, "a simulation framework", with Environment (Central coordinator), Institutions (Rule frameworks), and Agents (Autonomous decision-makers), where "the framework models LLM agents navigating a public goods dilemma with institutional choice and norm enforcement".
+- The simulation includes two types of Institutions, Sanctioning and Sanction-Free, allowing agents to choose environments with or without costly norm enforcement mechanisms.
+- Agents make decisions on institution choice, contribution, and sanctioning based on their history and anonymized group data, with their reasoning captured for analysis.
+
+
+---
+
+[From Prompt Injections to Protocol Exploits: Threats in LLM-Powered AI Agents Workflows](http://arxiv.org/abs/2506.23260v1)
+
+- LLM-Powered AI Agent Communications: surveys threats in these systems, including Agent A (MCP Host), Agent B (MCP Host), MCP Server, A2A Server, Local Data Source, Remote Service API, Agent Framework (Large Language Model), A2A Client, A2A protocol, Web Browser - User, and Public Knowledge Source components.
+- The paper introduces a unified, end-to-end threat model categorizing over thirty attack techniques across input manipulation, model compromise, system/privacy, and protocol vulnerabilities.
+- This work provides a comprehensive reference for designing robust defenses and establishing best practices for resilient LLM-agent workflows.
+
+
+---
+
+
+[AURA: Agent for Understanding, Reasoning, and Automated Tool Use in Voice-Driven Tasks](http://arxiv.org/abs/2506.23049v1)
+
+- AURA: introduces the first open-source, speech-to-speech task-oriented agent combining reasoning and tool use, featuring UI (user interface), ASR Module (speech recognition), TTS Module (text-to-speech), Dialog Processing Unit (processes dialogue) with Controller (central orchestrator), Agent (interleaves reasoning action), Actions (executable operations), Observation (environmental feedback), Dialog State Tracking (tracks dialogue state), and State (system memory) including Action-Observation History (action observation sequence), Conversation History (filtered chat history), and Dialog State (structured dialogue info), an LLM Server (hosts language model) with LLM (language model), Inference Engine (memory efficient inference), and ReAct Response Format (structured LLM output), and External APIs (Tools) (real-world services).
+- The system employs a cascaded architecture and integrates a ReAct-style agent to manage multi-turn dialogue and dynamic tool invocation for complex, goal-driven tasks.
+- AURA supports tools like calendar booking, contact lookup, web search, and email, demonstrating strong performance on VoiceBench and human evaluations for real-world task execution.
+
+
+---
+
+#### 28th June 2025
+
+[Agent-to-Agent Theory of Mind: Testing Interlocutor Awareness among Large Language Models](http://arxiv.org/abs/2506.22957)
+
+- Interlocutor Awareness Evaluation Setup: introduces a systematic evaluation of LLMs' ability to identify and adapt to conversational partners, utilizing LLMs acting as Identifier, Target, Sender, Solver, Player, Judge, Jailbreaker, and an Interpreter model.
+- The evaluation assesses LLM interlocutor awareness across reasoning patterns, linguistic style, and alignment preferences.
+- Case studies demonstrate the impact of this awareness on multi-agent cooperation, alignment, and safety.
+
+
+---
+
+[DICE-BENCH: Evaluating the Tool-Use Capabilities of Large Language Models in Multi-Round, Multi-Party Dialogues](http://arxiv.org/abs/2506.22853v1)
+
+- DICE-BENCH: introduces a framework to evaluate LLM function-calling in multi-round, multi-party dialogues, utilizing Tool Collections, Tool Graph Construction, Scenario Configuration, Dialogue Generation with Parameter Generation and Dialogue Simulation via a Multi-Agent System (Agents, Orchestrator), processed through a Validation Pipeline (Automatic Evaluation, Rule-Based Filtering, Criteria-Based Filtering), and quantified by the DICE-SCORE metric.
+- The framework generates realistic function-calling datasets by synthesizing conversations based on tool dependencies and distinct agent personas.
+- DICE-SCORE measures the dispersion of tool-related information across dialogue turns, correlating with task difficulty for LLMs.
+
+
+---
+
+[Knowledge Augmented Finetuning Matters in both RAG and Agent Based Dialog Systems](http://arxiv.org/abs/2506.22852v1)
+
+- RAG and Agent Based Dialog Systems: introduces finetuning LLMs with domain-specific data and external knowledge (KAFT) within RAG and agent architectures, including Retriever (retrieves knowledge), Generator (LLM) (generates response), Decision Maker (decides search), and API Calling (calls search APIs).
+- The RAG system architecture comprises a Retriever and a Generator (LLM), while the agent system architecture includes a Decision Maker, API Calling, and a Generator (LLM).
+- KAFT is applied to the Generator (LLM) in both RAG and agent systems and the Decision Maker in the agent system to improve the utilization of external knowledge.
+
+
+---
+
+[Memory as a Service (MaaS): Rethinking Contextual Memory as Service-Oriented Modules for Collaborative Agents](http://arxiv.org/abs/2506.22815v1)
+
+- MaaS (Memory as a Service): introduces a service-oriented perspective for contextual memory in LLM-based agent systems, proposing a dual architecture with Memory Containers, a Memory Routing Layer, and a Fine-grained permission control mechanism to enable governable cross-entity memory sharing.
+- The framework decouples contextual memory from its local state, encapsulating it as independently callable, dynamically composable, and finely governed service modules.
+- MaaS aims to dismantle memory silos and support complex, long-term collaboration across diverse entities while rigorously respecting the private nature of memory assets.
+
+
+---
+
+[FairMarket-RL: LLM-Guided Fairness Shaping for Multi-Agent Reinforcement Learning in Peer-to-Peer Markets](http://arxiv.org/abs/2506.22708v1)
+
+- FairMarket-RL: introduces a multi-agent reinforcement learning framework for peer-to-peer markets, incorporating a Large Language Model (LLM) as a real-time fairness critic to guide agent rewards.
+- The framework utilizes Independent Proximal Policy Optimization (IPPO) for agent training, blending raw economic rewards with LLM-generated fairness scores (Fairness-To-Buyer, Fairness-Between-Sellers) via a scheduled shaping mechanism.
+- FairMarket-RL demonstrates improved fairness and efficiency in simulated P2P energy trading, achieving high demand fulfillment and balanced profits by replacing static rules with dynamic LLM feedback.
+
+
+---
+
+#### 27th June 2025
+
+[Knowledge-Guided Multi-Agent Framework for Automated Requirements Development: A Vision](http://arxiv.org/abs/2506.22656v1)
+
+- KGMAF: introduces a knowledge-guided multi-agent framework for automated requirements development, composed of Agents (LLM-based entities) and an Artifacts Pool (Central artifact repository).
+- The agents collaborate by monitoring and interacting with the artifacts pool, which stores intermediate and final requirements artifacts.
+- Each agent is equipped with specific functionality, predefined actions, planning mechanism, and injected knowledge to perform requirements tasks.
+
+
+---
+
+[URSA: The Universal Research and Scientific Agent](http://arxiv.org/abs/2506.22653v1)
+
+- URSA (The Universal Research and Scientific Agent): introduces a scientific agent ecosystem for accelerating research tasks, consisting of a Planning Agent (Breaks down problems), Execution Agent (Carries out tasks), Research Agent (Gathers online info), Hypothesizer Agent (Generates hypotheses), ArXiv Agent (Summarizes research papers), LLMs (Backend models), LangGraph (Agent framework), DuckDuckGo Search Tool (Performs web search), Web Scraping/Parsing Tool (Extracts web content), Command Line Tool (Executes system commands), Write Code Tool (Writes code files), Run Physics Code Tool (Executes physics simulations), ArXiv Search Tool (Searches ArXiv API), and Vision Model (Processes images).
+- The framework utilizes a set of modular, composable agents coupled with tool use to hypothesize, plan, and execute research tasks, building on large language model capabilities.
+- URSA demonstrates the potential for agentic AI to address scientific problems of varied complexity, including leveraging advanced physics simulation codes for design automation.
+
+
+---
+
+[REXBENCH: Can coding agents autonomously implement AI research extensions?](http://arxiv.org/abs/2506.22598v1)
+
+- REXBENCH: introduces a benchmark for evaluating LLM agents' ability to implement research extensions, with Input (Research paper, Codebase, Task instruction), Agent Execution (LLM Agent, Patch file generation), Agent Evaluation Infra (Virtual Machine, Task Execution, Evaluation Metrics), and Evaluation (Results from Experiment, Final Success Rate calculation) components, where the paper evaluates LLM agents on realistic research extension tasks using an automatic evaluation infrastructure.
+- The benchmark consists of 12 tasks based on existing research papers and codebases, requiring agents to implement novel extensions and produce code changes.
+- An automatic evaluation infrastructure executes the agent-generated code in controlled virtual machines and assesses performance using metrics like File Recall, Execution Success Rate, and Final Success Rate, revealing that current agents struggle with these tasks.
+
+
+---
+
+[Seamless Interaction: Dyadic Audiovisual Motion Modeling and Large-Scale Dataset](http://arxiv.org/abs/2506.22554v1)
+
+- Dyadic Motion Models: introduces a framework for generating dyadic audiovisual motion, including Speech Tokenizer (processes audio), Face & Body Feature Extractor (processes user visual), Dyadic Motion Model (generates motion features), Speech Model (provides LLM features), Valence Adapter (maps to valence codes), Arousal Adapter (maps to arousal codes), Gesture Adapter (maps to gesture codes), Face Adapter (maps generic to personalized face features), Body Adapter (maps body features to avatar rig), 3D Full-Body Codec Avatar Decoder (renders 3D avatar), Gaussian Splatting (3D rendering technique), and Linear Blend Skinning (deforms avatar mesh).
+- The framework utilizes dyadic audio and optional user visual input to generate intermediate face and body motion features.
+- LLM integration via adapters enables controllable emotion and gesture generation, while adapters and a 3D decoder facilitate photorealistic avatar rendering for interactive agents.
+
+
+---
+
+[The Automated LLM Speedrunning Benchmark: Reproducing NanoGPT Improvements](http://arxiv.org/abs/2506.22419v1)
+
+- AI Research Agent: introduces, "The Automated LLM Speedrunning Benchmark", with LLM (Large Language Model), Search Scaffold (Iteratively uses LLM), Coder (Generates/modifies code), Executor (Runs code), Analyzer (Summarizes execution results), Knowledge (External information source), and History (Record of attempts), evaluating the ability of AI agents to reproduce NanoGPT speedrun improvements.
+- The benchmark tasks agents with reproducing successive speedrun records, providing the previous record's script and optional hints in various formats.
+- The AI research agent, composed of an LLM and a search scaffold, attempts to reproduce the record, and its performance is measured by the fraction of speedup recovered and code similarity.
+
+
+---
+
+[Exploring Modularity of Agentic Systems for Drug Discovery](http://arxiv.org/abs/2506.22189v1)
+
+- smolagent framework: evaluates the modularity of LLM-based agentic systems for drug discovery, with Code Agent (Writes and executes code), ToolCalling Agent (Uses external tools), LLM (Backbone language model), System prompt (Agent instructions), Tools (Cheminformatics functions), LLM Judge (Evaluates agent answers), where the system uses different agents, LLMs, and prompts to answer cheminformatics questions, evaluated by an LLM-as-a-judge.
+- The study compares the performance of CodeAgent and ToolCallingAgent types, seven different LLMs, and three system prompts on a set of 26 cheminformatics questions.
+- Performance is assessed using an LLM-as-a-judge system that scores agent answers based on expected answers, highlighting the dependence of performance on LLM, agent type, and prompt.
+
+
+---
+
+[Don't Trust Generative Agents to Mimic Communication on Social Networks Unless You Benchmarked their Empirical Realism](http://arxiv.org/abs/2506.21974v1)
+
+- TWONs (Twins of Online Social Networks): introduces a formal framework for simulating social networks with Agents (Social media users) having Agent State (Agent's discourse history) and Communicative Behavior (Agent generates messages), interacting via Network Mechanics (Adapts incoming messages), focusing on Imitating User Behavior (Estimate agent behavior function) including Imitating Posting Behavior (Model content generation), Imitating Replying Behavior (Model reply generation), and Estimating Replying Likelihood (Predict reply probability) using Large Language Models (LLMs) (Basis for agents) with Fine-Tuning (Adapting LLMs) and a BERT-based Encoder (Embeds text for likelihood).
+- The paper empirically tests LLM-based imitation of user behavior on X (formerly Twitter) in English and German, benchmarking empirical realism.
+- Findings suggest fine-tuning and language-specific considerations are crucial for achieving realistic social simulations with generative agents.
+
+
+---
+
+[More Vulnerable than You Think: On the Stability of Tool-Integrated LLM Agents](http://arxiv.org/abs/2506.21967v1)
+
+- Tool-Integrated LLM Agent: introduces an evaluation of the stability of tool-integrated LLM agents, focusing on vulnerabilities during the tool invocation process related to tool documentation, tool usage hallucination, and tool response attacks.
+- The study investigates how internal and external factors impact agent performance and stability when interacting with external tools using the ReAct framework.
+- Experiments reveal that agents are highly susceptible to errors at each stage of tool invocation, with open-source models generally more vulnerable than proprietary ones.
+
+
+---
+
+[CAL-RAG: Retrieval-Augmented Multi-Agent Generation for Content-Aware Layout Design](http://arxiv.org/abs/2506.21934v1)
+
+- CAL-RAG (Retrieval-Augmented Multi-Agent Generation): introduces a framework for content-aware layout generation using a Layout Recommender Agent (Suggests initial layout), Layout Generation Tool (Creates visual representation), Grader Agent (Evaluates layout quality), and Feedback Agent (Provides refinement feedback).
+- The framework operates iteratively, retrieving relevant layout examples, proposing structured element placements, evaluating the generated layout based on visual metrics, and providing targeted refinements.
+- This multi-agent system combines retrieval augmentation with agentic reasoning to achieve scalable, interpretable, and high-fidelity automated layout generation.
+
+
+---
+
+[ARAG: Agentic Retrieval Augmented Generation for Personalized Recommendation](http://arxiv.org/abs/2506.21931v1)
+
+- ARAG (Agentic Retrieval-Augmented Generation): introduces a multi-agent framework for personalized recommendation, integrating a User Understanding Agent (Summarizes user preferences), Natural Language Inference Agent (Evaluates semantic alignment), Context Summary Agent (Summarizes NLI-filtered evidence), and Item Ranker Agent (Generates ranked list) to refine context retrieval and item ranking.
+- The framework leverages specialized LLM-based agents that collaborate in a blackboard-style system to process user context and candidate items.
+- This agentic approach enhances context awareness, semantic grounding, and personalization in recommendation systems by decomposing the task into distinct reasoning steps.
+
+
+---
+
+
+[SPAZER: Spatial-Semantic Progressive Reasoning Agent for Zero-shot 3D Visual Grounding](http://arxiv.org/abs/2506.21924v1)
+
+- SPAZER: introduces a VLM-driven agent for zero-shot 3D visual grounding, integrating 3D spatial localization and 2D semantic verification through a progressive reasoning process with 3D Holistic View Selection (Generates, selects optimal 3D view), Candidate Object Screening (Filters, ranks potential objects), 3D-2D Joint Decision-Making (Integrates 3D/2D for final grounding), and VLM (Core reasoning, decision-making engine) components.
+- The approach leverages holistic 3D rendered views for global spatial context and incorporates retrieval-augmented candidate screening for enhanced robustness.
+- SPAZER performs 3D-2D joint decision-making by combining information from selected 3D views and relevant 2D camera images to identify the target object.
+
+
+---
+
+#### 26th June 2025
+
+[CitySim: Modeling Urban Behaviors and City Dynamics with Large-Scale LLM-Driven Agent Simulation](http://arxiv.org/abs/2506.21805v1)
+
+- CitySim: introduces a large-scale urban simulation framework using LLM-powered agents with Persona Module (Demographics, traits, habits), Memory Module (Temporal, reflective, spatial), Belief Module (Updates POI beliefs), Needs Module (Tracks, prioritizes needs), Long-Term Goal Module (Forms, revises aspirations), Perception Module (Observes environment, reacts), Planning Module (Generates daily schedules), Place Selection Module (Determines activity location), Vehicle Selection Module (Selects transport mode), and Social Module (Manages social interactions) to model human-like behavior.
+- The framework enables agents to generate realistic daily schedules and long-term plans through recursive, value-driven planning, balancing mandatory activities, personal habits, and situational factors.
+- CitySim agents are equipped with spatial and temporal memories to recall experiences, form beliefs about places, and adapt future decisions, demonstrating closer alignment with real human behavior than prior work.
+
+
+---
+
+[MobiVerse: Scaling Urban Mobility Simulation with Hybrid Lightweight Domain-Specific Generator and Large Language Models](http://arxiv.org/abs/2506.21784v1)
+
+- MobiVerse: introduces a hybrid framework for urban mobility simulation, combining a Domain-Specific Generator for base activity chains with an LLM Activity Chain Modifier for context-aware adaptation, integrated within a Visualized Simulation Environment using SUMO.
+- The framework utilizes a SUMO Controller for simulation execution and data collection, a Trajectory Viewer for visualization, and global data stores (Road Network, POI Info, Agent Info) for system-wide access.
+- Supporting components like the PromptManager, RoadClosureHandler, and EventHandler manage LLM interactions and specific environmental events to enhance behavioral realism and scalability.
+
+
+---
+
+[SEEA-R1: Tree-Structured Reinforcement Fine-Tuning for Self-Evolving Embodied Agents](http://arxiv.org/abs/2506.21669v1)
+
+- SEEA-R1 (Self-Evolving Embodied Agents-R1): introduces a reinforcement fine-tuning framework for embodied agents, featuring Policy Model (Predicts actions), Reward Model (MGRM) (Predicts task outcomes), Data Evolution (MCTS) (Generates experience), Model Evolution (Tree-GRPO) (Updates models), Environment (Provides observations/rewards), and Experience Dataset (Stores interaction data).
+- The framework drives continuous improvement through iterative Data Evolution and Model Evolution cycles, using MCTS for experience generation and Tree-GRPO for policy updates.
+- It utilizes a Multi-modal Generative Reward Model (MGRM) to provide dense, generalizable reward signals, reducing dependence on sparse environment rewards.
+
+
+---
+
+[Beyond Reactive Safety: Risk-Aware LLM Alignment via Long-Horizon Simulation](http://arxiv.org/abs/2506.20949v1)
+
+- Proactive Alignment Framework: introduces a method that simulates long-term societal consequences of LLM advice using World Modeling and an Event Scripting Model to generate Feedback, which is then used by an Improver to refine responses.
+- The framework explores causal event trajectories via Event Trajectory Search, identifies affected population Strata, and generates Agent Feedback for these groups.
+- This approach enhances LLM risk awareness, leading to Refined Responses that are safer, achievable through inference-time refinement or offline Realignment Training.
+
+
+---
+
+
+[ParEval-RepO: A Benchmark Suite for Evaluating LLMs with Repository-level HPC Translation Tasks](http://arxiv.org/abs/2506.20938v1)
+
+- LLM-based translation techniques: introduces PAREVAL-REPO, a benchmark suite for evaluating repository-level HPC translation using Non-agentic method (file-by-file translation), Top-down agentic method (multi-agent system), and SWE-agent (autonomous coding agent).
+- The Top-down agentic method comprises a Dependency agent (determines file dependencies), Context agent (manages translation changes), Chunk agent (splits large files), and Translation agent (translates code chunks).
+- Evaluation metrics (assess translation quality) and Error analysis (identifies translation errors) are used to assess various LLMs (Large Language Models) and techniques, highlighting challenges in build system generation and cross-file dependencies.
+
+
+---
+
+[LLM-guided Chemical Process Optimization with a Multi-Agent Approach](http://arxiv.org/abs/2506.20921v1)
+
+- Multi-Agent Framework: introduces LLM agents (ContextAgent, ParameterAgent, ValidationAgent, SimulationAgent, SuggestionAgent) collaborating within a GroupChat environment, leveraging IDAES simulation, for chemical process optimization.
+- The framework operates in two phases: autonomous constraint generation by the ContextAgent followed by iterative optimization guided by the other agents.
+- This approach addresses the constraint definition bottleneck in traditional optimization by autonomously inferring operating bounds from minimal descriptions.
+
+
+---
+
+[LLM-guided Chemical Process Optimization with a Multi-Agent Approach](http://arxiv.org/abs/2506.20921v1)
+
+- Multi-Agent Framework: introduces LLM agents (ContextAgent, ParameterAgent, ValidationAgent, SimulationAgent, SuggestionAgent) collaborating within a GroupChat environment, leveraging IDAES simulation, for chemical process optimization.
+- The framework operates in two phases: autonomous constraint generation by the ContextAgent followed by iterative optimization guided by the other agents.
+- This approach addresses the constraint definition bottleneck in traditional optimization by autonomously inferring operating bounds from minimal descriptions.
+
+
+---
+
+[FaSTA*: Fast-Slow Toolpath Agent with Subroutine Mining for Efficient Multi-turn Image Editing](http://arxiv.org/abs/2506.20911v1)
+
+- FaSTA* (Fast-Slow Toolpath Agent): introduces a neurosymbolic agent for multi-turn image editing, including LLM (high-level planning / reasoning), VLM (quality checking), Subroutine Rule Table (learned subroutines / rules), and Online Subroutine Learning Mechanism (learns / refines subroutines).
+- It utilizes an Adaptive Fast-Slow Execution Strategy (fast / slow planning) that attempts learned subroutines first and triggers A* Search (low-level toolpath search) as a fallback, supported by Knowledge Structures (TDG / MDT / BT) and AI Tools (image editing operations).
+- This method achieves substantial cost savings in execution time while maintaining image editing quality comparable to state-of-the-art baselines.
+
+
+---
+
+
+
 #### 25th June 2025
+
+[GPU Kernel Scientist: An LLM-Driven Framework for Iterative Kernel Optimization](http://arxiv.org/abs/2506.20807v1)
+
+- GPU Kernel Scientist: introduces an automated, iterative framework for GPU kernel optimization, including Population (Stores kernels and performance data), LLM Evolutionary Selector (Selects kernels for iteration), LLM Experiment Designer (Designs optimization experiments), LLM Kernel Writer (Generates modified kernel code), and Benchmarking Platform (Evaluates kernel performance).
+- The framework leverages large language models across three core stages to iteratively refine GPU kernels based on performance feedback from an external evaluation system.
+- This LLM-driven approach aims to bridge knowledge gaps and accelerate kernel optimization, particularly in environments with limited documentation or tooling.
+
+
+---
+
+[Poster: Enhancing GNN Robustness for Network Intrusion Detection via Agent-based Analysis](http://arxiv.org/abs/2506.20806v1)
+
+- LLM Mitigation Pipeline: introduces an approach integrating LLM analysis into a GNN-based NIDS pipeline, including initial data processing, parameter configuration, data preprocessing, graph summarization, LLM agent analysis, and output generation for the GNN.
+- The pipeline employs LLM agents as simulated cybersecurity experts to analyze network graph elements and identify suspicious components before GNN processing.
+- This LLM-based mitigation strategy aims to enhance GNN resilience against realistic attacks like node injection by filtering or flagging malicious graph elements.
+
+
+---
+
+[A SURVEY OF AI FOR MATERIALS SCIENCE: FOUNDATION MODELS, LLM AGENTS, DATASETS, AND TOOLS](http://arxiv.org/abs/2506.20743v1)
+
+- AI4MS: introduces, "Common & Prevalent Tasks (broad application areas), Foundation Models (large pretrained models), Datasets (data collections), Tools & Infrastructures (supporting software platforms), and Successes, Limitations & Challenges, Future Directions (discussion points), where the paper surveys the landscape of AI for materials science."
+- The survey categorizes Foundation Models into Unimodal, Multimodal, and LLM Agents, and Datasets into Computational/Experimental and LLM Development.
+- It also reviews Tools & Infrastructures for Data Analysis/Management and Model Development, and discusses the current state and future directions.
+
+
+---
+
+
+
 
 [The Decrypto Benchmark for Multi-Agent Reasoning and Theory of Mind](http://arxiv.org/abs/2506.20664v1)
 
