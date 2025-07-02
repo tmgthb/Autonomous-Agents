@@ -43,6 +43,46 @@ Chronological order.
 
 </div>
 
+#### 1st July 2025
+
+[WebArXiv: Evaluating Multimodal Agents on Time-Invariant arXiv Tasks](https://arxiv.org/abs/2507.00938)
+
+- Web Agent with Dynamic Reflection: introduces WebArXiv, a static benchmark, and proposes a dynamic reflection mechanism for web agents, including Web Agent, Visual Observations, Element Texts, Interaction History, Dynamic Reflection Mechanism, Model, Reasoning Context, Action Execution, and History Update components.
+- WebArXiv provides a stable and reproducible environment for evaluating web agents on time-invariant arXiv tasks.
+- The dynamic reflection mechanism enhances agent performance by selectively retrieving relevant past interaction steps for improved decision-making.
+
+
+---
+
+[Enhancing LLM Agent Safety via Causal Influence Prompting](https://arxiv.org/abs/2507.00979)
+
+- CIP (Causal Influence Prompting): introduces a novel technique for enhancing LLM agent safety by leveraging Causal Influence Diagrams (CID) initialization, Environment interaction, and CID refinement.
+- The approach uses CIDs to represent cause-and-effect relationships in the agent's decision-making process, enabling reasoning about potential consequences.
+- Iterative refinement of the CID based on observed behaviors allows the agent to anticipate harmful outcomes and make safer decisions.
+
+
+---
+
+[Large Language Model Powered Intelligent Urban Agents: Concepts, Capabilities, and Applications](https://arxiv.org/abs/2507.00914)
+
+- Urban LLM Agents: introduces a framework for LLM-powered agents operating in urban environments, with Large Language Models (Core controller), Urban Sensing (Collects, interprets urban signals), Memory Management (Organizes, retrieves urban knowledge), Reasoning (Simulates, plans actions), Execution (Translates plans into actions), and Learning (Adapts, improves behavior) components.
+- These agents are semi-embodied, interacting with cyber-physical-social urban systems through APIs, databases, and platforms to support system-level decision-making.
+- The paper surveys the research landscape, categorizes applications, and discusses trustworthiness and evaluation challenges for real-world deployment.
+
+
+---
+
+[TransLaw: Benchmarking Large Language Models in Multi-Agent Simulation of the Collaborative Translation](https://arxiv.org/abs/2507.00875)
+
+- TransLaw: introduces a multi-agent framework for legal judgment translation, featuring Translator Agent, Annotator Agent, and Proofreader Agent powered by LLMs.
+- The framework simulates a professional translation workflow where agents collaborate, utilizing Proofreading Memory, Translation Memory, and a Terminology database.
+- A Memory module supports agent self-adaptation by storing interaction history, aiming to improve translation quality and efficiency.
+
+
+---
+
+
+
 #### 30th June 2025
 
 [SPIRAL: Self-Play on Zero-Sum Games Incentivizes Reasoning via Multi-Agent Multi-Turn Reinforcement Learning](http://arxiv.org/abs/2506.24119v1)
