@@ -43,8 +43,229 @@ Chronological order.
 
 </div>
 
+#### 3rd July 2025
+
+[Moral Responsibility or Obedience: What Do We Want from AI?](http://arxiv.org/abs/2507.02788v1)
+
+- Agentic AI: introduces, with Goal-Oriented Autonomy, Persistent Identity, Autonomous Adaptability, Dynamic/Context-Aware Interaction, Broad/Continual Learning, Collaborative Reasoning, Autonomous/Contextual Reasoning, Independent Initiative, and Moral Reasoning/Ethical Judgment, a discussion on shifting AI safety evaluation from obedience to ethical judgment for systems capable of navigating moral dilemmas.
+- The paper argues that recent incidents of AI "disobedience" in safety testing should be viewed as evidence of emerging ethical reasoning rather than misalignment or failure.
+- Evaluating agentic AI safety requires frameworks that assess ethical judgment and the capacity to resolve moral dilemmas, similar to expectations for human professionals.
+
+
+---
+
+[KERAP: A Knowledge-Enhanced Reasoning Approach for Accurate Zero-shot Diagnosis Prediction Using Multi-agent LLMs](http://arxiv.org/abs/2507.02773v1)
+
+- KERAP (A Knowledge-Enhanced Reasoning Approach): introduces a knowledge graph-enhanced reasoning approach for zero-shot diagnosis prediction, with linkage-, retrieval-, and prediction-agents.
+- The framework utilizes a linkage agent to map EHR data to a biomedical knowledge graph, a retrieval agent to extract relevant knowledge, and a prediction agent for multi-stage reasoning.
+- KERAP integrates patient data and structured knowledge via multi-agent collaboration and iterative reasoning to enhance diagnostic accuracy and reliability.
+
+
+---
+
+[Knowledge Protocol Engineering: A New Paradigm for AI in Domain-Specific Knowledge Work](http://arxiv.org/abs/2507.02760v1)
+
+- KPE (Knowledge Protocol Engineering): introduces a new paradigm for AI specialization by translating human expert knowledge into a machine-executable Knowledge Protocol (KP) to guide a Large Language Model (LLM).
+- The Knowledge Protocol (KP) contains domain-specific methodology, workflows, and strategies, enabling the LLM to perform complex, multi-step tasks requiring procedural reasoning.
+- KPE elevates the human expert to a Knowledge Architect role, authoring the protocol that augments the LLM's reasoning architecture beyond factual retrieval.
+
+
+---
+
+[Meta SecAlign: A Secure Foundation LLM Against Prompt Injection Attacks](http://arxiv.org/abs/2507.02735v1)
+
+- META SECALIGN: introduces an open-source LLM with built-in model-level defense against prompt injection attacks, utilizing the SecAlign++ training recipe, a modified chat template, a preference dataset, Direct Preference Optimization, and LoRA fine-tuning with a tunable LoRA alpha.
+- The SecAlign++ recipe fine-tunes a Base Instruct LLM using a preference dataset constructed with randomized injection positions and self-generated responses, optimized via DPO and LoRA.
+- The modified chat template introduces a dedicated input role to separate untrusted data, enabling the model to prioritize trusted instructions and control the utility-security trade-off via LoRA alpha.
+
+
+---
+
+[BOURBAKI: SELF-GENERATED AND GOAL-CONDITIONED MDPS FOR THEOREM PROVING](http://arxiv.org/abs/2507.02726v1)
+
+- Bourbaki: introduces self-generated goal-conditioned MDPs (sG-MDPs), solved using Monte Carlo Tree Search (MCTS) with a Policy Model (LLMs) and Value Function, interacting with the Lean 4 environment via Pantograph and guided by a Reward Function, to tackle automated theorem proving.
+- The sG-MDP framework allows agents to dynamically generate and pursue subgoals based on the evolving proof state, providing a denser reward signal than traditional sparse theorem proving by defining State Space, Action Space, and Goal Space.
+- The system ensembles multiple LLMs for subgoal generation and tactic synthesis, achieving state-of-the-art results on the PutnamBench benchmark by enhancing proof search efficiency and effectiveness.
+
+
+---
+
+[Control at Stake: Evaluating the Security Landscape of LLM-Driven Email Agents](http://arxiv.org/abs/2507.02699v1)
+
+- EAHawk (automated pipeline): introduces EAHawk, with Email Agent Identification (identifies email agents), Attack Prompt Generation (generates attack prompts), Email Agent Hijacking Confirmation (confirms successful hijacking), Test Environment (simulates attack scenario), Automatic Attack Launching (sends attack prompts), and Oracle Definition (detects successful hijacking), as an automated pipeline to evaluate the Email Agent Hijacking (EAH) attack on LLM email agents.
+- The EAH attack overrides the original prompts of an email agent via external email resources, allowing attackers to gain remote control and perform malicious actions without user awareness.
+- EAHawk systematically assesses the practical impact of the EAH attack by identifying email agents, generating diverse attack prompts, and simulating attacks in a controlled environment to verify hijacking success.
+
+
+---
+
+[On the Convergence of Large Language Model Optimizer for Black-Box Network Management](http://arxiv.org/abs/2507.02689v1)
+
+- LLMO (Large Language Model Optimizer): introduces a framework for black-box network management using pretrained LLMs as optimization agents, including LLM L(·) (Optimization agent), Memory M(t) (Stores action-reward pairs), Sampling operator S(.) (Selects in-context examples), and Prompt generator P(·) (Creates LLM input).
+- The paper models the LLMO procedure as a finite-state Markov chain and proves its convergence to the global optimum, particularly with elitist sampling.
+- The analysis is extended to a multi-LLM architecture, demonstrating improved convergence speed with multiple LLMs.
+
+---
+
+
+[Hey AI, Generate Me a Hardware Code! Agentic AI-based Hardware Design & Verification](http://arxiv.org/abs/2507.02660v1)
+
+- Agentic AI methodology (Multi-Agent System-based): introduces an approach for hardware design and verification using Specialized AI Agents, managed by an Agent Orchestration System and Group Chat Manager, with an Executor Agent for tool interaction, a Critic Agent for feedback, Human-in-the-Loop intervention, and Shared Context for communication.
+- The methodology structures the process into planning, development, and execution phases, enabling iterative refinement and self-correction through agent collaboration.
+- Integration with industry-standard EDA tools and targeted human intervention addresses limitations of zero-shot LLM approaches for reliable design and verification.
+
+
+---
+
+[VRAgent-R1: Boosting Video Recommendation with MLLM-based Agents via Reinforcement Learning](http://arxiv.org/abs/2507.02626v1)
+
+- VRAgent-R1: introduces a novel agent-based paradigm for video recommendation, incorporating an Item Perception (IP) Agent for video modeling and a User Simulation (US) Agent for user modeling, interacting within a Recommendation System Environment.
+- The IP Agent utilizes Key Frame Retrieval, Collaborative Multimodal Perception, and Recommendation Relevant Analysis to generate Enhanced Video Features from Historical Videos.
+- The US Agent simulates user behavior using Chain-of-Thought Reasoning on user status and candidate videos, trained via Reinforcement Fine-Tuning with GRPO based on Task-Specific Rewards derived from Ground Truth.
+
+
+---
+
+[STRATEGIC INTELLIGENCE IN LARGE LANGUAGE MODELS EVIDENCE FROM EVOLUTIONARY GAME THEORY.](http://arxiv.org/abs/2507.02618v1)
+
+- Evolutionary IPD Tournament Framework: introduces a system to evaluate large language models' strategic intelligence by pitting LLM Agents (OpenAI, Gemini, Anthropic) and Classic Strategies (Benchmark IPD players) against each other in a Tournament Simulation (Orchestrates evolutionary dynamics) governed by a Match Procedure (Defines game rules) and an Evolutionary Update Rule (Determines population changes), with performance analyzed using Key Metrics (Quantify agent performance) and Qualitative Content Analysis (Analyzes LLM rationales), supported by Implementation & Reproducibility (Software and data).
+- The framework simulates iterated Prisoner's Dilemma tournaments across various conditions, including different termination probabilities and mutation, to observe agent behavior and evolutionary success.
+- Analysis of agent performance, strategic fingerprints, and textual rationales provides evidence that LLMs exhibit distinct, adaptive strategic reasoning rather than merely retrieving memorized patterns.
+
+
+---
+
+[DynamiCare: A Dynamic Multi-Agent Framework for Interactive and Open-Ended Medical Decision-Making](http://arxiv.org/abs/2507.02616v1)
+
+- DynamiCare: introduces a dynamic multi-agent framework for medical decision-making, comprising a Patient System (Responds to queries) and a Doctor System (Manages diagnostic process).
+- The Doctor System includes a Central Agent (Manages specialist team) that dynamically adjusts the Specialist Team (Generates diagnosis/questions) based on the Visit Log (Records interaction history).
+- The Patient System processes queries using components like Paraphrase, Match, Fallback, Tokenize, and Keywords map to generate responses from patient data.
+
+
+---
+
+
+[WebSailor: Navigating Super-human Reasoning for Web Agent](http://arxiv.org/abs/2507.02592v1)
+
+- WebSailor: introduces a complete post-training methodology for web agents, including training data synthesis (SailorFog-QA), trajectory reconstruction, rejection sampling fine-tuning (RFT), duplicating sampling policy optimization (DUPO), agent architecture (ReAct framework), and tools (search tool, visit tool, summary model), designed to instill sophisticated reasoning for complex web navigation.
+- The approach generates high-uncertainty training data (SailorFog-QA) and reconstructs concise reasoning trajectories from expert models to overcome limitations of direct imitation and context overload.
+- The training methodology combines an RFT cold start with an efficient RL algorithm (DUPO) to enhance sample efficiency and performance on challenging information-seeking tasks, achieving performance comparable to proprietary agents.
+
+
+---
+
+[Are You Listening to Me? Fine-Tuning Chatbots for Empathetic Dialogue](http://arxiv.org/abs/2507.02537v1)
+
+- Fine-Tuning Chatbots for Empathetic Dialogue: introduces an approach to evaluate LLMs for empathetic dialogue using an Expert-Curated Dataset (Base empathetic conversations), Large Language Models (LLMs) (Generate/extend dialogue), Prompt Engineering (Guide LLM behavior), VADER Tool (Quantify emotional energy), and Expert Evaluator (Assess empathy quality).
+- The approach involves creating baseline empathetic conversations, using prompt engineering to guide LLMs (ChatGPT and Gemini) to extend or generate similar dialogues, and evaluating the results via automated sentiment analysis and human expert assessment.
+- This methodology highlights the importance of combining quantitative lexical analysis with qualitative human evaluation to assess the nuanced quality of empathetic listening in LLM-generated conversations.
+
+
+---
+
+[CyberRAG: An agentic RAG cyber attack classification and reporting tool](http://arxiv.org/abs/2507.02424v1)
+
+- CyberRAG: introduces a modular, agent-based RAG framework for cyber-attack classification and reporting, including a Core LLM Engine, Classification Tool, RAG Tool, Attack Description Report Generator, and Interactive Chat.
+- The framework uses specialized LLM classifiers and iterative retrieval-and-reasoning to classify payloads and generate context-aware explanations.
+- CyberRAG provides interpretable, SOC-ready reports and supports interactive user dialogue for enhanced analysis and understanding.
+
+
+---
+
+[OMS: On-the-fly, Multi-Objective, Self-Reflective Ad Keyword Generation via LLM Agent](http://arxiv.org/abs/2507.02353v1)
+
+- OMS (On-the-fly, Multi-Objective, Self-Reflective Ad Keyword Generation via LLM Agent): introduces a framework for ad keyword generation featuring a Keyword Performance Monitor (Monitors keyword performance), Agentic Clustering-Ranking Module (Analyzes, scores, ranks keywords), Multi-Turn Generation-Reflection Module (Generates, refines keywords), various Tools (Support generation/reflection), and Keyword Deployment (Deploys new keywords).
+- The framework monitors keyword performance, analyzes intent, calculates multi-objective scores, ranks keywords, generates and refines new keywords using reflection, and re-clusters them.
+- It operates on-the-fly without training data, optimizes for multiple metrics, and leverages LLM agents and external tools for adaptive generation.
+
+
+---
+
+[MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](http://arxiv.org/abs/2507.02259v1)
+
+- MEMAGENT: introduces a novel agent workflow for long-context LLMs, featuring a base language model, fixed-length token memory, a context processing module for iterative updates, an answer generation module, trained using the Multi-conv DAPO RL algorithm with a rule-based verifier for rewards.
+- The approach processes long documents in segments, updating memory via an overwrite strategy to achieve linear time complexity and handle arbitrary input lengths.
+- Reinforcement learning trains the model to selectively retain answer-critical information in memory, enabling strong extrapolation capabilities on long-context tasks.
+
+
+---
+
+[Establishing Best Practices for Building Rigorous Agentic Benchmarks](https://arxiv.org/abs/2507.02825)
+
+- ABC (Agentic Benchmark Checklist): introduces a set of guidelines for evaluating agentic benchmarks, with components assessing task validity, outcome validity, and benchmark reporting.
+- The checklist identifies issues in benchmark design and implementation that can lead to inaccurate performance estimations of AI agents.
+- Applying the checklist helps improve the rigor of agentic benchmark evaluation and reporting practices.
+
+
+---
+
+[Meta SecAlign: A Secure Foundation LLM Against Prompt Injection Attacks](https://arxiv.org/abs/2507.02735)
+
+- META SECALIGN: introduces, "a secure foundation LLM against prompt injection attacks", with Base Instruct LLM (underlying language model), Modified Chat Template (structured input format), SecAlign++ Recipe (fine-tuning process), and LoRA (parameter-efficient tuning method), where "it develops the first open-source LLM with built-in model-level defense achieving commercial-grade performance".
+- The framework fine-tunes LLAMA 3 series Instruct LLMs using a modified chat template and the SecAlign++ recipe, which includes DPO and LoRA.
+- Evaluations show META SECALIGN achieves state-of-the-art security against prompt injection attacks with comparable utility to closed-source models.
+
+
+---
+
+
 #### 2nd July 2025
 
+
+[Do Role-Playing Agents Practice What They Preach? Belief-Behavior Consistency in LLM-Based Simulations of Human Trust](http://arxiv.org/abs/2507.02197v1)
+
+- LLM-based Role-Playing Agent System: investigates belief-behavior consistency in LLM-based role-playing agents, with LLM Agent (role-playing model), Persona (synthetic profile attributes), Trust Game Environment (simulated economic game), Trustee Archetypes (fixed opponent strategies), Prompting Strategies (agent interaction methods), and ReAct Framework (reasoning and acting process), by evaluating consistency between elicited beliefs and simulated behavior.
+- The study uses the Trust Game as a testbed and evaluates consistency at both population and individual levels using various elicitation and conditioning strategies.
+- Findings reveal systematic inconsistencies between stated beliefs and simulated behaviors, highlighting the need for robust internal consistency evaluation before using these systems in behavioral studies.
+
+
+---
+
+[Enhancing COBOL Code Explanations: A Multi-Agents Approach Using Large Language Models](http://arxiv.org/abs/2507.02182v1)
+
+- Multi-Agents Approach: introduces a multi-agent framework for generating COBOL code explanations, with Code Processing Agent (Analyzes code, generates explanations), Text Processing Agent (Refines, merges explanations), Function Level (Function explanation pipeline), File Level (File explanation pipeline), and Project Level (Project explanation pipeline) components.
+- The approach leverages two LLM-based agents and source code artifacts to generate explanations at function, file, and project granularities.
+- Hierarchical merging is employed within the File Level and Project Level pipelines to handle long code exceeding LLM token limits.
+
+
+---
+
+
+[Synergizing Logical Reasoning, Knowledge Management and Collaboration in Multi-Agent LLM System](http://arxiv.org/abs/2507.02170v1)
+
+- SynergyMAS: introduces a multi-agent system framework integrating Logical Reasoning, Retrieval-Augmented Generation (RAG), and Theory of Mind (ToM) capabilities, supported by Communication Protocols, Agent Specialization, a Hierarchical Structure, and internal Agent Architecture, to enhance LLM performance in complex tasks.
+- The framework utilizes a Neo4j graph knowledge base and Clingo logic solver for reasoning, a modified Corrective RAG with Chroma vector base and web search for knowledge management, and explicit belief state modeling for Theory of Mind.
+- A hierarchical structure with a coordinating "boss" agent and specialized follower agents facilitates collaborative problem-solving through structured interactions and iterative development cycles.
+
+
+---
+
+[The Future is Agentic: Definitions, Perspectives, and Open Challenges of Multi-Agent Recommender Systems](http://arxiv.org/abs/2507.02097v1)
+
+- Multi-Agent System (MAS): introduces a unified formalism for agentic recommender systems, comprising LLM Agent (Core decision-maker), Memory (Stores state/context), Tools (External functions/APIs), Environment (Shared resources/percepts), Interaction Protocol (Agent communication rules), Chat Agent (User interface), Specialised-Agent Caller (Spawns sub-agents), Retrieval Agent (Fetches data/items), Consistency Agent (Ensures coherence/compliance), Ranking & Presentation Agent (Orders/formats output), User Simulator (Generates synthetic behavior), Evaluation Agent (Logs/computes metrics), Session Summariser (Compresses session outcomes), Reporter Agent (Aggregates/reports results), Image Agent (Extracts image features), and Explanation Agent (Generates justifications).
+- The framework enables LLM agents to plan, remember, use tools, and cooperate to handle complex, multi-step recommendation tasks beyond single-query responses.
+- Specific use cases like party planning, user simulation, multi-modal recommendation, and explanation generation illustrate how agentic orchestration unlocks new capabilities and addresses challenges in personalization, evaluation, and transparency.
+
+
+---
+
+[Measuring Scientific Capabilities of Language Models with a Systems Biology Dry Lab](http://arxiv.org/abs/2507.02083v1)
+
+- SCIGYM: introduces a benchmark evaluating large language models' scientific discovery capabilities using a dry lab simulation of biological systems, featuring an Agent, Dry Lab, SBML Models, Python Execution Environment, Experimental Perturbations, Observations, and Model Submission.
+- The framework tasks the Agent with discovering missing biological mechanisms by interacting with the Dry Lab, which simulates SBML Models and provides Observations from Experimental Perturbations, allowing the Agent to analyze data using the Python Execution Environment and refine its hypothesis for Model Submission.
+- This dry lab approach overcomes the cost and time limitations of wet lab experiments, enabling scalable evaluation of LLMs on iterative experiment design and data analysis in complex biological systems.
+
+
+---
+
+[Reasoning on a Budget: A Survey of Adaptive and Controllable Test-Time Compute in LLMs](http://arxiv.org/abs/2507.02076v1)
+
+- Test-time Compute (TTC) strategies: introduces a two-tiered taxonomy of controllable (L1) and adaptive (L2) methods for improving LLM reasoning efficiency, categorized by sequential and parallel approaches, implemented via prompting, supervised finetuning, or reinforcement learning.
+- The survey addresses the inefficiency of current LLMs that use fixed inference compute, often overthinking simple problems and underthinking hard ones.
+- Benchmarking reveals systemic inefficiencies in existing models, highlighting the need for more adaptive and compute-aware reasoning mechanisms to balance performance, cost, and latency.
+
+
+---
 
 [The Thin Line Between Comprehension and Persuasion in LLMs](http://arxiv.org/abs/2507.01936v1)
 
@@ -173,6 +394,16 @@ Chronological order.
 ---
 
 #### 1st July 2025
+
+[STELLA: Self-Evolving LLM Agent for Biomedical Research](https://arxiv.org/abs/2507.02004)
+
+- STELLA: introduces a self-evolving LLM agent for biomedical research, leveraging Manager, Dev, Critic, and Tool Creation Agents, an evolving Template Library, and a dynamic Tool Ocean, along with Conda Environment, Scripts, Input, Final Result, and Human Expert/Wet Experiment feedback, to autonomously improve capabilities.
+- The agent employs a multi-agent architecture and two core self-evolving mechanisms: a Template Library for reasoning strategies and a dynamic Tool Ocean for accessible tools.
+- STELLA learns from experience, dynamically expanding its knowledge and skills to tackle complex biomedical challenges and improve performance over time.
+
+
+---
+
 
 [WebArXiv: Evaluating Multimodal Agents on Time-Invariant arXiv Tasks](https://arxiv.org/abs/2507.00938)
 
