@@ -12,17 +12,13 @@ Copyright (C) Teemu Maatta.
 -->
 <div id="topofthepage"> </div>
 
-<p align="center">
-  <a href="https://hits.sh/github.com/tmgthb/Autonomous-Agents/">
-    <img src="https://hits.sh/github.com/tmgthb/Autonomous-Agents.svg?view=today-total&label=Views&color=007ec6" alt="Hits">
-  </a>
-  <a href="https://twitter.com/Teemumtt3">
-    <img src="https://img.shields.io/twitter/follow/Teemumtt3?style=social" alt="X">
-  </a>
-  <a href="https://github.com/tmgthb/Autonomous-Agents/stargazers">
-    <img src="https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square" alt="GitHub Repo stars">
-  </a>
-</p>
+<div align="center">
+
+[![Hits](https://hits.sh/github.com/tmgthb/Autonomous-Agents.svg?view=today-total&label=Views&color=007ec6)](https://hits.sh/github.com/tmgthb/Autonomous-Agents/)
+[![X](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers)
+
+</div>
 
 <p align="center">
   <img height="100" src="https://raw.githubusercontent.com/tmgthb/Autonomous-Agents/main/Autonomous_agent_logo.png" alt="Autonomous Agents">
