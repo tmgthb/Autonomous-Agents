@@ -12,14 +12,13 @@ Copyright (C) Teemu Maatta.
 -->
 <div id="topofthepage"> </div>
 
-<p align="center">
-{% raw %}
+<div align="center">
+
 [![Hits](https://hits.sh/github.com/tmgthb/Autonomous-Agents.svg?view=today-total&label=Views&color=007ec6)](https://hits.sh/github.com/tmgthb/Autonomous-Agents/)
 [![X](https://img.shields.io/twitter/follow/Teemumtt3?style=social)](https://twitter.com/Teemumtt3)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tmgthb/Autonomous-Agents?style=flat-square)](https://github.com/tmgthb/Autonomous-Agents/stargazers)
 
-{% endraw %}
-</p>
+</div>
 
 <p align="center">
   <img height="100" src="https://raw.githubusercontent.com/tmgthb/Autonomous-Agents/main/Autonomous_agent_logo.png" alt="Autonomous Agents">
