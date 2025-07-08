@@ -215,6 +215,86 @@ Chronological order.
 
 ---
 
+[CortexDebate: Debating Sparsely and Equally for Multi-Agent Debate](http://arxiv.org/abs/2507.03928v1)
+
+- CortexDebate: introduces a multi-agent debate framework that establishes a Sparse Debating Graph (Communication structure) among LLM Agents (Participants), dynamically optimized by the McKinsey-based Debate Matter (MDM) (Graph optimizer) using the McKinsey Trust Formula (Weight calculation) across Initial Answer Generation (First response), Multi-round Debate (Iterative discussion), and Final Answer Generation (Aggregate result) via Majority Voting (Final decision method).
+- The framework addresses lengthy input contexts by establishing a sparse graph and mitigates the overconfidence dilemma by using the MDM module for credible evaluation.
+- The sparse graph reduces the context input burden for agents, while the MDM module promotes equal and effective debate among participants.
+
+
+---
+
+[Agent Exchange: Shaping the Future of AI Agent Economics](http://arxiv.org/abs/2507.03904v1)
+
+- AEX (Agent Exchange): introduces a specialized auction platform for AI agent economics, featuring User Side Platform (USP) (User interface, task translation), Agent Side Platform (ASP) (Capability, performance tracking), Agent Hub (Agent coordination, auction participation), and Data Management Platform (DMP) (Data sharing, value attribution), with AEX acting as the central auction engine (Central auction engine, resource allocation).
+- AEX facilitates autonomous agent coordination and economic participation within an agent-centric marketplace.
+- The platform supports dynamic capability assessment, collaborative value attribution, and autonomous team coordination.
+
+
+---
+
+#### 4th July 2025
+
+[Leveraging Large Language Models for Tacit Knowledge Discovery in Organizational Contexts](http://arxiv.org/abs/2507.03811v1)
+
+- Agent-based framework: introduces an agent-based framework leveraging LLMs to iteratively reconstruct dataset descriptions through interactions with simulated employees, including LLM-based Agent, Simulated LLM Employees, Conversation Loop, Simulated Organizational Environment, MDP-inspired Decision Model, and Prompting Techniques.
+- The framework models knowledge dissemination using a Susceptible-Infectious process within synthetic company structures comprising hierarchy and relationship networks.
+- Simulations demonstrate the agent's ability to achieve high knowledge recall and navigate organizational complexity without needing direct access to a single domain specialist.
+
+
+---
+
+[Less is More: Empowering GUI Agent with Context-Aware Simplification](http://arxiv.org/abs/2507.03730v1)
+
+- SimpAgent (context-aware simplification framework): introduces a context-aware simplification framework with MLLM, Element Pruning, and Consistency-guided History Compression components, designed for efficient and effective GUI navigation.
+- The framework addresses challenges of high element density and history redundancy through masking-based pruning and consistency-guided compression.
+- SimpAgent achieves superior performance and reduces computational cost by simplifying element and history contexts.
+
+
+---
+
+[AGENT-BASED DETECTION AND RESOLUTION OF INCOMPLETENESS AND AMBIGUITY IN INTERACTIONS WITH LARGE LANGUAGE MODELS](http://arxiv.org/abs/2507.03726v1)
+
+- Agent-Based Question-Transducer: introduces an architecture for LLM-based QA systems that includes a Human, Context, Question-Transducer with LLM-based Agents using a Transducer-LLM, and a Responder-LLM.
+- The Question-Transducer processes user questions and context via LLM-based agents to classify and resolve potential incompleteness or ambiguity before forwarding to the Responder-LLM.
+- This agent-based approach aims to improve answer quality and shorten interactions by automatically handling question deficiencies.
+
+
+---
+
+[Can LLMs Play Ô Ăn Quan Game? A Study of Multi-Step Planning and Decision Making](http://arxiv.org/abs/2507.03711v1)
+
+- LLM Agent Framework: introduces an approach for evaluating large language models in the Ô Ăn Quan board game, utilizing G (Current game state), H (Reasoning history), R (Rule instructions), P (Agent persona) as inputs to a LLAMA (LLaMA-based model) which outputs Reason (Natural language rationale) and Action (Selected move) to drive the game via Update (Board state update).
+- The framework models different agent types through personas and assesses LLM performance in strategic planning and decision-making within a dynamic, rule-constrained environment.
+- Experiments with Llama models of varying sizes reveal that larger models exhibit deeper planning capabilities and a preference for long-term strategy, although smaller models can achieve competitive win rates.
+
+---
+
+[STRUCTSENSE: A TASK-AGNOSTIC AGENTIC FRAMEWORK FOR STRUCTURED INFORMATION EXTRACTION WITH HUMAN-IN-THE-LOOP EVALUATION AND BENCHMARKING](http://arxiv.org/abs/2507.03674v1)
+
+- STRUCTSENSE: introduces a task-agnostic agentic framework for structured information extraction, with Extractor Agent (Performs extraction task), Alignment Agent (Performs concept alignment), Judge Agent (Evaluates extraction and alignment), Feedback Agent (Incorporates human feedback), Ontology Database (Stores domain knowledge), and Memory (Retains execution context) components.
+- The framework integrates LLMs with domain-specific knowledge via ontologies and incorporates agentic capabilities and human-in-the-loop mechanisms.
+- STRUCTSENSE aims to address limitations of domain sensitivity and cross-task generalizability in structured information extraction.
+
+---
+
+
+[Recon, Answer, Verify: Agents in Search of Truth](http://arxiv.org/abs/2507.03671v1)
+
+- RAV (Recon-Answer-Verify): introduces an agentic framework for fact verification that iteratively decomposes claims into sub-questions using a Question Generator agent, answers them with an Answer Generator agent using evidence, and predicts a final label with a Label Generator agent based on the claim and question-answer history.
+- The pipeline utilizes a History component to store generated question-answer pairs, enabling iterative reasoning and complex claim verification.
+- RAV generalizes across domains and label granularities by breaking down fact verification into a question-answering process.
+
+---
+
+[Is It Time To Treat Prompts As Code? A Multi-Use Case Study For Prompt Optimization Using DSPy](http://arxiv.org/abs/2507.03620v1)
+
+- DSPy (Declarative Self-improving Python): introduces a programming model for prompt optimization, with Programs/Modules/Signatures (abstraction for prompt logic), Optimizers (algorithms to refine prompts), LLMs (language models used), Datasets (data for training/evaluation), Evaluation Metrics (measure performance), and Prompts (instructions and examples), aiming to treat prompts as code.
+- The framework uses optimizers like BootstrapFewShotWithRandomSearch and MIPROv2 to systematically refine prompt instructions and few-shot examples based on performance metrics evaluated on datasets.
+- Case studies demonstrate DSPy's ability to improve LLM performance across tasks like jailbreak detection, hallucination detection, code generation, routing agents, and prompt evaluation by optimizing prompts programmatically.
+
+---
+
 
 #### 3rd July 2025
 
