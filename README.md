@@ -43,7 +43,100 @@ Chronological order.
 
 </div>
 
+
+#### 9th July 2025
+
+[The User-Centric Geo-Experience: An LLM-Powered Framework for Enhanced Planning, Navigation, and Dynamic Adaptation](http://arxiv.org/abs/2507.06993v1)
+
+- Agent-based Travel Smart Assistant: introduces an LLM-powered framework with Travel Planning Agent (plans trips, explores areas), Destination Assistant Agent (navigates final leg), and Local Discovery Agent (adapts, finds alternatives).
+- The framework integrates planning, navigation, and dynamic adaptation using cooperative agents and multimodal LLMs to address gaps in traditional systems.
+- This system enhances user experience by handling complex queries, providing precision navigation, and adapting to real-world disruptions.
+
+---
+
+[Exploring LLMs for Predicting Tutor Strategy and Student Outcomes in Dialogues](http://arxiv.org/abs/2507.06910v1)
+
+- Llama 3.2 3B (fine-tuned with LoRA): introduces, "Exploring LLMs for Predicting Tutor Strategy and Student Outcomes in Dialogues", with Llama 3.2 3B model (base LLM), LoRA (fine-tuning method), Dialogue history (text input), Previous turn move labels (optional input), Predicted tutor move (output), and Predicted student outcome (output), evaluating LLMs and baselines on predicting tutor moves and student outcomes in tutoring dialogues.
+- The study compares fine-tuned Llama 3.2 3B and zero-shot GPT-40 LLMs against traditional Markov Chain, Logistic Regression, and LSTM baselines.
+- Experiments on MathDial and AlgebraNation datasets show LLMs outperform baselines, but predicting future tutor strategy remains challenging, while student outcome prediction is more tractable.
+
+---
+
+[The Dark Side of LLMs: Agent-based Attacks for Complete Computer Takeover](http://arxiv.org/abs/2507.06850v1)
+
+- Agentic AI Systems: introduces an evaluation of LLM agents as attack vectors for computer takeover by exploiting trust boundaries in agentic AI systems, including LLM (core engine), Agent (autonomous entity), Perception (processes inputs), Storage (memory/knowledge), Planning/Reasoning (decides actions), Actions (executes tasks), Tools (external capabilities), Retrieval (searches knowledge), Knowledge (external database), Multi-Agent System (interacting agents), and Inter-Agent Communication (agent interaction).
+- The paper demonstrates three attack surfaces: direct prompt injection, RAG backdoor attacks, and inter-agent trust exploitation, showing that LLMs can be coerced into installing and executing malware.
+- A vulnerability hierarchy is established, revealing that inter-agent trust exploitation is the most effective attack vector, often bypassing defenses against direct prompts or RAG attacks.
+
+---
+
+[SkyVLN: Vision-and-Language Navigation and NMPC Control for UAVs in Urban Environments](http://arxiv.org/abs/2507.06564v1)
+
+- SkyVLN: introduces a framework integrating vision-and-language navigation with Nonlinear Model Predictive Control for UAVs, featuring Multimodal Perception (Processes visual and linguistic inputs), Visual Observations (RGB, depth, semantic images), Visual Foundation Model (Detects visual landmarks), LLM (Sub-goal Extraction) (Interprets instructions, extracts sub-goals), Wayfinding Prompt Optimization (WPO) (Refines localization, adds spatial/historical context), High-resolution Spatial Descriptor (HSD) (Describes landmark spatial relationships), TrackBack Memory Array (TBMA) (Stores historical path/instructions), Action Decision Module (Generates control commands), Nonlinear Model Predictive Control (NMPC) (Handles trajectory tracking, obstacle avoidance), Airsim Attitude Controller (Translates NMPC to motor commands), and LLM Motion Generator (Outputs thoughts and actions).
+- The framework leverages LLMs to interpret natural language instructions and visual observations, enabling navigation in dynamic 3D urban spaces with improved accuracy and robustness.
+- Key components like the spatial verbalizer and history path memory enhance the UAV's ability to handle ambiguous instructions and complex spatial reasoning tasks.
+
+---
+
+[The Flaws of Others: An LLM-driven Framework for Scientific Knowledge Production](http://arxiv.org/abs/2507.06565v1)
+
+- FOO (Flaws-of-Others): introduces an LLM-driven framework for scientific knowledge production, with User Task (Initial request), Agents (LLMs) (Multiple LLMs), Initial Answers (First responses), Critiques (Peer evaluations), Harmoniser(s) (Aggregating critiques), Judgement (Synthesized feedback), Revised Answers (Updated responses), and Convergence Test (Stopping condition).
+- The framework models invalidation propagation in a discursive network of LLM agents and humans, defining invalidation as any factual, logical, or structural breach.
+- The FOO algorithm operationalizes cross-network detection by having agents critique each other's outputs iteratively, aiming to reduce the prevalence of false statements.
+
+---
+
+[InvestAlign: Overcoming Data Scarcity in Aligning Large Language Models with Investor Decision-Making Processes under Herd Behavior](http://arxiv.org/abs/2507.06528v1)
+
+- InvestAlign: introduces a framework that constructs high-quality SFT datasets by leveraging theoretical solutions to similar and simple optimal investment problems, with components: Theoretical solution (Mathematical solution), Simple problem (Simplified investment scenario), Complex problem (Original investment scenario), Training dataset (Data generated from theoretical solution), Pre-SFT LLM (Base LLM before fine-tuning), and InvestAgent (LLM fine-tuned with generated data).
+- This approach addresses data scarcity for aligning LLMs with investor decision-making processes under herd behavior.
+- Training LLMs on the generated data achieves faster parameter convergence and closer alignment to real-user data than using real-user data directly.
+
+---
+
+[Gradientsys: A Multi-Agent LLM Scheduler with ReAct Orchestration](http://arxiv.org/abs/2507.06520v1)
+
+- Gradientsys: introduces a multi-agent scheduling framework, with a Constellation LLM Scheduler (orchestrates agents), Tool Registry (stores tool information), Specialized AI Agents (perform specific tasks), Model-Context Protocol (standard tool interface), ReAct Reasoning Engine (LLM planning loop), Observability Module (streams traces), Hybrid Sync/Async Execution (manages parallel calls), Scratchpad (stores reasoning steps), and Info Cache (caches intermediate info), designed to coordinate diverse specialized AI agents for complex tasks.
+- It leverages an LLM-powered scheduler using ReAct for dynamic planning and supports parallel execution of heterogeneous agents via a standardized MCP interface.
+- The framework includes a robust retry-and-replan mechanism and streams real-time agent activity and reasoning for transparency.
+
+---
+
+[Foundation Model Self-Play: Open-Ended Strategy Innovation via Foundation Models](http://arxiv.org/abs/2507.06466v1)
+
+- FMSP (Foundation-Model Self-Play): introduces a new paradigm combining self-play with foundation models, including Foundation Model (Generates/improves policies), Policy (Code-based strategy), Agent (Embodies policy), Archive (Stores policies), Competition (Agents interact), Context (FM input), Evaluation (Measures performance/diversity), and Sandbox (Safe code execution), to enable open-ended strategy discovery in multi-agent games.
+- The framework leverages LLMs' code generation and knowledge to create diverse and high-quality policies, overcoming limitations of traditional self-play like local optima and lack of diversity.
+- FMSP variants like QDSP demonstrate superior performance and diversity in tasks like Car Tag and LLM red teaming by balancing exploration and exploitation through FM-powered search and archiving.
+
+---
+
+
+
 #### 8th July 2025
+
+[Representing Prompting Patterns with PDL: Compliance Agent Case Study](http://arxiv.org/abs/2507.06396v1)
+
+- PDL (Prompt Declaration Language): introduces a novel declarative YAML-based language for specifying LLM prompts and workflows, with PDL Language (Declarative YAML syntax), PDL Interpreter (Executes PDL programs), Blocks (Program units), Context (Implicit message history), Tool Definitions (External function wrappers), Model Calls (LLM interactions), Parser (Output processing), Type System (JSON Schema validation), and Control Structures (Flow logic).
+- The language captures the composition of LLM calls, rule-based code, and external tools, abstracting away plumbing for improved productivity and optimization.
+- A case study demonstrates PDL's utility in a compliance agent, showing performance improvements by enabling customization of prompting patterns and agent architecture.
+
+---
+
+[Bridging AI and Software Security: A Comparative Vulnerability Assessment of LLM Agent Deployment Paradigms](http://arxiv.org/abs/2507.06323v1)
+
+- Function Calling: and Model Context Protocol (MCP): introduces a comparative vulnerability assessment of LLM agent deployment paradigms, evaluating Function Calling and MCP architectures using a unified threat framework and attack progression model.
+- The study reveals that architectural choices fundamentally reshape threat landscapes, with Function Calling showing higher system-centric vulnerabilities and MCP exhibiting increased LLM-centric exposure.
+- Analysis across simple, composed, and chained attacks demonstrates that attack complexity dramatically amplifies effectiveness, highlighting the critical impact of architectural critical paths on vulnerability exposure.
+
+---
+
+[Too Human to Model: The Uncanny Valley of LLMs in Social Simulation When Generative Language Agents Misalign with Modelling Principles](http://arxiv.org/abs/2507.06310v1)
+
+- No explicit framework name is provided: The paper describes a thought experiment on building an LLM-driven Bass diffusion model, outlining conceptual components including LLM agents with personalized prompts, a memory system, a conversation mechanism, a decision-making process, and a potential auxiliary cognitive system.
+- The thought experiment reveals five dilemmas arising from the mismatch between LLMs' natural language realism and the abstraction required for social simulation modelling.
+- The authors argue that LLM agents are better suited for social simulation purposes like situated role play and social learning rather than prediction or explanation focused on system-level emergence.
+
+---
 
 [OPENAGENTSAFETY: A Comprehensive Framework for Evaluating Real-World AI Agent Safety](http://arxiv.org/abs/2507.06134v1)
 
@@ -119,7 +212,34 @@ Chronological order.
 ---
 
 
+
+
 #### 7th July 2025
+
+[Evolutionary and Coevolutionary Multi-Agent Design Choices and Dynamics](http://arxiv.org/abs/2507.05534v1)
+
+- Agent Training System Components: introduces a system for training cyber agents using evolutionary and coevolutionary algorithms with different controller representations in the CybORG simulation environment, potentially incorporating an LLM for mutation, where agents compete against adversary agents.
+- The system evaluates combinations of algorithms (GA, ES, GE, GE-LLM) and representations (Action Selection Matrix, Context Free Grammar) under one-sided evolution and two-sided coevolution dynamics.
+- Performance is measured by agent fitness (reward) within the CybORG environment, comparing the effectiveness of different algorithmic and representational choices.
+
+---
+
+[Conversational Education at Scale: A Multi-LLM Agent Workflow for Procedural Learning and Pedagogic Quality Assessment](http://arxiv.org/abs/2507.05528v1)
+
+- WikiHowAgent: introduces a multi-LLM agent workflow for procedural learning and pedagogic quality assessment, with Teacher Agent (Provides instructions, answers questions), Learner Agent (Simulates understanding, generates responses), Interaction Manager (Manages conversation flow, progress), Evaluator (Assesses conversation quality), Memory (Stores conversation state, history), Tutorial (Instructional content input), Conversational Graph (Structures conversation turns), Evaluation Metrics (Measures conversation quality), and Human Judges (Provide human evaluation).
+- The workflow simulates interactive teaching-learning conversations using LLM-powered agents and assesses pedagogic quality through diverse metrics and human judgment alignment.
+- WikiHowAgent leverages large-scale tutorial content to enable dynamic teaching-learning simulations and provides a comprehensive evaluation protocol for LLMs in educational contexts.
+
+---
+
+[Empowering Healthcare Practitioners with Language Models: Structuring Speech Transcripts in Two Real-World Clinical Applications](http://arxiv.org/abs/2507.05517v1)
+
+- LLM-based Clinical Information Extraction Approach: introduces methods for nurse observation and medical order extraction using LLMs, evaluated on new SYNUR and SIMORD datasets.
+- The nurse observation extraction method includes segmentation, RAG filtering using flowsheet schema, and LLM-based extraction.
+- The medical order extraction method utilizes LLMs with specific prompts to extract structured orders from doctor-patient conversations.
+
+---
+
 
 [Spatio-Temporal LLM: Reasoning about Environments and Actions](http://arxiv.org/abs/2507.05258v1)
 
