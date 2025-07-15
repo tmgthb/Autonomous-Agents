@@ -22186,7 +22186,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - CAIMIRA (Content-Aware, Identifiable, Multidimensional, Item Response Analysis)-framework: Reviews differences between humans and SOTA-level LLMs in QA-tasks in reasoning and textual understanding. 
 
-
 ---
 
 #### 8th of October 2024
@@ -22196,7 +22195,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - AgentSquare: Introduces modular LLM-agent framework using module evolution, recombination and performance predictor(skip unpromising agent designs). - The framework optimizes agent designs with Planning/Reasoning/Tool use/Memory-modules.
 - Introduces the research concept of MoLAS (Modularized LLM Agent Search): the automatic optimization of LLM-agent designs from succesfull designs.
 - Includes search-, program-level search- and performance predictor-meta prompts. 
-
 
 ---
 
@@ -22229,7 +22227,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Introduces GLEE (Games in Language-based Economic Environments)-benchmark, which reviews LLMs in two-player economic game families of bargaining, negotiation andd persuasion.
 
-
 ---
 
 #### 26th of September 2024
@@ -22239,13 +22236,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - AssistantX: multi LLM-agent framework (PPDR4X) to help users achieve goals in virtual / physical environments.
 - PPDR4X-framework includes short term memory (initial instructions/dialogue data/agent thoughts/cyber tasks/real world tasks), long-term memory (environment information), perception-agent, planning-agent, reflection agent and decision agent. 
 
-
 ---
 
 [Control Industrial Automation System with Large Language Models](https://arxiv.org/abs/2409.18009)
 
 - Introduces multi LLM-agent industrial control system, which consists of summarizer-, manager- (planning level), event log manager-, operator-agents (control-level) and command line/event log memory/prompt templates/events/function calls.
-
 
 ---
 
@@ -22266,14 +22261,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Includes Explorer-, Follower-, Monitor-, Generator-, Evaluator- and Translator-agents.
 - Enables converting any application, with basic API/documentation and: environment state interface/basic action interface, into agent. Uses self-exploratory framework to identify control elements.
 
-
 ---
 
 [A Roadmap for Embodied and Social Grounding in LLMs](https://arxiv.org/abs/2409.16900)
 
 - Reviews the grounding of LLMs with physical world. Highlights the importance of social grounding of physical experiences. For example a child can build understanding of heavy objects just by observing an adult trying to lift a heavy box.
 - Interesting ideas about the way human perception in physical world.
-
 
 ---
 
@@ -22283,7 +22276,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - The demographic data is basis for generating the agents, which helps to tune the messages to specific audiences.
 - Includes Structures, which forces LLM-agents to share information with a properly formed structure.
 - Moderator-agent then summarises this discussion by trying to take into account the diverse opinions.
-
 
 ---
 
@@ -22301,7 +22293,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Synatra leverages LLMs to repurpose human-created tutorials and ungrounded observations into executable action sequences, and includes a 7B CodeLlama model.
 - This framework enables more effective and cheaper training of digital agents compared to human demonstrations.
 
-
 ---
 
 [MOSS: ENABLING CODE-DRIVEN EVOLUTION AND CONTEXT MANAGEMENT FOR AI AGENTS](https://arxiv.org/abs/2409.16120)
@@ -22310,12 +22301,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - MOSS uses Inversion of Control (IoC) container, decorators, maintains Python context, isolates local variables, preserves runtime integrity, and enables code-driven evolution.
 - This framework enhances efficiency and capabilities of AI agent development, moving towards Turing-complete agents.
 
-
 ---
-
-
----
-
 
 #### 23rd of September 2024
 
@@ -22324,7 +22310,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - ERABEL: Introduces boubdary-aware role playing framework to maintain role comsistency in multiturn conversation.
 - Includes dialogue planner/topic manager/question generator/response generator-agents.
 - Includes prompts for esch agent.
-
 
 ---
 
@@ -22365,7 +22350,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - ShizishanGPT: LLM agent for answering with agriculture-based RAG.
 
-
 ---
 
 
@@ -22382,7 +22366,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - AutoVerus: LLM generates correctness proofs for Rust-code using multi-agent framework (proof generation, refinement and debugging).
 
-
 ---
 
 #### 17th of September 2024
@@ -22394,7 +22377,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Proposes active and passive information types. 
 - Includes lots of useful ideas for each component.
 
-
 ---
 
 [NVLM: Open Frontier-Class Multimodal LLMs](https://arxiv.org/abs/2409.11402)
@@ -22403,7 +22385,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Finds, that dataset quality and task diversity impact more than scale.
 - Finds positive transfer from image to text only modality.
 
-
 ---
 
 [P-RAG: Progressive Retrieval Augmented Generation For Planning on Embodied Everyday Task](https://arxiv.org/abs/2409.11279)
@@ -22411,13 +22392,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - P-RAG: Introduces iteratively updated RAG (self-iterations). P-RAG adds more task-specific knowledge.
 - The RAG stores the following information: goal instruction, scene graph, history and done.
 
-
 ---
 
 [EmPO: Emotion Grounding for Empathetic Response Generation through Preference Optimization](https://arxiv.org/abs/2406.19071)
 
 - EmPO: Introduces the EmpatheticDialogues-dataset for fine tuning LLMs with empathic response generation (ERG). 
-
 
 ---
 
@@ -22429,7 +22408,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - SLA (Strategic LLM Agent): combines LLM agents (SLAs) and RL-agent called Pro-social Promoting Agent (PPA) to increase cooperation rate.
 - Adjusts dynamically access to SLA's information (cooperation history with neighbours, average) to increase facilitate social interaction.
 
-
 ---
 
 [Cognitive Kernel: An Open-source Agent System towards Generalist Autopilots](https://arxiv.org/abs/2409.10277)
@@ -22439,16 +22417,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LLM is fine tuned to interact with the environment through atomic actions, which a normal person could perform, rather than API call.
 - Offers interesting ideas for each sub-compoment, as each includes plenty of detailed functionalities. 
 
-
 ---
 
 [Central Answer Modeling for an Embodied Multi-LLM System](https://arxiv.org/abs/2406.10918)
 
 - CAM (Central Answering Model): Introduces CAM-framework, where instead of LLM-agent directly answering question, multiple LLM-agent instances generate answer and a central LLM-agent responds to the question.
 
-
 ---
-
 
 #### 15th of September 2024
 
@@ -22456,8 +22431,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - RethinkMCTS: conducts thought-level searches before generating code and adds both verbal feedback to refine thoughts and code execution feedback from incorrect code. 
 - Increasing the number of rethink- and rollout-operations improve code generation.
-
-
 ---
 
 
@@ -22467,7 +22440,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - PeriGuru: LLM-agent for GUI with perception, decision and action steps.
 
-
 ---
 
 [Enhancing Decision-Making for LLM Agents via Step-Level Q-Value Models](https://arxiv.org/abs/2409.09345)
@@ -22475,9 +22447,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Introduces task-relevant Q-value model for guiding action selection.
 - Includes review of the different methods to improve reasoning, such as LLMs using MCTS.
 
-
 ---
-
 
 #### 13th of September 2024
 
@@ -22489,9 +22459,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Perception includes textual (UML, execution result, text/code), visual and auditory.
 - Includes good overview of different reasoning techniques for the CoT-action.
 
-
 ---
-
 
 #### 12th of August 2024
 
@@ -22502,7 +22470,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Agent prompt includes: task instruction, description of action space, history of actions, clipboard content and thought-variable memory. The prompt includes as well previus/current step screenshot with SoMs.
 - Introduced WindowsAgentArena-benchmark.
 - Includes the agent prompt.
-
 
 ---
 
@@ -22545,11 +22512,9 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Self-Reflections, which contain more information (instructions, explanations, and solutions) perform better, than self-reflections with less data. 
 - Retry-agent improves significantly performance, which indicates knowledge of a mistake, improves performance of the LLM.
 
-
 ---
 
 #### 5th of September 2024
-
 
 [Game On: Towards Language Models as RL Experimenters](https://arxiv.org/abs/2409.03402)
 
@@ -22558,8 +22523,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Enables embodied autonomous agent to acquire zero-shot new skills. 
 
 ---
-
-
 
 [From MOOC to MAIC: Reshaping Online Teaching and Learning through LLM-driven Agents](https://arxiv.org/abs/2409.03512)
 
@@ -22573,7 +22536,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - xLAM: Series (from 1B dense to  8x22B MoE) of Large Action Models (LAMs) for AI agent tasks. Achieves high performance in function calling.
 - Fine-tunes basically from a LLM (DeekSeeker/Mistral models) a LAM, which is able to perform highly accurate function calling.
-
 
 ---
 
@@ -22593,20 +22555,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Reviews modularity of LLMs. The idea is to instead of re-training from scratch a LLM, to add new knowledge as modules (called emergent bricks pretrained and customised bricks postrained).
 - Identifies the following brick-operations: retrieval / routing, merging, updating and growing.
 
-
 ---
 
 [Large Language Model-Based Agents for Software Engineering: A Survey](https://arxiv.org/abs/2409.02977)
 
 - Survey about SW engineering LLM-agents.
 
-
 ---
 
 [MoA is All You Need: Building LLM Research Team using Mixture of Agents](https://arxiv.org/abs/2409.07487)
 
 - MoA (Mixture-of-Agents)-framework (name was already used before) is a framework with planner, aggregator and varios LLM-agentseach with their own RAG, grouped together.
-
 
 ---
 
@@ -22617,7 +22576,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Empirical evidence, that humans imitate LLMs.
 - Finds, that LLMs reduce linguistic diversity, but it appears an interesting topic to discover, if LLMs only decrease diversity or impact other ways / the ways content creation automation impacts overall to society.
-
 
 ---
 
@@ -22644,9 +22602,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Identifies life-long context as infite, which is core issue with actual session-based interactions.
 - Compressor builds hierarchical db to save previously chunked context. The retriever searches relevant context.
 
-
 ---
-
 
 [An Image is Worth 1/2 Tokens After Layer 2: Plug-and-Play Acceleration for VLLM Inference](https://arxiv.org/abs/2403.06764)
 
@@ -22654,9 +22610,7 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Inefficient attention in LVLMs, visual tokens inefficiency in deep layers, adaptive attention, visual token pruning, computational cost reduction, performance maintained, customizable, Pareto-efficient.
 - FastV has practical value for LVLM deployment in edge devices and commercial models.
 
-
 ---
-
 
 
 #### 1st of September 2024
@@ -22666,7 +22620,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - SAGE: Introduces self-evolving LLM-agent consisting of user/assistant/checker-agents with iterative feedback, reflection and memory optimization (Ebbinghaus-forgetting curve). 
 - Self-evolution includes adaptive adjust strategies, optimizing information storage and transmission and reduction of cognitive context.
 - Mimics human brain / memory by creating MemorySyntax, which combines Ebbinghaus forgetting curve and linguistic knowledge.  
-
 
 ---
 
@@ -22683,7 +22636,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Tool-SQL: LLM-agent for SQL code inspection and fixing using retrieval and refinement. 
 
-
 ---
 
 #### 29th of August 2024
@@ -22697,14 +22649,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Indicates, that LLMs often know at least in certain domains of having made mistakes and can be seen as simple linear classifier on top of its hidden states. 
 - This work provides insights into how to effectively train language models to correct errors during reasoning tasks.
 
-
 ---
 
 [Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling](https://arxiv.org/abs/2408.16737)
 
 - Suggests, that LLMs fine-tuned with synthetic data from weaker, yet cheaper LLM is more compute optimal, than using stronger, yet more expensive LLM.
 - Samples data from Gemini Pro 1.5 (more expensive, stronger) compared to Gemini Flash 1.5. by using pricing per token as a proxy.
-
 
 ---
 
@@ -22722,7 +22672,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - The Survey reviews Multi Modal Language Models (MLLMs).
 
-
 ---
 
 [WebPilot: A Versatile and Autonomous Multi-Agent System for Web Task Execution with Strategic Exploration](https://arxiv.org/abs/2408.15978)
@@ -22730,7 +22679,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - WebPilot: Introduces Multi-Agent System with Planner(generate and refine plan)/Controller(judge sub-task terminatation, asses sub-task completion, generate strategic reflection)/Extractor(extract information)/Explorer(generate action, analyse observation, generate tactical reflection)/Apprasier(asses state)/Verifier(format action, deduplicate action) LLM-agents.
 - Uses  Global Optimization (decomposing tasks/refining high-level plans with reflective analysis) and Local Optimization (executes sub-tasks with customized MCTS/refining decisions iteratively through with each observation).
 - Tasks include navigating forums/upvoting posts/extracting contributor emails.
-
 
 ---
 
@@ -22740,13 +22688,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - The workflow is saved as declarative json-structure. Users can export this json and share it to other users. Apart includes built-in DB Manager, Workflow Manager and Profiler-classes.
 - Backend includes Python API, web API and CLI. 
 
-
 ---
 
 [Interactive Agents: Simulating Counselor-Client Psychological Counseling via Role-Playing LLM-to-LLM Interactions](https://arxiv.org/abs/2408.15787)
 
 - Investigates using LLM-agents for Psychological Counseling dialogue (counselor/client) based on client profiles (mental health issue description/detailed description of the disorder/symptom/problem/chief complaint) and counselor simulation is based on exploration, insight, and action.
-
 
 ---
 
@@ -22760,14 +22706,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Atari-GPT: Applies Multi Modal Language Model as low-level policy (controller). 
 
-
 ---
 
 
 [FlowAct: A Proactive Multimodal Human-robot Interaction System with Continuous Flow of Perception and Modular Action Sub-systems](https://arxiv.org/abs/2408.15864)
 
 - FlowAct: Introduces human-robot interaction system, which continuously perceives and acts. Uses two controllers: Environment State Tracking (EST) and Action Planner. 
-
 
 ---
 
@@ -22781,20 +22725,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Reviews feasibility of Autonomous Simulation Agent (ASA) to automate E2E research process using LLMs and API automation (AutoProg).
 
-
 ---
 
 [LogicGame: Benchmarking Rule-Based Reasoning Abilities of Large Language Models](https://arxiv.org/abs/2408.15778)
 
 - LogicGame: Benchmarks rule-based reasoning, execution and planning of LLMs.
 
-
 ---
 
 [Persuasion Games using Large Language Models](https://arxiv.org/abs/2408.15879)
 
 - Introduces persuasion framework with LLM-agents, but the paper is not clearly indicating conclusions about persuasion with LLMs with doubts as well on exact roles/prompts. 
-
 
 ---
 
@@ -22803,7 +22744,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - EPO (Environment Preference Optimization): Generates preference signals from environmental feedback for long-horizon decision making with LLM-agents.
 - LLM predicts sub-goals and respective low-level actions.
 - Interaction module generates two types of sub-goals: navigation and interaction.
-
 
 ---
 
@@ -22835,7 +22775,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Introduces Hierarchical Prompt Tuning (HPT) and HPT++. Adapts VLM by creating a graph from each description with hierachical relationship guided attention module.
 
-
 ---
 
 [TourSynbio: A Multi-Modal Large Model and Agent Framework to Bridge Text and Protein Sequences for Protein Engineering](https://arxiv.org/abs/2408.15299)
@@ -22843,7 +22782,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - TourSnmbio-Agent: Performs protein engineering tasks using TourSynbio-7B model (fine-tuned on text and protein sequences).
 - Includes intent classification steps, where is defined in case the user intent is generic question or agent-specific task. 
 - Keywords are used in agent selection.
-
 
 ---
 
@@ -22853,7 +22791,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Reviews research available on Foundational models for Music: representations of music, applications, foundational model techniques, datasets/evals and ethics. 
 
-
 ---
 
 [AgentMove: Predicting Human Mobility Anywhere Using Large Language Model based Agentic Framework](https://arxiv.org/abs/2408.13986)
@@ -22861,13 +22798,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - AgentMove: Mobility prediction LLM agent.
 - Includes spatial-temporal memory.
 
-
 ---
 
 [SWE-bench-java: A GitHub Issue Resolving Benchmark for Java](https://arxiv.org/abs/2408.14354)
 
 - Benchmark to evaluate LLM-agent based coding for Java programming language (SWE-bench for Java).
-
 
 ---
 
@@ -22877,13 +22812,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - LIMP (LLMs for Intent-aware Mobility Prediction): Fine-tunes LLama 3-8B-Instruct model with Analyze-Abstract-Infer (A2I)-agentic workflow for mobility intent reasoning.
 
-
 ---
 
 [Intelligent OPC Engineer Assistant for Semiconductor Manufacturing](https://arxiv.org/abs/2408.12775)
 
 - RL / multimodal LLM-agents solve Optical Proximity Correction (OPC)-problems in semiconductor manufacturing using RL-based recipe search, which typically require years of OPC engineering experience.
-
 
 ---
 
@@ -22893,7 +22826,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 [MEDCO: Medical Education Copilots Based on A Multi-Agent Framework](https://arxiv.org/abs/2408.12496)
 
 - MEDCO (Medical EDucation COpilots): Includes patient, student, expert doctor and radiologist multimodal (X-rays/CT scans/MRIs/ultrasounds) LLM-agents. Student agents are trained/taught with feedback provided and then stored in student memory module to improve future diagnosis.
-
 
 ---
 
@@ -22924,15 +22856,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Introduces SocialQuotes-dataset to classify social media / web context into roles (influencer, expert, marketer, commenter, etc.)
 
-
----
-
 ---
 
 [Can LLMs Understand Social Norms in Autonomous Driving Games?](https://arxiv.org/abs/2408.12680)
 
 - LLM-agent autonomously drives in multi-agent driving game with social norms. Agents make self-driven decisions without attempting to cooperate.
-
 
 ---
 
@@ -22942,20 +22870,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Story3D-Agent: LLM-agent used in 3D storytelling visualization with consistent contextually and narrative.
 
-
 ---
 
 [Leveraging Chemistry Foundation Models to Facilitate Structure Focused Retrieval Augmented Generation in Multi-Agent Workflows for Catalyst and Materials Design](https://arxiv.org/abs/2408.11793)
 
 - Improves chemistry information retrieval/catalyst and materials design usage of Chemical Foundational model (such as MolFormer-XL) by combining it with RAG.
 
-
 ---
 
 [LLM4VV: Exploring LLM-as-a-Judge for Validation and Verification Testsuites](https://arxiv.org/abs/2408.11729)
 
 - Agent-based prompting and validation pipeline increase quality of the LLM as a Judge for compiler tests.
-
 
 ---
 
@@ -22965,20 +22890,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Includes requirement analysis/planning/framework preparation/script generation/scenes design/shots design/key-frames generation and video generation. 
 - Lacks still creativity (artistic/devising plots) due to reliance on prompts, seems as individual videos stitched together based on synthetic audio clip and need for significant computational resources.
 
-
 ---
 
 [Leveraging Fine-Tuned Retrieval-Augmented Generation with Long-Context Support: For 3GPP Standards](https://arxiv.org/abs/2408.11775)
 
 - Implements fine-tuned Phi-2 with RAG (semantic chunking/extended context support) in telecommunications. 
 
-
 ---
 
 [Cause-Aware Empathetic Response Generation via Chain-of-Thought Fine-Tuning](https://arxiv.org/abs/2408.11599)
 
 - CFEG (Cause-aware Fine-tuning Empathetic Generation)-method: Uses emotion cause reasoning and fine-tuned LLM with CoT. Demonstrates superior empathetic dialogue responses.
-
 
 ---
 
@@ -22989,7 +22911,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - FLAME (FLAMingo Architected Embodied Agent): a multimodal language-vision agent for navigational tasks by using three-step tuning: single perception tuning/multiple perception tuning/end-to-end training on VLN datasets.
 
-
 ---
 
 [Athena: Safe Autonomous Agents with Verbal Contrastive Learning](https://arxiv.org/abs/2408.11021)
@@ -22997,13 +22918,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Athena: Improves aligned with verbal contrastive learning, which guides LLM-agent behaviour with past safe/unsafe trajectories as in-context contrastive examples and critiquing mechanism. Contains LLM-agents: Actor/Critic/Emulator interacting to complete given task.
 - Introduces safety evalution benchmark for LLM-agents with 80 toolkits in 8 categories.
 
-
 ---
 
 [Strategist: Learning Strategic Skills by LLMs via Bi-Level Tree Search](https://arxiv.org/abs/2408.10635)
 
 - Strategist: LLM-agent learns new skills through self-improvement based on MCTS and LLM-based reflection. Generates new ideas based on performance in simulated self-play by analysing good ideas.
-
 
 ---
 
@@ -23021,7 +22940,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Automatically generates sub-tasks (delegated to to sub-task admin, which coordinates the sub-task to group of agents), hierarchically plans systematically (boss agent) and monitors concurrent agent activities. OS agent coordinates, that agents communicate in proper format and progress with the task.
 - The Storage module includes: log, memory db, task monitor, interactive python exec/Python, Files and Checklist.
 - MegaAgent claims to pose high scalability/parallelism (due to agents communication cost grows logarithmically, not linearly), high effectiveness (manages 590 agents quicker than CAMEL-framework managed 2 agents. Summarizes previous conversations to store them in vector db) and high autonomy.
-
 
 ---
 
@@ -23043,13 +22961,10 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 ---
 
-
-
 [HiAgent: Hierarchical Working Memory Management for Solving Long-Horizon Agent Tasks with Large Language Model](https://arxiv.org/abs/2408.09559)
 
 - HiAgent: LLM-based agent, which uses subgoals to define working memory (intrial memory), instead of retrieving entire crosstrial memory (between experiments).
 - The LLM-agent replaces previous subgoals with the relevant summarized observations (action-observation pairs) for the current task.
-
 
 ---
 
@@ -23061,12 +22976,10 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - EmoDynamiX: an LLM agent predicting optimal socio-emotional strategy (strategy embedding) and emotion state (emotion embedding) in a dialogue.
 - Uses Heterogeneous Graph (HG) to model the dialogue interaction: node types reflect past strategies/emotional states/predicted strategy of the agent and edge types reflect dialogue dependencies between turns and speaker role-awareness. 
 
-
 ---
 
 
 #### 15th of August 2024
-
 
 [Automated Design of Agentic Systems](https://arxiv.org/abs/2408.08435)
 
@@ -23075,7 +22988,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Meta Agent Search-algorithm generates automatically new agentic system designs and system blocks.
 - The Meta Agent Search-algorithm samples new agents optimizing performance in the Search space (prompts/control flows) evaluated with the Evaluation Function (cost/latency/safety). 
 - Includes codes of few of the discovered agents.
-
 
 ---
 
@@ -23088,17 +23000,14 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LLM is used to sample reasoning/website actions to explore.
 - Achieves high performance in real world environmments and beats an average human-level performance.
 
-
 ---
 
----
 
 #### 12th of August 2024
 
 [The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery](https://arxiv.org/abs/2408.06292)
 
 - AI Scientist: claims fully automatic scientific discovery by generating novel research ideas, writing code, executing experiments, visualizing results, drscribing findings to research paper and simulating evaluation process.
-
 
 ---
 
@@ -23110,14 +23019,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - It leverages Wikipedia's disambiguation pages, generates questions with ambiguous names, and provides corresponding sets of answers, and includes an ontology categorizing incomplete answers and automatic evaluation metrics.
 - This work lays the foundation for future research on reasoning across multiple documents with ambiguous entities.
 
-
 ---
 
 [Enhancing the Code Debugging Ability of LLMs via Communicative Agent Based Data Refinement](https://arxiv.org/abs/2408.05006)
 
 - MASTER (CoMunicative Agent BaSed DaTa REfinement FRamework): code repair with LLM. Consists of Code Quizzer (code debug expert creates questions of the error), Code Learner (answers the generated questions) and Code Teacher (reviews and corrects incorrect answers) agents.
 - Includes DEBUGEVAL-benchmark: bug localization, bug identification, code review and code repair.
-
 
 ---
 
@@ -23129,14 +23036,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Includes Chinese Debate Arena-benchmark with
 - Framework begins with context/motion/position/stage. Searcher gathers information, analyzer reviews arguments, writer generates arguments/debates and reviewer provides feedback on debate.
 
-
 ---
 
 [RiskAwareBench: Towards Evaluating Physical Risk Awareness for High-level Planning of LLM-based Embodied Agents](https://arxiv.org/abs/2408.04449)
 
 - RiskAwareBench: reviews physical risk awareness of embodied LLM agents. 
 - Includes modules: safety tip generation/risky scene generation/plan generation & evaluation/ isk assesment.
-
 
 ---
 
@@ -23147,21 +23052,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - PReP: city-navigation to goal using visual perception and memory (working, episodic & semantic) without instructions.
 - Semantic memory summarizer memories from multiple steps, to perform high-level navigtion.
 
-
 ---
 
 [Forecasting Live Chat Intent from Browsing History](https://arxiv.org/abs/2408.04668)
 
 - LLM-based user intent prediction (to predict why user needs live-chat agen support) from high-level categories classified from browsing history and then in second step predicts fine-grained user intent with the high-level intent class and browsing history.
 
-
-
 ---
 
 [CodexGraph: Bridging Large Language Models and Code Repositories via Code Graph Databases](https://arxiv.org/abs/2408.03910)
 
 - LLM uses cod RAG. Builds code graph db from code repository. Nodes represent symbols, edges represent relationships between symbols and schema defines how code graphs are stored in the code db.
-
 
 ---
 
@@ -23172,7 +23073,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Reviews scaling up inference compute (test-time) in order to built self-improving agents. Quantifies the amount of improvement, when increasing inference.
 - Test-time compute outperforms 14x larger models.
 - Compute optiml scaling strategy can improve efficiency of test-time compute by factor of up to 4x.
-
 
 ---
 
@@ -23187,14 +23087,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - ReDel delegation schemes include DelegateOne (wait parent-agent until child-agent completion) and DelegateWait (provide separate function for parent agent to retrieve child agent response).
 - Event-driven logging includes built-in events ans custom events.
 
-
 ---
 
 [SpecRover: Code Intent Extraction via LLMs](https://arxiv.org/abs/2408.02232)
 
 - SpecRover/AutoCodeRover-v2: autonomous github issue fixing by understanding developer intent from Github repo structure / developer behaviour.
 - Claims Github issues can be solved as little as $0.65 /issue.
-
 
 ---
 
@@ -23203,8 +23101,8 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - RAG-agent (ensemble architecture), which adds relevant contextual information to the user query from the Github repository. 
 - Uses RepoRift-platform, which improves code search by: narrows context search to single repository, uses agentic interaction and returns easy-to-understand results with low latency.
 
-
 ---
+
 #### 3rd of August 2024
 
 [The Drama Machine: Simulating Character Development with LLM Agents](https://arxiv.org/abs/2408.01725)
@@ -23220,7 +23118,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Coalition of LLM models outperform single model and fine-tuned LLMs.
 - Specific LLMs fit for particular tasks and cheaper interference.
-
 
 ---
 
@@ -23241,7 +23138,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - AgentGen: Generates diverse LLM agent environments and planning tasks. LLM fine-tuned with this data improves significantly planning capabilities.
 - Uses inspirational corpus to generate environment context (actions/restrictions/etc). Generates tasks, which include "difficulty diversification: easy/medium/hard with bidirectional evolution (Bi-Evol) to smoothly acquire new planning skills.
 
-
 ---
 
 #### 31st of July 2024
@@ -23251,7 +23147,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Tulip Agent and AutoTulipAgent: LLM-agent has priviledges to create, update, delete and edit tool library. 
 - Self-Recursively extendible tool library. 
 - AutoTulipAgent includes 5 generic tools: 2 to decompose tasks/search tools, includes apart capability to create/delete/update tools. 
-
 
 ---
 
@@ -23263,7 +23158,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - The framework includes a hierarchical categorization, structure graph, dependency graph, and solution construction using Chain-of-Thought (CoT) approach, and it uses GPT2-like language model with rotary embedding.
 - This framework enables a principled study of language models' mathematical reasoning skills, going beyond empirical benchmark pushing.
 
-
 ---
 
 
@@ -23272,7 +23166,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 [Solving Robotics Problems in Zero-Shot with Vision-Language Models](https://arxiv.org/abs/2407.19094)
 
 - Wonderful Team: uses off-shelf VLM model for high-level planning, low-level location extraction and action execution.
-
 
 ---
 
@@ -23285,8 +23178,8 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Each task is checked to be: well-defined/includes distractors/has real distractors/contrasts from exissting other tasks.
 - Includes Supervisor (provides passwords/credit cards/etc about the user), (API parameters/descriptions) and Execution Shell to run code.
 
-
 ---
+
 #### 25th of July 2024
 
 [The Platonic Representation Hypothesis](https://www.arxiv.org/abs/2405.07987)
@@ -23294,7 +23187,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - The Platonic Representation Hypothesis: Neural networks are converging to a shared statistical model of reality in their representation spaces.
 - Convergence across data modalities; representation alignment over time; driven by data and task diversity; scaling model size.
 - Understanding convergence is crucial for future AI development and capabilities.
-
 
 ---
 
@@ -23326,19 +23218,16 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Reinforced Prompt Personalization (RPP): uses instance-based prompting with MARL.
 - Instead of task-based (role-play/history/reasoning guidance/output format), Instance-based prompting personalises to these four-characteristics with MARL.
 
-
 ---
 
 [AI-Gadget Kit: Integrating Swarm User Interfaces with LLM-driven Agents for Rich Tabletop Game Applications](https://arxiv.org/abs/2407.17086)
 
 - AI-gadget Kit: multi-agent driven Swarm UI (SUI) tabletop gaming system, which consist of meta-motion, interactive behaviour, interactive relationship and application.  
 
-
 ---
 
 [3D Question Answering for City Scene Understanding](https://arxiv.org/abs/2407.17398)
 - Sg-CityU: 3D multimodal QA, which uses scene graph to provide answers related to spatial relationships about city-scenes
-
 
 ---
 
@@ -23349,7 +23238,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - RedAgent: Introduces concept of "Jaillbreaking strategy" (strategies used by attackers to construct jaillbreaking prompts) red teaming through multi-agent self-reflection from context feedback and skill memory.
 - The approach can jaillbreak LLMs and LLM-based apps (even more vulnerable) using just few queries.
 - The Red-Agent architecture includes skill memory and multiple roles (profile constructor/planner/attacker/evaluator) and short/long term memory.
-
 ---
 
 [AMONGAGENTS: Evaluating Large Language Models in the Interactive Text-Based Social Deduction Game](https://arxiv.org/abs/2407.16521)
@@ -23717,13 +23605,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - LayoutCopilot: LLM-based analog layout design framework.
 
-
 ---
 
 [Computational Life: How Well-formed, Self-replicating Programs Emerge from Simple Interaction](https://arxiv.org/abs/2406.19108)
 
 - Explores emergence of self-replicating programs. Introduces "high-order entropy"-metric to measure complexity of the system studied.
-
 
 ---
 
@@ -23736,7 +23622,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Proposes, that key to achieve AGI is to move from model-centric or engineering-centric to data-centric language agents, which learn and envolve autonomously in environments.
 - Agent symbolic learning optimizes symbolic network within language agents. 
 
-
 ---
 
 [MAGIS: LLM-Based Multi-Agent Framework for GitHub Issue Resolution](https://arxiv.org/abs/2403.17927)
@@ -23745,22 +23630,18 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Reviews correlation in task success rate and task complexity/ability to locate relevant code line.
 - Planning part includes locating files/code, building team, kick-off meeting. Coding part includes developer producing code and then QAE validating it.
 
-
 ---
 
 [Lifelong Robot Library Learning: Bootstrapping Composable and Generalizable Skills for Embodied Control with Language Models](https://arxiv.org/abs/2406.18746)
 
-
 - LRLL-agent (Lifelong Robot Library Learning): increases continuously the robot skill library by using soft memory module, self-guided exploration, skill abstractor and lifelong learning algorithm.
 - The framework is inspired by wake-sleep optimization, where wake phase (interacts with environment) is followed by sleep phase (agent reflects experiences).
-
 
 ---
 
 [Simulating The U.S. Senate: An LLM-Driven Agent Approach to Modeling Legislative Behavior and Bipartisanship](https://arxiv.org/abs/2406.18702)
 
 - Reviews use of LLM to understand and improve legislative process.
-
 
 ---
 
@@ -23770,7 +23651,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LLM-Xavier workflow: RL agent rolls a trajectory, which LLM-agent reasons to provide an answer. This evaluation is compared with the ground truth data.
 - Offers a way to explain behaviour of black-box RL agents.
 
-
 -- 
 
 [AI-native Memory: A Pathway from LLMs Towards AGI](https://arxiv.org/abs/2406.18312)
@@ -23778,13 +23658,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Claims AGI-like systems require AI-native memory, which is deep neural network parametrising different types of memories beyond language. Claims such Large Personal Model (LPM) would be unique for each person with every detail about the user for personalised generation.
 - Includes useful ideas about what data the personalised memory could look include or the various levels of data granularity.
 
-
 ---
 
 [Role-Play Zero-Shot Prompting with Large Language Models for Open-Domain Human-Machine Conversation](https://arxiv.org/abs/2406.18460)
 
 - Investigates role-play zero-shot prompting in conversational agent.
-
 
 ---
 
@@ -23793,8 +23671,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LLCoach: Reviews advance planning capabilities of robots in dynamic/unstructured environments.
 - The system offline components collects plans from video frames to the Coach VLM and refines them using LLM, which retrieves Acctions from vector db and synchronises into multi-agent plans. Online component retrieves and executes most similar plan to the world model status.
 
-
-
 ---
 
 [Octo-planner: On-device Language Model for Planner-Action Agents](https://arxiv.org/abs/2406.18082)
@@ -23802,7 +23678,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - OctoPlanner: Separates planner/action-steps into OctoPlanner (planner) agent and Action agent (Octopus model) with function execution.
 - Planner agent divides tasks into sub-tasks.
 - Optimized for on-device usage through usage of fine-tuning instead of in-context learning.
-
 
 ---
 
@@ -23813,7 +23688,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Develops complete system to synthesize object motion, full-body motion and finger motion simultaneously. 
 - Applies High-evel planner to generate target scene layout/task plan and then uses low-level motion generation with four stage appproach with: CoarseNet/GraspPose/RefineNet and FingerNet.
 - Planner includes three stages: Generate spatial relationships between objects in natural language (to improve performance), calculate target layouts and generate detailed plan.
-
 
 ---
 
@@ -23836,13 +23710,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - GenoAgent: LLM-based genomics data-analysis.  
 
-
 ---
 
 [ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models](https://arxiv.org/abs/2406.14952)
 
 - ESC-Role: LLM-agent for Emotional Support Conversation (ESC) tasks.  Includes ESC-Eval benchmark.
-
 
 ---
 
@@ -23852,13 +23724,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Introduces InformativeBench-benchmark to evaluate LLM task solving capability when access to only part of information (information asymmetry).
 - iAgents collaborate in social network of 140 individuals and 588 relationships and communicate 30 turns.
 
-
 ---
 
 [FlowBench: Revisiting and Benchmarking Workflow-Guided Planning for LLM-based Agents](https://arxiv.org/abs/2406.14884)
 
 - FlowBench-benchmark: reviews workflow-guided (think flowcharts) planning capability of LLMs.  
-
 
 ---
 
@@ -23866,13 +23736,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - DMPO-loss function to optimize RL objectives in multiturn agent tasks.
 
-
 ---
 
 [Evaluating RAG-Fusion with RAGElo: an Automated Elo-based Framework](https://arxiv.org/abs/2406.14783)
 
 - RAGElo-benchmark reviews retrieval performance as well in RAF-Fusion use (fuses top-k retrievals). 
-
 
 ---
 
@@ -23880,13 +23748,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - DiPEX (Dispersing Prompt Expansion)-approach: Uses VLM and DiPEX to improve class-agnostic object detection.
 
-
 ---
 
 [Behaviour Distillation](https://arxiv.org/abs/2406.15042)
 
 - Behaviour Distillation: compresses information for training expert policy in RL by learning synthetic data (HaDES-method) of state-action pairs without requiring the expert data.
-
 
 ---
 
@@ -23894,19 +23760,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Uni-Mol2: 1.1B parameter model for molecular representation based on f Uni-Mol+ architecture (two track transformer).
 
-
 ---
 
 [From LLMs to MLLMs: Exploring the Landscape of Multimodal Jailbreaking](https://arxiv.org/abs/2406.14859)
 
 - Survey on multimodal / VLM / LLM jailbreaking research.
 
-
-
-
-
 ---
-
 
 #### 20th of June 2024
 
@@ -23917,7 +23777,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Introduces multiple general approaches (offline RL/best sequence from rollout/completion with stronger LLM) to calculate the Q-value.
 - The approach works as such in various reasoning tasks.
 
-
 ---
 
 [GraphReader: Building Graph-based Agent to Enhance Long-Context Abilities of Large Language Models](https://arxiv.org/abs/2406.14550)
@@ -23926,13 +23785,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Achieves performance level of 128k context window LLM using 4k context window LLM by converting the long text into graph structure.
 - The LLM agent records insights from the explored graph and reflects current situation to optimize answer generation.
 
-
 ---
 
 [LLaSA: Large Multimodal Agent for Human Activity Analysis Through Wearable Sensors](https://arxiv.org/abs/2406.14498)
 
 - LLaSA (Large Language and Sensor Assistan): Text query received is converted into text embedding and sensor reading into IMU embeddings (inertia measurements unit embeddings). Both inputs are passed to LLaSA model and its output to LLM to produce final answer.
-
 
 ---
 
@@ -23941,21 +23798,17 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Evaluates LLM-based multi-agent society. This society includes psychological drives and social relationships.
 - Evaluates Hobb's Social Contract Theory.
 
-
 ---
 
 [EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://arxiv.org/abs/2406.14228)
 
 - EvoAgent: reviews specialized agents extension into multi-agent system through evolutionary pipeline. 
 
-
 ---
-
 
 [Do LLMs Have Distinct and Consistent Personality? TRAIT: Personality Testset designed for LLMs with Psychometrics](https://arxiv.org/abs/2406.14703)
 
 - Introduces TRAIT-personality test to review LLM personality.   
-
 
 ---
 
@@ -23963,19 +23816,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - Learning by Teaching (LbT): LbT includes three methods: Observing student feedback, learning from the feedback and learning iteratively.
 
-
 ---
-
 
 [MultiAgent Collaboration Attack: Investigating Adversarial Attacks in Large Language Model Collaborations via Debate](https://arxiv.org/abs/2406.14711)
 
 - Persuasion by adversial agent in multi-agent debate, which undermines shared interests. 
 
-
-
 ---
-
-
 
 #### 19th of June 2024
 
@@ -23998,7 +23845,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - SpatialBot: VLM trained with SpatialQA-dataset (includes VQAs with low, middle and high-level), which comprehends spatial information in thre levels (point depth/depth description, proximity/object depth and spatial relationship/counting).
 - Introduces SpatialBench-benchmark to review VLMs spatial understanding.
-
 
 ---
 
@@ -24037,7 +23883,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Trajectory tuning: fine-tunes clarification and execution agents with past trajectories in static setting.
 - Memory recollection: reuse self-reflective feedback from prior time steps.
 
-
 ---
 
 [AgentReview: Exploring Peer Review Dynamics with LLM Agents](https://arxiv.org/abs/2406.12708)
@@ -24045,7 +23890,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - AgentReview: LLM-based peer-review simulation framework of scientific papers such as related to NLP.
 - Includes three LLM- based roles: reviewers, authors and Area Chairs.
 - Review process includes: reviwer assessment, author-reviewer discussion, reviewer-area chair discussion, meta-review compilation and paper decision.
-
 
 ---
 
@@ -24071,14 +23915,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Models multiple characters such as openness.
 - Introduces PCD-dataset on personality traits in various topics.
 
-
 ---
 
 [MAGIC: Generating Self-Correction Guideline for In-Context Text-to-SQL](https://arxiv.org/abs/2406.12692)
 
 - MAGIC: text-to-SQL multi-agent, which generates automatically self-correction guideline.
 - Framework includes three agents: manager(Planning, Tool and Memory), correction- and feedback-agents.
-
 
 ---
 
@@ -24091,7 +23933,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 [The Power of LLM-Generated Synthetic Data for Stance Detection in Online Political Discussions](https://arxiv.org/abs/2406.12480)
 
 - Stance detection on political discussion with LLMs and synthetic data with significant improvement on accuracy.
-
 
 ---
 
@@ -24129,7 +23970,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 [Pre-Training and Personalized Fine-Tuning via Over-the-Air Federated Meta-Learning: Convergence-Generalization Trade-Offs](https://arxiv.org/abs/2406.11569)
 
-
 ---
 
 [GUICourse: From General Vision Language Models to Versatile GUI Agents](https://arxiv.org/abs/2406.11317)
@@ -24137,17 +23977,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - GUICourse-trained VLMs with GUICourse-dataset suite outperform GPT-4V in multiple benchmarks improving navigation capability.
 - Introduces GUICourse-dataset suite (GUIEnv for OCR and grounding, GUIAct for website and Android knowledge of GUIs and GUIChat to improve conversational dialogue/QA-skills with images) for training visual-based GUI agents from generic VLMs.
 
-
 ---
-
 
 [CLARA: Classifying and Disambiguating User Commands for Reliable Interactive Robotic Agents](https://arxiv.org/abs/2306.10376)
 
 - CLARA: classification of users robot commands as infeasible/ambigious. 
 
-
 ---
-
 
 [Embodied Question Answering via Multi-LLM Systems](https://arxiv.org/abs/2406.10918)
 
@@ -24162,7 +23998,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - GuardAgent: guardrails-agent for LLMs based on knowledge-enabled reasoning.
 - Includes task-planning, action plan, memory, tools and code generation and execution.
 - Task planning includes: specification of the target agent, guard request (things the agent cannot perform based on the target agent profile) and target agent (inputs, outputs and logs).
-
 
 ---
 
@@ -24192,7 +24027,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Free Rapport Agent: Builds a rapport-oriented dialogue agent with focus on user engagement through small talk.
 - Identifies strategies for rapport-techniques.
 - The Free Rapport Agent achieves superior ratings in categories such as naturality, satisfaction, usability an rapport aspects. A potential future research field in investing rapport with TSS-models.
-
 
 ---
 
@@ -24226,17 +24060,13 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - HIRO (Hierarchical Information Retrieval Optimization): RAG query approach using hierarchical structures to store information. 
 
-
 ---
 
 [DigiRL: Training In-The-Wild Device-Control Agents with Autonomous Reinforcement Learning](https://arxiv.org/abs/2406.11896)
 
-- 
-
 ---
 
 [4M-21: An Any-to-Any Vision Model for Tens of Tasks and Modalities](https://arxiv.org/abs/2406.09406)
-
 
 ---
 
@@ -24248,14 +24078,12 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - StreamBench-benchmark: simulated learning environment, where LLM receives continuous feedback to iteratively improve performance.
 - Reviews the LLMs self-improving capability in online-setting, instead of only fixed offline-benchmarks
 
-
 ---
 
 [Multi-Agent Software Development through Cross-Team Collaboration](https://arxiv.org/abs/2406.08979)
 
 - CTC (Cross-Team-Collaboration): creates a multi-agent-framework of LLM-agent teams jointly collaborating to make decisions, communicate insights and generate solutions.
 - For example generates different phases: design, coding and testing, which each include sub-tasks. Various agents collaborate to generates ideas from tasks, which are then converted into final code via multi-turn chat chain. 
-
 
 ---
 
@@ -24272,7 +24100,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - RLBreaker: black-box jailbreaking with Deep Reinformcent Learning agent from mainly same authors as the RL-Jack paper.
 - Formulates the search of jailbreaking prompts as a search planning problem.
 
-
 ---
 
 [Batch-Instructed Gradient for Prompt Evolution:Systematic Prompt Optimization for Enhanced Text-to-Image Synthesis](https://arxiv.org/abs/2406.08713)
@@ -24288,13 +24115,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - MobileAgentBench-benchmark: Highlights issues in current benchmarks related to Scalability and Usability, Robustness and Flexibility and Realistic environment.
 
-
 ---
 
 [A Dialogue Game for Eliciting Balanced Collaboration](https://arxiv.org/abs/2406.08202)
 
 - Studies flexible and balanced role-taking with LLM agents in social dialogue.
-
 
 ---
 
@@ -24302,13 +24127,11 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - A survey, which reviews threats and protective measures on privacy and security concerns with LLMs in five stages: pre-training/fine-tuning/RAG system/deploying/LLM-based agent.
 
-
 ---
 
 [Can Large Language Models Understand Spatial Audio?](https://arxiv.org/abs/2406.07914)
 
 - Multichannel audio understanding with LLMs.
-
 
 ---
 
@@ -24320,7 +24143,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Improves solving MATH and complex math Olympiad-problems reasoning.
 - Includes selection, self-refine, self-evaluation and backpropagation-processes.
 
-
 ---
 
 [DARA: Decomposition-Alignment-Reasoning Autonomous Language Agent for Question Answering over Knowledge Graphs](https://arxiv.org/abs/2406.07080)
@@ -24330,7 +24152,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - SOTA-level performance: Fine-tuned DARA (Llama-2-7B) zero-shot outperforms agents using GPT-4 In-context learning.
 - Iteratively performs task decomposition and task grounding.
 
-
 ---
 
 [RS-Agent: Automating Remote Sensing Tasks through Intelligent Agents](https://arxiv.org/abs/2406.07089)
@@ -24338,7 +24159,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - RS-Agent (Remote-Sensing Agent): LLM-based remote sensing agent.
 
 ---
-
 
 [World Models with Hints of Large Language Models for Goal Achieving](https://arxiv.org/abs/2406.07381)
 
@@ -24374,7 +24194,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 - FinVerse: financial information processing agent, which connects to 600 APIs. Plans to open source the dataset.
 
-
 ---
 
 #### 9th of June 2024
@@ -24385,11 +24204,9 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 --- 
 
-
 [A Review of Prominent Paradigms for LLM-Based Agents: Tool Use (Including RAG), Planning, and Feedback Learning]()
 
 - Introduces a survey on LLM-agents with tool use/RAG/planning/feedback learning.
-
 
 ---
 
@@ -24423,7 +24240,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - LGSD (Language Guided Skill Discovery): reviews language guided skill discovery using LLM.
 - LLM converts input into semantically distint skills in order for the agent to visit semantically unique states.
 
-
 ---
 
 
@@ -24440,7 +24256,6 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 - Releases new AndroidControl-dataset with 15k demonstrations on every day tasks in Android apps.
 - Tests an Android agent, which receives task information, pre-processes screen using accessibility trees / html about the screen (so, not using directly screenshot) to include only UI elements with text description, creates textual representation of the accessibility trees / html about the screen.
 - Includes prompts used and references on the accessibility tree / html performance against directly interpreting the screenshot.
-
 
 ---
 
@@ -31092,7 +30907,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - Enables reasoning with LLMs using CoT and Self-Consistency, where multiple, different reasoning paths are used to vote the most consistent answer.
 - Improves reasoning and math problem solving.
 
-
 ---
 
 [Chain of Hindsight Aligns Language Models with Feedback](https://arxiv.org/abs/2302.02676)
@@ -31107,7 +30921,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 - Provides evidence  about three computational principles, shared both by Deep Language Models (DLMs) and human brain to process language.
 - The three principles are: continuous next-word prediction, contextual embeddings and surprise prediction error.
-
   
 ---
 
@@ -31132,7 +30945,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 - RAG framework combines parametric memory (pre-trained seq2seq model) and non-parametric memory (Wikipedia index) to improve generation quality.
 - RAG models achieve state-of-the-art results on open domain question answering tasks, outperforming parametric and task-specific architectures.
 
-
 ---
 
 <div id="languageagentdefinition"></div>
@@ -31144,8 +30956,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 [Alignment of Language Agents](https://arxiv.org/abs/2103.14659)
 
 - Defines Language Agent. 
-
-
 
 ---
 
@@ -31192,7 +31002,6 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-
 #### 24th of November 2019
 
 [Multi-Agent Reinforcement Learning: A Selective Overview of Theories and Algorithms](https://arxiv.org/abs/1911.10635)
@@ -31224,15 +31033,13 @@ Agent actions impact directly task plans by not requiring environment feedback t
 
 ---
 
-
 [Prediction and Adaptation in an Evolving Chaotic Environment](https://arxiv.org/abs/adap-org/9306005)
 
 - Defines the concept of "Predictive Agent" as adaptive predictors.
 
 ---
 
-[A Learning Algorithm that
-Mimics Human Learning](https://www.santafe.edu/research/results/working-papers/a-learning-algorithm-that-mimics-human-learning)
+[A Learning Algorithm that Mimics Human Learning](https://www.santafe.edu/research/results/working-papers/a-learning-algorithm-that-mimics-human-learning)
 
 - Reviews Artificial Agents learning like humans.
 
@@ -31242,13 +31049,10 @@ Mimics Human Learning](https://www.santafe.edu/research/results/working-papers/a
 
 #### 24th of November 1967
 
-
 [A formal Basis for the Heuristic Determination of Minimum Cost Paths](https://ai.stanford.edu/%7Enilsson/OnlinePubs-Nils/General%20Essays/roboticsandai.pdf)
 
 - A* search algorithm.
 - Defines the A* search algorithm for the first time, widely used in RL as planning algorithm.
-
-
 
 ---
 
