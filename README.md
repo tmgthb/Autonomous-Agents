@@ -27,7 +27,7 @@ Copyright (C) Teemu Maatta.
 <div align="center">
 
   # Autonomous Agents
-  Autonomous Agents-[research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md). Updated daily. [Resources-section](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Resources.md)-section. 
+  Autonomous Agents-[research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md): [2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2025.md), [2024-before](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2024.md). Updated daily. [Resources-section](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Resources.md)-section. 
 
 </div>
 
@@ -39,7 +39,7 @@ Copyright (C) Teemu Maatta.
 ## Research papers
 
 
-Chronological order. [2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2025.md), [2024-before](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2024.md)
+Chronological order. 
 
 </div>
 
