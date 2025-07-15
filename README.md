@@ -38,7 +38,7 @@ Copyright (C) Teemu Maatta.
 
 ## Research papers
 
-[2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_2025.md), [2024 and earlier](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_2024.md)a
+[2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_2025.md), [2024](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_2024.md), [2023](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_2023.md), [Earlier](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_Papers_Earlier.md),
 
 Chronological order. 
 
