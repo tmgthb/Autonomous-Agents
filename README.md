@@ -39,7 +39,7 @@ Copyright (C) Teemu Maatta.
 ## Research papers
 
 
-Chronological order.
+Chronological order. [2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2025.md)[2024-before], (https://github.com/tmgthb/Autonomous-Agents/blob/main/Autonomous_Agents_Research_2024.md)
 
 </div>
 
