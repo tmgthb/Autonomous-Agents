@@ -21,13 +21,13 @@ Copyright (C) Teemu Maatta.
 </div>
 
 <p align="center">
-  <img height="100" src="https://raw.githubusercontent.com/tmgthb/Autonomous-Agents/main/Autonomous_agent_logo.png" alt="Autonomous Agents">
+  <img height="100" src="https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_agent_logo.png" alt="Autonomous Agents">
 </p>
 
 <div align="center">
 
   # Autonomous Agents
-  Autonomous Agents-[research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md). Updated daily. [Resources-section](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/research_papers/Autonomous_Agents_Resources.md)-section. 
+  Autonomous Agents-[research papers](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md). Updated daily. [Resources-section](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/research_papers/resources/Autonomous_Agents_Resources.md)-section. 
 
 </div>
 
