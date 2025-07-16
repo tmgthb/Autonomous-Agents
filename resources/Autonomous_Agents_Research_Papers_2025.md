@@ -48,6 +48,80 @@ Chronological order.
 
 </div>
 
+
+#### 15th July 2025
+
+[DrafterBench: Benchmarking Large Language Models for Tasks Automation in Civil Engineering](http://arxiv.org/abs/2507.11527v1)
+
+- DrafterBench: introduces a comprehensive benchmark for evaluating LLM agents in civil engineering drawing revision, including Task Collection (summarizes real-world tasks), Tool Preparation (customizes functions/tools), Default Prompt (provides prompt framework), Evaluation Metric (assesses performance), and Dual Tools/Functions (records operation paths).
+- The benchmark comprises 1920 tasks across 12 types, derived from real-world drawing files, designed to assess LLM capabilities in structured data understanding, function execution, instruction following, and critical reasoning.
+- It utilizes dual tools to record ground operation paths for accurate performance grading and error analysis, providing insights for integrating LLMs into engineering applications.
+
+---
+
+[AirLLM: Diffusion Policy-based Adaptive LoRA for Remote Fine-Tuning of LLM over the Air](http://arxiv.org/abs/2507.11515v1)
+
+- AirLLM: introduces a hierarchical diffusion policy framework for communication-aware LoRA adaptation, including Cloud LLM for fine-tuning, Edge LLM for inference, a Wireless Channel for parameter transmission, an Environment providing state, reward, and action, and a Hybrid Policy with PPO for coarse policy generation and Diffusion Policy for fine-grained refinement.
+- The framework models rank configuration as a structured action vector, using a Proximal Policy Optimization (PPO) agent for coarse-grained decisions and Denoising Diffusion Implicit Models (DDIM) for high-resolution rank vector refinement.
+- It aims to balance LLM fine-tuning performance with transmission costs by adaptively optimizing LoRA rank assignments based on wireless states and linguistic complexity.
+
+---
+
+[Dr.Copilot: A Multi-Agent Prompt Optimized Assistant for Improving Patient-Doctor Communication in Romanian](http://arxiv.org/abs/2507.11299v1)
+
+- Dr.Copilot (Multi-Agent Large Language Model System): introduces a multi-agent LLM system designed to enhance doctor-patient communication quality in Romanian text-based telemedicine, including a Scorer Agent (evaluates responses), a Recommendation Agent (generates suggestions), and a Reconciliation Agent (simulates improvements).
+- The system leverages DSPy (prompt optimization) for automatic prompt optimization and utilizes open-weight LLMs (underlying models) served by VLLM (model serving), providing real-time feedback to doctors.
+- Dr.Copilot focuses on improving presentation quality rather than medical correctness, aiming to increase patient satisfaction and represents an early real-world deployment of LLMs in Romanian medical settings.
+
+---
+
+[Taming Uncertainty via Automation: Observing, Analyzing, and Optimizing Agentic AI Systems](http://arxiv.org/abs/2507.11277v1)
+
+- AgentOps (AI AgentOps Automation Pipeline): introduces a comprehensive framework for observing, analyzing, optimizing, and automating agentic AI systems, encompassing behavior observation, metric collection, issue detection, root cause analysis, optimized recommendations, and runtime automation.
+- The framework addresses challenges for developers, testers, SREs, and business users by taming uncertainty in LLM-powered agentic systems through automation and self-improvement.
+- It provides a structured approach to manage dynamic, unpredictable agent behavior, ensuring safe, adaptive, and effective operation in enterprise contexts.
+
+---
+
+[An Empirical Study of Multi-Agent RAG for Real-World University Admissions Counseling](http://arxiv.org/abs/2507.11272v1)
+
+- MARAUS (Multi-Agent and Retrieval-Augmented University Admission System): introduces a real-world conversational AI platform for university admissions counseling, integrating a Multi-agent Coordinator (Classifies queries), Preprocessing Module (Cleans, normalizes data), Hybrid Retrieval Module (Combines semantic, keyword search), Logic Calculation Module (Performs domain-specific computations), Factual Database (Stores structured data), LLM-based Generation (Generates responses), and Post-processing Module (Formats, mitigates hallucination).
+- The system employs specialized agents for information search, score calculation, recommendation, and general queries, leveraging hybrid RAG with semantic and keyword retrieval, re-ranking, and LLM-based generation to enhance accuracy and reduce hallucinations.
+- Deployed in a real-world university setting, MARAUS processed over 6,000 user interactions, demonstrating significant improvements in accuracy and response times while operating cost-effectively.
+
+---
+
+[An Agentic Flow for Finite State Machine Extraction using Prompt Chaining](http://arxiv.org/abs/2507.11222v1)
+
+- FlowFSM (An Agentic Flow for Finite State Machine Extraction using Prompt Chaining): introduces an agentic framework for FSM extraction from RFC documents, utilizing an RFC Documents Processing Pipeline, FSM Extraction using Prompt Chaining, AI Agents (CrewAI), an LLM Model, and a Rulebook.
+- The framework systematically processes protocol specifications, identifies state transitions, and constructs structured rule-books by chaining agent outputs.
+- This approach decomposes complex FSM extraction into modular, interpretable steps, enhancing transparency and robustness.
+
+---
+
+[Temperature and Persona Shape LLM Agent Consensus With Minimal Accuracy Gains in Qualitative Coding](http://arxiv.org/abs/2507.11198v1)
+
+- Multi-Agent System (MAS): introduces a multi-agent framework for LLM-based deductive coding, including a Single-Agent Coding Module (individual annotation simulation), Dual-Agent Discussion Module (inter-agent discussion simulation), Consensus Agent Module (disagreement resolution, final coding), LLM Agents (perform coding tasks), Codebook (structured coding categories), Ollama API (LLM interaction interface), System Prompts (agent instruction, personality injection), and Post-processing Procedure (extracts, validates code annotations), to investigate how agent persona and temperature influence consensus and coding accuracy.
+- The MAS emulates human qualitative coding workflows through structured agent discussions and consensus arbitration, evaluating six open-source LLMs with varying parameters and 18 experimental configurations.
+- The study found that while temperature robustly delays consensus, and persona congruency has selective effects, MAS deliberation generally yields minimal accuracy gains over single-agent coding, except for specific conditions.
+
+---
+
+[SWE-MERA: A Dynamic Benchmark for Agenticly Evaluating Large Language Models on Software Engineering Tasks](http://arxiv.org/abs/2507.11059v1)
+
+- SWE-MERA: introduces a dynamic benchmark for agenticly evaluating LLMs on software engineering tasks, utilizing a seven-stage pipeline including Repository Selection (selects GitHub repositories), PR-Issue Mapping Construction (maps pull requests to issues), Metadata Extraction and Filtering (downloads and filters metadata), Patch Extraction and Validation (generates and validates git diffs), Repository Build Validation (builds environment, runs tests), End-to-End Task Execution (executes tasks in Docker), and LLM-based Pipeline Evaluation (assesses task quality).
+- The framework also integrates an Aider coding agent (automates scoring), a dynamic user leaderboard (displays evaluation results), Docker containers (provides controlled environment), the GitHub GraphQL API (collects data), the Hugging Face platform (hosts dataset), and an evaluation repository (receives submissions).
+- SWE-MERA addresses data contamination and benchmark saturation by continuously updating its dataset with new, unseen issues, ensuring real-world relevance and fair evaluation for LLMs in software development.
+
+---
+
+[DS@GT at eRisk 2025: From prompts to predictions, benchmarking early depression detection with conversational agent based assessments and temporal attention models](http://arxiv.org/abs/2507.10958v1)
+
+- Voting Classifier: introduces a system for early depression detection, with Raw Data, Pre-processing Pipeline, Feature Engineering, Feature Matrix, Voting Classifier, Random Forest Classifier, Stochastic Gradient Descent Classifier, and Gradient Boosting Classifier, where it combines diverse engineered features and multiple machine learning models for classification.
+- This approach processes raw JSON user data through a comprehensive pre-processing pipeline to create a feature matrix, which is then fed into an ensemble of base models.
+- The Voting Classifier employs a soft voting strategy to aggregate predictions from its base models, aiming for robust depression detection.
+
+
 #### 14th July 2025
 
 [Logic-layer Prompt Control Injection (LPCI): A Novel Security Vulnerability Class in Agentic Systems](http://arxiv.org/abs/2507.10457v1)
@@ -89,6 +163,57 @@ Chronological order.
 - Gifts significantly outperforms baseline approaches in inferring sensitive attributes from audio, highlighting a privacy risk and providing a framework for further research and defense strategies.
 
 ---
+
+[LLM-Guided Agentic Object Detection for Open-World Understanding](http://arxiv.org/abs/2507.10844v1)
+
+- LAOD (LLM-Guided Agentic Object Detection): introduces an LLM-guided agentic object detection framework that autonomously generates scene-specific object names using an LLM (Large Language Model) from an input image, which are then passed as generated labels to an OVOD (Open-Vocabulary Object Detector) for object localization, producing detected objects.
+- This framework enables fully label-free, zero-shot detection, adapting its perception goals dynamically without manual prompt engineering or predefined vocabularies.
+- The method enhances autonomy and adaptability for open-world understanding by tightly coupling language-based reasoning with visual grounding.
+
+---
+
+[Semantic Context for Tool Orchestration](http://arxiv.org/abs/2507.10820v1)
+
+- SC (Semantic Context): introduces a novel approach for robust tool orchestration, leveraging descriptive tool information to enhance learning efficiency and adaptation in dynamic action spaces.
+- The paper theoretically and empirically validates SC's benefits through the SC-LinUCB algorithm and demonstrates its critical role in dynamic adaptation for LLMs.
+- Furthermore, the FiReAct pipeline, which utilizes SC for semantic filtering and LLM-based reasoning, enables practical tool orchestration at scale with over 10,000 tools.
+
+---
+
+[Warehouse Spatial Question Answering with LLM Agent 1st Place Solution of the 9th AI City Challenge Track 3](http://arxiv.org/abs/2507.10778v1)
+
+- LLM Agent System: introduces a data-efficient approach for warehouse spatial question answering, integrating a Spatial Reasoning LLM, Light-weight Perception Models, Spatial Calculation Functions, an API Tools Interface, Multi-turn Execution, a Rule-based Parser, and Structured Message History.
+- The system leverages a reasoning LLM (Gemini 2.5-Flash) with function-calling capabilities to conduct complex spatial reasoning and interact with various tools for object retrieval, counting, and distance estimation.
+- This approach achieved first place in the 2025 AI City Challenge Physical AI Spatial Intelligence Warehouse benchmark, demonstrating high accuracy and efficiency in complex indoor scenarios.
+
+---
+
+[Exploring User Security and Privacy Attitudes and Concerns Toward the Use of General-Purpose LLM Chatbots for Mental Health](http://arxiv.org/abs/2507.10695v1)
+
+- Harm-Reduction Framework (conceptual recommendations for LLM-enabled chatbots): introduces a conceptual framework to safeguard user mental health disclosures with general-purpose LLM-enabled chatbots, including contextual nudges & just-in-time warnings (Dynamic S&P responses), strong default protections and ephemeral storage (Default privacy settings), and targeted oversight and audits (Third-party data review), aiming to address user security and privacy concerns.
+- The paper identifies critical user misconceptions and a general lack of risk awareness regarding data handling, privacy, and regulatory protections when using LLMs for mental health support.
+- It highlights the concept of 'intangible vulnerability,' where emotional disclosures are undervalued compared to tangible data, necessitating architectural safeguards and legislative frameworks.
+
+---
+
+[From Semantic Web and MAS to Agentic AI: A Unified Narrative of the Web of Agents](http://arxiv.org/abs/2507.10644v1)
+
+- Functional Taxonomy for Web of Agents Architectures: introduces a comprehensive evolutionary overview of the Web of Agents, with Semantic Foundation (establishes shared understanding), Communication Paradigm (classifies message exchange style), Locus of Intelligence (identifies core reasoning location), and Discovery Mechanism (defines how agents find each other) components, providing a unified analytical lens for comparing agent architectures across generations.
+- This taxonomy reveals a fundamental paradigm shift in the 'locus of intelligence' from external data or platforms to being embedded within the agent's core LLM, enabling scalable and adaptive WoA systems.
+- The paper highlights that while new protocols like MCP and A2A are essential, they are insufficient for building a robust, open, and trustworthy ecosystem, mapping out a new agenda focused on socio-technical challenges like decentralized identity, economic models, security, and governance.
+
+---
+
+
+[Game Theory Meets LLM and Agentic AI: Reimagining Cybersecurity for the Age of Intelligent Threats](http://arxiv.org/abs/2507.10621v1)
+
+- LLM-based Multi-Agent Systems (MAS) for Cybersecurity: introduces a framework for designing adaptive cyber systems by integrating game theory with LLM-driven agentic AI, featuring Chain, Star, Parallel, Feedback, and Hybrid workflows, each composed of LLM Agents.
+- This framework leverages LLMs as reasoning engines and generative policy mechanisms to overcome limitations of classical game theory, enabling dynamic, context-aware interactions among agents.
+- MAS workflows enhance robustness and resilience in cybersecurity by supporting architectural redundancy, inter-agent verification, and adaptive learning in adversarial environments.
+
+---
+
+
 
 #### 13th July 2025
 
@@ -195,6 +320,14 @@ Chronological order.
 - Synthetic Lab Framework: introduces a novel synthetic data-generating process using LLM Agents (simulated bidders) within a Simulated Auction Environment (various formats), driven by a Simulation Procedure (multi-round process) and a Prompting System (rules, history, interventions), with Data Collection (bids, outcomes, profits) for analysis.
 - The framework simulates various auction formats, including sealed-bid, clock, and eBay-style auctions, allowing LLM agents to participate as bidders.
 - The simulation procedure incorporates a "plan-bid-reflect" loop and uses structured prompting to guide LLM agent behavior and collect experimental data.
+
+---
+
+[Emergence of Hierarchical Emotion Organization in Large Language Models](http://arxiv.org/abs/2507.10599v1)
+
+- Emotion Tree Construction Algorithm: introduces a novel method to uncover hierarchical emotion organization in LLMs by analyzing probabilistic dependencies between emotional states in model outputs.
+- This algorithm utilizes GPT-40 for scenario generation, Llama models for emotion recognition, and a matching matrix to infer emotion trees, revealing how LLMs organize emotions hierarchically.
+- The research also investigates LLM biases in emotion recognition across diverse demographic personas, finding alignment with human systematic biases.
 
 ---
 
@@ -357,6 +490,14 @@ Chronological order.
 <arxiv_paper_description_2>The Centralized Manager generates plans for each Team, which execute concurrently, with options for early stopping or aggregating results from multiple Teams.</arxiv_paper_description_3>
 <arxiv_paper_description_3>The framework leverages the diversity of potential solution paths to reduce latency via early termination or improve task completion rates via aggregation.</arxiv_paper_description_3>
 - The framework leverages the diversity of potential solution paths to reduce latency via early termination or improve task completion rates via aggregation.
+
+---
+
+[Role-Playing LLM-Based Multi-Agent Support Framework for Detecting and Addressing Family Communication Bias](http://arxiv.org/abs/2507.11210v1)
+
+- Role-Playing LLM-Based Multi-Agent Dialogue Support Framework: introduces a multi-stage, multi-agent LLM system that analyzes parent-child dialogues to detect suppressed emotion and ideal parent bias, then generates empathetic and actionable feedback.
+- The framework utilizes a Dialogue D (Input dialogue) processed by a Suppressed Emotion Detection Agent (Asup), Auxiliary Attribute Estimation Agent (Aattr), and Ideal Parent Bias Detection Agent (Abias), with outputs integrated by a Meta-Agent (Ameta) into Child Report (Rchild) and Adult Report (Radult).
+- Selected Expert Agents (Eselect), chosen from an Expert Agents Pool (E) using BERT (Calculates embedding similarity), collaboratively generate feedback through a four-step discussion, which is then synthesized by a Final Meta-Agent (Afinal) into Final Feedback for Child (Ffinal,child) and Final Feedback for Adult (Ffinal,adult) to support positive family communication.
 
 ---
 
@@ -1711,6 +1852,14 @@ Chronological order.
 - LLM Evaluation on OR Problems: introduces an evaluation of LLMs on stochastic modeling problems, including LLMs, OR Problems Dataset, SimOpt Library, Evaluation Mechanism, and Simulation Environment, assessing their capabilities in the analysis and optimization stage of the OR pipeline.
 - The study tests LLMs on graduate-level homework, qualification exam problems, and simulation-optimization tasks from the SimOpt library.
 - Results indicate state-of-the-art LLMs perform comparably to human experts on theoretical problems and match in-house solvers on practical simulation-optimization tasks, highlighting their potential as OR research assistants.
+
+---
+
+[Lessons Learned from Evaluation of LLM based Multi-agents in Safer Therapy Recommendation](http://arxiv.org/abs/2507.10911v1)
+
+- MAS (Multi-agent System): introduces a dynamically generated multi-agent framework that simulates real-world multidisciplinary expert consultations, including Patient's Condition (Input data), General Practitioner (GP) Agent (Workflow coordinator), Specialist Agents (Domain experts), Discussion Group (Collaborative forum), and Mediator Agent (Consensus facilitator), to detect and resolve medical conflicts for safer therapy recommendations.
+- The framework replicates the multi-step workflow of Multidisciplinary Teams (MDTs), enabling LLMs to propose improved treatment plans by detecting and resolving conflicts.
+- This study also develops a new interpretable evaluation strategy, comparing LLM-proposed treatment plans with original plans focusing on conflict reduction and medication burden.
 
 ---
 
@@ -20230,6 +20379,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 ---
 
 
+
+#### 25th July 2024
+
+[Enhancing the Capabilities of Large Language Models for API calls through Knowledge Graphs](http://arxiv.org/abs/2507.10630v1)
+
+- KG2data (LLM-Driven Meteorological KG2Data): introduces an LLM-driven framework for intelligent meteorological data acquisition and analysis, integrating a meteorological knowledge graph, a Large Language Model, a ReAct-expert agent, and data acquisition tools.
+- The system leverages a domain-specific knowledge graph as memory to enhance LLM performance in specialized API calls, overcoming limitations of domain knowledge and dynamic API changes.
+- The ReAct-expert agent facilitates task decomposition and precise execution by interleaving reasoning and action, guiding the LLM to utilize tools and knowledge for accurate responses.
+
+---
 
 #### 15th July 2024
 
