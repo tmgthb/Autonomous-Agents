@@ -333,6 +333,15 @@ Chronological order.
 
 #### 11th July 2025
 
+
+[Gemini 2.5: Pushing the Frontier with Advanced Reasoning, Multimodality, Long Context, and Next Generation Agentic Capabilities.](https://arxiv.org/abs/2507.06261)
+
+- Gemini 2.X model family: introduces a new generation of natively multimodal LLMs, including Gemini 2.5 Pro and Flash, with advanced reasoning, multimodality, long context, and next-generation agentic capabilities, built on sparse Mixture-of-Experts (MoE) transformers and featuring an inference-time "Thinking" capability.
+- The paper details the architecture of an AI Agent system built on these models, comprising an Agentic Core, Persistent Memory & Context, Game I/O, and Agentic Tools, demonstrated through its application in playing Pokémon Blue.
+- The research also evaluates the models' safety and security, including their resilience against indirect prompt injection attacks from external services and attackers, and their performance across various coding, reasoning, and multimodal benchmarks.
+
+---
+
 [elsciRL: Integrating Language Solutions into Reinforcement Learning Problem Settings](http://arxiv.org/abs/2507.08705v1)
 
 - elsciRL: introduces an open-source Python library for applying language solutions to reinforcement learning problems, including Config, Data Engine, Adapter (Language Adapter), Observation Samples, Extra Graphs, LLM Language State Generator, LLM Planner, LLM Validation, LLM Reflection, Encoders, Analysis, Instruction Following, User Interface (GUI), RL Agents, Environment Interaction, Evaluation, Experiment, and Results components.
@@ -479,17 +488,9 @@ Chronological order.
 
 [Optimizing Sequential Multi-Step Tasks with Parallel LLM Agents](http://arxiv.org/abs/2507.08944v1)
 
-- M1-Parallel: introduces a framework with a Centralized Manager orchestrating parallel Teams (multi-agent system instances), each containing an Orchestrator and Specialized Agents, utilizing a Global Memory Module and an Aggregator.
-- <arxiv_paper_date>11th July 2025</arxiv_paper_date>
-<arxiv_paper_name>Optimizing Sequential Multi-Step Tasks with Parallel LLM Agents</arxiv_paper_name>
-<arxiv_paper_link>http://arxiv.org/pdf/2507.08944v1</arxiv_paper_link>
-<arxiv_paper_framework_name>M1-Parallel:</arxiv_paper_framework_name>
-<arxiv_paper_framework_1>Centralized Manager / Team / Orchestrator / Specialized Agents / Aggregator / Global Memory Module</arxiv_paper_framework_1>
-<arxiv_paper_framework_2>Centralized Manager (orchestrates parallel execution) / Team (multi-agent system instance) / Orchestrator (coordinates agents within team) / Specialized Agents (perform tasks with tools) / Aggregator (combines team results) / Global Memory Module (stores failed plans)</arxiv_paper_framework_2>
-<arxiv_paper_description_1>M1-Parallel: introduces a framework with a Centralized Manager orchestrating parallel Teams (multi-agent system instances), each containing an Orchestrator and Specialized Agents, utilizing a Global Memory Module and an Aggregator.</arxiv_paper_description_1>
-<arxiv_paper_description_2>The Centralized Manager generates plans for each Team, which execute concurrently, with options for early stopping or aggregating results from multiple Teams.</arxiv_paper_description_3>
-<arxiv_paper_description_3>The framework leverages the diversity of potential solution paths to reduce latency via early termination or improve task completion rates via aggregation.</arxiv_paper_description_3>
-- The framework leverages the diversity of potential solution paths to reduce latency via early termination or improve task completion rates via aggregation.
+- M1-Parallel: introduces a framework that concurrently runs multiple multi-agent teams in parallel to uncover distinct solution paths, leveraging an event-driven communication model with asynchronous messaging to reduce end-to-end latency or boost task completion rates.
+- The framework includes a Centralized Manager, a Plan Generation Function, multiple Multi-agent Teams (each comprising an Orchestrator and specialized agents like WebSurfer, FileSurfer, Coder, and ComputerTerminal), a Global Memory Module, and an Aggregator.
+- M1-Parallel operates in either an Early-stop mode, terminating when the fastest team completes, or an Aggregation mode, combining answers from multiple teams to improve task completion.
 
 ---
 
