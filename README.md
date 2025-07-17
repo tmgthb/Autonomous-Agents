@@ -2748,9 +2748,16 @@ Chronological order.
 
 ---
 
+#### 20th of June 2025
 
+[Kimi-Researcher
+End-to-End RL Training for Emerging Agentic Capabilities](https://moonshotai.github.io/Kimi-Researcher/)
 
+- Kimi-Researcher: introduces an autonomous agent with multi-turn search and reasoning.
+- Trained on end-to-end agentic RL using REINFORCE-algorithm.
+- Designs a context management ystem to retain important information while discarding unnecessary documents.
 
+---
 
 #### 18th June 2025
 
