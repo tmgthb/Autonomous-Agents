@@ -16843,6 +16843,14 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 #### 18th February 2025
 
+[MOBA: MIXTURE OF BLOCK ATTENTION FOR LONG-CONTEXT LLMS](https://arxiv.org/abs/2502.13189)
+
+- MOBA (Mixture of Block Attention): introduces a novel attention architecture applying Mixture of Experts (MoE) principles to the attention mechanism, enabling dynamic selection of relevant key and value blocks for long-context LLMs.
+- This framework partitions the context into blocks and uses a gating mechanism to selectively route query tokens to the most relevant blocks, significantly reducing computational costs.
+- MOBA seamlessly transitions between full and sparse attention, enhancing efficiency without compromising performance and demonstrating superior performance on long-context tasks.
+
+---
+
 [Towards an AI co-scientist](https://storage.googleapis.com/coscientist_paper/ai_coscientist.pdf)
 
 - AI co-scientist: introduces a multi-agent system designed to augment scientific discovery by generating, debating, and evolving research hypotheses, utilizing Scientist inputs, Research plan configuration, Generation agent, Reflection agent, Ranking agent, Evolution agent, Proximity agent, Meta-review agent, Tool Use, Memory, and Supervisor agent components.
