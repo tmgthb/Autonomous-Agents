@@ -6631,6 +6631,14 @@ assessment.
 
 #### 15th of March 2024
 
+[Cognitive Architectures for Language Agents](https://arxiv.org/abs/2309.02427)
+
+- CoALA (Cognitive Architectures for Language Agents): introduces a conceptual framework for designing and organizing LLM-based agents, featuring modular memory components, a structured action space, and a generalized decision-making process.
+- The framework positions the LLM as the core computational unit, interacting with internal memories (working, episodic, semantic, procedural) and external environments through grounding actions.
+- CoALA's decision cycle involves planning (proposal, evaluation, selection) and execution, enabling agents to reason, retrieve, learn, and interact with the world.
+
+---
+
 [DiPaCo: Distributed Path Composition](https://arxiv.org/abs/2403.10616)
 
 - DiPaCo (DIstributed PAth COmposition): a modlular ML paradigm, where computing is distributed by path. Path refers to sequence of modules defining input-output function.
