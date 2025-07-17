@@ -2802,6 +2802,15 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 #### 9th of July 2024
 
+[Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/abs/2407.00079v3)
+
+- Mooncake: introduces a KVCache-centric disaggregated architecture for LLM serving, with a KVCache-centric Conductor (Global scheduler), Cache-aware Prefill Scheduler (Manages prefill tasks), KVCache Balance Scheduler (Balances KVCache distribution), Load-balance Decoding Scheduler (Manages decoding tasks), Prefill Instance (Executes prefill stage), Decoding Instance (Executes decoding stage), Messenger (Transfers KVCache blocks), Distributed KVCache Pool (Offloads KVCache to CPU/DRAM/SSD), and Paged KVCache (KVCache in GPU VRAM), designed to maximize throughput and meet latency SLOs.
+- The architecture separates prefill and decoding clusters, leveraging underutilized CPU, DRAM, and SSD resources for a disaggregated KVCache.
+- Mooncake's scheduling incorporates a prediction-based early rejection policy to mitigate overload scenarios and improve resource utilization.
+
+---
+
+
 [Hypothetical Minds: Scaffolding Theory of Mind for Multi-Agent Tasks with Large Language Models](https://arxiv.org/abs/2407.07086)
 
 - Hypothetical Minds: Introduces "Theory-of-Mind"-module. Includes as well perception, memory and hierarchical two-level planning.
