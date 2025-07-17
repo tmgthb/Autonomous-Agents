@@ -877,6 +877,15 @@ Chronological order.
 
 #### 8th July 2025
 
+[SciMaster: Towards General-Purpose Scientific AI Agents Part I. X-Master as Foundation — Can We Lead on Humanity's Last Exam?](https://arxiv.org/abs/2507.05241)
+
+- X-Masters (Scattered-and-Stacked Agentic Workflow): introduces a workflow that orchestrates multiple X-Master agents in specialized roles, including Solver, Critic, Rewriter, and Selector, to systematically enhance reasoning breadth and depth.
+- This framework leverages individual X-Master agents, which are tool-augmented reasoning agents driven by an LLM, using code as an interaction language to flexibly interact with external tools.
+- The X-Master agent's core mechanism involves generating Python code for a Code Executor to access Tools like Web Search, Web Parse, and Python Libraries, with execution results appended back to the agent's context for iterative reasoning.
+
+---
+
+
 [Representing Prompting Patterns with PDL: Compliance Agent Case Study](http://arxiv.org/abs/2507.06396v1)
 
 - PDL (Prompt Declaration Language): introduces a novel declarative YAML-based language for specifying LLM prompts and workflows, with PDL Language (Declarative YAML syntax), PDL Interpreter (Executes PDL programs), Blocks (Program units), Context (Implicit message history), Tool Definitions (External function wrappers), Model Calls (LLM interactions), Parser (Output processing), Type System (JSON Schema validation), and Control Structures (Flow logic).
