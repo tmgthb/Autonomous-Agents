@@ -50,6 +50,73 @@ Chronological order.
 
 
 
+#### 17th July 2025
+
+[A Survey of Context Engineering for Large Language Models](http://arxiv.org/abs/2507.13334v1)
+
+- Context Engineering: introduces a formal discipline for systematic optimization of information payloads for LLMs, with foundational components for context retrieval, processing, and management, and system implementations including RAG, memory systems, tool-integrated reasoning, and multi-agent systems.
+- The paper provides a comprehensive taxonomy classifying techniques into foundational components for context generation, processing, and management, and sophisticated system implementations for real-world applications.
+- The survey identifies a critical research gap where LLMs excel at understanding complex contexts but show limitations in generating equally sophisticated, long-form outputs, highlighting a key priority for future research.
+
+---
+
+[Prompt Injection 2.0: Hybrid AI Threats](http://arxiv.org/abs/2507.13169v1)
+
+- Layered Defense Architecture: introduces a robust defense against hybrid AI threats, combining Preamble's trusted/untrusted classification, CaMeL's architectural isolation, Spotlighting, and traditional controls.
+- This architecture addresses prompt injection attacks by distinguishing trusted instructions from untrusted inputs, isolating control and data flows, explicitly marking untrusted content, and leveraging existing security measures.
+- The paper details how these components work together to provide a scalable and comprehensive defense posture for LLM-integrated systems in complex, real-world environments.
+
+---
+
+[SE-VLN: A Self-Evolving Vision-Language Navigation Framework Based on Multimodal Large Language Models](http://arxiv.org/abs/2507.13152v1)
+
+- SE-VLN (Self-Evolving Vision-Language Navigation Framework): introduces a training-free VLN framework driven by MLLMs, encompassing a hierarchical memory module, a retrieval-augmented thought-based reasoning module, and a reflection module, where it endows VLN agents with the ability to continuously evolve during testing by simulating natural agent evolution processes.
+- The hierarchical memory module, comprising an experience repository and a verbal topological map, enables the agent to retrieve contextual memory and past similar experiences, crucial for enhancing navigation performance.
+- The framework's reflection module, with its outcome evaluator and experience corrector, facilitates continuous learning by analyzing task evaluation results and updating the experience repository with corrected decisions, promoting self-evolution.
+
+---
+
+[RIDAS: A Multi-Agent Framework for AI-RAN with Representation- and Intention-Driven Agents](http://arxiv.org/abs/2507.13140v1)
+
+- RIDAS: introduces a multi-agent framework for AI-RAN that unifies low-level representation control with high-level intent interpretation via its RDA and IDA components, where RDAs encode messages and control quality/rate, and IDA maps user intents to RDA configurations and manages resource allocation using an LLM, memory, and a two-stage planning pathway.
+- The framework addresses the gap between high-level user intents and low-level, parameterized configurations required for optimal AI-RAN performance by enabling efficient bandwidth allocation and QoS satisfaction.
+- RIDAS dynamically adjusts control parameters based on network conditions and user QoS requirements, achieving near-optimal performance in transmission rate and task performance demands.
+
+---
+
+[Intelligent Virtual Sonographer (IVS): Enhancing Physician-Robot-Patient Communication](http://arxiv.org/abs/2507.13052v1)
+
+- IVS (Intelligent Virtual Sonographer): introduces a dual-LLM-driven embodied conversational agent that facilitates real-time, multidirectional communication between physicians, a robotic ultrasound system, and patients in an Extended Reality environment.
+- The system enhances efficiency, clarity, and accessibility of robotic ultrasound acquisition by translating physician commands into robotic actions and relaying system updates and empathetic explanations to patients.
+- It leverages two independent LLM instances for parallel physician- and patient-facing dialogues, integrating speech-to-text, text-to-speech, and robotic control for seamless interaction.
+
+---
+
+[MAD-SPEAR: A Conformity-Driven Prompt Injection Attack on Multi-Agent Debate Systems](http://arxiv.org/abs/2507.13038v1)
+
+- MAD-SPEAR: introduces a conformity-driven prompt injection attack, with Attacker, Injected Data, Targeted Agents, Sybil Agent Simulation, Conformity Exploitation, Misinformation Propagation, Confidence Level Manipulation, Output Format Replication, and Communication Attack Integration, designed to compromise Multi-Agent Debate (MAD) systems by manipulating a small subset of LLM agents to propagate misinformation and degrade consensus quality.
+- The attack exploits LLMs' inherent conformity tendencies and can be combined with communication attacks to amplify its impact, significantly impairing task-solving accuracy and scalability.
+- The paper also proposes a formal definition of MAD fault-tolerance and a comprehensive evaluation framework, highlighting the urgent need for improved security in MAD system designs.
+
+---
+
+[MCPEval: Automatic MCP-based Deep Evaluation for AI Agent Models](http://arxiv.org/abs/2507.12806v1)
+
+- MCPEval (Model Context Protocol-based framework): introduces an open-source framework that automates end-to-end task generation and deep evaluation of LLM agents across diverse domains, including MCP Server, MCP Client (Agent), Task-LLM, LLM Judger, Tool Call Evaluation, Ground Truth Trajectory, and Auto Report Generation.
+- The framework standardizes metrics, seamlessly integrates with native agent tools, and eliminates manual effort in building evaluation pipelines, providing actionable feedback for optimizing LLM agent implementations.
+- MCPEval's automated workflow includes task generation, verification, and model evaluation, leveraging synthetic data and iterative refinement to ensure high-quality tasks and comprehensive analysis of agent behavior.
+
+
+---
+
+[A Systematic Survey of Electronic Health Record Modeling: From Deep Learning Approaches to Large Language Models](http://arxiv.org/abs/2507.12774v1)
+
+- Unified Taxonomy for EHR Modeling: introduces a comprehensive survey of Electronic Health Record (EHR) modeling, categorizing methods across data-centric approaches, neural architecture design, learning-focused strategies, multimodal learning, and LLM-based modeling systems, where it provides a structured roadmap for advancing AI-driven EHR modeling and clinical decision support.
+- This survey systematically organizes recent advancements in deep learning and LLMs for EHRs, highlighting emerging trends like foundation models and LLM-driven clinical agents.
+- It discusses open challenges in benchmarking, explainability, clinical alignment, and generalization across diverse clinical settings, aiming to promote reproducibility and accessibility for new researchers.
+
+---
+
 #### 16th July 2025
 
 
@@ -141,6 +208,14 @@ Chronological order.
 - Pyramidal Framework: introduces a comprehensive taxonomy for LLM roles in scientific innovation, encompassing Evaluator (low-autonomy knowledge synthesizer), Collaborator (mid-autonomy ideation engine), and Scientist (high-autonomy discovery platform) components.
 - This framework distinguishes LLMs' contributions to structured scientific research and open-ended scientific discovery, clarifying capability boundaries, evaluation criteria, and human-AI interaction patterns at each level.
 - The framework provides conceptual clarity, practical guidance, and theoretical foundations for future research in increasingly autonomous AI-driven science.
+
+---
+
+[NLI4VolVis: Natural Language Interaction for Volume Visualization via LLM Multi-Agents and Editable 3D Gaussian Splatting](http://arxiv.org/abs/2507.12621v1)
+
+- NLI4VolVis: introduces an interactive system that enables users to explore, query, and edit volumetric scenes using natural language, integrating multi-view semantic segmentation, vision-language models, editable 3D Gaussian Splatting (iVR-GS), a multi-agent LLM architecture with core and function-calling agents, memory, function-calling tools for querying, editing, question answering, view selection, and 2D stylization, a Visualization-Perception-Action (VPA) loop, and an interactive user interface, where it allows intuitive exploration and editing of volumetric datasets through open-vocabulary querying, real-time scene editing, and stylization.
+- The system leverages LLM multi-agents equipped with extensive function-calling tools to interpret user intents and execute visualization tasks, enhancing accessibility and usability in volumetric data exploration.
+- NLI4VolVis unifies editable volumetric representations, open-vocabulary scene understanding, and collaborative multi-agent LLMs to support intuitive, natural language-based volume visualization.
 
 ---
 
@@ -1969,6 +2044,14 @@ Chronological order.
 - MAS (Multi-agent System): introduces a dynamically generated multi-agent framework that simulates real-world multidisciplinary expert consultations, including Patient's Condition (Input data), General Practitioner (GP) Agent (Workflow coordinator), Specialist Agents (Domain experts), Discussion Group (Collaborative forum), and Mediator Agent (Consensus facilitator), to detect and resolve medical conflicts for safer therapy recommendations.
 - The framework replicates the multi-step workflow of Multidisciplinary Teams (MDTs), enabling LLMs to propose improved treatment plans by detecting and resolving conflicts.
 - This study also develops a new interpretable evaluation strategy, comparing LLM-proposed treatment plans with original plans focusing on conflict reduction and medication burden.
+
+---
+
+[Black Box Deployed: Functional Criteria for Artificial Moral Agents in the LLM Era](http://arxiv.org/abs/2507.13175v1)
+
+- SMA-LLS (Simulating Moral Agency through Large Language Systems): introduces a revised set of ten functional criteria to evaluate LLM-based Artificial Moral Agents, including Moral Concordance (aligns with human principles), Context Sensitivity (adapts to situational nuances), Normative Integrity (coherent ethical values), Metaethical Awareness (recognizes moral uncertainty), Systemic Resilience (robust against attacks/stress), Trustworthiness (warrants human reliance), Corrigibility (adaptable to feedback), Partial Transparency (provides decision insight), Functional Autonomy (independent ethical operation), and Moral Imagination (generates creative ethical responses), shifting the focus from opaque internal states to observable, functionally moral behavior.
+- The paper argues that traditional ethical criteria, which assume transparent architectures, are obsolete for LLMs due to their stochastic outputs and opaque internal states, necessitating a functionalist approach to AI ethics.
+- The proposed criteria are illustrated using hypothetical scenarios involving an Autonomous Public Bus (APB) to demonstrate their practical applicability in morally salient contexts, emphasizing behavioral reliability and alignment with human values for safe deployment.
 
 ---
 
