@@ -10939,6 +10939,15 @@ ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving](
 
 #### 15th April 2025
 
+[KIMINA-PROVER PREVIEW: TOWARDS LARGE FORMAL REASONING MODELS WITH REINFORCEMENT LEARNING](https://arxiv.org/abs/2504.11354)
+
+- Kimina-Prover Preview: introduces a novel reasoning-driven exploration paradigm for formal theorem proving, with Kimina-Prover (LLM-based prover), Lean Server (proof verifier), RL Policy Iteration (iterative policy refinement), Sampling (candidate solution generation), Roll-out (proof attempt execution), Assign Reward (correctness feedback), Policy Update (model weight adjustment), Formal Reasoning Pattern (structured thinking process), Autoformalization (problem statement translation), Prompt Set (training problem collection), and mini-SFT (initialization fine-tuning), demonstrating strong performance in Lean 4 proof generation by employing a structured reasoning pattern and a large-scale reinforcement learning pipeline.
+- The framework leverages an LLM's internal reasoning capabilities, enhanced through large-scale reinforcement learning with carefully designed reward signals, to iteratively generate and refine proof steps, emulating human problem-solving strategies.
+- This approach sets a new state-of-the-art on the miniF2F benchmark, exhibits high sample efficiency, and demonstrates clear performance scaling with model size, a trend previously unobserved for neural theorem provers in formal mathematics.
+
+---
+
+
 [GRAPHICBENCH: A Planning Benchmark for Graphic Design with Language Agents](http://arxiv.org/abs/2504.11571v1)
 
 - GRAPHICTOWN: introduces a language agent framework for graphic design planning and execution, including Design Outline (generate design outline), Expert Recruitment (recruit expert agents), Workflow Generation (generate expert workflows), Workflow Supervision (integrate expert workflows), Action Retrieval (retrieve actions for steps), Action Execution (execute plan), Photo Editor agent (image editing expert), Vector Graphic Editor agent (vector illustration expert), Layout Designer agent (layout and text expert), and Actions (Tools) (executable operations).
@@ -10977,7 +10986,7 @@ ClarifyCoder: Clarification-Aware Fine-Tuning for Programmatic Problem Solving](
 ---
 
 
-[Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions](http://arxiv.org/abs/2504.11373v1)
+[Cancer-Myth: Evaluating Large Language Models on Patient Questions with False Presuppositions](http://arxiv.org/abs/2504.11373v1) 
 
 - Cancer-Myth approach: introduces a methodology to create a dataset and evaluate LLMs, utilizing Myths, Valid Examples, Invalid Examples, an LLM Generator, an LLM Responder, an LLM Verifier, and Hematology Oncology Physicians to produce the Cancer Myth dataset.
 - This approach systematically generates and verifies patient questions containing false presuppositions to test LLMs' ability to identify and correct misconceptions.
