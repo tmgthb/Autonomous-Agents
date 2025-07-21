@@ -49,6 +49,65 @@ Chronological order.
 </div>
 
 
+#### 18th July 2025
+
+[DPMT: Dual Process Multi-scale Theory of Mind Framework for Real-time Human-AI Collaboration](http://arxiv.org/abs/2507.14088v1)
+
+- DPMT (Dual Process Multi-scale Theory of Mind Framework): introduces a novel framework for real-time human-AI collaboration, featuring an Information Extractor, a Fast System for intuitive decision-making, a Slow System with a multi-scale ToM module for cognitive reasoning, an Action Decoding Module, and a Memory component.
+- The framework leverages a dual-process approach, where the Fast System handles immediate macro-action decisions using a smaller LLM, while the Slow System, powered by LLMs, performs deeper, multi-scale ToM reasoning to model human partners' domain knowledge, cognitive style, and intentions.
+- This hierarchical design enables efficient human-AI collaboration by integrating quick decision-making with robust human partner modeling, enhancing adaptability and interpretability in complex, dynamic scenarios.
+
+---
+
+
+[CodeEdu: A Multi-Agent Collaborative Platform for Personalized Coding Education](http://arxiv.org/abs/2507.13814v1)
+
+- CodeEdu: introduces a multi-agent collaborative platform for personalized coding education, leveraging its Tool Pool (external utilities), Agent Pool (specialized LLM agents), and Task Pool (standard task types) to dynamically allocate agents and tasks for proactive and personalized learning.
+- The platform's workflow encompasses Personalized Material Generation, Real-Time Q&A, Step-by-step Code Tutoring with Debugging, and Learning Report Generation, facilitated by dynamic agent and task allocation.
+- Automated evaluations demonstrate CodeEdu's efficacy in substantially enhancing students' coding performance and providing high-quality learning materials compared to baseline LLM tutors.
+
+---
+
+[AGENTS-LLM: Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework](http://arxiv.org/abs/2507.13729v1)
+
+- AGENTS-LLM (Augmentative GENeration of Challenging Traffic Scenarios with an Agentic LLM Framework): introduces an LLM-agent based framework for augmenting real-world traffic scenarios using natural language descriptions, featuring a Scenario Modifier Agent, a Toolbox, and an optional Quality Assurance loop with Text QA and Visual QA agents.
+- This framework addresses the limitations of manual scenario augmentation by domain experts, enabling scalable generation of challenging and safety-critical driving scenarios.
+- The agentic design provides fine-grained control over the output and allows smaller, cost-effective LLMs to achieve performance comparable to larger models.
+
+---
+
+[COGNIQ-H: A SOFT HIERARCHICAL REINFORCEMENT LEARNING PARADIGM FOR AUTOMATED DATA PREPARATION](https://arxiv.org/abs/2507.13710v1)
+
+- CogniQ-H: introduces a soft hierarchical reinforcement learning paradigm for automated data preparation, synergistically fusing a Large Language Model (LLM) as a high-level planner, a Learning-to-Rank (LTR) model for immediate quality scores, and an RL Q-model for long-term value estimates, integrated by a synergistic policy layer.
+- This framework addresses the combinatorial search space of data preparation by providing probabilistic, LLM-driven strategic guidance, avoiding the rigid commitments of traditional hard hierarchical reinforcement learning.
+- The framework balances pre-existing knowledge, supervised signals, and adaptive learning to achieve robust and efficient pipeline discovery, outperforming state-of-the-art RL-based methods in pipeline quality and convergence speed.
+
+---
+
+[CUDA-L1: Improving CUDA Optimization via Contrastive Reinforcement Learning](https://arxiv.org/abs/2507.14111)
+
+- CUDA-L1 (Improving CUDA Optimization via Contrastive Reinforcement Learning): introduces an automated reinforcement learning framework for CUDA optimization, which leverages a three-stage pipeline including Supervised Fine-tuning, Self-supervised Learning, and Contrastive Reinforcement Learning to enhance optimization by distinguishing between effective and ineffective CUDA strategies through comparative analysis of generated variants and their execution performance.
+- The framework achieves significant speedups (average 17.7x, peak 449x on NVIDIA A100) across 250 KernelBench CUDA kernels and demonstrates strong portability across various GPU architectures.
+- CUDA-L1 autonomously discovers diverse optimization techniques, identifies optimal combinations, uncovers fundamental principles, and pinpoints hidden bottlenecks without human expertise, showcasing RL's potential in complex code optimization.
+
+---
+
+[The Emotion-Memory Link: Do Memorability Annotations Matter for Intelligent Systems?](https://arxiv.org/abs/2507.14084)
+
+- Conceptual Model of Emotion-Memory Link: introduces a framework investigating the relationship between perceived group emotions and group memorability in conversational interactions, including components like cognitive appraisal, experienced emotion, physiological reaction, behavior, observer annotation, memory encoding, and accessible memories.
+- The paper empirically examines if third-party affect annotations, commonly used in Affective Computing, reliably capture memory-relevant information in dynamic group settings.
+- The study concludes that the observed relationship between group affect and memorability annotations is not significantly different from random chance, questioning the utility of third-party affect annotations as proxies for conversational memorability.
+
+---
+
+[Photonic Fabric Platform for AI Accelerators](https://arxiv.org/abs/2507.14000)
+
+- PFA (Photonic Fabric Appliance): introduces a photonic-enabled switch and memory subsystem for AI accelerators, integrating Photonic Fabric Modules (PFM) with photonic and electronic components, and external DDR5 memory, to overcome memory bottlenecks and scale AI workloads.
+- The system provides up to 32 TB of shared memory and 115 Tbps of all-to-all digital switching, enabling more efficient distributed AI training and inference.
+- Evaluated using the CelestiSim simulator, PFA demonstrates significant throughput and latency improvements for LLM inference and substantial energy savings for LLM training compared to conventional GPU-based systems.
+
+---
+
 
 #### 17th July 2025
 
@@ -59,6 +118,15 @@ Chronological order.
 - The survey identifies a critical research gap where LLMs excel at understanding complex contexts but show limitations in generating equally sophisticated, long-form outputs, highlighting a key priority for future research.
 
 ---
+
+[Change of Thought: Adaptive Test-Time Computation](https://arxiv.org/abs/2507.13569)
+
+- SELF-Transformer: introduces a novel architecture that augments self-attention with Fixed-Point Iteration (FPI) to enable latent alignment refinement, where it iteratively updates attention weights to a fixed point, scaling test-time computation with input difficulty.
+- This framework achieves deeper contextual reasoning without additional parameters by leveraging FPI universally across all layers, improving latent representations without token-level autoregression.
+- The approach employs dynamic parameter reuse and implicit differentiation for efficient gradient computation, ensuring scalability and stability while adapting to input complexity.
+
+---
+
 
 [Prompt Injection 2.0: Hybrid AI Threats](http://arxiv.org/abs/2507.13169v1)
 
@@ -114,6 +182,38 @@ Chronological order.
 - Unified Taxonomy for EHR Modeling: introduces a comprehensive survey of Electronic Health Record (EHR) modeling, categorizing methods across data-centric approaches, neural architecture design, learning-focused strategies, multimodal learning, and LLM-based modeling systems, where it provides a structured roadmap for advancing AI-driven EHR modeling and clinical decision support.
 - This survey systematically organizes recent advancements in deep learning and LLMs for EHRs, highlighting emerging trends like foundation models and LLM-driven clinical agents.
 - It discusses open challenges in benchmarking, explainability, clinical alignment, and generalization across diverse clinical settings, aiming to promote reproducibility and accessibility for new researchers.
+
+---
+
+[Humans learn to prefer trustworthy AI over human partners](http://arxiv.org/abs/2507.13524v1)
+
+- Partner Selection Game: introduces a communication-based partner selection game in a triadic setting where human selectors choose between human and LLM-powered bot candidates, examining partner selection dynamics and human adaptation under AI competition.
+- The framework utilizes LLMs (specifically OpenAI's GPT-4o) to simulate bot candidates, and employs computational models like the Rescorla-Wagner algorithm to analyze human selectors' belief updating and decision-making.
+- The study investigates the impact of identity transparency on partner selection, showing how it influences human learning about bot and human behavior and affects competitive outcomes in hybrid human-AI societies.
+
+---
+
+[GraphTrafficGPT: Enhancing Traffic Management through Graph-Based AI Agent Coordination](http://arxiv.org/abs/2507.13511v1)
+
+- GraphTrafficGPT: introduces a novel graph-based architecture that fundamentally redesigns task coordination for LLM-driven traffic applications, utilizing an Input Processing Module (decomposes user queries), Dependency Graph Generator (builds task graph), Brain Agent (central task coordinator), Specialized Agents (domain-specific task handlers), Multi-Agent Communication Protocol (MCP) (agent communication, synchronization), Tool Box (traffic foundation models), and Response Integration Module (combines agent outputs) to enable efficient parallel execution and dynamic resource allocation.
+- The system represents tasks and their dependencies as nodes and edges in a directed graph, allowing for concurrent multi-query processing and significant reductions in token consumption and response latency compared to chain-based approaches.
+- This architecture enhances scalability and efficiency for complex, real-world traffic management scenarios by orchestrating a network of specialized agents for data retrieval, analysis, visualization, and simulation.
+
+---
+
+[Apple Intelligence Foundation Language Models Tech Report 2025](https://arxiv.org/abs/2507.13575)
+
+- AFM (Apple Foundation Models): introduces two multilingual, multimodal foundation language models, an On-Device Model (compact LLM) and a Server Model (scalable LLM), detailing their architecture including KV Cache Sharing (on-device memory optimization) and Parallel Track Mixture-of-Experts (PT-MoE) (server sparse architecture), multimodal capabilities via a Vision Encoder (visual feature extraction), training methodologies like Supervised Fine-Tuning (SFT) (model refinement) and Reinforcement Learning from Human Feedback (RLHF) (alignment training), inference optimizations such as Quantization Aware Training (QAT) (on-device compression), Adaptive Scalable Texture Compression (ASTC) (server compression), and Low-Rank Adaptation (LoRA) Adapters (quality recovery), all integrated within a Foundation Models Framework (developer access) offering Guided Generation (constrained output), Tool Calling (external tool integration), and LanguageModelSession (context management), while adhering to Responsible AI principles (ethical guidelines).
+- The paper highlights architectural innovations like PT-MoE and KV-cache sharing for efficiency, alongside comprehensive data pipelines and advanced fine-tuning techniques to enhance model capabilities and privacy.
+- The models support multilingual and multimodal inputs, improve tool-use and reasoning, and are accessible to developers via a Swift-centric framework for integrating generative AI features into Apple applications.
+
+---
+
+[Change of Thought: Adaptive Test-Time Computation](https://arxiv.org/abs/2507.13569)
+
+- SELF-Transformer: introduces a novel architecture that augments self-attention with Fixed-Point Iteration (FPI) to enable latent alignment refinement, where it iteratively updates attention weights to a fixed point, scaling test-time computation with input difficulty.
+- This framework achieves deeper contextual reasoning without additional parameters by leveraging FPI universally across all layers, improving latent representations without token-level autoregression.
+- The approach employs dynamic parameter reuse and implicit differentiation for efficient gradient computation, ensuring scalability and stability while adapting to input complexity.
 
 ---
 
@@ -400,6 +500,14 @@ Chronological order.
 ---
 
 
+
+[Architecting Human-AI Cocreation for Technical Services – Interaction Modes and Contingency Factors](http://arxiv.org/abs/2507.14034v1)
+
+- Six-Mode Taxonomy of Human-Agent Collaboration: introduces a comprehensive framework for designing human-agent systems, detailing six distinct interaction modes: Human-Augmentation-Mode (HAM), Human-in-Command (HIC), Human-in-the-Process (HITP), Human-in-the-Loop (HITL), Human-on-the-Loop (HOTL), and Human-Out-of-the-Loop (HOOTL).
+- The framework maps these modes to a standard process flow, illustrating the division of labor between human and AI agents across tasks like data gathering, solution formulation, and approval.
+- It provides actionable design guidance by connecting each mode to key contingency factors such as task complexity, operational risk, and system reliability, aiding practitioners in navigating automation-control trade-offs.
+
+---
 
 #### 13th July 2025
 
@@ -1195,6 +1303,14 @@ Chronological order.
 
 ---
 
+
+[Towards Solving More Challenging IMO Problems via Decoupled Reasoning and Proving](https://arxiv.org/abs/2507.06804)
+
+- DRP-IMO: introduces a novel framework for automated theorem proving, with a Reasoner (LLM) generating strategic subgoal lemmas, a Lemma Extraction Module extracting formal statements, a Subgoal Verification Prover (ATP Model) verifying these lemmas, and a Final Prover (LLM) constructing the final proof using verified lemmas.
+- This framework decouples high-level reasoning from low-level proof generation, addressing the gap between LLMs' informal reasoning and formal proving capabilities.
+- The modular design allows specialized models to excel at their respective tasks, enhancing problem-solving on complex mathematical challenges like IMO problems.
+
+---
 
 #### 6th July 2025
 
@@ -2055,6 +2171,14 @@ Chronological order.
 
 ---
 
+[Differentially Private Synthetic Data Release for Topics API Outputs](https://arxiv.org/abs/2506.23855)
+
+- Differentially Private Synthetic Data Generation Methodology: introduces a novel approach for generating synthetic Topics API outputs that mimic real API traces while providing strong privacy guarantees.
+- This methodology involves extracting differentially private statistics from real user data, optimizing a parameterized model to match these statistics, and then sampling from the optimized model to create synthetic data.
+- The generated synthetic dataset enables external researchers to empirically study the privacy properties and re-identification risks of the Topics API, fostering transparency in Privacy-Preserving Ads APIs.
+
+---
+
 #### 30th June 2025
 
 [L0: REINFORCEMENT LEARNING TO BECOME GENERAL AGENTS](https://arxiv.org/abs/2506.23667)
@@ -2851,6 +2975,14 @@ End-to-End RL Training for Emerging Agentic Capabilities](https://moonshotai.git
 
 ---
 
+[Private Training & Data Generation by Clustering Embeddings](https://arxiv.org/abs/2506.16661)
+
+- DP Synthetic Generation: introduces a novel principled method for differentially private synthetic data generation by clustering embeddings, which includes an encoder, DP clustering, DP GMM estimation, GMM sampling, and optional DP filtering and a decoder.
+- The framework first transforms sensitive input data into embeddings, then privately clusters these embeddings and estimates Gaussian Mixture Model parameters to generate synthetic embeddings.
+- It can optionally decode synthetic embeddings into realistic synthetic images and achieves state-of-the-art classification accuracy on standard benchmarks while ensuring strong privacy guarantees.
+
+---
+
 #### 18th June 2025
 
 [SwarmAgentic: Towards Fully Automated Agentic System Generation via Swarm Intelligence](https://arxiv.org/abs/2506.15672)
@@ -2993,6 +3125,15 @@ End-to-End RL Training for Emerging Agentic Capabilities](https://moonshotai.git
 
 
 ---
+
+[T-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045)
+
+- T-bench: introduces a novel benchmark for evaluating the reliability and consistency of LLM-based agents in dynamic, real-world interactions, featuring a Language Agent (interacts with users and tools), an LM-simulated User (simulates human users), API Tools (interface with databases), Realistic Databases (store domain information), and Domain-specific Policy Documents (provide rules for agent behavior), where it emulates dynamic conversations between a simulated user and a language agent using domain-specific API tools and policy guidelines.
+- The benchmark employs an efficient evaluation process by comparing the database state at the end of a conversation with an annotated goal state and introduces a new metric, pass^k, to assess agent behavior reliability across multiple trials.
+- It highlights that current state-of-the-art function calling agents struggle with complex reasoning, policy adherence, and consistency, indicating a need for more sophisticated agent architectures.
+
+---
+
 
 [Unified Software Engineering agent as AI Software Engineer](http://arxiv.org/abs/2506.14683v1)
 
@@ -3376,6 +3517,14 @@ End-to-End RL Training for Emerging Agentic Capabilities](https://moonshotai.git
 
 #### 13th June 2025
 
+[Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models](https://arxiv.org/abs/2506.11487)
+
+- DSP+ (Draft, Sketch, and Prove): introduces an enhanced neuro-symbolic framework for automated theorem proving, featuring fine-grained integration of LLMs (Draft Model, Sketch Model, Proving Model) with symbolic search (Symbolic Search, Step Prover) across its three phases (Draft, Sketch, Prove) and an Ensemble Setting (combines model configurations).
+- The framework coordinates existing reasoning models and tactic step provers, leveraging neuro-symbolic enhancements like Filter (removes thinking tokens) and Repair (masks syntactic errors) to improve proving accuracy and token efficiency.
+- DSP+ demonstrates the overlooked potential of classical reasoning patterns, offering an efficient and complementary approach to RL-based training in automated theorem proving.
+
+---
+
 [ReVeal: Self-Evolving Code Agents via Iterative Generation-Verification](https://arxiv.org/abs/2506.11442)
 
 - ReVeal: introduces a multi-turn reinforcement learning framework for code agents, featuring an Iterative Generation-Verification Loop where a Policy LLM generates code and test cases, External Tools execute them, and Tool Feedback provides results, guided by Turn-Level Reward Design and Outcome Reward, trained using Turn-Aware PPO on the Dataset (TACO).
@@ -3550,6 +3699,14 @@ End-to-End RL Training for Emerging Agentic Capabilities](https://moonshotai.git
 
 ---
 
+
+[Reviving DSP for Advanced Theorem Proving in the Era of Reasoning Models](https://arxiv.org/abs/2506.11487)
+
+- DSP+ (Draft, Sketch, and Prove): introduces an enhanced neuro-symbolic framework for automated theorem proving, featuring fine-grained integration of LLMs (Draft Model, Sketch Model, Proving Model) with symbolic search (Symbolic Search, Step Prover) across its three phases (Draft, Sketch, Prove) and an Ensemble Setting (combines model configurations).
+- The framework coordinates existing reasoning models and tactic step provers, leveraging neuro-symbolic enhancements like Filter (removes thinking tokens) and Repair (masks syntactic errors) to improve proving accuracy and token efficiency.
+- DSP+ demonstrates the overlooked potential of classical reasoning patterns, offering an efficient and complementary approach to RL-based training in automated theorem proving.
+
+---
 
 #### 12th June 2025
 
@@ -5267,6 +5424,14 @@ CodeContests+: High-Quality Test Case Generation for Competitive Programming](ht
 
 ---
 
+
+[DEEPTHEOREM: Advancing LLM Reasoning for Theorem Proving Through Natural Language and Reinforcement Learning](https://arxiv.org/abs/2505.23754)
+
+- DeepTheorem: introduces a comprehensive informal theorem-proving framework, with a large-scale dataset, a novel RL-Zero training protocol, and comprehensive evaluation metrics, designed to enhance LLM mathematical reasoning.
+- The framework leverages natural language for proof generation and verification, moving beyond traditional formal proof systems.
+- DeepTheorem significantly improves LLM theorem-proving performance, achieving state-of-the-art accuracy and reasoning quality.
+
+---
 
 #### 2nd June 2025
 
@@ -8303,6 +8468,14 @@ Gaming Tool Preferences in Agentic LLMs](http://arxiv.org/abs/2505.18135v1)
 
 ---
 
+
+[Context Reasoner: Incentivizing Reasoning Capability for Contextualized Privacy and Safety Compliance via Reinforcement Learning](https://arxiv.org/abs/2505.14585)
+
+- Context Reasoner: introduces a framework for incentivizing LLM reasoning capabilities for contextualized privacy and safety compliance, utilizing a Hierarchical Regulation Structure (structured legal regulations), Context-aware Legal Case Database (stores legal cases), DeepSeek-R1 (LLM for distillation), Legal Verifier (filters reasoning trajectories), Cold Starting Model (initializes LLM reasoning), Reinforcement Learning Model (enhances compliance reasoning), Legal Compliance Question (input query), Reasoning (LLM thought process), Alignment under CI Framework (applies CI parameters), and Reward (rule-based feedback).
+- The framework formulates safety and privacy issues as contextualized compliance problems under the Contextual Integrity (CI) theory, aligning LLMs with GDPR, EU AI Act, and HIPAA regulatory standards.
+- It employs reinforcement learning with a rule-based reward to enhance contextual reasoning, significantly improving legal compliance accuracy and generalization across diverse domains.
+
+---
 
 #### 19th May 2025
 
@@ -11774,6 +11947,14 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 
 ---
 
+[Scalable Reinforcement Post-Training Beyond Static Human Prompts Evolving Alignment via Asymmetric Self-Play](https://arxiv.org/abs/2411.00062)
+
+- eva (Evolving Alignment via Asymmetric Self-Play): introduces a novel reinforcement post-training framework for LLMs that casts alignment as an infinite asymmetric self-play game between a Creator (LLM-based policy, generates/evolves prompts) and a Solver (LLM-based policy, produces preferred responses), utilizing a Reward Model (RM) (oracle/learned model, provides reward signals) and an Informativeness Metric (regret-based signal, identifies useful prompts) to adaptively evolve the Prompt Distribution (dynamic set, training data for solver), optionally supported by a Prioritized Generative Buffer (memory component, manages evolved prompts).
+- The framework addresses the scalability bottleneck of static prompt distributions in conventional RLHF by enabling LLMs to adaptively create and evolve training prompts, leading to improved coverage and complexity for continual RL post-training.
+- This approach allows for the generation of effective RL curricula and demonstrates robustness across various RLHF algorithms, achieving new state-of-the-art results on challenging alignment benchmarks without requiring additional human prompts.
+
+---
+
 #### 8th April 2025
 
 [FEABench: Evaluating Language Models on Multiphysics Reasoning Ability](http://arxiv.org/abs/2504.06260v1)
@@ -15080,6 +15261,14 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+[Unified Mind Model: Reimagining Autonomous Agents in the LLM Era](https://arxiv.org/abs/2503.03459)
+
+- MindOS (an agent-building engine based on the Unified Mind Model): introduces a novel cognitive architecture for autonomous agents, integrating a Driver System, Central Processing Module, Specialist Module, and Foundation Model Module.
+- This framework leverages LLMs to enable human-like cognitive abilities such as multi-modal perception, planning, reasoning, tool use, learning, memory, reflection, and motivation.
+- MindOS simplifies agent creation by allowing users to define attributes via free-form text, eliminating programming effort for domain-specific autonomous agents.
+
+---
+
 #### 5th March 2025
 
 [Pretrained LLMs as Real-Time Controllers for Robot Operated Serial Production Line](http://arxiv.org/abs/2503.03889v1)
@@ -15768,6 +15957,14 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+
+[Gold-medalist Performance in Solving Olympiad Geometry with AlphaGeometry2](https://arxiv.org/abs/2502.03544)
+
+- AlphaGeometry2 (AG2): introduces Automated Problem Formalization (Translates natural language), Automated Diagram Generation Algorithm (Generates problem diagrams), Symbolic Engine (DDAR) (Computes deduction closure), AR-submodule (Handles algebraic reasoning), Language Model (LM) (Suggests auxiliary constructions), Gemini Architecture (Foundation for LM), Synthetic Data Generation Method (Generates training data), Shared Knowledge Ensemble of Search Trees (SKEST) (Novel proof search), Multiple Search Trees (Explore search space), Shared Facts Database (Shares proven facts), DDAR Workers (Execute symbolic deductions), LM Workers (Explore search nodes), and Analysis String (Feeds facts to LM), achieving gold-medalist performance in Olympiad geometry by integrating neuro-symbolic reasoning with advanced search and data generation.
+- The system achieves an 84% solve rate on IMO geometry problems from 2000-2024, significantly outperforming its predecessor and average human gold medalists.
+- Its novel SKEST algorithm, leveraging multiple LLMs and a shared knowledge base, enables more extensive and robust proof search for complex geometric problems.
+
+---
 
 #### 27th February 2025
 
@@ -18357,6 +18554,14 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
+[Diverse Inference and Verification for Advanced Reasoning](https://arxiv.org/abs/2502.09955)
+
+- DIV (Diverse Inference and Verification): introduces a multi-stage automated reasoning pipeline that combines diverse inference methods and verification techniques to solve advanced mathematical and reasoning problems, including Diverse Inference (aggregates models/methods), Verification (checks solution correctness), Test-Time Simulation (generates problem data), Reinforcement Learning (optimizes problem-solving policies), Meta-Learning (adapts agent graphs), Agent Graphs (orchestrates multi-step pipelines), LLMs (core reasoning models), Formal Provers (verifies mathematical proofs), Code Execution Environment (verifies code solutions), and Knowledge Base (stores relevant data).
+- The framework leverages multiple LLMs and methods at test time, employing both perfect verifiers (Lean for IMO, code execution for ARC) and imperfect verifiers (best-of-N for HLE) to enhance accuracy and reliability across challenging benchmarks.
+- It further improves generalization by using test-time simulations, reinforcement learning, and meta-learning to adapt agent graph representations, prompts, and code based on inference feedback.
+
+---
+
 #### 12th February 2025
 
 [Spike sorting AI agent](https://www.biorxiv.org/content/10.1101/2025.02.11.637754v1.full.pdf)
@@ -20603,6 +20808,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
+#### 24th July 2024
+
+[Photonic Fabric Platform for AI Accelerators](https://arxiv.org/abs/2507.14000)
+
+- PFA (Photonic Fabric Appliance): introduces a photonic-enabled switch and memory subsystem for AI accelerators, integrating Photonic Fabric Modules (PFM) with photonic and electronic components, and external DDR5 memory, to overcome memory bottlenecks and scale AI workloads.
+- The system provides up to 32 TB of shared memory and 115 Tbps of all-to-all digital switching, enabling more efficient distributed AI training and inference.
+- Evaluated using the CelestiSim simulator, PFA demonstrates significant throughput and latency improvements for LLM inference and substantial energy savings for LLM training compared to conventional GPU-based systems.
+
+---
+
 #### 15th July 2024
 
 [DeepResearchEco: A Recursive Agentic Workflow for Complex Scientific Question Answering in Ecology](http://arxiv.org/abs/2507.10522v1)
@@ -20620,6 +20835,16 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 - LLM-Stackelberg Games: introduces a framework for analyzing sequential interactions between LLM-powered agents, including Leader (Sender) Agent, Follower (Receiver) Agent, Leader's LLM Policy, Leader's Reasoning Prompt, Message, Follower's Private Information, Follower's Reasoning Strategy, Follower's LLM Model, Follower's Decision, and Sender's Conjectural Model.
 - The framework integrates strategic interactions, LLM capabilities, and conjectural reasoning to model agent behavior under uncertainty.
 - It applies concepts from game theory and cognitive science to capture bounded rationality and prompt-based reasoning in LLM agents.
+
+---
+
+#### 17th June 2024
+
+[T-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045)
+
+- T-bench: introduces a novel benchmark for evaluating the reliability and consistency of LLM-based agents in dynamic, real-world interactions, featuring a Language Agent (interacts with users and tools), an LM-simulated User (simulates human users), API Tools (interface with databases), Realistic Databases (store domain information), and Domain-specific Policy Documents (provide rules for agent behavior), where it emulates dynamic conversations between a simulated user and a language agent using domain-specific API tools and policy guidelines.
+- The benchmark employs an efficient evaluation process by comparing the database state at the end of a conversation with an annotated goal state and introduces a new metric, pass^k, to assess agent behavior reliability across multiple trials.
+- It highlights that current state-of-the-art function calling agents struggle with complex reasoning, policy adherence, and consistency, indicating a need for more sophisticated agent architectures.
 
 ---
 
