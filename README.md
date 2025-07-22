@@ -51,7 +51,17 @@ Chronological order.
 
 
 
+
+
 #### 21st July 2025
+
+[AGENTIC AI FOR AUTONOMOUS ANOMALY MANAGEMENT IN COMPLEX SYSTEMS](http://arxiv.org/abs/2507.15676v1)
+
+- Agentic AI (AI agent augmented with large language models, diverse tools, and knowledge-based systems): introduces an autonomous anomaly management framework for complex systems, integrating an AI Agent (core autonomous entity), LLMs (cognitive core for reasoning), Tools (diverse specialized utilities), Knowledge-based Systems (stores domain-specific information), Memory Systems (retains context and knowledge), and an LLM-as-a-judge module (evaluates tool use), to continuously analyze, learn, and respond to abnormal behaviors.
+- This framework aims to overcome limitations of human-dependent anomaly management by enabling autonomous decision-making, contextual understanding, and real-time adaptation to evolving conditions.
+- The system synthesizes insights across disciplines, detects subtle patterns, and adapts strategies using both implicit and explicit knowledge, enhancing system resilience and adaptability.
+
+---
 
 [LLM Economist: Large Population Models and Mechanism Design in Multi-Agent Generative Simulacra](https://arxiv.org/abs/2507.15815v1)
 
@@ -181,6 +191,30 @@ Chronological order.
 
 ---
 
+[Red-Team Multi-Agent Reinforcement Learning for Emergency Braking Scenario](http://arxiv.org/abs/2507.15587v1)
+
+- RMARL (Red-Team Multi-Agent Reinforcement Learning): introduces a framework where red-team agents, trained using a DC-GPPO algorithm with GCN and MLP, actively interfere with autonomous vehicles (AVs) in emergency braking scenarios, leveraging a CGMDP and PTZ model to generate high-risk corner cases.
+- The framework redefines background vehicles as red-team agents, enabling them to explore and uncover safety-critical scenarios beyond typical data distributions by maximizing AV collision rates while adhering to traffic regulations.
+- The PTZ model quantifies the threat posed by red-team vehicles, encouraging more extreme adversarial behaviors, and the DC-GPPO algorithm applies dual constraints to ensure realistic and disruptive interference.
+
+---
+
+[The Constitutional Controller: Doubt-Calibrated Steering of Compliant Agents](http://arxiv.org/abs/2507.15478v1)
+
+- CoCo (Constitutional Controller): introduces a novel framework for doubt-calibrated steering of compliant agents, integrating a Constitution (agent's structured knowledge base), a Doubt Model (neural self-doubt probability density), Probabilistic Inference, Plan & Control, and Online Compliance Validation.
+- The framework enhances agent safety and reliability by reasoning over deep probabilistic logic programs representing constraints and learning self-doubt from contextual features.
+- CoCo's adaptive behavior, demonstrated in UAV navigation, allows agents to account for external constraints and internal uncertainties, leading to compliant and crash-free operations.
+
+---
+
+[The Emergence of Deep Reinforcement Learning for Path Planning](http://arxiv.org/abs/2507.15469v1)
+
+- DQN (Deep Q-Network) Algorithm: is illustrated as a path planning model for marine search and rescue vessels, including an Environment, Actions, Estimation Q-network, Target Q-network, Reward Function, Experience Replay Memory, Gradients, Loss Function, and Update after N steps, designed to optimize navigation strategies.
+- This model enables autonomous agents to learn optimal navigation policies through interactive learning with the environment, aiming to maximize cumulative rewards for efficient search paths.
+- The architecture incorporates a target network for stable Q-value references and experience replay to decorrelate learning samples, enhancing the algorithm's stability and adaptability.
+
+---
+
 #### 20th July 2025
 
 [WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization](http://arxiv.org/abs/2507.15061v1)
@@ -247,6 +281,54 @@ Chronological order.
 
 ---
 
+[STL-GO: Spatio-Temporal Logic with Graph Operators for Distributed Systems with Multiple Network Topologies](http://arxiv.org/abs/2507.15147v1)
+
+- STL-GO (Spatio-Temporal Logic with Graph Operators): introduces a novel logic for specifying and verifying complex multi-agent system requirements, featuring an outer logic (system-wide reasoning), an inner logic (agent-specific reasoning), and graph operators (quantifies agent interactions) represented by a graph operator tree (operator relation representation).
+- This framework extends signal temporal logic by incorporating graph operators to quantitatively reason over multiple asymmetric network topologies, enabling distributed monitoring.
+- The distributed monitoring algorithm allows individual agents to determine specification satisfaction using only local information, demonstrated in bike-sharing and multi-drone case studies.
+
+---
+
+[FROM KICKING TO CAUSALITY: SIMULATING INFANT AGENCY DETECTION WITH A ROBUST INTRINSIC REWARD](http://arxiv.org/abs/2507.15106v1)
+
+- CAIS (Causal Action Influence Score): introduces a novel, model-based intrinsic reward for robust agency detection in noisy environments, utilizing a MIMo-Mobile Environment, an Embodied Agent (MIMo) with a Visual Encoder and Agent Architecture, driven by a Reinforcement Learning Framework with an Expected SARSA Algorithm, and a Reward Module that calculates CAIS via Quantile Regression and Wasserstein Distance, alongside a Surprise Signal, Mobile Trajectory Length, and Representation Trajectory Length, all optimized by AdamW Optimizer.
+- The paper demonstrates that CAIS enables the agent to distinguish self-generated effects from environmental noise, leading to a robust sense of agency that generalizes to unpredictable scenarios.
+- The framework also successfully reproduces the "extinction burst" phenomenon by augmenting CAIS with a surprise signal, highlighting the psychological plausibility of the causal inference approach.
+
+---
+
+[Search-Based Autonomous Vehicle Motion Planning Using Game Theory](http://arxiv.org/abs/2507.15088v1)
+
+- N-MP (Nash Motion Planner): introduces a search-based interactive motion planning scheme for autonomous vehicles, incorporating Dynamic Equation Derivation, Objective Function Formulation, Nash Equilibrium Identification, and Ego-AV Speed Modification.
+- This novel approach models other road users as intelligent agents within a game-theoretic framework, generating realistic and safer paths for autonomous vehicles.
+- The framework demonstrates low computational time and adaptability to various vehicle dynamics and road users, making it suitable for complex traffic scenarios and real-time applications.
+
+---
+
+[The Rise of AI Teammates in Software Engineering (SE) 3.0: How Autonomous Coding Agents Are Reshaping Software Engineering](http://arxiv.org/abs/2507.15003v1)
+
+- SE 3.0 (Agentic Software Engineering): introduces AIDev, a large-scale dataset, to empirically study how Autonomous Coding Agents (AI teammates), Human Developers (human collaborators), Review Bots (automated code reviewers), GitHub Repositories (software project hosts), and Pull Requests (code change proposals) are reshaping software engineering.
+- The paper analyzes 456,535 Agentic PRs from five leading LLM-powered agents, revealing their contributions, acceptance rates, and review dynamics compared to human-authored PRs.
+- Key findings highlight agents' speed in code submission, lower PR acceptance rates for complex tasks, and the increasing role of review bots, underscoring the need for new SE methodologies.
+
+---
+
+[AgentFly: Extensible and Scalable Reinforcement Learning for LM Agents](http://arxiv.org/abs/2507.14897v1)
+
+- AgentFly: introduces a scalable and extensible Agent-RL framework, with an Agent Module (manages agent workflow) and an RL Training Module (executes reinforcement learning), designed to empower LM agents with diverse RL algorithms.
+- The framework supports multi-turn interactions by adapting traditional RL methods with token-level masking and features a decorator-based interface for defining tools and reward functions.
+- It implements asynchronous execution of tool calls and reward computations, alongside a centralized resource management system, to support high-throughput training and scalable environment coordination.
+
+---
+
+[HMARL-CBF – Hierarchical Multi-Agent Reinforcement Learning with Control Barrier Functions for Safety-Critical Autonomous Systems](http://arxiv.org/abs/2507.14850v1)
+
+- HMARL-CBF: introduces a novel hierarchical multi-agent reinforcement learning approach, with High-Level Policy (learns joint cooperative behavior), Low-Level Policy (learns safe individual behavior), CBF-Based Policy (executes skills safely), High-Level Policy Network (implements high-level policy), Low-Level Policy Parameter Network (implements low-level policy), Skills (predefined safety-constrained actions), Control Barrier Functions (enforce pointwise safety), Control Lyapunov Functions (guide skill execution), Extrinsic Trajectory Return (optimizes joint performance), and Intrinsic Trajectory Return (learns individual skills), designed for safe policy learning in multi-agent safety-critical autonomous systems by decomposing the problem into two levels.
+- The framework ensures safety guarantees during both training and real-world deployment by integrating Control Barrier Functions for pointwise-in-time safety constraints and utilizing a skill-based hierarchical structure.
+- The approach validates its effectiveness on challenging multi-agent traffic scenarios, demonstrating superior safety compliance and improved performance compared to existing methods.
+
+---
+
 #### 19th July 2025
 
 [Towards AI Urban Planner in the Age of GenAI, LLMs, and Agentic AI](http://arxiv.org/abs/2507.14730v1)
@@ -286,6 +368,22 @@ Chronological order.
 - Routine (A Structural Planning Framework for LLM Agent System in Enterprise): introduces a multi-step agent planning framework with Planning Module (generates step-by-step plan), Execution Module (follows plan, generates tool call instructions), Tool Module (receives instructions, returns execution results), and Memory Module (stores context), where it provides a clear structure, explicit instructions, and seamless parameter passing to guide an agent's execution module in performing multi-step tool-calling tasks with high stability.
 - The framework significantly increases execution accuracy in model tool calls, improving performance of LLMs like GPT-4o and Qwen3-14B in real-world enterprise scenarios.
 - Routine also enables the distillation of domain-specific tool-usage patterns and enhances model adaptability to new scenarios, accelerating the deployment and adoption of agent systems.
+
+---
+
+[When Autonomy Goes Rogue: Preparing for Risks of Multi-Agent Collusion in Social Systems](http://arxiv.org/abs/2507.14660v1)
+
+- Self-Evolving Multi-Agent Collusion Framework: introduces a novel simulation framework for studying multi-agent collusion, incorporating components for agent coordination, behavior evolution, and platform-level intervention, where it simulates and analyzes how malicious agents coordinate and adapt in high-stakes environments like misinformation and e-commerce fraud.
+- The framework, built on the OASIS social simulator, demonstrates that decentralized malicious multi-agent systems are more effective and adaptive in spreading harm than centralized ones, even against traditional interventions.
+- It provides insights into malicious group operations and highlights the need for dynamic detection systems and countermeasures against evolving collusive behaviors.
+
+---
+
+[LEARNING TO COMMUNICATE IN MULTI-AGENT REINFORCEMENT LEARNING FOR AUTONOMOUS CYBER DEFENCE](http://arxiv.org/abs/2507.14658v1)
+
+- DIAL (Differentiable Inter-Agent Learning): introduces a multi-agent reinforcement learning framework for autonomous cyber defense, featuring blue agents with C-Nets that learn to communicate and take defensive actions within the CybORG simulation environment.
+- The framework enables blue agents to develop tactical policies akin to human experts, learning minimal cost communication messages while defending against cyber threats in various network configurations.
+- DIAL's approach, including Strategic Action Unmasking, allows agents to coordinate effectively and outperform agents requiring global state information, demonstrating practical applicability in enterprise network simulations.
 
 ---
 
@@ -371,6 +469,14 @@ Chronological order.
 - DREAMS (Density Functional Theory Based Research Engine for Agentic Materials Screening): introduces a hierarchical, multi-agent framework for DFT simulation, featuring a Supervisor LLM Agent (Generates/Updates Plans/Assigns Tasks), DFT LLM Agent (Manages DFT Calculations/Structure Generation/Parameter Optimization/Output Analysis), Convergence LLM Agent (Suggests Fixes/Resolves Convergence Issues), and HPC LLM Agent (Allocates Resources/Submits/Monitors Jobs), all interacting via a Canvas (Shared Information Dashboard/Context Preservation) and utilizing an HPC Cluster (High-Performance Computing Environment).
 - This framework automates high-fidelity Density Functional Theory simulations, addressing challenges like parameter fine-tuning and systematic error handling, thereby reducing human intervention.
 - DREAMS achieves L3-level automation in materials discovery, demonstrating expert-level accuracy in lattice constant calculations and complex problem-solving for adsorption puzzles.
+
+---
+
+[ADAPTIVE MULTI-AGENT REASONING VIA AUTOMATED WORKFLOW GENERATION](http://arxiv.org/abs/2507.14393v1)
+
+- Nexus Architect: introduces an enhanced multi-agent system framework that autonomously generates and refines reasoning workflows from user prompts and examples, integrating User Prompt, Examples, Nexus Documentation, Task Decomposition & Planning, Reasoning Workflow Design, Supervisor Builder, Agent Builder, Tool Builder, Workflow Validation & Testing, Performance Assessment, Feedback, Iterative Prompt Refinement (IPR), Prompt Engineering, Validated Reasoning Graph, and Nexus Runtime Environment.
+- This framework systematically decomposes complex inferential reasoning tasks, instantiates multi-agent architectures, and iteratively tunes agent system prompts to maximize performance and improve generalization capabilities using standard, non-reasoning LLMs.
+- The framework leverages a feedback-driven prompt engineering mechanism to achieve automated reasoning, enabling robust and generalizable problem-solving without requiring specialized LLM training or fine-tuning.
 
 ---
 
