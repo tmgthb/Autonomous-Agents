@@ -55,6 +55,63 @@ Chronological order.
 
 #### 21st July 2025
 
+[Solving Formal Math Problems by Decomposition and Iterative Reflection](http://arxiv.org/abs/2507.15225v1)
+
+- Delta Prover: introduces an agent-based framework that orchestrates a general-purpose LLM, Lean 4 Proof Environment, and Retrieval Model, with Reflective Decomposition, Iterative Proof Repair, Automatic Proof Consolidation, and a Domain-Specific Language (DSL), to solve formal math problems by iteratively refining proofs and decomposing complex theorems.
+- The framework leverages the LLM's inherent reasoning and reflection capabilities to interactively construct formal proofs in Lean 4, circumventing the need for model specialization or extensive fine-tuning.
+- It achieves state-of-the-art performance on the miniF2F-test benchmark by systematically tackling complex proofs, learning from mistakes, and producing machine-verifiable results.
+
+---
+
+[EchoVoices: Preserving Generational Voices and Memories for Seniors and Children](http://arxiv.org/abs/2507.15221v1)
+
+- EchoVoices: introduces an end-to-end digital human pipeline for seniors and children, with k-NN enhanced Whisper ASR model (speech recognition), LLM-driven Agent (persona distillation/response generation), Persona Card (user identity summary), RAG (memory retrieval), Memory Fragments (vector database), Age-adaptive VITS model (speech synthesis), Wav2Lip (lip synchronization), and GFPGAN (photorealistic face rendering), designed to create persistent digital personas by preserving unique voices and memories.
+- The system processes spoken queries from seniors or children, transcribes them using a k-NN augmented Whisper model, generates context-aware responses via an LLM-driven agent with a RAG-based memory, and synthesizes age-appropriate speech using a two-stage fine-tuned VITS model.
+- This framework aims to address the challenges of conventional ASR, TTS, and LLM systems with atypical speech patterns and interaction styles of seniors and children, enabling empathetic and effective intergenerational digital interactions.
+
+---
+
+[PromptArmor: Simple yet Effective Prompt Injection Defenses](http://arxiv.org/abs/2507.15219v1)
+
+- PromptArmor: introduces, "a simple yet effective defense against prompt injection attacks", with Guardrail LLM (off-the-shelf LLM), Prompting Strategy (carefully designed prompts), Detection (identifies injected prompts), Extraction (isolates malicious content), and Sanitization (removes injected prompts), where it functions as a guardrail layer to detect and remove malicious prompts from agent inputs before processing.
+- This defense leverages the text understanding and pattern recognition capabilities of an off-the-shelf LLM to analyze data samples and identify inconsistencies introduced by injected prompts.
+- PromptArmor operates as a standalone preprocessing component, ensuring minimal disruption to existing LLM-based systems and allowing the agent to complete its intended user task with sanitized data.
+
+---
+
+[Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation](https://arxiv.org/abs/2507.10524)
+
+- MoR (Mixture-of-Recursions): introduces a unified framework for LLMs that combines parameter sharing and adaptive computation, featuring a Recursive Transformer with Shared Stack of Layers/Recursion Block, a Router with Expert-choice routing/Token-choice routing, and a KV Caching Strategy with Recursion-wise KV caching/Recursive KV sharing.
+- This framework dynamically assigns token-level recursion depths via lightweight routers and selectively caches Key-Value pairs, focusing quadratic attention computation only on active tokens to improve memory access efficiency.
+- MoR establishes a new Pareto frontier for LLM efficiency, significantly lowering validation perplexity and improving few-shot accuracy while delivering higher throughput compared to existing baselines.
+
+---
+
+[Red-Team Multi-Agent Reinforcement Learning for Emergency Braking Scenario](http://arxiv.org/abs/2507.15587v1)
+
+- RMARL (Red-Team Multi-Agent Reinforcement Learning): introduces a framework where red-team agents, trained using a DC-GPPO algorithm with GCN and MLP, actively interfere with autonomous vehicles (AVs) in emergency braking scenarios, leveraging a CGMDP and PTZ model to generate high-risk corner cases.
+- The framework redefines background vehicles as red-team agents, enabling them to explore and uncover safety-critical scenarios beyond typical data distributions by maximizing AV collision rates while adhering to traffic regulations.
+- The PTZ model quantifies the threat posed by red-team vehicles, encouraging more extreme adversarial behaviors, and the DC-GPPO algorithm applies dual constraints to ensure realistic and disruptive interference.
+
+---
+
+[The Constitutional Controller: Doubt-Calibrated Steering of Compliant Agents](http://arxiv.org/abs/2507.15478v1)
+
+- CoCo (Constitutional Controller): introduces a novel framework for doubt-calibrated steering of compliant agents, integrating a Constitution (agent's structured knowledge base), a Doubt Model (neural self-doubt probability density), Probabilistic Inference, Plan & Control, and Online Compliance Validation.
+- The framework enhances agent safety and reliability by reasoning over deep probabilistic logic programs representing constraints and learning self-doubt from contextual features.
+- CoCo's adaptive behavior, demonstrated in UAV navigation, allows agents to account for external constraints and internal uncertainties, leading to compliant and crash-free operations.
+
+---
+
+[The Emergence of Deep Reinforcement Learning for Path Planning](http://arxiv.org/abs/2507.15469v1)
+
+- DQN (Deep Q-Network) Algorithm: is illustrated as a path planning model for marine search and rescue vessels, including an Environment, Actions, Estimation Q-network, Target Q-network, Reward Function, Experience Replay Memory, Gradients, Loss Function, and Update after N steps, designed to optimize navigation strategies.
+- This model enables autonomous agents to learn optimal navigation policies through interactive learning with the environment, aiming to maximize cumulative rewards for efficient search paths.
+- The architecture incorporates a target network for stable Q-value references and experience replay to decorrelate learning samples, enhancing the algorithm's stability and adaptability.
+
+---
+
+
 [AGENTIC AI FOR AUTONOMOUS ANOMALY MANAGEMENT IN COMPLEX SYSTEMS](http://arxiv.org/abs/2507.15676v1)
 
 - Agentic AI (AI agent augmented with large language models, diverse tools, and knowledge-based systems): introduces an autonomous anomaly management framework for complex systems, integrating an AI Agent (core autonomous entity), LLMs (cognitive core for reasoning), Tools (diverse specialized utilities), Knowledge-based Systems (stores domain-specific information), Memory Systems (retains context and knowledge), and an LLM-as-a-judge module (evaluates tool use), to continuously analyze, learn, and respond to abnormal behaviors.
@@ -159,61 +216,6 @@ Chronological order.
 
 ---
 
-[Solving Formal Math Problems by Decomposition and Iterative Reflection](http://arxiv.org/abs/2507.15225v1)
-
-- Delta Prover: introduces an agent-based framework that orchestrates a general-purpose LLM, Lean 4 Proof Environment, and Retrieval Model, with Reflective Decomposition, Iterative Proof Repair, Automatic Proof Consolidation, and a Domain-Specific Language (DSL), to solve formal math problems by iteratively refining proofs and decomposing complex theorems.
-- The framework leverages the LLM's inherent reasoning and reflection capabilities to interactively construct formal proofs in Lean 4, circumventing the need for model specialization or extensive fine-tuning.
-- It achieves state-of-the-art performance on the miniF2F-test benchmark by systematically tackling complex proofs, learning from mistakes, and producing machine-verifiable results.
-
----
-
-[EchoVoices: Preserving Generational Voices and Memories for Seniors and Children](http://arxiv.org/abs/2507.15221v1)
-
-- EchoVoices: introduces an end-to-end digital human pipeline for seniors and children, with k-NN enhanced Whisper ASR model (speech recognition), LLM-driven Agent (persona distillation/response generation), Persona Card (user identity summary), RAG (memory retrieval), Memory Fragments (vector database), Age-adaptive VITS model (speech synthesis), Wav2Lip (lip synchronization), and GFPGAN (photorealistic face rendering), designed to create persistent digital personas by preserving unique voices and memories.
-- The system processes spoken queries from seniors or children, transcribes them using a k-NN augmented Whisper model, generates context-aware responses via an LLM-driven agent with a RAG-based memory, and synthesizes age-appropriate speech using a two-stage fine-tuned VITS model.
-- This framework aims to address the challenges of conventional ASR, TTS, and LLM systems with atypical speech patterns and interaction styles of seniors and children, enabling empathetic and effective intergenerational digital interactions.
-
----
-
-[PromptArmor: Simple yet Effective Prompt Injection Defenses](http://arxiv.org/abs/2507.15219v1)
-
-- PromptArmor: introduces, "a simple yet effective defense against prompt injection attacks", with Guardrail LLM (off-the-shelf LLM), Prompting Strategy (carefully designed prompts), Detection (identifies injected prompts), Extraction (isolates malicious content), and Sanitization (removes injected prompts), where it functions as a guardrail layer to detect and remove malicious prompts from agent inputs before processing.
-- This defense leverages the text understanding and pattern recognition capabilities of an off-the-shelf LLM to analyze data samples and identify inconsistencies introduced by injected prompts.
-- PromptArmor operates as a standalone preprocessing component, ensuring minimal disruption to existing LLM-based systems and allowing the agent to complete its intended user task with sanitized data.
-
----
-
-[Mixture-of-Recursions: Learning Dynamic Recursive Depths for Adaptive Token-Level Computation](https://arxiv.org/abs/2507.10524)
-
-- MoR (Mixture-of-Recursions): introduces a unified framework for LLMs that combines parameter sharing and adaptive computation, featuring a Recursive Transformer with Shared Stack of Layers/Recursion Block, a Router with Expert-choice routing/Token-choice routing, and a KV Caching Strategy with Recursion-wise KV caching/Recursive KV sharing.
-- This framework dynamically assigns token-level recursion depths via lightweight routers and selectively caches Key-Value pairs, focusing quadratic attention computation only on active tokens to improve memory access efficiency.
-- MoR establishes a new Pareto frontier for LLM efficiency, significantly lowering validation perplexity and improving few-shot accuracy while delivering higher throughput compared to existing baselines.
-
----
-
-[Red-Team Multi-Agent Reinforcement Learning for Emergency Braking Scenario](http://arxiv.org/abs/2507.15587v1)
-
-- RMARL (Red-Team Multi-Agent Reinforcement Learning): introduces a framework where red-team agents, trained using a DC-GPPO algorithm with GCN and MLP, actively interfere with autonomous vehicles (AVs) in emergency braking scenarios, leveraging a CGMDP and PTZ model to generate high-risk corner cases.
-- The framework redefines background vehicles as red-team agents, enabling them to explore and uncover safety-critical scenarios beyond typical data distributions by maximizing AV collision rates while adhering to traffic regulations.
-- The PTZ model quantifies the threat posed by red-team vehicles, encouraging more extreme adversarial behaviors, and the DC-GPPO algorithm applies dual constraints to ensure realistic and disruptive interference.
-
----
-
-[The Constitutional Controller: Doubt-Calibrated Steering of Compliant Agents](http://arxiv.org/abs/2507.15478v1)
-
-- CoCo (Constitutional Controller): introduces a novel framework for doubt-calibrated steering of compliant agents, integrating a Constitution (agent's structured knowledge base), a Doubt Model (neural self-doubt probability density), Probabilistic Inference, Plan & Control, and Online Compliance Validation.
-- The framework enhances agent safety and reliability by reasoning over deep probabilistic logic programs representing constraints and learning self-doubt from contextual features.
-- CoCo's adaptive behavior, demonstrated in UAV navigation, allows agents to account for external constraints and internal uncertainties, leading to compliant and crash-free operations.
-
----
-
-[The Emergence of Deep Reinforcement Learning for Path Planning](http://arxiv.org/abs/2507.15469v1)
-
-- DQN (Deep Q-Network) Algorithm: is illustrated as a path planning model for marine search and rescue vessels, including an Environment, Actions, Estimation Q-network, Target Q-network, Reward Function, Experience Replay Memory, Gradients, Loss Function, and Update after N steps, designed to optimize navigation strategies.
-- This model enables autonomous agents to learn optimal navigation policies through interactive learning with the environment, aiming to maximize cumulative rewards for efficient search paths.
-- The architecture incorporates a target network for stable Q-value references and experience replay to decorrelate learning samples, enhancing the algorithm's stability and adaptability.
-
----
 
 #### 20th July 2025
 
