@@ -163,14 +163,6 @@ Chronological order.
 
 ---
 
-[LLM Economist: Large Population Models and Mechanism Design in Multi-Agent Generative Simulacra](http://arxiv.org/abs/2507.15815v1)
-
-- LLM Economist: introduces a novel framework for designing and assessing economic policies using agent-based modeling in strategic environments with hierarchical decision-making, featuring persona-conditioned worker agents and a planner agent optimizing tax schedules via in-context reinforcement learning.
-- The framework simulates a Stackelberg game where worker agents choose labor supply to maximize utility, and a planner agent proposes tax schedules to maximize social welfare, all within a language-driven environment.
-- This approach enables credible fiscal experimentation by optimizing heterogeneous utilities, generating demographically realistic agent populations, and performing natural language-based mechanism design.
-
----
-
 [Screen2AX: Vision-Based Approach for Automatic macOS Accessibility Generation](http://arxiv.org/abs/2507.16704v1)
 
 - Screen2AX: introduces a vision-based pipeline for automatic macOS accessibility generation, processing UI screenshots through UI element detection, text detection, element description, and hierarchy generation to produce structured hierarchical accessibility metadata.
@@ -220,6 +212,7 @@ Chronological order.
 - It uniquely integrates census-calibrated population modeling, dynamic tax-mechanism optimization, and democratic governance, providing a testbed for fiscal policy evaluation at a societal scale.
 
 ---
+
 
 [Towards physician-centered oversight of conversational diagnostic AI](https://arxiv.org/abs/2507.15743)
 
