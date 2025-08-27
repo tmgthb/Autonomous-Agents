@@ -4533,28 +4533,27 @@ Chronological order.
 
 ---
 
-[Cooperative Perception: A Resource-Efficient Framework for Multi-Drone 3D Scene Reconstruction Using Federated Diffusion and NeRF](http://arxiv.org/abs/2508.00967v1)
 
-- Cooperative Perception: introduces a resource-efficient framework for multi-drone 3D scene reconstruction, enabling drone swarms to build high-fidelity 3D/4D scenes in real-time by combining federated learning and conditional diffusion models with Neural Radiance Fields.
-- <arxiv_paper_date>1st August 2025</arxiv_paper_date>
-<arxiv_paper_name>Cooperative Perception: A Resource-Efficient Framework for Multi-Drone 3D Scene Reconstruction Using Federated Diffusion and NeRF</arxiv_paper_name>
-<arxiv_paper_link>http://arxiv.org/pdf/2508.00967v1</arxiv_paper_link>
-<arxiv_paper_name>Cooperative Perception:</arxiv_paper_name>
-<arxiv_paper_framework_1>Drones/Local Neural Radiance Fields (NeRF)/Shared Generative Diffusion Model/Federated Learning (FL)/Semantic Extraction/Pose Conditioning/Diffusion Inference/NeRF Update Mechanism/Semantic Information/Reference Poses/Target Drone/Source Drones/YOLOv12/CLIP/ControlNet/Adapters/Target Aggregator/Semantic Fusion Component/Pose Aggregation Component/Image Generation Component/Sensors (X1/XN)/Encoder (fenc)/Actor (π)/Centralized Critic/Fusion + GT/Perception Evaluator/Reward (rt)</arxiv_paper_framework_1>
-<arxiv_paper_framework_2>(multi-agent system)/(individual 3D representation)/(global scene prior)/(distributed model training)/(lightweight data compression)/(multi-view consistency)/(hallucinates unobserved views)/(local scene refinement)/(text tokens/embeddings)/(6-DoF matrices)/(initiates/processes requests)/(provide semantic/pose data)/(object detection/segmentation)/(semantic extraction)/(diffusion viewpoint control)/(global model server)/(combines semantic info)/(combines pose data)/(produces 2D images)/(local observation input)/(semantic embedding)/(decentralized policy)/(global value function)/(ground truth fusion)/(calculates utility reward)/(learning signal)</arxiv_paper_framework_2>
-<arxiv_paper_description_1>Cooperative Perception: introduces a resource-efficient framework for multi-drone 3D scene reconstruction, enabling drone swarms to build high-fidelity 3D/4D scenes in real-time by combining federated learning and conditional diffusion models with Neural Radiance Fields.</arxiv_paper_description_1>
-<arxiv_paper_description_2>The framework addresses communication bottlenecks, computational burdens on resource-constrained drones, and privacy/scalability issues by sharing only condensed semantic information and poses, rather than raw data or dense features.</arxiv_paper_description_3>
-<arxiv_paper_description_3>It leverages a shared generative diffusion model, collaboratively trained via federated learning, to hallucinate photorealistic 2D images of unobserved areas, which then serve as training data for local NeRF or Gaussian Splatting models.</arxiv_paper_description_3>
-- It leverages a shared generative diffusion model, collaboratively trained via federated learning, to hallucinate photorealistic 2D images of unobserved areas, which then serve as training data for local NeRF or Gaussian Splatting models.
+## Citation
 
----
 
-[SmartFlow: A CFD-solver-agnostic deep reinforcement learning framework for computational fluid dynamics on HPC platforms](http://arxiv.org/abs/2508.00645v1)
+How to cite my work?
 
-- SmartFlow: introduces a CFD-solver-agnostic deep reinforcement learning framework for computational fluid dynamics on HPC platforms, with SmartSim IL (HPC orchestration/communication), SmartRedis (in-memory data store), SmartRedis-MPI (MPI-aware data exchange), CFD solver (fluid dynamics simulation), DRL Agent (reinforcement learning policy), Stable-Baselines3 (RL algorithm library), PyTorch (deep learning backend), SmartSim Orchestrator (in-memory database server), CFDEnv interface (custom environment API), and Weights & Biases/TensorBoard (experiment tracking).
-- The framework enables asynchronous, low-latency, in-memory communication between CFD solvers and Python-based DRL algorithms, supporting both single- and multi-agent DRL.
-- It leverages multi-environment DRL and multi-agent reinforcement learning to accelerate training, demonstrating versatility across various CFD solvers and fluid mechanics tasks.
+
+
+```
+@misc{MaattaAutonomousAgents2023,
+  author = {Teemu Maatta},
+  title = {Autonomous Agents},
+  year = {2023},
+  howpublished = {\url{https://github.com/tmgthb/Autonomous-Agents}},
+  note = {Accessed: YYYY-MM-DD}
+}
+
+```
 
 ---
 
 
+
+[Back to top](#topofthepage)
