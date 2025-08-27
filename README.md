@@ -36,9 +36,9 @@ Copyright (C) Teemu Maatta.
 
 <div id="researchpapers" align="center">
 
-## Research papers: Latest
+## Research papers: 2025 (1/3)
 
-[Latest](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md), [2025](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2025.md), [2024](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2024.md), [2023](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2023.md), [Earlier](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_Earlier.md)
+[2025 (1/3)](https://github.com/tmgthb/Autonomous-Agents/blob/main/README.md), [2025 (2/3)](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2025_2.md), [2025 (3/3)](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2025.md), [2024](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2024.md), [2023](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_2023.md), [Earlier](https://github.com/tmgthb/Autonomous-Agents/blob/main/resources/Autonomous_Agents_Research_Papers_Earlier.md)
 
 Chronological order. 
 
@@ -906,7 +906,7 @@ Chronological order.
 
 [TRANSDUCTION IS ALL YOU NEED FOR STRUCTURED DATA WORKFLOWS](http://arxiv.org/abs/2508.15610v1)
 
-- Agentics: introduces a modular framework for building agent-based systems capable of structured reasoning and compositional generalization over complex data, with all arxiv_paper_framework_2-components, where it redefines how agents interact with data through a declarative, type-driven approach grounded in logical transduction algebra.
+- Agentics: introduces a modular framework for building agent-based systems capable of structured reasoning and compositional generalization over complex data. Redefines how agents interact with data through a declarative, type-driven approach grounded in logical transduction algebra.
 - The framework leverages asynchronous and parallel LLM inference to support enterprise-scale structured data workflows, formalizing logical transduction as the transformation of a data object from one type to another based on target schema constraints.
 - Agentics demonstrates state-of-the-art performance and scalability across tasks like domain-specific multiple-choice question answering, semantic parsing for text-to-SQL, and automated prompt optimization by treating agents as stateless transducers operating over well-defined data types.
 
