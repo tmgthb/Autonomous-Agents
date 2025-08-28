@@ -52,6 +52,84 @@ Chronological order.
 
 
 
+#### 27th August 2025
+
+[Symphony: A Decentralized Multi-Agent Framework for Scalable Collective Intelligence](https://github.com/GradientHQ/Symphony.git)
+
+- Symphony: introduces a decentralized multi-agent system, with a decentralized ledger (records capabilities), a Beacon-selection protocol (dynamic task allocation), weighted result voting (aggregates CoT results), Worker Nodes (host LLMs), Local Engine (quantized LLM), Stage-specific prompts (contextual instructions), Communicator (secure messaging), Gateways (standardized APIs), Planning Agents (decompose tasks), and Execution Agents (execute sub-tasks), enabling lightweight LLMs on edge devices to coordinate for scalable collective intelligence.
+- This framework addresses challenges of centralized orchestration by providing a privacy-saving, scalable, and fault-tolerant design with low overhead, allowing efficient task allocation and robust operation across heterogeneous devices.
+- Symphony demonstrates superior performance on reasoning benchmarks, achieving significant accuracy gains and robustness across models, while lowering hardware requirements and fostering decentralized agent economies.
+
+---
+
+
+[AgentCoMa: A Compositional Benchmark Mixing Commonsense and Mathematical Reasoning in Real-World Scenarios](http://arxiv.org/abs/2508.19988v1)
+
+- AgentCoMa (Agentic Commonsense and Math benchmark) introduces a compositional benchmark for LLM agents, featuring compositional questions (tasks requiring both commonsense and mathematical reasoning), commonsense reasoning steps (initial choice based on everyday knowledge), mathematical reasoning steps (subsequent arithmetic operation), real-world agentic scenarios (five practical domains), evaluation metrics (accuracy on steps and composition), analysis components (neuron patterns, attention maps, membership inference), and benchmarked LLMs (61 diverse models).
+- This benchmark reveals a significant compositionality gap in LLMs, where models achieve high accuracy on isolated commonsense and math steps but experience a substantial performance drop when these mixed-type steps are combined in compositional tasks.
+- Interpretability analyses indicate that LLMs struggle with mixed-type reasoning due to the rarity of such tasks in their training data, leading to the activation of neural circuits relevant to only one reasoning type during compositional problem-solving.
+
+---
+
+
+
+[CataractSurg-80K: Knowledge-Driven Benchmarking for Structured Reasoning in Ophthalmic Surgery Planning](http://arxiv.org/abs/2508.20014v1)
+
+- Multi-Agent Framework for Ophthalmic Surgical Planning: introduces an AI-driven system for cataract surgery planning, featuring a Knowledge-driven Multi-Agent System (MAS) for report interpretation, the CataractSurg-80K Dataset for structured reasoning, and the Qwen-CSP Model for clinical decision support.
+- The MAS employs collaborative specialist agents to process Raw Ophthalmic Reports into structured Patient Descriptions, simulating expert Doctor Reasoning for transparent data extraction.
+- The Qwen-CSP Model, built on a Base LLM (Qwen3-4B), undergoes Multi-Stage Domain-Aware Fine-Tuning using Clinical Knowledge and Real Medical Data from the CataractSurg-80K Dataset to optimize ophthalmic surgical reasoning.
+
+---
+
+[CASE: An Agentic AI Framework for Enhancing Scam Intelligence in Digital Payments](http://arxiv.org/abs/2508.19932v1)
+
+- CASE (Conversational Agent for Scam Elucidation): introduces a novel Agentic AI framework for enhancing scam intelligence in digital payments, featuring a Conversational Agent (user-facing interaction) and an Information Extractor Agent (processes transcripts), designed to collect and manage user scam feedback in a safe and scalable manner.
+- The framework's Conversational Agent proactively interviews potential victims to elicit detailed scam intelligence, which the Information Extractor Agent then processes into structured data for downstream enforcement mechanisms.
+- Implemented on Google Pay India using Gemini LLMs, the framework demonstrated a 21% uplift in scam enforcement volume and significantly improved response speed to new threats.
+
+---
+
+[Your AI Bosses Are Still Prejudiced: The Emergence of Stereotypes in LLM-Based Multi-Agent Systems](http://arxiv.org/abs/2508.19919v1)
+
+- Multi-Agent Simulation Framework: introduces a novel experimental framework to investigate stereotype emergence and evolution in LLM-based multi-agent systems, simulating workplace interactions with LLM-Based Agents, a Supervisor Agent, and dedicated Evaluation and Parser Agents, all interacting through defined cycles and maintaining a comprehensive interaction history.
+- The framework employs synchronized task-interaction cycles, allowing for both random and hierarchical task assignments, and quantifies stereotype formation using specialized metrics across diverse LLM architectures.
+- This design enables the study of how stereotypes emerge spontaneously in AI agent interactions, intensify with increased interaction rounds and decision-making power, and manifest consistently across different LLM architectures.
+
+---
+
+[Secure Multi-LLM Agentic AI and Agentification for Edge General Intelligence by Zero-Trust: A Survey](http://arxiv.org/abs/2508.19870v1)
+
+- The Zero-Trust Multi-LLM Framework (ZT-MLLMF): introduces a comprehensive survey of zero-trust security principles applied to multi-LLM systems in Edge General Intelligence (EGI), detailing architectural design and operational workflows.
+- The paper systematically analyzes critical security vulnerabilities in collaborative multi-LLM systems, including insecure inter-LLM communications and expanded attack surfaces, which traditional perimeter-based security cannot adequately address.
+- ZT-MLLMF implements zero-trust principles such as explicit verification, least privilege, continuous monitoring, and micro-segmentation through model- and system-level approaches to enhance security and trustworthiness.
+
+---
+
+[Youtu-GraphRAG: Vertically Unified Agents for Graph Retrieval-Augmented Complex Reasoning](http://arxiv.org/abs/2508.19855v1)
+
+- Youtu-GraphRAG introduces a vertically unified agentic paradigm for graph retrieval-augmented complex reasoning, integrating a Seed Graph Schema (defines entity/relation/attribute types), an Extraction Agent (schema-guided knowledge extraction), Dually-Perceived Community Detection (fuses topology and semantics), a Four-Level Knowledge Tree (hierarchical knowledge organization), an Agentic Retriever (schema-aligned query decomposition), a Planning Component (decomposes complex queries), a Reflection Component (iteratively refines reasoning), Historical Memory (stores agent's reasoning/retrieval), and an LLM (performs various language tasks).
+- This framework jointly optimizes graph construction and retrieval by bounding both processes with a dynamically expanding graph schema, enabling robust and generalizable reasoning across different knowledge granularities.
+- The framework significantly improves cost-effectiveness and accuracy by reducing token consumption and enhancing multi-hop reasoning, demonstrating strong adaptability for seamless domain transfer.
+
+---
+
+[Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning](http://arxiv.org/abs/2508.19828v1)
+
+- Memory-R1: introduces a reinforcement learning framework that enhances LLM agents with active memory management and utilization through a Memory Manager and an Answer Agent.
+- The Memory Manager learns to perform structured Memory Operations (ADD, UPDATE, DELETE, NOOP) on an External Memory Bank, while the Answer Agent applies Memory Distillation to filter and reason over retrieved memories.
+- Both agents are fine-tuned using PPO or GRPO, enabling adaptive memory management and use with minimal supervision and achieving strong performance on multi-session dialogue tasks.
+
+---
+
+[Survey of Specialized Large Language Model](http://arxiv.org/abs/2508.19667v1)
+
+- Specialized Large Language Models: introduces a comprehensive survey examining the progression of specialized LLMs from early domain adaptation to sophisticated native architectures across healthcare, finance, legal, and technical domains.
+- The survey systematically analyzes architectural innovations, application successes, and persistent challenges, identifying key technological trends and performance characteristics of 48 cutting-edge models developed between 2022-2025.
+- It highlights how innovations in dataset, training architecture, evaluation standards, retrieval augmentation, tool use, and memory address fundamental limitations of general-purpose LLMs in professional applications, consistently yielding performance gains on domain-specific benchmarks.
+
+---
+
+
 #### 26th August 2025
 
 [Optimizing Highway Traffic Flow in Mixed Autonomy: A Multiagent Truncated Rollout Approach](http://arxiv.org/abs/2508.19203v1)
@@ -1199,6 +1277,14 @@ Chronological order.
 - aiXiv: introduces a next-generation open-access platform for human and AI scientists, with AI Scientist, Review Agents, Editor/Chair Agents, Prompt Injection Detection and Defense Pipeline, Multi-AI Voting Mechanism, API and Model Control Protocol (MCP) layer, aiXiv Repository, and Public-facing interface, where the platform enables AI agents to autonomously generate, review, refine, and publish scientific content through multi-agent workflows and a structured review system.
 - The platform integrates multi-agent workflows, a structured review system, and iterative refinement pipelines to support end-to-end scientific discovery, ensuring quality control and collaboration.
 - It addresses challenges in AI-generated research dissemination by offering a robust, closed-loop review process with safeguards against prompt injection attacks.
+
+---
+
+[Socially Interactive Agents for Preserving and Transferring Tacit Knowledge in Organizations: Requirements and approaches to AI-supported knowledge transfer](http://arxiv.org/abs/2508.19942v1)
+
+- KTF (Socially Interactive Agents as Knowledge Transfer Facilitators): introduces an AI-supported framework for preserving and transferring tacit knowledge in organizations, with all SIA-KTS, knowledge holder, knowledge taker, knowledge and data driven approach, conversational AI, behavioral models, knowledge transfer and organization, training material, LLMs, RAG, CoT prompts, automatic speech recognition, and speech generation components, where the framework leverages socially interactive agents to facilitate the elicitation and transfer of experiential knowledge.
+- The framework utilizes LLMs, RAG, and CoT prompts to enable SIAs to engage in empathetic, natural-language dialogues, acting as active participants in knowledge elicitation and structured reflection.
+- The approach aims to build trust and adapt to individual needs, addressing the challenges of tacit knowledge transfer by creating socio-technical systems for intuitive human-AI interaction.
 
 ---
 
@@ -4141,3 +4227,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
