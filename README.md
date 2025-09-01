@@ -320,6 +320,15 @@ Chronological order.
 
 ---
 
+[HCQA: Hybrid Classical-Quantum Agent for Generating Optimal Quantum Sensor Circuits](http://arxiv.org/abs/2508.21246v1)
+
+- HCQA (Hybrid Classical-Quantum Agent): introduces a hybrid AI-quantum framework for generating optimal Quantum Sensor Circuits (QSCs), integrating a DQN for policy optimization and a quantum-based action selection mechanism, where QFI serves as the reward signal.
+- The framework leverages a quantum circuit to encode the agent's state using Ry gates, create action superpositions with H gates, and measure for probabilistic action outcomes, guided by Q-values.
+- This approach efficiently produces entangled quantum states by selecting sequences of Rx, Ry, and S gates that maximize QFI while minimizing gate complexity, enhancing quantum metrology and control tasks.
+
+---
+
+
 #### 27th August 2025
 
 [Symphony: A Decentralized Multi-Agent Framework for Scalable Collective Intelligence](https://github.com/GradientHQ/Symphony.git)
@@ -1304,7 +1313,7 @@ Chronological order.
 
 ---
 
-[AgentScope 1.0: A Developer-Centric Framework for Building Agentic Applications](https://github.com/agentscope-ai/agentscope)
+[AgentScope 1.0: A Developer-Centric Framework for Building Agentic Applications](https://arxiv.org/abs/2508.16279)
 
 - AgentScope: introduces a developer-centric framework for building agentic applications, with foundational components (message, model API, memory, tool), agent-level infrastructure (ReAct paradigm, built-in agents), multi-agent cooperation (MsgHub, pipeline), deployment (AgentScope Runtime), and development (AgentScope Studio) modules, enabling flexible and efficient tool-based agent-environment interactions.
 - The framework grounds agent behaviors in the ReAct paradigm, offering advanced agent-level infrastructure with asynchronous design, parallel tool calls, and real-time steering to enhance human-agent and agent-agent interaction efficiency.
@@ -1317,14 +1326,6 @@ Chronological order.
 - BAD-ACTS (Benchmark of ADversarial ACTionS): introduces a novel benchmark for evaluating the robustness of LLM-based agentic systems against adversarially-induced harms, featuring four distinct application environments, various agents with defined roles and tools, and a dataset of 188 high-quality harmful actions.
 - The benchmark includes an Adversarial Agent component to simulate attacks, aiming to manipulate other agents into performing specific harmful actions, and evaluates defense mechanisms like Adversary Aware Prompting and Guardian Agents.
 - BAD-ACTS provides a comprehensive testbed for security research, enabling the study of agentic system vulnerabilities across different communication structures, harmful behavior categories, and LLM models.
-
----
-
-[AgentScope 1.0: A Developer-Centric Framework for Building Agentic Applications](https://github.com/agentscope-ai/agentscope)
-
-- AgentScope: introduces a developer-centric framework for building agentic applications, with foundational components (message, model API, memory, tool), agent-level infrastructure (ReAct paradigm, built-in agents), multi-agent cooperation (MsgHub, pipeline), deployment (AgentScope Runtime), and development (AgentScope Studio) modules, enabling flexible and efficient tool-based agent-environment interactions.
-- The framework grounds agent behaviors in the ReAct paradigm, offering advanced agent-level infrastructure with asynchronous design, parallel tool calls, and real-time steering to enhance human-agent and agent-agent interaction efficiency.
-- AgentScope provides robust engineering support through its Studio for visual monitoring and evaluation, and a runtime sandbox for safe execution and rapid deployment of scalable, adaptive, and effective agentic applications.
 
 ---
 
@@ -1447,6 +1448,16 @@ Chronological order.
 - The Complex Scenario Evolution stage enhances these threats by building an Adversarial Collaborator Graph to identify and perturb key background vehicle trajectories, maximizing adversarial impact and creating critical occlusions.
 
 ---
+
+[Exploring Generative Artificial Intelligence (GenAI) and AI Agents in Research and Teaching – Concepts and Practical Cases.](http://arxiv.org/abs/2508.16701v2)
+
+- GenAI and AI Agents Framework: introduces "Exploring Generative Artificial Intelligence (GenAI) and AI Agents in Research and Teaching – Concepts and Practical Cases", with Generative Artificial Intelligence (GenAI) (new content creation), Large Language Models (LLMs) (language generation engine), AI Agents (autonomous multi-step task execution), Core GenAI Models (underlying generative architectures), GenAI Development Cycle (model lifecycle management), User Interaction Mechanisms (prompting/embeddings/sampling), AI Agent Types (reflex/model-based/goal-based/utility-based/learning/multi-agent), Research Process Agents (ideation/literature/design/analysis/writing/review), Teaching Process Agents (course planning/lecture planning/classroom/tutor/assessment), Governance & Ethical Principles (responsible AI use), and TurkuEval Platform (AI-based assessment), where the paper provides a comprehensive overview of GenAI and AI agents, their operational principles, and practical applications in academic research and education.
+- The framework details how GenAI, powered by LLMs and various core models, facilitates content generation and autonomous task execution through AI agents across the entire research process, from ideation to publication, and throughout the teaching cycle, from course planning to assessment.
+- It also addresses the ethical, social, and environmental challenges of GenAI, emphasizing the need for human oversight, critical evaluation, and responsible development to ensure sustainable and fair integration into society.
+
+---
+
+
 
 #### 21st August 2025
 
@@ -1811,6 +1822,17 @@ Chronological order.
 - The approach aims to build trust and adapt to individual needs, addressing the challenges of tacit knowledge transfer by creating socio-technical systems for intuitive human-AI interaction.
 
 ---
+
+
+[Adaptive Vision-Based Coverage Optimization in Mobile Wireless Sensor Networks: A Multi-Agent Deep Reinforcement Learning Approach](http://arxiv.org/abs/2508.14676v1)
+
+- MADRL (Multi-Agent Deep Reinforcement Learning): introduces a novel vision-based approach for adaptive coverage optimization in Mobile Wireless Sensor Networks, with Camera System (overhead monitoring), Image Capture (visual data acquisition), LED Detection (DL) (active sensor identification), Sensor Localization & Status Detection (position and state determination), RL Engine (DQN + MARL) (policy learning), Sensor Movement Decision (action selection), and Sensor Relocation (Environment Update) (physical sensor movement) components, enabling mobile sensors to autonomously position themselves for maximum area coverage.
+- The system utilizes a live camera and deep learning for real-time monitoring of sensor LED indicators to evaluate coverage and compute rewards, facilitating decentralized, cooperative sensor control.
+- This approach significantly enhances adaptability, energy efficiency, and robustness in MWSNs by eliminating predefined policies and allowing self-reconfiguration in response to energy depletion and environmental changes.
+
+---
+
+
 
 #### 19th August 2025
 
@@ -4751,34 +4773,3 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
-#### 2nd August 2025
-
-[Exploring Generative Artificial Intelligence (GenAI) and AI Agents in Research and Teaching – Concepts and Practical Cases.](http://arxiv.org/abs/2508.16701v2)
-
-- GenAI and AI Agents Framework: introduces "Exploring Generative Artificial Intelligence (GenAI) and AI Agents in Research and Teaching – Concepts and Practical Cases", with Generative Artificial Intelligence (GenAI) (new content creation), Large Language Models (LLMs) (language generation engine), AI Agents (autonomous multi-step task execution), Core GenAI Models (underlying generative architectures), GenAI Development Cycle (model lifecycle management), User Interaction Mechanisms (prompting/embeddings/sampling), AI Agent Types (reflex/model-based/goal-based/utility-based/learning/multi-agent), Research Process Agents (ideation/literature/design/analysis/writing/review), Teaching Process Agents (course planning/lecture planning/classroom/tutor/assessment), Governance & Ethical Principles (responsible AI use), and TurkuEval Platform (AI-based assessment), where the paper provides a comprehensive overview of GenAI and AI agents, their operational principles, and practical applications in academic research and education.
-- The framework details how GenAI, powered by LLMs and various core models, facilitates content generation and autonomous task execution through AI agents across the entire research process, from ideation to publication, and throughout the teaching cycle, from course planning to assessment.
-- It also addresses the ethical, social, and environmental challenges of GenAI, emphasizing the need for human oversight, critical evaluation, and responsible development to ensure sustainable and fair integration into society.
-
----
-
-#### 20th August 2024
-
-[HCQA: Hybrid Classical-Quantum Agent for Generating Optimal Quantum Sensor Circuits](http://arxiv.org/abs/2508.21246v1)
-
-- HCQA (Hybrid Classical-Quantum Agent): introduces a hybrid AI-quantum framework for generating optimal Quantum Sensor Circuits (QSCs), integrating a DQN for policy optimization and a quantum-based action selection mechanism, where QFI serves as the reward signal.
-- The framework leverages a quantum circuit to encode the agent's state using Ry gates, create action superpositions with H gates, and measure for probabilistic action outcomes, guided by Q-values.
-- This approach efficiently produces entangled quantum states by selecting sequences of Rx, Ry, and S gates that maximize QFI while minimizing gate complexity, enhancing quantum metrology and control tasks.
-
----
-
-#### 14th August 2024
-
-[Adaptive Vision-Based Coverage Optimization in Mobile Wireless Sensor Networks: A Multi-Agent Deep Reinforcement Learning Approach](http://arxiv.org/abs/2508.14676v1)
-
-- MADRL (Multi-Agent Deep Reinforcement Learning): introduces a novel vision-based approach for adaptive coverage optimization in Mobile Wireless Sensor Networks, with Camera System (overhead monitoring), Image Capture (visual data acquisition), LED Detection (DL) (active sensor identification), Sensor Localization & Status Detection (position and state determination), RL Engine (DQN + MARL) (policy learning), Sensor Movement Decision (action selection), and Sensor Relocation (Environment Update) (physical sensor movement) components, enabling mobile sensors to autonomously position themselves for maximum area coverage.
-- The system utilizes a live camera and deep learning for real-time monitoring of sensor LED indicators to evaluate coverage and compute rewards, facilitating decentralized, cooperative sensor control.
-- This approach significantly enhances adaptability, energy efficiency, and robustness in MWSNs by eliminating predefined policies and allowing self-reconfiguration in response to energy depletion and environmental changes.
-
----
-
