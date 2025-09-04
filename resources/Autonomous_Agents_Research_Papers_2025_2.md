@@ -50,6 +50,309 @@ Chronological order.
 
 
 
+
+
+#### 11th August 2025
+
+[LL3M: Large Language 3D Modelers](http://arxiv.org/abs/2508.08228v1)
+
+- LL3M (Large Language 3D Modelers): introduces a multi-agent framework for generating and editing 3D assets in Blender by writing interpretable Python code, featuring an External Orchestrator, Planner Agent, Retrieval Agent, BlenderRAG, Coding Agent, Critic Agent, Verification Agent, User Agent, Blender, and Vision-Language Model.
+- This system reformulates shape generation as a code-writing task, enabling modularity, editability, and integration with artist workflows through iterative refinement.
+- It leverages a retrieval-augmented generation knowledge base (BlenderRAG) for advanced modeling operations and supports user-driven co-creation and precise local edits.
+
+---
+
+[From Natural Language to Solver-Ready Power System Optimization: An LLM-Assisted, Validation-in-the-Loop Framework](http://arxiv.org/abs/2508.08147v1)
+
+- LLM-Assisted, Validation-in-the-Loop Framework: introduces an LLM-assisted agent that converts natural-language power system optimization scenarios into solver-ready formulations and solutions, integrating an LLM-driven Parser, Schema & Data Validator, Iterative Repair Loop, LLM-driven Formulation Generator, Guidance Module, MILP Solver, Solution Validator, Diagnostics Loop, and Reports & Visualization.
+- The framework leverages LLMs for parsing and formulation generation, while relying on established MILP solvers for numerical precision and constraint handling, ensuring feasibility and optimality.
+- It enhances solution reliability through systematic validation and iterative repair, and accelerates computation via optional GNN-guided branching and LLM-based separator configuration.
+
+---
+
+[CAN LLMS DETECT THEIR CONFABULATIONS? ESTIMATING RELIABILITY IN UNCERTAINTY-AWARE LANGUAGE MODELS](http://arxiv.org/abs/2508.08139v1)
+
+- Uncertainty-Guided Probing: introduces a method to detect LLM confabulations by leveraging token-level uncertainty and internal model representations, where the approach computes aleatoric and epistemic uncertainty from output logits and aggregates hidden states from salient tokens for response-level reliability prediction.
+- The method employs probing-based classifiers trained on token-level hidden states, using uncertainty-guided token selection strategies to form robust reliability features.
+- Experiments demonstrate that this approach improves the detection of unreliable LLM outputs across various open-source models, outperforming direct uncertainty metrics.
+
+---
+
+[MuaLLM: A Multimodal Large Language Model Agent for Circuit Design Assistance with Hybrid Contextual Retrieval-Augmented Generation](http://arxiv.org/abs/2508.08137v1)
+
+- MuaLLM (Multimodal Large Language Model Agent): introduces an open-source LLM agent for circuit design assistance, integrating a hybrid RAG framework and an adaptive vector database with a ReAct workflow for iterative reasoning and multi-step information retrieval.
+- This system processes both textual and visual data, dynamically adapting through intelligent search tools, automated document retrieval, and real-time database updates.
+- MuaLLM decouples retrieval from inference, enabling scalable reasoning over large corpora, achieving significant cost and speed efficiencies compared to conventional LLMs at maximum context lengths.
+
+---
+
+[BlindGuard: Safeguarding LLM-based Multi-Agent Systems under Unknown Attacks](http://arxiv.org/abs/2508.08127v1)
+
+- BlindGuard: introduces an unsupervised defense framework for LLM-based Multi-Agent Systems (MAS), integrating a Hierarchical Agent Encoder (Generates agent representations), a Corruption-Guided Attack Detector (Identifies malicious agents), and a Pruning-based Remediation Module (Isolates malicious agents) to safeguard against unknown attacks.
+- The framework utilizes SentenceBERT (Encodes textual responses) for agent node features and an LLM (Generates agent responses) for agent interactions, while the detector employs Corruption-based Attack Simulation (Synthesizes pseudo-anomalies), Supervised Contrastive Learning (Trains detection model), and Contextual Similarity Measurement (Estimates agent abnormality).
+- This approach learns solely from normal agent behaviors, enabling effective detection of diverse attack types and maintaining superior generalizability compared to supervised baselines.
+
+---
+
+[TeamMedAgents: Enhancing Medical Decision-Making of LLMs Through Structured Teamwork](http://arxiv.org/abs/2508.08115v1)
+
+- TeamMedAgents: introduces a novel multi-agent approach that systematically integrates evidence-based teamwork components from human-human collaboration into medical decision-making with LLMs, featuring a Recruiter Agent (assembles specialized medical experts), Specialized Agents (medical experts with task-specific weights), Team Leadership (leader agent for coordination/synthesis), Mutual Performance Monitoring (systematic peer review/issue detection), Team Orientation (prioritizes collective diagnostic accuracy), Shared Mental Models (ensures consistent workflow understanding), Closed-Loop Communication (structured three-step communication), Mutual Trust (dynamic trust networks/information sharing), Knowledge Bank (shared information repository), and Multi-Round Collaborative Reasoning (structured three-round problem solving).
+- The framework operationalizes six core teamwork components derived from Salas et al.'s "Big Five" model as modular, configurable mechanisms within an adaptive collaboration architecture.
+- TeamMedAgents demonstrates consistent performance improvements across medical benchmarks, with optimal teamwork configurations varying by reasoning task complexity and domain-specific requirements.
+
+---
+
+[ChatGPT on the Road: Leveraging Large Language Model-Powered In-vehicle Conversational Agents for Safer and More Enjoyable Driving Experience](http://arxiv.org/abs/2508.08101v1)
+
+- CARA (Conversational Automotive Response Agent): introduces an LLM-powered in-vehicle conversational agent designed for bidirectional, multi-turn dialogues, evaluated in a motion-based driving simulator to compare its impact on driving performance and user experience against pre-scripted and no-agent conditions.
+- The system leverages OpenAI's ChatGPT-4 for dynamic, context-rich, and affectively empathic responses, aiming to enhance driving safety and user satisfaction through natural human-agent interaction.
+- The study's findings indicate that the LLM-powered agent leads to more stable driving performance and higher subjective ratings in competence, animacy, affective trust, and preference, while also revealing diverse interaction patterns.
+
+---
+
+[AdaptFlow: Adaptive Workflow Optimization via Meta-Learning](http://arxiv.org/abs/2508.08053v1)
+
+- AdaptFlow (Adaptive Workflow Optimization via Meta-Learning): introduces a natural language-based meta-learning framework for optimizing agentic workflows, with Task Clustering, Bi-Level Workflow Optimization, Test-Time Adaptation, and Workflow Modules, where it learns a generalizable workflow initialization for rapid subtask-level adaptation.
+- The framework employs a bi-level optimization scheme where the Inner Loop refines workflows using LLM-generated feedback, while the Outer Loop consolidates these refinements into a shared initialization.
+- AdaptFlow generalizes effectively to unseen tasks by adapting the initialized workflow through language-guided modifications, outperforming baselines in question answering, code generation, and mathematical reasoning.
+
+---
+
+[WideSearch: Benchmarking Agentic Broad Info-Seeking](http://arxiv.org/abs/2508.07999v1)
+
+- WideSearch: introduces a new benchmark and evaluation framework designed to assess the reliability of LLM-powered search agents in wide-context information seeking tasks, featuring a multi-stage Data Curation and Validation Pipeline and an Automated Evaluation Pipeline.
+- The benchmark includes 200 manually curated questions across 15 diverse domains, requiring agents to collect and organize large-scale atomic information into structured outputs.
+- The evaluation framework combines deterministic rule-based checks with LLM-as-a-judge for nuanced scoring, revealing current agent systems have critical deficiencies in large-scale information seeking.
+
+---
+
+[FEAT: A Multi-Agent Forensic AI System with Domain-Adapted Large Language Model for Automated Cause-of-Death Analysis](http://arxiv.org/abs/2508.07950v1)
+
+- FEAT (ForEnsic AgenT): introduces a multi-agent AI framework for automated cause-of-death analysis, integrating a Planner (task decomposition), Local Solvers (evidence analysis), Reflection & Memory (iterative refinement), and a Global Solver (conclusion synthesis).
+- The system processes heterogeneous multi-source forensic inputs, employing tool-augmented reasoning, hierarchical retrieval-augmented generation, and forensic-tuned LLMs to produce court-ready long-form analyses and short-form conclusions.
+- FEAT incorporates human-in-the-loop feedback and iterative self-correction to ensure legal and medical validity, addressing workforce shortages and diagnostic variability in medicolegal infrastructure.
+
+---
+
+[SHIELDA: STRUCTURED HANDLING OF EXCEPTIONS IN LLM-DRIVEN AGENTIC WORKFLOWS](http://arxiv.org/abs/2508.07935v1)
+
+- SHIELDA (Structured HandlIng of Exceptions in LLM-Driven Agentic Workflows): introduces a modular runtime framework for LLM agentic workflows, integrating an Exception Classifier (identifies exception type, phase, artifact), a Handler Pattern Registry (stores predefined handler patterns), a Handling Executor (orchestrates selected handler pattern execution), and an Escalation Controller (manages unrecoverable exception pathways), all supported by AgentOps Infrastructure (monitoring, logging, evaluation support).
+- The framework enables phase-aware recovery by linking exceptions to their root causes and facilitates composable strategies through its triadic handling model, which includes Local Handling (immediate actions), Flow Control (process continuation), and State Recovery (state repair).
+- SHIELDA systematically detects, classifies, and handles critical exceptions in LLM-driven agentic workflows, moving beyond ad-hoc error mitigation to a structured, engineering-based approach for managing agent exceptions.
+
+---
+
+[Multi-agent systems for chemical engineering: A review and perspective](http://arxiv.org/abs/2508.07880v1)
+
+- Multi-agent systems (MAS) for chemical engineering: introduces a vision for interconnected, human-centric MAS that integrates core collaborative agents, human oversight, communication, transparency, domain-specific tools, databases, multimodal data processing, and cross-scale integration, leveraging a chemical engineering foundation model for diverse task executions.
+- This vision aims to transform chemical engineering workflows by enabling intelligent and transparent decision-making across scales, from molecular to plant-wide operations.
+- The paper reviews current MAS applications in chemical engineering, identifies key challenges, and outlines future developments needed for widespread adoption, emphasizing reliability and safety.
+
+---
+
+[Evaluating Large Language Models as Expert Annotators](http://arxiv.org/abs/2508.07827v1)
+
+- Multi-Agent Discussion Framework: introduces a collaborative annotation system where multiple LLMs engage in discussions to reach consensus on expert-level data annotation tasks, incorporating initial annotation generation, consensus checks, discussion history, revised annotation generation, and majority voting.
+- This framework simulates human annotator peer discussions to enhance accuracy and inter-annotator agreement in specialized domains like finance, biomedicine, and law.
+- The study evaluates individual LLMs with inference-time techniques and finds that while the multi-agent approach improves performance, it still falls short of human expert capabilities due to model behaviors like strong self-consistency and imprecise revisions.
+
+---
+
+[SimViews: An Interactive Multi-Agent System Simulating Visitor-to-Visitor Conversational Patterns to Present Diverse Perspectives of Artifacts in Virtual Museums](http://arxiv.org/abs/2508.07730v1)
+
+- SimViews: introduces an interactive multi-agent system that simulates visitor-to-visitor conversational patterns to present diverse perspectives of artifacts in virtual museums, featuring a User, LLM-powered Visitor Agents with distinct professional identities, a Virtual Museum Setup, and a Multi-Pattern Conversational Framework, all built within Unity and leveraging Spark LLM and Azure speech services.
+- The system employs LLM-powered multi-agents to simulate virtual visitors with varied professional identities, providing diverse interpretations of artifacts through four distinct conversational patterns between users and agents.
+- The framework integrates multimodal representations for agents, including 3D avatars and synthesized voices, to enhance user engagement and understanding of diverse viewpoints within the virtual museum environment.
+
+---
+
+[1-2-3 Check: Enhancing Contextual Privacy in LLM via Multi-Agent Reasoning](http://arxiv.org/abs/2508.07667v1)
+
+- 1-2-3 Check: introduces a multi-agent framework for enhancing contextual privacy in LLMs, with an Extractor Agent (extracts, classifies events), a Checker Agent (validates, filters content), and an Executor Agent (generates privacy-aware summary).
+- This framework decomposes privacy reasoning into specialized subtasks, reducing cognitive load on individual LLM agents and enabling iterative validation for reliable adherence to contextual privacy norms.
+- Experiments demonstrate that the multi-agent approach substantially reduces private information leakage while preserving public content fidelity, outperforming single-agent baselines.
+
+---
+
+[MCPTOOLBENCH++: A LARGE SCALE AI AGENT MODEL CONTEXT PROTOCOL MCP TOOL USE BENCHMARK](http://arxiv.org/abs/2508.07575v1)
+
+- MCPToolBench++ (Model Context Protocol MCP Tool Use Benchmark): introduces a large-scale, multi-domain AI Agent tool use benchmark with Query Set, MCP Function Call Label, Post-Processing: Rewriting & Validation, Query Generator, Tool Call Chain Filter, Code Dictionaries, Single-Step Call, Multi-Step Calls, Tool Sampler, LLM Calling, Storage & Files, MCP Tool Schema, Dataset, MCP Marketplace, and Database & Files, designed to evaluate LLMs' performance on calling MCP tools.
+- The benchmark addresses challenges in evaluating LLMs' MCP tool use, including the lack of comprehensive datasets, diverse response formats, and varied real-world tool success rates.
+- It features an automatic pipeline for data preparation, collecting over 4k MCP servers from 40+ categories, and includes both single-step and multi-step tool calls.
+
+---
+
+[End-to-End Text-to-SQL with Dataset Selection: Leveraging LLMs for Adaptive Query Generation](http://arxiv.org/abs/2508.06387v2)
+
+- End-to-End Text-to-SQL Framework with Dataset Selection: introduces an end-to-end text-to-SQL system that automatically identifies the target database and refines generated SQL queries, integrating LLMs for rule generation and SQL generation, a RoBERTa-based model for database ID prediction, and a multi-agent self-correction module.
+- The framework addresses the limitation of pre-specified target databases by predicting the correct database identifier using LLM-generated rules and a finetuned RoBERTa encoder, enhancing scalability for diverse databases.
+- Its multi-agent self-correction module, comprising Feedback, Correction, and Manager Agents, iteratively refines SQL queries, improving accuracy and robustness through a continual feedback loop.
+
+---
+
+[PROV-AGENT: Unified Provenance for Tracking AI Agent Interactions in Agentic Workflows](http://arxiv.org/abs/2508.02866v2)
+
+- PROV-AGENT (Unified Provenance Model): introduces a provenance model that extends W3C PROV and leverages the Model Context Protocol (MCP) and data observability to integrate AI agent interactions into end-to-end workflow provenance, with AIAgent (AI agent representation), AgentTool (AI agent tool execution), AIModelInvocation (AI model call), AIModel (AI model metadata), Prompt (AI model input), ResponseData (AI model output), DomainData (workflow specific data), SchedulingData (task execution context), TelemetryData (runtime performance metrics), Campaign (workflow collection activity), Workflow (workflow execution activity), Task (workflow unit activity), W3C PROV (foundational provenance standard), Model Context Protocol (MCP) (agent development concepts), and Flowcept (open-source implementation system).
+- This model unifies AI agent actions, model invocations, and their relationships with non-agentic tasks and data, enabling comprehensive traceability and analysis in dynamic, heterogeneous agentic workflows.
+- Implemented within the Flowcept open-source system, it supports critical provenance queries for root cause analysis, debugging, and continuous agent improvement across edge, cloud, and HPC environments.
+
+---
+
+[Agent-Based Anti-Jamming Techniques for UAV Communications in Adversarial Environments: A Comprehensive Survey](http://arxiv.org/abs/2508.11687v1)
+
+- P-D-A (Perception-Decision-Action) closed-loop framework: introduces an agent-based anti-jamming approach for UAV communications, featuring Perception (gathering/interpreting environment info), Decision Making (analyzing info, determining actions), and Action Execution (executing decisions, influencing environment).
+- This framework enables UAVs to autonomously perceive complex electromagnetic environments, formulate intelligent anti-jamming strategies, and execute countermeasures.
+- The approach leverages game theory and reinforcement learning to model adversarial interactions and derive adaptive anti-jamming strategies for robust UAV operation.
+
+---
+
+[ReconDreamer-RL: Enhancing Reinforcement Learning via Diffusion-based Scene Reconstruction](http://arxiv.org/abs/2508.08170v1)
+
+- ReconDreamer-RL (ReconDreamer-RL: Enhancing Reinforcement Learning via Diffusion-based Scene Reconstruction): introduces a framework for end-to-end autonomous driving training, integrating ReconSimulator, Dynamic Adversary Agent (DAA), and Cousin Trajectory Generator (CTG).
+- The framework integrates video diffusion priors into scene reconstruction to create realistic and explorable environments, reducing the sim2real gap for reinforcement learning.
+- It improves training by generating diverse corner-case scenarios and enriching sensor data, leading to a 5x reduction in collision ratio.
+
+---
+
+[Toward Goal-Oriented Communication in Multi-Agent Systems: An overview](http://arxiv.org/abs/2508.07720v1)
+
+- GOC (Goal-Oriented Communication) in MAS (Multi-Agent Systems): introduces a comprehensive overview of goal-oriented communication in multi-agent systems, bridging perspectives from information theory, communication theory, and machine learning, with all its components, where it prioritizes task-relevant information exchange over traditional fidelity or bandwidth optimization.
+- This overview examines foundational concepts, learning-based approaches, and emergent protocols, focusing on coordination under communication constraints and applications in domains like swarm robotics, federated learning, and edge computing.
+- The paper aims to bridge theoretical foundations with practical distributed learning, control, and perception, establishing a common language for researchers and practitioners in semantic and goal-oriented communication.
+
+---
+
+[Risk Map As Middleware: Towards Interpretable Cooperative End-to-end Autonomous Driving for Risk-Aware Planning](http://arxiv.org/abs/2508.07686v1)
+
+- RiskMM (Risk Map as Middleware): introduces an interpretable cooperative end-to-end autonomous driving framework with a Scenario Awareness Module (captures spatiotemporal representation), Risk Recognition Module (explicitly models driving risk), and Trajectory Planning Module (generates planning trajectories), where the risk map acts as middleware for risk-aware planning.
+- The framework explicitly captures spatiotemporal risk distribution from multi-agent scenario representations and integrates a learning-based Model Predictive Control (MPC) module for interpretable trajectory generation under physical constraints.
+- RiskMM enhances interpretability and safety in autonomous driving by providing explicit guidance for downstream planning and accommodating diverse vehicle types and driving conditions.
+
+---
+
+[Remote ID Based UAV Collision Avoidance Optimization for Low-Altitude Airspace Safety](http://arxiv.org/abs/2508.07651v1)
+
+- DMUCA (Distributed Multi-UAV Collision Avoidance) framework: introduces a real-time distributed collision avoidance system for UAVs, with UAVs, Remote ID, GNSS, BLE 4/5, Wi-Fi, Trajectory Prediction, ORCA Method, Path Recovery, and MADQN-ATMC Algorithm, where UAVs autonomously learn optimal communication configurations to minimize delays and enhance collision avoidance.
+- This framework enables UAVs to independently acquire situational awareness, predict trajectories, and make collision avoidance decisions without centralized control.
+- The MADQN-ATMC algorithm significantly reduces average transmission delay by 32% compared to fixed protocol configurations, enhancing airspace safety and operational efficiency.
+
+---
+
+[Joint Scheduling and Resource Allocation in mmWave IAB Networks Using Deep RL](http://arxiv.org/abs/2508.07604v1)
+
+- DRL framework: introduces a novel Deep Reinforcement Learning (DRL) framework for joint link scheduling and resource slicing in mmWave IAB networks, integrating a greedy DDQN scheduler (activates links) and a multi-agent DDQN allocator (allocates resources), supported by an online network Q(s, a;θ) (action selection), a target network Q(s, a;θ¯) (stable value estimation), and an experience replay buffer (stores training samples).
+- This decentralized approach enables fine-grained, adaptive control under strict resource constraints, supporting concurrent scheduling of various link types (UE-to-IAB, IAB-to-IAB, and donor gNB-IAB).
+- Evaluations demonstrate near-optimal scheduling accuracy (99.84%) and significant throughput gains (20.90%) over baselines, highlighting its suitability for dynamic and resource-constrained deployments.
+
+---
+
+[Progressive Bird's-Eye-View Perception for Safety-Critical Autonomous Driving: A Comprehensive Survey](http://arxiv.org/abs/2508.07560v1)
+
+- SafeBEV (Progressive Bird's-Eye-View Perception): introduces a comprehensive survey of BEV perception for autonomous driving, categorizing methods into three progressive stages: SafeBEV 1.0 (single-modality vehicle-side perception), SafeBEV 2.0 (multimodal vehicle-side perception), and SafeBEV 3.0 (multi-agent collaborative perception).
+- The survey systematically analyzes state-of-the-art frameworks and implementation strategies within each stage, highlighting their characteristics, advancements, advantages, and challenges for safety and robustness.
+- It also examines public datasets, identifies key open-world challenges, and outlines future research directions, including integration with end-to-end autonomous driving systems, embodied intelligence, and LLMs.
+
+---
+
+#### 10th August 2025
+
+[LLM-based Agents for Automated Confounder Discovery and Subgroup Analysis in Causal Inference](http://arxiv.org/abs/2508.07221v1)
+
+- LLM-based Agents for Automated Confounder Discovery and Subgroup Analysis: introduces a framework that integrates LLM-based agents into the causal ML pipeline to simulate domain expertise, systematically performing subgroup identification and confounding structure discovery by leveraging the reasoning capabilities of LLM-based agents, which includes Planner, Expert, Toolbox, Reasoner, Retrieval Augmented Generation (RAG), Causal Tree, Mixture of Experts (MoE) model, Confidence Intervals, and an Iterative Refinement Process.
+- The framework constructs a Mixture of Experts (MoE) model composed of causal trees through a two-step iterative process involving confounder verification and uncertainty evaluation, aiming to balance model interpretability with precise estimation of heterogeneous treatment effects.
+- This approach enhances treatment effect estimation robustness by narrowing confidence intervals and uncovering unrecognized confounding biases, reducing human dependency while preserving interpretability in causal inference.
+
+---
+
+[Grounding Natural Language for Multi-agent Decision-Making with Multi-agentic LLMs](http://arxiv.org/abs/2508.07466v1)
+
+- Multi-agentic LLM Framework: introduces a systematic framework for designing multi-agentic LLMs, with LLM (core reasoning engine), Adapter (parameter-efficient fine-tuning), RAG Search (retrieves memory context), Embedding (converts data to vector representations), Multi-modal Module (processes non-textual inputs), Environment (simulates game world), Mechanisms (game rule modifications), Alignment Judge (evaluates agent behavior), Fine-tuning Updates (adjusts LLM parameters), Decentralized Context Windows (agent-specific context), Multi-stage Prompt Chaining (iterative decision-making process), Memory System (stores past interactions), and Mechanism Designer LLM (adapts game rules).
+- The framework enhances LLMs' capabilities by integrating them with multi-agent decision-making algorithms, focusing on advanced prompt engineering, effective memory architectures, multi-modal information processing, and alignment strategies.
+- It evaluates design choices through ablation studies on classic game settings, demonstrating effectiveness in addressing social dilemmas and achieving key solution concepts in distributed settings.
+
+---
+
+[MAQUA: Adaptive Question-Asking for Multidimensional Mental Health Screening using Item Response Theory](http://arxiv.org/abs/2508.07279v1)
+
+- MAQUA: introduces an adaptive question-asking framework for multidimensional mental health screening, with Multi-outcome Modeling (captures mental health scores), Factor Analysis (identifies latent trait structure), Multidimensional IRT (guides adaptive question selection), Item Prompt Pool (stores available questions), Response List (stores collected responses), Fisher Information Matrix (determines question informativeness), Latent Trait Estimation (updates mental health scores), and Diagnostic Profile (final mental health assessment), which combines multi-outcome modeling with item response theory and factor analysis to optimize diagnostic information and reduce response burden.
+- The framework adaptively selects the most informative questions across multiple dimensions at each turn, inferring multiple underlying condition scores simultaneously.
+- MAQUA significantly reduces the number of assessment questions required for score stabilization by leveraging information gain across multiple mental health conditions.
+
+---
+
+[Multi-Dimensional Summarization Agents with Context-Aware Reasoning over Enterprise Tables](http://arxiv.org/abs/2508.07186v1)
+
+- MDSA (Multi-Dimensional Summarization Agents): introduces a novel framework for summarizing structured enterprise data using LLM-based agents, with components including User Input (initiates process), LangGraph (orchestrates workflow), SliceAgent (filters data), VarianceAgent (computes deltas), ContextAgent (enriches context), SummaryAgent (formats prompt), and LLM Endpoint (generates summary).
+- This multi-agent pipeline decomposes summarization into sub-tasks like slicing, variance calculation, context enrichment, and generation to enhance interpretability, faithfulness, and flexibility.
+- The modular approach enables dynamic summarization tailored to executive needs while remaining grounded in actual data deltas, outperforming traditional methods in faithfulness, coverage, and relevance.
+
+---
+
+[Schema Lineage Extraction at Scale: Multilingual Pipelines, Composite Evaluation, and Language-Model Benchmarks](http://arxiv.org/abs/2508.07179v1)
+
+- Automated Schema Lineage Extraction Framework: introduces a method for automated schema lineage extraction from multilingual enterprise pipeline scripts, utilizing Language Models and Prompting Strategies, and evaluated by SLiCE, to produce structured Schema Lineage.
+- The framework addresses semantic drift in data pipelines by capturing source schemas, tables, transformation logic, and aggregation operations into a standardized representation.
+- Experiments demonstrate that LLM performance scales with model size and prompting sophistication, with a 32B open-source model achieving GPT-series comparable results.
+
+---
+
+[Game Reasoning Arena: A Framework and Benchmark for Assessing Reasoning Capabilites of Large Language Models via Game Play](http://arxiv.org/abs/2508.03368v2)
+
+- Game Reasoning Arena: introduces a framework for evaluating LLM decision-making in strategic board games, integrating game environments, diverse agent types, and multiple LLM inference backends for systematic comparisons and analysis.
+- The framework leverages Google's OpenSpiel for game emulation, supports various game scenarios including multi-agent settings, and provides a structured prompting system for consistent LLM interaction.
+- It enables scalable, distributed execution via Ray and SLURM, offering detailed logging and analysis tools to assess LLM reasoning, planning, and game-theoretic behavior.
+
+---
+
+[Noise-Aware Generative Microscopic Traffic Simulation](http://arxiv.org/abs/2508.07453v1)
+
+- Noise-Aware Generative Microscopic Traffic Simulation: introduces a framework for microscopic traffic simulation, with SMART model (GPT-style Transformer), noise-aware loss functions (improving robustness to noise), and I24-MSD Dataset (infrastructure-based noisy data), which addresses realistic vehicle behavior modeling by embracing sensor noise.
+- The framework adapts the SMART model, a GPT-style Transformer, and integrates noise-aware loss functions like Label Smoothing, Focal Loss, and Symmetric Cross-Entropy to enhance robustness against data imperfections.
+- The I24-MSD dataset, derived from infrastructure-mounted cameras, is designed to retain realistic sensor imperfections, serving as a stepping stone for more practical and robust traffic simulation models.
+
+---
+
+[A Comprehensive Survey of Self-Evolving AI Agents: A New Paradigm Bridging Foundation Models and Lifelong Agentic Systems](http://arxiv.org/abs/2508.07407v1)
+
+- MASE (Multi-Agent Self-Evolving): introduces a unified conceptual framework for self-evolving AI agents, which includes System Inputs (define task setting), Agent System (executes specified task), Environment (provides feedback signals), and Optimiser (refines agent system).
+- This framework abstracts the iterative feedback loop where the agent system is continuously updated based on performance evaluations and environmental interactions to adapt to changing tasks and contexts.
+- The framework aims to bridge static foundation models with lifelong agentic systems, enabling autonomous adaptation and continuous self-improvement guided by principles of safety, performance, and evolution.
+
+---
+
+[A SURVEY ON AGENTIC SERVICE ECOSYSTEMS: MEASUREMENT, ANALYSIS, AND OPTIMIZATION](http://arxiv.org/abs/2508.07343v1)
+
+- ECM (Emergent Construction Model): introduces a framework for analyzing swarm intelligence emergence in Agentic Service Ecosystems, with Measurement (evaluating service effectiveness), Analysis (understanding system behavior), and Optimization (improving system performance) components.
+- The framework addresses ecosystem complexity by shifting to nonlinear measurement, conducting multi-dimensional analysis (spatial-temporal, structural, functional), and employing direct/indirect optimization strategies.
+- It aims to provide theoretical support and practical guidance for fostering swarm intelligence formation and enhancing the governance of complex service systems.
+
+---
+
+[Bio-Inspired Topological Autonomous Navigation with Active Inference in Robotics](http://arxiv.org/abs/2508.07267v1)
+
+- AIF (Active Inference Framework): introduces a bio-inspired agent for autonomous navigation, unifying mapping, localisation, and adaptive decision-making, with Model (updates internal representation), Odometry (estimates agent position), Sensor Processing (gathers sensory data), Motion Control (executes movement), Mapping (creates topological map), Inferring Localisation (determines current state), Planning (generates trajectories), Camera (provides visual input), Lidar (provides range data), and Observation Module (processes sensory input), enabling real-time topological map creation and goal-directed trajectory planning without pre-training.
+- The system operates in a zero-shot, online fashion, continuously learning from incoming sensory data and adapting to dynamic obstacles and environmental changes.
+- The modular ROS2 architecture supports seamless integration with existing robotic platforms and various sensor configurations, enhancing adaptability and real-world deployment.
+
+---
+
+[Exploring Micro Accidents and Driver Responses in Automated Driving: Insights from Real-world Videos](http://arxiv.org/abs/2508.07256v1)
+
+- Micro Accident Analysis Methodology: introduces a comprehensive approach to explore micro accidents and driver responses in Level 3 automated driving, utilizing Video Collection and Annotation, Machine Learning Classification (XGBoost), Model Interpretation (SHAP), and a Crowdsourcing Study.
+- The methodology involves collecting and annotating user-generated videos of micro accidents, employing XGBoost and SHAP to identify key environmental and autonomous agent variables, and conducting a crowdsourcing experiment to understand human risk perception and intervention behaviors.
+- This integrated approach provides insights into safety-critical scenarios beyond fatal crashes, informing the design of automated driving systems and adaptive warning strategies.
+
+---
+
+[When Competition Helps: Achieving Optimal Traffic Flow with Multiple Autonomous Planners](http://arxiv.org/abs/2508.07145v1)
+
+- Multi-Planner Routing Mechanism: introduces a system for achieving optimal traffic flow in congested networks, featuring a Routing Game where multiple Planners route Autonomous Vehicles, managing Traffic Flow based on a Cost Function, with their actions defined by a Strategy Profile, influenced by History, and incorporating a Defection Mechanism and a Punishment Mechanism.
+- The mechanism demonstrates that competition among planners, rather than a single central authority, is essential for satisfying individual rationality, resilience to competition, optimality, and avoiding collective punishments in routing games.
+- The paper characterizes conditions, particularly for the Pigou network, under which this competitive approach converges to a socially optimal traffic assignment, highlighting thresholds for planner influence and the number of competitors.
+
+---
+
+
 #### 9th August 2025
 
 [Towards Safer AI Moderation: Evaluating LLM Moderators Through a Unified Benchmark Dataset and Advocating a Human-First Approach](http://arxiv.org/abs/2508.07063v1)
@@ -11721,6 +12024,7 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
 
 
