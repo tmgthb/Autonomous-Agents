@@ -629,6 +629,15 @@ Chronological order.
 
 #### 1st September 2025
 
+
+[Can Large Language Models Master Complex Card Games?](https://arxiv.org/abs/2509.01328)
+
+- Reviews LLMs capability to gain general capabilities through 8 diverse card games.
+- Uses high quality game data to fine tune LLM and reviews its performance against specialized game AI.
+- Argues the LLMs general learning capability is their largest asset compared to specialized game AI.
+
+---
+
 [Structured AI Decision-Making in Disaster Management](http://arxiv.org/abs/2509.01576v1)
 
 - Structured AI Decision-Making Framework: introduces a structured decision-making framework for autonomous AI in disaster management, featuring Enabler agents (AI models providing judgment insights), Decision Maker agents (RL algorithms or human operators), Levels (critical decision points), and Scenarios (tree-like decision structures).
