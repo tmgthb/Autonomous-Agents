@@ -49,6 +49,143 @@ Chronological order.
 </div>
 
 
+#### 4th September 2025
+
+[Psychologically Enhanced AI Agents](https://arxiv.org/abs/2509.04343)
+
+- MiT (MBTI-in-Thoughts): introduces a framework for enhancing LLM agents through psychologically grounded personality conditioning, with LLM Agents (core processing units), Psychological Profiles (personality conditioning via prompts), 16Personalities Test (external validation tool), Majority Voting Protocol (isolated reasoning mechanism), Interactive Communication Protocol (decentralized dialogue mechanism), Interactive Communication With Self-Reflection Protocol (dialogue with private memory), Self-Reflection (private deliberation buffer), Blackboard (shared communication memory), and LLM as Judge (final decision maker).
+- The framework primes LLM agents with distinct MBTI personality archetypes via prompt engineering, enabling control over behavior along cognitive and affective axes, and supports structured multi-agent communication protocols.
+- MiT demonstrates that personality priming induces consistent behavioral biases, improves cooperation and reasoning quality through self-reflection, and generalizes to other psychological models without fine-tuning.
+
+---
+
+[EvoEmo: Towards Evolved Emotional Policies for LLM Agents in Multi-Turn Negotiation](http://arxiv.org/abs/2509.04310v1)
+
+- EvoEmo framework: introduces an evolutionary reinforcement learning framework for optimizing dynamic emotional expression in multi-turn negotiations, with Negotiation Setup, Seller LLM Agent, Buyer LLM Agent, Product Description, Seller Prompts, Buyer Prompts, EvoEmo Optimization Module, Emotion States, Emotional Policy (πω), Policy Population, Population Generation, Selection Operator, Crossover Operator, Mutation Operator, Negotiation Simulation Module, Simulated Seller Agents, Simulated Buyer Agents, Mediator Agent, Evaluation Module, Reward Function (R(S)), Optimal Policy (πω*), and Termination Conditions, where it evolves high-reward emotion policies using population-based genetic optimization across diverse negotiation scenarios.
+- The framework models emotional state transitions as a Markov Decision Process and iteratively refines policies based on rewards achieved during negotiations, combining evolutionary exploration with reinforcement learning principles.
+- EvoEmo consistently outperforms vanilla and fixed-emotion baselines, achieving higher success rates, efficiency, and buyer savings by enabling LLM agents to adaptively express emotions.
+
+---
+
+[Are LLM Agents the New RPA? A Comparative Study with RPA Across Enterprise Workflows](http://arxiv.org/abs/2509.04198v1)
+
+- AACU (Agentic Automation with Computer Use): introduces a comparative study of LLM agents and traditional Robotic Process Automation (RPA) across enterprise workflows, including LLM Agent (intelligent core), Computer Use Capability (interacts digital systems), User Interface (UI) Interaction (mimics human actions), Natural Language Input (task instructions), Software Applications (automation targets), and Execution Environment (agent operational context), to evaluate their performance, reliability, and development effort.
+- The study found that while RPA generally outperforms AACU in execution speed and reliability for repetitive, stable tasks, AACU significantly reduces development time and offers greater flexibility for dynamic interfaces.
+- Despite current limitations in production readiness, AACU shows promise for rapid prototyping and lightweight automation, suggesting future research into hybrid RPA-AACU architectures and multi-agent orchestration.
+
+---
+
+[MAGneT: Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions](http://arxiv.org/abs/2509.04183v1)
+
+- MAGneT (Coordinated Multi-Agent Generation of Synthetic Multi-Turn Mental Health Counseling Sessions): introduces a novel multi-agent framework for synthetic psychological counseling session generation that decomposes counselor response generation into coordinated sub-tasks, utilizing a Counselor Agent (generates counselor responses) with a CBT Agent (produces structured treatment plan), a Technique Agent (selects therapeutic techniques), five Specialized Response Agents (Reflection Agent (mirrors client expressions), Questioning Agent (explores client feelings), Solutions Agent (provides actionable solutions), Normalizing Agent (validates client experiences), Psycho-ed Agent (offers therapeutic information)), and a Response Generator (synthesizes final utterance), alongside a Client Agent (simulates client behavior) with an Intake Form (client profile, issues) and Attitudes (client emotional stance).
+- This framework employs specialized LLM agents, each grounded in core therapeutic techniques, and coordinates them via a dynamic technique selector and a CBT-based planning agent to generate psychologically grounded and nuanced counseling dialogues.
+- The system further simulates realistic client behavior using detailed profiles and attitude modeling, and integrates a unified evaluation framework for comprehensive assessment of generated counseling data quality and diversity.
+
+---
+
+[TAGAL: Tabular Data Generation using Agentic LLM Methods](https://github.com/bronval/TAGAL-Tabular-Data-Generation-with-LLMs/)
+
+- TAGAL (Tabular Data Generation using Agentic LLM Methods): introduces a collection of training-free methods for generating synthetic tabular data using an agentic workflow, which includes a Generation LLM (generates tabular data), Feedback LLM (criticizes data, provides recommendations), Initial Prompt (guides initial data generation), Analysis Prompt (guides feedback LLM evaluation), Feedback Prompt (incorporates feedback for generation), Generated Data (synthetic tabular examples), Feedback (LLM-generated data critique/recommendations), Summary LLM (summarizes conversation history), and Refined Prompt (summarized prompt for generation), to iteratively refine generated data quality through feedback loops.
+- The framework comprises three distinct methods—SynthLoop, ReducedLoop, and Prompt-Refine—each employing iterative feedback mechanisms to enhance data quality and utility, with Prompt-Refine specifically using a Summary LLM to create a Refined Prompt for efficient generation.
+- It demonstrates performance comparable to state-of-the-art training-required models and often outperforms other training-free approaches, showcasing the potential of agentic LLM workflows for high-quality tabular data generation, even with limited original data.
+
+---
+
+[Towards Stable and Personalised Profiles for Lexical Alignment in Spoken Human-Agent Dialogue](http://arxiv.org/abs/2509.04104v1)
+
+- Lexical Profile Construction and Evaluation: introduces a method for constructing stable, personalised lexical profiles from transcribed spoken data, leveraging POS categories and word-based n-grams, processed by SpaCy's nl_core_news_lg pipeline, and evaluated with recall, coverage, and cosine similarity metrics, to form a basis for lexical alignment in human-agent dialogue.
+- The study determined that profiles built from 10 minutes of speech, including 5 items for adjectives and conjunctions and 10 items for adverbs, nouns, pronouns, and verbs each, offered the best balance between performance and data efficiency.
+- These stable and representative lexical profiles are crucial for developing inclusive lexical alignment strategies in conversational agents, particularly for users with limited real-time input, such as individuals with dementia, by providing a robust basis for LLM-based response generation.
+
+---
+
+[COT-SPACE: A THEORETICAL FRAMEWORK FOR INTERNAL SLOW-THINKING VIA REINFORCEMENT LEARNING](http://arxiv.org/abs/2509.04027v1)
+
+- CoT-Space (Chain-of-Thought Space): introduces a novel theoretical framework that recasts LLM reasoning from a discrete token-prediction task into an optimization process within a continuous, reasoning-level semantic space, including a policy model, reasoning-level states, a reasoning loss landscape, CoT length, solution minimums, noise scale, generalization error, and empirical loss.
+- This framework models the LLM reasoning process as a trajectory towards a solution minimum in a reasoning loss landscape, providing a more intuitive and powerful lens for theoretical analysis of internal slow-thinking via RL.
+- The analysis demonstrates that an optimal CoT length exists, balancing underfitting (due to insufficient reasoning depth) and overfitting (due to increased model complexity and noise sensitivity), analogous to an optimal learning rate in classical ML.
+
+---
+
+[Meta-Policy Reflexion: Reusable Reflective Memory and Rule Admissibility for Resource-Efficient LLM Agents](http://arxiv.org/abs/2509.03990v1)
+
+- Meta-Policy Reflexion (MPR): introduces a hybrid framework that consolidates LLM-generated reflections into a structured Meta-Policy Memory (MPM), which guides an LLM Base Policy through soft memory-conditioned decoding and hard admissibility checks (HAC) for training-free self-improvement.
+- MPR externalizes reusable corrective knowledge as predicate-like rules, enforcing domain constraints to reduce unsafe actions without modifying LLM parameters, thereby retaining adaptability.
+- The framework demonstrates consistent gains in execution accuracy and robustness on the AlfWorld benchmark compared to Reflexion baselines, with HAC further improving stability.
+
+---
+
+[World Model Implanting for Test-time Adaptation of Embodied Agents](http://arxiv.org/abs/2509.03956v1)
+
+- WorMI (World Model Implanting): introduces a framework for embodied agents that combines LLMs' reasoning capabilities with independently learned, domain-specific world models through test-time composition, including a Reasoning Model (LLM), Pre-trained World Models, Prototype-based World Model Retrieval, Object Detection Model, Embedding Model, Prototypes, World-wise Compound Attention, Linear Projection Layer, World-level Cross-attention, Reasoning-level Cross-attention, and an Implant/Remove Mechanism.
+- The framework's Prototype-based World Model Retrieval method efficiently selects relevant world models using trajectory-based abstract representation matching, while the World-wise Compound Attention method integrates and aligns knowledge from retrieved models with the reasoning model.
+- This dual-stage design enables flexible, test-time fusion of domain-specific knowledge, enhancing adaptability to unseen domains and maintaining cross-domain adaptability for embodied agents.
+
+---
+
+[VoxRole: A Comprehensive Benchmark for Evaluating Speech-Based Role-Playing Agents](http://arxiv.org/abs/2509.03940v1)
+
+- VoxRole: introduces a comprehensive benchmark for evaluating speech-based Role-Playing Conversational Agents (RPCAs), built using a Spoken Dialogue Extraction Pipeline (Extracts movie dialogues) and a Persona Distillation Pipeline (Builds character profiles), and evaluated with a multi-dimensional Evaluation Framework (Assesses model performance).
+- The Spoken Dialogue Extraction Pipeline automatically extracts character-rich spoken dialogues from movies by aligning audio with scripts and curating semantically validated segments using components like FFmpeg, Resemble, Whisper-large-v3, Wav2Vec2.0, and MPNet.
+- The Persona Distillation Pipeline leverages an LLM and an Acoustic Feature Extraction Module to systematically construct multi-dimensional character profiles, encompassing personality, linguistic style, relationships, and acoustic characteristics, which are then used to generate role-playing prompts for evaluation by an LLM Judge.
+
+---
+
+[MobileRAG: Enhancing Mobile Agent with Retrieval-Augmented Generation](http://arxiv.org/abs/2509.03891v1)
+
+- MobileRAG (Retrieval-Augmented Generation): introduces a mobile agent framework, with InterRAG (external knowledge retrieval), LocalRAG (local app management), and MemRAG (historical operation memory), designed to enhance mobile agents for accurate user query identification and efficient complex mobile task execution.
+- The framework addresses limitations of current LLM-based mobile agents, such as over-reliance on LLM comprehension, limited external interaction, and absence of effective memory.
+- MobileRAG improves task completion, reduces operational steps, and enhances adaptability by leveraging external knowledge and learning from past successful operations.
+
+---
+
+[FaMA: LLM-Empowered Agentic Assistant for Consumer-to-Consumer Marketplace](http://arxiv.org/abs/2509.03890v1)
+
+- FaMA (Facebook Marketplace Assistant): introduces an LLM-powered agentic assistant for C2C marketplaces, integrating a Llama 4 Maverick LLM as its core reasoning engine, a memory module (Scratchpad, Dialog History, Listings Information), and a suite of specialized Marketplace Tools (Listing Operation, Inventory Search, Messaging) along with RAG and a Knowledge Base.
+- This conversational agent simplifies user experience by interpreting natural language commands to automate high-friction workflows for both buyers and sellers, including listing management, bulk messaging, and efficient product discovery.
+- FaMA achieves a 98% task success rate and enables up to a 2x speedup in interaction time, providing a lightweight and accessible alternative to traditional app interfaces.
+
+---
+
+[Learning to Deliberate: Meta-policy Collaboration for Agentic LLMs with Multi-agent Reinforcement Learning](http://arxiv.org/abs/2509.03817v1)
+
+- MPDF (Meta-Policy Deliberation Framework): introduces a framework for multi-agent LLM collaboration, enabling agents to learn adaptive meta-cognitive policies through a Meta-Cognitive State Space (agent's internal cognitive status), Agent's Observation with Meta-Cognition (local and peer meta-cognitive states), a Policy Network (integrates self-assessment and social context), and a Deliberative Action Space (high-level strategic choices) optimized by SoftRankPO (stable policy optimization algorithm).
+- This framework allows agents to dynamically adjust their behavior based on internal confidence and situational context, moving beyond fixed collaboration protocols to dynamic, deliberative strategies.
+- SoftRankPO, a key component, stabilizes policy learning by converting raw rewards into rank-based advantages, ensuring robust convergence across diverse reward regimes.
+
+---
+
+[Leveraging LLM-Based Agents for Intelligent Supply Chain Planning](http://arxiv.org/abs/2509.03811v1)
+
+- SCPA (Supply Chain Planning Agent): introduces an LLM-based agent framework for intelligent supply chain planning, featuring Input (user query), Memory (short-term/long-term storage), a Pre-trained LLM (foundation large language model), Task Management (planning orchestration), Task Execution (sub-task processing), and Output (planning report).
+- The framework leverages LLM-based agents for intent classification, task orchestration, task execution, and iterative plan correction, enabling autonomous interpretation of natural language queries and dynamic adjustment of plans.
+- SCPA demonstrates improved operational efficiency, plan accuracy, and stock availability in real-world e-commerce scenarios by providing evidence-based planning reports and automating complex supply chain decision-making.
+
+---
+
+[SAMVAD: A Multi-Agent System for Simulating Judicial Deliberation Dynamics in India](http://arxiv.org/abs/2509.03793v1)
+
+- SAMVAD (Simulated Agent-based Multi-agent Verdict Adjudication): introduces a Multi-Agent System for simulating judicial deliberation in India, comprising an Orchestrator (manages simulation lifecycle), Judge Agent (generates impartial instructions), Prosecution Counsel Agent (constructs arguments for prosecution), Defense Counsel Agent (constructs arguments for defense), Adjudicator Agents (simulate judicial bench), LLMs (power agents' reasoning), RAG (grounds reasoning in knowledge), Legal Knowledge Base (authoritative Indian legal documents), Vector DB (stores legal document embeddings), Case Files (structured input for simulation), and Final Judgement (consensus-based verdict output).
+- The system's core innovation is the deep integration of a domain-specific RAG pipeline, grounding LLM-powered agents in Indian legal texts to generate legally sound, citable instructions and arguments.
+- This framework offers a configurable and explainable platform for exploring legal reasoning and group decision-making dynamics within the Indian judicial context, enhancing simulation fidelity and transparency.
+
+---
+
+[Psychologically Enhanced AI Agents](https://github.com/spcl/MBTI-in-Thoughts)
+
+- MBTI-in-Thoughts (MiT): introduces a framework for enhancing LLM agent effectiveness through psychologically grounded personality conditioning, priming agents with distinct MBTI personality archetypes via structured prompts, verifying behavior with the 16Personalities test, and enabling structured multi-agent communication protocols.
+- The framework integrates personality traits into LLM agents to improve their performance in both individual and multi-agent settings, demonstrating consistent behavioral biases aligned with assigned personality types across diverse tasks.
+- MiT supports various communication protocols, including Majority Voting, Interactive Communication, and Interactive Communication With Self-Reflection, and generalizes to other psychological models like Big Five and HEXACO.
+
+---
+
+[TAGAL: Tabular Data Generation using Agentic LLM Methods](https://github.com/bronval/TAGAL-Tabular-Data-Generation-with-LLMs/)
+
+- TAGAL (Tabular Data Generation using Agentic LLM Methods): introduces an agentic LLM workflow for tabular data generation, including an Initial Prompt (describes task and data), Generation LLM (generates tabular data), Generated Data (synthetic tabular examples), Analysis Prompt (requests feedback), Feedback LLM (provides data criticism), Feedback (recommendations for improvement), Feedback Prompt (incorporates feedback), Conversation History (stores interaction logs), Summary LLM (summarizes conversation history), and Refined Prompt (concise generation prompt).
+- This training-free approach leverages LLMs in an iterative feedback loop where a Generation LLM produces data, a Feedback LLM critiques it, and the feedback is used to refine subsequent generation, with Prompt-Refine further optimizing this by using a Summary LLM to condense the conversation history.
+- The framework aims to generate high-quality synthetic tabular data comparable to training-based methods, utilizing in-context learning and external knowledge without requiring LLM fine-tuning, thereby reducing computational resources.
+
+---
 
 #### 3rd September 2025
 
@@ -124,14 +261,6 @@ Chronological order.
 
 ---
 
-[app.build: A Production Framework for Scaling Agentic Prompt-to-App Generation with Environment Scaffolding](https://github.com/appdotbuild/agent/)
-
-- app.build: introduces a production framework for LLM-based application generation, featuring an Orchestrator (FSM) that plans stages, Stack Adapters (Data Model, API/Backend, UI/Frontend Actors) for task decomposition, LLM Backends for code generation, a Sandbox Manager for isolated execution, a Validation Layer with various Validators for checks, a Database for provisioning, and a Task Runner managing the iterative generate-validate-repair loop.
-- This framework implements Environment Scaffolding (ES), an environment-first paradigm that wraps LLMs in a structured sandbox, providing continuous, deterministic feedback and constraining actions to channel creativity into safe, verifiable outcomes.
-- ES emphasizes structured task decomposition, multi-layered validation, runtime isolation, and model-agnostic integration, demonstrating that scaling reliable AI agents requires scaling environments, not just models, for production-oriented systems.
-
----
-
 [AIVA: An AI-based Virtual Companion for Emotion-aware Interaction](http://arxiv.org/abs/2509.03212v1)
 
 - AIVA (AI-based Virtual Companion for Emotion-aware Interaction): introduces an AI-based virtual companion that integrates multimodal sentiment perception into LLMs, enabling emotionally aligned and animated Human-Computer Interaction (HCI) through its Multimodal Sentiment Perception Network (MSPN), Vision Transformer (ViT), Textual Encoder (BERT), Cross-Attention (CA) mechanism, Cross-Modal Fusion Transformer, Sentiment Prototypes, Classifier (MLP), Large Language Model (LLM), Emotion-aware Prompt Engineering (EPE), Text-to-Speech (TTS) system, and Animated Avatar module (Live2D).
@@ -194,6 +323,78 @@ Chronological order.
 - L-MARS (Legal Multi-Agent Workflow with Orchestrated Reasoning and Agentic Search): introduces a multi-agent workflow that integrates structured reasoning, agentic search, and sufficiency verification for legal question answering, including a Query Agent (parses, refines queries), Search Agent (executes retrieval tools), Serper (online web search), Local RAG (offline document retrieval), BM25 (ranking function), CourtListener (case law API), Judge Agent (verifies evidence, refines), Summary Agent (synthesizes final answer), WorkflowState (manages system state), and LangGraph (orchestrates workflow), to reduce hallucination and uncertainty in legal QA.
 - The system operates in two modes: Simple Mode, a single-pass retrieval-summarization pipeline, and Multi-Turn Mode, which adds Judge Agent-guided iterations with sufficiency checks and query refinement for enhanced accuracy.
 - This iterative reasoning-search-verification loop maintains coherence, filters noisy evidence, and grounds answers in authoritative law, demonstrating a scalable and reproducible blueprint for deploying LLMs in high-stakes legal domains.
+
+---
+
+[An Agentic Model Context Protocol Framework for Medical Concept Standardization](http://arxiv.org/abs/2509.03828v1)
+
+- MCP (Model Context Protocol): introduces a zero-training, hallucination-preventive mapping system for medical concept standardization, featuring an Input (user query), an Agentic LLM (interprets, reasons, calls tools), MCP (standardized, secure framework), MCP Resources (contextual guidance, preferences), Reasoning 1: keyword inference (interprets user input), Athena OHDSI API (external vocabulary service), Concept list (candidate medical concepts), Reasoning 2: concept selection (selects best concept), and Output (standardized OMOP concept), which enables explainable mapping and improves efficiency and accuracy in mapping source medical terms to OMOP standard concepts.
+- The system leverages LLMs with real-time access to external resources like OHDSI Athena, guided by OMOP data model specifications, documentation, and vocabulary preferences, to mitigate hallucination and ensure clinically appropriate mappings.
+- This framework provides a robust, auditable, and user-guided solution for medical terminology mapping, suitable for both exploratory and production environments without requiring fine-tuning or complex infrastructure.
+
+---
+
+[What Would an LLM Do? Evaluating Policymaking Capabilities of Large Language Models](http://arxiv.org/abs/2509.03827v1)
+
+- LLM-ABM Integration Pipeline: introduces a novel benchmark and an automated pipeline to evaluate LLMs' policymaking capabilities for homelessness alleviation, with all its components, where the framework assesses LLM alignment with human experts and simulates policy impacts.
+- This framework assesses LLM alignment with human experts on policy choices across four geographies, grounding policies in the Capability Approach for human development.
+- The pipeline connects LLM-generated policy proposals to an agent-based model to explore their social impact through simulated scenarios, offering insights into scalable and non-invasive social policymaking.
+
+---
+
+[Designing Gaze Analytics for ELA Instruction: A User-Centered Dashboard with Conversational AI Support](http://arxiv.org/abs/2509.03741v1)
+
+- Gaze Analytics Dashboard with Conversational AI Support: introduces a user-centered dashboard for English Language Arts (ELA) instruction, integrating gaze heatmaps, student performance tables, score trajectories, scanpaths, and an LLM-powered conversational agent for interpreting multimodal learning analytics.
+- The system leverages eye-tracking technology to capture student gaze data, which is then visualized and summarized through an LLM-Augmented Report Generation Pipeline to provide actionable insights for teachers and students.
+- This iterative design, guided by user feedback and data storytelling principles, aims to make complex gaze analytics approachable and pedagogically valuable, enhancing instructional decision-making and student reflection.
+
+---
+
+[ARE LLM AGENTS BEHAVIORALLY COHERENT? LATENT PROFILES FOR SOCIAL SIMULATION](http://arxiv.org/abs/2509.03736v1)
+
+- Framework for Probing Behavioral Coherence: introduces a study to evaluate the internal consistency of LLM agents by eliciting their internal states (preference and openness) and observing their behavior in dialogue settings, using an LLM-as-judge to score agreement.
+- The study reveals significant internal inconsistencies in LLMs across various models and sizes, showing that agents often suppress disagreement and favor positive sentiment, even when explicitly biased.
+- These findings highlight a critical gap in LLM capabilities, as agents fail to maintain behavioral coherence over time, questioning their reliability as substitutes for human participants in social science research.
+
+---
+
+[Learning When to Plan: Efficiently Allocating Test-Time Compute for LLM Agents](http://arxiv.org/abs/2509.03581v1)
+
+- Dynamic Planning Agent Architecture: introduces a framework for LLM agents to dynamically allocate test-time compute for planning, with LLM Agent (unified output generator), Context (agent's internal state), New Observation (current environment state), Previous Plan (prior strategic guidance), Implicit Plan Decision (decides planning necessity), Planning Policy (generates new strategic plan), Acting Policy (executes next action), Generated Output (action or plan and action), Action (command to environment), New Plan (updated strategic guidance), and Environment (sequential decision-making tasks).
+- This architecture enables a single, monolithic LLM to implicitly decide when to plan by generating a `<plan>` token, then parsing its unified output to extract both the action and, if present, the new plan.
+- The framework is trained using a two-stage pipeline of supervised fine-tuning and reinforcement learning, allowing agents to learn strategic planning, plan execution, and replanning only when necessary, optimizing computational resource allocation.
+
+---
+
+[Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers](https://github.com/camel-ai/loong)
+
+- Loong Project: introduces an open-source framework for scalable synthetic data generation and verification, featuring LOONGBENCH (curated seed dataset) and LOONGENV (synthetic data generation environment) with a Generator, Environment, Trainable Agent, and Verifier.
+- The framework establishes an agent-environment loop where an LLM-based Generator creates synthetic questions and executable code, which the Environment runs to produce answers, then a Trainable Agent generates Chain-of-Thought solutions, and a Verifier compares these for an RL reward.
+- This system aims to overcome the scarcity of high-quality, verifiable datasets in reasoning-intensive domains beyond mathematics and programming, enabling large-scale reinforcement learning with minimal human supervision.
+
+---
+
+[Loong: Synthesize Long Chain-of-Thoughts at Scale through Verifiers](https://github.com/camel-ai/loong)
+
+- Loong Project: introduces an open framework for scalable synthetic data generation and verification, featuring LOONGBENCH (curated seed dataset), LOONGENV (synthetic data generation environment), Generator (produces synthetic data), Environment (executes generated code), Trainable Agent (generates CoT solutions), Verifier (compares answers, provides reward), Seed Datasets (initial input), Question Synthesis Agent (generates questions), Code Generation Agent (produces executable code), and Judge Agent (assesses correctness), enabling reinforcement learning with verifiable rewards for LLMs.
+- The framework leverages an agent-environment loop where a Generator produces synthetic questions and executable code, which is then executed in an Environment to yield answers, and a Trainable Agent's Chain-of-Thought solutions are verified against these code-generated answers by a Verifier.
+- LOONGENV, utilizing LLMs like GPT-4.1-mini for question and code generation and DeepSeek-R1 as a Judge Agent, supports diverse prompting strategies to create high-quality, verifiable question-answer pairs for reasoning-intensive domains.
+
+---
+
+[Adversarial Decision-Making in Partially Observable Multi-Agent Systems: A Sequential Hypothesis Testing Approach](http://arxiv.org/abs/2509.03727v1)
+
+- SHT-driven Framework (Sequential Hypothesis Testing-driven Framework): introduces a novel approach for adversarial decision-making in partially observable multi-agent systems, modeling deception as a dynamic optimization problem within a leader-follower Stackelberg game.
+- This framework integrates a Blue Team Agent (follower) that uses a Linear-Quadratic Control Framework and an Optimal Control Solution Module for strategic misdirection, and a Red Team Agent (leader) that employs a Sequential Hypothesis Testing (SHT) Module and a Red Team Strategy Optimization Module (using FPI, NN, or FBS algorithms) for counter-deception.
+- The system utilizes Stochastic Differential Equations (SDEs) for state dynamics, Cost Functionals for objective quantification, a Likelihood Ratio Statistic (LT) for deception effectiveness, and a Regularization Penalty Term to model skepticism, providing insights into strategic deception and counter-deception.
+
+---
+
+[AutoGrid AI: Deep Reinforcement Learning Framework for Autonomous Microgrid Management](http://arxiv.org/abs/2509.03666v1)
+
+- AutoGrid AI (Deep Reinforcement Learning Framework for Autonomous Microgrid Management): introduces a deep reinforcement learning framework for autonomous microgrid management, integrating transformer architecture for forecasting renewable generation and a PPO agent for decision-making in a simulated environment.
+- The framework optimizes microgrid energy dispatch strategies to minimize costs and maximize renewable energy utilization, demonstrating improvements in energy efficiency and operational resilience compared to rule-based methods.
+- It also provides an open-source framework for simulating various microgrid environments, supporting the development of zero-carbon energy systems.
 
 ---
 
@@ -376,6 +577,55 @@ Chronological order.
 - The research provides insights into the transferability of LLM modules, validating their effectiveness on the Waymo Sim Agents benchmark and achieving competitive results.
 
 ---
+
+[Do LLM Modules Generalize? A Study on Motion Generation for Autonomous Driving](https://wizard-wang01.github.io/LLM2AD/)
+
+- LLM Modules for Autonomous Driving Motion Generation: introduces a systematic evaluation of five key LLM modules—tokenizer design, positional embedding, pre-training paradigms, post-training strategies, and test-time computation—within the context of motion generation for autonomous driving.
+- The study demonstrates that, when appropriately adapted, these LLM modules can significantly improve performance for autonomous driving motion generation, identifying effective transfer techniques and necessary domain-specific adaptations.
+- The research provides insights into the transferability of LLM components, highlighting similarities and subtle differences between LLMs and autonomous driving motion generation, and validates adapted modules on the Waymo Sim Agents benchmark.
+
+---
+
+[Do LLM Modules Generalize? A Study on Motion Generation for Autonomous Driving](https://wizard-wang01.github.io/LLM2AD/)
+
+- LLM-to-Driving Transfer Analysis: introduces a systematic evaluation of five key LLM modules—tokenizer design, positional embedding, pre-training paradigms, post-training strategies, and test-time computation—within the context of motion generation for autonomous driving.
+- The study demonstrates that, when appropriately adapted, these modules can significantly improve performance for autonomous driving motion generation, identifying effective transfer techniques and necessary domain-specific adaptations.
+- The research provides insights into the transferability of LLM modules, validating their effectiveness on the Waymo Sim Agents benchmark and achieving competitive results.
+
+---
+
+[Do LLM Modules Generalize? A Study on Motion Generation for Autonomous Driving](https://wizard-wang01.github.io/LLM2AD/)
+
+- LLM Modules for Autonomous Driving Motion Generation: introduces a systematic evaluation of five key LLM modules—tokenizer design, positional embedding, pre-training paradigms, post-training strategies, and test-time computation—within the context of motion generation for autonomous driving.
+- The study demonstrates that, when appropriately adapted, these LLM modules can significantly improve performance for autonomous driving motion generation, identifying effective transfer techniques and necessary domain-specific adaptations.
+- The research provides insights into the transferability of LLM components, highlighting similarities and subtle differences between LLMs and autonomous driving motion generation, and validates adapted modules on the Waymo Sim Agents benchmark.
+
+---
+
+[Do LLM Modules Generalize? A Study on Motion Generation for Autonomous Driving](https://wizard-wang01.github.io/LLM2AD/)
+
+- LLM Modules for Autonomous Driving Motion Generation: introduces a systematic evaluation of five key LLM modules—tokenizer design, positional embedding, pre-training paradigms, post-training strategies, and test-time computation—within the context of motion generation for autonomous driving.
+- The study demonstrates that, when appropriately adapted, these LLM modules can significantly improve performance for autonomous driving motion generation, identifying effective transfer techniques and necessary domain-specific adaptations.
+- The research provides insights into the transferability of LLM components, highlighting similarities and subtle differences between LLMs and autonomous driving motion generation, and validates adapted modules on the Waymo Sim Agents benchmark.
+
+---
+
+[BUILDING SELF-EVOLVING AGENTS VIA EXPERIENCE-DRIVEN LIFELONG LEARNING: A FRAMEWORK AND BENCHMARK](https://github.com/ECNU-ICALK/ELL-StuLife)
+
+- ELL (Experience-driven Lifelong Learning): introduces a framework for building self-evolving AI agents capable of continuous growth through real-world interaction, with Perception, Memory, Learning, Reasoning, and Action components, enabling agents to learn from experience, integrate long-term memory, and abstract skills.
+- The framework is built on four core principles: Experience Exploration, Long-term Memory, Skill Learning, and Knowledge Internalization, which guide the agent's autonomous adaptation and self-improvement.
+- The paper also introduces StuLife, a benchmark dataset simulating a student's college journey across various tasks and scenarios, designed to evaluate lifelong learning capabilities, memory retention, skill transfer, and self-motivated behavior for LLMs.
+
+---
+
+[Diffusion-RL Based Air Traffic Conflict Detection and Resolution Method](http://arxiv.org/abs/2509.03550v1)
+
+- Diffusion-AC: introduces a novel autonomous conflict resolution framework that integrates diffusion probabilistic models into safety-critical air traffic Conflict Detection and Resolution (CD&R), generating multimodal action distributions via a value-guided reverse denoising process, and employing a Density-Progressive Safety Curriculum (DPSC) for stable learning.
+- The framework's core architecture includes a UNet-style denoising backbone with residual blocks and self-attention, a state encoder, and a time embedding module, all trained in an off-policy actor-critic fashion with dual Q-critics and target networks.
+- This approach overcomes the unimodal bias of traditional DRL policies, significantly enhancing decision-making flexibility and robustness in complex, high-density air traffic scenarios, leading to a 94.1% success rate and a 59% reduction in Near Mid-Air Collisions.
+
+---
+
 
 #### 1st September 2025
 
@@ -579,6 +829,14 @@ Chronological order.
 
 ---
 
+[TableZoomer: A Collaborative Agent Framework for Large-scale Table Question Answering](http://arxiv.org/abs/2509.01312v1)
+
+- TableZoomer: introduces "TableZoomer: A Collaborative Agent Framework for Large-scale Table Question Answering", with Table Describer (generates comprehensive table schema), Query Planner (parses query, classifies sub-queries), Table Refiner (refines schema, reduces redundancy), Code Generator (generates executable Python code), Answer Formatter (produces formatted final response), and ReAct paradigm (iterative reasoning, self-reflection), which is an LLM-powered, programming-based agent framework for large-scale table question answering.
+- The framework addresses limitations in TQA by replacing fully verbalized tables with structured schemas, dynamically generating query-aware sub-table schemas, and transforming queries into executable code using a Program-of-Thoughts (PoT) strategy.
+- TableZoomer integrates the reasoning workflow with the ReAct paradigm for iterative reasoning and error feedback, significantly enhancing performance and scalability across tables of varying scales with reduced token consumption.
+
+---
+
 #### 31st August 2025
 
 [OmniReason: A Temporal-Guided Vision-Language-Action Framework for Autonomous Driving](http://arxiv.org/abs/2509.00789v1)
@@ -638,6 +896,14 @@ Chronological order.
 - EviNote-RAG introduces an agentic RAG framework with a structured retrieve-note-answer pipeline, including a Note-Taking Mechanism, Supportive-Evidence Notes (SENs), an Entailment Judge, Evidence Quality Reward (EQR), Reward Strategy, Policy Optimization, and Answer Generation, to enhance content distillation and reasoning reliability.
 - The framework trains LLMs to compose SENs, which are concise, human-like notes preserving answer-relevant information and highlighting uncertainty, further reinforced by EQR, an entailment-based signal evaluating SENs' logical support for the final answer.
 - This approach mitigates low signal-to-noise ratio and error accumulation in multi-hop reasoning, leading to improved accuracy, generalization, and training stability across various QA benchmarks.
+
+---
+
+[InterPose: Learning to Generate Human-Object Interactions from Large-Scale Web Videos](https://mael-zys.github.io/InterPose/)
+
+- HOI-Agent: introduces a zero-shot LLM-based framework for human-object interaction generation, comprising an LLM-based high-level planner, a low-level motion generator (MaskedMimic [48]), a collision-check module, an A* algorithm, and leveraging the InterPose dataset, environment state, and human-level task instruction.
+- The framework enables automatic task planning, collision-free navigation, multi-person collaboration, and diverse object manipulations in complex 3D scenes.
+- The InterPose dataset, a key contribution, is a large-scale collection of 3D human motions and text descriptions extracted from web videos, significantly improving human motion generation performance.
 
 ---
 
@@ -760,6 +1026,14 @@ Chronological order.
 - LLMDPD (LLM-Driven Policy Diffusion): introduces a novel approach enhancing generalization in offline RL, with text prompts (textual task descriptions), trajectory prompts (single collected trajectories), a pre-trained LLM (processes text prompts), an MLP project head (refines text embedding), a parametric transformer (encodes trajectory prompts), a context-aware conditional policy diffusion module (policy function), a noise prediction network (estimates diffusion noise), and Q-functions (estimate cumulative reward).
 - The framework leverages LLMs for rich task-relevant context from text prompts and a transformer for structured behavioral patterns from trajectory prompts, both serving as conditional inputs to the policy diffusion model.
 - This integration of policy diffusion with Q-learning forms an actor-critic diffusion algorithm, enabling the RL agent to learn a generalizable, reward-maximizing policy for unseen tasks without fine-tuning.
+
+---
+
+[HOW TO MAKE MUSEUMS MORE INTERACTIVE? CASE STUDY OF Artistic Chatbot](https://github.com/cinekucia/artistic-chatbot-cikm2025)
+
+- Artistic Chatbot: introduces a voice-to-voice RAG-powered chatbot system designed to enhance visitor engagement and informal learning in cultural heritage sites, utilizing a data preprocessing pipeline and an inference pipeline for user interactions.
+- The system processes raw documents through cleaning, translation, chunking, and embedding into a FAISS vector store, then uses speech-to-text, query embedding, a two-step retrieval (FAISS + CrossEncoder), an LLM for response generation, and text-to-speech for audio output.
+- This chatbot adopts an artificial art curator persona, responding to free-form spoken questions in Polish, maintaining responses grounded in exhibition content, and demonstrating potential for increasing interactivity in public cultural sites.
 
 ---
 
@@ -922,6 +1196,30 @@ Chronological order.
 - DR.INFO (Agentic RAG-based clinical support assistant): introduces an agentic, RAG-based clinical support assistant, with an Agentic component (enables complex reasoning), a RAG-based component (retrieves and augments responses), and an LLM (generates responses), evaluated using HealthBench, a rubric-driven benchmark composed of open-ended, expert-annotated health conversations.
 - HealthBench provides a multi-dimensional evaluation framework with physician-authored rubrics, themes, and behavioral axes to assess LLM performance in realistic clinical scenarios, moving beyond traditional multiple-choice benchmarks.
 - The evaluation demonstrates DR.INFO's strengths in communication, instruction following, and accuracy, outperforming frontier LLMs and other agentic RAG assistants on the HealthBench Hard subset, while also identifying areas for improvement in context awareness and completeness.
+
+---
+
+[HiVA: Self-organized Hierarchical Variable Agent via Goal-driven Semantic-Topological Evolution](https://anonymous.4open.science/r/HiVA-60C6)
+
+- HiVA (Hierarchical Variable Agent): introduces a novel framework modeling agentic workflows as self-organized graphs with the Semantic-Topological Evolution (STEV) algorithm, which optimizes hybrid semantic-topological spaces using textual gradients as discrete-domain surrogates for backpropagation.
+- The iterative process comprises Multi-Armed Bandit-infused forward routing, diagnostic gradient generation from environmental feedback, and coordinated updates that co-evolve individual semantics and topology for collective optimization in unknown environments.
+- HiVA's architecture includes configurable LLM modules for agents, an evolvable tool subsystem with LLM-powered ToolGenerator and ToolUpdater, a Knowledge Graph for domain representation, and a robust modular and asynchronous architecture with sandboxed tool execution and state management.
+
+---
+
+[HiVA: Self-organized Hierarchical Variable Agent via Goal-driven Semantic-Topological Evolution](https://anonymous.4open.science/r/HiVA-60C6)
+
+- HiVA (Hierarchical Variable Agent): introduces a novel framework modeling agentic workflows as self-organized graphs with the Semantic-Topological Evolution (STEV) algorithm, which optimizes hybrid semantic-topological spaces using textual gradients as discrete-domain surrogates for backpropagation.
+- The iterative process comprises Multi-Armed Bandit-infused forward routing, diagnostic gradient generation from environmental feedback, and coordinated updates that co-evolve individual semantics and topology for collective optimization in unknown environments.
+- HiVA's architecture includes configurable LLM modules for agents, an evolvable tool subsystem with LLM-powered ToolGenerator and ToolUpdater, a Knowledge Graph for domain representation, and a robust modular and asynchronous architecture with sandboxed tool execution and state management.
+
+---
+
+[HiVA: Self-organized Hierarchical Variable Agent via Goal-driven Semantic-Topological Evolution](http://arxiv.org/abs/2509.00189v1)
+
+- HiVA (Hierarchical Variable Agent): introduces a novel framework modeling agentic workflows as self-organized graphs with the Semantic-Topological Evolution (STEV) algorithm, which optimizes hybrid semantic-topological spaces using textual gradients as discrete-domain surrogates for backpropagation.
+- The framework includes agent semantics (LLMs with prompts/tools), a Semantic-Topological Evolution (STEV) algorithm (core optimization algorithm), Multi-Armed Bandit-infused Forward Routing (KABB) (dynamic agent selection/routing), Textual Gradient Feedback (language-based diagnostic signals), and an Aggregator (synthesizes outputs/generates answers).
+- HiVA's iterative process comprises Multi-Armed Bandit-infused forward routing, diagnostic gradient generation from environmental feedback, and coordinated updates that co-evolve individual semantics and topology for collective optimization in unknown environments.
 
 ---
 
@@ -1208,6 +1506,38 @@ Chronological order.
 
 ---
 
+[rStar2-Agent: Agentic Reasoning Technical Report](https://github.com/microsoft/rStar)
+
+- rStar2-Agent: introduces a 14B math reasoning model trained with agentic reinforcement learning, incorporating a scalable RL Infrastructure, an Environment Service, the GRPO-RoC (Group Relative Policy Optimization with Resampling on Correct) RL algorithm, a Python code environment, a Tool call interface, a Prompt Template, a Math-Verifier tool, a Non-reasoning SFT stage, and Multi-stage RL training, to achieve frontier-level performance in math reasoning.
+- The framework's GRPO-RoC algorithm, with its Resample-on-Correct rollout strategy, effectively addresses environment noise from coding tools by filtering positive trajectories for minimal errors and uniformly downsampling negative ones, improving training stability and reasoning quality.
+- The efficient RL infrastructure, featuring a load-balanced rollout scheduler and a high-throughput isolated code environment, enables training on limited GPU resources by maximizing computational utilization and handling massive concurrent tool calls with low latency.
+
+---
+
+[Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors](https://leggedrobotics.github.io/d3-skill-discovery/)
+
+- D3 (Divide, Discover, Deploy): introduces a modular Unsupervised Skill Discovery (USD) framework, with Environment, Data Collection Module, Skill-Conditioned Policy, Skill Prior, Factor Weighting Prior, Skill Discovery Reward Module (including METRA Algorithm, DIAYN Algorithm, Style Reward), On-Policy RL Training Module, Symmetry Augmentation Module, Intrinsic Reward Module, Value Function Decomposition Module, Advantage Aggregation Module, Training Module, Factorized State Space, Factorized Skill Space, Factor Weights, and Regularization Penalties, which addresses safety, interpretability, and deployability challenges in learned skills by factorizing the state space and applying tailored USD algorithms with symmetry and style priors.
+- The framework leverages user-defined factorization of the state space, assigning specific USD algorithms (METRA or DIAYN) to each factor, and incorporates symmetry-based inductive biases and a style factor to promote structured, morphology-aware, safe, and robust behaviors.
+- D3 further enhances control and coordination through factor weighting, allowing dynamic prioritization of skill components, and demonstrates zero-shot transfer of learned quadrupedal skills from simulation to real hardware.
+
+---
+
+[rStar2-Agent: Agentic Reasoning Technical Report](https://github.com/microsoft/rStar)
+
+- rStar2-Agent: introduces a 14B math reasoning model trained with agentic reinforcement learning, incorporating a scalable RL Infrastructure, an Environment Service, the GRPO-RoC (Group Relative Policy Optimization with Resampling on Correct) RL algorithm, a Python code environment, a Tool call interface, a Prompt Template, a Math-Verifier tool, a Non-reasoning SFT stage, and Multi-stage RL training, to achieve frontier-level performance in math reasoning.
+- The framework's GRPO-RoC algorithm, with its Resample-on-Correct rollout strategy, effectively addresses environment noise from coding tools by filtering positive trajectories for minimal errors and uniformly downsampling negative ones, improving training stability and reasoning quality.
+- The efficient RL infrastructure, featuring a load-balanced rollout scheduler and a high-throughput isolated code environment, enables training on limited GPU resources by maximizing computational utilization and handling massive concurrent tool calls with low latency.
+
+---
+
+[Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors](https://leggedrobotics.github.io/d3-skill-discovery/)
+
+- D3 (Divide, Discover, Deploy) Framework: introduces a modular unsupervised skill discovery framework, with Env, Data Collection, Policy π(a | s, z, λ), Skill Prior p(z), Factor Weights Prior p(λ), Symmetry M Augmentation, Intrinsic Reward (USD1, ..., USDN), METRA, DIAYN, Style Reward r'style, Regularization Reward rreg, Value Function Decomposition (V1, ..., VN, Vstyle), Advantage Aggregation A, Update q, Update π (Training), Quadrupedal Robot (ANYmal-D), and Simulation Environments (NVIDIA Isaac Lab), which employs user-defined state space factorization and assigns different skill discovery algorithms to each factor, incorporating symmetry and style priors for safe and structured skill learning.
+- The framework leverages the complementary strengths of METRA for unbounded state factors and DIAYN for bounded state factors, enabling the discovery of diverse and interpretable behaviors.
+- The inclusion of a style factor, regularization penalties, and factor weighting mechanisms promotes deployable, safe, and robust skills, facilitating zero-shot transfer from simulation to real-world quadrupedal robots.
+
+---
+
 #### 27th August 2025
 
 [Operating advanced scientific instruments with AI agents that learn on the job](http://arxiv.org/abs/2509.00098v1)
@@ -1468,6 +1798,22 @@ Chronological order.
 - End-to-End Secure and Auditable AI System: introduces a technical framework for building trustworthy AI systems by integrating cryptographic and secure computing techniques across the AI supply chain, including zkSNARKs (verifiable computation proofs), TEEs (secure hardware enclaves), MPC (distributed private computation), and authenticated delegation protocols (AI agent permissions), to address privacy, verifiability, and auditability challenges in foundation model-based AI.
 - The framework leverages zkSNARKs for verifiable ML evaluation and data attestations, enabling proofs of model performance and data provenance without revealing sensitive information.
 - It also proposes Private Retrieval Augmented Generation (PRAG) for secure, private querying of distributed databases, and integrates personhood credentials to verify human users behind AI agents, enhancing trust and accountability.
+
+---
+
+[CODA: COORDINATING THE CEREBRUM AND CEREBELLUM FOR A DUAL-BRAIN COMPUTER USE AGENT WITH DECOUPLED REINFORCEMENT LEARNING.](https://github.com/OpenIXCLab/CODA)
+
+- CODA (Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning): introduces a novel trainable compositional framework that synergizes a Planner (Generates high-level plans) with an Executor (Executes low-level GUI actions), supported by a Reward Signal (Provides learning feedback) and Decoupled RL (Optimizes Planner separately), to create a dual-brain computer use agent. 
+- The framework, inspired by the human brain's functional architecture, decouples high-level planning from low-level motor control, allowing the Planner to adapt through experience while the Executor provides stable, software-agnostic grounding for GUI actions based on User Instruction (Defines initial task goal) and Planning Tokens (Represents intermediate plans) to produce an Action (Represents GUI commands).
+- CODA employs a two-stage training pipeline, including a Judge System (Evaluates agent trajectories) for reward signals, a Task Generator (Produces high-level tasks), and a distributed VM Cluster (Executes tasks in parallel) managed by a Controller (Manages task queue) to collect Trajectories (Records interaction sequences) from various Tasks (Specific objectives for agents) within individual VMs (Isolated execution environment).
+
+---
+
+[CODA: COORDINATING THE CEREBRUM AND CEREBELLUM FOR A DUAL-BRAIN COMPUTER USE AGENT WITH DECOUPLED REINFORCEMENT LEARNING.](https://github.com/OpenIXCLab/CODA)
+
+- CODA (Coordinating the Cerebrum and Cerebellum for a Dual-Brain Computer Use Agent with Decoupled Reinforcement Learning): introduces a novel trainable compositional framework that synergizes a Planner (Generates high-level plans) with an Executor (Executes low-level GUI actions), supported by a Reward Signal (Provides learning feedback) and Decoupled RL (Optimizes Planner separately), to create a dual-brain computer use agent. 
+- The framework, inspired by the human brain's functional architecture, decouples high-level planning from low-level motor control, allowing the Planner to adapt through experience while the Executor provides stable, software-agnostic grounding for GUI actions based on User Instruction (Defines initial task goal) and Planning Tokens (Represents intermediate plans) to produce an Action (Represents GUI commands).
+- CODA employs a two-stage training pipeline, including a Judge System (Evaluates agent trajectories) for reward signals, a Task Generator (Produces high-level tasks), and a distributed VM Cluster (Executes tasks in parallel) managed by a Controller (Manages task queue) to collect Trajectories (Records interaction sequences) from various Tasks (Specific objectives for agents) within individual VMs (Isolated execution environment).
 
 ---
 
@@ -1828,6 +2174,22 @@ Chronological order.
 - AT-CXR (Agentic Triage for Chest X-ray): introduces an uncertainty-aware agentic framework for autonomous, safe chest X-ray triage decisions under clinical constraints, comprising Data Ingestion, Uncertainty Check, Agentic Decision Routing, and Triage & Explainability Artifacts.
 - The system estimates per-case confidence and distributional fit, then employs a guardrailed, stepwise policy with a toolbox of verification and consultation tools, including TTA, MoE, and VLM, to either issue an automated decision or abstain for human intervention.
 - It evaluates two router designs, a deterministic rule-based router and an LLM-decided router, offering complementary operating points to prioritize either maximal throughput or maximal accuracy while outperforming existing LLMs and supervised classifiers.
+
+---
+
+[AT-CXR: Uncertainty-Aware Agentic Triage for Chest X-rays](https://github.com/XLIAaron/uncertainty-aware-cxr-agent)
+
+- AT-CXR (Agentic Triage for Chest X-ray): introduces an uncertainty-aware agentic framework for autonomous, safe chest X-ray triage decisions under clinical constraints, comprising Data Ingestion, Uncertainty Check, Agentic Decision Routing, and Triage & Explainability Artifacts.
+- The system estimates per-case confidence and distributional fit, then employs a guardrailed, stepwise policy with a toolbox of verification and consultation tools, including TTA, MoE, and VLM, to either issue an automated decision or abstain for human intervention.
+- It evaluates two router designs, a deterministic rule-based router and an LLM-decided router, offering complementary operating points to prioritize either maximal throughput or maximal accuracy while outperforming existing LLMs and supervised classifiers.
+
+---
+
+[AT-CXR: Uncertainty-Aware Agentic Triage for Chest X-rays](https://github.com/XLIAaron/uncertainty-aware-cxr-agent)
+
+- AT-CXR (Agentic Triage for Chest X-ray): introduces an uncertainty-aware agentic framework for chest X-ray triage, featuring Data Ingestion (detects/preprocesses cases), Uncertainty Check (computes confidence/OOD), Agentic Decision Routing (iteratively selects tools via guardrailed policy), and Triage and Explainability Artifacts (auto-sorts cases, generates CAM/LWI).
+- The framework employs a Router, which can be either a deterministic rule-based or an LLM-decided policy, to select from a Toolbox of Diagnosis Assist (TTA, MoE, VLM), LWI Computation (segmentation, suppression, LWI), and Visualization (CAM) tools.
+- This system aims to make autonomous, safe triage decisions under clinical constraints by estimating per-case confidence and distributional fit, enabling selective automation with auditable operation, and providing complementary operating points for throughput or accuracy.
 
 ---
 
@@ -2478,6 +2840,14 @@ Chronological order.
 - SCENGE (Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles): introduces a two-stage framework for generating safety-critical scenarios by combining knowledge-grounded LLM reasoning with multi-agent trajectory optimization.
 - The framework's Meta-Scenario Generation stage uses an LLM, grounded in Driving Knowledge and RAG, to generate a core adversarial threat, which is then translated into Scenic Code for simulation.
 - The Complex Scenario Evolution stage enhances these threats by building an Adversarial Collaborator Graph to identify and perturb key background vehicle trajectories, maximizing adversarial impact and creating critical occlusions.
+
+---
+
+[Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles](https://scenge.github.io)
+
+- SCENGE (Adversarial Generation and Collaborative Evolution of Safety-Critical Scenarios for Autonomous Vehicles): introduces a two-stage framework for generating safety-critical scenarios by combining knowledge-grounded LLM reasoning with multi-agent trajectory optimization.
+- The framework's Meta-Scenario Generation stage uses an LLM, grounded in a structured driving knowledge base, to infer plausible and challenging adversarial agent behaviors, which are then translated into executable Scenic code.
+- Its Complex Scenario Evolution stage amplifies the core threat by coordinating background traffic, optimizing key agent trajectories via an adversarial collaborator graph to restrict the ego vehicle's maneuvering space and create critical occlusions.
 
 ---
 
@@ -3703,7 +4073,7 @@ Chronological order.
 
 ---
 
-[Learn to Memorize: Optimizing LLM-based Agents with Adaptive Memory Framework](https://github.com/nuster1128/learn_to_memorize)
+[Learn to Memorize: Optimizing LLM-based Agents with Adaptive Memory Framework](https://arxiv.org/abs/2508.16629)
 
 - Adaptive Memory Framework: introduces an adaptive and data-driven memory framework for optimizing LLM-based agents, featuring Memory Storage (stores observations), Memory Retrieval (retrieves relevant memories), Memory Utilization (integrates memories into prompts), an Inference Model (LLM for decisions/actions), and an Environment (provides observations, feedback).
 - The framework integrates an MoE Gate Function (adaptive retrieval combination) for memory retrieval, a Learnable Aggregation Process (improves memory utilization) for memory utilization, and Task-Specific Reflection (adapts memory storage) for memory storage.
@@ -3716,14 +4086,6 @@ Chronological order.
 - M3-Agent: introduces a novel multimodal agent framework, with MLLM (central processing unit), Long-Term Memory (structured multimodal graph), Episodic Memory (event records), Semantic Memory (world knowledge), Memorization Workflow (memory building process), Video/Audio Input (perceptual streams), Tools (feature extractors), Face Detection (facial recognition), Speaker Diarization (voice identification), Control Workflow (task execution process), Instruction (task command), Search Tool (memory retrieval mechanism), Reasoning (iterative inference), Response (agent output), and Environment (external world), designed to process real-time multimodal inputs, build long-term memory, and reason over it for task accomplishment.
 - The framework operates through two parallel processes: memorization, which continuously perceives real-time video and audio streams to construct and update entity-centric episodic and semantic memories, and control, which interprets instructions and iteratively reasons over the stored multimodal graph memory.
 - M3-Agent leverages specialized tools for face detection and speaker diarization to maintain consistent entity representations, and employs search functions to retrieve relevant information from its long-term memory, enabling multi-turn reasoning and higher task success rates.
-
----
-
-[Learn to Memorize: Optimizing LLM-based Agents with Adaptive Memory Framework](https://github.com/nuster1128/learn_to_memorize)
-
-- Adaptive Memory Framework: introduces an adaptive and data-driven memory framework for optimizing LLM-based agents, featuring Memory Storage (stores observations), Memory Retrieval (retrieves relevant memories), Memory Utilization (integrates memories into prompts), an Inference Model (LLM for decisions/actions), and an Environment (provides observations, feedback).
-- The framework integrates an MoE Gate Function (adaptive retrieval combination) for memory retrieval, a Learnable Aggregation Process (improves memory utilization) for memory utilization, and Task-Specific Reflection (adapts memory storage) for memory storage.
-- It utilizes both Off-policy Optimization (offline training, trajectory reuse) and On-policy Optimization (online learning, policy alignment) to enable LLM-based agents to learn effective memorization strategies in dynamic environments.
 
 ---
 
@@ -3749,4 +4111,3 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
