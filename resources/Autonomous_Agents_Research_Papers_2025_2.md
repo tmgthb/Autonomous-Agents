@@ -344,13 +344,6 @@ Chronological order.
 
 ---
 
-[Distilling LLM Prior to Flow Model for Generalizable Agent's Imagination in Object Goal Navigation](https://github.com/Badi-Li/GOAL)
-
-- GOAL (Guiding Agent's imagination with generAive fLow): introduces a generative flow-based framework for Object Goal Navigation, which models semantic distributions by bridging observed regions with LLM-enriched full-scene semantic maps, incorporating a Generative Flow Model, LLM, Semantic Map Construction Module, Contextual Prior, Data-Dependent Couplings, and a Navigation Policy.
-- The framework distills rich contextual knowledge from LLMs into the flow model as spatial priors, enhancing generalizable semantic map completions for unseen environments.
-- It leverages multi-view RGB-D observations for robust 3D scene understanding and employs data-dependent couplings for efficient and accurate map generation, guiding the agent's navigation.
-
----
 
 [Beyond Ten Turns: Unlocking Long-Horizon Agentic Search with Large-Scale Asynchronous RL](http://arxiv.org/abs/2508.07976v2)
 
@@ -440,14 +433,6 @@ Chronological order.
 
 ---
 
-[Distilling LLM Prior to Flow Model for Generalizable Agent's Imagination in Object Goal Navigation](https://github.com/Badi-Li/GOAL)
-
-- GOAL (Guiding Agent's imagination with generAive fLow): introduces a generative flow-based framework for Object Goal Navigation, which models semantic distributions by bridging observed regions with LLM-enriched full-scene semantic maps, incorporating a Generative Flow Model, LLM, Semantic Map Construction Module, Contextual Prior, Data-Dependent Couplings, and a Navigation Policy.
-- The framework distills rich contextual knowledge from LLMs into the flow model as spatial priors, enhancing generalizable semantic map completions for unseen environments.
-- It leverages multi-view RGB-D observations for robust 3D scene understanding and employs data-dependent couplings for efficient and accurate map generation, guiding the agent's navigation.
-
----
-
 [The Rise of Generative AI for Metal–Organic Framework Design and Synthesis](http://arxiv.org/abs/2508.13197v1)
 
 - Generative AI for Metal-Organic Framework Design and Synthesis: introduces the paradigm shift from enumerative MOF discovery to generative approaches, integrating Generative Models (propose novel MOF structures), Computational Simulation (predict properties, validate structures), Experimental Automation (synthesize, characterize MOFs), Data Integration (unify computational, experimental data), and Human-AI Collaboration (guide, refine discovery process) to accelerate MOF innovation.
@@ -456,7 +441,7 @@ Chronological order.
 
 ---
 
-[Distilling LLM Prior to Flow Model for Generalizable Agent's Imagination in Object Goal Navigation](https://github.com/Badi-Li/GOAL)
+[Distilling LLM Prior to Flow Model for Generalizable Agent's Imagination in Object Goal Navigation](https://arxiv.org/abs/2508.09423)
 
 - GOAL: introduces a generative flow-based framework that models semantic distributions of indoor environments by bridging observed regions with LLM-enriched full-scene semantic maps, including a Generative Flow Model, LLM, Semantic Map Construction Module, and Navigation Policy.
 - The framework distills rich contextual knowledge from LLMs into the flow model during training, encoding spatial priors as two-dimensional Gaussian fields to enable generalizable semantic map completions for Object Goal Navigation.
@@ -474,7 +459,7 @@ Chronological order.
 
 ---
 
-[BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://github.com/sjtu-sai-agents/BrowseMaster)
+[BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://arxiv.org/abs/2508.09129)
 
 - BrowseMaster: introduces a scalable web browsing framework, featuring an LLM-based Planner (strategist, decomposes tasks, replans) and an LLM-based Executor (executes sub-tasks, uses tools) operating within an Execution Sandbox (isolated code execution environment) with Persistent Memory (preserves execution state).
 - This framework leverages Web Search and Web Parse Tools, alongside programmatic primitives like generate_keywords, batch_search, and check_condition, to enhance web browsing via a tool-augmented programmatic agent pair.
@@ -666,27 +651,11 @@ Chronological order.
 
 ---
 
-[BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://github.com/sjtu-sai-agents/BrowseMaster)
-
-- BrowseMaster: introduces a scalable web browsing framework, with a Planner (long-horizon strategist), an Executor (scalable search engine), an Execution Sandbox (tool-augmented programmatic sandbox), Standardized Search Programming Primitives (encapsulated search logic), and Tools (external interaction capabilities), designed to enhance search breadth and reasoning depth.
-- The Planner formulates and adapts search strategies based on task constraints, while the Executor conducts efficient, targeted retrieval using programmatic tool interactions within a stateful sandbox.
-- This architecture separates high-level reasoning from low-level execution, preserving coherent multi-step inference and enabling broad, systematic web exploration for complex information-seeking tasks.
-
----
-
 [Social Identity in Human-Agent Interaction: A Primer](http://arxiv.org/abs/2508.16609v1)
 
 - SIA in HAI: introduces a theoretical framework for understanding social identity dynamics between humans and artificial agents, encompassing SIT and SCT, and examining personal, social, and agent identities, along with human and shared influence.
 - The paper provides a primer on applying social identity theories to artificial social agents, highlighting the current human-centric determination of agent identity and envisioning a future with agents possessing full social identity capabilities and mutual influence.
 - It outlines core identity types, social identity activities, and their consequences, while also discussing ethical implications and the need for an "uncanny killjoy" approach to ensure artificiality is clear and biases are addressed in agent design.
-
----
-
-[BrowseMaster: Towards Scalable Web Browsing via Tool-Augmented Programmatic Agent Pair](https://github.com/sjtu-sai-agents/BrowseMaster)
-
-- BrowseMaster: introduces a scalable web browsing framework built around a tightly coordinated Planner (long-horizon strategist) and Executor (scalable search engine) agent pair, which enhances search breadth and reasoning depth for complex information-seeking tasks.
-- The Planner formulates and adapts search strategies based on task constraints, while the Executor conducts efficient, targeted retrieval using tool-augmented programmatic interactions within a stateful code execution sandbox.
-- This division of labor preserves coherent, long-horizon reasoning by shielding the Planner from noisy raw inputs and enables broad, systematic exploration through the Executor's programmatic tool use and standardized search primitives.
 
 ---
 
@@ -1027,7 +996,7 @@ Chronological order.
 
 ---
 
-[Narrative Memory in Machines: Multi-Agent Arc Extraction in Serialized TV](https://github.com/robertobalestri/MAS-AI-Assisted-Narrative-Arcs-Extraction-TV-Series)
+[Narrative Memory in Machines: Multi-Agent Arc Extraction in Serialized TV](https://arxiv.org/abs/2508.07010)
 
 - MAS (Multi-Agent System): introduces a multi-agent system designed to extract and analyze narrative arcs in serialized television by implementing computational memory architectures, including an LLM for semantic memory, a vector database for episodic memory, and a multi-agent workflow simulating working memory processes.
 - The system processes episode summaries to identify three arc types (Anthology, Soap, Genre-Specific), storing their episodic developments in a vector database and providing a graphical interface for human oversight and refinement.
@@ -1123,17 +1092,9 @@ Chronological order.
 
 ---
 
-[Narrative Memory in Machines: Multi-Agent Arc Extraction in Serialized TV](https://github.com/robertobalestri/MAS-AI-Assisted-Narrative-Arcs-Extraction-TV-Series)
-
-- MAS (Multi-Agent System): introduces a multi-agent system designed to extract and analyze narrative arcs in serialized television by implementing computational memory architectures, including an LLM for semantic memory, a vector database for episodic memory, and a multi-agent workflow simulating working memory processes.
-- The system processes episode summaries to identify three arc types (Anthology, Soap, Genre-Specific), storing their episodic developments in a vector database and providing a graphical interface for human oversight and refinement.
-- This memory-centric approach, tested on Grey's Anatomy, highlights the potential of combining AI-driven memory processing with human expertise for comprehensive narrative analysis, particularly for text-based serialized formats.
-
----
-
 #### 8th August 2025
 
-[BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://texttron.github.io/BrowseComp-Plus/)
+[BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
 
 - BrowseComp-Plus: introduces a novel benchmark for evaluating Deep-Research Agents, featuring a fixed, human-verified corpus, and enabling controlled, transparent, and reproducible experimentation of LLM and retrieval components.
 - The benchmark addresses limitations of prior evaluations by disentangling retrieval from reasoning, allowing systematic analysis of how different LLM and retriever combinations affect answer quality.
@@ -1284,16 +1245,6 @@ Chronological order.
 - This approach converts jailbreaking into a scalable, accessible capability, highlighting an "alignment regression" where advanced reasoning models can subvert the safety of other AI models.
 
 ---
-
-[BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](http://arxiv.org/abs/2508.06600v1)
-
-- BrowseComp-Plus: introduces a novel benchmark dataset for evaluating Deep-Research Agents, featuring a fixed, human-verified corpus with supporting and challenging negative documents, enabling controlled experimentation and disentangled analysis of LLM and retrieval components.
-- The benchmark addresses limitations of prior evaluations by providing a transparent and reproducible environment for assessing deep research systems, including various LLMs and retrieval models.
-- The paper demonstrates that retrieval quality significantly impacts both the effectiveness and efficiency of deep research systems, highlighting the importance of co-optimizing retrievers and agents.
-
----
-
-
 
 
 #### 7th August 2025
@@ -2158,7 +2109,7 @@ Chronological order.
 
 
 
-[CellForge: Agentic Design of Virtual Cell Models](https://github.com/gersteinlab/CellForge)
+[CellForge: Agentic Design of Virtual Cell Models](https://arxiv.org/abs/2508.02276)
 
 - CELLFORGE (Agentic Design of Virtual Cell Models): introduces an agentic system for designing virtual cell models, with Task Analysis, Design Module, and Experiment Execution, which collaboratively transform biological data into optimized computational models and executable code.
 - The framework employs a multi-agent architecture with specialized LLM agents that engage in graph-based discussions and iterative refinement to achieve consensus on modeling strategies.
@@ -2254,14 +2205,6 @@ Chronological order.
 
 ---
 
-[CellForge: Agentic Design of Virtual Cell Models](https://github.com/gersteinlab/CellForge)
-
-- CELLFORGE (Agentic Design of Virtual Cell Models): introduces an agentic system for designing virtual cell models, with Task Analysis, Design Module, and Experiment Execution, which collaboratively transform biological data into optimized computational models and executable code.
-- The framework employs a multi-agent architecture with specialized LLM agents that engage in graph-based discussions and iterative refinement to achieve consensus on modeling strategies.
-- It integrates a shared knowledge infrastructure and a persistent memory module, enabling context-aware reasoning, traceability, and semantic understanding throughout the scientific discovery workflow.
-
----
-
 [An Evolving Scenario Generation Method based on Dual-modal Driver Model Trained by Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2508.02027v1)
 
 - MARL-based Evolving Scenario Generation Method with Dual-modal Driver Model (Dual-DM): introduces an evolving scenario generation method using a Dual-DM trained by MARL and DRL, which generates complex, diverse, and safety-critical scenarios for autonomous driving testing.
@@ -2278,21 +2221,6 @@ Chronological order.
 
 ---
 
-[CellForge: Agentic Design of Virtual Cell Models](https://github.com/gersteinlab/CellForge)
-
-- CELLFORGE (Agentic Design of Virtual Cell Models): introduces an agentic system for designing virtual cell models, with Task Analysis, Design Module, and Experiment Execution, which collaboratively transform biological data into optimized computational models and executable code.
-- The framework employs a multi-agent architecture with specialized LLM agents that engage in graph-based discussions and iterative refinement to achieve consensus on modeling strategies.
-- It integrates a shared knowledge infrastructure and a persistent memory module, enabling context-aware reasoning, traceability, and semantic understanding throughout the scientific discovery workflow.
-
----
-
-[CellForge: Agentic Design of Virtual Cell Models](https://github.com/gersteinlab/CellForge)
-
-- CellForge: introduces an agentic system that leverages a multi-agent framework to transform biological datasets and research objectives into optimized computational models for virtual cells, outputting both an optimized model architecture and executable code for training and inference.
-- The framework integrates Task Analysis for dataset characterization and literature retrieval, Method Design where specialized agents collaboratively develop modeling strategies, and Experiment Execution for automated code generation.
-- Agents in the Design module, separated into experts with differing perspectives and a central moderator, collaboratively exchange solutions until achieving consensus, demonstrating how iterative LLM agent interaction provides better solutions than direct modeling.
-
----
 
 #### 3rd August 2025
 
@@ -2731,7 +2659,7 @@ Chronological order.
 
 ---
 
-[GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](https://github.com/Liu-Hy/GenoMAS)
+[GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](https://arxiv.org/abs/2507.21035f)
 
 - GenoMAS (Genomic data analysis through LLM-based Multi-Agent System): introduces a multi-agent framework for scientific discovery via code-driven gene expression analysis, orchestrating six specialized LLM agents through a guided-planning framework and typed message-passing protocols.
 - The framework reframes scientific agents as collaborative programmers that generate, revise, and validate executable code, bridging the gap between general reasoning and precision-driven scientific computation.
@@ -2776,22 +2704,6 @@ Chronological order.
 - Theoretical Model: introduces a framework to analyze the economic consequences of autonomous AI agents in two-sided advertising markets, demonstrating how user delegation to AI agents creates a negative externality and an "attention lemons" problem, leading to market inefficiencies and revenue erosion for publishers.
 - The model identifies publisher strategies, showing that the Tolling strategy (charging AI agents a fee) dominates Null (inaction) and Blocking strategies, and proposes a Pigouvian correction mechanism to internalize the externality and restore market efficiency.
 - It characterizes a critical tipping point beyond which unchecked AI agent delegation triggers a collapse of the ad-funded digital market, highlighting the finite resilience of such ecosystems without systemic correction.
-
----
-
-[GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](https://github.com/Liu-Hy/GenoMAS)
-
-- GenoMAS (Genomic data analysis through LLM-based Multi-Agent System): introduces a multi-agent framework for scientific discovery via code-driven gene expression analysis, orchestrating six specialized LLM agents through a guided-planning framework and typed message-passing protocols.
-- The framework reframes scientific agents as collaborative programmers that generate, revise, and validate executable code, bridging the gap between general reasoning and precision-driven scientific computation.
-- It achieves state-of-the-art performance on gene expression analysis benchmarks by balancing structured workflows with autonomous adaptation, robust error handling, and efficient code reuse mechanisms.
-
----
-
-[GenoMAS: A Multi-Agent Framework for Scientific Discovery via Code-Driven Gene Expression Analysis](https://github.com/Liu-Hy/GenoMAS)
-
-- GenoMAS (Genomic data analysis through LLM-based Multi-Agent System): introduces a multi-agent framework for scientific discovery via code-driven gene expression analysis, orchestrating six specialized LLM agents through a guided-planning framework and typed message-passing protocols.
-- The framework reframes scientific agents as collaborative programmers that generate, revise, and validate executable code, bridging the gap between general reasoning and precision-driven scientific computation.
-- It achieves state-of-the-art performance on gene expression analysis benchmarks by balancing structured workflows with autonomous adaptation, robust error handling, and efficient code reuse mechanisms.
 
 ---
 
@@ -2933,7 +2845,7 @@ Chronological order.
 
 ---
 
-[RLVMR: Reinforcement Learning with Verifiable Meta-Reasoning Rewards for Robust Long-Horizon Agents](https://github.com/Tencent/DigitalHuman/tree/main/RLVMR)
+[RLVMR: Reinforcement Learning with Verifiable Meta-Reasoning Rewards for Robust Long-Horizon Agents](https://arxiv.org/abs/2507.22844)
 
 - RLVMR (Reinforcement Learning with Verifiable Meta-Reasoning Rewards): introduces a novel framework that integrates dense, process-level supervision into end-to-end reinforcement learning by rewarding verifiable meta-reasoning behaviors, including Cold Start Phase (initial meta-reasoning acquisition), Supervised Fine-Tuning (SFT) (bootstraps meta-reasoning capabilities), Reinforcement Learning Phase (refines agent policy), Rollout Trajectories (agent-environment interactions), Group Relative Advantage Computing (calculates step-level advantages), Meta-reasoning Type Grouping (groups steps by reasoning tag), and Trajectory Outcome Reward Grouping (groups steps by outcome reward), to address inefficient exploration in long-horizon tasks.
 - The framework equips LLM agents to explicitly tag cognitive steps like planning, exploration, reflection, and monitoring, providing programmatic, rule-based rewards for actions contributing to effective problem-solving, combined with a final outcome signal.
@@ -2954,14 +2866,6 @@ Chronological order.
 - Magentic-UI (Multi agentic-User Interface): introduces an open-source human-in-the-loop agentic system designed to facilitate human-agent collaboration and oversight for complex, multi-step tasks.
 - Its flexible multi-agent architecture includes a lead Orchestrator agent, specialized sub-agents (WebSurfer, Coder, FileSurfer, UserProxy, and optional MCP agents), and a robust backend with Docker containers, a database manager, and a shared workspace, all powered by LLMs.
 - The system integrates six key interaction mechanisms—Co-Planning, Co-Tasking, Action Approval, Answer Verification, Memory, and Multi-tasking—along with an Action Guard system, to ensure safe, efficient, and controlled agent operation.
-
----
-
-[RLVMR: Reinforcement Learning with Verifiable Meta-Reasoning Rewards for Robust Long-Horizon Agents](https://github.com/Tencent/DigitalHuman/tree/main/RLVMR)
-
-- RLVMR (Reinforcement Learning with Verifiable Meta-Reasoning Rewards): introduces a novel framework that integrates dense, process-level supervision into end-to-end RL by rewarding verifiable meta-reasoning behaviors, including planning, exploration, reflection, and monitoring, to enhance LLM agents' robustness and generalization.
-- This framework addresses the inefficient exploration problem in long-horizon tasks by providing explicit rewards for coherent reasoning steps, mitigating brittle policies and improving adaptability to unseen scenarios.
-- RLVMR achieves state-of-the-art performance on challenging benchmarks by combining a brief cold-start supervised fine-tuning phase with a reinforcement learning phase that optimizes a composite reward signal using GRPO-MR.
 
 ---
 
@@ -3209,7 +3113,7 @@ Chronological order.
 
 ---
 
-[MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them](https://github.com/sunblaze-ucb/mirage-bench.git)
+[MIRAGE-Bench: LLM Agent is Hallucinating and Where to Find Them](https://arxiv.org/abs/2507.21017)
 
 - MIRAGE-Bench: introduces a unified benchmark for eliciting and evaluating hallucinations in interactive LLM-agent scenarios, with a Categorization Module (Classifies hallucinations) using a Taxonomy (Defines three types of unfaithfulness) including Task Instruction Unfaithfulness (Violates task goals/constraints), Interaction History Unfaithfulness (Contradicts past actions/outcomes), and Environment Observation Unfaithfulness (Misrepresents environment state), an Elicitation Module (Generates hallucination-prone scenarios) employing a Contextual Snapshot Strategy (Freezes agent state for reproducibility), and an Evaluation Module (Assesses hallucination behaviors) utilizing an LLM-as-a-Judge Paradigm (Uses an LLM to score agent faithfulness) with a Judge LLM (Performs semantic reasoning for evaluation).
 - The benchmark systematically audits existing agent benchmarks to identify hallucination-prone risk settings and synthesizes test cases using a snapshot strategy to isolate decision points for deterministic and reproducible analysis.
@@ -6255,7 +6159,7 @@ Chronological order.
 
 ---
 
-[Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents](https://github.com/Tencent/DigitalHuman/tree/main/RLVER)
+[Reinforcement Learning with Verifiable Emotion Rewards for Empathetic Agents](https://arxiv.org/abs/2507.03112)
 
 - RLVER (Reinforcement Learning with Verifiable Emotion Rewards): introduces an end-to-end reinforcement learning framework for empathetic agents, including an Agent (LLM being trained), a User Simulator (SAGE) (LLM-based environment) providing Verifiable Emotion Reward (deterministic emotion score), a Policy Optimization Algorithm (PPO/GRPO) (RL algorithm) for Policy Update (policy update mechanism), and a Think-Then-Say Scaffold (reasoning prompting template).
 - The framework leverages verifiable emotion rewards from simulated users to train LLMs for higher-order empathetic abilities.
@@ -12672,11 +12576,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
-
-
-
-
-
-
 
