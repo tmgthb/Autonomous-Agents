@@ -141,7 +141,7 @@ Chronological order.
 
 ---
 
-[InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation](https://infodeepseek.github.io/)
+[InfoDeepSeek: Benchmarking Agentic Information Seeking for Retrieval-Augmented Generation](https://arxiv.org/abs/2505.15872)
 
 - InfoDeepSeek (Agentic RAG Framework): introduces a benchmark for evaluating agentic information seeking in dynamic web environments, featuring an Agent (Orchestrates information seeking process) that operates through a Retrieval Stage (Iteratively searches and browses web), Augmentation Stage (Filters and distills retrieved content), and Generation Stage (Synthesizes final answer), utilizing an LLM (Central reasoning engine for agent), Memory (Stores agent's interaction trajectory), and Tool Library (Interface to external tools).
 - The framework employs an autonomous LLM agent to perform multi-step planning, search, and reflection for robust evidence acquisition from the live web.
@@ -330,7 +330,7 @@ Chronological order.
 
 ---
 
-[MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](https://mas-design.github.io/)
+[MAS-ZERO: Designing Multi-Agent Systems with Zero Supervision](https://arxiv.org/abs/2505.14996)
 
 - MAS-ZERO: introduces a self-evolved, inference-time framework for automatic multi-agent system design, utilizing a Meta-Agent that orchestrates design and verification, leverages Building Blocks of pre-defined MAS configurations, performs Meta-Iterations through iterative design and feedback, executes the generated MAS via a Compiler to obtain Intermediate Outputs and Candidate Answers, and employs Self-Verification to select the best final solution.
 - The framework iteratively refines MAS configurations tailored to each problem instance by decomposing tasks (Meta-Design) and evaluating performance based on intermediate outputs (Meta-Feedback) without requiring a validation set.
@@ -5096,7 +5096,7 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 
 ---
 
-[VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://github.com/AILab-CVC/VideoGen-Eval)
+[VideoGen-Eval: Agent-based System for Video Generation Evaluation](https://arxiv.org/abs/2503.23452)
 
 - VideoGen-Eval: introduces agent-based system for video generation evaluation, with Structured Prompts, Advanced Models, Generated Videos, Human annotations, Prompt Structurer, Content Judger, Tools Pool, Temporal-sparse Content, Temporal-dense Content, MLLMs, and Human Alignment.
 - VideoGen-Eval benchmark includes structured prompts and large-scale video results for dynamic and flexible evaluation of video generation models.
@@ -5805,7 +5805,7 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 
 ---
 
-[ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://eftv-eval.github.io/etva-eval)
+[ETVA: Evaluation of Text-to-Video Alignment via Fine-grained Question Generation and Answering](https://arxiv.org/abs/2503.16867)
 
 - ETVA (Evaluation of Text-to-Video Alignment): introduces a framework with Element Extractor, Graph Builder, Graph Traverser, Question Generation, Knowledge Augmentation, Multi-Stage Reasoning, Question Answering, External Knowledge, Multimodal CoT, Video Reflection, General Reflection, Conclusion Stage, ETVA Score, Generated Video, Generated Questions, Scene Graph, and Core Elements for evaluating text-to-video alignment through fine-grained question generation and answering.
 - ETVA framework employs a multi-agent system for atomic question generation from text prompts and a knowledge-augmented multi-stage reasoning process for question answering using video LLMs.
@@ -6715,7 +6715,7 @@ Benchmarking Adversarial Robustness to Bias Elicitation in Large Language Models
 
 ---
 
-[OR-LLM-Agent: Automating Modeling and Solving of Operations Research Optimization Problem with Reasoning Large Language Model](https://github.com/bwz96sco/or_llm_agent)
+[OR-LLM-Agent: Automating Modeling and Solving of Operations Research Optimization Problem with Reasoning Large Language Model](https://arxiv.org/abs/2503.10009)
 
 - OR-LLM-Agent (Operations Research - Large Language Model - Agent): introduces an AI framework that automates operations research problem-solving by using LLM mathematical modeling, LLM code generation and OR-CodeAgent for code execution and repair, replacing traditional expert and programmer roles.
 - OR-LLM-Agent framework leverages reasoning LLMs to translate natural language problem descriptions into mathematical models, subsequently generating executable solver code and managing automated code execution within a sandbox environment.
@@ -7482,7 +7482,7 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
-[SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](https://github.com/Lyfralston/SEOE)
+[SEOE: A Scalable and Reliable Semantic Evaluation Framework for Open Domain Event Detection](https://arxiv.org/abs/2503.03303)
 
 - SEOE (Scalable and Reliable Semantic Evaluation framework for Open domain Event detection): introduces scalable, unconstrained extraction and semantic-level evaluation components for open domain event detection evaluation.
 - SEOE framework addresses limitations of token-level evaluation by incorporating semantic understanding and benchmark scalability for improved ODED assessment.
@@ -10264,7 +10264,7 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 ---
 
-[Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model](https://github.com/stepfun-ai/Step-Video-T2V)
+[Step-Video-T2V Technical Report: The Practice, Challenges, and Future of Video Foundation Model](https://arxiv.org/abs/2502.10248)
 
 - Step-Video-T2V: introduces a text-to-video model with Video-VAE Encoder, Video-VAE Decoder, Bilingual Text Encoder(s), DiT w/ 3D Full Attention and Video-DPO components.
 - Step-Video-T2V: employs cascaded training and video-based DPO to enhance video generation quality and reduce artifacts.
@@ -11048,7 +11048,7 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 ---
 
 
-[TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets](https://github.com/TobyYang7/TwinMarket)
+[TwinMarket: A Scalable Behavioral and Social Simulation for Financial Markets](https://arxiv.org/abs/2502.01506)
 
 - TwinMarket: introduces a multi-agent framework designed for simulating socio-economic systems, incorporating User Profile, Belief, Desire, Intention, World Knowledge, Action Space, Market Environment, Social Environment, Order-Driven Trading System, Matching Engine, Data Sources, and Validation Metrics components.
 - TwinMarket framework simulates investor behavior within a stock market environment by utilizing Belief-Desire-Intention framework integrated with a simulated social media platform and real-world market data.
@@ -11130,7 +11130,7 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 ---
 
 
-[Firewalls to Secure Dynamic LLM Agentic Networks](https://github.com/microsoft/Firewalled-Agentic-Networks)
+[Firewalls to Secure Dynamic LLM Agentic Networks](https://arxiv.org/abs/2502.01822)
 
 - Firewalled Agentic Networks (FAN): introduces input firewall, data firewall, and trajectory firewall, where FAN automatically constructs task-specific rules from prior simulations to build firewalls for constrained LLM agentic networks.
 - FAN offers layers of defense by converting free-form input to protocol, abstracting user data, and self-correcting agent trajectory.
@@ -11785,7 +11785,7 @@ LocAgent: Graph-Guided LLM Agents for Code Localization](http://arxiv.org/abs/25
 
 
 [Janus-Pro: Unified Multimodal Understanding and
-Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blob/main/janus_pro_tech_report.pdf)
+Generation with Data and Model Scaling](https://arxiv.org/abs/2501.17811)
 
 - Janus-Pro: Advances multimodal models via optimized training, expanded data, and model scaling. Janus-Pro achieves SOTA-level performance in both multimodal understanding and text-to-image generation benchmarks.
 - Enhanced training strategy includes "Longer Training in Stage I" and "Focused Training in Stage II" for better efficiency and performance. This refines the original 3-stage training process of Janus.
@@ -12133,7 +12133,7 @@ Generation with Data and Model Scaling](https://github.com/deepseek-ai/Janus/blo
 
 ---
 
-[Kimi-K1.5: Scaling Reinforcement Learning with LLMs](https://github.com/MoonshotAI/Kimi-k1.5/blob/main/Kimi_k1.5.pdf)
+[Kimi-K1.5: Scaling Reinforcement Learning with LLMs](https://arxiv.org/abs/2501.12599)
 
 - Kimi k1.5: is a multi-modal large language model (LLM) trained with reinforcement learning (RL) to achieve SOTA-level reasoning performance across multiple benchmarks and modalities.
 
@@ -13442,4 +13442,5 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
