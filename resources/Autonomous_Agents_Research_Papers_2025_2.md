@@ -238,14 +238,6 @@ Chronological order.
 
 ---
 
-[CHAIN-OF-QUERY: Unleashing the Power of LLMs in SQL-Aided Table Understanding via Multi-Agent Collaboration](https://github.com/SongyuanSui/ChainofQuery)
-
-- CoQ (CHAIN-OF-QUERY): introduces a novel multi-agent framework for SQL-aided table understanding, featuring a Semantic Splitter, SQL Query Generator, Dynamic Planner, and Answer Generator.
-- CoQ employs natural-language-style table schemas, a clause-by-clause SQL generation strategy, and a hybrid reasoning division to enhance table understanding.
-- This framework significantly improves accuracy and reduces invalid SQL rates by abstracting structural noise, incrementally building queries, and balancing mechanical (SQL) and logical (LLM) reasoning.
-
----
-
 [ALAS: Autonomous Learning Agent for Self-Updating Language Models](http://arxiv.org/abs/2508.15805v1)
 
 - ALAS (Autonomous Learning Agent System): introduces a modular pipeline that continuously updates an LLM's knowledge with minimal human intervention, including Curriculum Generation (topic planning), Training Data Generation (Q&A data creation), Supervised Fine-Tuning (SFT) (model weight update), Evaluation (LLM-judged performance), Direct Preference Optimization (DPO) (error correction), Curriculum Revision (plan adjustment), Historical Learning (topic memory), and Orchestration (workflow management).
@@ -270,7 +262,7 @@ Chronological order.
 
 ---
 
-[CHAIN-OF-QUERY: Unleashing the Power of LLMs in SQL-Aided Table Understanding via Multi-Agent Collaboration](https://github.com/SongyuanSui/ChainofQuery)
+[CHAIN-OF-QUERY: Unleashing the Power of LLMs in SQL-Aided Table Understanding via Multi-Agent Collaboration](https://arxiv.org/abs/2508.15809)
 
 - CoQ (CHAIN-OF-QUERY): introduces a novel multi-agent framework for SQL-aided table understanding, featuring a Semantic Splitter, SQL Query Generator, Dynamic Planner, and Answer Generator.
 - CoQ employs natural-language-style table schemas, a clause-by-clause SQL generation strategy, and a hybrid reasoning division to enhance table understanding.
@@ -12680,6 +12672,7 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
 
 
