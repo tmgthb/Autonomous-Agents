@@ -164,6 +164,46 @@ Chronological order.
 
 ---
 
+[Neuro-Symbolic AI for Cybersecurity: State of the Art, Challenges, and Opportunities](https://arxiv.org/abs/2509.06921)
+
+- G-I-A (Grounding-Instructibility-Alignment) Framework: introduces, "a novel framework to evaluate Neuro-Symbolic AI (NeSy) systems in cybersecurity", with Grounding (connects outputs to cybersecurity concepts), Mathematical Consistency (aligns neural predictions with logical reasoning), Knowledge Graphs (provides domain knowledge), Adversarial Robustness (maintains stability against novel attacks), Instructibility (responds to analyst feedback), Dynamic Adaptation (adapts to evolving threats), Human-AI Collaboration (integrates expert guidance), Analyst Feedback (updates system components), Alignment (ensures consistency with cybersecurity objectives), Institutional Goals (aligns with organizational priorities), Ethical Constraints (prevents malicious misuse), Cybersecurity Objectives (reflects true security goals), Neural Component (performs pattern recognition), Symbolic Component (provides domain knowledge and rules), Neuro-Symbolic Fusion (integrates neural and symbolic outputs), Explainable Alerts (generates human-readable security alerts), where this framework systematically characterizes the field by analyzing 127 publications spanning 2019-July 2025.
+- The paper highlights consistent advantages of multi-agent NeSy architectures, identifies critical implementation challenges, and emphasizes causal reasoning integration for proactive defense strategies.
+- The survey demonstrates dual-use implications where autonomous systems achieve substantial zero-day exploitation capabilities with significant cost reductions, fundamentally altering threat dynamics and demanding responsible development.
+
+---
+
+[AxelSMOTE: An Agent-Based Oversampling Algorithm for Imbalanced Classification](https://arxiv.org/abs/2509.06875)
+
+- AxelSMOTE (Axelord Synthetic Minority Oversampling Technique): introduces an agent-based oversampling algorithm for imbalanced classification, treating data instances as autonomous agents, and includes trait-based feature grouping (partitions features into related groups), similarity assessment (calculates cultural similarity between agents), a probabilistic exchange mechanism (exchanges traits based on similarity and probability), Beta blending (interpolates features realistically), and diversity injection (adds controlled noise for variety).
+- This approach addresses limitations of traditional oversampling by preserving feature correlations, ensuring meaningful interactions between compatible instances, and generating diverse synthetic samples to avoid overfitting.
+- Inspired by Axelrod's cultural dissemination model, AxelSMOTE systematically generates realistic synthetic minority instances, outperforming state-of-the-art methods while maintaining computational efficiency.
+
+---
+
+[Agentic DDQN-Based Scheduling for Licensed and Unlicensed Band Allocation in Sidelink Networks](https://arxiv.org/abs/2509.06775)
+
+- Agentic DDQN-based scheduling framework: introduces an AI-driven DDQN framework for licensed and unlicensed band allocation in NR sidelink networks, comprising a DDQN Agent, Online Network, Target Network, Replay Buffer, Scheduler, State Representation, Action Space, and Reward Mechanism, designed to autonomously perceive network dynamics and adapt scheduling policies.
+- This framework leverages agentic AI principles to integrate queueing delay, channel quality, Wi-Fi coexistence dynamics, and link-switching stability into its state representation and reward function, enabling QoS-aware and adaptive resource allocation.
+- The proposed system significantly reduces blocking rates by up to 87.5% compared to threshold-based scheduling, demonstrating its potential for stable and adaptive resource management in congested and coexistence-limited environments.
+
+---
+
+[MAS-Bench: A Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents](https://arxiv.org/abs/2509.06477)
+
+- MAS-Bench (Unified Benchmark for Shortcut-Augmented Hybrid Mobile GUI Agents): introduces a benchmark for evaluating GUI-shortcut hybrid mobile agents, featuring a Shortcut Generation Stage (agent creates shortcuts), a Quality Evaluation Stage (evaluates generated shortcuts), an Online Evaluation Environment (dynamic Android platform), a GUI-Shortcut Hybrid Action Space (combines GUI and shortcut actions), Tasks Design (complex real-world scenarios), and Evaluation Metrics (Success Rate, Efficiency, Cost), where it systematically assesses agents' ability to discover, generate, and utilize shortcuts to enhance task efficiency and success.
+- The benchmark includes 139 complex tasks across 11 real-world applications, a knowledge base of 88 predefined shortcuts (APIs, deep-links, RPA scripts), and supports the dynamic generation of new shortcuts by agents.
+- Experiments demonstrate that hybrid agents achieve significantly higher success rates and efficiency than GUI-only counterparts, highlighting the effectiveness of integrating shortcuts and the potential for agent-generated shortcuts.
+
+---
+
+[Interactive Shaping of Granular Media Using Reinforcement Learning](https://arxiv.org/abs/2509.06469)
+
+- RL framework: introduces an RL framework that enables a robotic arm with a cubic end-effector and a stereo camera to shape granular media into desired target structures, utilizing compact observations and concise reward formulations for effective learning.
+- This framework reconstructs the current height map (Current He) from depth images (Depth image Ic) and uses its difference (Heightmap difference Ha) with the desired goal height map (Goal Hg) as a key observation for the Policy π (RL Agent).
+- The approach demonstrates zero-shot transfer of trained policies from physics simulation to a real robot, outperforming baselines in shaping accuracy and robustness for complex granular media manipulation tasks.
+
+---
+
 #### 7th September 2025
 
 
@@ -290,6 +330,14 @@ Chronological order.
 
 ---
 
+[FAIR RISK OPTIMIZATION OF DISTRIBUTED SYSTEMS](https://arxiv.org/abs/2509.05737)
+
+- FRODS (Fair Risk Optimization of Distributed Systems): introduces a framework for assessing and optimizing the total risk of complex distributed systems, utilizing systemic risk measures and a decomposition method to solve a two-stage stochastic programming problem for fair risk allocation.
+- The framework addresses challenges like non-additive risk, confidential information, and fair risk allocation by evaluating individual agent risks and aggregating them into a total system risk measure.
+- The decomposition method enables distributed decision-making, allowing agents to operate autonomously with minimal information exchange while contributing to overall system risk minimization.
+
+---
+
 #### 5th September 2025
 
 [LatticeWorld: A Multimodal Large Language Model-Empowered Framework for Interactive Complex World Generation](http://arxiv.org/abs/2509.05263v1)
@@ -409,6 +457,14 @@ Chronological order.
 - Conversational Voice AI Agent Cloning System: introduces a general methodology for cloning a conversational voice AI agent from call recordings, leveraging a cloning system to extract behavioral patterns and an inference system to deploy the agent in live calls.
 - The cloning pipeline transforms raw call recordings into a structured Agent Playbook, which defines the agent's persona, knowledge, and conversational style through prompt engineering.
 - The inference system deploys the cloned agent in real-time using a Voice LLM Core, which processes user speech and generates synthetic agent responses for fluid, end-to-end spoken interaction.
+
+---
+
+[LEARNING TOOL-AWARE ADAPTIVE COMPLIANT CONTROL FOR AUTONOMOUS REGOLITH EXCAVATION](https://arxiv.org/abs/2509.05475)
+
+- LTACC (Learning Tool-Aware Adaptive Compliant Control): introduces a learning-based framework where a Model-based RL Agent learns adaptive compliance within a Space Robotics Bench (SRB) simulation, leveraging SimForge Engine and Procedural Generation to create diverse scenarios with High-fidelity Particle Physics (XPBD) for autonomous regolith excavation.
+- The framework utilizes an Operational Space Control (OSC) Controller to dynamically modulate robot stiffness and damping, enabling the RL Policy to adapt to various Excavation Tools and Regolith properties.
+- The system integrates Vision and Proprioception feedback, processed by an Encoder and a Recurrent World Model, to infer hidden states and achieve generalizable, tool-aware excavation skills across Parallelized Simulation environments.
 
 ---
 
@@ -1188,6 +1244,14 @@ Chronological order.
 
 ---
 
+[Plantbot: Integrating Plant and Robot through LLM Modular Agent Networks](https://arxiv.org/abs/2509.05338)
+
+- Plantbot: introduces a hybrid lifeform that integrates a living plant and a mobile robot through an LLM modular agent network, which includes a Living Plant (biological system), Soil (sensor-embedded substrate), Mobile Robotic Base (physical movement platform), various sensors (Soil Sensor, USB Camera, Microphone, LiDAR Sensor, Key Switch), actuators (Tracked Mobile Base, Speaker), and an LLM Modules Network comprising a Vision Agent (analyzes camera frames, suggests actions), a Sensor Agent (converts soil data to language), a Chat Agent (integrates messages, generates commands), Action Agent 1 (decides movement necessity), and Action Agent 2 (generates motor commands).
+- This architecture leverages LLMs as a universal natural language protocol, translating multimodal data from biological and environmental sensors into linguistic messages that coordinate system behaviors and enable autonomous, adaptive responses.
+- The system's design facilitates seamless interaction across biological and artificial domains, transforming plant states into robotic actions and installing normativity for agency within the sensor-motor loop.
+
+---
+
 #### 31st August 2025
 
 [OmniReason: A Temporal-Guided Vision-Language-Action Framework for Autonomous Driving](http://arxiv.org/abs/2509.00789v1)
@@ -1734,6 +1798,14 @@ Chronological order.
 - AMDM (Adaptive Multi-Dimensional Monitoring): introduces a practical algorithm for real-time evaluation of agentic AI systems, which processes streaming metrics through normalization and aggregation into five evaluation axes, applies adaptive EWMA thresholds for per-axis anomaly detection, and performs joint anomaly detection using Mahalanobis distance to trigger mitigation or human review.
 - The framework significantly reduces anomaly detection latency and false-positive rates compared to static thresholds by dynamically adapting to metric distributions and identifying multi-dimensional deviations.
 - AMDM transforms a conceptual five-axis evaluation framework into an operational tool, enabling balanced monitoring of agentic AI systems across technical, human-centered, and economic dimensions to surface issues like goal drift, safety violations, and trust shocks.
+
+---
+
+[Large Language Model Integration with Reinforcement Learning to Augment Decision-Making in Autonomous Cyber Operations](https://arxiv.org/abs/2509.05311)
+
+- LLM-RL Integration Pipeline: introduces a framework that integrates an LLM into the RL pipeline to augment decision-making in Autonomous Cyber Operations, featuring CybORG Raw Output, CybORG State Preprocessing, Prompt Construction, LLM (Frozen), LLM Response Generation, LLM Recommendation Extraction, LLM Recommendation Mapping, RL Agent, Actor Network, Masking Function, Experience Buffer, CybORG Environment, Reward Signal, PPO Loss Function, Auxiliary Loss Function, Total Loss, and Wrapper.
+- This pipeline guides the RL agent's training by leveraging a pretrained LLM as a teacher, using action masking during inference and an auxiliary loss signal during training to incorporate external cybersecurity knowledge.
+- The approach improves training efficiency, reduces the need for suboptimal exploratory actions, and accelerates convergence to a favorable policy in simulated cybersecurity environments.
 
 ---
 
@@ -2765,6 +2837,14 @@ Chronological order.
 - GenAI and AI Agents Framework: introduces "Exploring Generative Artificial Intelligence (GenAI) and AI Agents in Research and Teaching – Concepts and Practical Cases", with Generative Artificial Intelligence (GenAI) (new content creation), Large Language Models (LLMs) (language generation engine), AI Agents (autonomous multi-step task execution), Core GenAI Models (underlying generative architectures), GenAI Development Cycle (model lifecycle management), User Interaction Mechanisms (prompting/embeddings/sampling), AI Agent Types (reflex/model-based/goal-based/utility-based/learning/multi-agent), Research Process Agents (ideation/literature/design/analysis/writing/review), Teaching Process Agents (course planning/lecture planning/classroom/tutor/assessment), Governance & Ethical Principles (responsible AI use), and TurkuEval Platform (AI-based assessment), where the paper provides a comprehensive overview of GenAI and AI agents, their operational principles, and practical applications in academic research and education.
 - The framework details how GenAI, powered by LLMs and various core models, facilitates content generation and autonomous task execution through AI agents across the entire research process, from ideation to publication, and throughout the teaching cycle, from course planning to assessment.
 - It also addresses the ethical, social, and environmental challenges of GenAI, emphasizing the need for human oversight, critical evaluation, and responsible development to ensure sustainable and fair integration into society.
+
+---
+
+[Towards Log Analysis with AI Agents: Cowrie Case Study](https://arxiv.org/abs/2509.05306)
+
+- AI Agent-based Cowrie Log Analysis System: introduces an automated approach for processing Cowrie honeypot logs, leveraging AI agents to intelligently parse, summarize, and extract insights from raw data, while considering security implications.
+- The system automates the entire workflow from reading raw Cowrie logs to generating high-level summaries and visualizations, transforming high-volume, low-level log data into structured reports and easy-to-understand visualizations.
+- AI agents, powered by LLMs, serve as the central brain within the Analysis Module, enhanced with memory, planning, tool-use, and environment interaction capabilities to identify attack patterns and classify attacker intent.
 
 ---
 
