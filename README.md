@@ -166,6 +166,16 @@ Chronological order.
 
 #### 7th September 2025
 
+
+[Language-Native, Lightly Structured Databases for Large-Language-Model-Driven Composite Materials Research](https://arxiv.org/abs/2509.06093)
+
+- LLM-DCMF (Large-Language-Model-Driven Composite Materials Research Framework): introduces a language-native, lightly structured database and LLM-based data management system, with Light-Structured Text Generation (processes raw scientific literature into modular, lightly structured text using LLM-guided prompts), Heterogeneous Database (stores and organizes both lightly structured text units and fully structured data derived from them), Hybrid Search (retrieves relevant information from the database using multiple methods), and Application Layer (RAG & Agentic Workflows) (utilizes retrieved information for reasoning, generation, and iterative design), where the system transforms raw scientific literature into a queryable, heterogeneous database to accelerate materials discovery.
+- The framework captures lightly structured information from papers across preparation, characterization, theory/computation, and mechanistic reasoning, organizing records in a heterogeneous database for composite retrieval with semantics, keywords, and value filters.
+- This system synthesizes literature into accurate, verifiable, and expert-style guidance, enabling high-fidelity Retrieval-Augmented Generation (RAG) and tool-augmented agents to interleave retrieval with reasoning for actionable SOPs.
+
+---
+
+
 [Proof2Silicon: Prompt Repair for Verified Code and Hardware Generation via Reinforcement Learning](https://arxiv.org/abs/2509.06239)
 
 - Proof2Silicon: introduces an end-to-end synthesis framework that leverages PREFACE's RL-driven prompt optimization core to guide a frozen LLM in generating formally verified Dafny code, which is then translated through a PyLog-based pipeline and Vivado HLS into synthesizable RTL for FPGA hardware.
@@ -3970,14 +3980,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
-#### 25th September 2024
-
-[Language-Native, Lightly Structured Databases for Large-Language-Model-Driven Composite Materials Research](https://arxiv.org/abs/2509.06093)
-
-- LLM-DCMF (Large-Language-Model-Driven Composite Materials Research Framework): introduces a language-native, lightly structured database and LLM-based data management system, with Light-Structured Text Generation (processes raw scientific literature into modular, lightly structured text using LLM-guided prompts), Heterogeneous Database (stores and organizes both lightly structured text units and fully structured data derived from them), Hybrid Search (retrieves relevant information from the database using multiple methods), and Application Layer (RAG & Agentic Workflows) (utilizes retrieved information for reasoning, generation, and iterative design), where the system transforms raw scientific literature into a queryable, heterogeneous database to accelerate materials discovery.
-- The framework captures lightly structured information from papers across preparation, characterization, theory/computation, and mechanistic reasoning, organizing records in a heterogeneous database for composite retrieval with semantics, keywords, and value filters.
-- This system synthesizes literature into accurate, verifiable, and expert-style guidance, enabling high-fidelity Retrieval-Augmented Generation (RAG) and tool-augmented agents to interleave retrieval with reasoning for actionable SOPs.
-
----
 
