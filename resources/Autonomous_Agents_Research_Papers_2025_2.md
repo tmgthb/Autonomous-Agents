@@ -71,6 +71,14 @@ Chronological order.
 
 ---
 
+[DASHBOARDQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards](http://arxiv.org/abs/2508.17398)
+
+- DASHBOARDQA (Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards): introduces a benchmark for evaluating vision-language GUI agents on interactive dashboards, featuring Task Configuration, Task Setup, Virtual Environment, Dashboard URL, Prompt + Question, VLM Agent (with Thoughts, A11y Tree, Screenshot, Actions), Logs, Evaluation, and Gold Answer, designed to assess complex analytical reasoning over dynamic visual data.
+- The benchmark includes 405 question-answer pairs across five categories (multiple-choice, factoid, hypothetical, multi-dashboard, conversational) and 112 diverse dashboards from Tableau Public, requiring multi-step GUI interactions and visual reasoning.
+- Evaluations reveal significant limitations in current VLM agents regarding grounding dashboard elements, planning interaction trajectories, and performing complex reasoning, highlighting the benchmark's challenge and novelty.
+
+---
+
 [An LLM-LVLM Driven Agent for Iterative and Fine-Grained Image Editing](http://arxiv.org/abs/2508.17435v1)
 
 - RefineEdit-Agent: introduces a novel, training-free intelligent agent framework for complex, iterative, and context-aware image editing, leveraging LLMs for planning and LVLMs for visual understanding and evaluation within a closed-loop system.
@@ -800,6 +808,15 @@ Chronological order.
 
 #### 19th August 2025
 
+
+[V2P: FROM BACKGROUND SUPPRESSION TO CENTER PEAKING FOR ROBUST GUI GROUNDING TASK](http://arxiv.org/abs/2508.13634)
+
+- V2P (Valley-to-Peak): introduces a novel method for robust GUI grounding, utilizing a Suppression Attention Valley Constraint (reduces background distractions), Fitts-Gaussian Peak Modeling (guides attention to center), and an Overall Training Objective (combines multiple losses), to precisely localize GUI elements by reshaping attention maps.
+- The method mitigates background distractions by penalizing attention on irrelevant regions and addresses center-edge confusion by modeling GUI interactions as 2D Gaussian heatmaps.
+- V2P's dual optimization strategy enhances grounding precision and robustness across diverse UI platforms and interaction types, aligning model behavior with human interaction patterns.
+
+---
+
 [Self-Organizing Agent Network for LLM-based Workflow Automation](http://arxiv.org/abs/2508.13732v1)
 
 - SOAN (Self-Organizing Agent Network): introduces a novel structure-driven orchestration framework for LLM-based workflow automation, with Agent Generation (creates specialized agents), Generated Workflow Verification (validates workflow correctness), Hypotheses Generation (optimizes agent structures), and SOAN Scale Control (manages agent life-value), designed to handle complex, multi-layer nested workflows in enterprise environments.
@@ -929,7 +946,6 @@ Chronological order.
 - Findings highlight the promise of agentic AI for computational literary studies and the need for robust infrastructure development, emphasizing that comprehensive tool documentation is vital for reliable LLM performance.
 
 ---
-
 
 [COMPUTERRL: SCALING END-TO-END ONLINE REINFORCEMENT LEARNING FOR COMPUTER USE AGENTS](http://arxiv.org/abs/2508.14040v1)
 
@@ -1646,6 +1662,21 @@ Chronological order.
 
 ---
 
+[From Feedback to Failure: Automated Android Performance Issue Reproduction](http://arxiv.org/abs/2508.11147)
+
+- RevPerf (Review-based Automated Performance Bug Reproduction): introduces an automated framework for reproducing and detecting Android performance issues from user reviews, utilizing a Review Aggregator, Execution Agent, Monitor, and Issue Detector.
+- The framework enriches user reviews with contextual information using LLMs, simulates user interactions in an Android emulator, and employs multifaceted detection methods to identify performance degradations.
+- RevPerf achieves a 70% success rate in reproducing performance issues, demonstrating its efficiency and robustness in handling ambiguous user feedback and complex environmental dependencies.
+
+---
+
+[Uncertainty-Aware GUI Agent: Adaptive Perception through Component Recommendation and Human-in-the-Loop Refinement](http://arxiv.org/abs/2508.04025)
+
+- RecAgent: introduces an uncertainty-aware GUI agent, with Planning Agent (generates subgoals), Decision Agent (selects optimal action), Reflection Agent (evaluates action outcome), Interaction Agent (requests user feedback), Component Recommendation Module (filters relevant UI elements), Memory Unit (stores historical information), and User (provides feedback), to address input redundancy and decision ambiguity in mobile task automation.
+- The framework reduces perceptual uncertainty through a component recommendation mechanism that selectively focuses on relevant UI elements and handles decision uncertainty via an interactive module that seeks user feedback in ambiguous situations.
+- The paper also introduces ComplexAction, a new benchmark dataset designed to evaluate the success rate of GUI agents in executing specified single-step actions within complex scenarios.
+
+---
 
 
 #### 14th August 2025
@@ -2688,7 +2719,15 @@ Chronological order.
 
 ---
 
-#### 8th August 2025
+#### 8th August 
+
+[GLM-4.5: Agentic, Reasoning, and Coding (ARC) Foundation Models](http://arxiv.org/abs/2508.06471)
+
+- GLM-4.5 (Agentic, Reasoning, and Coding Foundation Models): introduces GLM-4.5, an open-source Mixture-of-Experts (MoE) LLM, designed to excel across agentic, reasoning, and coding (ARC) tasks.
+- The model incorporates a hybrid reasoning method and is developed through multi-stage training, expert model iteration, and reinforcement learning, achieving strong performance with fewer parameters.
+- Supported by the Slime RL infrastructure, GLM-4.5 and its compact version, GLM-4.5-Air, are released to advance research in reasoning and agentic AI systems.
+
+---
 
 [BrowseComp-Plus: A More Fair and Transparent Evaluation Benchmark of Deep-Research Agent](https://arxiv.org/abs/2508.06600)
 
@@ -3112,6 +3151,14 @@ Chronological order.
 
 ---
 
+
+[GuirlVG: Incentivize GUI Visual Grounding via Empirical Exploration on Reinforcement Learning](http://arxiv.org/abs/2508.04389)
+
+- GuirlVG: introduces a reinforcement learning-based GUI visual grounding method, built on a systematic empirical study of RFT and a novel stabilization technique, including Soft Reward Function, In-Bbox Reward, Adversarial KL Factor, LoRA, Image Resolution Prompting, and Extended Training.
+- The method achieves state-of-the-art GUI visual grounding performance with significantly fewer training samples (5.2K) compared to SFT baselines (up to 13.58M data).
+- GuirlVG demonstrates improved data efficiency, generalization capabilities, and provides interpretable reasoning steps for GUI-VG tasks.
+
+---
 [VirT-Lab: An AI-Powered System for Flexible, Customizable, and Large-scale Team Simulations](http://arxiv.org/abs/2508.04634v1)
 
 - VIRT-LAB (AI-Powered System for Flexible, Customizable, and Large-scale Team Simulations): introduces a system for simulating team collaboration in complex spatial and temporal environments, featuring a Web Interface (user-friendly front-end), a Simulation Engine (manages agents, environment, events), LLM-based Agents (AI entities with human-like behavior), an Environment Module (manages 2D spatial layouts), an Event Scheduling Manager (orchestrates parallel event execution), a Memory System (stores agent memories, traits), and a Backend (processes simulation logic).
@@ -4115,6 +4162,8 @@ Chronological order.
 - It critically examines the ethical, social, and environmental challenges associated with GenAI, such as bias, hallucinations, privacy risks, and energy consumption, while emphasizing the need for responsible development and human-in-the-loop collaboration.
 
 ---
+
+
 
 
 #### 31st July 2025
@@ -5846,6 +5895,8 @@ Chronological order.
 - The survey provides a model-driven foundation, comparative analysis, and future directions for building scalable, adaptive, and trustworthy generative agents in integrated networks.
 
 ---
+
+
 
 [AMICO: AN EVENT-DRIVEN MODULAR FRAMEWORK FOR PERSISTENT AND EMBEDDED AUTONOMY](http://arxiv.org/abs/2507.14513v1)
 
@@ -14172,6 +14223,7 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
 
 
