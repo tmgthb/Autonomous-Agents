@@ -48,17 +48,6 @@ Chronological order.
 
 </div>
 
-
-#### 25th September 2025
-
-[Securing AI Agents: Implementing Role-Based Access Control for Industrial Applications](http://arxiv.org/abs/2509.11431)
-
-- RBAC Framework (Role-Based Access Control Framework): introduces a framework for integrating Role-Based Access Control into AI agents, providing a robust security guardrail for industrial applications.
-- The framework includes a User Interface and API Gateway, an Authentication Module with Two-Step Verification, an RBAC Engine, an Access Control Layer, and a Logging and Audit Module to enhance the effective and scalable deployment of AI agents.
-- This framework aims to mitigate security vulnerabilities like prompt injection attacks by enforcing granular access controls and real-time decision support, thereby improving the integrity and reliability of industrial AI systems.
-
----
-
 #### 15th September 2025
 
 [HOW AUXILIARY REASONING UNLEASHES GUI GROUNDING IN VLMS](http://arxiv.org/abs/2509.11548)
@@ -134,6 +123,16 @@ Chronological order.
 - Chameleon significantly outperforms existing methods in attack success rate, revealing underexplored vulnerabilities in modern GUI agents and highlighting the urgent need for robust security mechanisms.
 
 ---
+
+
+[Securing AI Agents: Implementing Role-Based Access Control for Industrial Applications](http://arxiv.org/abs/2509.11431)
+
+- RBAC Framework (Role-Based Access Control Framework): introduces a framework for integrating Role-Based Access Control into AI agents, providing a robust security guardrail for industrial applications.
+- The framework includes a User Interface and API Gateway, an Authentication Module with Two-Step Verification, an RBAC Engine, an Access Control Layer, and a Logging and Audit Module to enhance the effective and scalable deployment of AI agents.
+- This framework aims to mitigate security vulnerabilities like prompt injection attacks by enforcing granular access controls and real-time decision support, thereby improving the integrity and reliability of industrial AI systems.
+
+---
+
 
 [Agentic Lybic: Multi-Agent Execution System with Tiered Reasoning and Orchestration](http://arxiv.org/abs/2509.11067)
 
