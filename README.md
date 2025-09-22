@@ -48,6 +48,228 @@ Chronological order.
 
 </div>
 
+#### 19th September 2025
+
+[MatchFixAgent: Language-Agnostic Autonomous Repository-Level Code Translation Validation and Repair](http://arxiv.org/abs/2509.16187)
+
+- MATCHFIXAGENT (Language-Agnostic Autonomous Repository-Level Code Translation Validation and Repair): introduces an LLM-based multi-agent framework for autonomous repository-level code translation validation and repair, featuring a Semantic Analyzer (analyzes semantic properties), a Test Generator & Repair Agent (generates tests, repairs translations), and a Verdict Agent (assesses translation correctness).
+- The Semantic Analyzer further includes specialized sub-analyzers for control flow, data flow paths, I/O, library equivalence, exception/error handling, and specifications, providing detailed semantic insights to the LLM agents.
+- The framework achieves high accuracy in equivalence verdicts, significantly improves translation bug repair rates, and offers language-agnostic adaptability to various programming languages and LLM agents with low development overhead.
+
+---
+
+[Agentic Aerial Cinematography: From Dialogue Cues to Cinematic Trajectories](http://arxiv.org/abs/2509.16176)
+
+- ACDC (Agentic Aerial Cinematography: From Dialogue Cues to Cinematic Trajectories): introduces an autonomous drone cinematography system that converts natural language prompts into executable indoor UAV video tours, utilizing an Exploratory Video, a High-fidelity 3D Environment Model, and a Free-form Prompt as inputs, processed through Initial Waypoint Selection, Pose Refinement, and Trajectory Generation stages.
+- The system leverages LLMs and VFMs for vision-language retrieval, preference-based Bayesian optimization for pose refinement using aesthetic feedback, and a motion planner for generating safe quadrotor trajectories.
+- ACDC enables non-experts to produce professional-quality indoor drone videos by bridging abstract human intent with dynamically feasible UAV trajectories, validated through simulation and hardware-in-the-loop experiments.
+
+---
+
+[EHR-MCP: Real-world Evaluation of Clinical Information Retrieval by Large Language Models via Model Context Protocol](http://arxiv.org/abs/2509.15957)
+
+- EHR-MCP (Electronic Health Record - Model Context Protocol): introduces a framework that integrates LLMs with hospital EHR data via custom MCP tools, including an LLM (GPT-4.1), MCP Tools, HIS, EHR, DWH, SQL/ODBC, LangGraph ReAct Agent, LiteLLM, VPN Gateway, Azure OpenAI Service, FastMCP, and Open WebUI, to autonomously retrieve clinically relevant information.
+- The framework enables the LLM to select and execute appropriate MCP tools, which retrieve and format clinical data from the DWH, allowing the LLM to interpret responses and generate final answers for tasks like infectious disease management.
+- EHR-MCP provides a secure and consistent infrastructure for data access, serving as a foundation for hospital AI agents and facilitating the integration of generative AI into clinical practice.
+
+---
+
+[Cuckoo Attack: Stealthy and Persistent Attacks Against AI-IDE](http://arxiv.org/abs/2509.15572)
+
+- CUCKOO ATTACK: introduces a novel attack paradigm that achieves stealthy and persistent command execution by manipulating an Agent (LLM-powered assistant in AI-IDE) to inject a Malicious Payload (embedded command execution code) into Configuration Files (host malicious payload) during an Initial Infection Stage (manipulates Agent to insert payload), which is then covertly triggered during a Persistence Stage (covertly triggers embedded payload) via routine operations.
+- This attack leverages design flaws in AI-IDEs, allowing payloads to execute within opaque background processes and persist across sessions, making detection difficult for the Developer (target user).
+- The research demonstrates the attack's practicality across mainstream AI-IDEs, highlighting vulnerabilities that can lead to local system compromise and widespread software supply chain propagation, often initiated from an Untrusted Online Source (delivers malicious instructions) and controlled by an Attacker C2 Host (external command-and-control server).
+
+---
+
+[SCALECUA: SCALING OPEN-SOURCE COMPUTER USE AGENTS WITH CROSS-PLATFORM DATA](http://arxiv.org/abs/2509.15221)
+
+- ScaleCUA: introduces a framework for scaling open-source computer use agents, leveraging a Cross-Platform Interactive Data Pipeline to curate large-scale, cross-platform GUI-centric training data and developing ScaleCUA Base Agent Models that support Grounding, Direct Action, and Reasoned Action Modes.
+- The framework's dual-loop data pipeline integrates automated agent-environment interaction with human expert data acquisition, generating comprehensive Training Corpora for GUI Understanding, GUI Grounding, and Task Completion across diverse Multi-Platform Environments.
+- ScaleCUA Base Agent Models, built on Qwen2.5-VL and utilizing a Unified Action Space, achieve state-of-the-art performance on various GUI benchmarks by effectively processing visual observations for fine-grained perception, robust grounding, and multi-step task planning.
+
+---
+
+[Online Learning of Deceptive Policies under Intermittent Observation](http://arxiv.org/abs/2509.14453)
+
+- ToM-conditioned RL (Theory-of-Mind-conditioned Reinforcement Learning): introduces an online RL framework for deceptive policies under intermittent observation, integrating an Observation probability estimator (estimates observation likelihood), a State-ratio estimator (estimates state occupancy ratio), an Action Divergence block (measures policy difference), and a ToM Scalar (calibrated deception signal) into an Actor (generates agent's policy), Critic (evaluates state-action values), and Dual variable (λ) (adjusts compliance penalty) loop with a Replay buffer (stores agent experiences).
+- This framework enables an agent to pursue a private objective while maintaining plausible compliance with a supervisor's reference policy, by dynamically adjusting behavior based on the likelihood of observation and the perceived deviation from expected actions.
+- The approach leverages a single, state-dependent ToM scalar to steer online learning, achieving high returns and success in real-world marine and aerial navigation tasks while remaining stealthy.
+
+---
+
+#### 18th September 2025
+
+[A Knowledge-driven Adaptive Collaboration of LLMs for Enhancing Medical Decision-making](http://arxiv.org/abs/2509.14998)
+
+- KAMAC (Knowledge-driven Adaptive Multi-Agent Collaboration): introduces a framework that enables LLM agents to dynamically form and expand expert teams based on the evolving diagnostic context, including an Initial Consultation Stage, a Knowledge-driven Collaborative Discussion Stage, and a Final Decision Making Stage, where expert agents, guided by various prompts, collaborate to identify knowledge gaps and recruit additional specialists for enhanced medical decision-making.
+- The framework begins with initial expert assessments, then facilitates multi-round discussions where agents iteratively refine reasoning, detect knowledge gaps, and dynamically recruit new experts to address identified deficiencies.
+- This adaptive team expansion and knowledge-driven collaboration allow the system to provide more accurate and comprehensive support in complex, cross-domain clinical scenarios, mirroring real-world multidisciplinary team workflows.
+
+---
+
+[SENTINEL AGENTS FOR SECURE AND TRUSTWORTHY AGENTIC AI IN MULTI-AGENT SYSTEMS](http://arxiv.org/abs/2509.14956)
+
+- Sentinel Agents: introduces a novel architectural framework for enhancing security and reliability in multi-agent systems (MAS) by deploying Sentinel Agents (distributed security layer) and a Coordinator Agent (central authority/policy orchestrator) within a Shared Conversational Space (communication medium/collective memory).
+- The framework integrates LLMs (semantic analysis), rule-based tools (quick threat detection), behavioral anomaly detection, and external APIs (fact-checking) within Sentinel Agents to proactively detect and mitigate threats like prompt injection, hallucinations, and privacy violations.
+- It supports various deployment patterns, including Sidecar, LLM Proxy, Continuous Listener, and Hybrid, and operational modes like Pre-validation (proactive blocking) and Passive Listening (reactive flagging), ensuring adaptive and comprehensive security across diverse agent interactions.
+
+---
+
+[LLM Agents at the Roundtable: A Multi-Perspective and Dialectical Reasoning Framework for Essay Scoring](http://arxiv.org/abs/2509.14834)
+
+- RES (Roundtable Essay Scoring): introduces a multi-agent evaluation framework for zero-shot automated essay scoring, featuring Evaluator Persona Creation, Evaluator Agents, Automated Rubric Construction, Rationale-first Multi-trait Evaluation, Dialectical Dialogue Simulation, and a Moderator Agent, to achieve human-aligned holistic scores.
+- The framework operates in two stages: Multi-Perspective Essay Evaluation, where LLM agents independently construct rubrics and evaluate essays, and Dialectical Reasoning, where agents engage in a simulated roundtable discussion to reach a consensus score.
+- By enabling collaboration and consensus among agents with diverse evaluation perspectives, RES significantly outperforms prior zero-shot AES approaches in aligning with human scoring.
+
+---
+
+[OnlineMate: An LLM-Based Multi-Agent Companion System for Cognitive Support in Online Learning](http://arxiv.org/abs/2509.14803)
+
+- OnlineMate: introduces a multi-agent learning companion system, with OnlineMate Agents, Classroom Context Manager, Classroom Behavior Controller, Evaluation Agent, ToM Hypothesis Generation, Hypothesis Refinement & Filtering, and Response Generation & Validation, designed to provide cognitive support in online learning environments.
+- The system leverages LLMs and Theory of Mind (ToM) capabilities to simulate peer-like agent roles, infer learners' cognitive and psychological states, and dynamically adapt interaction strategies.
+- OnlineMate aims to foster deep learning and discussions, enhancing cognitive engagement by personalizing pedagogical approaches based on student needs and interests.
+
+---
+
+[OPENLENS AI: FULLY AUTONOMOUS RESEARCH AGENT FOR HEALTH INFOMATICS](http://arxiv.org/abs/2509.14778)
+
+- OpenLens AI: introduces a fully automated framework for health informatics research, integrating specialized agents for literature review, data analysis, code generation, and manuscript preparation, enhanced by vision-language feedback and quality control.
+- The framework automates the entire research pipeline, from initial ideation to producing publication-ready LaTeX manuscripts with transparent and traceable workflows.
+- It addresses gaps in existing systems by interpreting medical visualizations and incorporating domain-specific quality requirements for reliable and reproducible outputs.
+
+---
+
+[ENHANCING RETRIEVAL AUGMENTATION VIA ADVERSARIAL COLLABORATION](http://arxiv.org/abs/2509.14750)
+
+- AC-RAG (Adversarial Collaboration RAG): introduces a novel framework that enhances Retrieval-Augmented Generation by orchestrating an adversarial collaboration between a generalist Detector LLM and a domain-expert Resolver LLM, guided by a Neutral Moderator, to iteratively dissect problems and refine knowledge retrieval.
+- The framework operates through a multi-turn "Dissect-Retrieve-Reflect" workflow, including Pre-Check, Challenge Dissection, Retrieval & Integration, and Post-Check stages, leveraging a Retriever and Knowledge Base, with Memory tracking interactions.
+- This dynamic interaction, driven by the Detector's persistent questioning and the Resolver's expert synthesis, effectively mitigates semantic discrepancies and retrieval hallucinations, improving retrieval accuracy and overall RAG performance.
+
+---
+
+[Explainable AI-Enhanced Supervisory Control for Robust Multi-Agent Robotic Systems](http://arxiv.org/abs/2509.15491)
+
+- Unified XAI Framework: introduces an explainable AI-enhanced supervisory control framework for multi-agent robotics, with Optimization with Monte Carlo (generates training data), fe (predicts controller parameters and performance), Supervisor (enforces phase sequencing), Domain Adapter (encodes dynamics, control laws, and constraints), Lyapunov-based Controller (ensures asymptotic stability for large-angle maneuvers), and Sliding-Mode Controller (ensures stability under noise and disturbances), where the framework integrates formally verifiable supervision, robust continuous control, and a learning-augmented optimizer for high-precision formation control.
+- The framework provides transparency by predicting control gains and their consequences, while the supervisory logic ensures rule-based and auditable mission behavior for safety-critical, resource-constrained multi-agent robotics.
+- Validated in spacecraft formation flying and autonomous underwater vehicle (AUV) scenarios, the approach demonstrates rapid transient stabilization, robust high-precision tracking, and interpretable trade-offs between accuracy and resource use.
+
+---
+
+[Decentralized Estimation and Control for Leader-Follower Networked Systems with Asymmetric Information Structure](http://arxiv.org/abs/2509.15467)
+
+- DECA (Decentralized Estimation and Control Approach): introduces a systematic approach for decentralized estimation and control in leader-follower networked systems, utilizing an optimal iterative estimator, an optimal decentralized control strategy, an orthogonal decomposition method, conditional independence property, and forward-backward stochastic difference equations (FBSDEs).
+- The approach addresses asymmetric information structures by deriving an optimal iterative estimator based on conditional independence and an optimal decentralized control strategy by decoupling FBSDEs.
+- It also provides necessary and sufficient conditions for feedback stabilization and demonstrates practical effectiveness through application to a leader-follower autonomous underwater vehicle (LF-AUV) system.
+
+---
+
+[Out-of-Sight Trajectories: Tracking, Fusion, and Prediction](http://arxiv.org/abs/2509.15219)
+
+- Vision-Positioning Denoising and Predicting Model: introduces a novel framework for predicting noise-free visual trajectories of out-of-sight objects using noisy sensor data, integrating a Sensor Denoising Encoder (refines noisy sensor trajectories), Mapping Parameters Estimator (predicts camera matrix embedding), Visual Positioning Projection Module (maps sensor data to visual domain), and Out-of-Sight Prediction Decoder (predicts future visual trajectories).
+- This framework addresses challenges of limited camera coverage, occlusions, and sensor noise by leveraging multimodal data and unsupervised denoising.
+- It establishes a robust localization-to-vision mapping, enabling accurate trajectory prediction for unseen agents in dynamic real-world scenarios.
+
+---
+
+[An Evaluation-Centric Paradigm for Scientific Visualization Agents](http://arxiv.org/abs/2509.15160)
+
+- SciVis Agent Evaluation Framework: introduces an evaluation-centric paradigm for scientific visualization agents, combining Outcome-Based Evaluation (assesses input-output relationship) and Process-Based Evaluation (analyzes agent actions/rationale) with a Multi-modal LLM Judge (evaluates visualization quality), Hard-coded Verifiers (checks correctness/similarity), and Token Usage & Time Cost (measures execution efficiency) to produce a Final Evaluation Score (aggregated performance metric) based on SciVis Agent Results (agent-generated output) and Gold Standard (reference output).
+- This framework addresses the challenge of evaluating autonomous visualization agents by providing a comprehensive, multifaceted benchmark that assesses both the quality of the final visualization output and the efficiency and correctness of the agent's operational process.
+- The proposed paradigm aims to drive innovation and facilitate the development of reliable SciVis agents by offering actionable feedback and standardized metrics for comparing diverse agent architectures.
+
+---
+
+[Digital Twin-based Cooperative Autonomous Driving in Smart Intersections: A Multi-Agent Reinforcement Learning Approach](http://arxiv.org/abs/2509.15099)
+
+- DT-CDS (Digital Twin-based Cooperative Driving System): introduces a DT-based cooperative driving system with RSU-centric architecture, leveraging comprehensive BEV perception from LiDAR to eliminate blind spots and employing a hybrid reinforcement learning framework for robust multi-agent coordination.
+- The system's hybrid reinforcement learning framework includes offline pre-training with conservative Q-learning and behavior cloning on real datasets, followed by online fine-tuning using multi-agent proximal policy optimization with self-attention mechanisms in a simulated environment.
+- The RSU implements real-time commands via V2I communications, enabling centralized decision-making for connected autonomous vehicles and demonstrating robust generalization across diverse unsignalized intersection scenarios.
+
+---
+
+[Applying reinforcement learning to optical cavity locking tasks: considerations on actor-critic architectures and real-time hardware implementation](http://arxiv.org/abs/2509.14884)
+
+- DDPG (Deep Deterministic Policy Gradient): introduces a deep reinforcement learning approach for autonomously locking Fabry-Perot optical cavities in non-linear regimes, utilizing a custom Gymnasium environment with a time-domain simulator, a reward function, and an actor-critic architecture.
+- The system achieves reliable lock acquisition for both low- and high-finesse cavities, with considerations for real-time hardware implementation on platforms like Jetson Nano and proposed FPGAs to address low-latency execution.
+- The paper also explores advanced actor-critic methods like TD3 and SAC, meta-reinforcement learning, and the integration of RNN/GRU for improved generalization and adaptability in future gravitational-wave detectors.
+
+---
+
+[On the Use of Agentic Coding: An Empirical Study of Pull Requests on GitHub](http://arxiv.org/abs/2509.14745)
+
+- Agentic Coding: introduces an empirical study of 567 GitHub pull requests (PRs) generated by agentic coding tools like Claude Code, investigating their acceptance rates, revision efforts, and reasons for rejection compared to human-generated PRs.
+- The study reveals that 83.8% of agent-assisted PRs are accepted, though lower than human-PRs (91.0%), with rejections primarily due to project context rather than inherent AI code flaws, and 54.9% are merged without modification.
+- Revisions to agent-generated PRs frequently target bug fixes, documentation updates, refactoring, and code style improvements, highlighting the critical role of human developers in ensuring correctness, maintainability, and adherence to project standards.
+
+---
+
+[(P)rior(D)yna(F)low: A Priori Dynamic Workflow Construction via Multi-Agent Collaboration](http://arxiv.org/abs/2509.14547)
+
+- PDF (PriorDynaFlow): introduces an a priori dynamic multi-agent framework for automated workflow construction, leveraging a multi-agent system, LLMs, Q-table, Q-Learning algorithm, reward mechanism, weighted directed edges, prompts, cold-start mechanism, pruning mechanism, and decision space.
+- The framework enables autonomous decision-making among agents, guided by Q-table learning and a reward mechanism, to proactively select suitable workflow structures for given tasks.
+- This approach significantly improves task-solving performance and reduces workflow construction and inference costs by dynamically adapting to task characteristics and optimizing agent collaboration.
+
+---
+
+#### 17th September 2025
+
+[Detecting Pipeline Failures through Fine-Grained Analysis of Web Agents](http://arxiv.org/abs/2509.14382)
+
+- Modular Evaluation Framework: introduces a method for detecting pipeline failures in web agents by decomposing their operations into interpretable stages: Action Prediction (Planning), Grounding, and Action Selection, enabling fine-grained error analysis.
+- The framework contrasts with traditional end-to-end evaluation by providing stage-level diagnostics, revealing systematic challenges like context fragmentation and grounding errors often missed by standard metrics.
+- By applying this framework to the SeeAct agent and the Mind2Web dataset, the research identifies actionable weaknesses and motivates a shift towards diagnostic evaluation practices for LLM-based agents.
+
+---
+
+[CRAFT: Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks](http://arxiv.org/abs/2509.14380)
+
+- CRAFT (Coaching Reinforcement Learning Autonomously using Foundation Models for Multi-Robot Coordination Tasks): introduces a framework that leverages LLMs and VLMs as a "coach" to automatically generate curricula, design reward functions, and refine policies for multi-robot coordination tasks.
+- The framework decomposes complex tasks into subtasks using a Curriculum LLM, generates executable reward functions with a Reward LLM, and iteratively refines these rewards via a VLM-guided loop based on policy evaluation and advice.
+- CRAFT enables learning complex coordination behaviors in multi-quadruped navigation and bimanual manipulation, demonstrating real-world transferability and achieving higher success rates than methods without curriculum or well-crafted rewards.
+
+---
+
+[Evaluating Classical Software Process Models as Coordination Mechanisms for LLM-Based Software Generation](http://arxiv.org/abs/2509.13942)
+
+- MetaGPT (Meta Programming for A Multi-Agent Collaborative Framework): evaluates classical software process models (Waterfall, V-Model, Agile) as coordination mechanisms for LLM-based multi-agent systems, employing LLM-based Agents with cognitive components (Planning, Perception, Action), Memory, Environment, and Toolkit, orchestrated through a Shared Message Pool, Standard Operating Procedures (SOPs), and a CodeManager, with specialized agent roles like Project Manager, Developer, and Tester.
+- The study systematically compares these process-driven configurations across 11 software projects and four GPT variants, analyzing output size, development cost (execution time, token usage), and code quality (smells, bugs, vulnerabilities).
+- Findings indicate that process model choice significantly impacts project characteristics and efficiency, with Agile showing superior code quality despite higher computational cost, while Waterfall is most efficient.
+
+---
+
+[An Empirical Study on Failures in Automated Issue Solving](http://arxiv.org/abs/2509.13941)
+
+- Expert-Executor model: introduces a collaborative architecture to address failures in automated issue solving by emulating human peer review, featuring an Execution Agent for task resolution and an Expert Agent for strategic oversight and course-correction.
+- The paper conducts an empirical study on LLM agent failures in automated issue solving, analyzing three state-of-the-art tools (OpenHands, Tools Claude, Agentless) on SWE-Bench-Verified to identify distinct failure patterns and their root causes.
+- A comprehensive taxonomy of failure modes is developed, revealing that pipeline-based tools fail early in localization, while agentic tools often get stuck in iterative loops due to flawed reasoning and cognitive deadlocks, which the proposed framework aims to mitigate.
+
+---
+
+[Understanding the Process of Human-AI Value Alignment](http://arxiv.org/abs/2509.13854)
+
+- Value Alignment Process: introduces an iterative conceptual framework for aligning human values with autonomous agents, encompassing two main subprocess groups: Value Identification & Operationalisation and Value Calibration.
+- This process addresses the complexities of expressing, aggregating, and contextualizing abstract human values for AI decision-making, alongside continuously evaluating and adjusting AI behavior to maintain alignment over time.
+- Emphasizing human-machine interaction, the framework highlights the need for interdisciplinary research and empirical data to manage the dynamic nature of values and the inherent challenges in achieving robust and adaptable value alignment.
+
+---
+
+[InfraMind: A Novel Exploration-based GUI Agentic Framework for Mission-critical Industrial Management](http://arxiv.org/abs/2509.13704)
+
+- InfraMind: introduces an exploration-based GUI agentic framework for mission-critical industrial management, integrating a Main Agent, Summary Agent, Reflection Agent, Element Learning Agent, State Identification Agent, OmniParser V2, YoloV8, Florence2, Virtual Machine, VM Snapshot Rollback, Icon-Caption Pairs KB, Planning Tree, States Transition Graph, Light VLM, GUI Element Blacklist, Hazard Confirmation Module, LLM-Based Risk Detection, and GUI, to autonomously understand and automate complex industrial GUIs.
+- The framework addresses challenges like unfamiliar elements, precision, state localization, deployment constraints, and safety requirements through systematic exploration, memory-driven planning, advanced state identification, knowledge distillation, and multi-layered safety mechanisms.
+- InfraMind leverages VM snapshots for reversible exploration, constructs structured knowledge bases (icon-caption pairs, planning trees, state transition graphs), and employs a multi-layered safety module to ensure reliable and efficient automation in sensitive industrial environments.
+
+---
+
+[AEGIS: AUTOMATED ERROR GENERATION AND IDENTIFICATION FOR MULTI-AGENT SYSTEMS](http://arxiv.org/abs/2509.14295)
+
+- AEGIS (Automated Error Generation and Identification for Multi-Agent Systems): introduces a novel framework that systematically injects controllable and traceable errors into successful multi-agent trajectories to create a rich dataset of realistic failures, enabling the training of diagnostic models via Supervised Fine-Tuning, Reinforcement Learning, and Contrastive Learning.
+- The framework's data construction pipeline utilizes an LLM-based adaptive manipulator to apply context-aware error injections, such as prompt injection and response corruption, generating faulty multi-agent system trajectories with precise ground-truth error labels.
+- AEGIS's generated dataset supports multiple learning paradigms, allowing models to learn fine-grained error identification by attributing system failures to responsible agents and specific error modes, thereby addressing data scarcity in MAS error diagnosis.
+
+---
+
 #### 16th September 2025
 
 [ReSum: Unlocking Long-Horizon Search Intelligence via Context Summarization](http://arxiv.org/abs/2509.13313)
@@ -157,7 +379,7 @@ Chronological order.
 [MILLSTONE: How Open-Minded Are LLMs?](http://arxiv.org/abs/2509.11967)
 
 - MILLSTONE: introduces a benchmark to systematically measure LLM open-mindedness to in-context arguments on controversial issues, utilizing a neutral prompt, varied argument configurations, and a stance classifier.
-- The benchmark evaluates how LLMs change their output stance on debatable issues when presented with human-written, non-adversarial arguments from authoritative sources.
+-The benchmark evaluates how LLMs change their output stance on debatable issues when presented with human-written, non-adversarial arguments from authoritative sources.
 - It reveals that LLMs are generally open-minded, with their stances significantly influenced by external arguments, highlighting potential vulnerabilities to information source manipulation.
 
 ---
