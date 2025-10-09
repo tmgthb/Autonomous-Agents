@@ -48,51 +48,6 @@ Chronological order.
 
 </div>
 
-#### 26th October 2025
-
-[UnitTenX: Generating Tests for Legacy Packages with AI Agents Powered by Formal Verification](http://arxiv.org/abs/2510.05441)
-
-- UnitTenX: introduces an AI multi-agent system that combines AI agents, formal methods, and LLMs to automate unit test generation for legacy C codebases, enhancing test coverage and reliability.
-- The system employs a multi-step process including AutoMockUps for function mockups, a Symbolic Analyzer using ESBMC for crash condition extraction, LLM-driven Unit Test Generation, Coverage Analysis with gcov, and an LLM-based Reflection loop for iterative test suite improvement.
-- The framework effectively addresses challenges in maintaining and modernizing complex legacy software by generating high-quality, production-ready regression tests, recovering from compilation errors, and improving code documentation.
-
----
-
-#### 25th October 2025
-
-[Adaptive and Explainable AI Agents for Anomaly Detection in Critical IoT Infrastructure using LLM-Enhanced Contextual Reasoning](http://arxiv.org/abs/2510.03859)
-
-- LLM-ECADF (LLM-Enhanced Context-Aware Anomaly Detection Framework): introduces an anomaly detection system for critical IoT infrastructures, with all its components, designed to provide adaptive, context-aware, and interpretable anomaly detection.
-- This framework leverages LLMs and Explainable AI (XAI) agents to significantly outperform traditional rule-based methods in accuracy and reduce false positives.
-- The system is designed for real-time application in critical domains like smart grids and healthcare, offering human-in-the-loop decision support and continuous model improvement through feedback.
-
----
-
-[Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade-offs](http://arxiv.org/abs/2510.03847)
-
-- Heterergemos AI Architecture: introduces an intelligent routing system for SLM-default agents, featuring a Front-door Router, Capability Registry, Small Language Models (SLMs), Large Language Models (LLMs), Structured Decoding, Validators, Execution Layer, LLM Fallback & Adjudication, and Telemetry, designed to efficiently route tasks based on complexity and confidence.
-- This architecture prioritizes SLMs for routine, structured tasks, leveraging their cost and latency advantages, while reserving LLMs for complex reasoning or open-domain synthesis through a fallback mechanism.
-- The system incorporates robust validation, structured decoding, and continuous telemetry feedback to ensure reliability, improve performance, and enable adaptive fine-tuning of SLMs.
-
----
-
-[Milestone Determination for Autonomous Railway Operation.](http://arxiv.org/abs/2510.06229)
-
-- Milestone Determination Framework: introduces a method for autonomous railway operation, utilizing an ODM (Operational Domain Model) represented as a state machine, with milestones defining transitions between operational states, and an OwO (Observed weight of an Output) model for context-sensitive weighting of observed outputs.
-- The framework incorporates Human-in-the-Loop (HitL) input to determine state-specific weights for contextual information, enhancing predictive performance for operational decision-making in railway simulation.
-- By focusing on critical decision points and dynamically adjusting the relevance of observed data based on the current operational state, the framework aims to facilitate safer and more efficient machine learning systems for railway automation.
-
----
-
-#### 10th October 2025
-
-[Internal World Models as Imagination Networks in Cognitive Agents](http://arxiv.org/abs/2510.04391)
-
-- Imagination Networks (INs) for Internal World Models (IWMs): introduces a novel framework that utilizes network science to compare the structure of internally-generated representations in humans and LLMs based on vividness ratings of imagined scenarios and sensory experiences.
-- This framework constructs networks where nodes represent imagined items and edges signify vividness associations, employing centrality measures and clustering analysis to characterize IWMs.
-- The study reveals distinct topological distributions of imagination networks between human and LLM cognitive agents, suggesting fundamental differences in how they organize and access their internal world models.
-
----
 
 #### 8th October 2025
 
@@ -564,6 +519,16 @@ Chronological order.
 
 #### 6th October 2025
 
+
+[UnitTenX: Generating Tests for Legacy Packages with AI Agents Powered by Formal Verification](http://arxiv.org/abs/2510.05441)
+
+- UnitTenX: introduces an AI multi-agent system that combines AI agents, formal methods, and LLMs to automate unit test generation for legacy C codebases, enhancing test coverage and reliability.
+- The system employs a multi-step process including AutoMockUps for function mockups, a Symbolic Analyzer using ESBMC for crash condition extraction, LLM-driven Unit Test Generation, Coverage Analysis with gcov, and an LLM-based Reflection loop for iterative test suite improvement.
+- The framework effectively addresses challenges in maintaining and modernizing complex legacy software by generating high-quality, production-ready regression tests, recovering from compilation errors, and improving code documentation.
+
+---
+
+
 [Staircase Streaming for Low-Latency Multi-Agent Inference](http://arxiv.org/abs/2510.05059)
 
 - Staircase Streaming: introduces a novel approach for low-latency multi-agent inference, utilizing proposer agents, an aggregator agent, and a chunking mechanism to stream tokens incrementally between models.
@@ -926,6 +891,16 @@ Chronological order.
 
 #### 5th October 2025
 
+
+[Internal World Models as Imagination Networks in Cognitive Agents](http://arxiv.org/abs/2510.04391)
+
+- Imagination Networks (INs) for Internal World Models (IWMs): introduces a novel framework that utilizes network science to compare the structure of internally-generated representations in humans and LLMs based on vividness ratings of imagined scenarios and sensory experiences.
+- This framework constructs networks where nodes represent imagined items and edges signify vividness associations, employing centrality measures and clustering analysis to characterize IWMs.
+- The study reveals distinct topological distributions of imagination networks between human and LLM cognitive agents, suggesting fundamental differences in how they organize and access their internal world models.
+
+---
+
+
 [JUST-IN-TIME EPISODIC FEEDBACK HINTER: LEVERAGING OFFLINE KNOWLEDGE TO IMPROVE LLM AGENTS ADAPTATION](http://arxiv.org/abs/2510.04373)
 
 - JEF HINTER (Just-in-time Episodic Feedback Hinter): introduces an agentic system that distills offline trajectories into explicit, context-aware hints, leveraging a zooming module, a Hinter LLM, semantic keys, and a retriever to enhance LLM agent adaptation.
@@ -1119,6 +1094,24 @@ Chronological order.
 ---
 
 #### 4th October 2025
+
+
+[Small Language Models for Agentic Systems: A Survey of Architectures, Capabilities, and Deployment Trade-offs](http://arxiv.org/abs/2510.03847)
+
+- Heterergemos AI Architecture: introduces an intelligent routing system for SLM-default agents, featuring a Front-door Router, Capability Registry, Small Language Models (SLMs), Large Language Models (LLMs), Structured Decoding, Validators, Execution Layer, LLM Fallback & Adjudication, and Telemetry, designed to efficiently route tasks based on complexity and confidence.
+- This architecture prioritizes SLMs for routine, structured tasks, leveraging their cost and latency advantages, while reserving LLMs for complex reasoning or open-domain synthesis through a fallback mechanism.
+- The system incorporates robust validation, structured decoding, and continuous telemetry feedback to ensure reliability, improve performance, and enable adaptive fine-tuning of SLMs.
+
+---
+
+[Adaptive and Explainable AI Agents for Anomaly Detection in Critical IoT Infrastructure using LLM-Enhanced Contextual Reasoning](http://arxiv.org/abs/2510.03859)
+
+- LLM-ECADF (LLM-Enhanced Context-Aware Anomaly Detection Framework): introduces an anomaly detection system for critical IoT infrastructures, with all its components, designed to provide adaptive, context-aware, and interpretable anomaly detection.
+- This framework leverages LLMs and Explainable AI (XAI) agents to significantly outperform traditional rule-based methods in accuracy and reduce false positives.
+- The system is designed for real-time application in critical domains like smart grids and healthcare, offering human-in-the-loop decision support and continuous model improvement through feedback.
+
+---
+
 
 [Multi-Agent Code-Orchestrated Generation for Reliable Infrastructure-as-Code](http://arxiv.org/abs/2510.03902)
 
@@ -1751,6 +1744,16 @@ Chronological order.
 ---
 
 #### 30th September 2025
+
+
+[Milestone Determination for Autonomous Railway Operation.](http://arxiv.org/abs/2510.06229)
+
+- Milestone Determination Framework: introduces a method for autonomous railway operation, utilizing an ODM (Operational Domain Model) represented as a state machine, with milestones defining transitions between operational states, and an OwO (Observed weight of an Output) model for context-sensitive weighting of observed outputs.
+- The framework incorporates Human-in-the-Loop (HitL) input to determine state-specific weights for contextual information, enhancing predictive performance for operational decision-making in railway simulation.
+- By focusing on critical decision points and dynamically adjusting the relevance of observed data based on the current operational state, the framework aims to facilitate safer and more efficient machine learning systems for railway automation.
+
+---
+
 
 [Ferret-UI Lite: Lessons from Building Small On-Device GUI Agents](http://arxiv.org/abs/2509.26539)
 
