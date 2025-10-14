@@ -3085,7 +3085,9 @@ Uses a depth-first search (DFS) algorithm and a reflection mechanism, implemente
 
 [GenoTEX: A Benchmark for Evaluating LLM-Based Exploration of Gene Expression Data in Alignment with Bioinformaticians](https://arxiv.org/abs/2406.15341)
 
-- GenoAgent: LLM-based genomics data-analysis.  
+- GenoTEX: introduces a benchmark for automated analysis of gene expression data, providing expert-curated code and results for gene-trait association problems, encompassing dataset selection, preprocessing, and statistical analysis.
+- GenoAgent: presents a team of LLM-based agents with specialized roles (Project Manager, Data Engineer, Statistician, Code Reviewer, Domain Expert) that adopt a multi-step programming workflow with flexible self-correction to collaboratively analyze genomic datasets.
+- The benchmark features 1,384 gene-trait association problems, 911 datasets with 152K+ samples, and 238K lines of expert-curated code, demonstrating the potential and challenges of LLM-based methods in scientific discovery.
 
 ---
 

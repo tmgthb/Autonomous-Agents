@@ -275,6 +275,16 @@ Chronological order.
 
 ---
 
+#### 9th October 2025
+
+[CoMAS: Co-Evolving Multi-Agent Systems via Interaction Rewards](https://arxiv.org/abs/2510.08529)
+
+- CoMAS (Co-Evolving Multi-Agent Systems via Interaction Rewards): introduces a framework enabling LLM-based agents to co-evolve autonomously through interaction-based rewards, incorporating an LLM-as-judge mechanism and reinforcement learning to optimize agent policies via intrinsic rewards derived from rich inter-agent discussion dynamics.
+- The framework addresses the challenge of collective intelligence emergence without manual annotation by using GPT-4 as an automated judge to score agent contributions based on interaction quality, which then drives policy optimization through a PPO-based RL algorithm.
+- CoMAS demonstrates state-of-the-art performance and scalability in decentralized multi-agent systems, showing that agents can autonomously improve collaborative reasoning through self-generated interaction feedback.
+
+---
+
 #### 7th October 2025
 
 [STRATIFIED GRPO: Handling Structural Heterogeneity in Reinforcement Learning of LLM Search Agents](http://arxiv.org/abs/2510.06214)
