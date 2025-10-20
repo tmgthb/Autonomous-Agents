@@ -50,6 +50,172 @@ Chronological order.
 
 
 
+#### 27th September 2025
+
+[GUI-PRA: PROCESS REWARD AGENT FOR GUI TASKS](http://arxiv.org/abs/2509.23263)
+
+- GUI-PRA (Process Reward Agent for GUI Tasks): introduces a training-free framework that transforms a standard Process Reward Model into a GUI-domain-specific supervisor, addressing long-context issues and lack of UI awareness in dynamic GUI environments.
+- It incorporates a Dynamic Memory mechanism to condense historical trajectories and an Adaptive UI Perception mechanism to reason about visual changes and gather grounded evidence.
+- The framework integrates these components with a Best-of-N Selection process to provide informed supervisory signals, significantly improving GUI agent success rates on complex tasks.
+
+---
+
+[Situational Awareness for Safe and Robust Multi-Agent Interactions Under Uncertainty](http://arxiv.org/abs/2509.23425)
+
+- SAF: introduces a resource-efficient situational awareness framework for autonomous agents, integrating an observation radius, an estimation algorithm, and adaptive learning strategies to navigate safely and efficiently in multi-agent environments.
+- The framework enables an O-Agent to predict X-Agent actions using an RNN-based estimator and adapt its strategy via Reinforcement Learning or Game Theory, while also performing risk analysis on its predictions.
+- By limiting observability and action space, the framework aims to reduce resource consumption while adhering to safety guidelines, validated through simulations on a 2D grid with simplified dynamics.
+
+---
+
+[Space Robotics Bench: Robot Learning Beyond Earth](http://arxiv.org/abs/2509.23328)
+
+- SRB (Space Robotics Bench): introduces an open-source simulation framework for robot learning in space, leveraging NVIDIA Isaac Sim and Isaac Lab, a modular architecture, a procedural engine, domain randomization, a GPU-accelerated backend, Rust extension modules, TorchScript, ROS 2 interface, Gymnasium API, a unified command-line interface, and a sim-to-real mechanism to generate diverse training distributions and facilitate robust autonomous system development.
+- The framework addresses the challenges of data scarcity and high demonstration costs in space robotics by enabling the creation of virtually unlimited, unique training scenarios through extensive procedural content generation and comprehensive randomization of physical and visual parameters.
+- SRB provides a validated workflow for developing robust autonomous systems, demonstrating successful zero-shot sim-to-real transfer of learned policies to physical robots, and offering a testbed for investigating generalization and adaptive control strategies.
+
+---
+
+[SOCIO-ECONOMIC MODEL OF AI AGENTS](http://arxiv.org/abs/2509.23270)
+
+- Socio-Economic Model of AI Agents: introduces a heterogeneous agent-based modeling framework, with Model 1 (pure human collaboration baseline), Model 2 (AI agents as collaborators), Model 3 (Model 2 with network effects), Model 4 (AI agents as independent producers), and Model 5 (Model 3 and Model 4 combined), to study the impact of AI collaboration under resource constraints on aggregate social output.
+- The framework analyzes how AI agents, as either collaborative enhancers or independent producers, influence social output, considering factors like AI capability growth, resource allocation, and network effects among agents.
+- Simulation results demonstrate that AI agents significantly increase social output, with network effects and independent production models showing higher growth potential and increasing returns to scale.
+
+---
+
+[Agentic AI Reasoning for Mobile Edge General Intelligence: Fundamentals, Approaches, and Directions](http://arxiv.org/abs/2509.23248)
+
+- Joint Optimization Framework for LLM Reasoning in MEGI: introduces a framework for efficient LLM reasoning deployment in Mobile Edge General Intelligence, featuring a BS Control Unit, Distributed Edge Devices with Expert Networks, and Integrated CoT Reasoning Modules.
+- This framework enhances reasoning through adaptive CoT prompting and ensures scalable deployment via a distributed MoE architecture, dynamically activating expert networks and adjusting reasoning depth.
+- The approach systematically minimizes total system energy consumption while meeting critical latency, inference quality, and hardware constraints in resource-constrained MEGI environments.
+
+---
+
+[Memory Management and Contextual Consistency for Long-Running Low-Code Agents](http://arxiv.org/abs/2509.25250)
+
+- Hybrid Memory System: introduces a novel hybrid memory system for long-running LCNC agents, featuring a multi-component architecture, an Intelligent Decay mechanism, and a user-centric visualization interface, designed to address memory inflation and contextual degradation.
+- The system proactively manages memory by intelligently pruning and consolidating information based on recency, relevance, and user utility, while empowering non-technical users to directly influence memory retention.
+- This approach significantly improves task completion rates, contextual consistency, and long-term token cost efficiency, establishing a framework for reliable and transparent AI agents.
+
+---
+
+#### 26th September 2025
+
+[WEBGEN-AGENT: ENHANCING INTERACTIVE WEB-SITE GENERATION WITH MULTI-LEVEL FEEDBACK AND STEP-LEVEL REINFORCEMENT LEARNING](http://arxiv.org/abs/2509.22644)
+
+- WebGen-Agent (Enhancing Interactive Website Generation with Multi-Level Feedback and Step-Level Reinforcement Learning): introduces a novel website generation agent that leverages comprehensive multi-level visual and GUI-agent feedback, combined with backtracking and select-best mechanisms, to iteratively generate and refine website codebases.
+- The framework integrates a Coding LLM for code generation, a VLM for visual assessment, and a GUI Agent for functional evaluation, providing dense, reliable step-level supervision signals for reinforcement learning.
+- WebGen-Agent significantly enhances LLMs' ability to produce high-quality websites by optimizing both appearance and functionality through its iterative feedback loop and Step-GRPO training approach.
+
+---
+
+[MDAR: A MULTI-SCENE DYNAMIC AUDIO REASONING BENCHMARK](http://arxiv.org/abs/2509.22461)
+
+- MDAR (Multi-Scene Dynamic Audio Reasoning Benchmark): introduces a benchmark for evaluating models on complex, multi-scene, and dynamically evolving audio reasoning tasks, comprising 3,000 curated question-answer pairs across five reasoning categories and three question types.
+- The benchmark includes MDAR-main for single-choice, MDAR-open for open-ended, and MDAR-multi for multi-audio multiple-choice questions, designed to assess advanced reasoning, perception, and knowledge capabilities.
+- A high-quality data construction pipeline, involving data preparation, audio processing, and rigorous quality assurance, ensures the benchmark's diversity, complexity, and reliability for advancing audio reasoning research.
+
+---
+
+[Secure and Efficient Access Control Framework for Computer-Use Agents via Context Space](http://arxiv.org/abs/2509.22256)
+
+- CSAgent: introduces a system-level, static policy-based access control framework for computer-use agents, with its CSAgent Service, Intent Extractor (LLM), Context Manager, Context Space, Context Values, Context Policy, Context Space Cache, Policy Verifier, Context Analyzer, GUI Analyzer (LLM, Static Analysis), Intent Prediction (LLM), Policy Generation (LLM), Policy Evolution Framework (PEF), Agent Framework, LLM Agent, Function Call (GUI / API / CLI), User Device, Source Code, Documents, and App (GUI / API / CLI) components, designed to secure LLM-based computer-use agents by enforcing context-aware policies during runtime.
+- The framework addresses limitations of existing approaches by shifting policy generation to the development phase, utilizing an LLM-based context analyzer and a policy evolution framework to create and refine policies.
+- CSAgent supports diverse agent interaction modalities (API, CLI, GUI) through a unified function abstraction and demonstrates high attack defense capabilities with minimal performance overhead.
+
+---
+
+[Log2Plan: An Adaptive GUI Automation Framework Integrated with Task Mining Approach](http://arxiv.org/abs/2509.22137)
+
+- Log2Plan (An Adaptive GUI Automation Framework Integrated with Task Mining Approach): introduces a framework with User Command (natural language input), Documentation (reference for planning), Task Mining (processes collected log data), GlobalPlanner (decomposes command to high-level tasks), LocalPlanner (generates GUI-optimized task plan), GUI Parser (extracts GUI metadata), GUI Control (manages GUI interactions), Execution (carries out low-level GUI actions), and User Intervention (user input/guidance mechanism), where Log2Plan combines a structured two-level planning framework with a task mining approach over user behavior logs to enable robust and adaptable GUI automation.
+- The framework constructs high-level plans by mapping user commands to a structured task dictionary derived from user logs, which are then grounded into low-level action sequences by interpreting real-time GUI context.
+- This hierarchical planning and log-guided semantic retrieval approach enhances robustness to UI changes, improves generalization to unseen interfaces, and maintains stable performance for complex, multi-step workflows.
+
+---
+
+[RISK: A FRAMEWORK FOR GUI AGENTS IN E-COMMERCE RISK MANAGEMENT](http://arxiv.org/abs/2509.21982)
+
+- RISK: introduces a novel framework for GUI agents in e-commerce risk management, integrating RISK-Data (a dataset), RISK-Bench (a benchmark), and RISK-R1 (a reinforcement fine-tuning framework) to automate complex web interactions.
+- The RISK-R1 component, based on Group Relative Policy Optimization (GRPO), employs a comprehensive reward function with Format Reward, Stepwise Accuracy Reward, Process Reweight, and Level Reweight to guide the learning process of GUI agents.
+- The framework provides a scalable, domain-specific solution for automating multi-step, stateful interactions in e-commerce risk management, outperforming existing baselines in both offline and online evaluations.
+
+---
+
+[PRORE: A PROACTIVE REWARD SYSTeM FOR GUI AGENTS VIA REASONER-ACTOR COLLABORATION](http://arxiv.org/abs/2509.21823)
+
+- PRORE (PROactive REward System): introduces a proactive reward system for GUI agents, leveraging a general-purpose reasoner and domain-specific evaluator agents to assign accurate and verifiable rewards.
+- The reasoner schedules targeted state probing tasks, which evaluator agents execute by actively interacting with the environment to collect additional observations, enabling more accurate reward assignment.
+- This framework transforms the reward system from passive monitoring to proactive probing, significantly improving reward accuracy and policy agent success rates on GUI tasks.
+
+---
+
+[D-ARTEMIS: A DELIBERATIVE COGNITIVE FRAMEWORK FOR MOBILE GUI MULTI-AGENTS](http://arxiv.org/abs/2509.21799)
+
+- D-Artemis (Deliberative Cognitive Framework for Mobile GUI Multi-Agents): introduces a novel deliberative framework for mobile GUI agents, integrating a Manager Agent, Knowledge Base, Working Memory, Thought-Action Consistency (TAC) Check module, Action Correction Agent (ACA), Execution, and Status Reflection Agent (SRA) to emulate human cognitive processes.
+- The framework leverages app-specific tip retrieval and proactive pre-execution alignment via the TAC Check module and ACA to mitigate execution failures, while the SRA enables strategic learning from experience.
+- D-Artemis significantly enhances general-purpose MLLMs for GUI tasks without extensive trajectory dataset training, achieving state-of-the-art performance on AndroidWorld and ScreenSpot-V2 benchmarks.
+
+---
+
+[BENCHMARKING MLLM-BASED WEB UNDERSTANDING: REASONING, ROBUSTNESS AND SAFETY](http://arxiv.org/abs/2509.21782)
+
+- WebRSSBench: introduces a comprehensive benchmark for evaluating MLLMs in web understanding, with Reasoning (evaluates spatial and semantic understanding), Robustness (evaluates resilience to perturbations), Safety (evaluates critical action awareness), Position Relationship Reasoning (determines spatial relations between elements), Form Filling (infers user intent for form completion), UI Group (classifies UI elements into functional groups), Hint Text Prediction (infers missing placeholder text), Color Robustness (tests stability under color shifts), Text Robustness (tests stability under text variations), Layout Robustness (tests stability under layout rearrangements), Safety Critical Detection (identifies irreversible actions), Original Webpages (input screenshots), LLM (model under evaluation), Model Output (model's predictions), Perturbed Webpages (adversarial input screenshots), Ground Truth (reference answers), Compare (evaluation metric calculation), Manual Annotation (human-labeled data), Automated Generation (scripted data creation), designed to jointly assess reasoning, robustness, and safety capabilities across eight web-related tasks.
+- The benchmark is constructed from 729 websites and 3799 question-answer pairs, probing multi-step inference over page structure, text, widgets, and safety-critical interactions using standardized prompts and deterministic evaluation scripts.
+- WebRSSBench reveals significant performance gaps in MLLMs, particularly in compositional and cross-element reasoning, robustness to perturbations, and conservative recognition of safety-critical actions, highlighting the need for improved web understanding capabilities.
+
+---
+
+[WoW: TOWARDS A WORLD-OMNISCIENT WORLD-MODEL THROUGH EMBODIED INTERACTION](http://arxiv.org/abs/2509.22642)
+
+- WoW (World-Omniscient World-Model): introduces a generative world model that integrates perception, prediction, judgment, reflection, and action, learning from real-world interaction data to generate physically consistent robot videos.
+- The framework employs a self-optimizing loop, SOPHIA, which uses a Foundation Video Generation World Model to predict futures, Solver-Critic Video Generation Agents for iterative refinement, and a Flow-Mask Inverse Dynamics Model to translate refined plans into executable robot actions.
+- WoW achieves state-of-the-art performance on the WoWBench benchmark, demonstrating strong abilities in physical causality, collision dynamics, and object permanence for embodied intelligence.
+
+---
+
+[Impact of Collective Behaviors of Autonomous Vehicles on Urban Traffic Dynamics: A Multi-Agent Reinforcement Learning Approach](http://arxiv.org/abs/2509.22216)
+
+- PARCOUR (Playground for Agents with Rationality Competing for Optimal Urban Routing): introduces a multi-agent reinforcement learning framework for simulating urban traffic dynamics, integrating human drivers (HumanDriver) and autonomous vehicles (AV) with various behaviors (DQN) within a traffic environment (TrafficEnvironment) using an external simulator (SumoSimulator), orchestrated by a ScenarioRunner.
+- The framework allows researchers to define and test different behavior and learning models in custom multi-agent route-choice scenarios, observing agent interactions in a shared environment.
+- It facilitates the study of how AV behaviors, such as selfish, altruistic, or malicious, impact overall traffic efficiency and human driver travel times.
+
+---
+
+[Self-driving cars: Are we there yet?](http://arxiv.org/abs/2509.22754)
+
+- MTR + MPC (Motion Transformer with Model Predictive Control): introduces a detailed comparative analysis of state-of-the-art motion planning methods on the CARLA Leaderboard v2.0, including an augmented MTR model with an MPC-based planning module.
+- The paper systematically evaluates five top-ranked autonomous driving models across diverse traffic scenarios and maps, providing insights into their strengths and weaknesses.
+- This research identifies common trends and failures, highlighting concrete directions for advancing motion planning research and emphasizing the need for robust perception and prediction combined with deterministic planning.
+
+---
+
+[COBEL-WORLD: HARNESSING LLM REASONING TO BUILD A COLLABORATIVE BELIEF WORLD FOR OPTIMIZING EMBODIED MULTI-AGENT COLLABORATION](http://arxiv.org/abs/2509.21981)
+
+- CoBel-World (Collaborative Belief World): introduces a novel framework that equips LLM agents with a collaborative belief world, enabling efficient and consistent multi-agent collaboration under partial observability.
+- This framework formalizes world and mental state knowledge using a symbolic belief language and leverages LLM reasoning for Bayesian-style belief updates.
+- It allows agents to proactively infer teammates' intentions, detect miscoordination, and adaptively communicate only when necessary, significantly reducing communication costs and improving task efficiency.
+
+---
+
+[DEEPTRAVEL: AN END-TO-END AGENTIC RE-INFORCEMENT LEARNING FRAMEWORK FOR AUTONOMOUS TRAVEL PLANNING AGENTS](http://arxiv.org/abs/2509.21842)
+
+- DeepTravel: introduces an end-to-end agentic reinforcement learning framework for autonomous travel planning, capable of planning, executing tools, and reflecting on responses, with all Robust Sandbox Construction, Toolkit Annotation, Mock Data Collection and Update Mechanism, DiDi ES App, DiDi Cache, Flight Search Tool, Train Search Tool, Route Planning Tool, Hotel Search Tool, POI Search Tool, Web Search Tool, Hierarchical Reward Modeling System, Trajectory-Level Verifier, Turn-Level Verifier, Joint Reward Reweighting, Reply-Augmented Reinforcement Learning, Supervised Fine-Tuning, Reinforcement Learning, Experience Replay Buffer, Reward Model, TP Agent, and LLM Backbone components, where the framework enables autonomous travel planning agents to explore, verify, and refine intermediate actions in multi-step reasoning.
+- The framework utilizes a robust sandbox environment, a hierarchical reward modeling system, and a reply-augmented reinforcement learning method to overcome real-world API limitations and provide reliable reward signals.
+- DeepTravel enables small-size LLMs to significantly outperform existing frontier LLMs in travel planning tasks, demonstrating its effectiveness in both offline and online evaluations.
+
+---
+
+[ULTRAHORIZON: BENCHMARKING AGENT CAPABILITIES IN ULTRA LONG-HORIZON SCENARIOS](http://arxiv.org/abs/2509.21766)
+
+- UltraHorizon: introduces a novel benchmark for evaluating LLM-based agents in long-horizon, partially observable scenarios, featuring three distinct environments, a Context Refresh with Notes Recall (CRNR) scaling strategy, LLM-based agents, human participants, an LLM-as-a-Judge evaluation model, and a Score@k metric.
+- The benchmark requires agents to perform sustained reasoning, planning, memory management, and tool use to uncover hidden rules through iterative interaction, extending beyond short-horizon, fully observable tasks.
+- Experiments reveal that LLM-agents consistently underperform compared to human participants, highlighting significant capability gaps rooted in in-context locking and foundational skill deficiencies, which simple scaling fails to address.
+
+---
+
+
+
 #### 25th September 2025
 
 [AUTOMOTIVE-ENV: BENCHMARKING MULTIMODAL AGENTS IN VEHICLE INTERFACE SYSTEMS](http://arxiv.org/abs/2509.21143)
@@ -18458,6 +18624,7 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
 
 
