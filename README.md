@@ -102,7 +102,7 @@ Chronological order.
 
 [Hiding in the AI Traffic: Abusing MCP for LLM-Powered Agentic Red Teaming](http://arxiv.org/abs/2511.15998)
 
-- MCP (Model Context Protocol): introduces a novel Command & Control (C2) architecture leveraging the Model Context Protocol (MCP) to coordinate distributed, adaptive reconnaissance agents covertly across networks, with components including Reconnaissance Agents, an MCP Coordination Server, and a Red Team Command Agent.
+- Introduces a novel Command & Control (C2) architecture leveraging the Model Context Protocol (MCP) to coordinate distributed, adaptive reconnaissance agents covertly across networks, with components including Reconnaissance Agents, an MCP Coordination Server, and a Red Team Command Agent.
 - The decoupled, two-leg C2 communication flow uses the MCP for stealthy tasking and leverages public LLM APIs for complex reasoning and payload generation, blending traffic with legitimate AI service usage.
 - This framework enables advanced adversarial capabilities like event-driven operations, multi-agent swarm coordination, and on-demand polymorphic malware generation while minimizing detection footprint.
 
