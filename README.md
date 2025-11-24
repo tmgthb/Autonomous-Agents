@@ -50,6 +50,64 @@ Chronological order.
 
 
 
+#### 21st November 2025
+
+[GHOSTEI-BENCH: DO MOBILE AGENTS RESILIENCE TO ENVIRONMENTAL INJECTION IN DYNAMIC ON-DEVICE ENVIRONMENTS?](http://arxiv.org/abs/2510.20333)
+
+- GhostEI-Bench: introduces the first benchmark dedicated to assessing mobile agent robustness against environmental injection attacks in dynamic, executable environments, utilizing a Tested Agent (Perceives/Plans/Acts), an Environment Controller (Prepares/Injects attacks), an Evaluation Module (Assesses agent behavior), a Judge LLM (Analyzes failure trajectory), an Android Emulator (Realistic GUI environment), and Attack Vectors (Threat models).
+- The benchmark systematically injects adversarial UI elements, such as deceptive overlays and spoofed notifications, directly into realistic application workflows running inside fully operational Android emulators.
+- A novel LLM-based evaluation protocol performs fine-grained failure analysis by reviewing the agent's action trajectory and corresponding screenshots to identify the precise point of failure (perception, recognition, or reasoning).
+
+---
+
+[MDG: Masked Denoising Generation for Multi-Agent Behavior Modeling in Traffic Environments](http://arxiv.org/abs/2511.17496)
+
+- MDG (Masked Denoising Generation): introduces a unified generative framework that reformulates multi-agent behavior modeling as the reconstruction of independently noised spatiotemporal tensors, supporting diverse tasks like open-loop prediction and closed-loop planning.
+- The approach utilizes a continuous, per-agent and per-timestep Noise Mask field to regulate localized denoising, enabling efficient and controllable trajectory generation in a single or few forward passes.
+- The architecture employs a Scene Encoder to fuse multimodal context and a Transformer Denoiser with specialized attention mechanisms to progressively reconstruct clean trajectories, achieving competitive closed-loop performance on Waymo Sim Agents and nuPlan benchmarks.
+
+---
+
+[Agentifying Agentic AI](http://arxiv.org/abs/2511.17332)
+
+- Agentifying Agentic AI (AAAI): introduces a path toward responsible agency by integrating adaptive, data-driven LLM approaches with structured models from AAMAS, including BDI Architecture (Explicit mental states), Communication Protocols (Structured inter-agent messages), and Norms, Institutions, Roles (Social constraints, expectations).
+- The paper argues that true agency requires complementing learning-based mechanisms with explicit models of cognition, cooperation, and governance to ensure transparency, coherence, and accountability in multi-agent settings.
+- By reintroducing formal concepts like Mechanism Design and Theory of Mind, the framework aims to address current Agentic AI challenges related to reliability, grounding, long-horizon agency, and robust multi-agent coordination.
+
+---
+
+[Agentic Program Verification](http://arxiv.org/abs/2511.17330)
+
+- AutoRocQ: introduces an LLM agent for program verification that uses Context Analysis, Context-aware Tactic Generation, Proof Tree-aware Interpretation, Context-assisted Feedback Handling, Error Analysis, History Manager, and Proof Certificate to autonomously construct proofs in collaboration with the Rocq Proof Assistant.
+- The agent employs an iterative refinement loop, leveraging agentic context search via query commands to retrieve relevant lemmas and definitions on demand, significantly reducing contextual noise compared to static retrieval methods.
+- By maintaining a structured proof tree representation, the system achieves high-level interpretation of the proof derivation, enabling strategic decision-making and effective error recovery during complex verification tasks.
+
+---
+
+[Designing Domain-Specific Agents via Hierarchical Task Abstraction Mechanism](http://arxiv.org/abs/2511.17198)
+
+- HTAM (Hierarchical Task Abstraction Mechanism): introduces a novel agent design framework that structures multi-agent systems into a logical hierarchy mirroring the intrinsic task-dependency graph of a specialized domain.
+- Instantiated as EarthAgent for complex geospatial analysis, the architecture uses a dual-pass mechanism: top-down planning for decomposition and bottom-up execution for sequential data processing.
+- The framework enforces procedural correctness and modularity by decomposing the problem into distinct functional layers, each populated by specialized LLM-driven sub-agents.
+
+---
+
+[AutoLink: Autonomous Schema Exploration and Expansion for Scalable Schema Linking in Text-to-SQL at Scale](http://arxiv.org/abs/2511.17190)
+
+- AutoLink: introduces an autonomous agent framework that reformulates schema linking as an iterative, sequential discovery process, utilizing an LLM policy to dynamically explore and expand the linked schema subset.
+- The agent interacts with two specialized environments, the Database Environment ($\mathcal{E}_{DB}$) for SQL exploration and the Schema Vector Store Environment ($\mathcal{E}_{VS}$) for efficient semantic retrieval, without requiring the full database schema input.
+- The agent employs a diverse set of actions, including schema exploration, semantic retrieval, and verification, to iteratively refine the linked schema, achieving state-of-the-art strict recall and superior token efficiency.
+
+---
+
+[PathAgent: Toward Interpretable Analysis of Whole-slide Pathology Images via Large Language Model-based Agentic Reasoning](http://arxiv.org/abs/2511.17052)
+
+- PathAgent (Large Language Model-based Agent Framework): introduces a training-free LLM-based agent framework that emulates pathologists' reflective, stepwise analysis by coordinating a Navigator, Perceptor, and Executor for iterative, evidence-driven reasoning on Whole-slide images.
+- The Executor, serving as the central module, employs Multi-Step Reasoning and Reflection to dynamically adjust magnification and retrieve new Regions of Interest, generating an explicit chain-of-thought for fully interpretable predictions.
+- The framework achieves strong zero-shot generalization and superior accuracy in open-ended and constrained visual question-answering tasks without requiring specific training data.
+
+---
+
 #### 20th Nov 2025
 
 [Large Language Model-Based Reward Design for Deep Reinforcement Learning-Driven Autonomous Cyber Defense](http://arxiv.org/abs/2511.16483)
@@ -105,6 +163,22 @@ Chronological order.
 - Introduces a novel Command & Control (C2) architecture leveraging the Model Context Protocol (MCP) to coordinate distributed, adaptive reconnaissance agents covertly across networks, with components including Reconnaissance Agents, an MCP Coordination Server, and a Red Team Command Agent.
 - The decoupled, two-leg C2 communication flow uses the MCP for stealthy tasking and leverages public LLM APIs for complex reasoning and payload generation, blending traffic with legitimate AI service usage.
 - This framework enables advanced adversarial capabilities like event-driven operations, multi-agent swarm coordination, and on-demand polymorphic malware generation while minimizing detection footprint.
+
+---
+
+[D-GARA: A Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies](http://arxiv.org/abs/2511.16590)
+
+- D-GARA (Dynamic Benchmarking Framework for GUI Agent Robustness in Real-World Anomalies): introduces a dynamic benchmarking framework to evaluate Android GUI agent robustness by integrating an Android simulator, an Execution Cycle, an Anomaly Trigger Mechanism, Interruption Injection, a Success Validation Mechanism, and a DataCollector tool.
+- The framework simulates real-world anomalies, such as permission dialogs and system alerts, by injecting them dynamically into the agent's execution trajectory using a rule-based Semantic Anomaly Triggering Mechanism.
+- D-GARA utilizes a state-centered Success Validator that checks the final UI state against declarative goal conditions, enabling realistic robustness evaluation beyond static benchmarks.
+
+---
+
+[AutoBackdoor: Automating Backdoor Attacks via LLM Agents](http://arxiv.org/abs/2511.16709)
+
+- AUTOBACKDOOR: introduces a fully automated red-teaming framework for LLMs that uses an autonomous LLM agent to execute the entire backdoor injection pipeline, including trigger generation, poisoned data construction, and model fine-tuning.
+- The framework employs a chained agentic workflow and a reflection-guided generation mechanism to synthesize semantically coherent, context-aware triggers and high-quality poisoned instruction-response pairs.
+- Experiments show the approach achieves over 90% attack success with minimal poisoned samples across various LLMs and tasks, highlighting the failure of existing defenses against agent-driven semantic backdoors.
 
 ---
 
@@ -1467,6 +1541,14 @@ Chronological order.
 - TriageMD: introduces a proof-of-concept conversational self-triage system that guides LLMs with clinically validated flowcharts from the American Medical Association, providing a structured and auditable framework for patient decision support, leveraging a multi-agent framework consisting of a retrieval agent, a decision agent, and a chat agent.
 - The system combines the flexibility of free-text interaction with the rigor of standardized clinical protocols, achieving high accuracy in both flowchart retrieval (95.29% top-3) and navigation (99.10%) across diverse conversational styles.
 - This approach demonstrates the feasibility of transparent, accurate, and generalizable AI-assisted self-triage, aiming to improve healthcare resource utilization by managing nonurgent emergency department visits.
+
+---
+
+[OSWORLD-MCP: BENCHMARKING MCP TOOL INVOCATION IN COMPUTER-USE AGENTS](http://arxiv.org/abs/2510.24563)
+
+- OSWorld-MCP: introduces a comprehensive and fair benchmark for evaluating computer-use agents by integrating 158 high-quality MCP Tools and GUI operations in real-world scenarios.
+- The benchmark assesses multimodal agents' decision-making, GUI operation, and tool invocation capabilities in a hybrid environment, bridging the gap between pure-GUI and text-based tool-use evaluations.
+- New metrics, Tool Invocation Rate (TIR) and Average Completion Steps (ACS), are introduced to provide a nuanced assessment of agents' tool utilization propensity and task completion efficiency.
 
 ---
 
@@ -2849,6 +2931,14 @@ Chronological order.
 - Safe-ROS: introduces an architecture for developing reliable and verifiable autonomous robots in safety-critical domains, featuring an intelligent control system (SRAS) and a formally verifiable oversight system (SS) composed of Safety Instrumented Functions (SIFs).
 - The architecture integrates formal methods tools like FRET for requirement elicitation, MCAPL/AJPF/GWENDOLEN for SIF verification, and Dafny for integration correctness proof.
 - The SIF, implemented as a BDI agent, monitors the SRAS (ROS-based motion controller) and enforces safety requirements, demonstrated via an obstacle avoidance task on an AgileX Scout Mini robot.
+
+---
+
+[Human-AI collaborative autonomous synthesis with pulsed laser deposition for remote epitaxy](http://arxiv.org/abs/2511.11558)
+
+- HAIC (Human-AI collaborative) workflow: introduces a tightly coupled, mixed-initiative system integrating human expertise, LLMs, and an autonomous pulsed laser deposition (PLD) system for accelerated materials synthesis.
+- The workflow utilizes LLM-assisted hypothesis generation via RAG and Bayesian Optimization for active learning in autonomous batches, targeting remote epitaxy of BaTiO3/graphene.
+- Offline Human-AI Conferences enable iterative data analysis and process refinement, allowing the system to efficiently map the growth space and identify optimal synthesis conditions using in situ diagnostics.
 
 ---
 
