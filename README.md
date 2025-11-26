@@ -50,6 +50,88 @@ Chronological order.
 
 
 
+#### 25th November 2025
+
+[FRAGMENTA: End-to-end Fragmentation-based Generative Model with Agentic Tuning for Drug Lead Optimization](http://arxiv.org/abs/2511.20510)
+
+- FRAGMENTA (End-to-end Fragmentation-based Generative Model with Agentic Tuning for Drug Lead Optimization): introduces an end-to-end framework for drug lead optimization that integrates the LVSEF generative model and an Agentic AI System for automated tuning, enabling a closed-loop iterative process.
+- The LVSEF component reframes fragment selection as a vocabulary selection problem, jointly optimizing fragment sets and molecule generation using dynamic Q-learning and reconstruction rewards.
+- The Agentic AI System utilizes specialized LLM-based agents (EvalAgent, QueryAgent, ExtractAgent, CodeAgent) and a shared Knowledge Base to interpret expert feedback and autonomously refine the generative model's objectives.
+
+---
+
+[AD-R1: Closed-Loop Reinforcement Learning for End-to-End Autonomous Driving with Impartial World Models](http://arxiv.org/abs/2511.20325)
+
+- AD-R1: introduces a closed-loop RL framework leveraging an Impartial World Model (IWM) as an internal critic to refine autonomous driving policies by learning from imagined failures.
+- The IWM is trained using Counterfactual Synthesis, a novel data pipeline that systematically generates a curriculum of plausible collisions and off-road events to overcome the optimistic bias inherent in standard world models.
+- During policy refinement, the IWM predicts 4D future occupancy sequences for candidate actions, enabling the 4D Rewarded Modeling module to provide dense, physically-grounded safety-critical feedback.
+
+---
+
+[CostNav: A Navigation Benchmark for Cost-Aware Evaluation of Embodied Agents](http://arxiv.org/abs/2511.20216)
+
+- CostNav (Micro-Navigation Economic Testbed): introduces a comprehensive benchmark evaluating embodied agents via an Economic Model that translates Simulation Logs (collision, energy, time) into financial metrics, including Pre-Run Costs, Run Costs, Revenue, and Break-Even Analysis.
+- The framework uses industry-derived parameters to model the complete economic lifecycle of autonomous navigation systems, revealing that optimizing for task success differs fundamentally from optimizing for economic deployment.
+- Initial evaluation of a Learning-Based On-Device baseline shows that maintenance costs, driven by a high collision rate, overwhelmingly dominate operational costs, resulting in negative profit per run.
+
+---
+
+[FROM DATA TO CONCEPTS VIA WIRING DIAGRAMS](http://arxiv.org/abs/2511.20138)
+
+- Hasse Clustering (HC): introduces a method for extracting abstract concepts from sequential data using quasi-skeleton wiring diagrams, involving sequence-to-matrix conversion and categorical constraint analysis.
+- The approach leverages the correspondence between quasi-skeleton wiring diagram graphs and Hasse diagrams to generalize individual data points into more abstract, representative concepts.
+- HC was successfully applied to time series data from a reinforcement learning agent playing a computer game, correctly identifying the unique or multiple winning strategies.
+
+---
+
+[CLIMATEAGENT: Multi-Agent Orchestration for Complex Climate Data Science Workflows](http://arxiv.org/abs/2511.20109)
+
+- CLIMATEAGENT: introduces an autonomous multi-agent framework that orchestrates complex climate data science workflows by decomposing user questions into executable sub-tasks coordinated by planning and orchestration agents, acquiring data via specialized DATA-AGENTS, and completing analysis and reporting with self-correcting CODING-AGENTs.
+- The system employs a three-layer hierarchical architecture with specialized LLM-based agents, persistent contextual coordination via a Persistent Workflow Context, and adaptive self-correction mechanisms to ensure robustness against API variability and runtime errors.
+- Evaluated on CLIMATE-AGENT-BENCH-85, the framework achieves 100% task completion and significantly outperforms GPT-5 and Copilot baselines in report quality across six climate domains, demonstrating reliable end-to-end automation.
+
+---
+
+["Are We Done Yet?”: A Vision-Based Judge for Autonomous Task Completion of Computer Use Agents](http://arxiv.org/abs/2511.20067)
+
+- VBFJ (Vision-Based Feedback Judge): introduces an autonomous evaluation and feedback framework utilizing VLMs to assess task completion directly from screenshots and task descriptions for Computer Use Agents (CUAs).
+- The framework achieves up to 73% classification accuracy in task success detection and provides an average relative improvement of 27% in the overall task success rate of CUAs.
+- The core mechanism involves the VLM providing natural language reasoning as feedback to the CUA, enabling the agent to replan and reattempt the task from its current state.
+
+---
+
+[WaymoQA: A Multi-View Visual Question Answering Dataset for Safety-Critical Reasoning in Autonomous Driving](http://arxiv.org/abs/2511.20022)
+
+- WaymoQA (Multi-View Visual Question Answering Dataset): introduces Safety-Critical Reasoning, a new task leveraging Multi-View Input (Comprehensive scene coverage) and structured into two stages: Stage 1 (Immediate risk resolution) and Stage 2 (Downstream risk mitigation).
+- The WaymoQA dataset contains 35,000 human-annotated question-answer pairs covering complex, high-risk driving scenarios across both Video QA (Temporal reasoning) and Image QA (Alternative actions/outcomes) modalities.
+- Experiments reveal that existing MLLMs underperform significantly in safety-critical scenarios, but fine-tuning on the dataset substantially improves their reasoning ability, highlighting the need for targeted supervision.
+
+---
+
+[Hierarchical Spatio-Temporal Attention Network with Adaptive Risk-Aware Decision for Forward Collision Warning in Complex Scenarios](http://arxiv.org/abs/2511.19952)
+
+- HSTAN+DRTA (Hierarchical Spatio-Temporal Attention Network + Dynamic Risk Threshold Adjustment): introduces an integrated Forward Collision Warning (FCW) framework combining HSTAN for efficient trajectory prediction and DRTA for adaptive, reliable warning decisions, including SAM (spatial interaction modeling), TAM (temporal dynamics modeling), CQR Module (uncertainty quantification), and DRTA (adaptive decision-making).
+- HSTAN uses a decoupled architecture with GAT-MHA for spatial interactions (O(N·K) complexity) and cascaded GRU/MHA units for temporal dynamics, achieving high prediction accuracy and low inference time (12.3 ms).
+- The DRTA module transforms predictions into warnings using a physics-informed risk potential function integrating kinematics and road geometry, combined with an adaptive threshold mechanism based on sliding-window traffic statistics.
+
+---
+
+[Towards Edge General Intelligence: Knowledge Distillation for Mobile Agentic AI](http://arxiv.org/abs/2511.19947)
+
+- KD-EGI (Knowledge Distillation for Edge General Intelligence): introduces a comprehensive survey investigating the integration of KD into EGI, positioning it as a key enabler for efficient, communication-aware, and scalable mobile agentic AI.
+- The approach leverages KD to compress large Teacher Models into compact Student Models, transferring complex cognitive skills required for the Agentic Loop (Perception, Planning, Action, Memory).
+- The survey reviews specialized distillation methods for wireless communication and novel edge architectures (Mamba, RWKV) to bridge the deployment chasm for LLM-powered agents on resource-constrained IoT Edge Systems.
+
+---
+
+[IMPROVED LINEAR-TIME CONSTRUCTION OF MINIMAL DOMINATING SET VIA MOBILE AGENTS](http://arxiv.org/abs/2511.19880)
+
+- LTMDS (Improved Linear-Time Construction of Minimal Dominating Set): introduces two linear-time algorithms for computing a minimal dominating set (mDS) in anonymous graphs using mobile agents, achieving $O(n)$ round complexity.
+- The approach leverages an optimal dispersion algorithm to reach a covered configuration, utilizing Seeker Agents for parallel neighborhood probing to assign colors (red for mDS members) in $O(1)$ time per step.
+- The methodology simultaneously constructs a spanning tree, performs leader election, and achieves agent gathering, all within the same $O(n)$ time and $O(\log n)$ memory bounds, improving upon prior complexity results.
+
+---
+
 #### 24th November 2025
 
 [BEYOND PROTEIN LANGUAGE MODELS: AN AGENTIC LLM FRAMEWORK FOR MECHANISTIC ENZYME DESIGN](http://arxiv.org/abs/2511.19423)
@@ -203,6 +285,38 @@ Chronological order.
 - HABIT (Human Action Benchmark for Interactive Traffic): introduces a high-fidelity simulation benchmark integrating 4,730 semantically curated, real-world pedestrian motions into the CARLA simulator for rigorous autonomous driving evaluation.
 - The framework utilizes a modular motion retargeting pipeline to convert heterogeneous motion capture and video data into physically consistent, globally aligned SMPL-based trajectories.
 - HABIT introduces novel safety metrics, including the Abbreviated Injury Scale (AIS) and False Positive Braking Rate (FPBR), to expose planner weaknesses and safety-conservatism trade-offs hidden in scripted simulations.
+
+---
+
+[Robot-Powered Data Flywheels: Deploying Robots in the Wild for Continual Data Collection and Foundation Model Adaptation](http://arxiv.org/abs/2511.19647)
+
+- RPDF (Robot-Powered Data Flywheel): introduces an iterative framework where a mobile manipulator robot (Scanford) performs useful tasks while autonomously collecting and curating domain-representative data to continually fine-tune a Vision-Language Model (VLM).
+- The Scanford system instantiates RPDF by deploying a mobile manipulator equipped with a VLM in a library to scan shelves and identify books, leveraging the library catalog for automated, high-quality data labeling.
+- The framework successfully improves VLM performance on domain-specific book identification (32.0% to 71.8%) and domain-adjacent multilingual OCR, while saving an estimated 18.7 hours of human labor during a two-week deployment.
+
+---
+
+[IRSDA: An Agent-Orchestrated Framework for Enterprise Intrusion Response](http://arxiv.org/abs/2511.19644)
+
+- IRSDA (Intrusion Response System Digital Assistant): introduces an agent-orchestrated framework for enterprise intrusion response, combining the MAPE-K loop with Self-Adaptive Autonomic Computing Systems (SA-ACS) for autonomous, policy-compliant cyber defense.
+- The architecture uses an $n$-tier design, featuring the IRSDAC (client interface), IRSDAS (server), IRSDAAO (orchestration layer with Agentic Brain), partition-specific IRS Agents, and Tier V components: IRSKG (knowledge graph) and IRSLLM (cybersecurity-tuned LLM).
+- The system leverages graph-based RAG to ground the IRSLLM's contextual reasoning and automated responses using real-time enterprise data and dynamic Rules-of-Engagement (ROE), ensuring explainability and policy alignment.
+
+---
+
+[AttackPilot: Autonomous Inference Attacks Against ML Services With LLM-Based Agents](http://arxiv.org/abs/2511.19536)
+
+- AttackPilot: introduces an autonomous multi-agent framework capable of independently conducting inference attacks against ML services, comprising the ControllerAgent (managing and monitoring) and concurrent AttackAgents (executing specific attacks).
+- The framework achieves near-expert attack performance and 100.0% task completion using robust LLMs, task-specific action spaces, and a reusable environment.
+- Task-specific action spaces guide the AttackAgent through critical steps like selecting shadow datasets and setting hyperparameters, mitigating common LLM errors such as bad plans and context loss.
+
+---
+
+[Agint: Agentic Graph Compilation for Software Engineering Agents](http://arxiv.org/abs/2511.19635)
+
+- Agint (Agentic Graph Compilation for Software Engineering Agents): introduces an agentic graph compiler, interpreter, and runtime that converts natural language instructions into typed, effect-aware code Directed Acyclic Graphs (DAGs) using a six-tier type floor system.
+- The system utilizes a composable Unix-style toolchain, including Dagify (DAG compiler) and Dagent (hybrid JIT runtime), unified by the Agilink addressing system for reliable data and tool flow.
+- Agint employs Flyte (unified LLM orchestration) integrated with Hydantic (hierarchical structured generation) to enable dynamic graph refinement, parallel compilation, and hybrid execution modes (prefine, dynamic, predict).
 
 ---
 
@@ -439,6 +553,14 @@ Chronological order.
 - APMS (Automated Permission Management System): introduces a permission prediction model based on a Hybrid ML Framework that combines LLM-based in-context learning and collaborative filtering to automatically decide data access permissions for AI agents.
 - The Hybrid ML Framework achieves 85.1% overall accuracy and 94.4% accuracy for high-confidence predictions by leveraging limited individual permission history and preferences from similar users.
 - The system is designed to address the limitations of conventional permission models, which are inadequate for the autonomous execution paradigm of LLM-based AI agents, where permission decisions must often be made at runtime for unseen data types.
+
+---
+
+[Building Browser Agents: Architecture, Security, and Practical Solutions](http://arxiv.org/abs/2511.19477)
+
+- Production Browser Agent Architecture (PBAA): introduces an architecture for reliable and safe browser agents, combining hybrid context management, a robust execution layer, and programmatic safety boundaries enforced by specialization.
+- Context management relies on single-snapshot retention, intelligent trimming using a lightweight LLM, and conversation history compression to maintain a stable token budget and reduce operational costs by 57%.
+- Safety is achieved through deterministic, code-level constraints like domain allowlisting and action restriction, enabling the agent to reach an 85% success rate on the WebGames benchmark.
 
 ---
 
@@ -3462,6 +3584,14 @@ Chronological order.
 
 ---
 
+[LLM-Driven Transient Stability Assessment: From Automated Simulation to Neural Architecture Design](http://arxiv.org/abs/2511.20276)
+
+- LLM-Driven TSA Workflow: introduces an end-to-end agentic LLM framework that automates Transient Stability Assessment (TSA) from scenario generation using the ANDES simulator to optimized neural network design via a multi-agent LLM-NND pipeline.
+- The framework utilizes Prompt Engineering and Enhanced RAG to enable the LLM to translate natural language requests into executable simulation code and generate high-quality, balanced datasets for training.
+- The LLM-NND component employs collaborative LLM agents (Stratege, Operator, Generator) within a performance-driven feedback loop to autonomously discover compact, high-accuracy TSA models.
+
+---
+
 #### 31st October 2025
 
 [AI Agents in Drug Discovery](http://arxiv.org/abs/2510.27130)
@@ -3946,3 +4076,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
