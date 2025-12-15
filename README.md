@@ -51,6 +51,338 @@ Chronological order.
 
 
 
+
+#### 12th December 2025
+
+[Towards Trustworthy Multi-Turn LLM Agents via Behavioral Guidance](http://arxiv.org/abs/2512.11421)
+
+- Proposed Framework: introduces a task completion architecture enabling LLM agents to achieve verifiable and reliable behavior through adaptive task profiling, structured reasoning, and constraint-compliant generation.
+- The architecture integrates a Task Profiler, a Reasoning Module that learns observation-action rules stored in a Rule Bank, and a Generation Module that validates outputs against constraints.
+- These components co-evolve as the Guided Agent interacts with the environment, steering the underlying LLM's native reasoning into a transparent, feedback-guided process.
+
+---
+
+[Progress over Points: Reframing LM Benchmarks Around Scientific Objectives](http://arxiv.org/abs/2512.11183)
+
+- Evolutionary System (ES): introduces progress-oriented benchmarks by reframing LLM evaluation around scientific objectives, utilizing a Database, Prompt Sampler, LLM, Evaluator, Training Harness, Metrics, and Anti-Gaming Protections.
+- The system instantiates this paradigm using the NanoGPT Evaluation Environment, where the LLM proposes algorithmic improvements to a parent program, which are then executed in a standardized speedrun environment.
+- Evaluation shifts focus from static problem scoring to measuring the scientific delta achieved, tracking best-attained loss and movement of the efficiency frontier, while enforcing scientific integrity through anti-gaming measures.
+
+---
+
+[AgentBalance: Backbone-then-Topology Design for Cost-Effective Multi-Agent Systems under Budget Constraints](http://arxiv.org/abs/2512.11426)
+
+- AGENTBALANCE: introduces a framework for constructing cost-effective Multi-Agent Systems (MAS) under explicit token-cost and latency budgets via a backbone-then-topology design, including Backbone-Oriented Agent Generation (constructs candidate agents), Adaptive MAS Topology Generation (instantiates latency-aware topology), and End-to-end Optimization (achieves joint balance).
+- The backbone phase uses LLM pool construction, difficulty-aware pool selection, and query-conditioned role-backbone matching to assign heterogeneous backbones aligned with budget constraints.
+- The topology phase guides inter-agent communication using unified agent representation learning, agent gating, and latency-aware topology synthesis, optimized end-to-end using a Lagrangian surrogate balancing performance, token-cost, and latency.
+
+---
+
+[Architecting Large Action Models for Human-in-the-Loop Intelligent Robots](http://arxiv.org/abs/2512.11620)
+
+- Modular Neuro-Symbolic LAM Architecture: introduces a system for intelligent robots by composing off-the-shelf foundation models and integrating perception, reasoning, and action through a hierarchical planning pipeline.
+- The architecture employs a "symbolic wrapping" strategy, restricting the LLM to generating intermediate, verifiable symbolic artifacts (PDDL or tool sequences) rather than direct executable robot code.
+- This stratified design ensures safety and reliability by decoupling stochastic high-level LLM reasoning from deterministic low-level motion control, enabling human-in-the-loop verification.
+
+---
+
+
+[Evaluating Cooperative Resilience in Multiagent Systems: A Comparison Between Humans and LLMs](http://arxiv.org/abs/2512.11689)
+
+- CREF (Cooperative Resilience Evaluation Framework): introduces a benchmark for evaluating cooperative resilience in mixed-motive multiagent systems by systematically comparing human groups and LLM-based agents under controlled disruptive conditions.
+- The framework assesses resilience using a quantitative score derived from failure and recovery dynamics across four collective well-being indicators in the Melting Pot 2.0 Commons Harvest scenario.
+- LLM agents utilize a Generative Agents architecture, incorporating an Observation-to-text Adapter and a Reflection Module to manage observations and persistent memories across a sequential curriculum.
+
+---
+
+
+[A Study of Library Usage in Agent-Authored Pull Requests](http://arxiv.org/abs/2512.11589)
+
+- ALUS (Agentic Library Usage Study): introduces an empirical study analyzing 26,760 agent-authored Pull Requests from the AIDev Dataset across four languages using file diffs and language-specific parsers to quantify library usage and dependency addition.
+- The study finds that AI Coding Agents frequently import libraries (29.5% of PRs) but rarely add new dependencies (1.3% of PRs), demonstrating strong version hygiene (75.0% specify versions) when they do add them.
+- Agents exhibit surprisingly broad library diversity, importing 3,988 distinct external packages, suggesting that rich project context encourages broader library use compared to non-agentic LLM tasks.
+
+---
+
+[EmeraldMind: A Knowledge Graph-Augmented Framework for Greenwashing Detection](http://arxiv.org/abs/2512.11506)
+
+- EmeraldMind (EM): introduces a domain-specific knowledge graph-augmented RAG framework for greenwashing detection, featuring Evidence Stores construction and Knowledge-powered Reasoning phases.
+- The Evidence Stores include the EmeraldGraph (structured sustainability KG) and EmeraldDB (vectorized document store) built from diverse corporate ESG reports and KPI definitions.
+- The framework delivers justification-centric classifications (greenwashing, not greenwashing, or abstain) grounded in retrieved evidence, enhancing transparency and auditability without fine-tuning LLMs.
+
+---
+
+
+[AutoFSM: A Multi-Agent Framework for FSM Code Generation with IR and SystemC-Based Testing](http://arxiv.org/abs/2512.11398)
+
+- AutoFSM: introduces a multi-agent collaborative framework for Finite State Machine (FSM) code generation that utilizes a structured JSON Intermediate Representation (IR) and SystemC-based automated testing to reduce syntax errors and improve debugging efficiency.
+- The framework replaces direct Verilog generation with a two-stage process: LLMs translate natural language to JSON IR, which is then converted to valid Verilog using a custom toolchain, significantly reducing syntax error rates.
+- AutoFSM integrates SystemC modeling and automated testbench generation, employing a differential testing strategy and a Judger agent to analyze error traces for targeted feedback and iterative correction.
+
+---
+
+[When Actions Teach You to Think: Reasoning-Action Synergy via Reinforcement Learning in Conversational Agents](http://arxiv.org/abs/2512.11277)
+
+- Three-Stage RL Pipeline for Reasoning-Action Synergy: introduces a cumulative learning strategy where an LLM learns to generate reasoning steps that guide tool invocation and final answer generation, using Base SFT, Cold-Start Reasoning SFT, and Reinforcement Learning with verifiable rewards. 
+- The approach leverages Group Relative Policy Optimization (GRPO) and a composite reward function balancing conditional accuracy, format compliance, and thinking length to jointly optimize reasoning quality and task performance.
+- This RL-driven synergy enhances generalization and improves tool invocation precision by enabling the model to discover effective reasoning strategies directly from task outcomes.
+
+---
+
+[TriFlow: A Progressive Multi-Agent Framework for Intelligent Trip Planning](http://arxiv.org/abs/2512.11271)
+
+- TriFlow (A Progressive Multi-Agent Framework for Intelligent Trip Planning): introduces a progressive multi-agent framework for trip planning using a three-stage pipeline—Retrieval Stage (Bounds factual domain), Planning Stage (Constructs feasible itinerary), and Governance Stage (Refines feasible itinerary)—which progressively narrows the search space and ensures constraint satisfaction via Rule-LLM Collaboration.
+- The system operates on a feasibility-first hierarchy, starting with Query Decomposition and Parallel Retrieval Modules, followed by Planning via Skeleton Construction and Arrangement Modules using an Agent Plan Suggestion/Suggestion Validation/Normalization Feedback Loop.
+- The final Governance Stage employs a System Report, Constraint Checking, and Agent Governance within a Continuous Governance loop to perform bounded iterative refinement, ensuring high-quality, constraint-compliant itineraries with high efficiency.
+
+---
+
+[A-LAMP: Agentic LLM-Based Framework for Automated MDP Modeling and Policy Generation](http://arxiv.org/abs/2512.11270)
+
+- A-LAMP (Agentic LLM-Based Framework for Automated MDP Modeling and Policy Generation): automatically translates free-form natural language task descriptions into a formal Markov Decision Process (MDP) formulation and a trained policy.
+- The framework achieves this by decomposing the process into verifiable stages orchestrated by specialized LLM agents, ensuring semantic alignment across modeling, coding, and training.
+- A-LAMP consistently achieves higher policy generation success rates than single state-of-the-art LLMs, particularly for tasks requiring custom environment generation.
+
+---
+
+[Insight Miner: A Time Series Analysis Dataset for Cross-Domain Alignment with Natural Language](http://arxiv.org/abs/2512.11251)
+
+- Insight Miner: is a large-scale multimodal model (LMM) initialized with LLaVA weights and finetuned on the TS-Insights dataset to generate comprehensive natural language descriptions of time series trends.
+- The TS-Insights dataset, containing 100k time series windows and descriptions, is constructed using an agentic workflow that leverages statistical tools (STL/GP) and GPT-4 for synthesis.
+- The model aligns time series data with language by converting the time series into a line plot image, processing it via a vision encoder, and mapping the output to the language embedding space using a finetuned linear projection layer.
+
+---
+
+
+
+#### 11th December 2025
+
+
+[AgentProg: Empowering Long-Horizon GUI Agents with Program-Guided Context Management](http://arxiv.org/abs/2512.10371)
+
+- AgentProg: introduces a program-guided context management framework for long-horizon GUI agents by reframing interaction history as a Semantic Task Program (STP) with variables and control flow, enabling principled context pruning and critical variable retention.
+- The framework operates in two stages: STP Generation (global planning) and STP Execution (incremental interpretation) using an LLM to translate high-level instructions into low-level actions.
+- AgentProg integrates a Global Belief State mechanism, inspired by Belief MDP, which acts as a runtime monitor to handle partial observability and adapt to unexpected environmental changes during execution.
+
+---
+
+[Towards Foundation Models with Native Multi-Agent Intelligence](http://arxiv.org/abs/2512.08743)
+
+- NMAI (Native Multi-Agent Intelligence): introduces a blueprint for endowing Foundation Models (FMs) with intrinsic multi-agent capabilities, including Multi-Agent Understanding, Multi-Agent Planning, Efficient Communication, and Multi-Agent Adaptation.
+- Empirical evidence across 41 LLMs and 7 benchmarks demonstrates that scaling single-agent performance alone does not reliably produce robust multi-agent intelligence.
+- The blueprint defines specific research directions for building NMAI, focusing on dataset construction, evaluation protocols, and training paradigms (single-FM vs. population-based training).
+
+---
+
+[Computational emotion analysis with multimodal LLMs: Current evidence on an emerging methodological opportunity](http://arxiv.org/abs/2512.10882)
+
+- Multimodal LLM Emotion Analysis Framework: evaluates the in-context learning capabilities of mLLMs (Gemini 2.5 Flash, Qwen 2.5 Omni, TowerVideo) for video-based emotional arousal scoring using two complementary datasets, RAVDESS and real-world parliamentary debates.
+- Under controlled laboratory conditions (RAVDESS), Gemini 2.5 Flash and Qwen 2.5 Omni (7B) achieve high reliability comparable to human annotators, showing little demographic bias.
+- In real-world political debates, mLLMs' arousal ratings correlate poorly with human ratings, exhibit systematic demographic bias, and yield inconsistent conclusions in downstream regression analyses, underscoring caution for applied researchers.
+
+---
+
+[Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution](http://arxiv.org/abs/2512.10696)
+
+- ReMe (Remember Me, Refine Me): introduces a dynamic procedural memory framework for experience-driven agent evolution, integrating multi-faceted distillation, context-adaptive reuse, and utility-based refinement across the memory lifecycle.
+- The framework utilizes LLM$_{summ}$ for high-quality extraction of keypoint-level experiences from successful and failed trajectories, storing them in an Experience Pool after validation and deduplication.
+- During reuse, LLM$_{execute}$ leverages retrieved and rewritten experiences to guide inference, while refinement ensures progressive optimization by selectively adding new insights and pruning low-utility entries.
+
+---
+
+[ZERO-SHOT 3D MAP GENERATION WITH LLM AGENTS: A DUAL-AGENT ARCHITECTURE FOR PROCEDURAL CONTENT GENERATION](http://arxiv.org/abs/2512.10501)
+
+- Dual-Agent Actor-Critic Architecture: introduces a training-free, zero-shot framework for 3D map generation using LLM agents, comprising an Actor Agent (Semantic Interpreter), a Critic Agent (Static Verifier), and an Iterative Refinement Protocol (Dialogic Feedback Loop).
+- The Actor translates natural language prompts into a Parameter Trajectory Sequence, which the Critic validates against API Documentation and Reference Demonstrations for functional correctness.
+- This dual-agent approach shifts the burden from model fine-tuning to architectural reasoning, enabling off-the-shelf LLMs to master complex, opaque PCG tools autonomously.
+
+---
+
+[UACER: An Uncertainty-Aware Critic Ensemble Framework for Robust Adversarial Reinforcement Learning](http://arxiv.org/abs/2512.10492)
+
+- UACER (Uncertainty-Aware Critic Ensemble Framework for Robust Adversarial Reinforcement Learning): introduces a novel robust adversarial RL framework integrating a diversified critic ensemble (K soft Q-function networks) and a Time-varying Decay Uncertainty (TDU) mechanism (uncertainty-aware aggregation) to enhance training stability and convergence speed.
+- The diversified critic ensemble uses multiple independent critics with dual randomization (parameter initialization and architectural design) to mitigate Q-value estimation variance under adversarial perturbations.
+- The TDU mechanism dynamically modulates the contribution of epistemic uncertainty (variance) to the aggregated Q-value estimate via a time-decaying coefficient, promoting exploration early and conservative estimation later.
+
+---
+
+[Shot and Architecture Adaptive Subspace Variational Quantum Eigensolver for Microwave Simulation](http://arxiv.org/abs/2512.10458)
+
+- AAS-SSVQE (Architecture and Shot Adaptive Subspace Variational Quantum Eigensolver): introduces a resource-efficient quantum algorithm for microwave eigenmode simulation by integrating an RL Agent (Autonomously explores circuit space) and Adaptive Shot Allocation (Assigns measurement shots) into the Weighted SSVQE (Calculates objective energy) workflow.
+- The RL Agent, utilizing a Double Deep Q-Network (DDQN), automatically constructs hardware-efficient PQC Ansatz circuits, significantly reducing gate count and enhancing noise robustness compared to fixed-architecture approaches.
+- The Adaptive Shot Allocation mechanism assigns sampling resources proportional to Hamiltonian term weights, reducing total measurement overhead and achieving over 20-fold convergence acceleration.
+
+---
+
+[InfoCom: Kilobyte-Scale Communication-Efficient Collaborative Perception with Information Bottleneck](http://arxiv.org/abs/2512.10305)
+
+- InfoCom (Information-Aware Communication-Efficient Collaborative Perception Framework): introduces an information-aware framework that achieves kilobyte-scale transmission by purifying minimal sufficient task-critical information using extended Information Bottleneck principles.
+- The framework comprises Information-Aware Encoding (IAE), Sparse Mask Generation (SMG), and Multi-Scale Decoding (MSD) to condense features (E) and auxiliary spatial cues (M) for near-lossless perceptual reconstruction.
+- The approach provides a theoretical analysis for the communication-performance trade-off, achieving up to 440-fold bandwidth reduction compared to existing feature-based collaborative perception methods.
+
+---
+
+[Asynchronous Reasoning: Training-Free Interactive Thinking LLMs](http://arxiv.org/abs/2512.10931)
+
+- AsyncReasoning: introduces a training-free method that enables existing reasoning LLMs to simultaneously process user inputs, private thoughts (Thinker Stream), and public responses (Writer Stream) using a dual view architecture.
+- The approach reformulates asynchronous thinking into standard LLM inference by dynamically rearranging the Custom KV Cache using Rotary Positional Embeddings (RoPE) to create concurrent token streams without additional training.
+- This technique significantly reduces user-perceived delay by overlapping the thinking and answering phases, allowing the LLM to self-determine synchronization points via a Mode Switching Mechanism.
+
+---
+
+[CompanionCast: A Multi-Agent Conversational AI Framework with Spatial Audio for Social Co-Viewing Experiences](http://arxiv.org/abs/2512.10918)
+
+- CompanionCast: introduces a generalizable framework for orchestrating multiple role-specialized AI agents that respond to multimodal video content using spatial audio, integrating an LLM-as-a-Judge module for iterative conversation refinement.
+- The system utilizes Multimodal Content Processing and Key Moment Detection to trigger Multi-Agent Orchestration, where agents with distinct personalities generate dialogue based on cached temporal context.
+- The LLM-based evaluator agent assesses conversations across five dimensions (relevance, authenticity, engagement, diversity, personality consistency) to ensure real-time quality control and enhance perceived social presence.
+
+---
+
+[Long-horizon Reasoning Agent for Olympiad-Level Mathematical Problem Solving](http://arxiv.org/abs/2512.10739)
+
+- Intern-S1-MO (Long-horizon Reasoning Agent): introduces a multi-agent system for Olympiad-level math problem solving, including Reasoner, Summarizer, and Verifier agents, which utilize a Lemmas Library and Multi-round Hierarchical Reasoning to break context length constraints.
+- The system achieves unlimited exploration capability by compressing reasoning history into concise, validated sub-lemmas stored in the structured memory repository.
+- The OREAL-H RL framework is proposed to train the LRM using online explored trajectories, accelerating training via a continuous, noisy reward signal derived from process verification.
+
+---
+
+[PACIFIC: a framework for generating benchmarks to check Precise Automatically Checked Instruction Following In Code](http://arxiv.org/abs/2512.10713)
+
+- PACIFIC (Precise Automatically Checked Instruction Following In Code): introduces a novel framework designed to automatically generate contamination-resilient benchmarks for rigorously assessing LLMs' sequential instruction-following and code dry-running capabilities, using the Instruction Pool, Benchmark Parameters, Benchmark Generator, Automated Expected Result Engine, Evaluation Engine, Inference Model, and Report.
+- The framework isolates the LLM's intrinsic ability to reason through code behavior step-by-step (dry running) without relying on external tools or agentic mechanisms.
+- PACIFIC ensures simple, deterministic evaluation via rule-based metrics (Prompt-Level Accuracy and Instruction-Level Accuracy) and controls task difficulty using the number of instructions and targeted output length.
+
+---
+
+[On the Dynamics of Multi-Agent LLM Communities Driven by Value Diversity](http://arxiv.org/abs/2512.10665)
+
+- VDLLA (Value-Diverse LLM Agents): introduces a simulation study using LLM agents instantiated with nuanced value profiles via a Persona Elicitation Pipeline and observed through a two-stage Interaction Protocol (open-ended socialization and collaborative rule formation).
+- The agent architecture includes a Cognitive Module comprising Self-Perception, Impression of Others, Action History, and a limited-capacity Conversation History, all built upon the LLaMA-3.1-70B base model.
+- Results show that value diversity significantly enhances collective behaviors, fostering emergent governance and creative principles, although extreme heterogeneity leads to diminishing returns and instability.
+
+---
+
+[Thinking While Driving: A Concurrent Framework for Real-Time, LLM-Based Adaptive Routing](http://arxiv.org/abs/2512.10610)
+
+- TWD (Thinking While Driving): introduces a concurrent routing framework that integrates LLM-based reasoning with movement, enabling agents to plan future routes asynchronously while traversing current path segments.
+- This concurrent architecture significantly reduces intersection wait times by overlapping LLM inference latency with the agent's travel time, achieving minimal waiting times even under high traffic density.
+- The framework uses a dual-cost representation (static distance and dynamic congestion factor) and demonstrates that LLM agents achieve adaptive rerouting and spontaneous load-balancing, outperforming static A* baselines in high-density scenarios.
+
+---
+
+
+[LEO-RobotAgent: A General-purpose Robotic Agent for Language-driven Embodied Operator](http://arxiv.org/abs/2512.10605)
+
+- LEO-RobotAgent: introduces a streamlined, general-purpose robotic agent framework enabling LLMs to independently perform planning, action execution, and reflective adjustment based on user requirements and task information.
+- The framework utilizes a self-cycling engine where the LLM reasons and invokes the modular Tools, which generate Observations, forming a closed feedback loop supported by accumulated History.
+- The system is designed for high flexibility and generalization, verified across diverse robot platforms and complex task scenarios, while lowering the human-robot interaction threshold.
+
+---
+
+[ACHIEVING OLYMPIA-LEVEL GEOMETRY LARGE LANGUAGE MODEL AGENT VIA COMPLEXITY BOOSTING REINFORCEMENT LEARNING](http://arxiv.org/abs/2512.10534)
+
+- InternGeometry: introduces a medalist-level LLM agent for geometry problem solving that iteratively proposes constructions and propositions, verifies them using a symbolic engine (InternGeometry-DDAR), and refines its strategy based on feedback.
+- The agent is trained using Complexity-Boosting Reinforcement Learning (CBRL), a curriculum RL pipeline that dynamically increases the complexity of synthesized geometry problems across training stages.
+- A dynamic memory mechanism enables long-horizon LLM-tool interactions (up to 200 steps), allowing the agent to achieve expert-level performance on IMO geometry tasks with minimal training data (13K examples).
+
+---
+
+[Decoding Student Minds: Leveraging Conversational Agents for Psychological and Learning Analysis](http://arxiv.org/abs/2512.10441)
+
+- Psychologically-Aware Conversational Agent: introduces a novel multimodal architecture that combines LLMs (Falcon-7B), KG-BERT, a Knowledge Graph, a Prosodic Analysis Module, and a BiLSTM with Attention for real-time classification of students' cognitive and affective states.
+- The system leverages multimodal data, including textual semantics, prosodic speech features, and temporal behavioral trends, to infer engagement, stress, motivation, and conceptual understanding.
+- The architecture employs an early fusion strategy via BiLSTM for temporal modeling and uses a retrieval-augmented generation module to construct adaptive, context-aware pedagogical interventions.
+
+---
+
+[Cross-modal Retrieval Models for Stripped Binary Analysis](http://arxiv.org/abs/2512.10393)
+
+- BinSeek: introduces a two-stage cross-modal retrieval framework for stripped binary code analysis, incorporating BinSeek-Embedding (Candidate retrieval model) and BinSeek-Reranker (Context-augmented reranker) to align natural language queries with binary pseudocode functions.
+- The framework utilizes an LLM-driven data synthesis pipeline to automatically construct a large-scale, high-quality training benchmark for binary code retrieval, addressing the scarcity of aligned datasets.
+- BinSeek-Reranker enhances retrieval accuracy by leveraging a context-aware design that selectively incorporates calling context information from neighboring functions using a heuristic importance metric.
+
+---
+
+[Dynamics of Agentic Loops in Large Language Models: A Geometric Theory of Trajectories From Semantic Contraction to Exploratory Divergence](http://arxiv.org/abs/2512.10350)
+
+- Geometric Framework for Agentic Loop Dynamics: introduces a rigorous quantitative approach for analyzing iterative LLM transformations by treating them as discrete dynamical systems in a calibrated semantic embedding space.
+- The framework formally distinguishes between the Artifact Space (where linguistic transformations occur) and the Representation Space (where geometric measurements are performed), utilizing a calibrated similarity metric ($\check{s}$) to overcome embedding anisotropy.
+- This methodology enables the characterization of distinct dynamical regimes—Contractive (convergence to an Attractor) versus Exploratory (unbounded divergence)—controlled directly by prompt design.
+
+---
+
+[EpiPlanAgent: Agentic Automated Epidemic Response Planning](http://arxiv.org/abs/2512.10313)
+
+- EpiPlanAgent (Agentic Automated Epidemic Response Planning): introduces an agent-based system leveraging the DeepSeek-V3 LLM Backbone for core reasoning, orchestrated by the SigmaFlow Agentic Framework using Model, Tool, and Logic Nodes, integrating a Domain Knowledge Base via a Retrieval-Augmented Generation (RAG) Mechanism to perform Epidemic Identification, Case Structuring, Task List Generation, and Iterative Refinement Mechanism for generating structured epidemic response plans.
+- The system converts unstructured user reports into structured, actionable emergency task lists, significantly improving plan completeness (82.4% vs 68.7%) and reducing generation time by 93.9% compared to manual planning.
+- EpiPlanAgent ensures high consistency with expert judgment (r=0.92) and standardizes output quality across different professional experience levels, demonstrating the potential of agentic AI for public health preparedness.
+
+---
+
+[Does SWE-Bench-Verified Test Agent Ability or Model Memory?](http://arxiv.org/abs/2512.10218)
+
+- Minimal Context Localization Evaluation (MCLE): introduces an experimental setup to assess data leakage in LLMs by testing Claude 3.5 and 3.7 models on the localization task across SWE-Bench-Verified, BeetleBox, and SWE-rebench benchmarks under minimal context.
+- The methodology compares performance using two input settings—"Issue + File Structure" and the highly constrained "Issue only"—to determine if high scores reflect memorization rather than general problem-solving ability.
+- Results show significantly higher performance on SWE-Bench-Verified, especially in the "Issue only" setting, suggesting that the benchmark tasks have likely leaked into the LLMs' training data, risking overstatement of agent ability.
+
+---
+
+[CP-Env: Evaluating Large Language Models on Clinical Pathways in a Controllable Hospital Environment](http://arxiv.org/abs/2512.10206)
+
+- CP-Env (Controllable Agentic Hospital Environment): introduces a dynamic, multi-agent hospital environment for evaluating LLMs across end-to-end clinical pathways, including Patient Agent (Simulates clinical presentation), Physician Agents (Execute specialized tasks), Clinical Pathway Navigation (Adaptive branching stages), Medical Record Management (Stores clinical reports), Clinical Tool Orchestration (Accesses multi-source information), and Evaluation Framework (Three-tiered assessment).
+- The environment simulates complex, pathway-based clinical workflows, guiding patients through stages like triage, specialist consultation, diagnostic testing, and treatment using adaptive transitions and decision nodes.
+- Evaluation is conducted using a three-tiered framework assessing Clinical Efficacy, Process Competency, and Professional Ethics, moving beyond static exams or isolated dialogue scenarios.
+
+---
+
+[AutoMedic: An Automated Evaluation Framework for Clinical Conversational Agents with Medical Dataset Grounding](http://arxiv.org/abs/2512.10195)
+
+- AutoMedic: introduces a multi-agent simulation framework for automated evaluation of LLMs as clinical conversational agents, including Profile Generator, Doctor, Patient, and Clinical Staff agents, Patient Profile Generation, Multi-Agent Conversation Simulation, CARE Metric, and Medical QA Dataset.
+- The framework converts static medical QA datasets into virtual patient profiles to facilitate realistic multi-turn clinical dialogues, addressing the limitations of static QA benchmarks.
+- Performance is quantitatively assessed using the CARE metric, which provides a comprehensive, multi-faceted standard for clinical conversational accuracy, efficiency, empathy, and robustness.
+
+---
+
+[ObliInjection: Order-Oblivious Prompt Injection Attack to LLM Agents with Multi-source Data](http://arxiv.org/abs/2512.09321)
+
+- ObliInjection: introduces the first prompt injection attack targeting LLM agents with multi-source data by minimizing the order-oblivious loss using the orderGCG algorithm.
+- The order-oblivious loss quantifies the expected cross-entropy loss of the target LLM generating an attacker-chosen response under random ordering of clean and contaminated segments.
+- The orderGCG algorithm optimizes the contaminated segment by leveraging shadow target instructions and shadow segments synthesized by an auxiliary LLM, using a buffer and beam search strategy.
+
+---
+
+[LLM-Driven Composite Neural Architecture Search for Multi-Source RL State Encoding](http://arxiv.org/abs/2512.06982)
+
+- LACER (LLM-driven Neural Architecture Search for Composite State Encoders in RL): introduces an LLM-driven NAS pipeline where the LLM acts as a neural architecture design agent, iteratively generating and refining Composite State Encoder architectures based on performance signals from the RL Training & Evaluation Pipeline.
+- The Composite State Encoder is optimized end-to-end with the RL agent and comprises multiple Source-Specific Encoders and a Fusion Module to handle heterogeneous multi-source observations.
+- The approach enhances search efficiency by leveraging rich Performance Signals, including task metric, average reward, and feature information (representation quality), to guide the LLM's search process.
+
+---
+
+[MiniScope: A Least Privilege Framework for Authorizing Tool Calling Agents](http://arxiv.org/abs/2512.11147)
+
+- MiniScope: introduces a least privilege framework for authorizing tool calling agents, featuring a Least Privilege Solver, Permission Hierarchies, Credential Storage, and Permission Checker, to confine potential damage from unreliable LLMs.
+- The system rigorously enforces least privilege by constructing permission hierarchies from OAuth scopes and using an Integer Linear Program (ILP) formulation to automatically compute the minimal required permissions for agentic tasks.
+- MiniScope acts as a firewall, intercepting the untrusted LLM Agent's execution plan, validating tool calls against granted session-based permissions, and prompting the User for explicit approval of new scopes.
+
+---
+
+[VDAWORLD: WORLD MODELLING VIA VLM-DIRECTED ABSTRACTION AND SIMULATION](http://arxiv.org/abs/2512.11061)
+
+- VDAWorld: introduces a novel framework for world modeling that distills an image-caption pair into a tractable, explicit, and structured World Program using a Vision-Language Model as the central orchestrating agent.
+- The VLM autonomously constructs a Grounded Abstract Representation using a Perception Toolbox, selects a compatible Selected Simulator, and infers Latent Dynamics to predict physically plausible future states.
+- The system employs an automated feedback loop, including a Critic Stage and Refinement Stage, to debug and correct errors in the generated simulation code, ensuring high quality and physical plausibility.
+
+---
+
+[Automated Penetration Testing with LLM Agents and Classical Planning](http://arxiv.org/abs/2512.11143)
+
+- CHECKMATE: introduces a framework for automated penetration testing that integrates Classical Planning+ (Structured planning), an LLM Agent (Executes actions), an LLM (Interprets results), and Predefined Attack Actions (Expands tool knowledge) to mitigate LLM weaknesses in long-horizon planning and complex reasoning.
+- The system follows the Planner-Executor-Perceptor (PEP) paradigm, where Classical Planning+ serves as the structured planner, dynamically leveraging LLMs to update action effects and state information for partially observable, non-deterministic tasks.
+- Evaluation demonstrates that the framework substantially outperforms state-of-the-art systems like Claude Code in penetration capability, improving success rates by over 20% and cutting time and monetary costs by more than 50%.
+
+---
+
 #### 10th December 2025
 
 [MoReGen: Multi-Agent Motion-Reasoning Engine for Code-based Text-to-Video Synthesis](http://arxiv.org/abs/2512.04221)
@@ -146,6 +478,62 @@ Chronological order.
 - Auto-BenchmarkCard: introduces a workflow for generating validated AI benchmark documentation by combining multi-agent data extraction, LLM-driven synthesis, and factual validation.
 - The system operates in three phases—Extraction, Composition, and Validation—using specialized tools like Unitxt, Docling, and a structured risk taxonomy via the Risk mapper.
 - The Validation Phase uses a FactReasoner and RAG component to assess the factual accuracy of atomic statements, resulting in a fact-scored and remediated Final BenchmarkCard.
+
+---
+
+[Empirical Hardness in Multi-Agent Pathfinding: Research Challenges and Opportunities](http://arxiv.org/abs/2512.10078)
+
+- MAPF Empirical Hardness Research: introduces three key challenges: Algorithm Selection (determining the best algorithm), Understanding Empirical Hardness (identifying structural factors like phase transition and backbone/backdoor), and Generating Hard MAPF Instances (creating challenging benchmarks).
+- The paper emphasizes that algorithm selection requires advancements in instance encoding and feature selection to accurately capture instance complexity and predict the fastest algorithm.
+- Understanding structural properties, such as phase transitions and backbone/backdoors, is essential for building a deeper theoretical foundation and systematically generating challenging and diverse benchmark datasets.
+
+---
+
+[DynaMate : An Autonomous Agent for Protein-Ligand Molecular Dynamics Simulations](http://arxiv.org/abs/2512.10034)
+
+- DynaMate: introduces a modular multi-agent framework that autonomously designs and executes complete Molecular Dynamics (MD) workflows for protein and protein-ligand systems, integrating planning, execution, analysis, dynamic tool use, RAG, and self-correction.
+- The framework utilizes three specialized agents—Planner, MD, and Analyzer—to manage the workflow from structural preparation and parameterization through simulation and binding affinity calculations (MM/PB(GB)SA).
+- DynaMate demonstrates robust error correction capabilities, using iterative reasoning and retrieval from external databases (PaperQA/web search) to correct runtime errors and ensure simulation stability.
+
+---
+
+[Development of an Agentic AI Model for NGS Downstream Analysis Targeting Researchers with Limited Biological Background](http://arxiv.org/abs/2512.09964)
+
+- Agentic AI Framework (AAIF): integrates a gene expression matrix, clinical metadata, and user prompts to automate Next-Generation Sequencing (NGS) downstream analysis and generate condition-specific biological insights.
+- The framework utilizes an LLM (Llama 3 70B) for interpretation and code generation, enhanced by a Retrieval-Augmented Generation (RAG) pipeline using Google Serper for literature-backed contextualization.
+- The modular workflow guides users through predefined basic analysis, interpretation, and advanced analysis recommendations (e.g., survival modeling or ML classifiers) via an interactive Streamlit web application.
+
+---
+
+[COMPARING AI AGENTS TO CYBERSECURITY PROFESSIONALS IN REAL-WORLD PENETRATION TESTING](http://arxiv.org/abs/2512.09882)
+
+- ARTEMIS: introduces a novel multi-agent framework for real-world penetration testing, featuring a Supervisor, a swarm of Sub-agents, a Triager, a Dynamic Prompt Creation Module, a Task List, a Note-taking System, Smart Summarization, an Agent Action Space, and Context Management.
+- The framework was evaluated against ten human cybersecurity professionals and six existing AI agents in a live enterprise environment of approximately 8,000 hosts, placing second overall and outperforming nine of ten human participants.
+- The agent demonstrates enhanced execution flow and planning in complex production environments, offering advantages in systematic enumeration and parallel exploitation at a fraction of the cost of human testers.
+
+---
+
+[GAIR : GUI AUTOMATION VIA INFORMATION-JOINT REASONING AND GROUP REFLECTION](http://arxiv.org/abs/2512.09396)
+
+- GAIR (GUI Automation via Information-Joint Reasoning and Group Reflection): introduces a novel MLLM-based GUI automation agent framework designed to integrate knowledge and combine capabilities from heterogeneous models using Information-Joint Reasoning and Group Reflection.
+- The framework leverages multiple GUI-specific MLLMs for initial information extraction (Observation) and a general-purpose MLLM for central Reasoning & Decision and Information Integration.
+- The Group Reflection mechanism allows the general-purpose LLM to instruct GUI-specific LLMs to gather more accurate information when the initial data is insufficient, enhancing reliability and precision.
+
+---
+
+[Workflow is All You Need: Escaping the "Statistical Smoothing Trap” via High-Entropy Information Foraging and Adversarial Pacing](http://arxiv.org/abs/2512.10121)
+
+- DeepNews Framework: introduces an agentic workflow that explicitly models expert cognitive processes in financial journalism to escape the "Statistical Smoothing Trap" and achieve high-fidelity, long-form text generation.
+- The architecture integrates Tri-Stream Information Foraging (enforcing a 10:1 saturated input ratio), Hierarchical Strategic Planning (leveraging DNFO-v5 schemas), and Scoped Execution with Adversarial Constraint Prompting.
+- Empirical results validate the "Workflow > Parameters" hypothesis, showing that DeepNews, built on a previous-generation LLM, significantly outperforms a SOTA LLM in ecological validity tests for vertical domains.
+
+---
+
+[Detailed balance in large language model-driven agents](http://arxiv.org/abs/2512.10047)
+
+- DB-LAP Framework: introduces a method based on the least action principle to estimate the generative directionality of LLMs embedded within agents, statistically discovering detailed balance in LLM-generated transitions.
+- This framework models LLM generation as a Markov transition process in a coarse-grained state space, revealing an underlying potential function $V_T$ that quantifies the global ordering of states.
+- The discovery of detailed balance suggests a macroscopic physical law in LLM generative dynamics, enabling the study of complex AI systems through predictable and quantifiable measurements.
 
 ---
 
@@ -360,6 +748,14 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 - AIR (Autonomous Issue Resolver): introduces a multi-agent framework for zero-touch code maintenance that utilizes neuro-symbolic reasoning over a Data-First Transformation Graph (DTG).
 - The DTG shifts the paradigm from control-centric Code Property Graphs (CPGs) to a data-centric view, modeling data states as nodes and functions as edges to trace logic defects through data lineage.
 - The system employs a decoupled "Plan-Navigate-Execute" loop managed by the Context, Maintenance, Editor, and Validation Agents, integrating Reinforcement Learning for risk-aware control policy and navigation.
+
+---
+
+[MVP: Multiple View Prediction Improves GUI Grounding](http://arxiv.org/abs/2512.08529)
+
+- MVP (Multiple View Prediction): introduces a training-free framework to improve GUI grounding stability by using Attention-Guided View Proposal (generates diverse cropped views) and Multi-Coordinate Clustering (aggregates predictions via clustering).
+- The framework addresses prediction instability, where minor visual perturbations drastically alter coordinate predictions, by leveraging multi-view inference and spatial clustering to distinguish correct coordinates from outliers.
+- The Attention-Guided View Proposal uses instruction-to-image attention scores to select and resize informative sub-regions, while the Multi-Coordinate Clustering outputs the centroid of the densest spatial cluster as the final robust coordinate.
 
 ---
 
@@ -647,6 +1043,22 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 
 ---
 
+[WISPAPER: Your AI Scholar Search Engine](http://arxiv.org/abs/2512.06879)
+
+- WISPAPER: introduces an intelligent academic retrieval and literature management platform providing a closed-loop workflow that integrates Scholar Search (literature discovery), Library (systematic organization), and AI Feeds (continuous frontier tracking).
+- Scholar Search offers dual-mode retrieval, combining Quick Search for rapid keyword matching and Deep Search, which uses the WisModel agent for complex conceptual queries and semantic reasoning.
+- The platform significantly reduces time spent on paper screening and management by using personalized recommendation engines (AI Feeds) informed by user interests and Library curation patterns.
+
+---
+
+[Robots with Attitudes: Influence of LLM-Driven Robot Personalities on Motivation and Performance](http://arxiv.org/abs/2512.06910)
+
+- LLM-Driven Robot Personality Modeling: introduces a system utilizing the Vicuna LLM and prompt engineering to consistently model agreeable or non-agreeable robot personalities for cooperative Human-Robot Interaction (HRI).
+- The system integrates the LLM with a NICO humanoid robot, a neural network for object recognition in the Quickdraw task, and a nonverbal communication module to express personality.
+- The study demonstrates that the agreeable LLM-driven personality significantly enhances robot likability and suggests a positive correlation with task performance and perceived safety.
+
+---
+
 #### 6th December 2025
 
 [The Evolution of Agentic AI in Cybersecurity: From Single LLM Reasoners to Multi-Agent Systems and Autonomous Pipelines](http://arxiv.org/abs/2512.06659)
@@ -750,6 +1162,14 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 - DataGovAgent (Agentic Assembly Line): introduces an end-to-end NL2GovDAG framework for data governance, utilizing a sequential multi-agent pipeline consisting of a Planner, Executor, and Evaluator.
 - The Planner converts natural language intent into a high-level Directed Acyclic Graph (DAG) of operations governed by formal governance contracts, ensuring topological coherence and executability.
 - The Executor generates concrete Python code using Retrieval-Augmented Generation (RAG) over a curated library, while the Evaluator manages feedback-driven debugging in a sandbox to ensure functional correctness.
+
+---
+
+[Metaphor-based Jailbreaking Attacks on Text-to-Image Models](http://arxiv.org/abs/2512.10766)
+
+- MJA (Metaphor-based Jailbreaking Attack): introduces a black-box attack method that generates metaphor-based adversarial prompts using the LMAG module (Generates diverse prompts) and the APO module (Optimizes prompt efficiency) to bypass diverse T2I defense mechanisms.
+- The LMAG module coordinates three specialized LLM agents (Metaphor, Context, Prompt) to decompose the generation task into metaphor retrieval, context matching, and adversarial prompt generation.
+- The APO module uses a Bayesian surrogate model and an Expected Improvement acquisition strategy to efficiently identify optimal adversarial prompts, minimizing query overhead while maintaining high attack effectiveness.
 
 ---
 
@@ -891,6 +1311,14 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 
 ---
 
+
+[Zoom in, Click out: Unlocking and Evaluating the Potential of Zooming for GUI Grounding](http://arxiv.org/abs/2512.05941)
+
+- ZoomClick: introduces a training-free GUI grounding method that integrates Pre-Zoom (Patch-Global Consensus), Iterative Narrowing (Multi-step refinement), and Termination Criteria (Resolution-adaptive stopping) within a three-stage pipeline.
+- The method leverages four key properties of zoom (pre-zoom, depth, shrink size, minimal crop size) to unlock dynamic spatial focusing and adaptive context switching for precise localization.
+- ZoomClick significantly boosts the performance of general VLMs and specialized GUI grounding models, achieving state-of-the-art results on mainstream benchmarks.
+
+---
 
 #### 4th December 2025
 
@@ -1514,6 +1942,22 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 
 ---
 
+[GUI Exploration Lab: Enhancing Screen Navigation in Agents via Multi-Turn Reinforcement Learning](http://arxiv.org/abs/2512.02423)
+
+- GE-Lab (GUI Exploration Lab): introduces a novel simulation environment engine for GUI agent navigation research, enabling flexible definition of screens, icons, and navigation graphs, and supporting a staged training paradigm (SFT, ST-RL, MT-RL).
+- The staged training paradigm uses SFT to memorize fundamental knowledge, ST-RL to enhance generalization to unseen scenarios, and MT-RL to promote exploration and further boost navigation performance.
+- MT-RL leverages interactive multi-round training and a sparse, goal-based A2B reward to develop robust exploration strategies and achieve superior performance in interactive benchmarks, aligning with real-world deployment conditions.
+
+---
+
+[Agent-Based Modular Learning for Multimodal Emotion Recognition in Human-Agent Systems](http://arxiv.org/abs/2512.10975)
+
+- MAF (Multi-Agent Framework): introduces a supervisor-based multi-agent architecture for multimodal emotion recognition, utilizing FED, SER, TED agents, and an AED component, coordinated by an Orchestrator/Fusion Classifier.
+- The modular design allows independent development and replacement of modality agents, while the fusion pipeline employs uniform dimension normalization, concatenation, and an Adapter Alignment module for compatibility with pre-trained models.
+- This architecture processes video input to extract features from vision, audio, and text, improving system flexibility, scalability, and maintainability compared to monolithic MER systems.
+
+---
+
 #### 1st December 2025
 
 [Agentic Policy Optimization via Instruction-Policy Co-Evolution](http://arxiv.org/abs/2512.01945)
@@ -1657,6 +2101,22 @@ MiniHack: introduces a sandbox framework for creating diverse environments throu
 - MMAG (Mixed Memory-Augmented Generation): introduces a memory framework for LLM-based agents organized into five interacting layers: conversational, long-term user, episodic and event-linked, sensory and context-aware, and short-term working memory.
 - The framework maps these memory types, inspired by cognitive psychology, to technical components like vector databases, secure profile stores, and scheduling modules, managed by a Central Memory Controller.
 - Implemented in the Heero conversational agent, the system uses conversational history and encrypted long-term bios to achieve improved user engagement and retention.
+
+---
+
+[HiconAgent: History Context-aware Policy Optimization for GUI Agents](http://arxiv.org/abs/2512.01763)
+
+- HiconAgent (History Context-aware Policy Optimization): introduces a GUI agent trained with HCPO, integrating Dynamic Context Sampling (DCS) and Anchor-guided History Compression (AHC) to effectively utilize historical context.
+- DCS samples variable-length histories using an exponential-biased distribution for adaptive context usage, while AHC employs a dual-branch update strategy for efficiency.
+- AHC achieves compression by dropping history observations but retaining history actions as information flow anchors, coupled with an alignment loss to preserve decision quality and reduce FLOPs.
+
+---
+
+[Query Optimization Beyond Data Systems: The Case for Multi-Agent Systems](http://arxiv.org/abs/2512.11001)
+
+- MAWO (Multi-agent Workflow Optimizer): introduces a vision for a next-generation query optimization framework tailored for multi-agent workflows, including a Multi-objective Planner (explores executable workflows), Multi-layer Multi-purpose Cache (stores results, plans, state), Unified Cost Model (estimates costs across engines), Search Space Manager (maintains agent registry, models), Monitor (logs runtime performance metrics), and Statistics (data for cost models).
+- The framework addresses challenges in multi-agent systems by optimizing workflow structure, automating model and execution engine selection, and managing stochastic outputs and high LLM costs across heterogeneous engines.
+- The core goal is to transform an abstract multi-agent workflow into a Pareto-optimal executable workflow based on user-defined multi-objective criteria like latency, monetary cost, and accuracy.
 
 ---
 
@@ -3208,10 +3668,4 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
-
-
-
-
-
-
 
