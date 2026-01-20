@@ -54,6 +54,7 @@ Chronological order.
 
 
 
+
 #### 16th January 2026
 
 
@@ -347,6 +348,14 @@ Chronological order.
 
 ---
 
+[The PROPER Approach to Proactivity: Benchmarking and Advancing Knowledge Gap Navigation](http://arxiv.org/abs/2601.09926)
+
+- PROPER (Proactivity-driven Personalized agents): introduces a modular two-agent architecture that reframes proactive assistance as an epistemic calibration problem centered on identifying and addressing latent knowledge gaps.
+- The DGA, a fine-tuned LLM, generates candidate implicit dimensions, which are then filtered by a Post-hoc Calibrated Reranker based on quality, diversity, and relevance.
+- The RGA conditions response generation on the curated set of activated dimensions to ensure targeted, non-disruptive intervention aligned with user intent, achieving significant gains across medical, coding, and recommendation tasks.
+
+---
+
 #### 15th January 2026
 
 [Grounding Agent Memory in Contextual Intent](http://arxiv.org/abs/2601.10702)
@@ -364,6 +373,16 @@ Chronological order.
 - MBB uses a Relative Improvement Momentum metric to trigger backtracking interventions, while CE dynamically balances internal exploration and external knowledge transfer across parallel searches.
 
 ---
+
+
+[EHRNavigator: A Multi-Agent System for Patient-Level Clinical Question Answering over Heterogeneous Electronic Health Records](http://arxiv.org/abs/2601.10020)
+
+- EHRNavigator: introduces a multi-agent framework for patient-level clinical question answering, featuring a Structured Data Querying Module (Interprets NL, generates SQL), an Unstructured Data Retrieval Module (Identifies relevant note chunks), and an Answer Synthesis Module (Integrates evidence, generates answer).
+- The system orchestrates specialized agents (Table Reviewer, SQL Writer, Answer Synthesizer) and tools to autonomously reason across heterogeneous structured and unstructured Electronic Health Record (EHR) data modalities.
+- Evaluated on real-world clinical data, the framework achieved 86% accuracy on physician-curated questions while maintaining clinically acceptable response times, demonstrating robust generalization across diverse database schemas.
+
+---
+
 
 [ROUTIR: Fast Serving of Retrieval Pipelines for Retrieval-Augmented Generation](http://arxiv.org/abs/2601.10644)
 
@@ -732,6 +751,70 @@ Chronological order.
 
 ---
 
+[CALM-IT: Generating Realistic Long-Form Motivational Interviewing Dialogues with Dual-Actor Conversational Dynamics Tracking](http://arxiv.org/abs/2601.10085)
+
+- CALM-IT: introduces a framework for generating and evaluating long-form Motivational Interviewing dialogues by explicitly modeling dual-actor conversational dynamics.
+- The system represents therapist-client interaction as a bidirectional state-space process, where THERAAGENT and CLIENTAGENT continuously update inferred alignment, mental states, and short-term goals.
+- By tracking conversational state outside the surface text, the framework achieves greater stability and effectiveness in long-horizon interactions compared to baseline LLM simulators.
+
+---
+
+[Deriving Character Logic from Storyline as Codified Decision Trees](http://arxiv.org/abs/2601.10080)
+
+- CDT (Codified Decision Trees): introduces a data-driven framework that induces executable, interpretable character behavioral profiles from large-scale narrative data as a tree of conditional rules.
+- The framework uses an LLM-based Rule Mining System and Text Embeddings to hypothesize and validate scene-action triggers, which recursively grow the CDT structure.
+- At inference, a novel scene traverses the CDT via a Discriminator, accumulating situation-specific grounding statements used by the LLM RP Policy for consistent action generation.
+
+---
+
+[Collective behavior based on agent-environment interactions](http://arxiv.org/abs/2601.10046)
+
+- AEFM (Agent-Environment Feedback Model): introduces a model of active particles interacting solely through a dynamic resource landscape, leading to emergent collective behaviors, utilizing Agent Dynamics (persistent random walk), Chemotaxis Mechanism (gradient alignment force), Resource Landscape (dynamic nutrient depot), Food Field (logistic regrowth, depletion), Population Dynamics (birth-death processes), and Continuum PDE Model (hydrodynamic equations).
+- The model extends previous resource-dependent frameworks by incorporating chemotaxis, allowing individuals to bias their persistent random walk toward nutrient-rich areas.
+- Collective organization phases, including disordered gas-like states, polar traveling waves, and nematic clusters, emerge from the interplay between chemotactic sensitivity and angular noise, without requiring direct agent-to-agent alignment forces.
+
+---
+
+[PaperScout: An Autonomous Agent for Academic Paper Search with Process-Aware Sequence-Level Policy Optimization](http://arxiv.org/abs/2601.10029)
+
+- PaperScout (Autonomous Agent for Academic Paper Search): reformulates academic paper search as a sequential decision-making process, dynamically controlling Search and Expand tools based on accumulated retrieval context.
+- The agent is trained using Proximal Sequence Policy Optimization (PSPO), a process-aware, sequence-level policy optimization method that aligns optimization granularity with multi-turn agent interactions to ensure stable training.
+- The system maintains a latent Paper Pool state, summarized into an Observation (dual-list view of expanded/unexpanded papers) to guide the LLM-based policy's iterative tool invocation.
+
+---
+
+[Structured Personality Control and Adaptation for LLM Agents](http://arxiv.org/abs/2601.10025)
+
+- JPAF (Jungian Personality Adaptation Framework): introduces a framework modeling LLM personality via Jungian psychological types, integrating dominant-auxiliary coordination, reinforcement-compensation, and reflection mechanisms.
+- The framework enables LLM agents to maintain coherent core personality traits while dynamically adapting to context and gradually evolving their underlying psychological structure.
+- JPAF uses BaseWeights to formalize the hierarchical influence of eight psychological types, allowing MBTI profiles to emerge dynamically and supporting flexible personality representation.
+
+---
+
+[PID-GUIDED PARTIAL ALIGNMENT FOR MULTIMODAL DECENTRALIZED FEDERATED LEARNING](http://arxiv.org/abs/2601.10012)
+
+- PARSE (PID-Guided Partial Alignment for Multimodal Decentralized Federated Learning): introduces a multimodal DFL framework that operationalizes Partial Information Decomposition (PID) via Feature Fission and P2P Knowledge Sharing with Partial Alignment.
+- The framework decomposes each agent's latent representation into redundant, unique, and synergistic slices, allowing agents to update only slices corresponding to available modalities, thereby preventing interference.
+- Partial alignment restricts P2P knowledge sharing to align-able slices over per-modality subgraphs, resolving uni-/multimodal gradient conflicts without requiring a central server or gradient surgery.
+
+---
+
+[ALD optimization using reasoning LLMs: Performance of AI agents based on reasoning language models on ALD process optimization tasks](http://arxiv.org/abs/2601.09980)
+
+- AI Agent for ALD optimization: introduces an autonomous system for Atomic Layer Deposition (ALD) process optimization, comprising a Logic component (Manages iterative flow), an AI component (Determines strategy/requests), a Reasoning Model (LLM) (Generates open response/structured output), an ALD Reactor (Simulated) (Provides GPC feedback), and Initial guess/background information (Starting point/prior knowledge).
+- The agent iteratively interacts with the simulated ALD reactor, using a two-step process where the reasoning LLM first generates an open response detailing its logic, which is then transformed into a structured output (JSON) for procedural execution.
+- Agents based on reasoning LLMs (like o3 and GPT5) successfully optimize ALD dose times, achieving performance comparable to human experts in terms of required experimental samples (10-15), although exhibiting significant run-to-run variability.
+
+---
+
+[A Control Theoretic Approach to Decentralized AI Economy Stabilization via Dynamic Buyback-and-Burn Mechanisms](http://arxiv.org/abs/2601.09961)
+
+- DCBM (Dynamic-Control Buyback Mechanism): introduces a formalized control-theoretic framework utilizing a PID Controller with Clamped Integration and a Solvency Actuator to regulate the decentralized AI token economy as a dynamical system.
+- Extensive agent-based simulations demonstrate that DCBM fundamentally outperforms static baselines, reducing token price volatility by approximately 66% and lowering operator churn from 19.5% to 8.1%.
+- By converting tokenomics from static rules into continuous, structurally constrained control loops, the mechanism ensures asymptotic solvency and enhanced resilience against adversarial game-theoretic attacks.
+
+---
+
 #### 14th January 2026
 
 
@@ -1031,6 +1114,38 @@ Chronological order.
 - GeoRA (Geometry-Aware Low-Rank Adaptation): introduces a low-rank adaptation framework tailored for RLVR, utilizing a Geometry-Constrained Matrix, Geometric Prior Construction, Spectral Prior Mask, Euclidean Prior Mask, Singular Value Decomposition, Low-Rank Adapters, Residual Matrix, and Hidden State Computation to mitigate spectral mismatch and enable stable training.
 - GeoRA extracts principal trainable directions via SVD within the geometry-constrained subspace ($W_{Geo}$) to initialize the Low-Rank Adapters ($A_{Geo}, B_{Geo}$), while the Residual Matrix ($W_{res}$) remains frozen as a structural anchor to preserve pre-trained knowledge.
 - By aligning the low-rank adaptation with RLVR's distinct optimization dynamics, the framework achieves state-of-the-art performance on mathematical benchmarks and exhibits superior robustness against catastrophic forgetting.
+
+---
+
+[From SERPs to Agents: A Platform for Comparative Studies of Information Interaction](http://arxiv.org/abs/2601.09937)
+
+- UXLab: introduces an open-source, modular system for comparative web-based user studies of information access systems, including RAG and autonomous agents, via its four-part architecture.
+- The system features an Experimenter Dashboard for no-code configuration of complex experimental designs, managing participant flow, counterbalancing, and standardized data logging.
+- The architecture uses Service Connectors to integrate diverse backends (traditional search, vector databases, LLMs) as interchangeable conditions without requiring frontend code changes.
+
+---
+
+[In-Browser Agents for Search Assistance](http://arxiv.org/abs/2601.09928)
+
+- IBSA (In-Browser, Behavior-Grounded Search Assistant): introduces a hybrid, fully client-side architecture implemented as a browser extension that combines an adaptive probabilistic model with an in-browser SLM reasoner for privacy-preserving search assistance.
+- The system uses Behavioral Observation to log user interactions locally in IndexedDB, feeding this data to the Dynamic User Model (a Multi-Layer Perceptron) for personalized policy adaptation via online learning executed by a Web Worker.
+- The Policy's predicted next action grounds the SLM Reasoner (running locally via WebLLM/WebGPU) to generate concise, context-aware suggestions displayed through the Suggestion UI, ensuring user data sovereignty.
+
+---
+
+[CAMELS CAN USE COMPUTERS TOO: SYSTEM-LEVEL SECURITY FOR COMPUTER USE AGENTS](http://arxiv.org/abs/2601.09923)
+
+- Dual-LLM Architecture with SSP: introduces a system-level security framework for Computer Use Agents (CUAs) that enforces Control Flow Integrity (CFI) by separating the Privileged Planner (P-LLM) from the Quarantined Perception model (Q-VLM).
+- The P-LLM generates a complete, branching execution graph (single-shot) following an Observe-Verify-Act (OVA) paradigm before observing any untrusted UI content.
+- The architecture mitigates instruction injection attacks but remains vulnerable to data-flow threats like Branch Steering, which is addressed using redundancy defenses such as DOM Consistency and Multi-Modal Consensus.
+
+---
+
+[Learning-Augmented Perfectly Secure Collaborative Matrix Multiplication](http://arxiv.org/abs/2601.09916)
+
+- LA-PSMM (Learning-Augmented Perfectly Secure Matrix Multiplication): introduces a perfectly secure matrix multiplication (PSMM) protocol that integrates RL-discovered tensor decomposition into local computations to enhance efficiency while maintaining information-theoretic privacy.
+- The PSMM core uses polynomial sharing with sparse masking and Beaver's triples to guarantee perfect privacy against threshold-bounded semi-honest colluding agents under explicit local storage constraints.
+- By replacing dense local block multiplication with a low-rank tensor decomposition, the scheme achieves scalable computational efficiency gains (up to 80%) as matrix dimensions increase without sacrificing security.
 
 ---
 
@@ -3106,3 +3221,6 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
+---
+
