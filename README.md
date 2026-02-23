@@ -55,15 +55,6 @@ Chronological order.
 ---
 
 
-#### 25th February 2026
-
-[From Labor to Collaboration: A Methodological Experiment Using AI Agents to Augment Research Perspectives in Taiwan's Humanities and Social Sciences](http://arxiv.org/abs/2602.17221)
-
-- Agentic Workflow (AI Agent-based collaborative research workflow): introduces a seven-stage modular research framework for humanities and social sciences, with specialized agents for literature collection, analysis, data exploration, statistical analysis, and academic writing, and a human-in-the-loop quality gate system.
-- The framework utilizes three operational modes—direct execution, iterative refinement, and human-led—to balance AI's execution speed with the irreplaceability of human contextual reasoning.
-- By integrating negative constraints and Git-based version control, the methodology ensures verifiability and mitigates LLM hallucination risks during complex academic tasks.
-
----
 
 #### 20th February 2026
 
@@ -336,6 +327,15 @@ The research demonstrates that AI agents are 9x more likely than humans to use t
 - It includes a comprehensive multimodal corpus of over 14,000 training instances with detailed reasoning traces to align models with verified multi-step tool interactions across diverse earth observation contexts.
 
 ---
+
+
+[From Labor to Collaboration: A Methodological Experiment Using AI Agents to Augment Research Perspectives in Taiwan's Humanities and Social Sciences](http://arxiv.org/abs/2602.17221)
+
+- Agentic Workflow (AI Agent-based collaborative research workflow): introduces a seven-stage modular research framework for humanities and social sciences, with specialized agents for literature collection, analysis, data exploration, statistical analysis, and academic writing, and a human-in-the-loop quality gate system.
+- The framework utilizes three operational modes—direct execution, iterative refinement, and human-led—to balance AI's execution speed with the irreplaceability of human contextual reasoning.
+- By integrating negative constraints and Git-based version control, the methodology ensures verifiability and mitigates LLM hallucination risks during complex academic tasks.
+
+
 
 [FAMOSE: A ReAct Approach to Automated Feature Discovery](http://arxiv.org/abs/2602.17641)
 
