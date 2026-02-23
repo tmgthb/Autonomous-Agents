@@ -685,7 +685,7 @@ Literature reviews on consciousness:
 
 ### Skills
 
-[Skill is defined](https://dictionary.cambridge.org/dictionary/english/skill): "an ability to do an activity or job well" and originating .
+Skill refers to ["an ability to do an activity or job well"](https://dictionary.cambridge.org/dictionary/english/skill), which ["requires special training and knowledge"](https://www.collinsdictionary.com/dictionary/english/skill). The term originates from Old Norse word: [skil](https://www.etymonline.com/word/skill), which refers to:  "distinction, ability to make out, discernment, adjustment".
 
 The concept of agent skills formalizes the dynamic extension of LLM capabilities, moving beyond monolithic models to modular, skill-equipped agents. [Xu and Yan (2026)](https://www.arxiv.org/abs/2602.12430v3) provide a comprehensive survey, outlining architectural foundations like the `SKILL.md` specification and progressive context loading, while distinguishing skills from general tool use. A large-scale data-driven analysis of publicly listed skills from a major marketplace by [Ling et al. (2026)](https://www.arxiv.org/abs/2602.08004v1) reveals trends in skill content, adoption patterns, and inherent risks, highlighting the concentration in software engineering and information retrieval. The framework of "agent skills" allows for integrating specialized functionality, akin to how humans acquire and deploy diverse expertise, a principle further explored by [Li et al. (2025)](https://www.arxiv.org/abs/2504.21433) who argue for multi-domain integration (NGENT) towards Artificial General Intelligence.
 
