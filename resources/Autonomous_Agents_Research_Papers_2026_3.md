@@ -2320,28 +2320,22 @@ Chronological order.
 
 [GRAPH-ENHANCED DEEP REINFORCEMENT LEARNING FOR MULTI-OBJECTIVE UNRELATED PARALLEL MACHINE SCHEDULING](http://arxiv.org/abs/2602.08052)
 
-- 
-PPO-GNN (Proximal Policy Optimization - Graph Neural Network): introduces a deep reinforcement learning framework for the Unrelated Parallel Machine Scheduling Problem (UPMSP) that integrates a heterogeneous GNN for state representation with a PPO agent to learn direct scheduling policies.
+- PPO-GNN (Proximal Policy Optimization - Graph Neural Network): introduces a deep reinforcement learning framework for the Unrelated Parallel Machine Scheduling Problem (UPMSP) that integrates a heterogeneous GNN for state representation with a PPO agent to learn direct scheduling policies.
 
-- 
-The architecture utilizes a GATv2-based GNN encoder to capture complex relationships between jobs, machines, and setup states, feeding into separate actor and critic MLP heads.
+- The architecture utilizes a GATv2-based GNN encoder to capture complex relationships between jobs, machines, and setup states, feeding into separate actor and critic MLP heads.
 
-- 
-The framework optimizes conflicting objectives of Total Weighted Tardiness and Total Setup Time through a multi-objective reward function and action masking for feasibility.
+- The framework optimizes conflicting objectives of Total Weighted Tardiness and Total Setup Time through a multi-objective reward function and action masking for feasibility.
 
 
 ---
 
 [Implicit Strategic Optimization: Rethinking Long-Horizon Decision-Making in Adversarial Poker Environments](http://arxiv.org/abs/2602.08041)
 
-- 
-ISO (Implicit Strategic Optimization): introduces a prediction-aware framework for long-horizon adversarial games that factorizes strategic complexity into forecasting latent contexts and learning regime-conditioned policies.
+- ISO (Implicit Strategic Optimization): introduces a prediction-aware framework for long-horizon adversarial games that factorizes strategic complexity into forecasting latent contexts and learning regime-conditioned policies.
 
-- 
-The system utilizes a Strategic Reward Model (SRM) to estimate long-term value and an iso-grpo learning rule to update context-specific policy instances based on predicted and realized strategic regimes.
+- The system utilizes a Strategic Reward Model (SRM) to estimate long-term value and an iso-grpo learning rule to update context-specific policy instances based on predicted and realized strategic regimes.
 
-- 
-Theoretical analysis proves sublinear contextual regret scaling with mispredictions, while experiments in poker and Pokémon demonstrate superior long-term returns compared to standard LLM and RL baselines.
+- Theoretical analysis proves sublinear contextual regret scaling with mispredictions, while experiments in poker and Pokémon demonstrate superior long-term returns compared to standard LLM and RL baselines.
 
 
 ---
@@ -9308,6 +9302,7 @@ How to cite my work?
 
 
 [Back to top](#topofthepage)
+
 
 
 
