@@ -6465,14 +6465,6 @@ Chronological order.
 
 ---
 
-[Xe gas bubble re-solution in U-10Mo nuclear fuel](http://arxiv.org/abs/2603.12491)
-
-- RustBCA / LAMMPS / TTM / SPHEREINCUBOID: introduces a physics-based computational framework to quantify Xe gas bubble re-solution rates in U-10Mo nuclear fuel by integrating binary collision approximation and molecular dynamics simulations.
-- The study demonstrates that homogeneous re-solution driven by nuclear stopping is the primary mechanism in U-10Mo, while heterogeneous re-solution via electronic stopping is improbable due to high thermal conductivity.
-- The research establishes an analytical model for re-solution rates as a function of bubble size, pressure, and fission rate, providing a robust foundation for higher-length-scale fuel performance modeling.
-
----
-
 [A GENERALIZED CLUSTER STRUCTURE ON GLn VIA BIRATIONAL POISSON MAPS](http://arxiv.org/abs/2603.12486)
 
 - GCn: introduces a regular complete generalized cluster structure on GLn compatible with a specific Poisson homogeneous bracket defined by Cremmer–Gervais solutions to the classical Yang–Baxter equation.
@@ -17751,14 +17743,6 @@ Chronological order.
 - Self-EvolveRec (Self-Evolving Recommender Systems): introduces an LLM-driven code evolution framework for recommender systems that includes planning-, coding-, and RAG-based research-agents to iteratively refine the recommendation pipeline.
 - The framework establishes a directional feedback loop by integrating a User Simulator for qualitative critiques and a Model Diagnosis Tool for quantitative internal verification.
 - The system employs a co-evolution strategy to dynamically synchronize the diagnosis tool's verification logic with architectural shifts and emerging user feedback patterns.
-
----
-
-[Two-photon-assisted collisions in ultracold gases of polar molecules II : Optical shielding of ultracold polar molecular collisions](http://arxiv.org/abs/2602.12069)
-
-- 2-OS (Two-Photon Optical Shielding): introduces a theoretical framework for stabilizing ultracold polar molecular gases by engineering long-range repulsive interactions through a two-photon Raman resonant transition, with ground-state molecules, laser fields, a Λ-type transition scheme, a five-level dynamical system, an entrance channel, repulsive channels, and dressed states.
-- The approach utilizes blue-detuned lasers to couple the attractive entrance channel to repulsive molecular potentials, effectively suppressing short-range inelastic and reactive losses.
-- Numerical simulations of 23Na39K collisions demonstrate that elastic scattering can be enhanced over loss processes by identifying quasi-resonant conditions and long-range potential wells induced by the laser fields.
 
 ---
 
