@@ -185,6 +185,9 @@ Negative
 - Spontaneously used to refer to "narrow", "close-to-human level" performance of systems, which lack [robust generalization](https://www.youtube.com/watch?v=yr0GiSgUvPU): widely applicable generalization at its core. 
 
 
+Demis Hassabis [definition of AGI:](https://x.com/realBigBrainAI/status/2028470471059247273/video/1):
+- "AGI is a system that can exhibit all the cognitive capabilities that humans can".
+
 
 <div id="superintelligence_definition">  
 
