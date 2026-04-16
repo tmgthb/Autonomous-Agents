@@ -55,33 +55,8 @@ Chronological order.
 ---
 
 
-#### 26th April 2026
 
-[Uncovering the role of ionic doping in hydroxyapatite: The building blocks of tooth enamel and bones](http://arxiv.org/abs/2604.13339)
 
-- MD framework: introduces a computational approach to investigate the effects of ion doping on the chemical and mechanical stability of hydroxyapatite (HAp) using Conventional MD, SMD, TI, and uniaxial compression test simulations.
-- The study identifies that surface atoms are the primary viable candidates for ion doping, with magnesium ions demonstrating the most significant impact on chemical stability.
-- The framework provides guidelines for designing HAp-based materials with tailored mechanical and chemical properties for dental applications like implant coatings and restorative materials.
-
----
-
-[Transferable Expertise for Autonomous Agents via Real-World Case-Based Learning](http://arxiv.org/abs/2604.12717)
-
-- CBL (Case-Based Learning): introduces a framework that enables LLMs to transform real-world task execution into reusable knowledge assets through a closed loop of experience summarization and memory consolidation.
-- The framework organizes acquired experience into four structured modules—Fixed Domain Knowledge (M_F), System Prompt Constraints (M_S), Skill Library (M_K), and Curriculum Organizer (M_C)—to support stable knowledge reuse and cross-agent transfer.
-- By treating each task as a learnable case, the system allows agents to evolve professional capabilities that outperform static prompting baselines, particularly in complex, multi-stage, and open-ended environments.
-
----
-
-#### 21st April 2026
-
-[Agentic Copyright, Data Scraping &amp; AI Governance: Toward a Coasean Bargain in the Era of Artificial Intelligence](http://arxiv.org/abs/2604.07546)
-
-- Supervised Agentic Governance framework: introduces a multi-layered approach to copyright management, utilizing Personal AI Agents, Legal-Institutional Baseline, Technical-Operational Layer, Meta-Governance Layer, Data Enclaves, LLM-driven interfaces, and AI-powered rights management tools to facilitate frictionless, opt-in licensing at scale.
-- The framework addresses agentic market failures—miscoordination, conflict, and collusion—by integrating legal oversight with technical protocols to ensure equitable value distribution in AI-mediated creative markets.
-- By leveraging AI-to-AI negotiation, the model aims to replace inefficient, monolithic licensing with granular, automated transactions that align with the underlying values of copyright law.
-
----
 
 #### 15th April 2026
 
@@ -568,7 +543,6 @@ Chronological order.
 
 ---
 
-
 [Drawing on Memory: Dual-Trace Encoding Improves Cross-Session Recall in LLM Agents](http://arxiv.org/abs/2604.12948)
 
 - Dual-Trace Memory Encoding: introduces a memory protocol for LLM agents that pairs factual records with concrete narrative scene traces to improve cross-session recall through elaborative generation.
@@ -576,6 +550,16 @@ Chronological order.
 - Experimental results on the LongMemEval-S benchmark demonstrate a 20.2 percentage point accuracy gain over fact-only baselines, specifically in temporally complex tasks, without increasing token costs.
 
 ---
+
+
+[Transferable Expertise for Autonomous Agents via Real-World Case-Based Learning](http://arxiv.org/abs/2604.12717)
+
+- CBL (Case-Based Learning): introduces a framework that enables LLMs to transform real-world task execution into reusable knowledge assets through a closed loop of experience summarization and memory consolidation.
+- The framework organizes acquired experience into four structured modules—Fixed Domain Knowledge (M_F), System Prompt Constraints (M_S), Skill Library (M_K), and Curriculum Organizer (M_C)—to support stable knowledge reuse and cross-agent transfer.
+- By treating each task as a learnable case, the system allows agents to evolve professional capabilities that outperform static prompting baselines, particularly in complex, multi-stage, and open-ended environments.
+
+---
+
 
 
 [Development, Evaluation, and Deployment of a Multi-Agent System for Thoracic Tumor Board](http://arxiv.org/abs/2604.12161)
