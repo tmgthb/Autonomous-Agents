@@ -43,6 +43,7 @@ Copyright (C) Teemu Maatta.
   - [Embodied agent](#embodiedagent_definition)
   - [AI agent](#aiagent_defintion)
   - [Autonomous agent (my definition)](#aga_definition)
+- [Harness](#harness)
 - [Memory](#memory)
 - [Perception](#perception)
 - [Reasoning](#reasoning)
@@ -377,6 +378,24 @@ Based on recent thoughts, I decided to update my prior definition to address the
 Autonomous agents (AA) is defined:
 
 **Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
+
+
+<div id="harness">  
+</div>
+
+
+---
+
+<div align="center">
+
+### Harness
+
+</div>
+
+[Dawson et al. 2025](https://arxiv.org/abs/2506.14682) defined Agent harness as: "The code surrounding the model, the tools it has access to, and the representation of its provided environment." 
+- Agent performance is improved either through better AI models or better design and implementation of the harness.
+- Different harnesses use tools and context in varying ways, often relying on same models, resulting different strategies and performance levels. 
+- Highlights the shift from measuring traditional static benchmarks with focus in model capability, to measuring real-world capabilities of models via agentich benchmarks.
 
 
 
