@@ -44,6 +44,7 @@ Copyright (C) Teemu Maatta.
   - [AI agent](#aiagent_defintion)
   - [Autonomous agent (my definition)](#aga_definition)
 - [Harness](#harness)
+- [Context](#context)
 - [Memory](#memory)
 - [Perception](#perception)
 - [Reasoning](#reasoning)
@@ -378,6 +379,21 @@ Based on recent thoughts, I decided to update my prior definition to address the
 Autonomous agents (AA) is defined:
 
 **Autonomous Agent (AA) perceives, reasons, plans, and interacts using language, memories, emotions, and tools within environments of infinite actors, actions, modalities, and events to complete novel objectives over time, driven by survival and replication, and capable of self-construction guided by an adaptable core.**
+
+
+<div id="context">  
+</div>
+
+
+---
+
+<div align="center">
+
+### Context
+
+</div>
+
+AI vs. Human context window (ratio)[https://arxiv.org/pdf/2603.26707v1] has increased from 0.04 (2017) to 1.1k (2026). 
 
 
 <div id="harness">  
