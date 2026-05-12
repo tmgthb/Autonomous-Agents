@@ -395,28 +395,8 @@ Autonomous agents (AA) is defined:
 
 AI vs. Human context window (ratio)[https://arxiv.org/pdf/2603.26707v1] has increased from 0.04 (2017) to 1.1k (2026). 
 
-
-
-Related Work: Autonomous Agents and Skill-Centric Context Engineering
-A defining characteristic of Autonomous Agents is their ability to acquire and leverage "skills"—composable, reusable modules that extend their capabilities without requiring retraining of the underlying LLM. This section reviews key advancements in agent skills, their acquisition, deployment, evaluation, and the associated security considerations.
-Agent Skills: Definitions and Architectures
-The concept of agent skills formalizes the dynamic extension of LLM capabilities, moving beyond monolithic models to modular, skill-equipped agents. Sapkota et al. (2025) provide a conceptual taxonomy distinguishing between simple AI agents and "Agentic AI," where the latter is defined by multi-agent collaboration and persistent memory. Architectural foundations are evolving toward "model-native" designs; Sang et al. (2025) survey this paradigm shift, where planning and tool use are internalized within model parameters via reinforcement learning rather than managed by external logic. Large-scale implementations such as Kimi K2, introduced by the Kimi Team (2025), demonstrate state-of-the-art agentic capabilities through a Mixture-of-Experts (MoE) architecture trained on large-scale agentic data synthesis pipelines.
-While general-purpose models like Kimi K2 dominate the landscape, Belcak et al. (2025) argue that Small Language Models (SLMs) are the future of agentic AI, providing a more economical and specialized alternative for repetitive task execution.
-Skill Acquisition and Self-Improvement
-A significant area of research focuses on how agents acquire and refine skills autonomously. Zhang et al. (2025) introduced Agentic Context Engineering (ACE), which allows models to evolve "playbooks" that organize and refine strategies through iterative reflection and curation. For web-based agents, Zheng et al. (2025) developed DeepResearcher, which utilizes reinforcement learning to help agents navigate noisy, unstructured web environments and formulate long-term research plans.
-Reinforcement Learning (RL) remains the algorithmic engine for skill acquisition. Zhang et al. (2025) propose a "Memory-as-Action" framework, where the agent learns to actively manage its working memory as a unified policy action. This mirrors the trajectory of earlier works like Voyager (Wang et al., 2023), which utilized an ever-growing skill library for open-ended exploration in Minecraft. In technical domains, Lin et al. (2025) introduced AwareCompiler, which uses a knowledge-driven adaptive approach to generate optimized compiler passes, effectively learning "skills" for software optimization.
-Programmatic and Tool-Use Skills
-Many successful agent skill implementations rely on programmatic representations. Schick et al. (2023) demonstrated with Toolformer that LLMs can teach themselves to use external APIs. This has evolved into domain-specific applications like CEDAR by Roy et al. (2026), which automates data science tasks by interleaving planning and Python code blocks. Similarly, Liang et al. (2022) showed that LLMs could generate robot policy code ("Code as Policies"), a concept further refined by Yu et al. (2023) for defining reward parameters in robotic control.
-General LLM Agent Architectures and Planning
-Beyond specific skills, robust planning and reasoning architectures are vital. The ReAct framework by Yao et al. (2022) pioneered the interleaving of reasoning traces with actions. Modern enhancements include Fu et al. (2025), who developed ContextNav for multimodal navigation, using an Operational Grammar Graph to support adaptive workflow planning. For complex question answering, Zhuang et al. (2025) proposed AgenticLU, which uses a "Chain-of-Clarifications" to refine query understanding and ground context in long-horizon tasks.
-Multi-Agent Systems and Collaboration
-The integration of skills within multi-agent systems enables complex task decomposition. Singh et al. (2025) survey Agentic RAG, highlighting how multi-agent collaboration can dynamically manage retrieval strategies. For long-document understanding, Liu et al. (2025) proposed SLEUTH, which orchestrates a retriever and four collaborative agents to synthesize distilled, evidence-dense context. Historical foundations in this area include Urbanek et al. (2019), who studied grounded dialogue and action in multi-agent fantasy environments.
-Embodied Agents and Robotic Learning
-The application of skills extends significantly to robotics and embodied AI. Ahn et al. (2022) proposed SayCan, grounding language in robotic affordances. This grounding in physical space is mirrored in digital environments by Zeng et al. (2024), who designed an agentic workflow for goal-directed city navigation. Large-scale efforts such as the Open X-Embodiment Collaboration (2023) (RT-X) have paved the way for generalist robot policies across diverse hardware.
-Benchmarking and Security Considerations
-Evaluating agent capabilities requires specialized benchmarks. Zheng et al. (2024) introduced ALI-Agent, a framework that uses autonomous agents to conduct adaptive alignment assessments, identifying "long-tail" risks where models might deviate from human values. Socio-technical aspects, including data governance and safety, are critically analyzed by Donta et al. (2025).
-The emergence of dynamically loaded skills introduces significant security challenges, particularly Prompt Injection. As skills often involve executable code, they create a new attack surface where malicious instructions can be hidden in skill files to bypass system guardrails. While Schick et al. (2023) focused on the utility of tools, recent research underscores the need for capability-based permission systems. The collaborative work on human-AI heuristics by Zheng et al. (2023) highlights the nuance required in shared responsibility to ensure ethical and secure human-AI co-creation.
-
+- Context adaption
+- Context collapse
 
 
 
