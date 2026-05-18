@@ -59,6 +59,210 @@ Chronological order.
 
 
 
+#### 12th May 2026
+
+
+[Executable Agentic Memory for GUI Agent](http://arxiv.org/abs/2605.12294)
+
+- EAM (Executable Agentic Memory): introduces a structured knowledge graph framework that shifts GUI planning from free-form generation to a robust retrieval-and-execution process.
+- The framework utilizes a sample-efficient memory construction pipeline and a value-guided MCTS to enable reliable, high-speed, and long-horizon GUI automation.
+- By treating the knowledge graph as an executable state machine, EAM bridges the reasoning gap for small models and significantly reduces token costs compared to cloud-based LLM agents.
+
+---
+
+
+[Covering Human Action Space for Computer Use: Data Synthesis and Benchmark](http://arxiv.org/abs/2605.12501)
+
+- CUActSpot: introduces a benchmark and data synthesis pipeline to address the scarcity of training data for complex, non-click-centric GUI interactions.
+- The framework utilizes a code-based rendering approach to generate 50M synthetic samples across five modalities, including GUI, text, table, canvas, and natural image.
+- The Phi-Ground-Any-4B model, trained on this synthetic corpus, demonstrates state-of-the-art performance among models under 32B parameters by leveraging variety scaling and cross-task generalization.
+
+---
+
+[SenseNova-U1: Unifying Multimodal Understanding and Generation with NEO-unify Architecture](http://arxiv.org/abs/2605.12500)
+
+- SenseNova-U1: introduces a native unified multimodal paradigm that eliminates pretrained vision encoders and VAEs by utilizing a near-lossless visual interface, a unified end-to-end modeling approach, and a native Mixture-of-Transformers (MoT) backbone.
+- The architecture employs a disaggregated inference strategy, utilizing LIGHTLLM for understanding and LIGHTX2V for generation, which exchange state through pinned shared memory to optimize resource allocation.
+- The framework demonstrates strong performance across multimodal understanding, reasoning, and generation tasks by synergizing these capabilities within a single monolithic architecture.
+
+---
+
+[From Web to Pixels: Bringing Agentic Search into Visual Perception](http://arxiv.org/abs/2605.12497)
+
+- Pixel-Searcher: introduces an agentic search-to-pixel workflow that resolves hidden target identities from external evidence and binds them to precise visual outputs.
+- The framework utilizes a multi-round search-reason loop to gather external knowledge, which is then used to guide visual grounding and segmentation tools.
+- The paper also introduces WebEyes, an object-anchored benchmark designed to evaluate models on knowledge-intensive queries requiring external evidence for grounded visual perception.
+
+---
+
+[LongMemEval-V2: Evaluating Long-Term Agent Memory Toward Experienced Colleagues](http://arxiv.org/abs/2605.12493)
+
+- AgentRunbook: introduces a benchmark and two memory systems, AgentRunbook-R and AgentRunbook-C, to evaluate how LLM agents internalize environment-specific experience from long-horizon trajectories.
+- AgentRunbook-R utilizes a structured RAG pipeline with dedicated knowledge pools, while AgentRunbook-C employs a coding agent to treat memory as a file management problem for efficient evidence retrieval.
+- The LME-V2 benchmark scales to over 100 million tokens, providing a challenging testbed for evaluating memory abilities including static state recall, dynamic state tracking, workflow knowledge, environment gotchas, and premise awareness.
+
+---
+
+[ToolCUA: Towards Optimal GUI-Tool Path Orchestration for Computer Use Agents](http://arxiv.org/abs/2605.12481)
+
+- ToolCUA: introduces a staged training paradigm to learn optimal GUI-Tool path selection for computer use agents by synthesizing interleaved trajectories and optimizing trajectory-level decisions.
+- The framework utilizes an Interleaved GUI-Tool Trajectory Scaling Pipeline to repurpose static GUI data into hybrid-action training sets, followed by Tool-Bootstrapped GUI RFT and Online Agentic RL to refine switching policies.
+- A Tool-Efficient Path Reward, comprising tool appropriateness and path efficiency terms, drives the agent to intelligently select between atomic GUI actions and high-level tool calls for improved task execution.
+
+---
+
+[KV-Fold: One-Step KV-Cache Recurrence for Long-Context Inference](http://arxiv.org/abs/2605.12471)
+
+- KV-Fold: introduces a training-free inference protocol that treats the KV-cache as an accumulator in a left fold over sequence chunks to enable long-context inference.
+- The framework processes long sequences as a chain of forward passes, where each chunk attends to the accumulated KV-cache from previous segments as a prefix.
+- Empirical results demonstrate that this recurrence is stable, exhibiting a brief initial drift that saturates into a plateau, while maintaining exact long-range retrieval capabilities.
+
+---
+
+[Multi-Stream LLMs: Unblocking Language Models with Parallel Streams of Thoughts, Inputs and Outputs](http://arxiv.org/abs/2605.12460)
+
+- Multi-Stream LLM: introduces a parallel generation architecture that replaces sequential message-based processing with multiple, interdependent token streams to enable simultaneous reading, thinking, and acting.
+- The framework utilizes stream-aware position encoding and a cross-stream causal attention mask to maintain global causal consistency while allowing parallel token generation across distinct roles.
+- This approach significantly reduces latency, improves robustness against prompt injection by enforcing structural privilege hierarchies, and enhances monitorability through dedicated internal thinking streams.
+
+---
+
+[LychSim: A Controllable and Interactive Simulation Framework for Vision Research](http://arxiv.org/abs/2605.12449)
+
+- LychSim: introduces a controllable and interactive simulation framework built upon Unreal Engine 5, featuring a streamlined Python API, a procedural data pipeline, and native Model Context Protocol (MCP) integration for agentic LLMs.
+- The framework provides comprehensive 2D and 3D ground truths, including part-level segmentation and occlusion metrics, to support robust vision research and closed-loop optimization.
+- LychSim enables advanced applications such as RL-based adversarial examiners for model robustness testing and interactive, language-driven scene layout generation using agentic LLMs.
+
+---
+
+[Predicting Decisions of AI Agents from Limited Interaction through Text-Tabular Modeling](http://arxiv.org/abs/2605.12411)
+
+- Target-adaptive text-tabular prediction framework: introduces a method for predicting the decisions of unfamiliar language-based agents by combining structured game-state features, dialogue representations, and decision-oriented hidden-state features from a frozen LLM-as-Observer.
+- The framework utilizes a tabular predictor that conditions on labeled source-population data and a target agent's few observed games to adapt to new counterparts without requiring fine-tuning or access to internal agent logic.
+- Experimental results demonstrate that extracting hidden-state representations from a frozen LLM outperforms direct LLM-as-Predictor prompting, particularly in capturing decision-relevant signals for bargaining and negotiation tasks.
+
+---
+
+[Events as Triggers for Behavioral Diversity in Multi-Agent Reinforcement Learning](http://arxiv.org/abs/2605.12388)
+
+- NMD: introduces a framework that decouples agent identity from behavior by using an event-driven hypernetwork to generate LoRA modules over a shared policy backbone, enabling dynamic behavioral adaptation.
+- The framework utilizes NMD as a formal distance metric to quantify and constrain behavioral diversity on a continuous manifold, independent of specific agent identities.
+- By aligning reward maximization with diversity constraints through gradient projection, the architecture ensures stable, zero-shot generalization across varying agent counts, capabilities, and event sequences.
+
+---
+
+[ProfiliTable: Profiling-Driven Tabular Data Processing via Agentic Workflows](http://arxiv.org/abs/2605.12376)
+
+- ProfiliTable: introduces an autonomous multi-agent framework that utilizes dynamic profiling to iteratively refine tabular data processing workflows through interactive exploration, knowledge-augmented synthesis, and feedback-driven refinement.
+- The framework integrates specialized LLMs including Interpreter-, Profiler-, Decompositer-, Generator-, Evaluator-, Summarizer- and Finalizer-agents to ensure robust, governance-compliant table transformations.
+- By employing a closed-loop, self-improving pipeline, ProfiliTable achieves state-of-the-art performance and 100% task-wise runnable rates in complex multi-step tabular data processing scenarios.
+
+---
+
+[Agent-Based Post-Hoc Correction of Agricultural Yield Forecasts](http://arxiv.org/abs/2605.12375)
+
+- Structured LLM Agent Framework: introduces a post-hoc correction layer that uses an LLM-based agent to refine agricultural yield forecasts from base models by applying domain-specific reasoning and tool-grounded constraints.
+- The framework utilizes a ReAct loop to iteratively diagnose and correct systematic errors in time series predictions without requiring additional data or model retraining.
+- By encoding agricultural knowledge into a fixed toolset, the agent improves forecast accuracy across diverse datasets and base models, with phase detection identified as the critical component for reliable performance.
+
+---
+
+[Classifier Context Rot: Monitor Performance Degrades with Context Length](http://arxiv.org/abs/2605.12366)
+
+- Classifier Context Rot: introduces a study on how LLM-based monitors suffer from performance degradation when evaluating long agent transcripts for dangerous actions.
+- The research demonstrates that monitor recall significantly decreases as context length increases, particularly when dangerous actions are preceded by large amounts of benign content or buried in the middle of long transcripts.
+- The authors evaluate mitigations including increased reasoning tokens, incremental monitoring, and reminder prompting, finding that while these improve detection, they do not fully resolve the underlying long-context degradation.
+
+---
+
+[Attacks and Mitigations for Distributed Governance of Agentic AI under Byzantine Adversaries](http://arxiv.org/abs/2605.12364)
+
+- SAGA (Secure Architecture for Governing AI-agentic systems): introduces a governance framework for agentic AI that mitigates risks from compromised infrastructure components using Byzantine-resilient, monitoring, and auditing mechanisms.
+- The framework addresses vulnerabilities in a centralized Provider by proposing SAGA-BFT for Byzantine-resilient consensus, SAGA-MON for server-side log verification, and SAGA-AUD for client-side proactive auditing.
+- SAGA-HYB combines these approaches to provide a scalable, heterogeneous architecture that balances security guarantees with performance requirements across different agent workloads.
+
+---
+
+[δ-mem: Efficient Online Memory for Large Language Models](http://arxiv.org/abs/2605.12357)
+
+- δ-mem: introduces a lightweight memory mechanism that augments a frozen LLM backbone with a compact online state of associative memory to store and reuse historical information.
+- The framework compresses past information into a fixed-size state matrix updated via delta-rule learning, which then generates low-rank corrections to the backbone's attention computation.
+- δ-mem supports multiple writing granularities—token-level, sequence-level, and multi-state—to balance memory retention and interference reduction without requiring full fine-tuning or explicit context extension.
+
+---
+
+[LISA: Cognitive Arbitration for Signal-Free Autonomous Intersection Management](http://arxiv.org/abs/2605.12321)
+
+- LISA: introduces a signal-free intersection management framework that uses an LLM to arbitrate vehicle right-of-way based on intent, priority, and queue pressure.
+- The architecture separates high-level semantic arbitration from low-level kinematic execution, utilizing a Memoized Arbitration Table to mitigate LLM inference latency.
+- LISA employs a deterministic safety watchdog and a kinematic executor to ensure reliable, real-time speed advisories without requiring signal infrastructure.
+
+---
+
+[Transferable Delay-Aware Reinforcement Learning via Implicit Causal Graph Modeling](http://arxiv.org/abs/2605.12312)
+
+- CausalDreamer: introduces a transferable reinforcement learning method that utilizes implicit causal graph modeling to address random delays in environmental feedback.
+- The framework employs a field-node encoder to structure high-dimensional observations and a message-passing mechanism to characterize dynamic causal dependencies among latent states.
+- By integrating imagination-based planning with structured dynamics representations, the method enables robust cross-task knowledge transfer and rapid adaptation in environments with uncertain temporal delays.
+
+---
+
+[PriorZero: Bridging Language Priors and World Models for Decision Making](http://arxiv.org/abs/2605.12289)
+
+- PriorZero: introduces a decoupled rollout-training framework that integrates LLM semantic priors into world-model-based planning to resolve the prior-dynamics mismatch in long-horizon RL tasks.
+- The framework utilizes Root-Prior Injection to fuse LLM priors at the MCTS root node and Alternating Reinforcement Fine-Tuning to leverage world-model value estimates for stable LLM adaptation.
+- By decoupling LLM-derived priors from world-model dynamics, the architecture enables closed-loop mutual improvement while avoiding granularity mismatches and credit assignment failures.
+
+---
+
+[Iterative Audit Convergence in LLM-Managed Multi-Agent Systems: A Case Study in Prompt Engineering Quality Assurance](http://arxiv.org/abs/2605.12280)
+
+- AEGIS: introduces an iterative, agent-driven auditing framework for prompt specifications in multi-agent LLM systems, utilizing Claude sub-agents to perform structured walkthroughs against a checklist to ensure consistency across interdependent configuration files.
+- The framework employs a nine-round iterative process to identify and remediate specification defects, including version drift, stale references, and cross-lane schema mismatches, which are difficult to detect via single-file review.
+- The study demonstrates that iterative auditing exhibits non-monotonic convergence due to cascading edits and audit-scope expansion, highlighting the necessity of multi-file visibility for maintaining behavioral contracts in LLM-orchestrated pipelines.
+
+---
+
+[BatchBench: Toward a Workload-Aware Benchmark for Autoscaling Policies in Big Data Batch Processing](http://arxiv.org/abs/2605.12272)
+
+- BatchBench: introduces a standardized benchmarking framework designed to evaluate rule-based, learned, and agentic autoscaling policies for big data batch processing on equal experimental footing.
+- The framework incorporates a workload generator based on public cluster traces, a uniform policy interface, and a five-axis evaluation harness that accounts for LLM inference costs.
+- BatchBench aims to test hypotheses regarding default over-provisioning, generalization gaps in learned policies, LLM agent variance, and the potential for hybrid agent architectures to outperform pure paradigms.
+
+---
+
+[PRISM: Pareto-Efficient Retrieval over Intent-Aware Structured Memory for Long-Horizon Agents](http://arxiv.org/abs/2605.12260)
+
+- PRISM: introduces a training-free retrieval-side framework that treats long-horizon memory as a joint retrieval-and-compression problem over a graph-structured memory.
+- The architecture integrates N4 Adaptive Intent Routing, N2 Query-Sensitive Edge Cost, N1 Hierarchical Bundle Search, and N3 Evidence Compression to optimize retrieval accuracy and context cost for LLMs.
+- PRISM achieves high accuracy at low context cost by surfacing relevant evidence through typed relation paths and content-based LLM re-ranking.
+
+---
+
+[Social Welfare under Heterogeneous Time Preferences](http://arxiv.org/abs/2605.12251)
+
+- Asymmetrically-Discounted MDPs: introduces a formal model for synthesizing strategies that maximize utilitarian social welfare in stochastic games where multiple principals possess heterogeneous time preferences.
+- The framework utilizes a two-phase approach, combining a long-term asymptotic strategy with a finite-memory deviation phase to reconcile conflicting discount factors across principals.
+- The research demonstrates that while optimal strategy synthesis is NP-hard for general positional strategies, it becomes polynomial-time solvable for finite-memory counting strategies under reasonable discount factor spacing assumptions.
+
+---
+
+[No Action Without a NOD: A Heterogeneous Multi-Agent Architecture for Reliable Service Agents](http://arxiv.org/abs/2605.12240)
+
+- NOD (Navigator-Operator-Director): introduces a heterogeneous multi-agent architecture that improves service agent reliability by externalizing task state into a structured Global State and implementing selective oversight for critical actions.
+- The architecture separates functions into a Navigator for explicit state tracking, an Operator for routine interaction, and a Director for verifying critical actions against domain policies.
+- By utilizing a structured control flow with REVISE and ABORT mechanisms, the framework mitigates error propagation and unsafe behavior in long-horizon tasks.
+
+---
+
+[Harness Engineering as Categorical Architecture](http://arxiv.org/abs/2605.12239)
+
+- ArchAgents: introduces a formal categorical theory for LLM agent harness engineering by mapping externalization pillars to an Architecture triple (G, Know, Φ).
+- The framework utilizes CompilerFunctors to ensure structural guarantees are preserved as replayable certificates when compiling harnesses across different orchestration systems.
+- The approach enables model-parametric agent design where structural integrity is maintained independently of the specific LLM used for execution.
+
+---
+
 
 
 #### 11th May 2026
