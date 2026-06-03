@@ -1301,21 +1301,7 @@ Chronological order.
 [Hypothesis Generation and Inductive Inference in Children and Language Models](http://arxiv.org/abs/2605.24528)
 
 - SoC and LLM-PS: introduces a computational framework for studying inductive inference in children and LLMs using the Box Task, which models hypothesis generation and belief updating under uncertainty.
-- <arxiv_paper_date>23rd May 2026</arxiv_paper_date>
-<arxiv_paper_name>Hypothesis Generation and Inductive Inference in Children and Language Models</arxiv_paper_name>
-<arxiv_paper_id>2605.24528</arxiv_paper_id>
-<arxiv_paper_link>http://arxiv.org/abs/2605.24528</arxiv_paper_link>
-<arxiv_paper_name>SoC (Sets of Constraints) and LLM-PS (LLM-based Program Synthesis):</arxiv_paper_name>
-
-<arxiv_paper_framework_1>SoC/LLM-PS/SMC-S (Sequential Monte Carlo Samplers)/Online Generator/LLM-backend/ReAct baseline</arxiv_paper_framework_1>
-
-<arxiv_paper_framework_2>SoC (cognitive model of constraints)/LLM-PS (program synthesis inference agent)/SMC-S (probabilistic inference framework)/Online Generator (generative hypothesis proposal mechanism)/LLM-backend (code generation engine)/ReAct baseline (unstructured sequential reasoning baseline)</arxiv_paper_framework_2>
-
-<arxiv_paper_description_1>SoC and LLM-PS: introduces a computational framework for studying inductive inference in children and LLMs using the Box Task, which models hypothesis generation and belief updating under uncertainty.</arxiv_paper_description_1>
-
-<arxiv_paper_description_2>The framework utilizes SoC (cognitive model of constraints) and LLM-PS (LLM-based program synthesis) to compare human and machine performance, incorporating SMC-S (probabilistic inference framework) and an Online Generator (generative hypothesis proposal mechanism) to handle unbounded hypothesis spaces.</arxiv_paper_framework_2>
-
-<arxiv_paper_description_3>Experimental results demonstrate that while LLMs replicate human performance patterns in uncertain environments, they exhibit distinct inductive biases, such as over-compliance with instructions and systematic information-seeking behavior compared to children.</arxiv_paper_description_3>
+- The framework utilizes SoC (cognitive model of constraints) and LLM-PS (LLM-based program synthesis) to compare human and machine performance, incorporating SMC-S (probabilistic inference framework) and an Online Generator (generative hypothesis proposal mechanism) to handle unbounded hypothesis spaces.
 - Experimental results demonstrate that while LLMs replicate human performance patterns in uncertain environments, they exhibit distinct inductive biases, such as over-compliance with instructions and systematic information-seeking behavior compared to children.
 
 ---
