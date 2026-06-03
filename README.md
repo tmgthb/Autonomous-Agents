@@ -2036,23 +2036,8 @@ Chronological order.
 ---
 
 [Do LLMs Favor Their Providers? Measuring Vertical Integration Bias in Code Generation](http://arxiv.org/abs/2605.28515)
-
 - VIBENCH: introduces a benchmark to measure Vertical Integration Bias (VIB) in LLM-generated code by comparing provider-affiliated models against non-affiliated controls across 20 software-integration scenarios.
-- <arxiv_paper_date>27th May 2026</arxiv_paper_date>
-<arxiv_paper_name>Do LLMs Favor Their Providers? Measuring Vertical Integration Bias in Code Generation</arxiv_paper_name>
-<arxiv_paper_id>2605.28515</arxiv_paper_id>
-<arxiv_paper_link>http://arxiv.org/abs/2605.28515</arxiv_paper_link>
-<arxiv_paper_name>VIBENCH (Vertical Integration Bias Benchmark):</arxiv_paper_name>
-
-<arxiv_paper_framework_1>VIBENCH/LiteLLM/OpenCode/OpenAI Agents SDK/Attribution Heuristics/VIB Estimator</arxiv_paper_framework_1>
-
-<arxiv_paper_framework_2>VIBENCH (benchmark for measuring provider bias)/LiteLLM (routing interface for provider APIs)/OpenCode (provider-independent agent runtime)/OpenAI Agents SDK (alternative agent runtime)/Attribution Heuristics (keyword-based detection of provider services)/VIB Estimator (statistical method for calculating bias scores)</arxiv_paper_framework_2>
-
-<arxiv_paper_description_1>VIBENCH: introduces a benchmark to measure Vertical Integration Bias (VIB) in LLM-generated code by comparing provider-affiliated models against non-affiliated controls across 20 software-integration scenarios.</arxiv_paper_description_1>
-
-<arxiv_paper_description_2>The framework utilizes LiteLLM for standardized API access and OpenCode or OpenAI Agents SDK as agentic runtimes to evaluate how provider-affiliated LLMs favor their own ecosystems in direct and agentic workflows.</arxiv_paper_description_1>
-
-<arxiv_paper_description_3>The research demonstrates that VIB is present in direct code generation, significantly amplified in agentic workflows, and can persist into downstream files, indicating a potential path toward vendor lock-in.</arxiv_paper_description_3>
+- The framework utilizes LiteLLM for standardized API access and OpenCode or OpenAI Agents SDK as agentic runtimes to evaluate how provider-affiliated LLMs favor their own ecosystems in direct and agentic workflows.
 - The research demonstrates that VIB is present in direct code generation, significantly amplified in agentic workflows, and can persist into downstream files, indicating a potential path toward vendor lock-in.
 
 ---
