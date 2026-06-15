@@ -2525,6 +2525,14 @@ Chronological order.
 
 ---
 
+[PerceptUI: LLM Agents as Human-Aligned Synthetic Users for UI/UX Evaluation](http://arxiv.org/abs/2606.05697)
+
+- PerceptUI: introduces a framework for persona-conditioned UI/UX evaluation that uses LLM agents as synthetic users to predict how a specific user would answer interface-related questions.
+- The framework is trained in two stages, combining contrastive reflection fine-tuning that distills teacher-generated rationales with a reflective prompt-evolution step drawn from the model's own failure traces.
+- Across multiple domains and datasets, the approach reaches human-level realism, generalizes to unseen questions and personas, and yields population-level response distributions.
+
+---
+
 #### 2nd June 2026
 
 
